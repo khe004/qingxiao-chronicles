@@ -1,11 +1,20 @@
 import {Battle,CLASSES,COMMON,ELEMENTS,ELEMENT_NAMES,total,payment} from './engine.mjs';
+import {TENDENCIES,SPEEDS,chooseAction,chooseReaction,describeAutoChoice} from './auto.mjs';
 const $=id=>document.getElementById(id);
-let battle=new Battle('fire'),generation=0,lastHit=0,lastLog=0,running=false;
+let battle=new Battle('fire'),generation=0,lastHit=0,lastLog=0,combatTimer=null;
+const automation={enabled:false,tendency:'balanced',speed:'normal'};
 const guide=$('guide-dialog'),reaction=$('reaction-dialog');
 function costHtml(cost){return Object.entries(cost).map(([k,n])=>`<span class="cost-element" style="--element:var(--${k})">${n} ${k==='any'?'任意':ELEMENT_NAMES[k]}</span>`).join('<span class="cost-separator">·</span>')||'<span>无需灵气</span>';}
 function fighterHtml(a,player){const c=CLASSES[a.key];let states=[];if(a.intent)states.push(`<span class="status-chip intent" title="每层剑意为重剑增加8基础伤害">剑意 ${a.intent}</span>`);if(a.seed)states.push(`<span class="status-chip seed" title="每层灵种使焚炎术增伤20%">灵种 ${a.seed}</span>`);if(a.burn)states.push(`<span class="status-chip burn" title="每层每次灼烧结算扣4气血，剩余${a.burnTurns}次结算">灼烧 ${a.burn} · ${a.burnTurns}回合</span>`);if(a.broken)states.push('<span class="status-chip" title="下一次重剑伤害提高25%">破绽</span>');if(a.charge)states.push(`<span class="status-chip charge">蓄势 · ${a.charge.name}</span>`);return `<div class="fighter-heading"><span class="side-tag">${player?'你':'对手'}</span><h2>${player?'无名道友':c.person}</h2><span class="fighter-sect">${c.sect}</span></div><div class="hp-line"><span>${c.name} · 气血</span><b>${a.hp} <span>/ ${a.maxHp}</span></b></div><div class="hp-track" role="meter" aria-label="${player?'你的':'对手'}气血" aria-valuemin="0" aria-valuemax="${a.maxHp}" aria-valuenow="${a.hp}"><div class="hp-fill" style="--hp:${a.hp/a.maxHp*100}%"></div></div><div class="shield-line">${a.shield?`护盾 ${a.shield}`:'护盾 —'} <span>· ${a.reaction?'应对可用':'应对已用'}</span></div><div class="statuses">${states.join('')}</div>`;}
 function render(){
   const b=battle,p=b.player,e=b.enemy,c=CLASSES[p.key];
+  if(b.result)automation.enabled=false;
+  $('auto-toggle').textContent=automation.enabled?'暂停自动 · 转手动':'开启自动战斗';
+  $('auto-toggle').setAttribute('aria-pressed',String(automation.enabled));
+  $('auto-toggle').disabled=!!b.result;
+  $('auto-tendency').value=automation.tendency;$('auto-speed').value=automation.speed;
+  $('auto-status').textContent=b.result?'本场斗法已结束':automation.enabled?`${TENDENCIES[automation.tendency].name} · 自动出招与应对中`:'可随时暂停，切回手动出招';
+  $('auto-description').textContent=`${TENDENCIES[automation.tendency].description}选择理由会写入斗法纪要。`;
   $('player-info').innerHTML=fighterHtml(p,true);$('enemy-info').innerHTML=fighterHtml(e,false);
   document.querySelector('.arena').dataset.distance=b.distance;
   $('round-label').textContent=`第 ${String(b.round).padStart(2,'0')} 回合`;
@@ -36,22 +45,82 @@ function render(){
   $('log-round').title='本场完整记录，重新论道或切换流派时清空';
   if(b.lastHit&&b.lastHit.id!==lastHit){lastHit=b.lastHit.id;const f=$('floating-hit');f.textContent=b.lastHit.damage?`−${b.lastHit.damage}`:'护盾抵御';f.className=`floating-hit ${b.lastHit.target}`;void f.offsetWidth;f.classList.add('animate');const art=$(b.lastHit.target==='player'?'player-art':'enemy-art');art.classList.remove('hit');void art.offsetWidth;art.classList.add('hit');}
   if(b.result){$('result-overlay').hidden=false;$('result-overlay').innerHTML=`<span class="small-label">第 ${b.round} 回合 · 切磋结束</span><div class="result-mark">${b.result==='win'?'论道告捷':'胜负有时'}</div><p>${b.result==='win'?'对手拱手认输，你的道法更进一步。':'此番惜败。观其招式，调整灵气，再论一场。'}</p><div class="result-buttons"><button data-reset="same">再战一场</button><button data-reset="other">换个流派</button></div>`;}else $('result-overlay').hidden=true;
-  if(b.phase==='reaction')showReaction();else if(reaction.open)reaction.close();
+  if(automation.enabled){document.querySelectorAll('[data-skill], #end-turn, #cancel-charge').forEach(el=>el.disabled=true);}
+  if(b.phase==='reaction'&&!automation.enabled)showReaction();else if(reaction.open)reaction.close();
 }
 function showReaction(){const p=battle.player,c=CLASSES[p.key],s=battle.pending.s;const damage=Math.round((battle.pending.raw+(s.id==='inferno'?p.burn*8:0))*100/(100+c[(battle.enemy.key==='sword'&&s.id!=='expose')||s.id==='basic'?'physical':'magical']));$('reaction-title').textContent=`${CLASSES[battle.enemy.key].person} · ${s.name}`;$('reaction-description').textContent=`这一招预计造成 ${damage} 伤害（护盾吸收前）。选择应对，或保留机会。`;$('reaction-options').innerHTML=`<button class="reaction-choice" data-reaction="shield" ${p.qi[c.reactionElement]<1?'disabled':''}><span>${c.reaction}<small>获得 26 护盾</small></span><span style="color:var(--${c.reactionElement})">1 ${ELEMENT_NAMES[c.reactionElement]}</span></button><button class="reaction-choice" data-reaction="evade" ${!payment(p.qi,{any:2})?'disabled':''}><span>闪身避让<small>本次减伤 50%，距离拉开一档</small></span><span>2 任意</span></button><button class="reaction-choice" data-reaction="none"><span>承受此招<small>保留本回合应对机会</small></span><span>无消耗</span></button>`;if(!reaction.open)reaction.showModal();}
 function toast(text){$('toast').textContent=text;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2500);}
-function reset(key=battle.player.key){generation++;running=false;if(reaction.open)reaction.close();battle=new Battle(key);lastLog=0;lastHit=0;$('battle-log').replaceChildren();$('player-art').src=`assets/${key}.png`;$('player-art').alt=CLASSES[key].name;const enemy=key==='fire'?'sword':'fire';$('enemy-art').src=`assets/${enemy}.png`;$('enemy-art').alt=CLASSES[enemy].name;$('player-art').style.transform=key==='sword'?'scaleX(-1)':'';$('enemy-art').style.transform=enemy==='fire'?'scaleX(-1)':'';document.querySelectorAll('[data-class]').forEach(el=>{el.classList.toggle('active',el.dataset.class===key);el.setAttribute('aria-pressed',String(el.dataset.class===key));});render();}
-async function runEnemy(){if(running)return;running=true;const token=generation;while(token===generation&&battle.phase==='enemy'){await new Promise(resolve=>setTimeout(resolve,650));if(token!==generation)break;const continued=battle.enemyStep();render();if(!continued)break;}if(token===generation)running=false;}
-function perform(id){const r=battle.act(battle.player,id);if(!r.ok){toast(r.error);return r;}render();return r;}
-document.addEventListener('click',event=>{const target=event.target.closest('button');if(!target)return;if(target.dataset.skill)perform(target.dataset.skill);if(target.dataset.class){if(target.dataset.class!==battle.player.key)reset(target.dataset.class);}if(target.dataset.reaction){const r=battle.react(target.dataset.reaction);if(!r.ok)toast(r.error);render();runEnemy();}if(target.dataset.reset)reset(target.dataset.reset==='other'?(battle.player.key==='fire'?'sword':'fire'):battle.player.key);if(target.id==='cancel-charge'){battle.cancelCharge();render();}});
-$('end-turn').addEventListener('click',()=>{const r=battle.endTurn();if(!r.ok)return;render();runEnemy();});
-$('restart-button').addEventListener('click',()=>reset());$('guide-button').addEventListener('click',()=>guide.showModal());$('close-guide').addEventListener('click',()=>guide.close());$('guide-done').addEventListener('click',()=>guide.close());reaction.addEventListener('cancel',e=>{e.preventDefault();battle.react('none');render();runEnemy();});
-guide.addEventListener('click',e=>{if(e.target===guide){const r=guide.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)guide.close();}});
+function reset(key=battle.player.key){
+  generation++;clearTimeout(combatTimer);combatTimer=null;automation.enabled=false;
+  $('floating-hit').className='floating-hit';$('floating-hit').textContent='';
+  $('player-art').classList.remove('hit');$('enemy-art').classList.remove('hit');
+  if(reaction.open)reaction.close();battle=new Battle(key);lastLog=0;lastHit=0;
+  $('battle-log').replaceChildren();$('player-art').src=`assets/${key}.png`;$('player-art').alt=CLASSES[key].name;
+  const enemy=key==='fire'?'sword':'fire';$('enemy-art').src=`assets/${enemy}.png`;$('enemy-art').alt=CLASSES[enemy].name;
+  $('player-art').style.transform=key==='sword'?'scaleX(-1)':'';$('enemy-art').style.transform=enemy==='fire'?'scaleX(-1)':'';
+  document.querySelectorAll('[data-class]').forEach(el=>{el.classList.toggle('active',el.dataset.class===key);el.setAttribute('aria-pressed',String(el.dataset.class===key));});render();
+}
+function scheduleCombat(){
+  clearTimeout(combatTimer);combatTimer=null;
+  if(battle.result||guide.open)return;
+  const phase=battle.phase;
+  if(phase!=='enemy'&&!automation.enabled)return;
+  const token=generation;
+  combatTimer=setTimeout(()=>{
+    combatTimer=null;
+    if(token!==generation||battle.phase!==phase||battle.result||guide.open)return;
+    try{
+      if(phase==='enemy')battle.enemyStep();
+      else if(automation.enabled&&phase==='reaction'){
+        const choice=chooseReaction(battle,automation.tendency);
+        if(choice){battle.log(`【自动·${TENDENCIES[automation.tendency].name}】应对：${choice.reason}`,'decision');const r=battle.react(choice.response);if(!r.ok)throw Error(r.error);}
+      }else if(automation.enabled&&phase==='player'){
+        const choice=chooseAction(battle,automation.tendency);
+        if(choice){battle.log(describeAutoChoice(battle,choice,automation.tendency),'decision');const r=choice.action==='end'?battle.endTurn():battle.act(battle.player,choice.skillId);if(!r.ok)throw Error(r.error);}
+      }
+    }catch(error){automation.enabled=false;battle.log(`自动斗法暂停：${error.message}，可继续手动出招。`,'decision');}
+    render();scheduleCombat();
+  },automation.enabled?SPEEDS[automation.speed].delay:650);
+}
+function configureAutomation({enabled=automation.enabled,tendency=automation.tendency,speed=automation.speed}={}){
+  if(typeof enabled!=='boolean'||!TENDENCIES[tendency]||!SPEEDS[speed])return {ok:false,error:'自动斗法设置无效'};
+  if(enabled&&battle.result)return {ok:false,error:'本场已结束，请先重新论道'};
+  const old={...automation};Object.assign(automation,{enabled,tendency,speed});
+  if(enabled&&!old.enabled)battle.log(`【自动·${TENDENCIES[tendency].name}】开始自动斗法：${TENDENCIES[tendency].description}`,'decision');
+  else if(!enabled&&old.enabled)battle.log('自动斗法已暂停，下一次出招与应对交由你决定。','decision');
+  else if(enabled&&old.tendency!==tendency)battle.log(`自动打法改为「${TENDENCIES[tendency].name}」：${TENDENCIES[tendency].description}`,'decision');
+  render();scheduleCombat();return {ok:true};
+}
+function readState(){return {...battle.snapshot(),automation:{...automation},logCount:battle.logs.length};}
+function perform(id){
+  if(automation.enabled)return {ok:false,error:'请先暂停自动斗法，再手动出招'};
+  const r=battle.act(battle.player,id);if(!r.ok){toast(r.error);return r;}render();scheduleCombat();return r;
+}
+function runEnemy(){scheduleCombat();}
+document.addEventListener('click',event=>{
+  const target=event.target.closest('button');if(!target)return;
+  if(target.dataset.skill)perform(target.dataset.skill);
+  if(target.dataset.class&&target.dataset.class!==battle.player.key)reset(target.dataset.class);
+  if(target.dataset.reaction&&!automation.enabled){const r=battle.react(target.dataset.reaction);if(!r.ok)toast(r.error);render();scheduleCombat();}
+  if(target.dataset.reset)reset(target.dataset.reset==='other'?(battle.player.key==='fire'?'sword':'fire'):battle.player.key);
+  if(target.id==='cancel-charge'&&!automation.enabled){battle.cancelCharge();render();scheduleCombat();}
+});
+$('end-turn').addEventListener('click',()=>{if(automation.enabled)return;const r=battle.endTurn();if(!r.ok)return;render();scheduleCombat();});
+$('auto-toggle').addEventListener('click',()=>configureAutomation({enabled:!automation.enabled}));
+$('auto-tendency').addEventListener('change',event=>configureAutomation({tendency:event.target.value}));
+$('auto-speed').addEventListener('change',event=>configureAutomation({speed:event.target.value}));
+$('restart-button').addEventListener('click',()=>reset());
+$('guide-button').addEventListener('click',()=>{guide.showModal();scheduleCombat();});
+$('close-guide').addEventListener('click',()=>guide.close());$('guide-done').addEventListener('click',()=>guide.close());
+guide.addEventListener('close',()=>scheduleCombat());
+reaction.addEventListener('cancel',event=>{event.preventDefault();if(automation.enabled)return;battle.react('none');render();scheduleCombat();});
+guide.addEventListener('click',event=>{if(event.target===guide){const rect=guide.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)guide.close();}});
 const context=document.modelContext;
 if(context?.registerTool){const lifecycle=new AbortController();const register=t=>{try{Promise.resolve(context.registerTool(t,{signal:lifecycle.signal})).catch(()=>{});}catch{}};
-  register({name:'read_duel_state',description:'读取当前斗法的气血、灵气、距离、行动阶段与敌方意图。',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute:()=>battle.snapshot()});
-  register({name:'perform_duel_action',description:'施展已装备神通或通用行动，与页面按钮共用规则；不会自动结束回合。',inputSchema:{type:'object',properties:{skillId:{type:'string'}},required:['skillId'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(!input||typeof input.skillId!=='string')throw new Error('skillId 必须为字符串');const r=perform(input.skillId);if(!r.ok)throw new Error(r.error);return battle.snapshot();}});
-  register({name:'respond_to_duel_attack',description:'在敌方攻击应对窗口选择护盾、闪身或承受此招。',inputSchema:{type:'object',properties:{response:{type:'string',enum:['shield','evade','none']}},required:['response'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{const r=battle.react(input?.response);if(!r.ok)throw new Error(r.error);render();runEnemy();return battle.snapshot();}});
-  addEventListener('pagehide',()=>lifecycle.abort(),{once:true});
+  register({name:'read_duel_state',description:'读取当前斗法的气血、灵气、距离、行动阶段与敌方意图。',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute:()=>readState()});
+  register({name:'perform_duel_action',description:'施展已装备神通或通用行动，与页面按钮共用规则；不会自动结束回合。',inputSchema:{type:'object',properties:{skillId:{type:'string'}},required:['skillId'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(!input||typeof input.skillId!=='string')throw new Error('skillId 必须为字符串');const r=perform(input.skillId);if(!r.ok)throw new Error(r.error);return readState();}});
+  register({name:'respond_to_duel_attack',description:'在敌方攻击应对窗口选择护盾、闪身或承受此招。',inputSchema:{type:'object',properties:{response:{type:'string',enum:['shield','evade','none']}},required:['response'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(automation.enabled)throw Error('请先暂停自动斗法，再手动应对');const r=battle.react(input?.response);if(!r.ok)throw new Error(r.error);render();runEnemy();return readState();}});
+  register({name:'configure_duel_automation',description:'开启、暂停自动斗法，或切换均衡、强攻、稳守、蓄势打法与出招节奏。与页面设置共用逻辑。',inputSchema:{type:'object',properties:{enabled:{type:'boolean'},tendency:{type:'string',enum:Object.keys(TENDENCIES)},speed:{type:'string',enum:Object.keys(SPEEDS)}},additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(!input||typeof input!=='object'||Object.keys(input).some(key=>!['enabled','tendency','speed'].includes(key)))throw Error('自动斗法设置无效');const r=configureAutomation(input);if(!r.ok)throw Error(r.error);return readState();}});
+  addEventListener('pagehide',()=>{clearTimeout(combatTimer);lifecycle.abort();},{once:true});
 }
 reset('fire');

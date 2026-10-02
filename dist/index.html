@@ -21,6 +21,11 @@
       </section>
       <div class="game-grid">
         <div class="play-column">
+          <section class="auto-panel" aria-label="自动战斗设置">
+            <div class="auto-heading"><h2>自动斗法</h2><span id="auto-status" role="status">可随时暂停，切回手动出招</span></div>
+            <div class="auto-settings"><label>打法倾向<select id="auto-tendency"><option value="balanced">均衡</option><option value="aggressive">强攻</option><option value="defensive">稳守</option><option value="burst">蓄势</option></select></label><label>出招节奏<select id="auto-speed"><option value="slow">从容</option><option value="normal" selected>标准</option><option value="fast">快速</option></select></label><button id="auto-toggle" aria-pressed="false">开启自动战斗</button></div>
+            <p id="auto-description">兼顾连招与生存，及时打断敌方蓄势。选择理由会写入斗法纪要。</p>
+          </section>
           <section class="arena" aria-label="斗法场">
             <div class="arena-vignette"></div>
             <div class="arena-top"><span class="location">青霄峰 · 论道台</span><span class="round-badge" id="round-label">第一回合</span><span class="weather">月明 · 无风</span></div>
