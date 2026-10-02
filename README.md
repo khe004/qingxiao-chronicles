@@ -51,7 +51,7 @@ python3 -m http.server 8000 --directory dist
 - `dist/app.mjs`：页面交互、动画与战斗流程。
 - `dist/assets/`：斗法场景与角色美术。
 
-数值用于试玩验证，尚未进行大规模平衡测试。
+数值用于试玩验证。已建立确定性 AI 对局的平衡基线，尚未据此完成数值调整和真人验证；结果见 [平衡性基线报告](docs/平衡性基线报告.md)。
 
 ## 验证
 
@@ -68,3 +68,14 @@ node test-loadout.mjs
 设计文档见 `docs/修仙游戏属性与战斗系统设计方案.md`。
 
 后续扩展顺序与当前完成项见 [ROADMAP.md](ROADMAP.md)：先做深两派内部打法，再扩展对手和短挑战，随后增加土系体修，最后推进金丹突破。
+
+## 平衡性基线
+
+```sh
+node test-balance-harness.mjs
+node scripts/balance.mjs
+node scripts/balance-passive.mjs
+node scripts/balance-report.mjs
+```
+
+完整枚举约需 6 分钟。涵盖 1824 个对等 AI 对局、384 个蓄势战术场景、64 个只关闭生息额外回血的配对，以及 16 个原网页脚本对照。场景是确定性的，不是独立随机样本或真人胜率；双方使用同样的行动和应对控制器，先手、起始距离和配装单独记录。线上固定先手与敌方脚本没有变化。报告附逐场 CSV、聚合数据和压缩原始记录，可重复比较后续版本。

@@ -1,0 +1,11 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {gzipSync} from 'node:zlib';
+import assert from 'node:assert/strict';
+import {duel} from './balance-arena.mjs';
+const full=JSON.parse(readFileSync('docs/balance/matches.json','utf8'));
+const base=full.matches.filter(r=>r.group==='core'&&r.a.config.major==='sustain'&&r.distance===1);
+assert.equal(base.length,64);
+const pairs=base.map(r=>({prefs:r.prefs,first:r.first,sword:r.b.config.major,baseline:r,withoutBonus:duel(r.a,r.b,{prefs:r.prefs,distance:r.distance,first:r.first,disableMajor:0})}));
+const outcome=(key)=>({n:pairs.length,wins:pairs.filter(p=>p[key].winner===0).length,draws:pairs.filter(p=>p[key].winner===null).length});
+const summary={scope:'Only the fire sustain +6 HP major bonus is disabled; same starting resources, skills, base wood-to-fire passive, opponents, initiative and controllers. Synthetic causal intervention, not a live valid selectable major.',baseline:outcome('baseline'),withoutBonus:outcome('withoutBonus'),lossesIntroduced:pairs.filter(p=>p.baseline.winner===0&&p.withoutBonus.winner!==0).length,winsIntroduced:pairs.filter(p=>p.baseline.winner!==0&&p.withoutBonus.winner===0).length,bySword:['quick','heavy'].map(major=>{const rows=pairs.filter(p=>p.sword===major);return {major,n:rows.length,baselineWins:rows.filter(p=>p.baseline.winner===0).length,withoutBonusWins:rows.filter(p=>p.withoutBonus.winner===0).length};})};
+const raw=JSON.stringify({summary,pairs})+'\n';writeFileSync('docs/balance/passive.json',raw);writeFileSync('docs/balance/passive.json.gz',gzipSync(raw,{level:9}));console.log(JSON.stringify(summary,null,2));

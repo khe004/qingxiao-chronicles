@@ -1,0 +1,1934 @@
+{
+  "sourceCommit": "45485959ea762bc2767f78ad96c6071853bcc5f0",
+  "engineHash": "f8e516f68b580ecbbaa7964f08c4cacf34fa03a3",
+  "autoHash": "2076761e25b4129826e4f82aa1e097c9bfa2b6c8",
+  "deterministic": true,
+  "randomTrials": 0,
+  "pilot": false,
+  "scenarioCounts": {
+    "core": 384,
+    "mirror": 96,
+    "loadout": 1344,
+    "tactical": 384,
+    "campaign": 16
+  },
+  "matrix": [
+    {
+      "fire": "ignite",
+      "sword": "quick",
+      "n": 96,
+      "wins": 50,
+      "losses": 46,
+      "draws": 0,
+      "winRate": 0.5208333333333334,
+      "drawRate": 0,
+      "avgRounds": 5.604166666666667
+    },
+    {
+      "fire": "ignite",
+      "sword": "heavy",
+      "n": 96,
+      "wins": 60,
+      "losses": 36,
+      "draws": 0,
+      "winRate": 0.625,
+      "drawRate": 0,
+      "avgRounds": 6.177083333333333
+    },
+    {
+      "fire": "sustain",
+      "sword": "quick",
+      "n": 96,
+      "wins": 81,
+      "losses": 15,
+      "draws": 0,
+      "winRate": 0.84375,
+      "drawRate": 0,
+      "avgRounds": 7.96875
+    },
+    {
+      "fire": "sustain",
+      "sword": "heavy",
+      "n": 96,
+      "wins": 79,
+      "losses": 17,
+      "draws": 0,
+      "winRate": 0.8229166666666666,
+      "drawRate": 0,
+      "avgRounds": 7.916666666666667
+    }
+  ],
+  "initiative": {
+    "overall": {
+      "n": 384,
+      "wins": 222,
+      "draws": 0
+    },
+    "byMajor": [
+      {
+        "key": "fire",
+        "major": "ignite",
+        "first": {
+          "n": 96,
+          "wins": 61,
+          "losses": 35,
+          "draws": 0,
+          "winRate": 0.6354166666666666,
+          "drawRate": 0,
+          "avgRounds": 5.75
+        },
+        "second": {
+          "n": 96,
+          "wins": 49,
+          "losses": 47,
+          "draws": 0,
+          "winRate": 0.5104166666666666,
+          "drawRate": 0,
+          "avgRounds": 6.03125
+        }
+      },
+      {
+        "key": "fire",
+        "major": "sustain",
+        "first": {
+          "n": 96,
+          "wins": 89,
+          "losses": 7,
+          "draws": 0,
+          "winRate": 0.9270833333333334,
+          "drawRate": 0,
+          "avgRounds": 7.510416666666667
+        },
+        "second": {
+          "n": 96,
+          "wins": 71,
+          "losses": 25,
+          "draws": 0,
+          "winRate": 0.7395833333333334,
+          "drawRate": 0,
+          "avgRounds": 8.375
+        }
+      },
+      {
+        "key": "sword",
+        "major": "quick",
+        "first": {
+          "n": 96,
+          "wins": 35,
+          "losses": 61,
+          "draws": 0,
+          "winRate": 0.3645833333333333,
+          "drawRate": 0,
+          "avgRounds": 7.03125
+        },
+        "second": {
+          "n": 96,
+          "wins": 26,
+          "losses": 70,
+          "draws": 0,
+          "winRate": 0.2708333333333333,
+          "drawRate": 0,
+          "avgRounds": 6.541666666666667
+        }
+      },
+      {
+        "key": "sword",
+        "major": "heavy",
+        "first": {
+          "n": 96,
+          "wins": 37,
+          "losses": 59,
+          "draws": 0,
+          "winRate": 0.3854166666666667,
+          "drawRate": 0,
+          "avgRounds": 7.375
+        },
+        "second": {
+          "n": 96,
+          "wins": 16,
+          "losses": 80,
+          "draws": 0,
+          "winRate": 0.16666666666666666,
+          "drawRate": 0,
+          "avgRounds": 6.71875
+        }
+      }
+    ],
+    "mirrors": [
+      {
+        "key": "fire",
+        "major": "ignite",
+        "n": 24,
+        "firstWins": 22,
+        "draws": 0
+      },
+      {
+        "key": "fire",
+        "major": "sustain",
+        "n": 24,
+        "firstWins": 6,
+        "draws": 0
+      },
+      {
+        "key": "sword",
+        "major": "quick",
+        "n": 24,
+        "firstWins": 10,
+        "draws": 0
+      },
+      {
+        "key": "sword",
+        "major": "heavy",
+        "n": 24,
+        "firstWins": 14,
+        "draws": 0
+      }
+    ]
+  },
+  "byDistance": [
+    {
+      "distance": 0,
+      "n": 128,
+      "wins": 74,
+      "losses": 54,
+      "draws": 0,
+      "winRate": 0.578125,
+      "drawRate": 0,
+      "avgRounds": 6.703125
+    },
+    {
+      "distance": 1,
+      "n": 128,
+      "wins": 89,
+      "losses": 39,
+      "draws": 0,
+      "winRate": 0.6953125,
+      "drawRate": 0,
+      "avgRounds": 7.0859375
+    },
+    {
+      "distance": 2,
+      "n": 128,
+      "wins": 107,
+      "losses": 21,
+      "draws": 0,
+      "winRate": 0.8359375,
+      "drawRate": 0,
+      "avgRounds": 6.9609375
+    }
+  ],
+  "byStyle": [
+    {
+      "style": "balanced",
+      "fire": {
+        "n": 96,
+        "wins": 80,
+        "losses": 16,
+        "draws": 0,
+        "winRate": 0.8333333333333334,
+        "drawRate": 0,
+        "avgRounds": 7.5625
+      },
+      "sword": {
+        "n": 96,
+        "wins": 33,
+        "losses": 63,
+        "draws": 0,
+        "winRate": 0.34375,
+        "drawRate": 0,
+        "avgRounds": 6.322916666666667
+      }
+    },
+    {
+      "style": "aggressive",
+      "fire": {
+        "n": 96,
+        "wins": 53,
+        "losses": 43,
+        "draws": 0,
+        "winRate": 0.5520833333333334,
+        "drawRate": 0,
+        "avgRounds": 5.572916666666667
+      },
+      "sword": {
+        "n": 96,
+        "wins": 49,
+        "losses": 47,
+        "draws": 0,
+        "winRate": 0.5104166666666666,
+        "drawRate": 0,
+        "avgRounds": 4.395833333333333
+      }
+    },
+    {
+      "style": "defensive",
+      "fire": {
+        "n": 96,
+        "wins": 78,
+        "losses": 18,
+        "draws": 0,
+        "winRate": 0.8125,
+        "drawRate": 0,
+        "avgRounds": 8.020833333333334
+      },
+      "sword": {
+        "n": 96,
+        "wins": 16,
+        "losses": 80,
+        "draws": 0,
+        "winRate": 0.16666666666666666,
+        "drawRate": 0,
+        "avgRounds": 11.614583333333334
+      }
+    },
+    {
+      "style": "burst",
+      "fire": {
+        "n": 96,
+        "wins": 59,
+        "losses": 37,
+        "draws": 0,
+        "winRate": 0.6145833333333334,
+        "drawRate": 0,
+        "avgRounds": 6.510416666666667
+      },
+      "sword": {
+        "n": 96,
+        "wins": 16,
+        "losses": 80,
+        "draws": 0,
+        "winRate": 0.16666666666666666,
+        "drawRate": 0,
+        "avgRounds": 5.333333333333333
+      }
+    }
+  ],
+  "ablation": [
+    {
+      "key": "fire",
+      "major": "ignite",
+      "includeExclude": [
+        {
+          "id": "seed",
+          "name": "催生术",
+          "included": {
+            "n": 252,
+            "wins": 120,
+            "losses": 132,
+            "draws": 0,
+            "winRate": 0.47619047619047616,
+            "drawRate": 0,
+            "avgRounds": 6.142857142857143
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 28,
+            "losses": 56,
+            "draws": 0,
+            "winRate": 0.3333333333333333,
+            "drawRate": 0,
+            "avgRounds": 6.571428571428571
+          }
+        },
+        {
+          "id": "spark",
+          "name": "流火诀",
+          "included": {
+            "n": 252,
+            "wins": 123,
+            "losses": 129,
+            "draws": 0,
+            "winRate": 0.4880952380952381,
+            "drawRate": 0,
+            "avgRounds": 6.361111111111111
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 25,
+            "losses": 59,
+            "draws": 0,
+            "winRate": 0.2976190476190476,
+            "drawRate": 0,
+            "avgRounds": 5.916666666666667
+          }
+        },
+        {
+          "id": "blaze",
+          "name": "焚炎术",
+          "included": {
+            "n": 252,
+            "wins": 139,
+            "losses": 113,
+            "draws": 0,
+            "winRate": 0.5515873015873016,
+            "drawRate": 0,
+            "avgRounds": 5.876984126984127
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 9,
+            "losses": 75,
+            "draws": 0,
+            "winRate": 0.10714285714285714,
+            "drawRate": 0,
+            "avgRounds": 7.369047619047619
+          }
+        },
+        {
+          "id": "heal",
+          "name": "青木回春",
+          "included": {
+            "n": 252,
+            "wins": 105,
+            "losses": 147,
+            "draws": 0,
+            "winRate": 0.4166666666666667,
+            "drawRate": 0,
+            "avgRounds": 6.408730158730159
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 43,
+            "losses": 41,
+            "draws": 0,
+            "winRate": 0.5119047619047619,
+            "drawRate": 0,
+            "avgRounds": 5.773809523809524
+          }
+        },
+        {
+          "id": "vine",
+          "name": "缠灵藤",
+          "included": {
+            "n": 252,
+            "wins": 110,
+            "losses": 142,
+            "draws": 0,
+            "winRate": 0.4365079365079365,
+            "drawRate": 0,
+            "avgRounds": 6.333333333333333
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 38,
+            "losses": 46,
+            "draws": 0,
+            "winRate": 0.4523809523809524,
+            "drawRate": 0,
+            "avgRounds": 6
+          }
+        },
+        {
+          "id": "ember",
+          "name": "星火引",
+          "included": {
+            "n": 252,
+            "wins": 103,
+            "losses": 149,
+            "draws": 0,
+            "winRate": 0.4087301587301587,
+            "drawRate": 0,
+            "avgRounds": 6.285714285714286
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 45,
+            "losses": 39,
+            "draws": 0,
+            "winRate": 0.5357142857142857,
+            "drawRate": 0,
+            "avgRounds": 6.142857142857143
+          }
+        },
+        {
+          "id": "nourish",
+          "name": "枯荣转生",
+          "included": {
+            "n": 252,
+            "wins": 95,
+            "losses": 157,
+            "draws": 0,
+            "winRate": 0.376984126984127,
+            "drawRate": 0,
+            "avgRounds": 6.329365079365079
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 53,
+            "losses": 31,
+            "draws": 0,
+            "winRate": 0.6309523809523809,
+            "drawRate": 0,
+            "avgRounds": 6.011904761904762
+          }
+        },
+        {
+          "id": "inferno",
+          "name": "离火焚天",
+          "included": {
+            "n": 252,
+            "wins": 93,
+            "losses": 159,
+            "draws": 0,
+            "winRate": 0.36904761904761907,
+            "drawRate": 0,
+            "avgRounds": 6.261904761904762
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 55,
+            "losses": 29,
+            "draws": 0,
+            "winRate": 0.6547619047619048,
+            "drawRate": 0,
+            "avgRounds": 6.214285714285714
+          }
+        }
+      ],
+      "best": [
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "vine",
+            "ember"
+          ],
+          "excluded": [
+            "nourish",
+            "inferno"
+          ],
+          "n": 12,
+          "wins": 11,
+          "losses": 1,
+          "draws": 0,
+          "winRate": 0.9166666666666666,
+          "drawRate": 0,
+          "avgRounds": 5.75
+        },
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "vine",
+            "inferno"
+          ],
+          "excluded": [
+            "ember",
+            "nourish"
+          ],
+          "n": 12,
+          "wins": 11,
+          "losses": 1,
+          "draws": 0,
+          "winRate": 0.9166666666666666,
+          "drawRate": 0,
+          "avgRounds": 6
+        },
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "vine",
+            "nourish"
+          ],
+          "excluded": [
+            "ember",
+            "inferno"
+          ],
+          "n": 12,
+          "wins": 10,
+          "losses": 2,
+          "draws": 0,
+          "winRate": 0.8333333333333334,
+          "drawRate": 0,
+          "avgRounds": 5.75
+        }
+      ],
+      "worst": [
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "heal",
+            "ember",
+            "nourish",
+            "inferno"
+          ],
+          "excluded": [
+            "blaze",
+            "vine"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 7.333333333333333
+        },
+        {
+          "skillIds": [
+            "spark",
+            "heal",
+            "vine",
+            "ember",
+            "nourish",
+            "inferno"
+          ],
+          "excluded": [
+            "seed",
+            "blaze"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 7.5
+        },
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "heal",
+            "vine",
+            "nourish",
+            "inferno"
+          ],
+          "excluded": [
+            "blaze",
+            "ember"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 7.5
+        }
+      ]
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "includeExclude": [
+        {
+          "id": "seed",
+          "name": "催生术",
+          "included": {
+            "n": 252,
+            "wins": 130,
+            "losses": 122,
+            "draws": 0,
+            "winRate": 0.5158730158730159,
+            "drawRate": 0,
+            "avgRounds": 7.76984126984127
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 36,
+            "losses": 48,
+            "draws": 0,
+            "winRate": 0.42857142857142855,
+            "drawRate": 0,
+            "avgRounds": 7.25
+          }
+        },
+        {
+          "id": "spark",
+          "name": "流火诀",
+          "included": {
+            "n": 252,
+            "wins": 136,
+            "losses": 116,
+            "draws": 0,
+            "winRate": 0.5396825396825397,
+            "drawRate": 0,
+            "avgRounds": 7.686507936507937
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 30,
+            "losses": 54,
+            "draws": 0,
+            "winRate": 0.35714285714285715,
+            "drawRate": 0,
+            "avgRounds": 7.5
+          }
+        },
+        {
+          "id": "blaze",
+          "name": "焚炎术",
+          "included": {
+            "n": 252,
+            "wins": 152,
+            "losses": 100,
+            "draws": 0,
+            "winRate": 0.6031746031746031,
+            "drawRate": 0,
+            "avgRounds": 7.2936507936507935
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 14,
+            "losses": 70,
+            "draws": 0,
+            "winRate": 0.16666666666666666,
+            "drawRate": 0,
+            "avgRounds": 8.678571428571429
+          }
+        },
+        {
+          "id": "heal",
+          "name": "青木回春",
+          "included": {
+            "n": 252,
+            "wins": 119,
+            "losses": 133,
+            "draws": 0,
+            "winRate": 0.4722222222222222,
+            "drawRate": 0,
+            "avgRounds": 7.900793650793651
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 47,
+            "losses": 37,
+            "draws": 0,
+            "winRate": 0.5595238095238095,
+            "drawRate": 0,
+            "avgRounds": 6.857142857142857
+          }
+        },
+        {
+          "id": "vine",
+          "name": "缠灵藤",
+          "included": {
+            "n": 252,
+            "wins": 123,
+            "losses": 129,
+            "draws": 0,
+            "winRate": 0.4880952380952381,
+            "drawRate": 0,
+            "avgRounds": 7.591269841269841
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 43,
+            "losses": 41,
+            "draws": 0,
+            "winRate": 0.5119047619047619,
+            "drawRate": 0,
+            "avgRounds": 7.785714285714286
+          }
+        },
+        {
+          "id": "ember",
+          "name": "星火引",
+          "included": {
+            "n": 252,
+            "wins": 113,
+            "losses": 139,
+            "draws": 0,
+            "winRate": 0.44841269841269843,
+            "drawRate": 0,
+            "avgRounds": 7.567460317460317
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 53,
+            "losses": 31,
+            "draws": 0,
+            "winRate": 0.6309523809523809,
+            "drawRate": 0,
+            "avgRounds": 7.857142857142857
+          }
+        },
+        {
+          "id": "nourish",
+          "name": "枯荣转生",
+          "included": {
+            "n": 252,
+            "wins": 120,
+            "losses": 132,
+            "draws": 0,
+            "winRate": 0.47619047619047616,
+            "drawRate": 0,
+            "avgRounds": 7.7896825396825395
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 46,
+            "losses": 38,
+            "draws": 0,
+            "winRate": 0.5476190476190477,
+            "drawRate": 0,
+            "avgRounds": 7.190476190476191
+          }
+        },
+        {
+          "id": "inferno",
+          "name": "离火焚天",
+          "included": {
+            "n": 252,
+            "wins": 103,
+            "losses": 149,
+            "draws": 0,
+            "winRate": 0.4087301587301587,
+            "drawRate": 0,
+            "avgRounds": 7.51984126984127
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 63,
+            "losses": 21,
+            "draws": 0,
+            "winRate": 0.75,
+            "drawRate": 0,
+            "avgRounds": 8
+          }
+        }
+      ],
+      "best": [
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "vine",
+            "ember"
+          ],
+          "excluded": [
+            "nourish",
+            "inferno"
+          ],
+          "n": 12,
+          "wins": 11,
+          "losses": 1,
+          "draws": 0,
+          "winRate": 0.9166666666666666,
+          "drawRate": 0,
+          "avgRounds": 7.333333333333333
+        },
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "vine",
+            "inferno"
+          ],
+          "excluded": [
+            "ember",
+            "nourish"
+          ],
+          "n": 12,
+          "wins": 11,
+          "losses": 1,
+          "draws": 0,
+          "winRate": 0.9166666666666666,
+          "drawRate": 0,
+          "avgRounds": 7.583333333333333
+        },
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "vine",
+            "nourish",
+            "inferno"
+          ],
+          "excluded": [
+            "heal",
+            "ember"
+          ],
+          "n": 12,
+          "wins": 10,
+          "losses": 2,
+          "draws": 0,
+          "winRate": 0.8333333333333334,
+          "drawRate": 0,
+          "avgRounds": 7.416666666666667
+        }
+      ],
+      "worst": [
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "heal",
+            "ember",
+            "nourish",
+            "inferno"
+          ],
+          "excluded": [
+            "blaze",
+            "vine"
+          ],
+          "n": 12,
+          "wins": 1,
+          "losses": 11,
+          "draws": 0,
+          "winRate": 0.08333333333333333,
+          "drawRate": 0,
+          "avgRounds": 8.916666666666666
+        },
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "vine",
+            "ember",
+            "nourish",
+            "inferno"
+          ],
+          "excluded": [
+            "blaze",
+            "heal"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 6.333333333333333
+        },
+        {
+          "skillIds": [
+            "seed",
+            "spark",
+            "heal",
+            "vine",
+            "ember",
+            "inferno"
+          ],
+          "excluded": [
+            "blaze",
+            "nourish"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 8.5
+        }
+      ]
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "includeExclude": [
+        {
+          "id": "swift",
+          "name": "掠影剑",
+          "included": {
+            "n": 252,
+            "wins": 30,
+            "losses": 222,
+            "draws": 0,
+            "winRate": 0.11904761904761904,
+            "drawRate": 0,
+            "avgRounds": 6.845238095238095
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 0,
+            "losses": 84,
+            "draws": 0,
+            "winRate": 0,
+            "drawRate": 0,
+            "avgRounds": 7.9523809523809526
+          }
+        },
+        {
+          "id": "expose",
+          "name": "照隙诀",
+          "included": {
+            "n": 252,
+            "wins": 25,
+            "losses": 227,
+            "draws": 0,
+            "winRate": 0.0992063492063492,
+            "drawRate": 0,
+            "avgRounds": 6.988095238095238
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 5,
+            "losses": 79,
+            "draws": 0,
+            "winRate": 0.05952380952380952,
+            "drawRate": 0,
+            "avgRounds": 7.523809523809524
+          }
+        },
+        {
+          "id": "strike",
+          "name": "断岳剑",
+          "included": {
+            "n": 252,
+            "wins": 29,
+            "losses": 223,
+            "draws": 0,
+            "winRate": 0.11507936507936507,
+            "drawRate": 0,
+            "avgRounds": 7.333333333333333
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 1,
+            "losses": 83,
+            "draws": 0,
+            "winRate": 0.011904761904761904,
+            "drawRate": 0,
+            "avgRounds": 6.488095238095238
+          }
+        },
+        {
+          "id": "guard",
+          "name": "藏锋式",
+          "included": {
+            "n": 252,
+            "wins": 13,
+            "losses": 239,
+            "draws": 0,
+            "winRate": 0.051587301587301584,
+            "drawRate": 0,
+            "avgRounds": 7.511904761904762
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 17,
+            "losses": 67,
+            "draws": 0,
+            "winRate": 0.20238095238095238,
+            "drawRate": 0,
+            "avgRounds": 5.9523809523809526
+          }
+        },
+        {
+          "id": "cut",
+          "name": "截脉剑",
+          "included": {
+            "n": 252,
+            "wins": 22,
+            "losses": 230,
+            "draws": 0,
+            "winRate": 0.0873015873015873,
+            "drawRate": 0,
+            "avgRounds": 7.146825396825397
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 8,
+            "losses": 76,
+            "draws": 0,
+            "winRate": 0.09523809523809523,
+            "drawRate": 0,
+            "avgRounds": 7.0476190476190474
+          }
+        },
+        {
+          "id": "lunge",
+          "name": "追风剑",
+          "included": {
+            "n": 252,
+            "wins": 19,
+            "losses": 233,
+            "draws": 0,
+            "winRate": 0.07539682539682539,
+            "drawRate": 0,
+            "avgRounds": 7.198412698412699
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 11,
+            "losses": 73,
+            "draws": 0,
+            "winRate": 0.13095238095238096,
+            "drawRate": 0,
+            "avgRounds": 6.892857142857143
+          }
+        },
+        {
+          "id": "return",
+          "name": "回澜剑",
+          "included": {
+            "n": 252,
+            "wins": 22,
+            "losses": 230,
+            "draws": 0,
+            "winRate": 0.0873015873015873,
+            "drawRate": 0,
+            "avgRounds": 7.134920634920635
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 8,
+            "losses": 76,
+            "draws": 0,
+            "winRate": 0.09523809523809523,
+            "drawRate": 0,
+            "avgRounds": 7.083333333333333
+          }
+        },
+        {
+          "id": "unity",
+          "name": "万剑归一",
+          "included": {
+            "n": 252,
+            "wins": 20,
+            "losses": 232,
+            "draws": 0,
+            "winRate": 0.07936507936507936,
+            "drawRate": 0,
+            "avgRounds": 6.817460317460317
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 10,
+            "losses": 74,
+            "draws": 0,
+            "winRate": 0.11904761904761904,
+            "drawRate": 0,
+            "avgRounds": 8.035714285714286
+          }
+        }
+      ],
+      "best": [
+        {
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "cut",
+            "lunge",
+            "return"
+          ],
+          "excluded": [
+            "guard",
+            "unity"
+          ],
+          "n": 12,
+          "wins": 5,
+          "losses": 7,
+          "draws": 0,
+          "winRate": 0.4166666666666667,
+          "drawRate": 0,
+          "avgRounds": 6.083333333333333
+        },
+        {
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "cut",
+            "return",
+            "unity"
+          ],
+          "excluded": [
+            "guard",
+            "lunge"
+          ],
+          "n": 12,
+          "wins": 4,
+          "losses": 8,
+          "draws": 0,
+          "winRate": 0.3333333333333333,
+          "drawRate": 0,
+          "avgRounds": 5.916666666666667
+        },
+        {
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "lunge",
+            "return",
+            "unity"
+          ],
+          "excluded": [
+            "guard",
+            "cut"
+          ],
+          "n": 12,
+          "wins": 3,
+          "losses": 9,
+          "draws": 0,
+          "winRate": 0.25,
+          "drawRate": 0,
+          "avgRounds": 6
+        }
+      ],
+      "worst": [
+        {
+          "skillIds": [
+            "swift",
+            "strike",
+            "guard",
+            "cut",
+            "lunge",
+            "return"
+          ],
+          "excluded": [
+            "expose",
+            "unity"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 8.583333333333334
+        },
+        {
+          "skillIds": [
+            "strike",
+            "guard",
+            "cut",
+            "lunge",
+            "return",
+            "unity"
+          ],
+          "excluded": [
+            "swift",
+            "expose"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 9
+        },
+        {
+          "skillIds": [
+            "expose",
+            "strike",
+            "guard",
+            "cut",
+            "lunge",
+            "return"
+          ],
+          "excluded": [
+            "swift",
+            "unity"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 9.5
+        }
+      ]
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "includeExclude": [
+        {
+          "id": "swift",
+          "name": "掠影剑",
+          "included": {
+            "n": 252,
+            "wins": 44,
+            "losses": 208,
+            "draws": 0,
+            "winRate": 0.1746031746031746,
+            "drawRate": 0,
+            "avgRounds": 7.170634920634921
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 2,
+            "losses": 82,
+            "draws": 0,
+            "winRate": 0.023809523809523808,
+            "drawRate": 0,
+            "avgRounds": 8.202380952380953
+          }
+        },
+        {
+          "id": "expose",
+          "name": "照隙诀",
+          "included": {
+            "n": 252,
+            "wins": 34,
+            "losses": 218,
+            "draws": 0,
+            "winRate": 0.1349206349206349,
+            "drawRate": 0,
+            "avgRounds": 7.126984126984127
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 12,
+            "losses": 72,
+            "draws": 0,
+            "winRate": 0.14285714285714285,
+            "drawRate": 0,
+            "avgRounds": 8.333333333333334
+          }
+        },
+        {
+          "id": "strike",
+          "name": "断岳剑",
+          "included": {
+            "n": 252,
+            "wins": 44,
+            "losses": 208,
+            "draws": 0,
+            "winRate": 0.1746031746031746,
+            "drawRate": 0,
+            "avgRounds": 7.527777777777778
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 2,
+            "losses": 82,
+            "draws": 0,
+            "winRate": 0.023809523809523808,
+            "drawRate": 0,
+            "avgRounds": 7.130952380952381
+          }
+        },
+        {
+          "id": "guard",
+          "name": "藏锋式",
+          "included": {
+            "n": 252,
+            "wins": 23,
+            "losses": 229,
+            "draws": 0,
+            "winRate": 0.09126984126984126,
+            "drawRate": 0,
+            "avgRounds": 7.805555555555555
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 23,
+            "losses": 61,
+            "draws": 0,
+            "winRate": 0.27380952380952384,
+            "drawRate": 0,
+            "avgRounds": 6.2976190476190474
+          }
+        },
+        {
+          "id": "cut",
+          "name": "截脉剑",
+          "included": {
+            "n": 252,
+            "wins": 32,
+            "losses": 220,
+            "draws": 0,
+            "winRate": 0.12698412698412698,
+            "drawRate": 0,
+            "avgRounds": 7.4563492063492065
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 14,
+            "losses": 70,
+            "draws": 0,
+            "winRate": 0.16666666666666666,
+            "drawRate": 0,
+            "avgRounds": 7.345238095238095
+          }
+        },
+        {
+          "id": "lunge",
+          "name": "追风剑",
+          "included": {
+            "n": 252,
+            "wins": 36,
+            "losses": 216,
+            "draws": 0,
+            "winRate": 0.14285714285714285,
+            "drawRate": 0,
+            "avgRounds": 7.476190476190476
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 10,
+            "losses": 74,
+            "draws": 0,
+            "winRate": 0.11904761904761904,
+            "drawRate": 0,
+            "avgRounds": 7.285714285714286
+          }
+        },
+        {
+          "id": "return",
+          "name": "回澜剑",
+          "included": {
+            "n": 252,
+            "wins": 32,
+            "losses": 220,
+            "draws": 0,
+            "winRate": 0.12698412698412698,
+            "drawRate": 0,
+            "avgRounds": 7.48015873015873
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 14,
+            "losses": 70,
+            "draws": 0,
+            "winRate": 0.16666666666666666,
+            "drawRate": 0,
+            "avgRounds": 7.273809523809524
+          }
+        },
+        {
+          "id": "unity",
+          "name": "万剑归一",
+          "included": {
+            "n": 252,
+            "wins": 31,
+            "losses": 221,
+            "draws": 0,
+            "winRate": 0.12301587301587301,
+            "drawRate": 0,
+            "avgRounds": 7.384920634920635
+          },
+          "excluded": {
+            "n": 84,
+            "wins": 15,
+            "losses": 69,
+            "draws": 0,
+            "winRate": 0.17857142857142858,
+            "drawRate": 0,
+            "avgRounds": 7.559523809523809
+          }
+        }
+      ],
+      "best": [
+        {
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "lunge",
+            "return",
+            "unity"
+          ],
+          "excluded": [
+            "guard",
+            "cut"
+          ],
+          "n": 12,
+          "wins": 5,
+          "losses": 7,
+          "draws": 0,
+          "winRate": 0.4166666666666667,
+          "drawRate": 0,
+          "avgRounds": 6.25
+        },
+        {
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "cut",
+            "lunge",
+            "unity"
+          ],
+          "excluded": [
+            "guard",
+            "return"
+          ],
+          "n": 12,
+          "wins": 5,
+          "losses": 7,
+          "draws": 0,
+          "winRate": 0.4166666666666667,
+          "drawRate": 0,
+          "avgRounds": 6.25
+        },
+        {
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "cut",
+            "return",
+            "unity"
+          ],
+          "excluded": [
+            "guard",
+            "lunge"
+          ],
+          "n": 12,
+          "wins": 4,
+          "losses": 8,
+          "draws": 0,
+          "winRate": 0.3333333333333333,
+          "drawRate": 0,
+          "avgRounds": 6.166666666666667
+        }
+      ],
+      "worst": [
+        {
+          "skillIds": [
+            "expose",
+            "strike",
+            "guard",
+            "cut",
+            "lunge",
+            "unity"
+          ],
+          "excluded": [
+            "swift",
+            "return"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 8.166666666666666
+        },
+        {
+          "skillIds": [
+            "expose",
+            "strike",
+            "guard",
+            "cut",
+            "lunge",
+            "return"
+          ],
+          "excluded": [
+            "swift",
+            "unity"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 9
+        },
+        {
+          "skillIds": [
+            "strike",
+            "guard",
+            "cut",
+            "lunge",
+            "return",
+            "unity"
+          ],
+          "excluded": [
+            "swift",
+            "expose"
+          ],
+          "n": 12,
+          "wins": 0,
+          "losses": 12,
+          "draws": 0,
+          "winRate": 0,
+          "drawRate": 0,
+          "avgRounds": 9.833333333333334
+        }
+      ]
+    }
+  ],
+  "chargeTotals": {
+    "unity": {
+      "started": 478,
+      "released": 159,
+      "interrupted": 232,
+      "outOfRange": 17,
+      "unresolved": 70,
+      "hpDamage": 7247,
+      "shieldDamage": 472,
+      "unusedAP": 0
+    },
+    "inferno": {
+      "started": 127,
+      "released": 37,
+      "interrupted": 35,
+      "outOfRange": 27,
+      "unresolved": 28,
+      "hpDamage": 885,
+      "shieldDamage": 790,
+      "unusedAP": 12
+    }
+  },
+  "skills": [
+    {
+      "key": "fire",
+      "id": "seed",
+      "name": "催生术",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "wood": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "seed",
+      "basePower": 0,
+      "typicalImmediate": 0,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 1276
+    },
+    {
+      "key": "fire",
+      "id": "spark",
+      "name": "流火诀",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "fire": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "attack",
+      "basePower": 24,
+      "typicalImmediate": 17,
+      "nominalBurn": 12,
+      "heal": 0,
+      "usage": 1724
+    },
+    {
+      "key": "fire",
+      "id": "blaze",
+      "name": "焚炎术",
+      "ap": 1,
+      "grossQi": 3,
+      "cost": {
+        "fire": 2,
+        "any": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "attack",
+      "basePower": 46,
+      "typicalImmediate": 46,
+      "nominalBurn": 24,
+      "heal": 0,
+      "usage": 2572
+    },
+    {
+      "key": "fire",
+      "id": "heal",
+      "name": "青木回春",
+      "ap": 1,
+      "grossQi": 2,
+      "cost": {
+        "wood": 2
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "heal",
+      "basePower": 0,
+      "typicalImmediate": 0,
+      "nominalBurn": 0,
+      "heal": 26,
+      "usage": 576
+    },
+    {
+      "key": "fire",
+      "id": "vine",
+      "name": "缠灵藤",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "wood": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1
+      ],
+      "kind": "attack",
+      "basePower": 12,
+      "typicalImmediate": 9,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 232
+    },
+    {
+      "key": "fire",
+      "id": "ember",
+      "name": "星火引",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "fire": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "attack",
+      "basePower": 18,
+      "typicalImmediate": 27,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 0
+    },
+    {
+      "key": "fire",
+      "id": "nourish",
+      "name": "枯荣转生",
+      "ap": 1,
+      "grossQi": 2,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "heal",
+      "basePower": 0,
+      "typicalImmediate": 0,
+      "nominalBurn": 0,
+      "heal": 14,
+      "usage": 136
+    },
+    {
+      "key": "fire",
+      "id": "inferno",
+      "name": "离火焚天",
+      "ap": 2,
+      "grossQi": 4,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "intentCost": 0,
+      "range": [
+        1,
+        2
+      ],
+      "kind": "charge",
+      "basePower": 86,
+      "typicalImmediate": 73,
+      "nominalBurn": 24,
+      "heal": 0,
+      "usage": 127
+    },
+    {
+      "key": "sword",
+      "id": "swift",
+      "name": "掠影剑",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "metal": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1
+      ],
+      "kind": "attack",
+      "basePower": 30,
+      "typicalImmediate": 25,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 1530
+    },
+    {
+      "key": "sword",
+      "id": "expose",
+      "name": "照隙诀",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "water": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "attack",
+      "basePower": 12,
+      "typicalImmediate": 9,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 624
+    },
+    {
+      "key": "sword",
+      "id": "strike",
+      "name": "断岳剑",
+      "ap": 1,
+      "grossQi": 3,
+      "cost": {
+        "metal": 2,
+        "any": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1
+      ],
+      "kind": "attack",
+      "basePower": 52,
+      "typicalImmediate": 56,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 735
+    },
+    {
+      "key": "sword",
+      "id": "guard",
+      "name": "藏锋式",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "metal": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1,
+        2
+      ],
+      "kind": "guard",
+      "basePower": 0,
+      "typicalImmediate": 0,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 1646
+    },
+    {
+      "key": "sword",
+      "id": "cut",
+      "name": "截脉剑",
+      "ap": 1,
+      "grossQi": 2,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1
+      ],
+      "kind": "attack",
+      "basePower": 20,
+      "typicalImmediate": 16,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 35
+    },
+    {
+      "key": "sword",
+      "id": "lunge",
+      "name": "追风剑",
+      "ap": 1,
+      "grossQi": 1,
+      "cost": {
+        "metal": 1
+      },
+      "intentCost": 2,
+      "range": [
+        0
+      ],
+      "kind": "attack",
+      "basePower": 48,
+      "typicalImmediate": 39,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 0
+    },
+    {
+      "key": "sword",
+      "id": "return",
+      "name": "回澜剑",
+      "ap": 1,
+      "grossQi": 2,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "intentCost": 0,
+      "range": [
+        0,
+        1
+      ],
+      "kind": "attack",
+      "basePower": 24,
+      "typicalImmediate": 33,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 9
+    },
+    {
+      "key": "sword",
+      "id": "unity",
+      "name": "万剑归一",
+      "ap": 2,
+      "grossQi": 4,
+      "cost": {
+        "metal": 3,
+        "any": 1
+      },
+      "intentCost": 0,
+      "range": [
+        1,
+        2
+      ],
+      "kind": "charge",
+      "basePower": 86,
+      "typicalImmediate": 84,
+      "nominalBurn": 0,
+      "heal": 0,
+      "usage": 478
+    }
+  ],
+  "pairedInitiativeFlips": 66,
+  "pairedCases": 192,
+  "draws": 0,
+  "elapsedSeconds": 331.371529225
+}
