@@ -26,7 +26,9 @@ assert.ok(total(b.player.qi)<=10);
 const charged=new Battle('sword');
 assert.ok(charged.act(charged.player,'unity').ok);
 assert.ok(charged.player.charge);
-assert.equal(charged.act(charged.player,'guard').ok,false);
+assert.equal(charged.act(charged.player,'basic').ok,false);
+assert.ok(charged.act(charged.player,'meditate').ok);
+assert.equal(charged.player.ap,0);
 assert.ok(charged.cancelCharge().ok);
 assert.equal(charged.player.charge,null);
 

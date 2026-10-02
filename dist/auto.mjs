@@ -43,10 +43,12 @@ function options(b,tendency){
     if(s.kind==='heal'&&p.hp===p.maxHp&&!p.burn)return false;
     if(s.id==='purify'&&!p.burn)return false;
     if(s.kind==='guard'&&p.shield>=44&&p.intent>=5)return false;
+    // 蓄势护体不能吃掉最后一份应对灵气，避免只能闪身后丢失出剑距离。
+    if(p.charge&&s.kind==='guard'&&p.reaction){const k=CLASSES[p.key].reactionElement;if((payment(p.qi,s.cost)?.[k]??0)<1)return false;}
     if(s.interrupt&&s.id!=='lunge'&&!e.charge)return false;
     if(s.id==='meditate'&&total(p.qi)>=6)return false;
     if(s.id==='near'&&b.distance===1&&!e.charge&&!p.skillIds.includes('lunge'))return false;
-    if(s.id==='far'&&b.distance===1&&p.key==='sword'&&!e.charge)return false;
+    if(s.id==='far'&&b.distance===1&&p.key==='sword'&&!e.charge&&!p.charge)return false;
     return true;
   });
 }
@@ -85,11 +87,11 @@ function reasonFor(b,id){
     case 'expose':return '先识破破绽，让后续重剑获得 25% 增伤。';
     case 'swift':return `快剑输出，积累剑意（当前 ${p.intent} 层）。`;
     case 'strike':return `消耗 ${p.intent} 层剑意${e.broken?'并利用破绽':''}，以断岳兑现爆发。`;
-    case 'guard':return '藏锋护体，同时积累剑意，为下一轮反击准备。';
+    case 'guard':return p.charge?'蓄势后以藏锋护体，积累的剑意留给后续招式，不追加本次大招伤害。':'藏锋护体，同时积累剑意，为下一轮反击准备。';
     case 'unity':return `以 ${p.intent} 层剑意${e.broken?'与破绽':''}蓄势，准备万剑归一。`;
     case 'near':return e.charge&&b.distance===1?'贴近敌人，脱离其蓄势技能的适用距离。':b.distance===1?'接近到近身，为追风剑创造有效距离。':'接近到中距，让剑招与打断技能可以出手。';
-    case 'far':return '拉开距离，避开近中距剑招或准备远距斗法。';
-    case 'meditate':return '调息补足灵气，为后续神通或大招准备费用。';
+    case 'far':return p.charge?'蓄势后拉到远距，增加敌人贴近化解或打断所需的行动。':'拉开距离，避开近中距剑招或准备远距斗法。';
+    case 'meditate':return p.charge?'利用蓄势后的剩余行动补气，预留应对与下一回合的施法资源。':'调息补足灵气，为后续神通或大招准备费用。';
     case 'purify':return `净息清除 ${p.burn} 层灼烧，避免持续损血。`;
     default:return '用基础攻击补充伤害，不额外消耗灵气。';
   }
@@ -97,17 +99,16 @@ function reasonFor(b,id){
 export function chooseAction(b,tendency='balanced'){
   if(!TENDENCIES[tendency])throw Error('未知打法倾向');
   if(b.phase!=='player'||b.result)return null;
-  if(b.player.charge)return {action:'end',reason:'蓄势已完成，结束行动等待下一次释放。'};
   if(b.player.ap===0)return {action:'end',reason:'行动点已用尽，保留剩余灵气进入敌方行动。'};
   let best={score:-Infinity,path:[]};
   function search(state,path){
     const score=planScore(b,state,tendency,path);if(score>best.score)best={score,path};
-    if(state.result||state.player.charge||state.player.ap===0||path.length>=3)return;
+    if(state.result||state.player.ap===0||path.length>=3)return;
     for(const s of options(state,tendency)){const next=copyBattle(state);const applied=next.act(next.player,s.id);if(applied.ok)search(next,[...path,s.id]);}
   }
   search(copyBattle(b),[]);
   const id=best.path[0];
-  if(!id)return {action:'end',reason:'当前继续施法收益较低，保留灵气与应对资源。'};
+  if(!id)return {action:'end',reason:b.player.charge?'蓄势后继续移动、调息或防守收益较低，保留资源等待释放。':'当前继续施法收益较低，保留灵气与应对资源。'};
   return {action:'skill',skillId:id,reason:reasonFor(b,id)};
 }
 export function describeAutoChoice(b,choice,tendency){

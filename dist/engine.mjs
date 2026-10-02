@@ -68,7 +68,7 @@ export class Battle {
   other(actor){return actor===this.player?this.enemy:this.player;}
   gain(actor,amount){let room=10-total(actor.qi);let count=0;for(const [k,n] of Object.entries(amount)){let m=Math.min(room,n);actor.qi[k]+=m;room-=m;count+=m;}return count;}
   legal(actor,id){
-    const s=this.skill(actor,id);if(!s)return '神通未装备或不存在';if(this.result)return '本场斗法已结束';if(actor.ap<s.ap)return '行动点不足';if(actor.charge)return '正在蓄势，可结束回合或取消蓄势';if(s.range&&!s.range.includes(this.distance))return '距离不适合';if(s.delta&&!(this.distance+s.delta>=0&&this.distance+s.delta<=2))return '已到距离边界';if(s.kind==='meditate'&&actor.meditated)return '本回合已经调息';if(s.kind==='meditate'&&total(actor.qi)>=10)return '灵气已经充盈';if(s.intentCost&&actor.intent<s.intentCost)return `需要 ${s.intentCost} 层剑意`;if(s.once&&actor.usedSkills.includes(id))return '本回合已经施展';if(!payment(actor.qi,s.cost))return '所需灵气不足';return null;
+    const s=this.skill(actor,id);if(!s)return '神通未装备或不存在';if(this.result)return '本场斗法已结束';if(actor.ap<s.ap)return '行动点不足';if(actor.charge&&!['move','meditate','guard'].includes(s.kind))return '蓄势中仅可移动、调息或防守，也可结束回合或取消蓄势';if(s.range&&!s.range.includes(this.distance))return '距离不适合';if(s.delta&&!(this.distance+s.delta>=0&&this.distance+s.delta<=2))return '已到距离边界';if(s.kind==='meditate'&&actor.meditated)return '本回合已经调息';if(s.kind==='meditate'&&total(actor.qi)>=10)return '灵气已经充盈';if(s.intentCost&&actor.intent<s.intentCost)return `需要 ${s.intentCost} 层剑意`;if(s.once&&actor.usedSkills.includes(id))return '本回合已经施展';if(!payment(actor.qi,s.cost))return '所需灵气不足';return null;
   }
   beginRound(){
     if(this.result)return;this.round++;this.phase='player';this.pending=null;
@@ -87,8 +87,12 @@ export class Battle {
     if(this.distance===2&&e.key==='sword'&&this.round%3!==0)candidates.unshift('near');
     // 预告中的核心招式固定；费用不足或距离改变时只能跳过，不能偷换大招。
     let d=this.distance;
-    for(const id of candidates){if(chosen.length>=3)break;const s=this.skill(copy,id);if(!s)continue;const paid=payment(copy.qi,s.cost);if(s.ap>copy.ap||!paid||(s.intentCost&&copy.intent<s.intentCost)||(s.once&&copy.usedSkills.includes(id))||(s.range&&!s.range.includes(d)))continue;chosen.push(id);copy.ap-=s.ap;copy.qi=paid;if(s.delta)d+=s.delta;if(s.kind==='charge')break;if(copy.key==='fire'&&s.element==='wood'&&!copy.woodTriggered){copy.woodTriggered=true;copy.qi.fire++;}}
-    while(copy.ap>0){chosen.push('basic');copy.ap--;}
+    for(const id of candidates){if(chosen.length>=3)break;const s=this.skill(copy,id);if(!s)continue;const paid=payment(copy.qi,s.cost);if(s.ap>copy.ap||!paid||(copy.charge&&!['move','meditate','guard'].includes(s.kind))||(s.intentCost&&copy.intent<s.intentCost)||(s.once&&copy.usedSkills.includes(id))||(s.range&&!s.range.includes(d)))continue;chosen.push(id);copy.ap-=s.ap;copy.qi=paid;if(s.delta)d+=s.delta;if(s.kind==='charge')copy.charge=s;if(copy.key==='fire'&&s.element==='wood'&&!copy.woodTriggered){copy.woodTriggered=true;copy.qi.fire++;}}
+    while(copy.ap>0){
+      // 蓄势余下的行动只用于护体或补气；保持预告固定，不临时追加攻击。
+      const id=copy.charge?(d===1?'far':!copy.meditated&&total(copy.qi)<10?'meditate':null):'basic';
+      if(!id)break;chosen.push(id);copy.ap--;if(id==='far')d++;if(id==='meditate')copy.meditated=true;
+    }
     this.enemyQueue=chosen;this.enemyPlan=[...chosen];
   }
   raw(actor,s){let n=s.power||0;const target=this.other(actor);if(s.ignite)n*=1+.2*target.seed;if(s.partialIgnite)n+=Math.min(s.partialIgnite,target.seed)*10;if(s.finisher)n+=Math.min(actor.intent,s.intentLimit??5)*8+(actor.edge?12:0);if((s.finisher||s.kind==='charge')&&target.broken)n*=1.25;return Math.round(n);}
@@ -152,7 +156,6 @@ export class Battle {
   endTurn(){if(this.phase!=='player'||this.result)return {ok:false,error:'现在不能结束回合'};this.expireEdge(this.player);this.phase='enemy';this.log('你结束行动，敌方开始出招。','round');this.tickBurn(this.enemy);if(!this.result&&this.enemy.charge)this.release(this.enemy);return {ok:true};}
   enemyStep(){
     if(this.phase!=='enemy'||this.result)return false;
-    if(this.enemy.charge){this.enemyQueue=[];this.expireEdge(this.enemy);this.beginRound();return false;}
     while(this.enemyQueue.length){const id=this.enemyQueue.shift();const r=this.act(this.enemy,id);if(r.ok)return true;this.log(`敌方未能施展「${this.skill(this.enemy,id)?.name}」：${r.error}。`);}
     this.expireEdge(this.enemy);this.beginRound();return false;
   }

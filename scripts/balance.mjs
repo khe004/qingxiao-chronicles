@@ -5,7 +5,9 @@ import {performance} from 'node:perf_hooks';
 import {Battle,CLASSES,MAJORS} from '../dist/engine.mjs';
 import {TENDENCIES,chooseAction,chooseReaction} from '../dist/auto.mjs';
 import {build,duel,tacticalCharge} from './balance-arena.mjs';
-const out='docs/balance',pilot=process.argv.includes('--pilot'),rows=[],started=performance.now();
+const outArg=process.argv.indexOf('--out');
+if(outArg!==-1&&!process.argv[outArg+1])throw Error('--out requires a directory');
+const out=outArg===-1?'docs/balance':process.argv[outArg+1],pilot=process.argv.includes('--pilot'),rows=[],started=performance.now();
 mkdirSync(out,{recursive:true});
 const styles=Object.keys(TENDENCIES),majors=Object.keys(CLASSES).flatMap(key=>Object.keys(MAJORS[key]).map(major=>build(key,major)));
 function add(group,a,b,options,extra={}){

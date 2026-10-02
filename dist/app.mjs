@@ -50,7 +50,7 @@ function render(){
   $('intent-note').textContent=e.charge?'可打断 / 近身化解':'提前观其势';
   $('passive-seal').textContent=p.key==='fire'?'生':'剑';$('passive-name').textContent=major.name;$('passive-description').textContent=`${major.effect} 基础心法「${c.passive}」：${c.passiveText}`;
   $('stat-list').innerHTML=[['境界','筑基初期'],['肉身防御',c.physical],['灵力防御',c.magical],['灵气容量','10'],['每回合纳气','5'],['先手','固定你先手']].map(([k,v])=>`<div class="stat-row"><span>${k}</span><b>${v}</b></div>`).join('');
-  $('tip-line').textContent=p.charge?'正在蓄势：释放时仍需中距或远距；敌方贴近到近身或打断都会化解此招。':p.ap===0?'行动点已用尽。结束回合，让对手出招。':`主修小诀：${major.tip}`;
+  $('tip-line').textContent=p.charge?'蓄势中仍可用剩余行动移动、调息或防守，其他神通暂不可用。下次行动开始免费释放，仍需中远距；近身或打断可化解。':p.ap===0?'行动点已用尽。结束回合，让对手出招。':`主修小诀：${major.tip}`;
   const logView=$('battle-log');
   const followLatest=logView.scrollHeight-logView.clientHeight-logView.scrollTop<=32;
   for(const l of b.logs.filter(l=>l.id>lastLog)){const div=document.createElement('div');div.className=`log-entry ${l.type}`;div.textContent=l.text;logView.append(div);lastLog=l.id;}

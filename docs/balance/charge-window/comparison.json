@@ -1,0 +1,475 @@
+{
+  "baseline": {
+    "sourceCommit": "45485959ea762bc2767f78ad96c6071853bcc5f0",
+    "engineHash": "f8e516f68b580ecbbaa7964f08c4cacf34fa03a3",
+    "autoHash": "2076761e25b4129826e4f82aa1e097c9bfa2b6c8"
+  },
+  "revision": {
+    "sourceCommit": "353c8690a46bb8730785fffdb7eb7ed50efba46f",
+    "engineHash": "d63ab1b791ecdd8000e7ec2518d88727f5426f86",
+    "autoHash": "cb202a8d1225afb666670aadf241939d81194854"
+  },
+  "scenarioCounts": {
+    "core": 384,
+    "mirror": 96,
+    "loadout": 1344,
+    "tactical": 384,
+    "campaign": 16
+  },
+  "matrix": [
+    {
+      "fire": "ignite",
+      "sword": "quick",
+      "before": {
+        "n": 32,
+        "w": 13
+      },
+      "after": {
+        "n": 32,
+        "w": 17
+      }
+    },
+    {
+      "fire": "ignite",
+      "sword": "heavy",
+      "before": {
+        "n": 32,
+        "w": 21
+      },
+      "after": {
+        "n": 32,
+        "w": 21
+      }
+    },
+    {
+      "fire": "sustain",
+      "sword": "quick",
+      "before": {
+        "n": 32,
+        "w": 28
+      },
+      "after": {
+        "n": 32,
+        "w": 28
+      }
+    },
+    {
+      "fire": "sustain",
+      "sword": "heavy",
+      "before": {
+        "n": 32,
+        "w": 27
+      },
+      "after": {
+        "n": 32,
+        "w": 27
+      }
+    }
+  ],
+  "tactical": [
+    {
+      "key": "fire",
+      "distance": 1,
+      "before": {
+        "n": 48,
+        "released": 0,
+        "chargeSwing": 3.2916666666666665,
+        "alternativeSwing": 59.229166666666664,
+        "better": 2,
+        "worse": 46,
+        "equal": 0
+      },
+      "after": {
+        "n": 48,
+        "released": 6,
+        "chargeSwing": 14.9375,
+        "alternativeSwing": 59.229166666666664,
+        "better": 4,
+        "worse": 44,
+        "equal": 0
+      }
+    },
+    {
+      "key": "fire",
+      "distance": 2,
+      "before": {
+        "n": 48,
+        "released": 12,
+        "chargeSwing": 27.333333333333332,
+        "alternativeSwing": 70.45833333333333,
+        "better": 4,
+        "worse": 44,
+        "equal": 0
+      },
+      "after": {
+        "n": 48,
+        "released": 12,
+        "chargeSwing": 32.333333333333336,
+        "alternativeSwing": 70.45833333333333,
+        "better": 5,
+        "worse": 43,
+        "equal": 0
+      }
+    },
+    {
+      "key": "sword",
+      "distance": 1,
+      "before": {
+        "n": 48,
+        "released": 4,
+        "chargeSwing": 36.791666666666664,
+        "alternativeSwing": 51.6875,
+        "better": 17,
+        "worse": 29,
+        "equal": 2
+      },
+      "after": {
+        "n": 48,
+        "released": 4,
+        "chargeSwing": 37.333333333333336,
+        "alternativeSwing": 51.6875,
+        "better": 19,
+        "worse": 29,
+        "equal": 0
+      }
+    },
+    {
+      "key": "sword",
+      "distance": 2,
+      "before": {
+        "n": 48,
+        "released": 32,
+        "chargeSwing": 65.29166666666667,
+        "alternativeSwing": -2.4166666666666665,
+        "better": 47,
+        "worse": 1,
+        "equal": 0
+      },
+      "after": {
+        "n": 48,
+        "released": 32,
+        "chargeSwing": 68.91666666666667,
+        "alternativeSwing": -2.4166666666666665,
+        "better": 47,
+        "worse": 1,
+        "equal": 0
+      }
+    }
+  ],
+  "flips": {
+    "core": {
+      "n": 384,
+      "changedWinner": 7
+    },
+    "mirror": {
+      "n": 96,
+      "changedWinner": 8
+    },
+    "loadout": {
+      "n": 1344,
+      "changedWinner": 21
+    }
+  },
+  "charges": {
+    "before": {
+      "unity": {
+        "started": 478,
+        "released": 159,
+        "interrupted": 232,
+        "outOfRange": 17,
+        "unresolved": 70,
+        "hpDamage": 7247,
+        "shieldDamage": 472,
+        "unusedAP": 0
+      },
+      "inferno": {
+        "started": 127,
+        "released": 37,
+        "interrupted": 35,
+        "outOfRange": 27,
+        "unresolved": 28,
+        "hpDamage": 885,
+        "shieldDamage": 790,
+        "unusedAP": 12
+      }
+    },
+    "after": {
+      "unity": {
+        "started": 484,
+        "released": 159,
+        "interrupted": 237,
+        "outOfRange": 11,
+        "unresolved": 77,
+        "hpDamage": 7271,
+        "shieldDamage": 392,
+        "unusedAP": 0
+      },
+      "inferno": {
+        "started": 122,
+        "released": 34,
+        "interrupted": 32,
+        "outOfRange": 30,
+        "unresolved": 26,
+        "hpDamage": 805,
+        "shieldDamage": 747,
+        "unusedAP": 8
+      }
+    }
+  },
+  "initiative": {
+    "before": {
+      "overall": {
+        "n": 384,
+        "wins": 222,
+        "draws": 0
+      },
+      "byMajor": [
+        {
+          "key": "fire",
+          "major": "ignite",
+          "first": {
+            "n": 96,
+            "wins": 61,
+            "losses": 35,
+            "draws": 0,
+            "winRate": 0.6354166666666666,
+            "drawRate": 0,
+            "avgRounds": 5.75
+          },
+          "second": {
+            "n": 96,
+            "wins": 49,
+            "losses": 47,
+            "draws": 0,
+            "winRate": 0.5104166666666666,
+            "drawRate": 0,
+            "avgRounds": 6.03125
+          }
+        },
+        {
+          "key": "fire",
+          "major": "sustain",
+          "first": {
+            "n": 96,
+            "wins": 89,
+            "losses": 7,
+            "draws": 0,
+            "winRate": 0.9270833333333334,
+            "drawRate": 0,
+            "avgRounds": 7.510416666666667
+          },
+          "second": {
+            "n": 96,
+            "wins": 71,
+            "losses": 25,
+            "draws": 0,
+            "winRate": 0.7395833333333334,
+            "drawRate": 0,
+            "avgRounds": 8.375
+          }
+        },
+        {
+          "key": "sword",
+          "major": "quick",
+          "first": {
+            "n": 96,
+            "wins": 35,
+            "losses": 61,
+            "draws": 0,
+            "winRate": 0.3645833333333333,
+            "drawRate": 0,
+            "avgRounds": 7.03125
+          },
+          "second": {
+            "n": 96,
+            "wins": 26,
+            "losses": 70,
+            "draws": 0,
+            "winRate": 0.2708333333333333,
+            "drawRate": 0,
+            "avgRounds": 6.541666666666667
+          }
+        },
+        {
+          "key": "sword",
+          "major": "heavy",
+          "first": {
+            "n": 96,
+            "wins": 37,
+            "losses": 59,
+            "draws": 0,
+            "winRate": 0.3854166666666667,
+            "drawRate": 0,
+            "avgRounds": 7.375
+          },
+          "second": {
+            "n": 96,
+            "wins": 16,
+            "losses": 80,
+            "draws": 0,
+            "winRate": 0.16666666666666666,
+            "drawRate": 0,
+            "avgRounds": 6.71875
+          }
+        }
+      ],
+      "mirrors": [
+        {
+          "key": "fire",
+          "major": "ignite",
+          "n": 24,
+          "firstWins": 22,
+          "draws": 0
+        },
+        {
+          "key": "fire",
+          "major": "sustain",
+          "n": 24,
+          "firstWins": 6,
+          "draws": 0
+        },
+        {
+          "key": "sword",
+          "major": "quick",
+          "n": 24,
+          "firstWins": 10,
+          "draws": 0
+        },
+        {
+          "key": "sword",
+          "major": "heavy",
+          "n": 24,
+          "firstWins": 14,
+          "draws": 0
+        }
+      ]
+    },
+    "after": {
+      "overall": {
+        "n": 384,
+        "wins": 227,
+        "draws": 0
+      },
+      "byMajor": [
+        {
+          "key": "fire",
+          "major": "ignite",
+          "first": {
+            "n": 96,
+            "wins": 66,
+            "losses": 30,
+            "draws": 0,
+            "winRate": 0.6875,
+            "drawRate": 0,
+            "avgRounds": 5.604166666666667
+          },
+          "second": {
+            "n": 96,
+            "wins": 49,
+            "losses": 47,
+            "draws": 0,
+            "winRate": 0.5104166666666666,
+            "drawRate": 0,
+            "avgRounds": 6.03125
+          }
+        },
+        {
+          "key": "fire",
+          "major": "sustain",
+          "first": {
+            "n": 96,
+            "wins": 89,
+            "losses": 7,
+            "draws": 0,
+            "winRate": 0.9270833333333334,
+            "drawRate": 0,
+            "avgRounds": 7.458333333333333
+          },
+          "second": {
+            "n": 96,
+            "wins": 71,
+            "losses": 25,
+            "draws": 0,
+            "winRate": 0.7395833333333334,
+            "drawRate": 0,
+            "avgRounds": 8.3125
+          }
+        },
+        {
+          "key": "sword",
+          "major": "quick",
+          "first": {
+            "n": 96,
+            "wins": 35,
+            "losses": 61,
+            "draws": 0,
+            "winRate": 0.3645833333333333,
+            "drawRate": 0,
+            "avgRounds": 6.989583333333333
+          },
+          "second": {
+            "n": 96,
+            "wins": 21,
+            "losses": 75,
+            "draws": 0,
+            "winRate": 0.21875,
+            "drawRate": 0,
+            "avgRounds": 6.427083333333333
+          }
+        },
+        {
+          "key": "sword",
+          "major": "heavy",
+          "first": {
+            "n": 96,
+            "wins": 37,
+            "losses": 59,
+            "draws": 0,
+            "winRate": 0.3854166666666667,
+            "drawRate": 0,
+            "avgRounds": 7.354166666666667
+          },
+          "second": {
+            "n": 96,
+            "wins": 16,
+            "losses": 80,
+            "draws": 0,
+            "winRate": 0.16666666666666666,
+            "drawRate": 0,
+            "avgRounds": 6.635416666666667
+          }
+        }
+      ],
+      "mirrors": [
+        {
+          "key": "fire",
+          "major": "ignite",
+          "n": 24,
+          "firstWins": 22,
+          "draws": 0
+        },
+        {
+          "key": "fire",
+          "major": "sustain",
+          "n": 24,
+          "firstWins": 6,
+          "draws": 0
+        },
+        {
+          "key": "sword",
+          "major": "quick",
+          "n": 24,
+          "firstWins": 6,
+          "draws": 0
+        },
+        {
+          "key": "sword",
+          "major": "heavy",
+          "n": 24,
+          "firstWins": 14,
+          "draws": 0
+        }
+      ]
+    }
+  }
+}
