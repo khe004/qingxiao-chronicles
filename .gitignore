@@ -4,3 +4,4 @@ docs/balance/passive.json
 docs/balance/**/checkpoint.json
 docs/balance/**/matches.json
 docs/balance/heal-recovery/*.raw.json
+docs/balance/range-movement/*.raw.json

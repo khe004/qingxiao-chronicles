@@ -1,0 +1,27 @@
+{
+  "selected": "blaze_mid",
+  "engineHash": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+  "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+  "sourceCommit": "15662f94354f33a6f80efcac04e04825d204ace4",
+  "sourceHashes": {
+    "engine": "f8ad6bc1dbbe68c986485d645a424a7545d748fa",
+    "auto": "cb202a8d1225afb666670aadf241939d81194854",
+    "arena": "46bcd0121728768f96e2c77cf81deec29801ea31"
+  },
+  "baseline": {
+    "path": "docs/balance/heal-recovery/full.json.gz",
+    "hash": "f05e0772536a65a18d24bbdd50c275f4c12b5606",
+    "controls": 192
+  },
+  "actualDuels": {
+    "screen": 1920,
+    "loadoutExpansion": 1176,
+    "controllerDiagnostic": 192,
+    "earlierControllerDiagnostic": 192,
+    "longReruns": 10,
+    "total": 3490
+  },
+  "matrixRows": 1824,
+  "screenReused": 480,
+  "structurallyReused": 168
+}

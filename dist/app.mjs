@@ -33,7 +33,7 @@ function render(){
   $('distance-explanation').textContent=[
     '近身可施展追风剑、普通剑招与打断技；中远距蓄势大招会落空。',
     '多数神通适合中距；追风剑仅限近身。仍需满足灵气、剑意与行动点要求。',
-    '常规火法与蓄势大招可用；普通剑招和打断技超出距离。'
+    '远程铺垫、低耗火法与蓄势大招可用；焚炎术、普通剑招和打断技超出距离。'
   ][b.distance];
   $('qi-total').textContent=`${total(p.qi)} / 10`;
   $('generation-label').textContent=`每回合 +${Object.entries(c.gen).map(([k,n])=>n+ELEMENT_NAMES[k]).join(' · ')}`;

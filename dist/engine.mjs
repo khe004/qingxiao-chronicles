@@ -7,7 +7,7 @@ export const CLASSES = {
   fire: {name:'火木法修',nameShort:'火木',person:'沈知微',sect:'丹霞谷',title:'木引星火 · 生息不绝',hp:210,physical:22,magical:30,gen:{fire:2,wood:2,any:1},passive:'生息诀',passiveText:'每回合第一次施展木系神通，额外凝聚 1 火灵气。',reaction:'御木诀',reactionElement:'wood',skills:[
     {id:'seed',name:'催生术',symbol:'生',element:'wood',ap:1,cost:{wood:1},kind:'seed',desc:'种下 2 层灵种。焚炎术每引燃一层，伤害提高 20%。',tag:'铺垫',range:[0,1,2]},
     {id:'spark',name:'流火诀',symbol:'焰',element:'fire',ap:1,cost:{fire:1},kind:'attack',power:24,burn:1,desc:'造成术法伤害，附加 1 层灼烧。',tag:'术法',range:[0,1,2]},
-    {id:'blaze',name:'焚炎术',symbol:'燃',element:'fire',ap:1,cost:{fire:2,any:1},kind:'attack',power:46,burn:2,ignite:true,desc:'引燃全部灵种，附加 2 层灼烧。',tag:'引爆',range:[0,1,2]},
+    {id:'blaze',name:'焚炎术',symbol:'燃',element:'fire',ap:1,cost:{fire:2,any:1},kind:'attack',power:46,burn:2,ignite:true,desc:'引燃全部灵种，附加 2 层灼烧。',tag:'引爆',range:[0,1]},
     {id:'heal',name:'青木回春',symbol:'愈',element:'wood',ap:1,cost:{wood:2},kind:'heal',heal:HEAL_RECOVERY,clearBurn:HEAL_CLEAR_BURN,desc:`恢复 ${HEAL_RECOVERY} 气血，${HEAL_CLEAR_BURN>=5?'清除自身灼烧':`清除至多 ${HEAL_CLEAR_BURN} 层自身灼烧`}。`,tag:'恢复',range:[0,1,2]},
     {id:'vine',name:'缠灵藤',symbol:'缚',element:'wood',ap:1,cost:{wood:1},kind:'attack',power:12,interrupt:true,desc:'造成术法伤害，打断敌人蓄势。',tag:'打断',range:[0,1]},
     {id:'ember',name:'星火引',symbol:'引',element:'fire',ap:1,cost:{fire:1},kind:'attack',power:18,partialIgnite:2,desc:'消耗至多 2 层灵种，每层增加 10 基础伤害；保留剩余灵种。',tag:'分燃',range:[0,1,2]},
