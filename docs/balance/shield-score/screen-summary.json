@@ -1,0 +1,524 @@
+{
+  "sourceCommit": "0051822062722704ebce48512d7c97ff9520e520",
+  "sourceHashes": {
+    "dist/engine.mjs": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+    "dist/auto.mjs": "cb202a8d1225afb666670aadf241939d81194854",
+    "scripts/predictive-arena.mjs": "b44fec45c2d0c0ca387840dd7225c294f786b923",
+    "scripts/planner-internals.mjs": "0749663d2031fc6a45cac7e4482d858d334661b8"
+  },
+  "generatorHash": "57c1f2f105031e58cbe388289db8d05d527c1f5e",
+  "helperHash": "3747889a199316d6d16ff4972fda7c143199644e",
+  "executions": 120,
+  "controls": 12,
+  "reused": 36,
+  "rowsPerCandidate": 36,
+  "variable": "Add (starting enemy shield - forecast enemy shield) * own-shield score weight * ratio; all rules, weights, search filters and 12-candidate budget unchanged.",
+  "elapsedSeconds": 527.519710603,
+  "candidates": [
+    {
+      "id": "base",
+      "ratio": 0,
+      "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+      "reused": 36,
+      "statistics": {
+        "core": {
+          "n": 24,
+          "wins": 8,
+          "losses": 16,
+          "unresolved": 0,
+          "avgRounds": 8.25,
+          "avgUnusedAP": 1.7916666666666667,
+          "avgGuards": 6.458333333333333
+        },
+        "mirror": {
+          "n": 12,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 12,
+          "avgRounds": 30,
+          "avgUnusedAP": 117.83333333333333,
+          "avgGuards": 29.5
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 12,
+            "wins": 4,
+            "losses": 8,
+            "unresolved": 0,
+            "avgRounds": 8.5,
+            "avgUnusedAP": 1.5833333333333333,
+            "avgGuards": 6.75
+          },
+          {
+            "major": "sustain",
+            "n": 12,
+            "wins": 4,
+            "losses": 8,
+            "unresolved": 0,
+            "avgRounds": 8,
+            "avgUnusedAP": 2,
+            "avgGuards": 6.166666666666667
+          }
+        ],
+        "byDistance": [
+          {
+            "distance": 0,
+            "n": 8,
+            "wins": 4,
+            "losses": 4,
+            "unresolved": 0,
+            "avgRounds": 7,
+            "avgUnusedAP": 0.75,
+            "avgGuards": 4
+          },
+          {
+            "distance": 1,
+            "n": 8,
+            "wins": 1,
+            "losses": 7,
+            "unresolved": 0,
+            "avgRounds": 7.875,
+            "avgUnusedAP": 2.125,
+            "avgGuards": 5.875
+          },
+          {
+            "distance": 2,
+            "n": 8,
+            "wins": 3,
+            "losses": 5,
+            "unresolved": 0,
+            "avgRounds": 9.875,
+            "avgUnusedAP": 2.5,
+            "avgGuards": 9.5
+          }
+        ],
+        "byInitiative": [
+          {
+            "first": 0,
+            "n": 12,
+            "wins": 8,
+            "losses": 4,
+            "unresolved": 0,
+            "avgRounds": 9.75,
+            "avgUnusedAP": 2.3333333333333335,
+            "avgGuards": 8.5
+          },
+          {
+            "first": 1,
+            "n": 12,
+            "wins": 0,
+            "losses": 12,
+            "unresolved": 0,
+            "avgRounds": 6.75,
+            "avgUnusedAP": 1.25,
+            "avgGuards": 4.416666666666667
+          }
+        ],
+        "mirrorMajors": [
+          {
+            "major": "quick",
+            "n": 6,
+            "wins": 0,
+            "losses": 0,
+            "unresolved": 6,
+            "avgRounds": 30,
+            "avgUnusedAP": 119.66666666666667,
+            "avgGuards": 29,
+            "firstWins": 0
+          },
+          {
+            "major": "heavy",
+            "n": 6,
+            "wins": 0,
+            "losses": 0,
+            "unresolved": 6,
+            "avgRounds": 30,
+            "avgUnusedAP": 116,
+            "avgGuards": 30,
+            "firstWins": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "half",
+      "ratio": 0.5,
+      "autoHash": "e9ec29763cd57dc508b04fde6b7604ff25e7b148",
+      "reused": 0,
+      "statistics": {
+        "core": {
+          "n": 24,
+          "wins": 11,
+          "losses": 13,
+          "unresolved": 0,
+          "avgRounds": 8.541666666666666,
+          "avgUnusedAP": 0.20833333333333334,
+          "avgGuards": 7.083333333333333
+        },
+        "mirror": {
+          "n": 12,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 8,
+          "avgRounds": 26.333333333333332,
+          "avgUnusedAP": 12.5,
+          "avgGuards": 49.5
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 12,
+            "wins": 5,
+            "losses": 7,
+            "unresolved": 0,
+            "avgRounds": 8.666666666666666,
+            "avgUnusedAP": 0.08333333333333333,
+            "avgGuards": 7.833333333333333
+          },
+          {
+            "major": "sustain",
+            "n": 12,
+            "wins": 6,
+            "losses": 6,
+            "unresolved": 0,
+            "avgRounds": 8.416666666666666,
+            "avgUnusedAP": 0.3333333333333333,
+            "avgGuards": 6.333333333333333
+          }
+        ],
+        "byDistance": [
+          {
+            "distance": 0,
+            "n": 8,
+            "wins": 4,
+            "losses": 4,
+            "unresolved": 0,
+            "avgRounds": 7.375,
+            "avgUnusedAP": 0,
+            "avgGuards": 5.25
+          },
+          {
+            "distance": 1,
+            "n": 8,
+            "wins": 3,
+            "losses": 5,
+            "unresolved": 0,
+            "avgRounds": 8.75,
+            "avgUnusedAP": 0.625,
+            "avgGuards": 7.375
+          },
+          {
+            "distance": 2,
+            "n": 8,
+            "wins": 4,
+            "losses": 4,
+            "unresolved": 0,
+            "avgRounds": 9.5,
+            "avgUnusedAP": 0,
+            "avgGuards": 8.625
+          }
+        ],
+        "byInitiative": [
+          {
+            "first": 0,
+            "n": 12,
+            "wins": 10,
+            "losses": 2,
+            "unresolved": 0,
+            "avgRounds": 10.25,
+            "avgUnusedAP": 0,
+            "avgGuards": 10
+          },
+          {
+            "first": 1,
+            "n": 12,
+            "wins": 1,
+            "losses": 11,
+            "unresolved": 0,
+            "avgRounds": 6.833333333333333,
+            "avgUnusedAP": 0.4166666666666667,
+            "avgGuards": 4.166666666666667
+          }
+        ],
+        "mirrorMajors": [
+          {
+            "major": "quick",
+            "n": 6,
+            "wins": 0,
+            "losses": 0,
+            "unresolved": 6,
+            "avgRounds": 30,
+            "avgUnusedAP": 0,
+            "avgGuards": 63.666666666666664,
+            "firstWins": 0
+          },
+          {
+            "major": "heavy",
+            "n": 6,
+            "wins": 2,
+            "losses": 2,
+            "unresolved": 2,
+            "avgRounds": 22.666666666666668,
+            "avgUnusedAP": 25,
+            "avgGuards": 35.333333333333336,
+            "firstWins": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "equal",
+      "ratio": 1,
+      "autoHash": "b3ed7bbe0ec27b623c59ca54e910dcce2e0991cd",
+      "reused": 0,
+      "statistics": {
+        "core": {
+          "n": 24,
+          "wins": 10,
+          "losses": 14,
+          "unresolved": 0,
+          "avgRounds": 8.833333333333334,
+          "avgUnusedAP": 0,
+          "avgGuards": 7
+        },
+        "mirror": {
+          "n": 12,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 6,
+          "avgRounds": 25,
+          "avgUnusedAP": 1.5,
+          "avgGuards": 53.5
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 12,
+            "wins": 6,
+            "losses": 6,
+            "unresolved": 0,
+            "avgRounds": 8.5,
+            "avgUnusedAP": 0,
+            "avgGuards": 6.916666666666667
+          },
+          {
+            "major": "sustain",
+            "n": 12,
+            "wins": 4,
+            "losses": 8,
+            "unresolved": 0,
+            "avgRounds": 9.166666666666666,
+            "avgUnusedAP": 0,
+            "avgGuards": 7.083333333333333
+          }
+        ],
+        "byDistance": [
+          {
+            "distance": 0,
+            "n": 8,
+            "wins": 3,
+            "losses": 5,
+            "unresolved": 0,
+            "avgRounds": 7.625,
+            "avgUnusedAP": 0,
+            "avgGuards": 4.625
+          },
+          {
+            "distance": 1,
+            "n": 8,
+            "wins": 2,
+            "losses": 6,
+            "unresolved": 0,
+            "avgRounds": 9,
+            "avgUnusedAP": 0,
+            "avgGuards": 7.375
+          },
+          {
+            "distance": 2,
+            "n": 8,
+            "wins": 5,
+            "losses": 3,
+            "unresolved": 0,
+            "avgRounds": 9.875,
+            "avgUnusedAP": 0,
+            "avgGuards": 9
+          }
+        ],
+        "byInitiative": [
+          {
+            "first": 0,
+            "n": 12,
+            "wins": 9,
+            "losses": 3,
+            "unresolved": 0,
+            "avgRounds": 10.583333333333334,
+            "avgUnusedAP": 0,
+            "avgGuards": 9.333333333333334
+          },
+          {
+            "first": 1,
+            "n": 12,
+            "wins": 1,
+            "losses": 11,
+            "unresolved": 0,
+            "avgRounds": 7.083333333333333,
+            "avgUnusedAP": 0,
+            "avgGuards": 4.666666666666667
+          }
+        ],
+        "mirrorMajors": [
+          {
+            "major": "quick",
+            "n": 6,
+            "wins": 0,
+            "losses": 0,
+            "unresolved": 6,
+            "avgRounds": 30,
+            "avgUnusedAP": 0,
+            "avgGuards": 63.666666666666664,
+            "firstWins": 0
+          },
+          {
+            "major": "heavy",
+            "n": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "avgRounds": 20,
+            "avgUnusedAP": 3,
+            "avgGuards": 43.333333333333336,
+            "firstWins": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "double",
+      "ratio": 2,
+      "autoHash": "77343207a44e05d3aadf59662e2e99126fe2a4fd",
+      "reused": 0,
+      "statistics": {
+        "core": {
+          "n": 24,
+          "wins": 7,
+          "losses": 17,
+          "unresolved": 0,
+          "avgRounds": 8.291666666666666,
+          "avgUnusedAP": 0,
+          "avgGuards": 5.583333333333333
+        },
+        "mirror": {
+          "n": 12,
+          "wins": 6,
+          "losses": 6,
+          "unresolved": 0,
+          "avgRounds": 19.666666666666668,
+          "avgUnusedAP": 0.16666666666666666,
+          "avgGuards": 40.5
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 12,
+            "wins": 3,
+            "losses": 9,
+            "unresolved": 0,
+            "avgRounds": 8.333333333333334,
+            "avgUnusedAP": 0,
+            "avgGuards": 6.083333333333333
+          },
+          {
+            "major": "sustain",
+            "n": 12,
+            "wins": 4,
+            "losses": 8,
+            "unresolved": 0,
+            "avgRounds": 8.25,
+            "avgUnusedAP": 0,
+            "avgGuards": 5.083333333333333
+          }
+        ],
+        "byDistance": [
+          {
+            "distance": 0,
+            "n": 8,
+            "wins": 2,
+            "losses": 6,
+            "unresolved": 0,
+            "avgRounds": 6.75,
+            "avgUnusedAP": 0,
+            "avgGuards": 3
+          },
+          {
+            "distance": 1,
+            "n": 8,
+            "wins": 3,
+            "losses": 5,
+            "unresolved": 0,
+            "avgRounds": 8.75,
+            "avgUnusedAP": 0,
+            "avgGuards": 6.125
+          },
+          {
+            "distance": 2,
+            "n": 8,
+            "wins": 2,
+            "losses": 6,
+            "unresolved": 0,
+            "avgRounds": 9.375,
+            "avgUnusedAP": 0,
+            "avgGuards": 7.625
+          }
+        ],
+        "byInitiative": [
+          {
+            "first": 0,
+            "n": 12,
+            "wins": 7,
+            "losses": 5,
+            "unresolved": 0,
+            "avgRounds": 9.666666666666666,
+            "avgUnusedAP": 0,
+            "avgGuards": 6.5
+          },
+          {
+            "first": 1,
+            "n": 12,
+            "wins": 0,
+            "losses": 12,
+            "unresolved": 0,
+            "avgRounds": 6.916666666666667,
+            "avgUnusedAP": 0,
+            "avgGuards": 4.666666666666667
+          }
+        ],
+        "mirrorMajors": [
+          {
+            "major": "quick",
+            "n": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "avgRounds": 25.666666666666668,
+            "avgUnusedAP": 0,
+            "avgGuards": 56,
+            "firstWins": 6
+          },
+          {
+            "major": "heavy",
+            "n": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "avgRounds": 13.666666666666666,
+            "avgUnusedAP": 0.3333333333333333,
+            "avgGuards": 25,
+            "firstWins": 6
+          }
+        ]
+      }
+    }
+  ],
+  "metadataNote": "Inherited censoredProbes from previous forecast audit removed after screening; no forecasts sampled or counted in this scoring experiment. Original screen generator and helper frozen in source.json.gz."
+}

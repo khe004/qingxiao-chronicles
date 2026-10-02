@@ -1,0 +1,860 @@
+{
+  "screenExecutions": 120,
+  "screenControls": 12,
+  "screenReused": 36,
+  "screen": {
+    "base": {
+      "core": {
+        "n": 24,
+        "wins": 8,
+        "losses": 16,
+        "unresolved": 0,
+        "firstWins": 20,
+        "avgRounds": 8.25,
+        "avgUnusedAP": 1.7916666666666667,
+        "avgGuards": 6.458333333333333
+      },
+      "fireMirror": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "unresolved": 0,
+        "firstWins": 0,
+        "avgRounds": null,
+        "avgUnusedAP": null,
+        "avgGuards": null
+      },
+      "swordMirror": {
+        "n": 12,
+        "wins": 0,
+        "losses": 0,
+        "unresolved": 12,
+        "firstWins": 0,
+        "avgRounds": 30,
+        "avgUnusedAP": 117.83333333333333,
+        "avgGuards": 29.5
+      },
+      "mirrorMajors": {
+        "ignite": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "sustain": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "quick": {
+          "n": 6,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 6,
+          "firstWins": 0,
+          "avgRounds": 30,
+          "avgUnusedAP": 119.66666666666667,
+          "avgGuards": 29
+        },
+        "heavy": {
+          "n": 6,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 6,
+          "firstWins": 0,
+          "avgRounds": 30,
+          "avgUnusedAP": 116,
+          "avgGuards": 30
+        }
+      }
+    },
+    "half": {
+      "core": {
+        "n": 24,
+        "wins": 11,
+        "losses": 13,
+        "unresolved": 0,
+        "firstWins": 21,
+        "avgRounds": 8.541666666666666,
+        "avgUnusedAP": 0.20833333333333334,
+        "avgGuards": 7.083333333333333
+      },
+      "fireMirror": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "unresolved": 0,
+        "firstWins": 0,
+        "avgRounds": null,
+        "avgUnusedAP": null,
+        "avgGuards": null
+      },
+      "swordMirror": {
+        "n": 12,
+        "wins": 2,
+        "losses": 2,
+        "unresolved": 8,
+        "firstWins": 4,
+        "avgRounds": 26.333333333333332,
+        "avgUnusedAP": 12.5,
+        "avgGuards": 49.5
+      },
+      "mirrorMajors": {
+        "ignite": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "sustain": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "quick": {
+          "n": 6,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 6,
+          "firstWins": 0,
+          "avgRounds": 30,
+          "avgUnusedAP": 0,
+          "avgGuards": 63.666666666666664
+        },
+        "heavy": {
+          "n": 6,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 2,
+          "firstWins": 4,
+          "avgRounds": 22.666666666666668,
+          "avgUnusedAP": 25,
+          "avgGuards": 35.333333333333336
+        }
+      }
+    },
+    "equal": {
+      "core": {
+        "n": 24,
+        "wins": 10,
+        "losses": 14,
+        "unresolved": 0,
+        "firstWins": 20,
+        "avgRounds": 8.833333333333334,
+        "avgUnusedAP": 0,
+        "avgGuards": 7
+      },
+      "fireMirror": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "unresolved": 0,
+        "firstWins": 0,
+        "avgRounds": null,
+        "avgUnusedAP": null,
+        "avgGuards": null
+      },
+      "swordMirror": {
+        "n": 12,
+        "wins": 3,
+        "losses": 3,
+        "unresolved": 6,
+        "firstWins": 2,
+        "avgRounds": 25,
+        "avgUnusedAP": 1.5,
+        "avgGuards": 53.5
+      },
+      "mirrorMajors": {
+        "ignite": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "sustain": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "quick": {
+          "n": 6,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 6,
+          "firstWins": 0,
+          "avgRounds": 30,
+          "avgUnusedAP": 0,
+          "avgGuards": 63.666666666666664
+        },
+        "heavy": {
+          "n": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0,
+          "firstWins": 2,
+          "avgRounds": 20,
+          "avgUnusedAP": 3,
+          "avgGuards": 43.333333333333336
+        }
+      }
+    },
+    "double": {
+      "core": {
+        "n": 24,
+        "wins": 7,
+        "losses": 17,
+        "unresolved": 0,
+        "firstWins": 19,
+        "avgRounds": 8.291666666666666,
+        "avgUnusedAP": 0,
+        "avgGuards": 5.583333333333333
+      },
+      "fireMirror": {
+        "n": 0,
+        "wins": 0,
+        "losses": 0,
+        "unresolved": 0,
+        "firstWins": 0,
+        "avgRounds": null,
+        "avgUnusedAP": null,
+        "avgGuards": null
+      },
+      "swordMirror": {
+        "n": 12,
+        "wins": 6,
+        "losses": 6,
+        "unresolved": 0,
+        "firstWins": 12,
+        "avgRounds": 19.666666666666668,
+        "avgUnusedAP": 0.16666666666666666,
+        "avgGuards": 40.5
+      },
+      "mirrorMajors": {
+        "ignite": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "sustain": {
+          "n": 0,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": null,
+          "avgUnusedAP": null,
+          "avgGuards": null
+        },
+        "quick": {
+          "n": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0,
+          "firstWins": 6,
+          "avgRounds": 25.666666666666668,
+          "avgUnusedAP": 0,
+          "avgGuards": 56
+        },
+        "heavy": {
+          "n": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0,
+          "firstWins": 6,
+          "avgRounds": 13.666666666666666,
+          "avgUnusedAP": 0.3333333333333333,
+          "avgGuards": 25
+        }
+      }
+    }
+  },
+  "validationExecutions": 109,
+  "totalExecutions": 229,
+  "balanced": {
+    "core": {
+      "n": 24,
+      "wins": 7,
+      "losses": 17,
+      "unresolved": 0,
+      "firstWins": 19,
+      "avgRounds": 8.291666666666666,
+      "avgUnusedAP": 0,
+      "avgGuards": 5.583333333333333
+    },
+    "fireMirror": {
+      "n": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "firstWins": 10,
+      "avgRounds": 8.333333333333334,
+      "avgUnusedAP": 0,
+      "avgGuards": 0
+    },
+    "swordMirror": {
+      "n": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "firstWins": 12,
+      "avgRounds": 19.666666666666668,
+      "avgUnusedAP": 0.16666666666666666,
+      "avgGuards": 40.5
+    },
+    "mirrorMajors": {
+      "ignite": {
+        "n": 6,
+        "wins": 3,
+        "losses": 3,
+        "unresolved": 0,
+        "firstWins": 6,
+        "avgRounds": 7.333333333333333,
+        "avgUnusedAP": 0,
+        "avgGuards": 0
+      },
+      "sustain": {
+        "n": 6,
+        "wins": 3,
+        "losses": 3,
+        "unresolved": 0,
+        "firstWins": 4,
+        "avgRounds": 9.333333333333334,
+        "avgUnusedAP": 0,
+        "avgGuards": 0
+      },
+      "quick": {
+        "n": 6,
+        "wins": 3,
+        "losses": 3,
+        "unresolved": 0,
+        "firstWins": 6,
+        "avgRounds": 25.666666666666668,
+        "avgUnusedAP": 0,
+        "avgGuards": 56
+      },
+      "heavy": {
+        "n": 6,
+        "wins": 3,
+        "losses": 3,
+        "unresolved": 0,
+        "firstWins": 6,
+        "avgRounds": 13.666666666666666,
+        "avgUnusedAP": 0.3333333333333333,
+        "avgGuards": 25
+      }
+    }
+  },
+  "styles": {
+    "aggressive": {
+      "control": {
+        "core": {
+          "n": 8,
+          "wins": 1,
+          "losses": 7,
+          "unresolved": 0,
+          "firstWins": 5,
+          "avgRounds": 3.75,
+          "avgUnusedAP": 0,
+          "avgGuards": 0.125
+        },
+        "fireMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 4,
+          "avgUnusedAP": 0,
+          "avgGuards": 0
+        },
+        "swordMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 4,
+          "avgUnusedAP": 0,
+          "avgGuards": 0
+        },
+        "mirrorMajors": {
+          "ignite": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 3,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "sustain": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 5,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "quick": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 4,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "heavy": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 4,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          }
+        }
+      },
+      "candidate": {
+        "core": {
+          "n": 8,
+          "wins": 1,
+          "losses": 7,
+          "unresolved": 0,
+          "firstWins": 5,
+          "avgRounds": 3.75,
+          "avgUnusedAP": 0,
+          "avgGuards": 0.125
+        },
+        "fireMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 4,
+          "avgUnusedAP": 0,
+          "avgGuards": 0
+        },
+        "swordMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 4,
+          "avgUnusedAP": 0,
+          "avgGuards": 0
+        },
+        "mirrorMajors": {
+          "ignite": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 3,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "sustain": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 5,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "quick": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 4,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "heavy": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 4,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          }
+        }
+      }
+    },
+    "defensive": {
+      "control": {
+        "core": {
+          "n": 8,
+          "wins": 3,
+          "losses": 5,
+          "unresolved": 0,
+          "firstWins": 7,
+          "avgRounds": 19.5,
+          "avgUnusedAP": 5.875,
+          "avgGuards": 22
+        },
+        "fireMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 0,
+          "avgRounds": 16,
+          "avgUnusedAP": 2.5,
+          "avgGuards": 0
+        },
+        "swordMirror": {
+          "n": 4,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 4,
+          "firstWins": 0,
+          "avgRounds": 30,
+          "avgUnusedAP": 101,
+          "avgGuards": 39.5
+        },
+        "mirrorMajors": {
+          "ignite": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 0,
+            "avgRounds": 14,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "sustain": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 0,
+            "avgRounds": 18,
+            "avgUnusedAP": 5,
+            "avgGuards": 0
+          },
+          "quick": {
+            "n": 2,
+            "wins": 0,
+            "losses": 0,
+            "unresolved": 2,
+            "firstWins": 0,
+            "avgRounds": 30,
+            "avgUnusedAP": 44,
+            "avgGuards": 63
+          },
+          "heavy": {
+            "n": 2,
+            "wins": 0,
+            "losses": 0,
+            "unresolved": 2,
+            "firstWins": 0,
+            "avgRounds": 30,
+            "avgUnusedAP": 158,
+            "avgGuards": 16
+          }
+        }
+      },
+      "candidate": {
+        "core": {
+          "n": 8,
+          "wins": 1,
+          "losses": 7,
+          "unresolved": 0,
+          "firstWins": 5,
+          "avgRounds": 16.875,
+          "avgUnusedAP": 1,
+          "avgGuards": 20.625
+        },
+        "fireMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 2,
+          "avgRounds": 14.5,
+          "avgUnusedAP": 1.5,
+          "avgGuards": 0
+        },
+        "swordMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 22,
+          "avgUnusedAP": 0.5,
+          "avgGuards": 43.5
+        },
+        "mirrorMajors": {
+          "ignite": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 0,
+            "avgRounds": 14,
+            "avgUnusedAP": 1,
+            "avgGuards": 0
+          },
+          "sustain": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 15,
+            "avgUnusedAP": 2,
+            "avgGuards": 0
+          },
+          "quick": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 30,
+            "avgUnusedAP": 1,
+            "avgGuards": 59
+          },
+          "heavy": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 14,
+            "avgUnusedAP": 0,
+            "avgGuards": 28
+          }
+        }
+      }
+    },
+    "burst": {
+      "control": {
+        "core": {
+          "n": 8,
+          "wins": 5,
+          "losses": 3,
+          "unresolved": 0,
+          "firstWins": 7,
+          "avgRounds": 6.375,
+          "avgUnusedAP": 0,
+          "avgGuards": 2.625
+        },
+        "fireMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 5,
+          "avgUnusedAP": 0,
+          "avgGuards": 0
+        },
+        "swordMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 2,
+          "avgRounds": 19.5,
+          "avgUnusedAP": 9.5,
+          "avgGuards": 35.5
+        },
+        "mirrorMajors": {
+          "ignite": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 4,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "sustain": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 6,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "quick": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 21,
+            "avgUnusedAP": 13,
+            "avgGuards": 36
+          },
+          "heavy": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 0,
+            "avgRounds": 18,
+            "avgUnusedAP": 6,
+            "avgGuards": 35
+          }
+        }
+      },
+      "candidate": {
+        "core": {
+          "n": 8,
+          "wins": 6,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 6,
+          "avgRounds": 5.75,
+          "avgUnusedAP": 0,
+          "avgGuards": 1.625
+        },
+        "fireMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 5,
+          "avgUnusedAP": 0,
+          "avgGuards": 0
+        },
+        "swordMirror": {
+          "n": 4,
+          "wins": 2,
+          "losses": 2,
+          "unresolved": 0,
+          "firstWins": 4,
+          "avgRounds": 14,
+          "avgUnusedAP": 0,
+          "avgGuards": 24
+        },
+        "mirrorMajors": {
+          "ignite": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 4,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "sustain": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 6,
+            "avgUnusedAP": 0,
+            "avgGuards": 0
+          },
+          "quick": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 19,
+            "avgUnusedAP": 0,
+            "avgGuards": 34
+          },
+          "heavy": {
+            "n": 2,
+            "wins": 1,
+            "losses": 1,
+            "unresolved": 0,
+            "firstWins": 2,
+            "avgRounds": 9,
+            "avgUnusedAP": 0,
+            "avgGuards": 14
+          }
+        }
+      }
+    }
+  },
+  "long": [
+    {
+      "variant": "equal",
+      "group": "lower-weight-long",
+      "major": "quick",
+      "opponent": "quick",
+      "distance": 1,
+      "first": 0,
+      "tendency": "balanced",
+      "winner": 0,
+      "rounds": 67,
+      "at30": [
+        209,
+        187
+      ],
+      "hp": [
+        80,
+        0
+      ],
+      "unusedAP": [
+        0,
+        0
+      ],
+      "guards": [
+        62,
+        64
+      ]
+    }
+  ]
+}
