@@ -1,0 +1,1045 @@
+{
+  "engineHash": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+  "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+  "runtimeHash": "b44fec45c2d0c0ca387840dd7225c294f786b923",
+  "adapterHash": "0749663d2031fc6a45cac7e4482d858d334661b8",
+  "generatorHash": "4525f52d48c57e0a949a5761f0af94910f6ed76e",
+  "scope": "Recommended builds only; balanced preferences on both sides; 24 cross-school and 24 mirror cases per controller. No numeric changes. Deterministic counts, not human win rates.",
+  "candidateLimit": 12,
+  "truncation": "Adaptive controller ranks own-turn combinations by immediate score and keeps at most 12 for opponent-phase evaluation, reserving stop/charge/heal/move/guard/interrupt candidates when available. Adaptive opponent at depth zero is approximated by immediate controller. Other known policies run exactly; symmetric reactions and initiative boundaries are explicit.",
+  "horizon": "Forecasts compared at original actor next phase start including burn and free charge release, or immediate death. First actor foe phase is same-round; second actor foe phase begins after both regen.",
+  "duels": 192,
+  "probes": 3350,
+  "censoredProbes": 18,
+  "summaries": [
+    {
+      "controller": "legacy",
+      "core": {
+        "n": 24,
+        "wins": 18,
+        "losses": 6,
+        "draws": 0,
+        "avgRounds": 7.25
+      },
+      "byMajor": [
+        {
+          "major": "ignite",
+          "n": 12,
+          "wins": 8,
+          "losses": 4,
+          "draws": 0,
+          "avgRounds": 6,
+          "first": {
+            "n": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0,
+            "avgRounds": 6.5
+          },
+          "second": {
+            "n": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0,
+            "avgRounds": 5.5
+          }
+        },
+        {
+          "major": "sustain",
+          "n": 12,
+          "wins": 10,
+          "losses": 2,
+          "draws": 0,
+          "avgRounds": 8.5,
+          "first": {
+            "n": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0,
+            "avgRounds": 10.5
+          },
+          "second": {
+            "n": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0,
+            "avgRounds": 6.5
+          }
+        }
+      ],
+      "byDistance": [
+        {
+          "distance": 0,
+          "n": 8,
+          "wins": 6,
+          "losses": 2,
+          "draws": 0,
+          "avgRounds": 6.375
+        },
+        {
+          "distance": 1,
+          "n": 8,
+          "wins": 7,
+          "losses": 1,
+          "draws": 0,
+          "avgRounds": 8.125
+        },
+        {
+          "distance": 2,
+          "n": 8,
+          "wins": 5,
+          "losses": 3,
+          "draws": 0,
+          "avgRounds": 7.25
+        }
+      ],
+      "mirrors": [
+        {
+          "major": "ignite",
+          "n": 6,
+          "firstWins": 6,
+          "draws": 0
+        },
+        {
+          "major": "sustain",
+          "n": 6,
+          "firstWins": 2,
+          "draws": 0
+        },
+        {
+          "major": "quick",
+          "n": 6,
+          "firstWins": 2,
+          "draws": 0
+        },
+        {
+          "major": "heavy",
+          "n": 6,
+          "firstWins": 2,
+          "draws": 0
+        }
+      ],
+      "forecasts": [
+        {
+          "model": "legacy",
+          "n": 678,
+          "ownHpMAE": 22.550147492625367,
+          "opponentHpMAE": 9.868731563421829,
+          "fullStateMatches": 43,
+          "distanceMatches": 511,
+          "outcomeMatches": 633,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 308,
+              "ownHpMAE": 23.087662337662337,
+              "opponentHpMAE": 9.613636363636363,
+              "fullStateMatches": 33,
+              "distanceMatches": 225,
+              "outcomeMatches": 285
+            },
+            {
+              "group": "mirror",
+              "n": 370,
+              "ownHpMAE": 22.102702702702704,
+              "opponentHpMAE": 10.08108108108108,
+              "fullStateMatches": 10,
+              "distanceMatches": 286,
+              "outcomeMatches": 348
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 350,
+              "ownHpMAE": 19.248571428571427,
+              "opponentHpMAE": 10.371428571428572,
+              "fullStateMatches": 43,
+              "distanceMatches": 268,
+              "outcomeMatches": 334
+            },
+            {
+              "first": false,
+              "n": 328,
+              "ownHpMAE": 26.073170731707318,
+              "opponentHpMAE": 9.332317073170731,
+              "fullStateMatches": 0,
+              "distanceMatches": 243,
+              "outcomeMatches": 299
+            }
+          ]
+        },
+        {
+          "model": "fixed",
+          "n": 678,
+          "ownHpMAE": 20.92920353982301,
+          "opponentHpMAE": 7.171091445427729,
+          "fullStateMatches": 55,
+          "distanceMatches": 503,
+          "outcomeMatches": 643,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 308,
+              "ownHpMAE": 19.24025974025974,
+              "opponentHpMAE": 8.084415584415584,
+              "fullStateMatches": 39,
+              "distanceMatches": 215,
+              "outcomeMatches": 291
+            },
+            {
+              "group": "mirror",
+              "n": 370,
+              "ownHpMAE": 22.335135135135136,
+              "opponentHpMAE": 6.410810810810811,
+              "fullStateMatches": 16,
+              "distanceMatches": 288,
+              "outcomeMatches": 352
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 350,
+              "ownHpMAE": 18.888571428571428,
+              "opponentHpMAE": 6.92,
+              "fullStateMatches": 43,
+              "distanceMatches": 269,
+              "outcomeMatches": 335
+            },
+            {
+              "first": false,
+              "n": 328,
+              "ownHpMAE": 23.10670731707317,
+              "opponentHpMAE": 7.439024390243903,
+              "fullStateMatches": 12,
+              "distanceMatches": 234,
+              "outcomeMatches": 308
+            }
+          ]
+        },
+        {
+          "model": "adaptive",
+          "n": 678,
+          "ownHpMAE": 0,
+          "opponentHpMAE": 0,
+          "fullStateMatches": 678,
+          "distanceMatches": 678,
+          "outcomeMatches": 678,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 308,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 308,
+              "distanceMatches": 308,
+              "outcomeMatches": 308
+            },
+            {
+              "group": "mirror",
+              "n": 370,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 370,
+              "distanceMatches": 370,
+              "outcomeMatches": 370
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 350,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 350,
+              "distanceMatches": 350,
+              "outcomeMatches": 350
+            },
+            {
+              "first": false,
+              "n": 328,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 328,
+              "distanceMatches": 328,
+              "outcomeMatches": 328
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "controller": "immediate",
+      "core": {
+        "n": 24,
+        "wins": 5,
+        "losses": 19,
+        "draws": 0,
+        "avgRounds": 3.5416666666666665
+      },
+      "byMajor": [
+        {
+          "major": "ignite",
+          "n": 12,
+          "wins": 4,
+          "losses": 8,
+          "draws": 0,
+          "avgRounds": 3.0833333333333335,
+          "first": {
+            "n": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0,
+            "avgRounds": 3.1666666666666665
+          },
+          "second": {
+            "n": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0,
+            "avgRounds": 3
+          }
+        },
+        {
+          "major": "sustain",
+          "n": 12,
+          "wins": 1,
+          "losses": 11,
+          "draws": 0,
+          "avgRounds": 4,
+          "first": {
+            "n": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0,
+            "avgRounds": 4
+          },
+          "second": {
+            "n": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0,
+            "avgRounds": 4
+          }
+        }
+      ],
+      "byDistance": [
+        {
+          "distance": 0,
+          "n": 8,
+          "wins": 1,
+          "losses": 7,
+          "draws": 0,
+          "avgRounds": 3.5
+        },
+        {
+          "distance": 1,
+          "n": 8,
+          "wins": 1,
+          "losses": 7,
+          "draws": 0,
+          "avgRounds": 3.5
+        },
+        {
+          "distance": 2,
+          "n": 8,
+          "wins": 3,
+          "losses": 5,
+          "draws": 0,
+          "avgRounds": 3.625
+        }
+      ],
+      "mirrors": [
+        {
+          "major": "ignite",
+          "n": 6,
+          "firstWins": 4,
+          "draws": 0
+        },
+        {
+          "major": "sustain",
+          "n": 6,
+          "firstWins": 0,
+          "draws": 0
+        },
+        {
+          "major": "quick",
+          "n": 6,
+          "firstWins": 0,
+          "draws": 0
+        },
+        {
+          "major": "heavy",
+          "n": 6,
+          "firstWins": 0,
+          "draws": 0
+        }
+      ],
+      "forecasts": [
+        {
+          "model": "legacy",
+          "n": 280,
+          "ownHpMAE": 29.175,
+          "opponentHpMAE": 5.307142857142857,
+          "fullStateMatches": 44,
+          "distanceMatches": 278,
+          "outcomeMatches": 250,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 138,
+              "ownHpMAE": 29.065217391304348,
+              "opponentHpMAE": 4.6521739130434785,
+              "fullStateMatches": 18,
+              "distanceMatches": 136,
+              "outcomeMatches": 124
+            },
+            {
+              "group": "mirror",
+              "n": 142,
+              "ownHpMAE": 29.281690140845072,
+              "opponentHpMAE": 5.943661971830986,
+              "fullStateMatches": 26,
+              "distanceMatches": 142,
+              "outcomeMatches": 126
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 157,
+              "ownHpMAE": 11.86624203821656,
+              "opponentHpMAE": 3.7579617834394905,
+              "fullStateMatches": 44,
+              "distanceMatches": 155,
+              "outcomeMatches": 140
+            },
+            {
+              "first": false,
+              "n": 123,
+              "ownHpMAE": 51.26829268292683,
+              "opponentHpMAE": 7.284552845528455,
+              "fullStateMatches": 0,
+              "distanceMatches": 123,
+              "outcomeMatches": 110
+            }
+          ]
+        },
+        {
+          "model": "fixed",
+          "n": 280,
+          "ownHpMAE": 15.725,
+          "opponentHpMAE": 4.3,
+          "fullStateMatches": 70,
+          "distanceMatches": 262,
+          "outcomeMatches": 255,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 138,
+              "ownHpMAE": 15.166666666666666,
+              "opponentHpMAE": 3.739130434782609,
+              "fullStateMatches": 30,
+              "distanceMatches": 128,
+              "outcomeMatches": 129
+            },
+            {
+              "group": "mirror",
+              "n": 142,
+              "ownHpMAE": 16.267605633802816,
+              "opponentHpMAE": 4.845070422535211,
+              "fullStateMatches": 40,
+              "distanceMatches": 134,
+              "outcomeMatches": 126
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 157,
+              "ownHpMAE": 11.86624203821656,
+              "opponentHpMAE": 3.7579617834394905,
+              "fullStateMatches": 44,
+              "distanceMatches": 155,
+              "outcomeMatches": 140
+            },
+            {
+              "first": false,
+              "n": 123,
+              "ownHpMAE": 20.650406504065042,
+              "opponentHpMAE": 4.991869918699187,
+              "fullStateMatches": 26,
+              "distanceMatches": 107,
+              "outcomeMatches": 115
+            }
+          ]
+        },
+        {
+          "model": "adaptive",
+          "n": 280,
+          "ownHpMAE": 0,
+          "opponentHpMAE": 0,
+          "fullStateMatches": 280,
+          "distanceMatches": 280,
+          "outcomeMatches": 280,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 138,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 138,
+              "distanceMatches": 138,
+              "outcomeMatches": 138
+            },
+            {
+              "group": "mirror",
+              "n": 142,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 142,
+              "distanceMatches": 142,
+              "outcomeMatches": 142
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 157,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 157,
+              "distanceMatches": 157,
+              "outcomeMatches": 157
+            },
+            {
+              "first": false,
+              "n": 123,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 123,
+              "distanceMatches": 123,
+              "outcomeMatches": 123
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "controller": "script",
+      "core": {
+        "n": 24,
+        "wins": 13,
+        "losses": 11,
+        "draws": 0,
+        "avgRounds": 8.208333333333334
+      },
+      "byMajor": [
+        {
+          "major": "ignite",
+          "n": 12,
+          "wins": 6,
+          "losses": 6,
+          "draws": 0,
+          "avgRounds": 7.5,
+          "first": {
+            "n": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0,
+            "avgRounds": 8.333333333333334
+          },
+          "second": {
+            "n": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0,
+            "avgRounds": 6.666666666666667
+          }
+        },
+        {
+          "major": "sustain",
+          "n": 12,
+          "wins": 7,
+          "losses": 5,
+          "draws": 0,
+          "avgRounds": 8.916666666666666,
+          "first": {
+            "n": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0,
+            "avgRounds": 9.5
+          },
+          "second": {
+            "n": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0,
+            "avgRounds": 8.333333333333334
+          }
+        }
+      ],
+      "byDistance": [
+        {
+          "distance": 0,
+          "n": 8,
+          "wins": 3,
+          "losses": 5,
+          "draws": 0,
+          "avgRounds": 7.375
+        },
+        {
+          "distance": 1,
+          "n": 8,
+          "wins": 5,
+          "losses": 3,
+          "draws": 0,
+          "avgRounds": 8
+        },
+        {
+          "distance": 2,
+          "n": 8,
+          "wins": 5,
+          "losses": 3,
+          "draws": 0,
+          "avgRounds": 9.25
+        }
+      ],
+      "mirrors": [
+        {
+          "major": "ignite",
+          "n": 6,
+          "firstWins": 0,
+          "draws": 0
+        },
+        {
+          "major": "sustain",
+          "n": 6,
+          "firstWins": 2,
+          "draws": 0
+        },
+        {
+          "major": "quick",
+          "n": 6,
+          "firstWins": 0,
+          "draws": 6
+        },
+        {
+          "major": "heavy",
+          "n": 6,
+          "firstWins": 4,
+          "draws": 0
+        }
+      ],
+      "forecasts": [
+        {
+          "model": "legacy",
+          "n": 1155,
+          "ownHpMAE": 14.925541125541125,
+          "opponentHpMAE": 8.983549783549783,
+          "fullStateMatches": 25,
+          "distanceMatches": 896,
+          "outcomeMatches": 1109,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 357,
+              "ownHpMAE": 25.677871148459385,
+              "opponentHpMAE": 18.095238095238095,
+              "fullStateMatches": 11,
+              "distanceMatches": 218,
+              "outcomeMatches": 331
+            },
+            {
+              "group": "mirror",
+              "n": 798,
+              "ownHpMAE": 10.115288220551378,
+              "opponentHpMAE": 4.9072681704260654,
+              "fullStateMatches": 14,
+              "distanceMatches": 678,
+              "outcomeMatches": 778
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 586,
+              "ownHpMAE": 13.573378839590443,
+              "opponentHpMAE": 9.167235494880545,
+              "fullStateMatches": 13,
+              "distanceMatches": 440,
+              "outcomeMatches": 568
+            },
+            {
+              "first": false,
+              "n": 569,
+              "ownHpMAE": 16.31810193321617,
+              "opponentHpMAE": 8.794376098418278,
+              "fullStateMatches": 12,
+              "distanceMatches": 456,
+              "outcomeMatches": 541
+            }
+          ]
+        },
+        {
+          "model": "fixed",
+          "n": 1155,
+          "ownHpMAE": 14.032034632034632,
+          "opponentHpMAE": 7.090909090909091,
+          "fullStateMatches": 22,
+          "distanceMatches": 860,
+          "outcomeMatches": 1113,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 357,
+              "ownHpMAE": 23.789915966386555,
+              "opponentHpMAE": 14.375350140056023,
+              "fullStateMatches": 12,
+              "distanceMatches": 214,
+              "outcomeMatches": 333
+            },
+            {
+              "group": "mirror",
+              "n": 798,
+              "ownHpMAE": 9.666666666666666,
+              "opponentHpMAE": 3.8320802005012533,
+              "fullStateMatches": 10,
+              "distanceMatches": 646,
+              "outcomeMatches": 780
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 586,
+              "ownHpMAE": 13.511945392491468,
+              "opponentHpMAE": 7.066552901023891,
+              "fullStateMatches": 13,
+              "distanceMatches": 447,
+              "outcomeMatches": 569
+            },
+            {
+              "first": false,
+              "n": 569,
+              "ownHpMAE": 14.567662565905097,
+              "opponentHpMAE": 7.115992970123023,
+              "fullStateMatches": 9,
+              "distanceMatches": 413,
+              "outcomeMatches": 544
+            }
+          ]
+        },
+        {
+          "model": "adaptive",
+          "n": 1155,
+          "ownHpMAE": 0,
+          "opponentHpMAE": 0,
+          "fullStateMatches": 1155,
+          "distanceMatches": 1155,
+          "outcomeMatches": 1155,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 357,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 357,
+              "distanceMatches": 357,
+              "outcomeMatches": 357
+            },
+            {
+              "group": "mirror",
+              "n": 798,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 798,
+              "distanceMatches": 798,
+              "outcomeMatches": 798
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 586,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 586,
+              "distanceMatches": 586,
+              "outcomeMatches": 586
+            },
+            {
+              "first": false,
+              "n": 569,
+              "ownHpMAE": 0,
+              "opponentHpMAE": 0,
+              "fullStateMatches": 569,
+              "distanceMatches": 569,
+              "outcomeMatches": 569
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "controller": "adaptive",
+      "core": {
+        "n": 24,
+        "wins": 8,
+        "losses": 16,
+        "draws": 0,
+        "avgRounds": 8.25
+      },
+      "byMajor": [
+        {
+          "major": "ignite",
+          "n": 12,
+          "wins": 4,
+          "losses": 8,
+          "draws": 0,
+          "avgRounds": 8.5,
+          "first": {
+            "n": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0,
+            "avgRounds": 10.666666666666666
+          },
+          "second": {
+            "n": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0,
+            "avgRounds": 6.333333333333333
+          }
+        },
+        {
+          "major": "sustain",
+          "n": 12,
+          "wins": 4,
+          "losses": 8,
+          "draws": 0,
+          "avgRounds": 8,
+          "first": {
+            "n": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0,
+            "avgRounds": 8.833333333333334
+          },
+          "second": {
+            "n": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0,
+            "avgRounds": 7.166666666666667
+          }
+        }
+      ],
+      "byDistance": [
+        {
+          "distance": 0,
+          "n": 8,
+          "wins": 4,
+          "losses": 4,
+          "draws": 0,
+          "avgRounds": 7
+        },
+        {
+          "distance": 1,
+          "n": 8,
+          "wins": 1,
+          "losses": 7,
+          "draws": 0,
+          "avgRounds": 7.875
+        },
+        {
+          "distance": 2,
+          "n": 8,
+          "wins": 3,
+          "losses": 5,
+          "draws": 0,
+          "avgRounds": 9.875
+        }
+      ],
+      "mirrors": [
+        {
+          "major": "ignite",
+          "n": 6,
+          "firstWins": 6,
+          "draws": 0
+        },
+        {
+          "major": "sustain",
+          "n": 6,
+          "firstWins": 4,
+          "draws": 0
+        },
+        {
+          "major": "quick",
+          "n": 6,
+          "firstWins": 0,
+          "draws": 6
+        },
+        {
+          "major": "heavy",
+          "n": 6,
+          "firstWins": 0,
+          "draws": 6
+        }
+      ],
+      "forecasts": [
+        {
+          "model": "legacy",
+          "n": 1237,
+          "ownHpMAE": 10.239288601455133,
+          "opponentHpMAE": 6.8326596604688765,
+          "fullStateMatches": 32,
+          "distanceMatches": 1027,
+          "outcomeMatches": 1199,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 355,
+              "ownHpMAE": 19.295774647887324,
+              "opponentHpMAE": 15.481690140845071,
+              "fullStateMatches": 10,
+              "distanceMatches": 267,
+              "outcomeMatches": 327
+            },
+            {
+              "group": "mirror",
+              "n": 882,
+              "ownHpMAE": 6.594104308390023,
+              "opponentHpMAE": 3.3514739229024944,
+              "fullStateMatches": 22,
+              "distanceMatches": 760,
+              "outcomeMatches": 872
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 627,
+              "ownHpMAE": 9.751196172248804,
+              "opponentHpMAE": 4.32695374800638,
+              "fullStateMatches": 24,
+              "distanceMatches": 536,
+              "outcomeMatches": 620
+            },
+            {
+              "first": false,
+              "n": 610,
+              "ownHpMAE": 10.740983606557377,
+              "opponentHpMAE": 9.408196721311475,
+              "fullStateMatches": 8,
+              "distanceMatches": 491,
+              "outcomeMatches": 579
+            }
+          ]
+        },
+        {
+          "model": "fixed",
+          "n": 1237,
+          "ownHpMAE": 9.173807599029912,
+          "opponentHpMAE": 4.855295068714632,
+          "fullStateMatches": 30,
+          "distanceMatches": 1042,
+          "outcomeMatches": 1215,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 355,
+              "ownHpMAE": 16.87887323943662,
+              "opponentHpMAE": 9.926760563380281,
+              "fullStateMatches": 14,
+              "distanceMatches": 264,
+              "outcomeMatches": 343
+            },
+            {
+              "group": "mirror",
+              "n": 882,
+              "ownHpMAE": 6.072562358276644,
+              "opponentHpMAE": 2.8140589569161,
+              "fullStateMatches": 16,
+              "distanceMatches": 778,
+              "outcomeMatches": 872
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 627,
+              "ownHpMAE": 10.007974481658692,
+              "opponentHpMAE": 3.521531100478469,
+              "fullStateMatches": 24,
+              "distanceMatches": 536,
+              "outcomeMatches": 624
+            },
+            {
+              "first": false,
+              "n": 610,
+              "ownHpMAE": 8.316393442622951,
+              "opponentHpMAE": 6.226229508196721,
+              "fullStateMatches": 6,
+              "distanceMatches": 506,
+              "outcomeMatches": 591
+            }
+          ]
+        },
+        {
+          "model": "adaptive",
+          "n": 1237,
+          "ownHpMAE": 8.046887631366209,
+          "opponentHpMAE": 3.7283751010509296,
+          "fullStateMatches": 683,
+          "distanceMatches": 1001,
+          "outcomeMatches": 1224,
+          "byGroup": [
+            {
+              "group": "core",
+              "n": 355,
+              "ownHpMAE": 16.92394366197183,
+              "opponentHpMAE": 8.236619718309859,
+              "fullStateMatches": 107,
+              "distanceMatches": 245,
+              "outcomeMatches": 352
+            },
+            {
+              "group": "mirror",
+              "n": 882,
+              "ownHpMAE": 4.473922902494331,
+              "opponentHpMAE": 1.9138321995464853,
+              "fullStateMatches": 576,
+              "distanceMatches": 756,
+              "outcomeMatches": 872
+            }
+          ],
+          "bySeat": [
+            {
+              "first": true,
+              "n": 627,
+              "ownHpMAE": 7.803827751196172,
+              "opponentHpMAE": 2.116427432216906,
+              "fullStateMatches": 371,
+              "distanceMatches": 541,
+              "outcomeMatches": 625
+            },
+            {
+              "first": false,
+              "n": 610,
+              "ownHpMAE": 8.29672131147541,
+              "opponentHpMAE": 5.385245901639344,
+              "fullStateMatches": 312,
+              "distanceMatches": 460,
+              "outcomeMatches": 599
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elapsedSeconds": 293.81945109400004
+}

@@ -1,0 +1,8 @@
+{
+  "lastAnnouncedCompletedDuels": 180,
+  "lastAnnouncedProbes": 2895,
+  "lastAnnouncedElapsedSeconds": 1139,
+  "exitCode": 130,
+  "completeRecordsSaved": false,
+  "method": "One opponent decision layer, exhaustive own-turn candidates. Interrupted for computation budget; not included in the retained bounded comparison. Completed count is a lower bound, based on last printed progress."
+}

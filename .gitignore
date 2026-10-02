@@ -5,3 +5,4 @@ docs/balance/**/checkpoint.json
 docs/balance/**/matches.json
 docs/balance/heal-recovery/*.raw.json
 docs/balance/range-movement/*.raw.json
+docs/balance/adaptive-prediction/checkpoint.json

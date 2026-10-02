@@ -124,3 +124,17 @@ node qa-hit.cjs
 ```
 
 阶段原始记录保存在 `docs/balance/forecast-audit/`。后续实验使用新输出目录；历史复现请检出对应提交。浏览器检查可通过 `PLAYWRIGHT_MODULE` 和 `CHROMIUM_PATH` 指定 Playwright 与 Chromium。
+
+## 离线双 AI 有限层预测
+
+新增独立实验擂台，明确处理先后手、跨回合纳气、阶段灼烧和免费蓄势释放；自己的组合试算与未来预测都使用实际双 AI 的应对规则。有限层预测会按对手控制器重新选招，达到深度上限时用即时评分近似，避免相互无限递归；每次最多对 12 个己方组合预测敌方阶段，预留蓄势、恢复、移动等战术候选。旧擂台、历史数据和线上自动控制器保留。
+
+```sh
+node test-predictive-arena.mjs
+node scripts/balance-prediction.mjs --out /tmp/qingxiao-adaptive-prediction
+node scripts/prediction-report.mjs /tmp/qingxiao-adaptive-prediction
+```
+
+本轮比较旧控制器、即时评分、统一时序的脚本预测和有限层重新决策，使用推荐配装与双方均衡倾向。每种控制器覆盖 24 个跨派场景和 24 个镜像场景，共保留 192 次对局对照；阶段预测在同一实际对局中采样，不计作新增独立对局。另有未限制候选数的先导批次中止，未纳入对照。结果与限制见 [离线双 AI 有限层预测对照](docs/离线双AI有限层预测对照.md)，原始数据在 `docs/balance/adaptive-prediction/`。
+
+新擂台在 24 个跨派场景中复现了旧控制器的结果、动作和应对次数；另验证完整状态重放、双方应对的搜索副本、深度上限、先后手边界、不可变性与人物身份交换。已知算法的准确重放是规则检查，不能等同于最优打法；有限层控制器之间仍可能因截断产生误差。实验暂未接入网页，也未调整技能数值。
