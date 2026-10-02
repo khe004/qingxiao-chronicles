@@ -1,0 +1,23 @@
+{
+  "sourceHashes": {
+    "dist/engine.mjs": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+    "dist/auto.mjs": "cb202a8d1225afb666670aadf241939d81194854",
+    "scripts/predictive-arena.mjs": "b44fec45c2d0c0ca387840dd7225c294f786b923",
+    "scripts/planner-internals.mjs": "0749663d2031fc6a45cac7e4482d858d334661b8"
+  },
+  "variantHashes": {
+    "base": "cb202a8d1225afb666670aadf241939d81194854",
+    "half": "e9ec29763cd57dc508b04fde6b7604ff25e7b148",
+    "equal": "b3ed7bbe0ec27b623c59ca54e910dcce2e0991cd",
+    "double": "77343207a44e05d3aadf59662e2e99126fe2a4fd"
+  },
+  "diagnosticsHash": "17ef40457e6999621f798277163907d7f8b6cda8",
+  "generatorHash": "f6d700e61e4596b619b60d55f09e207bc4515168",
+  "trajectoryCount": 5,
+  "actualPhases": 266,
+  "decisions": 30,
+  "forecastLeaves": 2322,
+  "omittedBest": 9,
+  "changedFirstAction": 8,
+  "elapsedSeconds": 46.5433678
+}

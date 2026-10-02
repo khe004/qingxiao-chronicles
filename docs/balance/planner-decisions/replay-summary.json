@@ -1,0 +1,12 @@
+{
+  "sourceHashes": {
+    "dist/engine.mjs": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+    "dist/auto.mjs": "cb202a8d1225afb666670aadf241939d81194854",
+    "scripts/predictive-arena.mjs": "b44fec45c2d0c0ca387840dd7225c294f786b923",
+    "scripts/planner-internals.mjs": "0749663d2031fc6a45cac7e4482d858d334661b8"
+  },
+  "scriptHash": "dbc19fbe2dab700941d29b7fc1ddad6480314b95",
+  "probeCount": 4,
+  "replayedLeaves": 165,
+  "elapsedSeconds": 25.15569636
+}
