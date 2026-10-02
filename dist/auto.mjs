@@ -36,16 +36,16 @@ function projectEnemyPhase(b,tendency){
 }
 function options(b,tendency){
   const p=b.player,e=b.enemy;
-  return [...CLASSES[p.key].skills,...COMMON].filter(s=>{
+  return [...b.skills(p),...COMMON].filter(s=>{
     if(b.legal(p,s.id))return false;
     if(s.id==='seed'&&e.seed>=5)return false;
     if(s.id==='expose'&&e.broken)return false;
-    if(s.id==='heal'&&p.hp===p.maxHp&&!p.burn)return false;
+    if(s.kind==='heal'&&p.hp===p.maxHp&&!p.burn)return false;
     if(s.id==='purify'&&!p.burn)return false;
     if(s.kind==='guard'&&p.shield>=44&&p.intent>=5)return false;
-    if(s.interrupt&&!e.charge)return false;
+    if(s.interrupt&&s.id!=='lunge'&&!e.charge)return false;
     if(s.id==='meditate'&&total(p.qi)>=6)return false;
-    if(s.id==='near'&&b.distance===1&&!e.charge)return false;
+    if(s.id==='near'&&b.distance===1&&!e.charge&&!p.skillIds.includes('lunge'))return false;
     if(s.id==='far'&&b.distance===1&&p.key==='sword'&&!e.charge)return false;
     return true;
   });
@@ -59,6 +59,7 @@ function planScore(start,leaf,tendency,path){
   let score=(start.enemy.hp-future.enemy.hp)*(t.attack+pressure)+(future.player.hp-start.player.hp)*t.health;
   score+=(future.player.shield-start.player.shield)*t.shield;
   score+=(future.player.intent-start.player.intent)*t.intent;
+  score+=(Number(future.player.edge)-Number(start.player.edge))*8;
   score+=(future.enemy.seed-start.enemy.seed)*t.seed;
   score+=(future.enemy.burn-start.enemy.burn)*t.burn;
   score+=(Number(future.enemy.broken)-Number(start.enemy.broken))*t.broken;
@@ -73,6 +74,10 @@ function reasonFor(b,id){
   switch(id){
     case 'seed':return `先种下灵种，为焚炎术准备增伤${!p.woodTriggered?'，同时触发生息凝火':''}。`;
     case 'blaze':return e.seed?`引燃 ${e.seed} 层灵种，将铺垫转为爆发伤害。`:'直接以火法输出并叠加灼烧。';
+    case 'ember':return `分燃 ${Math.min(2,e.seed)} 层灵种，保留剩余铺垫，用较少火灵气兑现伤害。`;
+    case 'nourish':return '枯荣转生恢复气血、减轻灼烧，同时凝聚通灵。';
+    case 'lunge':return `消耗 2 剑意近身追击${e.charge?'并打断敌方蓄势':''}，命中后重新养意。`;
+    case 'return':return `消耗 ${Math.min(2,p.intent)} 剑意小幅爆发，保留剩余剑意${p.edge?'并兑现藏锋强化':''}。`;
     case 'spark':return '以低耗火法输出，叠加灼烧施压。';
     case 'heal':return `当前气血 ${p.hp}/${p.maxHp}，回春恢复${p.burn?'并清除灼烧':''}。`;
     case 'vine':case 'cut':return `打断敌方「${e.charge?.name}」，阻止蓄势大招释放。`;
@@ -82,7 +87,7 @@ function reasonFor(b,id){
     case 'strike':return `消耗 ${p.intent} 层剑意${e.broken?'并利用破绽':''}，以断岳兑现爆发。`;
     case 'guard':return '藏锋护体，同时积累剑意，为下一轮反击准备。';
     case 'unity':return `以 ${p.intent} 层剑意${e.broken?'与破绽':''}蓄势，准备万剑归一。`;
-    case 'near':return e.charge&&b.distance===1?'贴近敌人，脱离其蓄势技能的适用距离。':'接近到中距，让剑招与打断技能可以出手。';
+    case 'near':return e.charge&&b.distance===1?'贴近敌人，脱离其蓄势技能的适用距离。':b.distance===1?'接近到近身，为追风剑创造有效距离。':'接近到中距，让剑招与打断技能可以出手。';
     case 'far':return '拉开距离，避开近中距剑招或准备远距斗法。';
     case 'meditate':return '调息补足灵气，为后续神通或大招准备费用。';
     case 'purify':return `净息清除 ${p.burn} 层灼烧，避免持续损血。`;
@@ -110,5 +115,5 @@ export function describeAutoChoice(b,choice,tendency){
   if(choice.action==='end')return `【自动·${label}】结束行动：${choice.reason}`;
   const s=b.skill(b.player,choice.skillId);
   const cost=Object.entries(s.cost).map(([k,n])=>`${n}${k==='any'?'任意':ELEMENT_NAMES[k]}`).join('＋')||'无需灵气';
-  return `【自动·${label}】选择「${s.name}」：${choice.reason}（${s.ap}行动；${cost}）`;
+  return `【自动·${label}】选择「${s.name}」：${choice.reason}（${s.ap}行动；${cost}${s.intentCost?`；${s.intentCost}剑意`:''}）`;
 }

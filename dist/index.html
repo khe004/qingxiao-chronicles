@@ -16,9 +16,10 @@
     </header>
     <main>
       <section class="selection" aria-label="流派选择">
-        <div class="selection-label"><span class="small-label">选择你的道途</span><span class="selection-hint">切换流派将开启新一场斗法</span></div>
+        <div class="selection-label"><span class="small-label">选择你的道途</span><span class="selection-hint">先选主修，再搭配六个神通</span></div>
         <div class="class-switch"><button data-class="fire" class="class-choice active"><span class="class-icon fire-text">火</span><span>火木法修<small>种灵 · 引燃 · 生息</small></span><span class="selected-mark">已选</span></button><button data-class="sword" class="class-choice"><span class="class-icon metal-text">剑</span><span>太玄剑修<small>养意 · 识破 · 断岳</small></span><span class="selected-mark">已选</span></button></div>
       </section>
+      <section class="loadout-summary" aria-label="当前战斗配置"><div><span class="small-label">当前主修</span><b id="current-major"></b><p id="current-loadout"></p></div><button id="edit-loadout">调整主修 / 神通</button></section>
       <div class="game-grid">
         <div class="play-column">
           <section class="auto-panel" aria-label="自动战斗设置">
@@ -53,9 +54,24 @@
         </aside>
       </div>
     </main>
-    <footer><span>青霄论道</span><span>战斗原型 v0.1 · 火木 / 剑修</span><span>一念生万法，一剑破长空。</span></footer>
+    <footer><span>青霄论道</span><span>战斗原型 v0.2 · 主修 / 神通配装</span><span>一念生万法，一剑破长空。</span></footer>
   </div>
-  <dialog id="guide-dialog"><div class="dialog-header"><span class="small-label">论道入门</span><button class="close-button" id="close-guide" aria-label="关闭指南">×</button></div><h2>先观其势，再择一招。</h2><div class="guide-grid"><div><b>一 · 运筹灵气</b><p>每回合获得 5 点灵气，最多储存 10 点。指定属性不能用通灵替代；任意费用先消耗通灵，再消耗数量最多的其他灵气。</p></div><div><b>二 · 三次行动</b><p>每回合有 3 行动点。一般神通消耗 1 点，蓄势消耗 2 点。移动、调息、净息也占用行动。</p></div><div><b>三 · 留一手应对</b><p>敌方攻击前可选择护盾或闪身，每回合最多成功应对一次。预留 1 木或 1 金灵气，可获得 26 护盾。</p></div><div><b>四 · 距离与蓄势</b><p>近、中、远三档距离。普通剑招与打断技适合近中距，蓄势大招适合中远距。拉到远距可避开普通剑招；贴近到近身可让中远距蓄势大招落空。接近、拉开各消耗 1 行动点，改变 1 档双方距离。</p></div></div><div class="guide-rules"><b>火木法修</b><p>催生术种下灵种，焚炎术引燃增伤；木系神通每回合首次施展额外生成 1 火灵气。灼烧每层每回合扣 4 气血，无视护盾，持续 3 次结算。青木回春和净息可清除灼烧。</p><b>太玄剑修</b><p>剑招积累剑意，上限 5 层。照隙诀制造破绽，断岳剑消耗剑意并利用破绽增伤。藏锋式同时养剑与护体。</p><p class="guide-note">本原型固定你先手。护盾上限 60，跨回合保留；灵种上限 5。敌人预告的招式若费用或距离不满足会跳过。重新论道与切换流派都会重置本场。</p></div><button class="primary-button" id="guide-done">入场论道</button></dialog>
+  <dialog id="loadout-dialog" class="loadout-dialog" aria-labelledby="loadout-title">
+    <div class="loadout-header"><div><span class="small-label">筑基初期 · 论道准备</span><h2 id="loadout-title">择一门主修，备六道神通。</h2></div><button class="close-button" id="close-loadout" aria-label="关闭配装，沿用当前配置">×</button></div>
+    <div class="loadout-body" id="loadout-body">
+      <div id="loadout-classes" class="loadout-classes" role="group" aria-label="选择流派"></div>
+      <div class="loadout-section-heading"><h3>主修方向</h3><span>切换流派或主修会装入推荐搭配</span></div>
+      <div id="major-choices" class="major-choices" role="group" aria-label="选择主修"></div>
+      <p class="loadout-passive" id="loadout-passive"></p>
+      <div class="loadout-section-heading"><h3>六个战斗槽位</h3><span id="loadout-count" role="status" aria-live="polite"></span></div>
+      <div class="loadout-slots" id="loadout-slots" aria-label="已装备神通"></div>
+      <div class="loadout-library-heading"><div><h3>神通库 · 八选六</h3><p id="loadout-hint" role="status" aria-live="polite"></p></div><button class="quiet" id="recommend-loadout">使用推荐搭配</button></div>
+      <div id="loadout-skills" class="loadout-skills" role="group" aria-label="从八个神通中装备六个"></div>
+      <p id="loadout-style-tip" class="loadout-style-tip"></p>
+    </div>
+    <div class="loadout-footer"><div><p>应用配置将开启新一场斗法，并清空当前纪要。</p><p id="loadout-error" role="alert"></p></div><div class="loadout-footer-actions"><button id="cancel-loadout">沿用当前配置</button><button class="primary-button" id="apply-loadout">应用配置 · 入场论道</button></div></div>
+  </dialog>
+  <dialog id="guide-dialog"><div class="dialog-header"><span class="small-label">论道入门</span><button class="close-button" id="close-guide" aria-label="关闭指南">×</button></div><h2>先观其势，再择一招。</h2><div class="guide-grid"><div><b>一 · 运筹灵气</b><p>每回合获得 5 点灵气，最多储存 10 点。指定属性不能用通灵替代；任意费用先消耗通灵，再消耗数量最多的其他灵气。</p></div><div><b>二 · 三次行动</b><p>每回合有 3 行动点。一般神通消耗 1 点，蓄势消耗 2 点。移动、调息、净息也占用行动。</p></div><div><b>三 · 留一手应对</b><p>敌方攻击前可选择护盾或闪身，每回合最多成功应对一次。预留 1 木或 1 金灵气，可获得 26 护盾。</p></div><div><b>四 · 距离与蓄势</b><p>从本派八个神通中装备六个，通用行动不占槽位。近、中、远三档距离。追风剑仅在近身有效，普通剑招与打断技适合近中距，蓄势大招适合中远距。拉到远距可避开普通剑招；贴近到近身可让中远距蓄势大招落空。接近、拉开各消耗 1 行动点，改变 1 档双方距离。</p></div></div><div class="guide-rules"><b>火木法修</b><p>催生术种下灵种，焚炎术引燃增伤；木系神通每回合首次施展额外生成 1 火灵气。灼烧每层每回合扣 4 气血，无视护盾，持续 3 次结算。青木回春和净息可清除灼烧。</p><b>太玄剑修</b><p>非重剑剑招命中后积累剑意，上限 5 层。照隙诀制造破绽，断岳剑消耗剑意并利用破绽增伤。藏锋式同时养剑与护体。</p><p class="guide-note">主修效果与基础心法同时生效，具体规则见配装界面。未装备的神通无法施展，自动斗法也遵守相同配置。本原型固定你先手。护盾上限 60，跨回合保留；灵种上限 5。敌人预告的招式若费用或距离不满足会跳过。重新论道与切换流派都会重置本场。</p></div><button class="primary-button" id="guide-done">入场论道</button></dialog>
   <dialog id="reaction-dialog"><div class="reaction-header"><span class="small-label">应对窗口</span><span class="reaction-pulse"></span></div><h2 id="reaction-title"></h2><p id="reaction-description"></p><div id="reaction-options"></div><p class="dialog-footnote">每回合仅可成功应对一次 · 放弃应对可保留机会</p></dialog>
   <div id="toast" class="toast" role="status"></div>
   <script type="module" src="app.mjs"></script>
