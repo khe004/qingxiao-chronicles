@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {Battle,CLASSES,MAJORS,normalizeLoadout,total} from './dist/engine.mjs';
+import {Battle,CLASSES,MAJORS,SUSTAIN_RECOVERY,normalizeLoadout,total} from './dist/engine.mjs';
 import {TENDENCIES,chooseAction,chooseReaction} from './dist/auto.mjs';
 
 for(const [key,c] of Object.entries(CLASSES)){
@@ -22,9 +22,9 @@ assert.ok(ignite.act(ignite.player,'ember').ok);assert.equal(ignite.enemy.seed,1
 assert.equal(ignite.logs.filter(l=>l.text.startsWith('引燃爆发')).length,1);
 
 const sustain=new Battle('fire',{major:'sustain',skillIds:fireSkills});sustain.player.hp=100;sustain.player.burn=3;sustain.player.burnTurns=3;
-assert.ok(sustain.act(sustain.player,'nourish').ok);assert.equal(sustain.player.hp,120,'Wood major restores six plus fourteen from the skill');assert.equal(sustain.player.burn,2);assert.equal(sustain.player.qi.any,1);
+assert.ok(sustain.act(sustain.player,'nourish').ok);assert.equal(sustain.player.hp,114+SUSTAIN_RECOVERY,'Wood major adds its recovery to the skill heal');assert.equal(sustain.player.burn,2);assert.equal(sustain.player.qi.any,1);
 const beforeSecond=JSON.stringify(sustain);assert.equal(sustain.act(sustain.player,'nourish').ok,false);assert.equal(JSON.stringify(sustain),beforeSecond);
-assert.ok(sustain.act(sustain.player,'seed').ok);assert.equal(sustain.player.hp,120,'Sustain recovery only triggers once per round');
+assert.ok(sustain.act(sustain.player,'seed').ok);assert.equal(sustain.player.hp,114+SUSTAIN_RECOVERY,'Sustain recovery only triggers once per round');
 
 const swordSkills=['swift','expose','strike','guard','lunge','return'];
 const quick=new Battle('sword',{major:'quick',skillIds:swordSkills});quick.enemy.reaction=false;

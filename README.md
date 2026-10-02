@@ -51,7 +51,7 @@ python3 -m http.server 8000 --directory dist
 - `dist/app.mjs`：页面交互、动画与战斗流程。
 - `dist/assets/`：斗法场景与角色美术。
 
-数值用于试玩验证。已建立确定性 AI 对局的平衡基线，并完成第一轮蓄势行动窗口修订；技能数值与主修奖励未变，尚待真人验证。参见 [历史基线](docs/平衡性基线报告.md) 与 [本轮配对对照](docs/蓄势行动窗口修订对照.md)。
+数值用于试玩验证。已建立确定性 AI 对局的平衡基线，先后完成蓄势行动窗口修订与生息回血单因素调整：生息首次木法额外恢复 2 气血，原值 6；技能基础数值不变，尚待真人验证。参见 [历史基线](docs/平衡性基线报告.md)、[蓄势对照](docs/蓄势行动窗口修订对照.md) 和 [生息回血对照](docs/生息回血修订对照.md)。
 
 ## 验证
 
@@ -60,6 +60,7 @@ node test-engine.mjs
 node test-auto.mjs
 node test-loadout.mjs
 node test-charge-window.mjs
+node test-sustain.mjs
 ```
 
 已通过资源、连招、距离、蓄势、打断、应对及 80 场完整对局检查；两种流派与四种倾向的 8 场自动对局也全部通过。新增配装验证覆盖四个主修、四个新技能、资源不可变性、藏锋失效与蓄势消费，以及 32 场配置自动对局和一场超过 160 条纪要的长局。已完成桌面与移动端配装、取消保留原局、应用重开、配置保留、自动暂停恢复、手动应对、完整纪要和 WebMCP 共用状态的浏览器检查。
@@ -74,8 +75,12 @@ node test-charge-window.mjs
 
 ```sh
 node test-balance-harness.mjs
-node scripts/balance.mjs --out docs/balance/charge-window
-node scripts/balance-compare.mjs
+node scripts/balance-sustain.mjs
+node scripts/balance-sustain-report.mjs
 ```
 
-完整枚举约需 6 分钟。涵盖 1824 个对等 AI 对局、384 个蓄势战术场景、64 个只关闭生息额外回血的配对，以及 16 个原网页脚本对照。场景是确定性的，不是独立随机样本或真人胜率；双方使用同样的行动和应对控制器，先手、起始距离和配装单独记录。线上仍固定玩家先手；敌方公开脚本现可执行预告的蓄势后防守、移动或调息。报告附逐场 CSV、聚合数据和压缩原始记录，可重复比较后续版本。旧基线保存在 `docs/balance/`，本轮输出在 `docs/balance/charge-window/`。上面的命令复现本轮；生息单因素的 64 组结果属于历史基线，其生成器应在对应历史源提交运行，避免用当前规则覆盖旧数据。
+本轮约需 7 分钟，对生息 6 / 4 / 2 三档各覆盖 888 个相同场景，包含推荐配置、镜像与八选六配装。6 点复用上一版结果，并实际重跑 192 个推荐配置对局核对一致；4 点与 2 点各运行 888 场，总共实际执行 1968 次，逐场 CSV 共 2664 行。三档生产引擎相互隔离，自动预测也使用对应回血值，控制器本身保持不变。
+
+当前采用 2 点额外回血；推荐配置全距离的生息胜出占比由 83.3% 降至 79.7%，中距由 85.9% 降至 79.7%，远距仍为 87.5%，尚未完成平衡。结果为确定性 AI 场景占比，不是真人胜率或独立随机试验。
+
+旧基线位于 `docs/balance/`，蓄势修订位于 `docs/balance/charge-window/`，本轮位于 `docs/balance/sustain-recovery/`。上面的命令复现本轮；旧报告生成器应在对应历史源提交运行，避免用当前规则覆盖旧数据。通用矩阵可用 `node scripts/balance.mjs --out docs/balance/自选新目录` 输出到新目录。线上仍固定玩家先手，敌方执行公开预告。

@@ -1,5 +1,6 @@
 export const ELEMENTS = ['metal','wood','water','fire','earth','any'];
 export const ELEMENT_NAMES = {metal:'金',wood:'木',water:'水',fire:'火',earth:'土',any:'通灵'};
+export const SUSTAIN_RECOVERY = 2;
 export const CLASSES = {
   fire: {name:'火木法修',nameShort:'火木',person:'沈知微',sect:'丹霞谷',title:'木引星火 · 生息不绝',hp:210,physical:22,magical:30,gen:{fire:2,wood:2,any:1},passive:'生息诀',passiveText:'每回合第一次施展木系神通，额外凝聚 1 火灵气。',reaction:'御木诀',reactionElement:'wood',skills:[
     {id:'seed',name:'催生术',symbol:'生',element:'wood',ap:1,cost:{wood:1},kind:'seed',desc:'种下 2 层灵种。焚炎术每引燃一层，伤害提高 20%。',tag:'铺垫',range:[0,1,2]},
@@ -25,7 +26,7 @@ export const CLASSES = {
 export const MAJORS = {
   fire: {
     ignite:{name:'引燃爆发',symbol:'燃',focus:'种灵 · 分燃 · 引爆',effect:'每回合首次引燃至少 1 层灵种，额外凝聚 1 火灵气。',tip:'灵种可分批引燃，也可留给焚炎一次引爆。',recommended:['seed','spark','blaze','heal','vine','inferno']},
-    sustain:{name:'生息消耗',symbol:'生',focus:'灼烧 · 回春 · 周转',effect:'每回合首次施展木系神通，额外恢复 6 气血；可与生息诀同时触发。',tip:'以灼烧持续施压，木法兼顾恢复与灵气周转。',recommended:['seed','spark','blaze','heal','nourish','vine']},
+    sustain:{name:'生息消耗',symbol:'生',focus:'灼烧 · 回春 · 周转',effect:`每回合首次施展木系神通，额外恢复 ${SUSTAIN_RECOVERY} 气血；可与生息诀同时触发。`,tip:'以灼烧持续施压，木法兼顾恢复与灵气周转。',recommended:['seed','spark','blaze','heal','nourish','vine']},
   },
   sword: {
     quick:{name:'快剑压制',symbol:'疾',focus:'养意 · 追击 · 打断',effect:'每回合首次命中非重剑剑招，额外积累 1 剑意，上限仍为 5。',tip:'剑意可用于近身追风打断，也可留给重剑。',recommended:['swift','expose','strike','guard','cut','unity']},
@@ -103,7 +104,7 @@ export class Battle {
     const error=this.legal(actor,id);if(error)return {ok:false,error};
     const s=this.skill(actor,id),target=this.other(actor);actor.qi=payment(actor.qi,s.cost);actor.ap-=s.ap;if(s.intentCost){actor.intent-=s.intentCost;this.log(`${actor.name}消耗 ${s.intentCost} 层剑意用于追击。`,'resource');}if(s.once)actor.usedSkills.push(id);
     this.log(`${actor.name}施展「${s.name}」。`,actor===this.player?'player':'enemy');
-    if(actor.key==='fire'&&s.element==='wood'&&!actor.woodTriggered){actor.woodTriggered=true;const n=this.gain(actor,{fire:1});if(n)this.log(`生息诀 · ${actor.name}凝聚 ${n} 火灵气。`,'resource');if(actor.major==='sustain'){const heal=Math.min(6,actor.maxHp-actor.hp);actor.hp+=heal;this.log(`生息消耗 · ${actor.name}恢复 ${heal} 气血。`,'heal');}}
+    if(actor.key==='fire'&&s.element==='wood'&&!actor.woodTriggered){actor.woodTriggered=true;const n=this.gain(actor,{fire:1});if(n)this.log(`生息诀 · ${actor.name}凝聚 ${n} 火灵气。`,'resource');if(actor.major==='sustain'){const heal=Math.min(SUSTAIN_RECOVERY,actor.maxHp-actor.hp);actor.hp+=heal;this.log(`生息消耗 · ${actor.name}恢复 ${heal} 气血。`,'heal');}}
     if(s.kind==='seed'){const before=target.seed;target.seed=Math.min(5,target.seed+2);this.log(`${target.name}增加 ${target.seed-before} 层灵种，现有 ${target.seed} 层。`,'resource');}
     else if(s.kind==='heal'){const n=Math.min(s.heal,actor.maxHp-actor.hp);actor.hp+=n;const cleared=Math.min(actor.burn,s.clearBurn??5);actor.burn-=cleared;if(!actor.burn)actor.burnTurns=0;this.log(`${actor.name}恢复 ${n} 气血，清除 ${cleared} 层灼烧。`,'heal');if(s.refund){const gain=this.gain(actor,s.refund);this.log(`${actor.name}以枯荣转生凝聚 ${gain} 通灵。`,'resource');}}
     else if(s.kind==='guard'){actor.shield=Math.min(60,actor.shield+22);actor.intent=Math.min(5,actor.intent+1);this.log(`${actor.name}获得护盾，现有 ${actor.shield} 护盾、${actor.intent} 剑意。`,'resource');}
