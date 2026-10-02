@@ -5,6 +5,10 @@ let battle=new Battle('fire'),generation=0,lastHit=0,lastLog=0,combatTimer=null;
 const automation={enabled:false,tendency:'balanced',speed:'normal'};
 const guide=$('guide-dialog'),reaction=$('reaction-dialog');
 function costHtml(cost){return Object.entries(cost).map(([k,n])=>`<span class="cost-element" style="--element:var(--${k})">${n} ${k==='any'?'任意':ELEMENT_NAMES[k]}</span>`).join('<span class="cost-separator">·</span>')||'<span>无需灵气</span>';}
+function rangeLabel(skill){
+  if(['heal','guard','purify','meditate'].includes(skill.kind))return '自身 · 不限距离';
+  return (skill.range||[0,1,2]).map(distance=>['近身','中距','远距'][distance]).join(' / ');
+}
 function fighterHtml(a,player){const c=CLASSES[a.key];let states=[];if(a.intent)states.push(`<span class="status-chip intent" title="每层剑意为重剑增加8基础伤害">剑意 ${a.intent}</span>`);if(a.seed)states.push(`<span class="status-chip seed" title="每层灵种使焚炎术增伤20%">灵种 ${a.seed}</span>`);if(a.burn)states.push(`<span class="status-chip burn" title="每层每次灼烧结算扣4气血，剩余${a.burnTurns}次结算">灼烧 ${a.burn} · ${a.burnTurns}回合</span>`);if(a.broken)states.push('<span class="status-chip" title="下一次重剑伤害提高25%">破绽</span>');if(a.charge)states.push(`<span class="status-chip charge">蓄势 · ${a.charge.name}</span>`);return `<div class="fighter-heading"><span class="side-tag">${player?'你':'对手'}</span><h2>${player?'无名道友':c.person}</h2><span class="fighter-sect">${c.sect}</span></div><div class="hp-line"><span>${c.name} · 气血</span><b>${a.hp} <span>/ ${a.maxHp}</span></b></div><div class="hp-track" role="meter" aria-label="${player?'你的':'对手'}气血" aria-valuemin="0" aria-valuemax="${a.maxHp}" aria-valuenow="${a.hp}"><div class="hp-fill" style="--hp:${a.hp/a.maxHp*100}%"></div></div><div class="shield-line">${a.shield?`护盾 ${a.shield}`:'护盾 —'} <span>· ${a.reaction?'应对可用':'应对已用'}</span></div><div class="statuses">${states.join('')}</div>`;}
 function render(){
   const b=battle,p=b.player,e=b.enemy,c=CLASSES[p.key];
@@ -21,22 +25,28 @@ function render(){
   $('phase-label').textContent={player:p.charge?'你正在蓄势':'你的行动阶段',enemy:'敌方行动阶段',reaction:'择招应对',over:b.result==='win'?'论道告捷':'本场惜败'}[b.phase];
   $('distance-display').innerHTML=['近','中','远'].map((n,i)=>`<span class="distance-node ${i===b.distance?'active':''}">${n}</span>`).join('');
   $('distance-caption').textContent=['近身交锋','中距斗法','远距对峙'][b.distance];
+  $('distance-current').textContent=['近身','中距','远距'][b.distance];
+  $('distance-explanation').textContent=[
+    '普通剑招与打断技可用；中远距蓄势大招无法施展，释放时也会落空。',
+    '两边所有已装备神通都适合中距，仍需满足灵气与行动点要求。',
+    '常规火法与蓄势大招可用；普通剑招和打断技超出距离。'
+  ][b.distance];
   $('qi-total').textContent=`${total(p.qi)} / 10`;
   $('generation-label').textContent=`每回合 +${Object.entries(c.gen).map(([k,n])=>n+ELEMENT_NAMES[k]).join(' · ')}`;
   $('qi-pool').innerHTML=ELEMENTS.map(k=>`<div class="qi-item ${p.qi[k]?'':'empty'}" style="--element:var(--${k})" aria-label="${ELEMENT_NAMES[k]}灵气${p.qi[k]}点"><span class="qi-orb"><span>${k==='any'?'灵':ELEMENT_NAMES[k]}</span></span><span class="qi-count">${p.qi[k]}</span></div>`).join('');
   $('action-points').innerHTML=`<div class="ap-dots" aria-label="剩余${p.ap}行动点">${[0,1,2].map(i=>`<span class="ap-dot ${i<p.ap?'':'spent'}"></span>`).join('')}</div>`;
   $('reaction-status').textContent=p.reaction?'应对机会可用':'应对机会已用';$('reaction-status').className=`reaction-status ${p.reaction?'':'used'}`;
   $('passive-label').textContent=`${c.passive} · ${p.key==='fire'?(p.woodTriggered?'本回合已触发':'首次木法凝火'):`剑意 ${p.intent} / 5`}`;
-  $('skills-grid').innerHTML=c.skills.map((s,i)=>{let reason=b.legal(p,s.id);const disabled=b.phase!=='player'||!!reason;return `<button class="skill-card" data-skill="${s.id}" style="--element:var(--${s.element})" ${disabled?'disabled':''} title="${reason||s.desc}" aria-label="${s.name}，${s.desc}${reason?'。'+reason:''}"><div class="skill-head"><span class="skill-symbol">${s.symbol}</span><h3>${s.name}</h3><span class="skill-tag">${s.tag}</span></div><p>${s.desc}</p><div class="skill-cost"><span>${s.ap} 行动</span><span class="cost-separator">|</span>${costHtml(s.cost)}</div><div class="skill-cost">${s.power?`<span class="damage-preview">预计 ${b.preview(s)} 伤害${s.kind==='charge'?' · 下回合':''}</span>`:`<span>${s.id==='seed'?'最多 5 层灵种':s.id==='heal'?'恢复 26 气血':'护盾 +22'}</span>`}${reason&&b.phase==='player'?`<span class="skill-reason">${reason}</span>`:''}</div></button>`;}).join('');
-  $('utility-actions').innerHTML=COMMON.map(s=>`<button class="utility" data-skill="${s.id}" ${b.phase!=='player'||b.legal(p,s.id)?'disabled':''} title="${b.legal(p,s.id)||({basic:'无需灵气，造成基础伤害',near:'消耗1行动点，距离缩短一档',far:'消耗1行动点，距离拉开一档',meditate:'每回合限一次，凝聚1主属性和1通灵',purify:'消耗1任意灵气，恢复8气血并清除灼烧'}[s.id])}">${s.name}<small>${s.id==='meditate'?'+2灵气':s.id==='purify'?'1灵气':'1行动'}</small></button>`).join('')+(p.charge&&b.phase==='player'?'<button class="utility" id="cancel-charge">取消蓄势</button>':'');
+  $('skills-grid').innerHTML=c.skills.map((s,i)=>{let reason=b.legal(p,s.id);const rangeOK=s.range.includes(b.distance);const disabled=b.phase!=='player'||!!reason;return `<button class="skill-card" data-skill="${s.id}" style="--element:var(--${s.element})" ${disabled?'disabled':''} title="有效距离：${rangeLabel(s)}。${reason||s.desc}" aria-label="${s.name}，有效距离：${rangeLabel(s)}。${s.desc}${reason?'。'+reason:''}"><div class="skill-head"><span class="skill-symbol">${s.symbol}</span><h3>${s.name}</h3><span class="skill-tag">${s.tag}</span></div><p>${s.desc}</p><div class="skill-range ${rangeOK?'':'out-of-range'}"><span>有效：${rangeLabel(s)}</span><b>${rangeOK?'距离可用':'超出距离'}</b></div><div class="skill-cost"><span>${s.ap} 行动</span><span class="cost-separator">|</span>${costHtml(s.cost)}</div><div class="skill-cost">${s.power?`<span class="damage-preview">预计 ${b.preview(s)} 伤害${s.kind==='charge'?' · 下回合':''}</span>`:`<span>${s.id==='seed'?'最多 5 层灵种':s.id==='heal'?'恢复 26 气血':'护盾 +22'}</span>`}${reason&&b.phase==='player'?`<span class="skill-reason">${reason}</span>`:''}</div></button>`;}).join('');
+  $('utility-actions').innerHTML=COMMON.map(s=>`<button class="utility" data-skill="${s.id}" ${b.phase!=='player'||b.legal(p,s.id)?'disabled':''} title="${b.legal(p,s.id)||({basic:'近身 / 中距 / 远距均有效；无需灵气，造成基础伤害',near:'消耗1行动点，距离缩短一档',far:'消耗1行动点，距离拉开一档',meditate:'每回合限一次，凝聚1主属性和1通灵',purify:'消耗1任意灵气，恢复8气血并清除灼烧'}[s.id])}">${s.name}<small>${s.id==='meditate'?'+2灵气':s.id==='purify'?'1灵气':'1行动'}</small></button>`).join('')+(p.charge&&b.phase==='player'?'<button class="utility" id="cancel-charge">取消蓄势</button>':'');
   $('end-turn').disabled=b.phase!=='player';
   $('end-turn').innerHTML=b.phase==='player'?`${p.charge?'完成蓄势':'结束回合'} <span>${p.charge?'下次行动阶段释放':'保留剩余灵气'}</span>`:`${b.phase==='over'?'本场已结束':'敌方出招中'} <span>${b.phase==='over'?'可重新论道':'观察并准备应对'}</span>`;
-  const intent=e.charge?`正在蓄势「${e.charge.name}」 · 下一次敌方行动开始时释放`:(b.enemyPlan||[]).map(id=>b.skill(e,id).name).join(' · ');
+  const intent=e.charge?`正在蓄势「${e.charge.name}」 · 有效：${rangeLabel(e.charge)} · 下次敌方行动开始时释放`:(b.enemyPlan||[]).map(id=>b.skill(e,id).name).join(' · ');
   $('intent-text').textContent=b.result?'本场斗法已结束':intent;
-  $('intent-note').textContent=e.charge?'可打断 / 拉开距离':'提前观其势';
+  $('intent-note').textContent=e.charge?'可打断 / 近身化解':'提前观其势';
   $('passive-seal').textContent=p.key==='fire'?'生':'剑';$('passive-name').textContent=c.passive;$('passive-description').textContent=c.passiveText;
   $('stat-list').innerHTML=[['境界','筑基初期'],['肉身防御',c.physical],['灵力防御',c.magical],['灵气容量','10'],['每回合纳气','5'],['先手','固定你先手']].map(([k,v])=>`<div class="stat-row"><span>${k}</span><b>${v}</b></div>`).join('');
-  $('tip-line').textContent=p.charge?'正在蓄势。敌人可能打断；确认距离后结束回合。':p.ap===0?'行动点已用尽。结束回合，让对手出招。':p.key==='fire'?'小诀：先催生、再焚炎，留下 1 木灵气用于御木诀。':'小诀：照隙识破，掠影养意，再以断岳破势。';
+  $('tip-line').textContent=p.charge?'正在蓄势：释放时仍需中距或远距；敌方贴近到近身或打断都会化解此招。':p.ap===0?'行动点已用尽。结束回合，让对手出招。':p.key==='fire'?'小诀：先催生、再焚炎，留下 1 木灵气用于御木诀。':'小诀：照隙识破，掠影养意，再以断岳破势。';
   const logView=$('battle-log');
   const followLatest=logView.scrollHeight-logView.clientHeight-logView.scrollTop<=32;
   for(const l of b.logs.filter(l=>l.id>lastLog)){const div=document.createElement('div');div.className=`log-entry ${l.type}`;div.textContent=l.text;logView.append(div);lastLog=l.id;}
