@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b171d">
+  <meta name="description" content="青霄论道：火木法修与太玄剑修的回合制斗法。运筹五行灵气，观敌蓄势，一招定胜负。">
+  <title>青霄论道 · 一对一斗法</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230b171d'/%3E%3Cpath d='M16 3 29 16 16 29 3 16Z' fill='none' stroke='%23c8a66b'/%3E%3Cpath d='m19 7-7 13 4-1-3 7 8-13-4 1Z' fill='%23c8a66b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand"><span class="brand-seal" aria-hidden="true">霄</span><div><h1>青霄论道</h1><span class="brand-sub">筑基 · 一对一斗法</span></div></div>
+      <div class="top-actions"><button class="quiet" id="guide-button"><span aria-hidden="true">?</span> 斗法指南</button><button class="quiet" id="restart-button">重新论道</button></div>
+    </header>
+    <main>
+      <section class="selection" aria-label="流派选择">
+        <div class="selection-label"><span class="small-label">选择你的道途</span><span class="selection-hint">切换流派将开启新一场斗法</span></div>
+        <div class="class-switch"><button data-class="fire" class="class-choice active"><span class="class-icon fire-text">火</span><span>火木法修<small>种灵 · 引燃 · 生息</small></span><span class="selected-mark">已选</span></button><button data-class="sword" class="class-choice"><span class="class-icon metal-text">剑</span><span>太玄剑修<small>养意 · 识破 · 断岳</small></span><span class="selected-mark">已选</span></button></div>
+      </section>
+      <div class="game-grid">
+        <div class="play-column">
+          <section class="arena" aria-label="斗法场">
+            <div class="arena-vignette"></div>
+            <div class="arena-top"><span class="location">青霄峰 · 论道台</span><span class="round-badge" id="round-label">第一回合</span><span class="weather">月明 · 无风</span></div>
+            <div class="fighter-info player-info" id="player-info"></div><div class="fighter-info enemy-info" id="enemy-info"></div>
+            <img class="character player-character" id="player-art" src="assets/fire.png" alt="火木法修">
+            <img class="character enemy-character" id="enemy-art" src="assets/sword.png" alt="太玄剑修">
+            <div class="arena-center"><span class="duel-symbol">论 道</span><div class="distance-display" id="distance-display"></div><span class="distance-caption" id="distance-caption"></span></div>
+            <div id="floating-hit" class="floating-hit" aria-hidden="true"></div>
+            <div class="arena-bottom"><div class="phase-label" id="phase-label"></div><span class="realm-label">同境切磋 · 气血耗尽即认输</span></div>
+            <div class="result-overlay" id="result-overlay" hidden></div>
+          </section>
+          <section class="intent-bar" aria-label="敌方意图"><span class="intent-icon" aria-hidden="true">观</span><div><span class="small-label">敌方意图</span><p id="intent-text"></p></div><span class="intent-note" id="intent-note"></span></section>
+          <section class="resource-panel" aria-label="战斗资源"><div class="qi-heading"><h2>五行灵气 <span id="qi-total"></span></h2><span class="small-label" id="generation-label"></span></div><div class="resource-row"><div class="qi-pool" id="qi-pool"></div><div class="ap-block"><span class="small-label">行动点</span><div id="action-points"></div></div><div class="reaction-status" id="reaction-status"></div></div></section>
+          <section class="skill-section" aria-label="神通"><div class="section-title"><h2>神通</h2><span id="passive-label"></span></div><div class="skills-grid" id="skills-grid"></div></section>
+          <section class="turn-controls" aria-label="通用行动"><div class="utility-actions" id="utility-actions"></div><button class="end-turn" id="end-turn">结束回合 <span>保留剩余灵气</span></button></section>
+          <p class="tip-line" id="tip-line"></p>
+        </div>
+        <aside class="side-column">
+          <section class="cultivation-panel"><div class="panel-title"><h2>修行心法</h2><span>主修</span></div><div class="passive-seal" id="passive-seal">生</div><h3 id="passive-name"></h3><p id="passive-description"></p><div class="stat-list" id="stat-list"></div></section>
+          <section class="log-panel"><div class="panel-title"><h2>斗法纪要</h2><span id="log-round">实时</span></div><div class="battle-log" id="battle-log" role="log" aria-live="polite" aria-relevant="additions"></div></section>
+          <div class="side-footnote">知其势，守其隙。<br><span>先铺垫，再出手。</span></div>
+        </aside>
+      </div>
+    </main>
+    <footer><span>青霄论道</span><span>战斗原型 v0.1 · 火木 / 剑修</span><span>一念生万法，一剑破长空。</span></footer>
+  </div>
+  <dialog id="guide-dialog"><div class="dialog-header"><span class="small-label">论道入门</span><button class="close-button" id="close-guide" aria-label="关闭指南">×</button></div><h2>先观其势，再择一招。</h2><div class="guide-grid"><div><b>一 · 运筹灵气</b><p>每回合获得 5 点灵气，最多储存 10 点。指定属性不能用通灵替代；任意费用先消耗通灵，再消耗数量最多的其他灵气。</p></div><div><b>二 · 三次行动</b><p>每回合有 3 行动点。一般神通消耗 1 点，蓄势消耗 2 点。移动、调息、净息也占用行动。</p></div><div><b>三 · 留一手应对</b><p>敌方攻击前可选择护盾或闪身，每回合最多成功应对一次。预留 1 木或 1 金灵气，可获得 26 护盾。</p></div><div><b>四 · 距离与蓄势</b><p>近、中、远三档距离。剑招多适合近中距，蓄势适合中远距。大招下一次行动阶段释放，可被打断或以距离化解。</p></div></div><div class="guide-rules"><b>火木法修</b><p>催生术种下灵种，焚炎术引燃增伤；木系神通每回合首次施展额外生成 1 火灵气。灼烧每层每回合扣 4 气血，无视护盾，持续 3 次结算。青木回春和净息可清除灼烧。</p><b>太玄剑修</b><p>剑招积累剑意，上限 5 层。照隙诀制造破绽，断岳剑消耗剑意并利用破绽增伤。藏锋式同时养剑与护体。</p><p class="guide-note">本原型固定你先手。护盾上限 60，跨回合保留；灵种上限 5。敌人预告的招式若费用或距离不满足会跳过。重新论道与切换流派都会重置本场。</p></div><button class="primary-button" id="guide-done">入场论道</button></dialog>
+  <dialog id="reaction-dialog"><div class="reaction-header"><span class="small-label">应对窗口</span><span class="reaction-pulse"></span></div><h2 id="reaction-title"></h2><p id="reaction-description"></p><div id="reaction-options"></div><p class="dialog-footnote">每回合仅可成功应对一次 · 放弃应对可保留机会</p></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>
