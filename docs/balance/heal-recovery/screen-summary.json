@@ -1,0 +1,1479 @@
+{
+  "sourceCommit": "3201731d9ffc3ddafb414be8eca2655ea91e25f7",
+  "baselineSources": {
+    "charge": "deterministic scenario enumeration; not independent random trials",
+    "sustain": "5fef99133fa4e13b4c195b362255946cc9d6a477"
+  },
+  "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+  "verifiedBaseline": 144,
+  "executions": 1152,
+  "screenPerCandidate": {
+    "core": 384,
+    "fireMirror": 48,
+    "tactical": 24
+  },
+  "clearCrossClassStructurallyReused": 384,
+  "elapsedSeconds": 196.156384163,
+  "candidates": [
+    {
+      "id": "base",
+      "heal": 26,
+      "clear": 5,
+      "engineHash": "cfedd1fde64d5c0e4812fe42afe029d628c99d6f",
+      "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+      "summary": {
+        "core": {
+          "n": 384,
+          "wins": 268,
+          "losses": 116,
+          "draws": 0,
+          "winRate": 0.6979166666666666,
+          "avgRounds": 6.815104166666667,
+          "maxRounds": 21
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 192,
+            "wins": 115,
+            "losses": 77,
+            "draws": 0,
+            "winRate": 0.5989583333333334,
+            "avgRounds": 5.817708333333333,
+            "maxRounds": 18,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 55,
+                  "losses": 41,
+                  "draws": 0,
+                  "winRate": 0.5729166666666666,
+                  "avgRounds": 5.541666666666667,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 17,
+                  "losses": 15,
+                  "draws": 0,
+                  "winRate": 0.53125,
+                  "avgRounds": 5.65625,
+                  "maxRounds": 11
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 60,
+                  "losses": 36,
+                  "draws": 0,
+                  "winRate": 0.625,
+                  "avgRounds": 6.09375,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 21,
+                  "losses": 11,
+                  "draws": 0,
+                  "winRate": 0.65625,
+                  "avgRounds": 6.0625,
+                  "maxRounds": 12
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 29,
+                "losses": 35,
+                "draws": 0,
+                "winRate": 0.453125,
+                "avgRounds": 5.78125,
+                "maxRounds": 18
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 38,
+                "losses": 26,
+                "draws": 0,
+                "winRate": 0.59375,
+                "avgRounds": 5.859375,
+                "maxRounds": 12
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 48,
+                "losses": 16,
+                "draws": 0,
+                "winRate": 0.75,
+                "avgRounds": 5.8125,
+                "maxRounds": 15
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 40,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.8333333333333334,
+                "avgRounds": 6.291666666666667,
+                "maxRounds": 15
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 19,
+                "losses": 29,
+                "draws": 0,
+                "winRate": 0.3958333333333333,
+                "avgRounds": 4.375,
+                "maxRounds": 9
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 36,
+                "losses": 12,
+                "draws": 0,
+                "winRate": 0.75,
+                "avgRounds": 7.125,
+                "maxRounds": 18
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 20,
+                "losses": 28,
+                "draws": 0,
+                "winRate": 0.4166666666666667,
+                "avgRounds": 5.479166666666667,
+                "maxRounds": 12
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 66,
+              "losses": 30,
+              "draws": 0,
+              "winRate": 0.6875,
+              "avgRounds": 5.604166666666667,
+              "maxRounds": 18
+            },
+            "second": {
+              "n": 96,
+              "wins": 49,
+              "losses": 47,
+              "draws": 0,
+              "winRate": 0.5104166666666666,
+              "avgRounds": 6.03125,
+              "maxRounds": 15
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          },
+          {
+            "major": "sustain",
+            "n": 192,
+            "wins": 153,
+            "losses": 39,
+            "draws": 0,
+            "winRate": 0.796875,
+            "avgRounds": 7.8125,
+            "maxRounds": 21,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 75,
+                  "losses": 21,
+                  "draws": 0,
+                  "winRate": 0.78125,
+                  "avgRounds": 7.65625,
+                  "maxRounds": 20
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 26,
+                  "losses": 6,
+                  "draws": 0,
+                  "winRate": 0.8125,
+                  "avgRounds": 7.9375,
+                  "maxRounds": 20
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 78,
+                  "losses": 18,
+                  "draws": 0,
+                  "winRate": 0.8125,
+                  "avgRounds": 7.96875,
+                  "maxRounds": 21
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 25,
+                  "losses": 7,
+                  "draws": 0,
+                  "winRate": 0.78125,
+                  "avgRounds": 8.1875,
+                  "maxRounds": 21
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 46,
+                "losses": 18,
+                "draws": 0,
+                "winRate": 0.71875,
+                "avgRounds": 7.609375,
+                "maxRounds": 19
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 51,
+                "losses": 13,
+                "draws": 0,
+                "winRate": 0.796875,
+                "avgRounds": 8.0625,
+                "maxRounds": 21
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 56,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.875,
+                "avgRounds": 7.765625,
+                "maxRounds": 19
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 40,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.8333333333333334,
+                "avgRounds": 8.229166666666666,
+                "maxRounds": 18
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 30,
+                "losses": 18,
+                "draws": 0,
+                "winRate": 0.625,
+                "avgRounds": 6.5625,
+                "maxRounds": 19
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 41,
+                "losses": 7,
+                "draws": 0,
+                "winRate": 0.8541666666666666,
+                "avgRounds": 8.583333333333334,
+                "maxRounds": 19
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 42,
+                "losses": 6,
+                "draws": 0,
+                "winRate": 0.875,
+                "avgRounds": 7.875,
+                "maxRounds": 21
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 87,
+              "losses": 9,
+              "draws": 0,
+              "winRate": 0.90625,
+              "avgRounds": 7.5,
+              "maxRounds": 18
+            },
+            "second": {
+              "n": 96,
+              "wins": 66,
+              "losses": 30,
+              "draws": 0,
+              "winRate": 0.6875,
+              "avgRounds": 8.125,
+              "maxRounds": 21
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          }
+        ],
+        "mirrors": [
+          {
+            "major": "ignite",
+            "n": 24,
+            "firstWins": 22,
+            "draws": 0,
+            "avgRounds": 6.083333333333333
+          },
+          {
+            "major": "sustain",
+            "n": 24,
+            "firstWins": 12,
+            "draws": 0,
+            "avgRounds": 7.75
+          }
+        ],
+        "draws": 0
+      }
+    },
+    {
+      "id": "heal22",
+      "heal": 22,
+      "clear": 5,
+      "engineHash": "6f70209bd8862393a0494ab679a82ee566a151e6",
+      "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+      "summary": {
+        "core": {
+          "n": 384,
+          "wins": 253,
+          "losses": 131,
+          "draws": 0,
+          "winRate": 0.6588541666666666,
+          "avgRounds": 6.6640625,
+          "maxRounds": 22
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 192,
+            "wins": 107,
+            "losses": 85,
+            "draws": 0,
+            "winRate": 0.5572916666666666,
+            "avgRounds": 5.6875,
+            "maxRounds": 22,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 50,
+                  "losses": 46,
+                  "draws": 0,
+                  "winRate": 0.5208333333333334,
+                  "avgRounds": 5.4375,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 14,
+                  "losses": 18,
+                  "draws": 0,
+                  "winRate": 0.4375,
+                  "avgRounds": 5.5625,
+                  "maxRounds": 13
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 57,
+                  "losses": 39,
+                  "draws": 0,
+                  "winRate": 0.59375,
+                  "avgRounds": 5.9375,
+                  "maxRounds": 22
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 21,
+                  "losses": 11,
+                  "draws": 0,
+                  "winRate": 0.65625,
+                  "avgRounds": 5.8125,
+                  "maxRounds": 12
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 26,
+                "losses": 38,
+                "draws": 0,
+                "winRate": 0.40625,
+                "avgRounds": 5.65625,
+                "maxRounds": 22
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 35,
+                "losses": 29,
+                "draws": 0,
+                "winRate": 0.546875,
+                "avgRounds": 5.6875,
+                "maxRounds": 13
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 46,
+                "losses": 18,
+                "draws": 0,
+                "winRate": 0.71875,
+                "avgRounds": 5.71875,
+                "maxRounds": 12
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 36,
+                "losses": 12,
+                "draws": 0,
+                "winRate": 0.75,
+                "avgRounds": 5.854166666666667,
+                "maxRounds": 10
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 19,
+                "losses": 29,
+                "draws": 0,
+                "winRate": 0.3958333333333333,
+                "avgRounds": 4.375,
+                "maxRounds": 9
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 35,
+                "losses": 13,
+                "draws": 0,
+                "winRate": 0.7291666666666666,
+                "avgRounds": 7.208333333333333,
+                "maxRounds": 22
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 17,
+                "losses": 31,
+                "draws": 0,
+                "winRate": 0.3541666666666667,
+                "avgRounds": 5.3125,
+                "maxRounds": 11
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 60,
+              "losses": 36,
+              "draws": 0,
+              "winRate": 0.625,
+              "avgRounds": 5.541666666666667,
+              "maxRounds": 22
+            },
+            "second": {
+              "n": 96,
+              "wins": 47,
+              "losses": 49,
+              "draws": 0,
+              "winRate": 0.4895833333333333,
+              "avgRounds": 5.833333333333333,
+              "maxRounds": 13
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          },
+          {
+            "major": "sustain",
+            "n": 192,
+            "wins": 146,
+            "losses": 46,
+            "draws": 0,
+            "winRate": 0.7604166666666666,
+            "avgRounds": 7.640625,
+            "maxRounds": 21,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 71,
+                  "losses": 25,
+                  "draws": 0,
+                  "winRate": 0.7395833333333334,
+                  "avgRounds": 7.583333333333333,
+                  "maxRounds": 21
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 23,
+                  "losses": 9,
+                  "draws": 0,
+                  "winRate": 0.71875,
+                  "avgRounds": 7.90625,
+                  "maxRounds": 21
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 75,
+                  "losses": 21,
+                  "draws": 0,
+                  "winRate": 0.78125,
+                  "avgRounds": 7.697916666666667,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 25,
+                  "losses": 7,
+                  "draws": 0,
+                  "winRate": 0.78125,
+                  "avgRounds": 7.90625,
+                  "maxRounds": 18
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 44,
+                "losses": 20,
+                "draws": 0,
+                "winRate": 0.6875,
+                "avgRounds": 7.40625,
+                "maxRounds": 18
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 48,
+                "losses": 16,
+                "draws": 0,
+                "winRate": 0.75,
+                "avgRounds": 7.90625,
+                "maxRounds": 21
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 54,
+                "losses": 10,
+                "draws": 0,
+                "winRate": 0.84375,
+                "avgRounds": 7.609375,
+                "maxRounds": 18
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 40,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.8333333333333334,
+                "avgRounds": 8.229166666666666,
+                "maxRounds": 18
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 23,
+                "losses": 25,
+                "draws": 0,
+                "winRate": 0.4791666666666667,
+                "avgRounds": 6.416666666666667,
+                "maxRounds": 21
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 41,
+                "losses": 7,
+                "draws": 0,
+                "winRate": 0.8541666666666666,
+                "avgRounds": 8.583333333333334,
+                "maxRounds": 18
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 42,
+                "losses": 6,
+                "draws": 0,
+                "winRate": 0.875,
+                "avgRounds": 7.333333333333333,
+                "maxRounds": 18
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 84,
+              "losses": 12,
+              "draws": 0,
+              "winRate": 0.875,
+              "avgRounds": 7.28125,
+              "maxRounds": 18
+            },
+            "second": {
+              "n": 96,
+              "wins": 62,
+              "losses": 34,
+              "draws": 0,
+              "winRate": 0.6458333333333334,
+              "avgRounds": 8,
+              "maxRounds": 21
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          }
+        ],
+        "mirrors": [
+          {
+            "major": "ignite",
+            "n": 24,
+            "firstWins": 24,
+            "draws": 0,
+            "avgRounds": 5.416666666666667
+          },
+          {
+            "major": "sustain",
+            "n": 24,
+            "firstWins": 18,
+            "draws": 0,
+            "avgRounds": 7.25
+          }
+        ],
+        "draws": 0
+      }
+    },
+    {
+      "id": "heal18",
+      "heal": 18,
+      "clear": 5,
+      "engineHash": "f8ad6bc1dbbe68c986485d645a424a7545d748fa",
+      "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+      "summary": {
+        "core": {
+          "n": 384,
+          "wins": 246,
+          "losses": 138,
+          "draws": 0,
+          "winRate": 0.640625,
+          "avgRounds": 6.6640625,
+          "maxRounds": 23
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 192,
+            "wins": 102,
+            "losses": 90,
+            "draws": 0,
+            "winRate": 0.53125,
+            "avgRounds": 5.645833333333333,
+            "maxRounds": 21,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 52,
+                  "losses": 44,
+                  "draws": 0,
+                  "winRate": 0.5416666666666666,
+                  "avgRounds": 5.385416666666667,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 14,
+                  "losses": 18,
+                  "draws": 0,
+                  "winRate": 0.4375,
+                  "avgRounds": 5.40625,
+                  "maxRounds": 13
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 50,
+                  "losses": 46,
+                  "draws": 0,
+                  "winRate": 0.5208333333333334,
+                  "avgRounds": 5.90625,
+                  "maxRounds": 21
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 16,
+                  "losses": 16,
+                  "draws": 0,
+                  "winRate": 0.5,
+                  "avgRounds": 5.71875,
+                  "maxRounds": 12
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 26,
+                "losses": 38,
+                "draws": 0,
+                "winRate": 0.40625,
+                "avgRounds": 5.703125,
+                "maxRounds": 21
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 30,
+                "losses": 34,
+                "draws": 0,
+                "winRate": 0.46875,
+                "avgRounds": 5.5625,
+                "maxRounds": 13
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 46,
+                "losses": 18,
+                "draws": 0,
+                "winRate": 0.71875,
+                "avgRounds": 5.671875,
+                "maxRounds": 12
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 34,
+                "losses": 14,
+                "draws": 0,
+                "winRate": 0.7083333333333334,
+                "avgRounds": 5.833333333333333,
+                "maxRounds": 11
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 18,
+                "losses": 30,
+                "draws": 0,
+                "winRate": 0.375,
+                "avgRounds": 4.333333333333333,
+                "maxRounds": 9
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 32,
+                "losses": 16,
+                "draws": 0,
+                "winRate": 0.6666666666666666,
+                "avgRounds": 7.25,
+                "maxRounds": 21
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 18,
+                "losses": 30,
+                "draws": 0,
+                "winRate": 0.375,
+                "avgRounds": 5.166666666666667,
+                "maxRounds": 10
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 57,
+              "losses": 39,
+              "draws": 0,
+              "winRate": 0.59375,
+              "avgRounds": 5.520833333333333,
+              "maxRounds": 21
+            },
+            "second": {
+              "n": 96,
+              "wins": 45,
+              "losses": 51,
+              "draws": 0,
+              "winRate": 0.46875,
+              "avgRounds": 5.770833333333333,
+              "maxRounds": 14
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          },
+          {
+            "major": "sustain",
+            "n": 192,
+            "wins": 144,
+            "losses": 48,
+            "draws": 0,
+            "winRate": 0.75,
+            "avgRounds": 7.682291666666667,
+            "maxRounds": 23,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 70,
+                  "losses": 26,
+                  "draws": 0,
+                  "winRate": 0.7291666666666666,
+                  "avgRounds": 7.635416666666667,
+                  "maxRounds": 23
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 22,
+                  "losses": 10,
+                  "draws": 0,
+                  "winRate": 0.6875,
+                  "avgRounds": 7.875,
+                  "maxRounds": 23
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 74,
+                  "losses": 22,
+                  "draws": 0,
+                  "winRate": 0.7708333333333334,
+                  "avgRounds": 7.729166666666667,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 24,
+                  "losses": 8,
+                  "draws": 0,
+                  "winRate": 0.75,
+                  "avgRounds": 8.03125,
+                  "maxRounds": 18
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 44,
+                "losses": 20,
+                "draws": 0,
+                "winRate": 0.6875,
+                "avgRounds": 7.25,
+                "maxRounds": 19
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 46,
+                "losses": 18,
+                "draws": 0,
+                "winRate": 0.71875,
+                "avgRounds": 7.953125,
+                "maxRounds": 23
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 54,
+                "losses": 10,
+                "draws": 0,
+                "winRate": 0.84375,
+                "avgRounds": 7.84375,
+                "maxRounds": 22
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 39,
+                "losses": 9,
+                "draws": 0,
+                "winRate": 0.8125,
+                "avgRounds": 8,
+                "maxRounds": 20
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 23,
+                "losses": 25,
+                "draws": 0,
+                "winRate": 0.4791666666666667,
+                "avgRounds": 6.333333333333333,
+                "maxRounds": 18
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 42,
+                "losses": 6,
+                "draws": 0,
+                "winRate": 0.875,
+                "avgRounds": 8.708333333333334,
+                "maxRounds": 19
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 40,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.8333333333333334,
+                "avgRounds": 7.6875,
+                "maxRounds": 23
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 83,
+              "losses": 13,
+              "draws": 0,
+              "winRate": 0.8645833333333334,
+              "avgRounds": 7.354166666666667,
+              "maxRounds": 23
+            },
+            "second": {
+              "n": 96,
+              "wins": 61,
+              "losses": 35,
+              "draws": 0,
+              "winRate": 0.6354166666666666,
+              "avgRounds": 8.010416666666666,
+              "maxRounds": 20
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          }
+        ],
+        "mirrors": [
+          {
+            "major": "ignite",
+            "n": 24,
+            "firstWins": 18,
+            "draws": 0,
+            "avgRounds": 5.25
+          },
+          {
+            "major": "sustain",
+            "n": 24,
+            "firstWins": 12,
+            "draws": 0,
+            "avgRounds": 6.25
+          }
+        ],
+        "draws": 0
+      }
+    },
+    {
+      "id": "clear2",
+      "heal": 26,
+      "clear": 2,
+      "engineHash": "a5ae12f483bf31345d813aed87bfd17aa9eea5dd",
+      "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+      "summary": {
+        "core": {
+          "n": 384,
+          "wins": 268,
+          "losses": 116,
+          "draws": 0,
+          "winRate": 0.6979166666666666,
+          "avgRounds": 6.815104166666667,
+          "maxRounds": 21
+        },
+        "byMajor": [
+          {
+            "major": "ignite",
+            "n": 192,
+            "wins": 115,
+            "losses": 77,
+            "draws": 0,
+            "winRate": 0.5989583333333334,
+            "avgRounds": 5.817708333333333,
+            "maxRounds": 18,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 55,
+                  "losses": 41,
+                  "draws": 0,
+                  "winRate": 0.5729166666666666,
+                  "avgRounds": 5.541666666666667,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 17,
+                  "losses": 15,
+                  "draws": 0,
+                  "winRate": 0.53125,
+                  "avgRounds": 5.65625,
+                  "maxRounds": 11
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 60,
+                  "losses": 36,
+                  "draws": 0,
+                  "winRate": 0.625,
+                  "avgRounds": 6.09375,
+                  "maxRounds": 18
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 21,
+                  "losses": 11,
+                  "draws": 0,
+                  "winRate": 0.65625,
+                  "avgRounds": 6.0625,
+                  "maxRounds": 12
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 29,
+                "losses": 35,
+                "draws": 0,
+                "winRate": 0.453125,
+                "avgRounds": 5.78125,
+                "maxRounds": 18
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 38,
+                "losses": 26,
+                "draws": 0,
+                "winRate": 0.59375,
+                "avgRounds": 5.859375,
+                "maxRounds": 12
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 48,
+                "losses": 16,
+                "draws": 0,
+                "winRate": 0.75,
+                "avgRounds": 5.8125,
+                "maxRounds": 15
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 40,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.8333333333333334,
+                "avgRounds": 6.291666666666667,
+                "maxRounds": 15
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 19,
+                "losses": 29,
+                "draws": 0,
+                "winRate": 0.3958333333333333,
+                "avgRounds": 4.375,
+                "maxRounds": 9
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 36,
+                "losses": 12,
+                "draws": 0,
+                "winRate": 0.75,
+                "avgRounds": 7.125,
+                "maxRounds": 18
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 20,
+                "losses": 28,
+                "draws": 0,
+                "winRate": 0.4166666666666667,
+                "avgRounds": 5.479166666666667,
+                "maxRounds": 12
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 66,
+              "losses": 30,
+              "draws": 0,
+              "winRate": 0.6875,
+              "avgRounds": 5.604166666666667,
+              "maxRounds": 18
+            },
+            "second": {
+              "n": 96,
+              "wins": 49,
+              "losses": 47,
+              "draws": 0,
+              "winRate": 0.5104166666666666,
+              "avgRounds": 6.03125,
+              "maxRounds": 15
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          },
+          {
+            "major": "sustain",
+            "n": 192,
+            "wins": 153,
+            "losses": 39,
+            "draws": 0,
+            "winRate": 0.796875,
+            "avgRounds": 7.8125,
+            "maxRounds": 21,
+            "matrix": [
+              {
+                "sword": "quick",
+                "all": {
+                  "n": 96,
+                  "wins": 75,
+                  "losses": 21,
+                  "draws": 0,
+                  "winRate": 0.78125,
+                  "avgRounds": 7.65625,
+                  "maxRounds": 20
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 26,
+                  "losses": 6,
+                  "draws": 0,
+                  "winRate": 0.8125,
+                  "avgRounds": 7.9375,
+                  "maxRounds": 20
+                }
+              },
+              {
+                "sword": "heavy",
+                "all": {
+                  "n": 96,
+                  "wins": 78,
+                  "losses": 18,
+                  "draws": 0,
+                  "winRate": 0.8125,
+                  "avgRounds": 7.96875,
+                  "maxRounds": 21
+                },
+                "mid": {
+                  "n": 32,
+                  "wins": 25,
+                  "losses": 7,
+                  "draws": 0,
+                  "winRate": 0.78125,
+                  "avgRounds": 8.1875,
+                  "maxRounds": 21
+                }
+              }
+            ],
+            "distance": [
+              {
+                "distance": 0,
+                "n": 64,
+                "wins": 46,
+                "losses": 18,
+                "draws": 0,
+                "winRate": 0.71875,
+                "avgRounds": 7.609375,
+                "maxRounds": 19
+              },
+              {
+                "distance": 1,
+                "n": 64,
+                "wins": 51,
+                "losses": 13,
+                "draws": 0,
+                "winRate": 0.796875,
+                "avgRounds": 8.0625,
+                "maxRounds": 21
+              },
+              {
+                "distance": 2,
+                "n": 64,
+                "wins": 56,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.875,
+                "avgRounds": 7.765625,
+                "maxRounds": 19
+              }
+            ],
+            "styles": [
+              {
+                "style": "balanced",
+                "n": 48,
+                "wins": 40,
+                "losses": 8,
+                "draws": 0,
+                "winRate": 0.8333333333333334,
+                "avgRounds": 8.229166666666666,
+                "maxRounds": 18
+              },
+              {
+                "style": "aggressive",
+                "n": 48,
+                "wins": 30,
+                "losses": 18,
+                "draws": 0,
+                "winRate": 0.625,
+                "avgRounds": 6.5625,
+                "maxRounds": 19
+              },
+              {
+                "style": "defensive",
+                "n": 48,
+                "wins": 41,
+                "losses": 7,
+                "draws": 0,
+                "winRate": 0.8541666666666666,
+                "avgRounds": 8.583333333333334,
+                "maxRounds": 19
+              },
+              {
+                "style": "burst",
+                "n": 48,
+                "wins": 42,
+                "losses": 6,
+                "draws": 0,
+                "winRate": 0.875,
+                "avgRounds": 7.875,
+                "maxRounds": 21
+              }
+            ],
+            "first": {
+              "n": 96,
+              "wins": 87,
+              "losses": 9,
+              "draws": 0,
+              "winRate": 0.90625,
+              "avgRounds": 7.5,
+              "maxRounds": 18
+            },
+            "second": {
+              "n": 96,
+              "wins": 66,
+              "losses": 30,
+              "draws": 0,
+              "winRate": 0.6875,
+              "avgRounds": 8.125,
+              "maxRounds": 21
+            },
+            "ownLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            },
+            "opponentLoadouts": {
+              "n": 0,
+              "wins": 0,
+              "losses": 0,
+              "draws": 0,
+              "winRate": 0,
+              "avgRounds": 0,
+              "maxRounds": 0
+            }
+          }
+        ],
+        "mirrors": [
+          {
+            "major": "ignite",
+            "n": 24,
+            "firstWins": 18,
+            "draws": 0,
+            "avgRounds": 5.666666666666667
+          },
+          {
+            "major": "sustain",
+            "n": 24,
+            "firstWins": 6,
+            "draws": 0,
+            "avgRounds": 7.25
+          }
+        ],
+        "draws": 0
+      }
+    }
+  ]
+}

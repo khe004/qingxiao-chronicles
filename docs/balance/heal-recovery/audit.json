@@ -1,0 +1,25 @@
+{
+  "chosen": {
+    "id": "heal18",
+    "heal": 18,
+    "clear": 5,
+    "engineHash": "f8ad6bc1dbbe68c986485d645a424a7545d748fa",
+    "autoHash": "cb202a8d1225afb666670aadf241939d81194854"
+  },
+  "baselineInputs": [
+    {
+      "path": "docs/balance/charge-window/matches.json.gz",
+      "gitBlobHash": "ac49aa412dcedc36b25345404148bd7a2f7da014"
+    },
+    {
+      "path": "docs/balance/sustain-recovery/matches.json.gz",
+      "gitBlobHash": "56868ae9f7a0cbc308a49626e0eff5975179554d"
+    }
+  ],
+  "actualCompleteDuels": 2232,
+  "actualFiniteTactics": 96,
+  "selectedScenarioRows": 1824,
+  "screenCacheReused": 432,
+  "structurallyReused": 216,
+  "additionalDuels": 1176
+}

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {Battle,CLASSES,MAJORS,SUSTAIN_RECOVERY,normalizeLoadout,total} from './dist/engine.mjs';
-import {TENDENCIES,chooseAction,chooseReaction} from './dist/auto.mjs';
+import {TENDENCIES,chooseAction,chooseReaction,describeAutoChoice} from './dist/auto.mjs';
 
 for(const [key,c] of Object.entries(CLASSES)){
   assert.equal(c.skills.length,8);
@@ -63,11 +63,12 @@ for(const {key,config} of builds)for(const tendency of Object.keys(TENDENCIES)){
   assert.ok(b.result,`${key}/${config.major}/${tendency}: duel did not finish`);
   results.push({class:key,major:config.major,custom:config.skillIds.includes(key==='fire'?'ember':'lunge'),tendency,result:b.result,rounds:b.round,logs:b.logs.length});
 }
-const history=new Battle('sword',{major:'heavy',skillIds:['swift','expose','guard','lunge','return','unity']});
+const history=new Battle('sword',{major:'heavy',skillIds:['swift','expose','guard','return','lunge','cut']});
 for(let n=0;n<700&&!history.result;n++){
-  if(history.phase==='player'){const choice=chooseAction(history,'defensive');if(choice.action==='end')history.endTurn();else history.act(history.player,choice.skillId);}
+  if(history.phase==='player'){const choice=chooseAction(history,'defensive');history.log(describeAutoChoice(history,choice,'defensive'),'decision');if(choice.action==='end')history.endTurn();else history.act(history.player,choice.skillId);}
   else if(history.phase==='reaction')history.react(chooseReaction(history,'defensive').response);else history.enemyStep();
 }
 assert.ok(history.result);assert.ok(history.logs.length>160,'Long configured duel retains complete history');
+assert.equal(history.logs[0].id,1);assert.equal(history.logs.at(-1).id,history.logs.length);assert.ok(history.logs[0].text.includes('装备：'),'Initial setup survives the entire duel');
 console.log('Loadout validation, resource immutability, four majors, four new skills, bonus expiry/charge and 32 configured automatic duels passed.');
 console.log(JSON.stringify(results));
