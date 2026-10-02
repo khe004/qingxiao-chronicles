@@ -1,0 +1,16 @@
+{
+  "engineHash": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+  "autoHash": "cb202a8d1225afb666670aadf241939d81194854",
+  "horizon": "Current player action end through next player phase start, including both regeneration, player burn and free charge release; stop immediately on victory/defeat.",
+  "scope": "Public fixed enemy queue, both schools/four majors, recommended loadouts, three starting distances and four player tendencies. Same automatic reaction policy; deterministic rule consistency, not AI optimality or human win rates.",
+  "duels": 96,
+  "enemyPhases": 340,
+  "completeStateMatches": 340,
+  "playerHpMAE": 0,
+  "enemyHpMAE": 0,
+  "distanceMatches": 340,
+  "differentHpOrShieldAcrossHorizons": 145,
+  "skippedRange": 90,
+  "evades": 81,
+  "releases": 76
+}

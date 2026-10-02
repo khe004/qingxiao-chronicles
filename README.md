@@ -31,6 +31,7 @@ python3 -m http.server 8000 --directory dist
 - 本场斗法纪要完整保留，无条数上限；向上翻阅旧记录时不自动跳到最新，重新论道或切换流派时清空。
 - 自动斗法支持均衡、强攻、稳守、蓄势四种倾向及三档出招节奏，可随时暂停转手动；出招、应对与选择理由均写入纪要。
 - 桌面与移动端布局，以及支持浏览器中的 WebMCP 状态读取和行动接口。
+- 两种流派对局中的双方立绘受击均保持朝向并轻微位移；支持系统减少动态效果设置。
 
 ## 原型取舍
 
@@ -63,6 +64,7 @@ node test-charge-window.mjs
 node test-sustain.mjs
 node test-heal.mjs
 node test-range.mjs
+node test-forecast.mjs
 ```
 
 已通过资源、连招、距离、蓄势、打断、应对及 80 场完整对局检查；两种流派与四种倾向的 8 场自动对局也全部通过。新增配装验证覆盖四个主修、四个新技能、资源不可变性、藏锋失效与蓄势消费，以及 32 场配置自动对局和一场超过 160 条纪要的长局。已完成桌面与移动端配装、取消保留原局、应用重开、配置保留、自动暂停恢复、手动应对、完整纪要和 WebMCP 共用状态的浏览器检查。
@@ -108,3 +110,17 @@ node scripts/balance-range-report.mjs
 ```
 
 本轮生成器读取 `docs/balance/range-movement/source.json.gz` 中冻结的引擎、控制器与擂台源文件，采用值更改后仍可复现同一基准。旧数值实验请使用各自历史源文件或提交，不覆盖历史数据。
+
+## 受击动画与公开计划预测检查
+
+修复剑修对局中受击动画覆盖镜像朝向的问题，保留原有轻微位移与节奏。已验证两种流派、双方立绘、电脑、手机、减少动态效果及重新开始。
+
+线上固定预告预测完成 96 场对局、340 个阶段片段检查，相同结束点的完整战斗状态全部一致，气血平均绝对误差为零。离线双 AI 会逐招重新决策，仍需另行改善其对手模型；没有改动技能数值或线上自动控制器。详见 [检查报告](docs/受击动画与公开计划预测检查.md)。
+
+```sh
+node test-forecast.mjs
+node scripts/forecast-audit.mjs --out /tmp/qingxiao-forecast-audit
+node qa-hit.cjs
+```
+
+阶段原始记录保存在 `docs/balance/forecast-audit/`。后续实验使用新输出目录；历史复现请检出对应提交。浏览器检查可通过 `PLAYWRIGHT_MODULE` 和 `CHROMIUM_PATH` 指定 Playwright 与 Chromium。
