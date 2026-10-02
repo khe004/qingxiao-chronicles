@@ -28,8 +28,12 @@ function render(){
   $('passive-seal').textContent=p.key==='fire'?'生':'剑';$('passive-name').textContent=c.passive;$('passive-description').textContent=c.passiveText;
   $('stat-list').innerHTML=[['境界','筑基初期'],['肉身防御',c.physical],['灵力防御',c.magical],['灵气容量','10'],['每回合纳气','5'],['先手','固定你先手']].map(([k,v])=>`<div class="stat-row"><span>${k}</span><b>${v}</b></div>`).join('');
   $('tip-line').textContent=p.charge?'正在蓄势。敌人可能打断；确认距离后结束回合。':p.ap===0?'行动点已用尽。结束回合，让对手出招。':p.key==='fire'?'小诀：先催生、再焚炎，留下 1 木灵气用于御木诀。':'小诀：照隙识破，掠影养意，再以断岳破势。';
-  for(const l of b.logs.filter(l=>l.id>lastLog)){const div=document.createElement('div');div.className=`log-entry ${l.type}`;div.textContent=l.text;$('battle-log').append(div);lastLog=l.id;}
-  while($('battle-log').children.length>160)$('battle-log').firstChild.remove();$('battle-log').scrollTop=$('battle-log').scrollHeight;
+  const logView=$('battle-log');
+  const followLatest=logView.scrollHeight-logView.clientHeight-logView.scrollTop<=32;
+  for(const l of b.logs.filter(l=>l.id>lastLog)){const div=document.createElement('div');div.className=`log-entry ${l.type}`;div.textContent=l.text;logView.append(div);lastLog=l.id;}
+  if(followLatest)logView.scrollTop=logView.scrollHeight;
+  $('log-round').textContent=`${b.logs.length} 条`;
+  $('log-round').title='本场完整记录，重新论道或切换流派时清空';
   if(b.lastHit&&b.lastHit.id!==lastHit){lastHit=b.lastHit.id;const f=$('floating-hit');f.textContent=b.lastHit.damage?`−${b.lastHit.damage}`:'护盾抵御';f.className=`floating-hit ${b.lastHit.target}`;void f.offsetWidth;f.classList.add('animate');const art=$(b.lastHit.target==='player'?'player-art':'enemy-art');art.classList.remove('hit');void art.offsetWidth;art.classList.add('hit');}
   if(b.result){$('result-overlay').hidden=false;$('result-overlay').innerHTML=`<span class="small-label">第 ${b.round} 回合 · 切磋结束</span><div class="result-mark">${b.result==='win'?'论道告捷':'胜负有时'}</div><p>${b.result==='win'?'对手拱手认输，你的道法更进一步。':'此番惜败。观其招式，调整灵气，再论一场。'}</p><div class="result-buttons"><button data-reset="same">再战一场</button><button data-reset="other">换个流派</button></div>`;}else $('result-overlay').hidden=true;
   if(b.phase==='reaction')showReaction();else if(reaction.open)reaction.close();

@@ -38,7 +38,7 @@ export function payment(qi,cost){
 function fighter(key,player){const c=CLASSES[key];return {key,name:player?'你':c.person,hp:c.hp,maxHp:c.hp,qi:Object.fromEntries(ELEMENTS.map(k=>[k,0])),shield:0,intent:0,seed:0,burn:0,burnTurns:0,broken:false,charge:null,ap:3,reaction:true,meditated:false,woodTriggered:false};}
 export class Battle {
   constructor(key='fire') {if(!CLASSES[key])throw new Error('未知流派');this.round=0;this.phase='player';this.distance=1;this.player=fighter(key,true);this.enemy=fighter(key==='fire'?'sword':'fire',false);this.logs=[];this.pending=null;this.enemyQueue=[];this.result=null;this.serial=0;this.beginRound();}
-  log(text,type='normal'){this.logs.push({id:++this.serial,round:this.round,text,type});if(this.logs.length>160)this.logs.shift();}
+  log(text,type='normal'){this.logs.push({id:++this.serial,round:this.round,text,type});}
   skill(actor,id){return [...CLASSES[actor.key].skills,...COMMON].find(s=>s.id===id);}
   other(actor){return actor===this.player?this.enemy:this.player;}
   gain(actor,amount){let room=10-total(actor.qi);let count=0;for(const [k,n] of Object.entries(amount)){let m=Math.min(room,n);actor.qi[k]+=m;room-=m;count+=m;}return count;}
