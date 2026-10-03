@@ -40,7 +40,7 @@ function options(b,tendency){
     if(b.legal(p,s.id))return false;
     if(s.id==='seed'&&e.seed>=5)return false;
     if(s.id==='expose'&&e.broken)return false;
-    if(s.kind==='heal'&&p.hp===p.maxHp&&(!p.burn||s.clearBurn===0))return false;
+    if(s.kind==='heal'&&p.hp===p.maxHp&&!p.burn)return false;
     if(s.id==='purify'&&!p.burn)return false;
     if(s.id==='parasite'&&e.parasite>=3&&e.parasiteTurns>1)return false;
     if(s.breakPrep&&!e.growth&&!e.terrain)return false;
@@ -51,13 +51,13 @@ function options(b,tendency){
     if(p.charge&&s.kind==='guard'&&p.reaction){const k=CLASSES[p.key].reactionElement;if((payment(p.qi,s.cost)?.[k]??0)<1)return false;}
     if(s.interrupt&&s.id!=='lunge'&&!e.charge)return false;
     if(s.id==='meditate'&&total(p.qi)>=6)return false;
-    if(s.id==='near'&&b.distance===1&&!e.charge&&!p.skillIds.includes('lunge')&&!(p.charge?.range.includes(0)&&!p.charge.range.includes(2)))return false;
+    if(s.id==='near'&&b.distance===1&&!e.charge&&!p.skillIds.includes('lunge'))return false;
     if(s.id==='far'&&b.distance===1&&p.key==='sword'&&!e.charge&&!p.charge)return false;
     return true;
   });
 }
-function planScore(start,leaf,tendency,path,future=projectEnemyPhase(leaf,tendency)){
-  const t=TENDENCIES[tendency];
+function planScore(start,leaf,tendency,path){
+  const t=TENDENCIES[tendency],future=projectEnemyPhase(leaf,tendency);
   if(leaf.result==='win')return 100000-path.length;
   if(future.result==='win')return 90000-path.length;
   if(future.result==='lose')return -100000+future.enemy.hp*-1;
@@ -131,110 +131,17 @@ function reasonFor(b,id){
     case 'strike':return `消耗 ${p.intent} 层剑意${e.broken?'并利用破绽':''}，以断岳兑现爆发。`;
     case 'guard':return p.charge?'蓄势后以藏锋护体，积累的剑意留给后续招式，不追加本次大招伤害。':'藏锋护体，同时积累剑意，为下一轮反击准备。';
     case 'unity':return `以 ${p.intent} 层剑意${e.broken?'与破绽':''}蓄势，准备万剑归一。`;
-    case 'near':return p.charge?.id==='mountain'?'镇岳蓄势后主动贴近，比较被逐浪迫退后是否仍能在近中距释放。':e.charge&&b.distance===1?'贴近敌人，脱离其蓄势技能的适用距离。':b.distance===1?'接近到近身，为追风剑创造有效距离。':'接近到中距，让剑招与打断技能可以出手。';
-    case 'far':return e.charge?.range?.includes(b.distance)&&!e.charge.range.includes(Math.min(2,b.distance+1))?'退到敌方蓄势射程之外，化解已公开的大招。':p.charge?(p.charge.id==='mountain'?'为生存换距，可能放弃本次镇岳的近中距释放。':'蓄势后拉到远距，增加敌人贴近化解或打断所需的行动。'):'拉开距离，避开近中距剑招或准备远距斗法。';
+    case 'near':return e.charge&&b.distance===1?'贴近敌人，脱离其蓄势技能的适用距离。':b.distance===1?'接近到近身，为追风剑创造有效距离。':'接近到中距，让剑招与打断技能可以出手。';
+    case 'far':return p.charge?'蓄势后拉到远距，增加敌人贴近化解或打断所需的行动。':'拉开距离，避开近中距剑招或准备远距斗法。';
     case 'meditate':return p.charge?'利用蓄势后的剩余行动补气，预留应对与下一回合的施法资源。':'调息补足灵气，为后续神通或大招准备费用。';
     case 'purify':return `净息清除 ${p.burn} 层灼烧，避免持续损血。`;
     default:return '用基础攻击补充伤害，不额外消耗灵气。';
   }
 }
-// Only prepared matchups use the extra horizon. Each forecast executes the
-// public queue with real costs/reactions; future actions are tried, never added
-// to the live queue. The offline arena can supply equally bounded real clones.
-export const PREPARED_SEARCH_BUDGET={rootStates:768,candidates:12,continuationWidth:6,continuationFinals:3,discount:.75};
-function preparedMatch(b){return ['wood','earth'].includes(b.player.key)||['wood','earth'].includes(b.enemy.key);}
-function preparedStateKey(b){return JSON.stringify([b.round,b.phase,b.distance,b.player,b.enemy,b.enemyQueue,b.enemyPlan,b.result,b.pending]);}
-function preparedScore(start,leaf,tendency,path,future){
-  const score=planScore(start,leaf,tendency,path,future);
-  if(leaf.result||future.result)return score;
-  // Net shield removal matters for preparation/erosion, including replenishment
-  // in the forecast. This never rewards merely touching a replenished shield.
-  return score+(start.enemy.shield-future.enemy.shield)*TENDENCIES[tendency].shield;
-}
-function shortlistPrepared(candidates,limit){
-  const ranked=[...candidates].sort((a,b)=>b.score-a.score),chosen=[];
-  const add=c=>{if(c&&!chosen.includes(c)&&chosen.length<limit)chosen.push(c);};
-  add(ranked[0]);add(candidates.find(c=>c.path.length===0));
-  for(const test of [
-    c=>Boolean(c.leaf.player.charge&&c.leaf.player.anchored),
-    c=>Boolean(c.leaf.player.charge)&&c.path.some(id=>id==='near'||id==='far'),
-    c=>Boolean(c.leaf.player.charge),
-    c=>Boolean(c.leaf.player.growthPending),
-    c=>c.path.includes('parasite')&&c.leaf.enemy.parasite>0,
-    c=>c.path.includes('foundation')&&c.leaf.player.terrain>0,
-    c=>c.path.includes('anchor')&&c.leaf.player.anchored,
-    c=>c.path.includes('unparasite'),
-    c=>c.path.some(id=>id==='sever-growth'||id==='sever-terrain'||id==='prune'||id==='quakesunder'),
-    c=>c.path.some(id=>id==='near'||id==='far'),
-    c=>c.path.some(id=>id==='bloomheal'||id==='bloomguard'||id==='rampart'),
-  ])add(ranked.find(test));
-  for(const c of ranked)add(c);
-  return chosen;
-}
-export function choosePreparedAction(b,tendency='balanced',{clone=copyBattle,project=s=>projectEnemyPhase(s,tendency),stats={}}={}){
-  if(!TENDENCIES[tendency])throw Error('未知打法倾向');
-  if(b.phase!=='player'||b.result)return null;
-  if(!b.player.ap)return {action:'end',reason:'行动点已用尽，保留剩余灵气进入敌方行动。'};
-  const budget=PREPARED_SEARCH_BUDGET,seen=new Set(),candidates=[],forecasts=new Map();
-  Object.assign(stats,{rootStates:0,candidates:0,continuationStates:0,forecasts:0,rootTruncated:false});
-  if(stats.trace){stats.plans=[];stats.lastFollow=[];}
-  const forecast=s=>{const key=preparedStateKey(s);if(!forecasts.has(key)){forecasts.set(key,project(s));stats.forecasts++;}return forecasts.get(key);};
-  function candidate(start,leaf,path){return {leaf,path,score:preparedScore(start,leaf,tendency,path,leaf)};}
-  let frontier=[candidate(b,clone(b),[])];
-  for(let depth=0;depth<=3&&frontier.length;depth++){
-    const next=[];
-    for(const c of frontier){
-      const key=preparedStateKey(c.leaf);if(seen.has(key))continue;
-      if(seen.size===budget.rootStates){stats.rootTruncated=true;break;}
-      seen.add(key);candidates.push(c);
-      if(depth===3||c.leaf.result||!c.leaf.player.ap)continue;
-      for(const s of options(c.leaf,tendency)){const leaf=clone(c.leaf);if(leaf.act(leaf.player,s.id).ok)next.push(candidate(b,leaf,[...c.path,s.id]));}
-    }
-    if(stats.rootTruncated)break;frontier=next;
-  }
-  stats.rootStates=seen.size;
-  const selected=shortlistPrepared(candidates,budget.candidates);stats.candidates=selected.length;
-  function continuation(start){
-    const followSeen=new Set(),leaves=[candidate(start,clone(start),[])];let beam=[leaves[0]];
-    for(let depth=0;depth<3&&beam.length;depth++){
-      const next=[];
-      for(const c of beam){
-        if(c.leaf.result||!c.leaf.player.ap)continue;
-        for(const s of options(c.leaf,tendency)){
-          const leaf=clone(c.leaf);if(!leaf.act(leaf.player,s.id).ok)continue;
-          const key=preparedStateKey(leaf);if(followSeen.has(key))continue;
-          followSeen.add(key);next.push(candidate(start,leaf,[...c.path,s.id]));
-        }
-      }
-      stats.continuationStates+=next.length;leaves.push(...next);
-      beam=shortlistPrepared(next,budget.continuationWidth);
-    }
-    let best=-Infinity,bestPath=[];
-    for(const c of shortlistPrepared(leaves,budget.continuationFinals)){
-      const future=c.leaf.result?c.leaf:forecast(c.leaf);
-      const score=preparedScore(start,c.leaf,tendency,c.path,future);if(score>best){best=score;bestPath=c.path;}
-    }
-    if(stats.trace)stats.lastFollow=bestPath;
-    return best;
-  }
-  let best={score:-Infinity,path:[]};
-  for(const c of selected){
-    const future=c.leaf.result?c.leaf:forecast(c.leaf);
-    let score=preparedScore(b,c.leaf,tendency,c.path,future);
-    const follow=future.result?0:continuation(future);
-    if(!future.result)score+=budget.discount*follow;
-    if(stats.trace)stats.plans.push({path:c.path,firstScore:score-budget.discount*follow,follow,followPath:future.result?[]:stats.lastFollow,score,future:{hp:[future.player.hp,future.enemy.hp],shield:[future.player.shield,future.enemy.shield],growth:future.player.growth,parasite:future.enemy.parasite,terrain:future.player.terrain}});
-    if(score>best.score)best={score,path:c.path};
-  }
-  const id=best.path[0];
-  if(!id)return {action:'end',reason:b.player.charge?'比较下次自身行动及随后敌方预告后，保留资源等待释放。':'比较下次自身行动的准备兑现与反制后，当前继续行动收益较低。'};
-  return {action:'skill',skillId:id,reason:reasonFor(b,id)+' 已比较下次自身行动的兑现，以及随后敌方公开招式。'};
-}
 export function chooseAction(b,tendency='balanced'){
   if(!TENDENCIES[tendency])throw Error('未知打法倾向');
   if(b.phase!=='player'||b.result)return null;
   if(b.player.ap===0)return {action:'end',reason:'行动点已用尽，保留剩余灵气进入敌方行动。'};
-  if(preparedMatch(b))return choosePreparedAction(b,tendency);
   let best={score:-Infinity,path:[]};
   function search(state,path){
     const score=planScore(b,state,tendency,path);if(score>best.score)best={score,path};

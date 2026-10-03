@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "baseCommit": "c5fddefef8e8a63bb8d3f09f7f162a05a415f595",
+  "sourceHashes": {
+    "before": {
+      "dist/engine.mjs": "50cb39803540e6363726a253a1213fa365a74cd90ccab28bd9237403a622678e",
+      "dist/prepared.mjs": "78b219ef546e817f2d0b5178cddce453cca77f76a95f12e8bc3b703a8639c6e5",
+      "dist/auto.mjs": "0365d983f6240db50228973154cbc3418d008c4c0ccdd95b1e3c86e8207327f2",
+      "dist/duel-setup.mjs": "bbd0ff3258fd4cad9ff0acf3052ecb21b089c0f6cf401d437927a06b3938c927",
+      "scripts/predictive-arena.mjs": "e54d13f8d7c0d7eacbe66aa4f156beb73686e8d13e12466c40fc675fb2ef68c7",
+      "scripts/planner-internals.mjs": "1a49eb75921f6d9e37999ef53db5f8df363fbc22cf5f5a7c50a83074ac4270b2"
+    },
+    "after": {
+      "dist/engine.mjs": "50cb39803540e6363726a253a1213fa365a74cd90ccab28bd9237403a622678e",
+      "dist/prepared.mjs": "78b219ef546e817f2d0b5178cddce453cca77f76a95f12e8bc3b703a8639c6e5",
+      "dist/auto.mjs": "30da7b04366bb9e4fa6a74b944541ed3dad1a831356ee417ed7520c953f4a837",
+      "dist/duel-setup.mjs": "bbd0ff3258fd4cad9ff0acf3052ecb21b089c0f6cf401d437927a06b3938c927",
+      "scripts/predictive-arena.mjs": "94fea5aa1d22f1a7f366250d3b7e43242390e5b1ad4677295c270e7ffef65bce",
+      "scripts/planner-internals.mjs": "7d10ec2ff27ac88a04373fa1ced42480db3e3c37493ef2aec06691f17abbe30a"
+    },
+    "generator": "48edaeb773fe2b4bf6896e3a9f705372ba430edf3e11580157e53c904abdc647"
+  },
+  "method": "128 paired single-player public-NPC cases: 96 middle-distance new-major × six opponents × four tendencies; 32 near/far water/earth checks. Same rules and unchanged NPC queues; compare v0.9 auto to bounded prepared policy. 32 symmetric pairs compare reused identical-source immediate records to the new prepared controller (both seats predict a public script, not the other controller). Limit cases are unresolved, not draws. Replays are not new scenarios.",
+  "newlyExecutedGames": 288,
+  "reusedGames": 32,
+  "pairedCases": 160,
+  "public": {
+    "before": {
+      "games": 128,
+      "wins": 121,
+      "losses": 0,
+      "unresolved": 7
+    },
+    "after": {
+      "games": 128,
+      "wins": 128,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "beforeActions": {
+      "wood/symbiosis": {
+        "wooddart": 426,
+        "far": 47,
+        "near": 21,
+        "purify": 2,
+        "cultivate": 25,
+        "bloomheal": 9,
+        "bloomguard": 13,
+        "bloomstrike": 2,
+        "prune": 4
+      },
+      "wood/parasitic": {
+        "wooddart": 416,
+        "far": 33,
+        "near": 16,
+        "purify": 2,
+        "cultivate": 70,
+        "parasite": 72,
+        "bloomguard": 63,
+        "prune": 4,
+        "reap": 2
+      },
+      "earth/bastion": {
+        "stonebolt": 410,
+        "far": 43,
+        "near": 19,
+        "purify": 2,
+        "foundation": 120,
+        "rampart": 89,
+        "earthenwall": 35,
+        "anchor": 55,
+        "landbreak": 8,
+        "sever-growth": 4
+      },
+      "earth/mountain": {
+        "stonebolt": 412,
+        "far": 34,
+        "near": 14,
+        "purify": 2,
+        "foundation": 61,
+        "rampart": 44,
+        "landbreak": 12,
+        "quakesunder": 5,
+        "mountain": 1
+      }
+    },
+    "afterActions": {
+      "wood/symbiosis": {
+        "wooddart": 442,
+        "far": 13,
+        "purify": 4,
+        "cultivate": 10,
+        "bloomheal": 2,
+        "bloomguard": 3,
+        "sever-growth": 4,
+        "prune": 1
+      },
+      "wood/parasitic": {
+        "wooddart": 425,
+        "far": 13,
+        "purify": 5,
+        "cultivate": 7,
+        "parasite": 7,
+        "bloomguard": 5,
+        "near": 1,
+        "sever-growth": 4,
+        "prune": 1
+      },
+      "earth/bastion": {
+        "stonebolt": 435,
+        "far": 11,
+        "purify": 4,
+        "earthenwall": 22,
+        "foundation": 8,
+        "rampart": 14,
+        "near": 1,
+        "sever-growth": 6,
+        "landbreak": 1
+      },
+      "earth/mountain": {
+        "stonebolt": 392,
+        "far": 13,
+        "purify": 5,
+        "foundation": 27,
+        "rampart": 13,
+        "near": 5,
+        "sever-growth": 3,
+        "quakesunder": 3,
+        "mountain": 6,
+        "landbreak": 7
+      }
+    },
+    "beforePreparation": {
+      "started": 1,
+      "released": 1,
+      "missed": 0,
+      "interrupted": 0,
+      "matured": 26
+    },
+    "afterPreparation": {
+      "started": 6,
+      "released": 6,
+      "missed": 0,
+      "interrupted": 0,
+      "matured": 12
+    },
+    "changedOutcomes": 7
+  },
+  "symmetric": {
+    "before": {
+      "games": 32,
+      "seat0Wins": 28,
+      "seat1Wins": 4,
+      "unresolved": 0
+    },
+    "after": {
+      "games": 32,
+      "seat0Wins": 18,
+      "seat1Wins": 14,
+      "unresolved": 0
+    },
+    "changedOutcomes": 10
+  },
+  "compute": {
+    "rootStates": 238,
+    "forecasts": 48,
+    "continuationStates": 903,
+    "rootTruncated": 0
+  }
+}

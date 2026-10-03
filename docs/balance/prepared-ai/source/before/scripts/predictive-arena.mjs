@@ -4,7 +4,7 @@ import {Battle,CLASSES,total} from '../dist/engine.mjs';
 import {startPreparedPhase,finishPreparedPhase} from '../dist/prepared.mjs';
 import {planner} from './planner-internals.mjs';
 
-export const CONTROLLERS=['legacy','immediate','script','adaptive','prepared'];
+export const CONTROLLERS=['legacy','immediate','script','adaptive'];
 export const ADAPTIVE_CANDIDATE_LIMIT=12;
 const contexts=new WeakMap();
 class SimBattle extends Battle{
@@ -102,7 +102,7 @@ export function forecastWorld(w,{mode='adaptive',depth=0,horizon='next-player'}=
   const foeController=copy.controllers[copy.seat];
   // One decision layer: an adaptive opponent at the boundary uses immediate score.
   // Known legacy/immediate/script controllers can be executed without recursion.
-  const assumed=mode==='script'?'fixed-script':['adaptive','prepared'].includes(foeController)&&depth===0?'immediate':foeController;
+  const assumed=mode==='script'?'fixed-script':foeController==='adaptive'&&depth===0?'immediate':foeController;
   if(winner(copy)===null){
     if(mode==='script')playScript(copy);
     else playCurrentPhase(copy,{controller:assumed,depth});
@@ -116,10 +116,6 @@ export function chooseArenaAction(w,{controller=w.controllers[w.seat],depth=1}={
   const b=w.battle,tendency=w.prefs[w.seat];
   if(winner(w)!==null||w.ended)return null;
   if(controller==='legacy')return planner.chooseAction(b,tendency);
-  if(controller==='prepared')return planner.choosePreparedAction(b,tendency,{
-    clone:s=>cloneWorld(contexts.get(s)).battle,
-    project:s=>forecastWorld(contexts.get(s),{mode:'script',depth:0}).world.battle,
-  });
   if(b.player.ap===0)return {action:'end',reason:'行动点已用尽。'};
   const mode=controller==='adaptive'&&depth===0?'immediate':controller;
   const visited=new Set(),candidates=[];let best={score:-Infinity,path:[]};
