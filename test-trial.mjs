@@ -1,0 +1,7 @@
+import assert from 'node:assert/strict';
+import {Trial,historyText} from './dist/trial.mjs';
+import {ChallengeBattle} from './dist/challenge-battle.mjs';
+const t=new Trial();assert.throws(()=>t.start('invalid'));assert.throws(()=>t.next());t.start('sword');const originals=[];
+for(let i=0;i<3;i++){assert.equal(t.status,'preparing');const b=new ChallengeBattle(i===1?'sword':'fire',{},t.opponentId);assert.equal(b.player.hp,b.player.maxHp);assert.equal(b.player.ap,3);assert.equal(b.player.burn,0);assert.equal(b.player.shield,0);t.begin();assert.throws(()=>t.next());b.result=i===0?'win':i===1?'lose':'draw';b.log('这是一条完整纪要。','decision');const record=t.finish(b);assert.equal(t.finish(b),record);assert.equal(t.history.length,i+1);originals.push(historyText([record]));b.logs.push({text:'修改旧战斗不能污染存档',round:99});assert.equal(historyText([record]),originals[i]);if(i<2)t.next();}
+assert.equal(t.status,'complete');assert.equal(t.snapshot().wins,1);assert.equal(t.snapshot().completed,3);assert.equal(historyText(t.currentRecords),originals.join('\n\n────────────────────\n\n'));t.start('fire');assert.equal(t.history.length,3);assert.equal(t.currentRecords.length,0);const b=new ChallengeBattle('fire',{},t.opponentId);t.begin();t.archive(b,{abandoned:true});t.retry();assert.equal(t.status,'preparing');assert.equal(t.history.at(-1).result,'abandoned');t.leave();assert.equal(t.active,false);assert.equal(t.history.length,4);
+console.log('Trial: three stages, outcomes including draws, full resets, immutable/idempotent archives, retries and retained previous runs passed.');

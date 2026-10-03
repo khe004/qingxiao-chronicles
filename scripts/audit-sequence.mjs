@@ -15,5 +15,6 @@ for(const step of [1,2,3,4,5,6,7]){const dir=`docs/balance/sequence-${step}`,sum
  if(step!==5)for(const c of source.variants??[source]){if(c.sources)assert.equal(blobHash(c.sources.engine),'cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd');}
 }
 assert.equal(executions,832);
-assert.equal(blobHash(readFileSync('dist/engine.mjs')),'cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd');assert.equal(blobHash(readFileSync('dist/auto.mjs')),'cb202a8d1225afb666670aadf241939d81194854');
-console.log('832 new research duels; 32 reused rows; paired cohorts, retained traces, lifecycle, skill coverage and production hashes verified. Test-suite games are not included in research counts.');
+const frozenBaseline=decode('docs/balance/shield-score/source.json.gz');
+assert.equal(blobHash(frozenBaseline.sources['dist/engine.mjs']),'cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd');assert.equal(blobHash(frozenBaseline.sources['dist/auto.mjs']),'cb202a8d1225afb666670aadf241939d81194854');
+console.log('832 new research duels; 32 reused rows; paired cohorts, retained traces, lifecycle, skill coverage and frozen baseline hashes verified. Test-suite games are not included in research counts.');

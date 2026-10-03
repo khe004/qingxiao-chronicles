@@ -1,0 +1,100 @@
+{
+  "games": 192,
+  "first": "player",
+  "limit": 30,
+  "variable": "Personality behavior acceptance using shipped fixed public plans, not a PvP balance or best-policy win-rate estimate.",
+  "elapsedSeconds": 51.423538145,
+  "hashes": {
+    "dist/engine.mjs": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+    "dist/auto.mjs": "60f20f868f03848cb5f48e23d5c42fb960f62e28",
+    "dist/opponents.mjs": "a1061829f686bc425392a9291934ed0610dd73e4",
+    "dist/challenge-battle.mjs": "fc83fb5747aa1df8abb761766ba2f27d1e93ab40"
+  },
+  "opponents": [
+    {
+      "id": "quick",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 4.229166666666667,
+      "movement": 130,
+      "unusedAP": 201,
+      "charges": 0,
+      "healing": 0,
+      "intentSpent": 112,
+      "actions": {
+        "near": 130,
+        "swift": 80,
+        "lunge": 52,
+        "strike": 2
+      }
+    },
+    {
+      "id": "heavy",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 5.8125,
+      "movement": 95,
+      "unusedAP": 114,
+      "charges": 9,
+      "healing": 0,
+      "intentSpent": 164,
+      "actions": {
+        "guard": 119,
+        "expose": 90,
+        "swift": 109,
+        "meditate": 34,
+        "near": 95,
+        "strike": 76,
+        "unity": 9,
+        "basic": 38
+      }
+    },
+    {
+      "id": "ignite",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 4.0625,
+      "movement": 15,
+      "unusedAP": 17,
+      "charges": 21,
+      "healing": 0,
+      "intentSpent": 0,
+      "actions": {
+        "seed": 122,
+        "spark": 116,
+        "ember": 89,
+        "blaze": 34,
+        "inferno": 21,
+        "far": 15,
+        "meditate": 6
+      }
+    },
+    {
+      "id": "sustain",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 4.708333333333333,
+      "movement": 53,
+      "unusedAP": 102,
+      "charges": 0,
+      "healing": 1530,
+      "intentSpent": 0,
+      "actions": {
+        "seed": 89,
+        "spark": 106,
+        "near": 53,
+        "blaze": 104,
+        "heal": 38,
+        "nourish": 42
+      }
+    }
+  ]
+}

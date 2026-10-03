@@ -1,12 +1,17 @@
 import {CLASSES,MAJORS,normalizeLoadout} from './engine.mjs';
 
-export function createLoadoutEditor({getBattle,onApply,onPause,onResume,rangeLabel,costHtml}){
+export function createLoadoutEditor({getBattle,onApply,onPause,onResume,rangeLabel,costHtml,getPreparation=()=>null}){
   const $=id=>document.getElementById(id),dialog=$('loadout-dialog');
-  let key='fire',draft=null;
+  let key='fire',draft=null,resumePending=false;
+  function resume(){if(!resumePending)return;resumePending=false;onResume();}
+  function close(){if(getPreparation()){const p=getBattle().player;onApply(p.key,{major:p.major,skillIds:[...p.skillIds]});}dialog.close();resume();}
   function recommended(nextKey,major=Object.keys(MAJORS[nextKey])[0]){
     key=nextKey;draft=normalizeLoadout(key,{major});
   }
   function render(focus){
+    const prep=getPreparation();$('loadout-title').textContent=prep?`备战 · ${prep.name} · ${prep.title}`:'择一门主修，备六道神通。';
+    $('apply-loadout').textContent=prep?'应用配置 · 入场论道':'应用配置 · 开启新局';
+    $('loadout-footer-note').textContent=prep?'本场恢复全部气血与灵气。关闭配装将沿用当前配置入场；已完成场次的纪要保留。':'应用配置将开启新一场斗法，并清空当前面板纪要。';
     const c=CLASSES[key],major=MAJORS[key][draft.major],count=draft.skillIds.length;
     $('loadout-classes').innerHTML=Object.entries(CLASSES).map(([id,value])=>`<button class="loadout-class ${id===key?'active':''}" data-loadout-class="${id}" aria-pressed="${id===key}">${value.name}</button>`).join('');
     $('major-choices').innerHTML=Object.entries(MAJORS[key]).map(([id,m])=>`<button class="major-choice ${id===draft.major?'active':''}" data-major="${id}" aria-pressed="${id===draft.major}"><span class="major-symbol" aria-hidden="true">${m.symbol}</span><span><b>${m.name}</b><small>${m.focus}</small><span class="major-effect">${m.effect}</span></span><span class="major-selected">${id===draft.major?'已主修':'选择'}</span></button>`).join('');
@@ -26,7 +31,7 @@ export function createLoadoutEditor({getBattle,onApply,onPause,onResume,rangeLab
   function open(nextKey=getBattle().player.key){
     const p=getBattle().player;
     if(nextKey===p.key){key=p.key;draft={major:p.major,skillIds:[...p.skillIds]};}else recommended(nextKey);
-    onPause();render();dialog.showModal();$('loadout-body').scrollTop=0;
+    onPause();resumePending=true;render();dialog.showModal();$('loadout-body').scrollTop=0;
   }
   dialog.addEventListener('click',event=>{
     const button=event.target.closest('button');if(!button||button.disabled)return;
@@ -34,11 +39,12 @@ export function createLoadoutEditor({getBattle,onApply,onPause,onResume,rangeLab
     if(button.dataset.major&&button.dataset.major!==draft.major){recommended(key,button.dataset.major);render(`[data-major="${draft.major}"]`);}
     if(button.dataset.equip){const id=button.dataset.equip,index=draft.skillIds.indexOf(id);if(index>=0)draft.skillIds.splice(index,1);else if(draft.skillIds.length<6)draft.skillIds.push(id);render(`[data-equip="${id}"]`);}
     if(button.id==='recommend-loadout'){recommended(key,draft.major);render('#recommend-loadout');}
-    if(button.id==='close-loadout'||button.id==='cancel-loadout')dialog.close();
+    if(button.id==='close-loadout'||button.id==='cancel-loadout')close();
     if(button.id==='apply-loadout'){
-      try{const config=normalizeLoadout(key,draft);onApply(key,config);dialog.close();}catch(error){$('loadout-error').textContent=error.message;}
+      try{const config=normalizeLoadout(key,draft);onApply(key,config);dialog.close();resume();}catch(error){$('loadout-error').textContent=error.message;}
     }
   });
-  dialog.addEventListener('close',()=>onResume());
+  dialog.addEventListener('close',()=>{if(!dialog.open)resume();});
+  dialog.addEventListener('cancel',event=>{event.preventDefault();close();});
   return {open,isOpen:()=>dialog.open};
 }
