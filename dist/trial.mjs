@@ -3,7 +3,7 @@ export class Trial{
  constructor(){this.route=null;this.difficulty='practice';this.index=0;this.status='idle';this.run=0;this.stages=[];this.history=[];this.captured=new WeakMap();}
  get active(){return this.route!==null;}
  get opponentId(){return this.active?ROUTES[this.route].opponents[this.index]:null;}
- start(route,difficulty='practice'){if(!DIFFICULTIES[difficulty])throw Error('未知难度');this.difficulty=difficulty;if(!ROUTES[route])throw Error('未知论道路线');this.route=route;this.index=0;this.status='preparing';this.run++;this.stages=[null,null,null];}
+ start(route,difficulty='practice'){if(!DIFFICULTIES[difficulty])throw Error('未知难度');if(!ROUTES[route])throw Error('未知论道路线');this.difficulty=difficulty;this.route=route;this.index=0;this.status='preparing';this.run++;this.stages=[null,null,null];}
  begin(){if(this.status!=='preparing')throw Error('当前不能入场');this.status='fighting';}
  archive(b,{abandoned=false}={}){if(this.captured.has(b))return this.captured.get(b);if(!b.opponentId)return null;if(!b.result&&!abandoned)throw Error('本场尚未结束');const record={id:this.history.length+1,run:this.active?this.run:null,stage:this.active?this.index+1:null,route:this.route,opponentId:b.opponentId,difficulty:b.difficulty??'practice',opponent:OPPONENTS[b.opponentId].name,player:{key:b.player.key,major:b.player.major,skillIds:[...b.player.skillIds]},result:abandoned&&!b.result?'abandoned':b.result,review:structuredClone(b.review()),logs:structuredClone(b.logs)};this.history.push(record);this.captured.set(b,record);return record;}
  finish(b){const record=this.archive(b);if(this.active&&record.run===this.run&&record.stage===this.index+1){this.stages[this.index]=record.id;this.status=this.index===2?'complete':'between';}return record;}

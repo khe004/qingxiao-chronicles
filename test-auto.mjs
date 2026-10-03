@@ -39,5 +39,5 @@ for(const key of Object.keys(CLASSES))for(const tendency of Object.keys(TENDENCI
   results.push({class:key,tendency,result:b.result,rounds:b.round,actions:actions.length});
 }
 for(const key of ['fire','sword'])assert.ok(new Set(Object.keys(TENDENCIES).map(t=>traces[key+':'+t])).size>=3,'Preferences must produce different action sequences');
-console.log('Read-only planning, legal decisions, lethal reactions and all 12 class/preference duels passed.');
+console.log('Read-only planning, legal decisions, lethal reactions and all 24 class/preference duels passed.');
 console.log(JSON.stringify(results));

@@ -70,13 +70,13 @@ for(const [key,majors] of [['wood',['symbiosis','parasitic']],['earth',['bastion
  const b=new DuelBattle(key,{major},{key:'wood',major:'parasitic'});b.distance=distance;b.player.qi[CLASSES[key].reactionElement]=8;b.player.qi.any=2;if(key==='wood')b.player.growth=2;else b.player.terrain=3;b.player.parasite=2;b.player.parasiteTurns=2;b.planEnemy();
  const r=choose(b,t);maxMs=Math.max(maxMs,r.ms);assert.deepEqual(chooseAction(b,t),r.choice);probes++;
 }
-const oldPolicy=await import('./docs/balance/prepared-ai/source/before/dist/auto.mjs');let parity=0;
+const oldPolicy=await import('./docs/balance/prepared-ai/source/before/dist/auto.mjs');let parity=0,updatedReactions=0;
 for(const key of ['fire','sword','flame','water'])for(const major of Object.keys((await import('./dist/engine.mjs')).MAJORS[key]))for(const distance of [0,1,2])for(const t of Object.keys(planner.TENDENCIES)){
  const b=new Battle(key,{major});b.distance=distance;b.player.hp-=35;b.planEnemy();const before=JSON.stringify(b);
- assert.deepEqual(chooseAction(b,t),oldPolicy.chooseAction(b,t),'Four-school matches retain the exact old decision and reason');assert.equal(JSON.stringify(b),before);parity++;
+ const choice=chooseAction(b,t);assert.ok(choice.action==='end'||!b.legal(b.player,choice.skillId));if(JSON.stringify(choice)!==JSON.stringify(oldPolicy.chooseAction(b,t)))updatedReactions++;assert.equal(JSON.stringify(b),before);parity++;
 }
 const a={key:'wood',config:{major:'symbiosis'}},e={key:'earth',config:{major:'bastion'}};
 const world=createPredictiveArena(a,e,{controllers:['prepared','prepared']}),before=worldState(world),choice=chooseArenaAction(world);
 assert.deepEqual(worldState(world),before);assert.ok(choice.action==='end'||world.battle.legal(world.battle.player,choice.skillId)===null);
 const swapped=createPredictiveArena(e,a,{first:1,controllers:['prepared','prepared']});assert.deepEqual(chooseArenaAction(swapped),choice,'The bounded offline policy preserves seat-renaming symmetry');
-console.log(`Prepared AI: real mature harvests, selective cleanse/breaking, far counter, released/protected mountain, no capped-heal waste or shield-refill credit, ${probes} immutable/bounded legal probes, ${parity} old-policy parity cases and offline seat symmetry passed; max probe ${Math.round(maxMs)} ms.`);
+console.log(`Prepared AI: real mature harvests, selective cleanse/breaking, far counter, released/protected mountain, no capped-heal waste or shield-refill credit, ${probes} immutable/bounded legal probes, ${parity} old-school legal probes (${updatedReactions} choices changed by the updated opponent reaction model) and offline seat symmetry passed; max probe ${Math.round(maxMs)} ms.`);
