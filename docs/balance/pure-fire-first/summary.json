@@ -1,0 +1,248 @@
+{
+  "schema": 1,
+  "sourceHashes": {
+    "dist/engine.mjs": "20ae13cdd2e473d97b2b143cd94edf0444e31a98b47926ef7807a94a7271948f",
+    "dist/auto.mjs": "fda0e0916588dc2516f00d3a7794913e0c2c92e7c5a6891ed718705e6d3170f0",
+    "dist/challenge-battle.mjs": "ef534343c4b67a032e54853001b82b1f20a8ce470ea83eca1fb0d130d8393656",
+    "dist/opponents.mjs": "59a4d83097c8db783ff9d015c5c473341b5a7ca6582bc81928767a671ad15f0d",
+    "dist/opponent-planner.mjs": "69da1aa8484b1d246b2951d1c32cfeb3e76263cb387d75c1f6852614405e491a",
+    "dist/opponent-resources.mjs": "f2e83dfdfcd51ac3e5c4bf3d144636e8809ce6ffaf75e838f9a8ba43e54c0636",
+    "scripts/planner-internals.mjs": "1a49eb75921f6d9e37999ef53db5f8df363fbc22cf5f5a7c50a83074ac4270b2",
+    "scripts/predictive-arena.mjs": "bb8c025f304f4f564cf40a4b50783d2069fd850b13b437b18ad41ffa3d75fd2b"
+  },
+  "method": {
+    "npc": "80 recommended pure-fire builds: 2 majors × 5 opponents × 2 difficulties × 4 tendencies, middle distance, player first.",
+    "arena": "66 symmetric full-rule games: 48 versus old majors + 18 pure-fire pairings, each 3 ranges × 2 initiatives; identical immediate controller and balanced reactions; 30-round limit.",
+    "limits": "Deterministic coverage, recommended builds only. NPC player-first win rate is not faction PvP balance. Arena has an immediate controller; charge planning and human play are not established."
+  },
+  "npc": {
+    "fierce/practice/fierce": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/questioning/fierce": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/practice/quick": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/questioning/quick": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/practice/heavy": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/questioning/heavy": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/practice/ignite": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/questioning/ignite": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/practice/sustain": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "fierce/questioning/sustain": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/practice/fierce": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/questioning/fierce": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/practice/quick": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/questioning/quick": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/practice/heavy": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/questioning/heavy": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/practice/ignite": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/questioning/ignite": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/practice/sustain": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    },
+    "smolder/questioning/sustain": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "draws": 0
+    }
+  },
+  "arena": {
+    "fierce/fire/ignite": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "draws": 0
+    },
+    "fierce/fire/sustain": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "draws": 0
+    },
+    "fierce/sword/quick": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "draws": 0
+    },
+    "fierce/sword/heavy": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "draws": 0
+    },
+    "smolder/fire/ignite": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "draws": 0
+    },
+    "smolder/fire/sustain": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "draws": 0
+    },
+    "smolder/sword/quick": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "draws": 0
+    },
+    "smolder/sword/heavy": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "draws": 0
+    },
+    "fierce/flame/fierce": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "draws": 0
+    },
+    "smolder/flame/smolder": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "draws": 0
+    },
+    "fierce/flame/smolder": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "draws": 0
+    }
+  },
+  "initiative": {
+    "fierce/first": {
+      "games": 12,
+      "wins": 5,
+      "losses": 7,
+      "draws": 0
+    },
+    "fierce/second": {
+      "games": 12,
+      "wins": 3,
+      "losses": 9,
+      "draws": 0
+    },
+    "smolder/first": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "draws": 0
+    },
+    "smolder/second": {
+      "games": 12,
+      "wins": 4,
+      "losses": 8,
+      "draws": 0
+    }
+  },
+  "totals": {
+    "npc": {
+      "games": 80,
+      "wins": 80,
+      "losses": 0,
+      "draws": 0
+    },
+    "arena": {
+      "games": 66,
+      "wins": 27,
+      "losses": 39,
+      "draws": 0
+    }
+  }
+}

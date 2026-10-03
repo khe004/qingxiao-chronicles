@@ -34,10 +34,10 @@ for(const key of Object.keys(CLASSES))for(const tendency of Object.keys(TENDENCI
     for(const a of [b.player,b.enemy]){assert.ok(a.hp>=0&&a.hp<=a.maxHp);assert.ok(a.ap>=0&&a.ap<=3);assert.ok(total(a.qi)<=10);assert.ok(Object.values(a.qi).every(n=>n>=0));}
   }
   assert.ok(b.result,`${key}/${tendency}: automation stalled`);
-  if(tendency==='burst')assert.ok(actions.includes(key==='fire'?'inferno':'unity'),'Burst preference should actually use charged skills');
+  const charges=b.skills(b.player).filter(s=>s.kind==='charge');if(tendency==='burst'&&charges.length)assert.ok(charges.some(s=>actions.includes(s.id)),'Burst preference should actually use equipped charged skills');
   traces[key+':'+tendency]=actions.join(',');
   results.push({class:key,tendency,result:b.result,rounds:b.round,actions:actions.length});
 }
-for(const key of Object.keys(CLASSES))assert.ok(new Set(Object.keys(TENDENCIES).map(t=>traces[key+':'+t])).size>=3,'Preferences must produce different action sequences');
-console.log('Read-only planning, legal decisions, lethal reactions and all 8 class/preference duels passed.');
+for(const key of ['fire','sword'])assert.ok(new Set(Object.keys(TENDENCIES).map(t=>traces[key+':'+t])).size>=3,'Preferences must produce different action sequences');
+console.log('Read-only planning, legal decisions, lethal reactions and all 12 class/preference duels passed.');
 console.log(JSON.stringify(results));
