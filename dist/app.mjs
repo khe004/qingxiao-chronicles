@@ -3,14 +3,24 @@ import {ChallengeBattle} from './challenge-battle.mjs';
 import {OPPONENTS,ROUTES,DIFFICULTIES} from './opponents.mjs';
 import {Trial,resultLabel,recordText,historyText} from './trial.mjs';
 import {createLoadoutEditor} from './loadout.mjs';
+import {createDuelSetup,DuelBattle,portraitPath,GENDERS} from './duel-setup.mjs';
 import {TENDENCIES,SPEEDS,chooseAction,chooseReaction,describeAutoChoice} from './auto.mjs';
 const $=id=>document.getElementById(id);
 let battle=new Battle('fire'),generation=0,lastHit=0,lastLog=0,combatTimer=null;
 const automation={enabled:false,tendency:'balanced',speed:'normal'};
 const guide=$('guide-dialog'),reaction=$('reaction-dialog'),trialDialog=$('trial-dialog'),historyDialog=$('history-dialog');
 const trial=new Trial();let selectedRoute='sword',selectedDifficulty='practice',practiceDifficulty='practice',practiceOpponent=null,pendingOpponent=null;
+let duelEnemy={key:'sword',major:battle.enemy.major,skillIds:[...battle.enemy.skillIds]};
+const portraits={player:'female',enemy:'male'};
 function pauseCombat(){generation++;clearTimeout(combatTimer);combatTimer=null;if(reaction.open)reaction.close();}
 const loadout=createLoadoutEditor({getBattle:()=>battle,onApply:(key,config)=>reset(key,config),onPause:pauseCombat,onResume:()=>{if(trial.status==='preparing'||pendingOpponent)reset();render();scheduleCombat();},getPreparation:()=>OPPONENTS[trial.status==='preparing'?trial.opponentId:pendingOpponent],rangeLabel,costHtml});
+const duel=createDuelSetup({getConfig:()=>Object.fromEntries(['player','enemy'].map(side=>[side,{key:battle[side].key,major:battle[side].major,skillIds:[...battle[side].skillIds],gender:portraits[side]}])),onPause:pauseCombat,onResume:()=>{render();scheduleCombat();},rangeLabel,onApply:config=>{
+  if(battle.opponentId&&!battle.result)trial.archive(battle,{abandoned:true});
+  trial.leave();practiceOpponent=null;pendingOpponent=null;
+  duelEnemy={key:config.enemy.key,major:config.enemy.major,skillIds:[...config.enemy.skillIds]};
+  portraits.player=config.player.gender;portraits.enemy=config.enemy.gender;
+  reset(config.player.key,config.player);
+}});
 
 function costHtml(cost){return Object.entries(cost).map(([k,n])=>`<span class="cost-element" style="--element:var(--${k})">${n} ${k==='any'?'任意':ELEMENT_NAMES[k]}</span>`).join('<span class="cost-separator">·</span>')||'<span>无需灵气</span>';}
 function rangeLabel(skill){
@@ -22,6 +32,15 @@ function render(){
   const b=battle,p=b.player,e=b.enemy,c=CLASSES[p.key],major=MAJORS[p.key][p.major];
   $('current-major').textContent=`${c.name} · ${major.name}`;
   $('current-loadout').textContent=b.skills(p).map(s=>s.name).join(' · ');
+  $('enemy-major').textContent=`${CLASSES[e.key].name} · ${MAJORS[e.key][e.major].name}`;
+  $('enemy-loadout').textContent=b.skills(e).map(s=>s.name).join(' · ');
+  $('duel-mode').textContent=b.opponentId?'当前为论道挑战 · 可另开自选对战':'自选 1 对 1 · 左方操作，右方 AI 出招';
+  for(const side of ['player','enemy']){
+    const art=$(`${side}-art`),actor=b[side],src=portraitPath(actor.key,portraits[side]);
+    if(art.getAttribute('src')!==src)art.src=src;
+    art.alt=`${CLASSES[actor.key].name} · ${GENDERS[portraits[side]]}立绘`;
+    art.style.transform=side==='enemy'?'scaleX(-1)':'';
+  }
   if(b.result){automation.enabled=false;if(b.opponentId)trial.finish(b);}
   renderTrial();
   $('auto-toggle').textContent=automation.enabled?'暂停自动 · 转手动':'开启自动战斗';
@@ -70,7 +89,7 @@ function render(){
     $('result-overlay').innerHTML=`<span class="small-label">${inTrial?`第 ${trial.index+1} / 3 场 · `:''}第 ${b.round} 回合 · 切磋结束</span><div class="result-mark">${b.result==='win'?'论道告捷':b.result==='draw'?'难分高下':'胜负有时'}</div><p>${done?`三场论道已完成 · ${trial.snapshot().wins} 胜`:(b.result==='draw'?'双方收招，本场记为未决。':b.result==='win'?'对手拱手认输。':'此番惜败，观其招式再作调整。')}</p>${review?`<p class="result-recap">你的蓄势 ${review.actors[0].charges.started} 次 · 释放 ${review.actors[0].charges.released} 次<br>恢复 ${review.actors[0].healing} 气血 · ${p.key==='water'?`消费 ${review.actors[0].tideSpent??0} 潮势`:p.key==='flame'?`兑现 ${review.actors[0].burnConsumed??0} 层灼烧`:`消费 ${review.actors[0].intentSpent} 剑意`}</p>`:''}<div class="result-buttons">${inTrial?`<button id="next-trial">${done?'查看本轮结算':'备战下一场'}</button><button id="review-current">本场打法回顾</button>`:'<button data-reset="same">再战一场</button><button data-reset="other">换个流派</button>'}</div>`;
   }else $('result-overlay').hidden=true;
   if(automation.enabled){document.querySelectorAll('[data-skill], #end-turn, #cancel-charge').forEach(el=>el.disabled=true);}
-  if(b.phase==='reaction'&&!automation.enabled&&!loadout.isOpen()&&!trialDialog.open&&!historyDialog.open)showReaction();else if(reaction.open)reaction.close();
+  if(b.phase==='reaction'&&!automation.enabled&&!loadout.isOpen()&&!duel.isOpen()&&!trialDialog.open&&!historyDialog.open)showReaction();else if(reaction.open)reaction.close();
 }
 function showReaction(){const p=battle.player,c=CLASSES[p.key],s=battle.pending.s;const damage=Math.round((battle.pending.raw+burnBonus(s,p))*100/(100+c[(battle.enemy.key==='sword'&&s.id!=='expose')||s.id==='basic'?'physical':'magical']));$('reaction-title').textContent=`${battle.enemy.name} · ${s.name}`;$('reaction-description').textContent=`这一招预计造成 ${damage} 伤害（护盾吸收前）。选择应对，或保留机会。`;$('reaction-options').innerHTML=`<button class="reaction-choice" data-reaction="shield" ${p.qi[c.reactionElement]<1?'disabled':''}><span>${c.reaction}<small>获得 26 护盾</small></span><span style="color:var(--${c.reactionElement})">1 ${ELEMENT_NAMES[c.reactionElement]}</span></button><button class="reaction-choice" data-reaction="evade" ${!payment(p.qi,{any:2})?'disabled':''}><span>闪身避让<small>本次减伤 50%，距离拉开一档</small></span><span>2 任意</span></button><button class="reaction-choice" data-reaction="none"><span>承受此招<small>保留本回合应对机会</small></span><span>无消耗</span></button>`;if(!reaction.open)reaction.showModal();}
 function toast(text){$('toast').textContent=text;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2500);}
@@ -82,21 +101,19 @@ function reset(key=battle.player.key,config=key===battle.player.key?{major:battl
   if(trial.active&&trial.status!=='preparing')trial.retry();
   $('floating-hit').className='floating-hit';$('floating-hit').textContent='';
   $('player-art').classList.remove('hit');$('enemy-art').classList.remove('hit');
-  if(reaction.open)reaction.close();battle=profile?new ChallengeBattle(key,config,profile,{distance:trial.active&&trial.index===1?2:1,difficulty:trial.active?trial.difficulty:practiceDifficulty}):new Battle(key,config);if(trial.active)trial.begin();lastLog=0;lastHit=0;
-  $('battle-log').replaceChildren();$('player-art').src=`assets/${CLASSES[key].art??key}.png`;$('player-art').alt=CLASSES[key].name;
-  const enemy=battle.enemy.key;$('enemy-art').src=`assets/${CLASSES[enemy].art??enemy}.png`;$('enemy-art').alt=CLASSES[enemy].name;
-  $('player-art').style.transform=key==='sword'?'scaleX(-1)':'';$('enemy-art').style.transform=enemy!=='sword'?'scaleX(-1)':'';
+  if(reaction.open)reaction.close();battle=profile?new ChallengeBattle(key,config,profile,{distance:trial.active&&trial.index===1?2:1,difficulty:trial.active?trial.difficulty:practiceDifficulty}):new DuelBattle(key,config,duelEnemy);if(trial.active)trial.begin();lastLog=0;lastHit=0;
+  $('battle-log').replaceChildren();
   document.querySelectorAll('[data-class]').forEach(el=>{el.classList.toggle('active',el.dataset.class===key);el.setAttribute('aria-pressed',String(el.dataset.class===key));});render();
 }
 function scheduleCombat(){
   clearTimeout(combatTimer);combatTimer=null;
-  if(battle.result||guide.open||loadout.isOpen()||trialDialog.open||historyDialog.open)return;
+  if(battle.result||guide.open||loadout.isOpen()||duel.isOpen()||trialDialog.open||historyDialog.open)return;
   const phase=battle.phase;
   if(phase!=='enemy'&&!automation.enabled)return;
   const token=generation;
   combatTimer=setTimeout(()=>{
     combatTimer=null;
-    if(token!==generation||battle.phase!==phase||battle.result||guide.open||loadout.isOpen()||trialDialog.open||historyDialog.open)return;
+    if(token!==generation||battle.phase!==phase||battle.result||guide.open||loadout.isOpen()||duel.isOpen()||trialDialog.open||historyDialog.open)return;
     try{
       if(phase==='enemy')battle.enemyStep();
       else if(automation.enabled&&phase==='reaction'){
@@ -112,7 +129,7 @@ function scheduleCombat(){
 }
 function configureAutomation({enabled=automation.enabled,tendency=automation.tendency,speed=automation.speed}={}){
   if(typeof enabled!=='boolean'||!TENDENCIES[tendency]||!SPEEDS[speed])return {ok:false,error:'自动斗法设置无效'};
-  if(loadout.isOpen()||trialDialog.open||historyDialog.open)return {ok:false,error:'请先完成配装或关闭论道记录'};
+  if(loadout.isOpen()||duel.isOpen()||trialDialog.open||historyDialog.open)return {ok:false,error:'请先完成配装或关闭论道记录'};
   if(enabled&&battle.result)return {ok:false,error:'本场已结束，请先重新论道'};
   const old={...automation};Object.assign(automation,{enabled,tendency,speed});
   if(enabled&&!old.enabled)battle.log(`【自动·${TENDENCIES[tendency].name}】开始自动斗法：${TENDENCIES[tendency].description}`,'decision');
@@ -120,9 +137,9 @@ function configureAutomation({enabled=automation.enabled,tendency=automation.ten
   else if(enabled&&old.tendency!==tendency)battle.log(`自动打法改为「${TENDENCIES[tendency].name}」：${TENDENCIES[tendency].description}`,'decision');
   render();scheduleCombat();return {ok:true};
 }
-function readState(){return {...battle.snapshot(),automation:{...automation},logCount:battle.logs.length,preparing:loadout.isOpen(),trial:trial.snapshot(),opponentId:battle.opponentId??null,difficulty:battle.difficulty??'practice'};}
+function readState(){return {...battle.snapshot(),automation:{...automation},portraits:{...portraits},logCount:battle.logs.length,preparing:loadout.isOpen()||duel.isOpen(),trial:trial.snapshot(),opponentId:battle.opponentId??null,difficulty:battle.difficulty??'practice'};}
 function perform(id){
-  if(loadout.isOpen()||trialDialog.open||historyDialog.open)return {ok:false,error:'请先完成配装或关闭论道记录'};
+  if(loadout.isOpen()||duel.isOpen()||trialDialog.open||historyDialog.open)return {ok:false,error:'请先完成配装或关闭论道记录'};
   if(automation.enabled)return {ok:false,error:'请先暂停自动斗法，再手动出招'};
   const r=battle.act(battle.player,id);if(!r.ok){toast(r.error);return r;}render();scheduleCombat();return r;
 }
@@ -132,7 +149,7 @@ document.addEventListener('click',event=>{
   if(target.dataset.skill)perform(target.dataset.skill);
   if(target.dataset.class&&!(trial.active&&trial.status==='fighting'))loadout.open(target.dataset.class);
   if(target.dataset.reaction&&!automation.enabled){const r=battle.react(target.dataset.reaction);if(!r.ok)toast(r.error);render();scheduleCombat();}
-  if(target.dataset.reset==='other')loadout.open(['fire','sword','flame'][(['fire','sword','flame'].indexOf(battle.player.key)+1)%3]);else if(target.dataset.reset==='same')reset();
+  if(target.dataset.reset==='other')loadout.open(Object.keys(CLASSES)[(Object.keys(CLASSES).indexOf(battle.player.key)+1)%Object.keys(CLASSES).length]);else if(target.dataset.reset==='same')reset();
   if(target.id==='next-trial'){if(trial.status==='complete')openHistory(true);else{trial.next();loadout.open();}}
   if(target.id==='review-current')openHistory(false);
   if(target.id==='cancel-charge'&&!automation.enabled){battle.cancelCharge();render();scheduleCombat();}
@@ -142,6 +159,7 @@ $('auto-toggle').addEventListener('click',()=>configureAutomation({enabled:!auto
 $('auto-tendency').addEventListener('change',event=>configureAutomation({tendency:event.target.value}));
 $('auto-speed').addEventListener('change',event=>configureAutomation({speed:event.target.value}));
 $('edit-loadout').addEventListener('click',()=>{if(trial.active&&trial.status==='fighting')return;loadout.open();});
+$('duel-button').addEventListener('click',()=>duel.open());
 $('restart-button').addEventListener('click',()=>reset());
 $('guide-button').addEventListener('click',()=>{guide.showModal();scheduleCombat();});
 $('close-guide').addEventListener('click',()=>guide.close());$('guide-done').addEventListener('click',()=>guide.close());
@@ -189,7 +207,7 @@ const context=document.modelContext;
 if(context?.registerTool){const lifecycle=new AbortController();const register=t=>{try{Promise.resolve(context.registerTool(t,{signal:lifecycle.signal})).catch(()=>{});}catch{}};
   register({name:'read_duel_state',description:'读取当前斗法的气血、灵气、距离、行动阶段与敌方意图。',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute:()=>readState()});
   register({name:'perform_duel_action',description:'施展已装备神通或通用行动，与页面按钮共用规则；不会自动结束回合。',inputSchema:{type:'object',properties:{skillId:{type:'string'}},required:['skillId'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(!input||typeof input.skillId!=='string')throw new Error('skillId 必须为字符串');const r=perform(input.skillId);if(!r.ok)throw new Error(r.error);return readState();}});
-  register({name:'respond_to_duel_attack',description:'在敌方攻击应对窗口选择护盾、闪身或承受此招。',inputSchema:{type:'object',properties:{response:{type:'string',enum:['shield','evade','none']}},required:['response'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(loadout.isOpen()||trialDialog.open||historyDialog.open)throw Error('请先完成配装或关闭论道记录');if(automation.enabled)throw Error('请先暂停自动斗法，再手动应对');const r=battle.react(input?.response);if(!r.ok)throw new Error(r.error);render();runEnemy();return readState();}});
+  register({name:'respond_to_duel_attack',description:'在敌方攻击应对窗口选择护盾、闪身或承受此招。',inputSchema:{type:'object',properties:{response:{type:'string',enum:['shield','evade','none']}},required:['response'],additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(loadout.isOpen()||duel.isOpen()||trialDialog.open||historyDialog.open)throw Error('请先完成配装或关闭论道记录');if(automation.enabled)throw Error('请先暂停自动斗法，再手动应对');const r=battle.react(input?.response);if(!r.ok)throw new Error(r.error);render();runEnemy();return readState();}});
   register({name:'configure_duel_automation',description:'开启、暂停自动斗法，或切换均衡、强攻、稳守、蓄势打法与出招节奏。与页面设置共用逻辑。',inputSchema:{type:'object',properties:{enabled:{type:'boolean'},tendency:{type:'string',enum:Object.keys(TENDENCIES)},speed:{type:'string',enum:Object.keys(SPEEDS)}},additionalProperties:false},annotations:{readOnlyHint:false},execute:input=>{if(!input||typeof input!=='object'||Object.keys(input).some(key=>!['enabled','tendency','speed'].includes(key)))throw Error('自动斗法设置无效');const r=configureAutomation(input);if(!r.ok)throw Error(r.error);return readState();}});
   addEventListener('pagehide',()=>{clearTimeout(combatTimer);lifecycle.abort();},{once:true});
 }

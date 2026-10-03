@@ -20,7 +20,8 @@
         <div class="class-switch"><button data-class="fire" class="class-choice active"><span class="class-icon fire-text">火</span><span>火木法修<small>种灵 · 引燃 · 生息</small></span><span class="selected-mark">已选</span></button><button data-class="sword" class="class-choice"><span class="class-icon metal-text">剑</span><span>太玄剑修<small>养意 · 识破 · 断岳</small></span><span class="selected-mark">已选</span></button><button data-class="flame" class="class-choice"><span class="class-icon fire-text">焰</span><span>离火法修<small>烈焰 · 叠烧 · 兑现</small></span><span class="selected-mark">已选</span></button><button data-class="water" class="class-choice"><span class="class-icon water-text">水</span><span>玄水法修<small>寒凝 · 控距 · 潮汐</small></span><span class="selected-mark">已选</span></button></div>
       </section>
       <section id="trial-progress" class="trial-progress" hidden aria-label="三场论道进度"></section>
-      <section class="loadout-summary" aria-label="当前战斗配置"><div><span class="small-label">当前主修</span><b id="current-major"></b><p id="current-loadout"></p></div><button id="edit-loadout">调整主修 / 神通</button></section>
+      <section class="duel-entry" aria-label="自选一对一对战"><div><h2>自选 1 对 1</h2><p id="duel-mode">左方操作，右方 AI 出招</p></div><button class="primary-button" id="duel-button">双方功法 / 立绘</button></section>
+      <div class="duel-summaries"><section class="loadout-summary" aria-label="当前战斗配置"><div><span class="small-label">当前主修</span><b id="current-major"></b><p id="current-loadout"></p></div><button id="edit-loadout">调整主修 / 神通</button></section><section class="loadout-summary" aria-label="右方战斗配置"><div><span class="small-label">对手主修</span><b id="enemy-major"></b><p id="enemy-loadout"></p></div></section></div>
       <div class="game-grid">
         <div class="play-column">
           <section class="auto-panel" aria-label="自动战斗设置">
@@ -33,8 +34,8 @@
             <div class="arena-top"><span class="location">青霄峰 · 论道台</span><span class="round-badge" id="round-label">第一回合</span><span class="weather">月明 · 无风</span></div>
             <div class="arena-hud"><div class="fighter-info player-info" id="player-info"></div><div class="fighter-info enemy-info" id="enemy-info"></div></div>
             <div class="duel-stage">
-              <img class="character player-character" id="player-art" src="assets/fire.png" alt="火木法修">
-              <img class="character enemy-character" id="enemy-art" src="assets/sword.png" alt="太玄剑修">
+              <img class="character player-character" id="player-art" src="assets/characters/firewood-female.webp" alt="火木法修 · 女立绘">
+              <img class="character enemy-character" id="enemy-art" src="assets/characters/sword-male.webp" alt="太玄剑修 · 男立绘">
               <div class="arena-center"><span class="duel-symbol">论 道</span><div class="distance-display" id="distance-display"></div><span class="distance-caption" id="distance-caption"></span></div>
               <div id="floating-hit" class="floating-hit" aria-hidden="true"></div>
             </div>
@@ -56,8 +57,13 @@
         </aside>
       </div>
     </main>
-    <footer><span>青霄论道</span><span>战斗原型 v0.7 · 寒凝与潮汐</span><span>一念生万法，一剑破长空。</span></footer>
+    <footer><span>青霄论道</span><span>战斗原型 v0.8 · 双方自选斗法</span><span>一念生万法，一剑破长空。</span></footer>
   </div>
+  <dialog id="duel-dialog" class="duel-dialog" aria-labelledby="duel-title">
+    <div class="loadout-header"><div><span class="small-label">青霄峰 · 自选 1 对 1</span><h2 id="duel-title">双方功法与立绘</h2><p class="duel-help">各选一门主修、六道神通和一张立绘。可同职业对战；男女立绘不影响数值。</p></div><button id="close-duel" class="close-button" aria-label="关闭双方配置">×</button></div>
+    <div id="duel-body" class="duel-config-grid"><section id="duel-player" class="duel-config-card" aria-label="左方配置"></section><section id="duel-enemy" class="duel-config-card" aria-label="右方配置"></section></div>
+    <div class="loadout-footer"><div><p>左方由你操作，右方 AI 遵守所选功法与神通。确认后开启新局。</p><p id="duel-error" role="alert"></p></div><div class="loadout-footer-actions"><button id="cancel-duel">保留当前对战</button><button id="apply-duel" class="primary-button">开始 1 对 1</button></div></div>
+  </dialog>
   <dialog id="loadout-dialog" class="loadout-dialog" aria-labelledby="loadout-title">
     <div class="loadout-header"><div><span class="small-label">筑基初期 · 论道准备</span><h2 id="loadout-title">择一门主修，备六道神通。</h2></div><button class="close-button" id="close-loadout" aria-label="关闭配装，沿用当前配置">×</button></div>
     <div class="loadout-body" id="loadout-body">
