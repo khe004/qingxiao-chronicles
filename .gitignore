@@ -7,3 +7,4 @@ docs/balance/heal-recovery/*.raw.json
 docs/balance/range-movement/*.raw.json
 docs/balance/adaptive-prediction/checkpoint.json
 docs/balance/shield-score/checkpoint.json.gz
+docs/balance/depth-comparison/behavior-checkpoint.json.gz

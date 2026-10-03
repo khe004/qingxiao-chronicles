@@ -1,0 +1,57 @@
+{
+  "sourceHashes": {
+    "dist/engine.mjs": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+    "dist/auto.mjs": "cb202a8d1225afb666670aadf241939d81194854",
+    "scripts/predictive-arena.mjs": "b44fec45c2d0c0ca387840dd7225c294f786b923",
+    "scripts/planner-internals.mjs": "0749663d2031fc6a45cac7e4482d858d334661b8"
+  },
+  "variantHashes": {
+    "d1": {
+      "runtime": "79453b7cef92c90fb1f2e7a54a5dff732177d6da",
+      "auto": "77343207a44e05d3aadf59662e2e99126fe2a4fd"
+    },
+    "d2": {
+      "runtime": "2f33ebf1975e608c02a202eab37a0ba725a05ee3",
+      "auto": "77343207a44e05d3aadf59662e2e99126fe2a4fd"
+    },
+    "d2-6": {
+      "runtime": "d4bb458508d78e216416acf10d844344f93bbaea",
+      "auto": "77343207a44e05d3aadf59662e2e99126fe2a4fd"
+    }
+  },
+  "generatorHash": "234c9186e99c7e95f16258d8afc111291baf39b1",
+  "helperHash": "2330e6ddb71778a8b1dfaf2cd2e4ea74097faf92",
+  "states": 4,
+  "choices": 12,
+  "reusedChoiceMeasurements": 12,
+  "quality": "All models forecast the same own combo chosen by d1, against a known original depth-1 opponent.",
+  "models": {
+    "d1": {
+      "n": 4,
+      "meanMs": 86.00089924999972,
+      "ownHpMAE": 19.5,
+      "enemyHpMAE": 0,
+      "distanceEqual": 2,
+      "fullEqual": 0,
+      "forecastCalls": 48
+    },
+    "d2": {
+      "n": 4,
+      "meanMs": 2231.5961952499997,
+      "ownHpMAE": 0,
+      "enemyHpMAE": 0,
+      "distanceEqual": 4,
+      "fullEqual": 4,
+      "forecastCalls": 1448
+    },
+    "d2-6": {
+      "n": 4,
+      "meanMs": 1368.7506627499997,
+      "ownHpMAE": 1.75,
+      "enemyHpMAE": 0,
+      "distanceEqual": 4,
+      "fullEqual": 3,
+      "forecastCalls": 860
+    }
+  }
+}

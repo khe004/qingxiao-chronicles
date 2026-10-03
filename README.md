@@ -163,3 +163,15 @@ node scripts/planner-probe-replay.mjs /tmp/qingxiao-planner-decisions
 ```
 
 见 [候选截断与剑意、距离决策诊断](docs/候选截断与剑意距离决策诊断.md)。记录包含每条候选的分项评分、AI 过滤与技能合法性、完整末态及反例。当前控制器和技能规则保持不变；下一项先验证有限层边界与运行成本，再单独比较固定预算下的候选保留方式。
+
+## 有限层边界与运行成本
+
+新增三个冻结离线副本：原一层、两层完整内层预算、两层内层六候选。固定四个状态、统一己方组合，完整两层能准确重放已知旧对手，但平均根决策耗时从约 86 ms 增到 2232 ms。另完成六次最多 12 回合的行为检查和两次原策略复跑；双方换为深层算法后仍有边界误差，部分片段的己方气血误差更大，最慢单次选招约 4.8 秒。
+
+```sh
+node test-depth-variants.mjs
+node scripts/depth-snapshots.mjs /tmp/qingxiao-depth-comparison
+node scripts/depth-behavior.mjs /tmp/qingxiao-depth-comparison
+```
+
+[完整对照报告](docs/有限层边界与运行成本对照.md)保留同叶质量、调用计数、动作耗时、完整纪要和新模型互战反例。当前不采用全量加深，网页、技能数值和原擂台保持原样；下一项验证固定预算的两阶段复评，再单独看候选多样性。

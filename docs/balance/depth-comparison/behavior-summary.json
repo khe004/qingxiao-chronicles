@@ -1,0 +1,101 @@
+{
+  "sourceHashes": {
+    "dist/engine.mjs": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+    "dist/auto.mjs": "cb202a8d1225afb666670aadf241939d81194854",
+    "scripts/predictive-arena.mjs": "b44fec45c2d0c0ca387840dd7225c294f786b923",
+    "scripts/planner-internals.mjs": "0749663d2031fc6a45cac7e4482d858d334661b8"
+  },
+  "variantHashes": {
+    "d1": {
+      "runtime": "79453b7cef92c90fb1f2e7a54a5dff732177d6da",
+      "auto": "77343207a44e05d3aadf59662e2e99126fe2a4fd"
+    },
+    "d2": {
+      "runtime": "2f33ebf1975e608c02a202eab37a0ba725a05ee3",
+      "auto": "77343207a44e05d3aadf59662e2e99126fe2a4fd"
+    },
+    "d2-6": {
+      "runtime": "d4bb458508d78e216416acf10d844344f93bbaea",
+      "auto": "77343207a44e05d3aadf59662e2e99126fe2a4fd"
+    }
+  },
+  "generatorHash": "030e2d90903e96ac03b7037d7ad720914cb27d3d",
+  "helperHash": "2330e6ddb71778a8b1dfaf2cd2e4ea74097faf92",
+  "limit": 12,
+  "first": 0,
+  "distance": 1,
+  "executedTrajectories": 6,
+  "extraOriginalParityRollouts": 2,
+  "elapsedSeconds": 337.289583768,
+  "models": {
+    "d1": {
+      "trajectories": 2,
+      "unresolved": 1,
+      "decisions": 172,
+      "meanChoiceMs": 54.1499573895348,
+      "maxChoiceMs": 198.00379499999997,
+      "unusedAP": 0,
+      "probes": 4,
+      "predictions": {
+        "boundary0": {
+          "ownHpMAE": 3.5,
+          "enemyHpMAE": 0,
+          "distanceEqual": 2,
+          "fullEqual": 1
+        },
+        "boundary1": {
+          "ownHpMAE": 0,
+          "enemyHpMAE": 0,
+          "distanceEqual": 4,
+          "fullEqual": 4
+        }
+      }
+    },
+    "d2": {
+      "trajectories": 2,
+      "unresolved": 0,
+      "decisions": 135,
+      "meanChoiceMs": 1563.315939311111,
+      "maxChoiceMs": 4794.376307999992,
+      "unusedAP": 3,
+      "probes": 4,
+      "predictions": {
+        "boundary0": {
+          "ownHpMAE": 19.75,
+          "enemyHpMAE": 4,
+          "distanceEqual": 2,
+          "fullEqual": 1
+        },
+        "boundary1": {
+          "ownHpMAE": 22.75,
+          "enemyHpMAE": 2,
+          "distanceEqual": 2,
+          "fullEqual": 1
+        }
+      }
+    },
+    "d2-6": {
+      "trajectories": 2,
+      "unresolved": 0,
+      "decisions": 118,
+      "meanChoiceMs": 896.3881171440665,
+      "maxChoiceMs": 2936.550012999971,
+      "unusedAP": 4,
+      "probes": 3,
+      "predictions": {
+        "boundary0": {
+          "ownHpMAE": 27.333333333333332,
+          "enemyHpMAE": 0,
+          "distanceEqual": 2,
+          "fullEqual": 1
+        },
+        "boundary1": {
+          "ownHpMAE": 29.666666666666668,
+          "enemyHpMAE": 0,
+          "distanceEqual": 2,
+          "fullEqual": 0
+        }
+      }
+    }
+  }
+}
