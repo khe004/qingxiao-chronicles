@@ -44,7 +44,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/opt/codex/cua_node/lib
         const art=document.getElementById('enemy-art');
         return {facing:new DOMMatrix(getComputedStyle(art).transform).a,animated:art.getAnimations().some(a=>a.animationName==='characterhit')};
       });
-      assert.equal(quiet.facing,key==='sword'?-1:1);assert.equal(quiet.animated,false);
+      assert.equal(quiet.facing,-1);assert.equal(quiet.animated,false);
       await page.emulateMedia({reducedMotion:'no-preference'});
       await page.locator('#end-turn').click();
       await page.locator('#reaction-dialog[open]').waitFor();
@@ -53,7 +53,7 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/opt/codex/cua_node/lib
         return window.sampleHit('player-art');
       });
       for(const frames of [player,enemy]){
-        for(const frame of frames)assert.equal(frame.facing,key==='sword'?-1:1,'Facing must remain unchanged throughout recoil');
+        for(const frame of frames)assert.equal(frame.facing,frames===player?1:-1,'Facing must remain unchanged throughout recoil');
         assert.equal(frames[1].translate,'6px');assert.equal(frames[3].translate,'-3px');
         assert.ok(['none','0px'].includes(frames[4].translate),'Portrait returns to its resting position');
       }
