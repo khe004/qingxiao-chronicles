@@ -1,5 +1,4 @@
 import {Battle,CLASSES,MAJORS,normalizeLoadout} from './engine.mjs';
-import {RecordedBattle} from './recorded-battle.mjs';
 
 export const GENDERS={male:'男',female:'女'};
 const portraitClass={fire:'firewood',sword:'sword',flame:'flame',water:'water',wood:'wood',earth:'earth'};
@@ -19,8 +18,8 @@ export function normalizeDuel(config){
 
 // Simulate the chosen six skills so every custom loadout has a legal public plan.
 // The real turn retains that plan, skipping invalid moves after player responses.
-export class DuelBattle extends RecordedBattle{
-  constructor(...args){super(...args);this.customDuel=true;this.limit=30;}
+export class DuelBattle extends Battle{
+  constructor(...args){super(...args);this.customDuel=true;}
   planEnemy(){
     if(['wood','earth'].includes(this.enemy.key))return super.planEnemy();
     const state=Object.assign(Object.create(Battle.prototype),structuredClone({...this,logs:[]}),{phase:'enemy',pending:null});

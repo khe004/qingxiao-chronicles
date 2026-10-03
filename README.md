@@ -287,3 +287,17 @@ node test-prepared-opponents.mjs
 node test-prepared-trial.mjs
 node qa-prepared-trial.cjs
 ```
+
+## v0.12 六派复查、战后回顾与本机保存
+
+六派对等基线与裂地降费候选共 216 场，保留完整纪要、冻结源码和复跑入口。本轮未采用降费，避免改善土修的同时进一步恶化水修；自选对局增加 30 回合未决结算。
+
+自选与论道都可查看双方配装、立绘、招式次数和三个关键回合，点击跳转完整纪要。当前浏览器保存双方六槽、男女立绘、自动偏好、大厅选择与最近 40 场记录；刷新保持自动暂停，未完成论道场次重新备战。可清空记录或复制留存。
+
+30 个回归与 9 个浏览器检查通过，详见 [六派复查与斗法存档](docs/六派复查与斗法存档.md)。
+
+```sh
+node test-six-school.mjs
+node test-recap-save.mjs
+node qa-save-recap.cjs
+```

@@ -7,7 +7,7 @@ export const TENDENCIES={
   burst:{name:'蓄势',description:'积累剑意、灵种与破绽，寻找大招爆发窗口。',attack:1,health:.9,shield:.2,intent:8,seed:5,burn:3,broken:9,charge:28},
 };
 export const SPEEDS={slow:{name:'从容',delay:1400},normal:{name:'标准',delay:750},fast:{name:'快速',delay:220}};
-function copyBattle(b){const {logs,events,...state}=b;const copy=Object.assign(Object.create(b.opponentId||b.customDuel?Object.getPrototypeOf(b):Battle.prototype),JSON.parse(JSON.stringify(state)));copy.logs=[];if(events)copy.events=[];return copy;}
+function copyBattle(b){const {logs,...state}=b;const copy=Object.assign(Object.create(b.opponentId||b.customDuel?Object.getPrototypeOf(b):Battle.prototype),JSON.parse(JSON.stringify(state)));copy.logs=[];return copy;}
 function incomingDamage(b){const s=b.pending?.s;if(!s)return 0;const physical=(b.enemy.key==='sword'&&s.id!=='expose')||s.id==='basic';const raw=b.pending.raw+burnBonus(s,b.player);return Math.round(raw*100/(100+CLASSES[b.player.key][physical?'physical':'magical']));}
 export function chooseReaction(b,tendency='balanced'){
   if(!TENDENCIES[tendency])throw Error('未知打法倾向');

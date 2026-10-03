@@ -1,0 +1,4 @@
+stage prepared 0 {"round":1,"status":"fighting","stage":0,"open":false,"opponent":"quick"}
+stage prepared 1 {"round":1,"status":"fighting","stage":1,"open":false,"opponent":"sustain"}
+stage prepared 2 {"round":1,"status":"fighting","stage":2,"open":false,"opponent":"heavy"}
+Browser: three automatic stages, swaps, fresh resources, full/copyable chronicles, modal pause, retries, new routes, same-class practice, 1440/390/320 layouts and portrait clearance passed.

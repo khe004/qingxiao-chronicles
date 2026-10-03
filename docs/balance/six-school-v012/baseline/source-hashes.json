@@ -1,0 +1,16 @@
+{
+  "dist/prepared.mjs": "78b219ef546e817f2d0b5178cddce453cca77f76a95f12e8bc3b703a8639c6e5",
+  "dist/duel-setup.mjs": "bbd0ff3258fd4cad9ff0acf3052ecb21b089c0f6cf401d437927a06b3938c927",
+  "dist/trial.mjs": "c014daf185011c99404cca6a26f2c354c17f1b756dd061750e70664fcb69a4f6",
+  "dist/opponent-resources.mjs": "4afc40860993154a55364ff8520dee73c2afd055ca6ad83b683562a0645c1c01",
+  "dist/loadout.mjs": "7f1d9ffeb6c4e9140c9e459ffa5e95afd1a6d7b3c6102c71df4640ec29088f97",
+  "dist/opponents.mjs": "e8b0c888e5cd3ec3aecb04e84c29a4f9b15db3e632def0bd2ed1f0603c662ce4",
+  "dist/opponent-planner.mjs": "c545302a554d40265a15b6bd12d3b6e75a8d48e2d7065a84a9d6e4e53e78ab08",
+  "dist/engine.mjs": "2b2f71f03983111b5a8029f9207bbb355c0d06f48c055e83e32eeb3606f27c3a",
+  "dist/challenge-battle.mjs": "2082251a8d91c9488772909e16763f8ff1a6cf1bf7e9a77db08734ed186dcd80",
+  "dist/app.mjs": "7bfef66ed0f9542297c19828e7f15c02de6a674a5f19100cd3d7923ef0a8b839",
+  "dist/auto.mjs": "30da7b04366bb9e4fa6a74b944541ed3dad1a831356ee417ed7520c953f4a837",
+  "scripts/predictive-arena.mjs": "94fea5aa1d22f1a7f366250d3b7e43242390e5b1ad4677295c270e7ffef65bce",
+  "scripts/planner-internals.mjs": "7d10ec2ff27ac88a04373fa1ced42480db3e3c37493ef2aec06691f17abbe30a",
+  "scripts/check-six-school.mjs": "980aad23fef813d637068b6354dfa0a1341bfdd16e0eeccf8a2c7b6cce66d88d"
+}
