@@ -48,7 +48,7 @@ charged.player.intent=1;charged.release(charged.player);assert.equal(charged.pla
 const builds=[];
 for(const key of Object.keys(CLASSES))for(const major of Object.keys(MAJORS[key])){
   builds.push({key,config:normalizeLoadout(key,{major})});
-  builds.push({key,config:{major,skillIds:key==='fire'?['seed','blaze','ember','heal','nourish','vine']:key==='flame'?['flare','kindle','cinder','combust','firewall','solar']:swordSkills}});
+  builds.push({key,config:{major,skillIds:key==='fire'?['seed','blaze','ember','heal','nourish','vine']:key==='flame'?['flare','kindle','cinder','combust','firewall','solar']:key==='water'?['waterbolt','frost','repulse','surge','rinse','ebb']:swordSkills}});
 }
 const results=[];
 for(const {key,config} of builds)for(const tendency of Object.keys(TENDENCIES)){
@@ -56,12 +56,12 @@ for(const {key,config} of builds)for(const tendency of Object.keys(TENDENCIES)){
   while(!b.result&&steps++<700){
     if(b.phase==='player'){
       const before=JSON.stringify(b),choice=chooseAction(b,tendency);assert.equal(JSON.stringify(b),before,'Planning stays read only with all loadouts');
-      if(choice.action==='end')assert.ok(b.endTurn().ok);else{assert.ok(b.player.skillIds.includes(choice.skillId)||['basic','near','far','meditate','purify'].includes(choice.skillId));assert.ok(b.act(b.player,choice.skillId).ok);}
+      if(choice.action==='end')assert.ok(b.endTurn().ok);else{assert.ok(b.player.skillIds.includes(choice.skillId)||['basic','near','far','meditate','purify','dispel'].includes(choice.skillId));assert.ok(b.act(b.player,choice.skillId).ok);}
     }else if(b.phase==='reaction')assert.ok(b.react(chooseReaction(b,tendency).response).ok);else b.enemyStep();
     for(const a of [b.player,b.enemy]){assert.ok(a.hp>=0&&a.hp<=a.maxHp);assert.ok(a.ap>=0&&a.ap<=3);assert.ok(total(a.qi)<=10);assert.ok(Object.values(a.qi).every(n=>Number.isInteger(n)&&n>=0));assert.ok(a.intent>=0&&a.intent<=5);assert.ok(a.seed>=0&&a.seed<=5);assert.ok(a.shield>=0&&a.shield<=60);}
   }
   assert.ok(b.result,`${key}/${config.major}/${tendency}: duel did not finish`);
-  results.push({class:key,major:config.major,custom:config.skillIds.includes(key==='fire'?'ember':'lunge'),tendency,result:b.result,rounds:b.round,logs:b.logs.length});
+  results.push({class:key,major:config.major,custom:config.skillIds.join(',')!==MAJORS[key][config.major].recommended.join(','),tendency,result:b.result,rounds:b.round,logs:b.logs.length});
 }
 const history=new Battle('sword',{major:'heavy',skillIds:['swift','expose','guard','return','lunge','cut']});
 for(let n=0;n<700&&!history.result;n++){
@@ -70,5 +70,5 @@ for(let n=0;n<700&&!history.result;n++){
 }
 assert.ok(history.result);assert.ok(history.logs.length>160,'Long configured duel retains complete history');
 assert.equal(history.logs[0].id,1);assert.equal(history.logs.at(-1).id,history.logs.length);assert.ok(history.logs[0].text.includes('装备：'),'Initial setup survives the entire duel');
-console.log('Loadout validation, resource immutability, six majors, bonus expiry/charge and 48 configured automatic duels passed.');
+console.log('Loadout validation, resource immutability, eight majors, bonus expiry/charge and 64 configured automatic duels passed.');
 console.log(JSON.stringify(results));

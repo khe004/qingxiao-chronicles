@@ -16,4 +16,4 @@ const b=new ChallengeBattle('fire',{},'quick');const announced=[...b.enemyPlan];
 const heavy=new ChallengeBattle('fire',{},'heavy');heavy.enemy.edge=true;heavy.enemy.intent=3;heavy.enemy.qi={metal:5,water:1,any:2,fire:0,wood:0,earth:0};assert.equal(planOpponent(heavy,'heavy')[0].id,'strike');
 const ignite=new ChallengeBattle('sword',{},'ignite',{distance:2});ignite.player.seed=0;ignite.player.burn=3;ignite.enemy.qi={metal:0,wood:1,water:0,fire:4,earth:0,any:2};assert.equal(planOpponent(ignite,'ignite')[0].id,'inferno');
 const timeout=new ChallengeBattle('fire',{},'sustain',{limit:1});timeout.phase='enemy';timeout.enemyQueue=[];timeout.enemyStep();assert.equal(timeout.result,'draw');assert.equal(timeout.round,1);
-console.log('Challenge: 30 complete profile/distance games; valid loadouts, immutable search, frozen plans, charge accounting, counterplay, activation and timeout verified.');console.log(JSON.stringify(profiles));
+console.log('Challenge: 42 complete profile/distance games; valid loadouts, immutable search, frozen plans, charge accounting, counterplay, activation and timeout verified.');console.log(JSON.stringify(profiles));

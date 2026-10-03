@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict';
 import {existsSync,readFileSync} from 'node:fs';
 import {rangeVariants} from './scripts/range-variants.mjs';
-import {blobHash} from './scripts/sustain-variants.mjs';
+import {CLASSES as liveClasses,MAJORS as liveMajors} from './dist/engine.mjs';
+import {TENDENCIES as liveTendencies} from './dist/auto.mjs';
 const snapshot='docs/balance/range-movement/source.json.gz';
 const v=await rangeVariants({snapshotPath:existsSync(snapshot)?snapshot:undefined});
 try{
@@ -45,6 +46,6 @@ try{
     }
   }
   const selected='docs/balance/range-movement/full-summary.json';
-  if(existsSync(selected)){const s=JSON.parse(readFileSync(selected));assert.equal(blobHash(readFileSync('dist/engine.mjs')),s.engineHash,'Production engine must match selected candidate');assert.equal(blobHash(readFileSync('dist/auto.mjs')),s.autoHash,'Keep production controller unchanged during range revision');}
+  if(existsSync(selected)){const s=JSON.parse(readFileSync(selected)),adopted=v.list.find(c=>c.id==='blaze_mid');assert.equal(adopted.engineHash,s.engineHash,'Frozen historical engine must match selected candidate');assert.equal(adopted.autoHash,s.autoHash,'Frozen historical controller hash');for(const key of ['fire','sword']){assert.deepEqual(liveClasses[key],adopted.engine.CLASSES[key],'Existing school rules retain the adopted ranges and values');assert.deepEqual(liveMajors[key],adopted.engine.MAJORS[key]);}const historical=await import('data:text/javascript;base64,'+Buffer.from(v.source.auto.replace("'./engine.mjs'",JSON.stringify(new URL('./dist/engine.mjs',import.meta.url).href))).toString('base64'));assert.deepEqual(liveTendencies,historical.TENDENCIES,'Existing tendency weights remain unchanged');}
   console.log('Range candidates: invariant costs/damage/recovery, actual and simulated range checks, immutable invalid moves, one-time approach refunds/reset, seat symmetry with both controllers and forecast isolation passed.');
 }finally{v.cleanup();}
