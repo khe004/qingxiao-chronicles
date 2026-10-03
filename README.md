@@ -197,3 +197,7 @@ node scripts/depth-behavior.mjs /tmp/qingxiao-depth-comparison
 问道对手会按实际扣费顺序预留公开计划的灵气，承伤保招时在纪要说明原因；回顾增加「留气保招」。重剑和离火的候选会评估到释放阶段，仍可打断、贴近化解、硬接或抢杀。详见 [蓄势与资源预留复查](docs/蓄势与资源预留复查.md)。
 
 专项检查：`node test-charge-resource.mjs`。批量复查：`node scripts/check-charge-resource.mjs`（192场）、`node scripts/check-counterplay-windows.mjs`（96场自然对局＋64个固定试招）。固定试招不代表胜率，完整预判自动玩家仍能全胜。
+
+### 四系法修设计（未实现）
+
+[火、木、水、土四系法修设计](docs/火木水土四系法修设计.md)细化独立火法、灵植／寄生木法、寒凝／潮汐水法、壁垒／镇岳土法。包含循环、配装方向、净化与破除边界、机制克制和分批实施顺序；当前网页仍为剑修与火木。
