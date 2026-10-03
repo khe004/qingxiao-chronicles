@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {readFileSync,writeFileSync,mkdirSync,mkdtempSync,rmSync} from 'node:fs';
+import {readFileSync,writeFileSync,copyFileSync,mkdirSync,mkdtempSync,rmSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
@@ -47,7 +47,7 @@ export async function rangeVariants({snapshotPath}={}){
   try{
     for(const c of RANGE_CANDIDATES){
       const engine=rangeEngine(source.engine,c),dir=join(root,c.id);mkdirSync(join(dir,'dist'),{recursive:true});mkdirSync(join(dir,'scripts'));
-      writeFileSync(join(dir,'dist/engine.mjs'),engine);writeFileSync(join(dir,'dist/auto.mjs'),source.auto);writeFileSync(join(dir,'dist/auto-immediate.mjs'),immediate);writeFileSync(join(dir,'scripts/balance-arena.mjs'),arena);
+      writeFileSync(join(dir,'dist/engine.mjs'),engine);if(engine.includes("'./prepared.mjs'"))copyFileSync('dist/prepared.mjs',join(dir,'dist/prepared.mjs'));writeFileSync(join(dir,'dist/auto.mjs'),source.auto);writeFileSync(join(dir,'dist/auto-immediate.mjs'),immediate);writeFileSync(join(dir,'scripts/balance-arena.mjs'),arena);
       list.push({...c,engineHash:blobHash(engine),autoHash:blobHash(source.auto),arenaHash:blobHash(arena),immediateHash:blobHash(immediate),engine:await import(pathToFileURL(join(dir,'dist/engine.mjs'))),arena:await import(pathToFileURL(join(dir,'scripts/balance-arena.mjs')))});
     }
     return {list,source,cleanup:()=>rmSync(root,{recursive:true,force:true})};

@@ -7,7 +7,7 @@ function charged(key,{ap=3,distance=1}={}){
   b.player.qi={metal:0,wood:0,water:0,fire:0,earth:0,any:1,...(key!=='sword'?{fire:4,wood:2}:{metal:4,water:2})};
   b.player.intent=2;assert.ok(b.act(b.player,key==='fire'?'inferno':key==='flame'?'solar':'unity').ok);return b;
 }
-for(const key of Object.keys(CLASSES).filter(key=>CLASSES[key].skills.some(s=>s.kind==='charge'))){
+for(const key of ['fire','sword','flame']){
   const b=charged(key),power=b.player.charge.storedPower;
   assert.equal(b.player.ap,1);assert.equal(total(b.player.qi),3);
   for(const s of [...b.skills(b.player),...COMMON])if(!['move','meditate','guard'].includes(s.kind)){

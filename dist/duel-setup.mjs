@@ -1,7 +1,7 @@
 import {Battle,CLASSES,MAJORS,normalizeLoadout} from './engine.mjs';
 
 export const GENDERS={male:'男',female:'女'};
-const portraitClass={fire:'firewood',sword:'sword',flame:'flame',water:'water'};
+const portraitClass={fire:'firewood',sword:'sword',flame:'flame',water:'water',wood:'wood',earth:'earth'};
 export function portraitPath(key,gender){
   if(!Object.hasOwn(portraitClass,key)||!Object.hasOwn(GENDERS,gender))throw Error('立绘选择无效');
   return `assets/characters/${portraitClass[key]}-${gender}.webp`;
@@ -19,7 +19,9 @@ export function normalizeDuel(config){
 // Simulate the chosen six skills so every custom loadout has a legal public plan.
 // The real turn retains that plan, skipping invalid moves after player responses.
 export class DuelBattle extends Battle{
+  constructor(...args){super(...args);this.customDuel=true;}
   planEnemy(){
+    if(['wood','earth'].includes(this.enemy.key))return super.planEnemy();
     const state=Object.assign(Object.create(Battle.prototype),structuredClone({...this,logs:[]}),{phase:'enemy',pending:null});
     state.attack=function(a,s,raw){this.resolveAttack(a,s,raw);};
     const e=state.enemy,order={

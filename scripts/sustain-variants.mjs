@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {readFileSync,writeFileSync,mkdirSync,mkdtempSync,rmSync} from 'node:fs';
+import {readFileSync,writeFileSync,copyFileSync,mkdirSync,mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
@@ -18,7 +18,7 @@ export async function variants(){
       const engine=source.replace(/export const SUSTAIN_RECOVERY = \d+;/,`export const SUSTAIN_RECOVERY = ${recovery};`),dir=join(root,String(recovery));
       assert.equal(engine.replace(`SUSTAIN_RECOVERY = ${recovery};`,'SUSTAIN_RECOVERY = X;'),source.replace(/SUSTAIN_RECOVERY = \d+;/,'SUSTAIN_RECOVERY = X;'));
       mkdirSync(join(dir,'dist'),{recursive:true});mkdirSync(join(dir,'scripts'));
-      writeFileSync(join(dir,'dist/engine.mjs'),engine);writeFileSync(join(dir,'dist/auto.mjs'),auto);writeFileSync(join(dir,'scripts/balance-arena.mjs'),arena);
+      writeFileSync(join(dir,'dist/engine.mjs'),engine);if(engine.includes("'./prepared.mjs'"))copyFileSync('dist/prepared.mjs',join(dir,'dist/prepared.mjs'));writeFileSync(join(dir,'dist/auto.mjs'),auto);writeFileSync(join(dir,'scripts/balance-arena.mjs'),arena);
       list.push({recovery,engineHash:blobHash(engine),autoHash:blobHash(auto),engine:await import(pathToFileURL(join(dir,'dist/engine.mjs'))),arena:await import(pathToFileURL(join(dir,'scripts/balance-arena.mjs')))});
     }
     return {list,cleanup:()=>rmSync(root,{recursive:true,force:true})};

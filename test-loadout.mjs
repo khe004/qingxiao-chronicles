@@ -48,7 +48,7 @@ charged.player.intent=1;charged.release(charged.player);assert.equal(charged.pla
 const builds=[];
 for(const key of Object.keys(CLASSES))for(const major of Object.keys(MAJORS[key])){
   builds.push({key,config:normalizeLoadout(key,{major})});
-  builds.push({key,config:{major,skillIds:key==='fire'?['seed','blaze','ember','heal','nourish','vine']:key==='flame'?['flare','kindle','cinder','combust','firewall','solar']:key==='water'?['waterbolt','frost','repulse','surge','rinse','ebb']:swordSkills}});
+  builds.push({key,config:{major,skillIds:key==='fire'?['seed','blaze','ember','heal','nourish','vine']:key==='flame'?['flare','kindle','cinder','combust','firewall','solar']:key==='water'?['waterbolt','frost','repulse','surge','rinse','ebb']:key==='sword'?swordSkills:CLASSES[key].skills.slice(2,8).map(s=>s.id)}});
 }
 const results=[];
 for(const {key,config} of builds)for(const tendency of Object.keys(TENDENCIES)){
@@ -70,5 +70,5 @@ for(let n=0;n<700&&!history.result;n++){
 }
 assert.ok(history.result);assert.ok(history.logs.length>160,'Long configured duel retains complete history');
 assert.equal(history.logs[0].id,1);assert.equal(history.logs.at(-1).id,history.logs.length);assert.ok(history.logs[0].text.includes('装备：'),'Initial setup survives the entire duel');
-console.log('Loadout validation, resource immutability, eight majors, bonus expiry/charge and 64 configured automatic duels passed.');
+console.log('Loadout validation, resource immutability, twelve majors, bonus expiry/charge and 96 configured automatic duels passed.');
 console.log(JSON.stringify(results));

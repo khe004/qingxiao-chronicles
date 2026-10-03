@@ -10,7 +10,7 @@ const assert=require('node:assert/strict'),http=require('node:http'),fs=require(
   await page.addInitScript(()=>{window.duelTools={};Object.defineProperty(document,'modelContext',{value:{registerTool(t){window.duelTools[t.name]=t;}}});});
   await page.clock.install();await page.goto('http://127.0.0.1:'+server.address().port);
   const state=()=>page.evaluate(()=>window.duelTools.read_duel_state.execute({}));
-  await page.locator('#cancel-loadout').click();assert.equal(await page.locator('[data-class]').count(),4);
+  await page.locator('#cancel-loadout').click();assert.equal(await page.locator('[data-class]').count(),6);
   await page.locator('[data-class="water"]').click();assert.equal(await page.locator('[data-major]').count(),2);assert.equal(await page.locator('[data-equip]').count(),8);assert.equal(await page.locator('[data-equip][aria-pressed="true"]').count(),6);
   await page.locator('#apply-loadout').click();assert.equal((await state()).player.key,'water');assert.ok(await page.locator('[data-skill="repulse"]').isDisabled());
   await page.locator('[data-skill="frost"]').click();assert.equal((await state()).enemy.chilled,true);assert.ok((await page.locator('#enemy-info').textContent()).includes('凝滞'));

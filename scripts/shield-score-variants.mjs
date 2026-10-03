@@ -9,11 +9,16 @@ import {pathToFileURL} from 'node:url';
 export const SHIELD_CANDIDATES=[{id:'base',ratio:0},{id:'half',ratio:.5},{id:'equal',ratio:1},{id:'double',ratio:2}];
 export function blobHash(bytes){const b=Buffer.from(bytes);return createHash('sha1').update(`blob ${b.length}\0`).update(b).digest('hex');}
 export const SOURCE_FILES=['dist/engine.mjs','dist/auto.mjs','scripts/predictive-arena.mjs','scripts/planner-internals.mjs'];
+function liveSources(){
+  const sources=Object.fromEntries(SOURCE_FILES.map(p=>[p,readFileSync(p,'utf8')]));
+  if(sources['dist/engine.mjs'].includes("'./prepared.mjs'"))sources['dist/prepared.mjs']=readFileSync('dist/prepared.mjs','utf8');
+  return sources;
+}
 export function freezeShieldSource(path){
   if(existsSync(path))return JSON.parse(gunzipSync(readFileSync(path)));
   const head=readFileSync('.git/HEAD','utf8').trim(),commit=head.startsWith('ref: ')?readFileSync('.git/'+head.slice(5),'utf8').trim():head;
-  const sources=Object.fromEntries(SOURCE_FILES.map(p=>[p,readFileSync(p,'utf8')]));
-  const hashes=Object.fromEntries(SOURCE_FILES.map(p=>[p,blobHash(sources[p])]));
+  const sources=liveSources();
+  const hashes=Object.fromEntries(Object.keys(sources).map(p=>[p,blobHash(sources[p])]));
   const data={commit,sources,hashes,candidates:SHIELD_CANDIDATES};
   mkdirSync(join(path,'..'),{recursive:true});writeFileSync(path,gzipSync(JSON.stringify(data),{level:9}));return data;
 }
@@ -23,12 +28,12 @@ export function shieldAuto(source,ratio){
   return source.replace(anchor,`score-=path.length*.2;\n  score+=(start.enemy.shield-future.enemy.shield)*t.shield*${ratio};\n  return score;`);
 }
 export async function shieldVariants({snapshotPath}={}){
-  const source=snapshotPath?JSON.parse(gunzipSync(readFileSync(snapshotPath))):{sources:Object.fromEntries(SOURCE_FILES.map(p=>[p,readFileSync(p,'utf8')]))};
+  const source=snapshotPath?JSON.parse(gunzipSync(readFileSync(snapshotPath))):{sources:liveSources()};
   const root=mkdtempSync(join(tmpdir(),'qingxiao-shield-score-')),list=[];
   try{
     for(const c of SHIELD_CANDIDATES){
       const dir=join(root,c.id),auto=shieldAuto(source.sources['dist/auto.mjs'],c.ratio);
-      for(const p of SOURCE_FILES){mkdirSync(join(dir,p,'..'),{recursive:true});writeFileSync(join(dir,p),p==='dist/auto.mjs'?auto:source.sources[p]);}
+      for(const p of Object.keys(source.sources)){mkdirSync(join(dir,p,'..'),{recursive:true});writeFileSync(join(dir,p),p==='dist/auto.mjs'?auto:source.sources[p]);}
       const internals=await import(pathToFileURL(join(dir,'scripts/planner-internals.mjs')));
       list.push({...c,autoHash:blobHash(auto),engine:await import(pathToFileURL(join(dir,'dist/engine.mjs'))),planner:internals.planner,runtime:await import(pathToFileURL(join(dir,'scripts/predictive-arena.mjs')))});
     }

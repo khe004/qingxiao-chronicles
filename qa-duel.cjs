@@ -16,8 +16,8 @@ const assert=require('node:assert/strict'),http=require('node:http'),fs=require(
   const open=()=>page.locator('#duel-button').click();
   await open();
   for(const side of ['player','enemy']){
-   assert.equal(await page.locator(`[data-duel-class="${side}"] option`).count(),4);
-   for(const key of ['fire','sword','flame','water']){
+   assert.equal(await page.locator(`[data-duel-class="${side}"] option`).count(),6);
+   for(const key of ['wood','earth','fire','sword','flame','water']){
     await page.locator(`[data-duel-class="${side}"]`).selectOption(key);
     assert.equal(await page.locator(`#duel-${side} [data-duel-equip]`).count(),8);
     for(const gender of ['male','female']){
