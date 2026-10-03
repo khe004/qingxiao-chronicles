@@ -1,0 +1,142 @@
+{
+  "naturalGames": 96,
+  "controlledWindows": 64,
+  "scope": "Natural games: four player majors, two NPCs, three distances, four intentionally simple counterplay policies, same recommended equipment and fixed player-first. Controlled windows are prepared paid-charge states, not natural win-rate samples. Shield/rush policies do not read the frozen queue; interrupt/movement inspect active charges. Common immediate attack/recovery policy and equipment otherwise unchanged.",
+  "elapsedSeconds": 26.601512395999997,
+  "natural": [
+    {
+      "route": "interrupt",
+      "n": 24,
+      "playerWins": 8,
+      "opponentWins": 16,
+      "draws": 0,
+      "started": 6,
+      "released": 1,
+      "interrupted": 5,
+      "rangeMiss": 0,
+      "pending": 0,
+      "chargeHpDamage": 67
+    },
+    {
+      "route": "movement",
+      "n": 24,
+      "playerWins": 8,
+      "opponentWins": 16,
+      "draws": 0,
+      "started": 5,
+      "released": 0,
+      "interrupted": 0,
+      "rangeMiss": 5,
+      "pending": 0,
+      "chargeHpDamage": 0
+    },
+    {
+      "route": "shield",
+      "n": 24,
+      "playerWins": 11,
+      "opponentWins": 13,
+      "draws": 0,
+      "started": 4,
+      "released": 4,
+      "interrupted": 0,
+      "rangeMiss": 0,
+      "pending": 0,
+      "chargeHpDamage": 123
+    },
+    {
+      "route": "rush",
+      "n": 24,
+      "playerWins": 8,
+      "opponentWins": 16,
+      "draws": 0,
+      "started": 6,
+      "released": 3,
+      "interrupted": 0,
+      "rangeMiss": 0,
+      "pending": 3,
+      "chargeHpDamage": 231
+    }
+  ],
+  "opponents": [
+    {
+      "opponentId": "heavy",
+      "n": 48,
+      "playerWins": 16,
+      "opponentWins": 32,
+      "draws": 0,
+      "started": 4,
+      "released": 2,
+      "interrupted": 1,
+      "rangeMiss": 1,
+      "pending": 0,
+      "chargeHpDamage": 175
+    },
+    {
+      "opponentId": "ignite",
+      "n": 48,
+      "playerWins": 19,
+      "opponentWins": 29,
+      "draws": 0,
+      "started": 17,
+      "released": 6,
+      "interrupted": 4,
+      "rangeMiss": 4,
+      "pending": 3,
+      "chargeHpDamage": 246
+    }
+  ],
+  "windows": [
+    {
+      "route": "interrupt",
+      "n": 16,
+      "outcomes": {
+        "interrupted": 16,
+        "rangeMiss": 0,
+        "released": 0,
+        "killed": 0,
+        "pending": 0
+      },
+      "playerHpLoss": -64,
+      "spentAP": 48
+    },
+    {
+      "route": "movement",
+      "n": 16,
+      "outcomes": {
+        "interrupted": 0,
+        "rangeMiss": 16,
+        "released": 0,
+        "killed": 0,
+        "pending": 0
+      },
+      "playerHpLoss": -64,
+      "spentAP": 48
+    },
+    {
+      "route": "shield",
+      "n": 16,
+      "outcomes": {
+        "interrupted": 0,
+        "rangeMiss": 0,
+        "released": 16,
+        "killed": 0,
+        "pending": 0
+      },
+      "playerHpLoss": 612,
+      "spentAP": 48
+    },
+    {
+      "route": "rush",
+      "n": 16,
+      "outcomes": {
+        "interrupted": 0,
+        "rangeMiss": 0,
+        "released": 10,
+        "killed": 6,
+        "pending": 0
+      },
+      "playerHpLoss": 931,
+      "spentAP": 46
+    }
+  ]
+}

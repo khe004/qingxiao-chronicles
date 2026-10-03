@@ -191,3 +191,9 @@ node scripts/depth-behavior.mjs /tmp/qingxiao-depth-comparison
 「三场论道」大厅可选切磋／问道，两档气血和招式数值相同。问道会考虑施压、退距、闪身及后续反击，仍严格按公开预告执行；每场难度和跳招次数会进入论道记录。详见 [对手难度与反制窗口调整记录](docs/对手难度与反制窗口调整记录.md)。
 
 复核：`node test-questioning.mjs`；批量行为与配装对照：`node scripts/check-questioning.mjs`、`node scripts/check-questioning-loadouts.mjs`。完整预判自动打法仍能全胜，问道还需继续优化，测试数据不代表真人胜率。
+
+### 蓄势与资源预留复查
+
+问道对手会按实际扣费顺序预留公开计划的灵气，承伤保招时在纪要说明原因；回顾增加「留气保招」。重剑和离火的候选会评估到释放阶段，仍可打断、贴近化解、硬接或抢杀。详见 [蓄势与资源预留复查](docs/蓄势与资源预留复查.md)。
+
+专项检查：`node test-charge-resource.mjs`。批量复查：`node scripts/check-charge-resource.mjs`（192场）、`node scripts/check-counterplay-windows.mjs`（96场自然对局＋64个固定试招）。固定试招不代表胜率，完整预判自动玩家仍能全胜。

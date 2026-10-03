@@ -1,5 +1,6 @@
 import {Battle,CLASSES,total,payment} from './engine.mjs';
 import {planQuestioning} from './opponent-planner.mjs';
+import {reactionBudgetConflict} from './opponent-resources.mjs';
 export const DIFFICULTIES={practice:{name:'切磋',description:'按性格直观出招，适合熟悉招式和反制。'},questioning:{name:'问道',description:'提前考虑施压、退距与资源周转；预告仍固定，气血与伤害相同。'}};
 
 export const OPPONENTS={
@@ -55,10 +56,12 @@ function select(b,p,path){
  return take(['basic'],'缺少合适灵气，以基础攻击保持压力。');
 }
 export function planOpponent(b,id){if(b.difficulty==='questioning')return planQuestioning(b,id);const p=OPPONENTS[id];if(!p)throw Error('未知论道对手');const copy=preview(b),choices=[];for(let i=0;i<3&&!copy.result&&copy.enemy.ap>0;i++){const choice=select(copy,p,choices.map(c=>c.id));if(!choice||!copy.act(copy.enemy,choice.id).ok)break;choices.push(choice);}return choices;}
-export function opponentReaction(b,id,s,raw){
+export function opponentReactionDecision(b,id,s,raw){
  const p=OPPONENTS[id],a=b.enemy;const type=(b.player.key==='sword'&&s.id!=='expose')||s.id==='basic'?'physical':'magical';const damage=Math.round((raw+(s.id==='inferno'?a.burn*8:0))*100/(100+CLASSES[a.key][type]));const net=Math.max(0,damage-a.shield),k=CLASSES[a.key].reactionElement;
- if(!a.reaction||!net)return 'none';
- if(net>=a.hp){if(a.qi[k]>=1&&Math.max(0,damage-Math.min(60,a.shield+26))<a.hp)return 'shield';if(total(a.qi)>=2&&Math.max(0,Math.round(damage*.5)-a.shield)<a.hp)return 'evade';}
- if(b.difficulty==='questioning'&&net<a.hp*.45){const demand=(b.enemyPlan??[]).reduce((n,id)=>n+(b.skill(a,id)?.cost[k]??0)-(id==='meditate'&&CLASSES[a.key].gen[k]?1:0),0);if(demand>=a.qi[k]&&net<38)return 'none';}
- return net>=p.reactionThreshold&&a.qi[k]>=1?'shield':'none';
+ if(!a.reaction||!net)return {response:'none'};
+ if(net>=a.hp){if(a.qi[k]>=1&&Math.max(0,damage-Math.min(60,a.shield+26))<a.hp)return {response:'shield'};if(total(a.qi)>=2&&Math.max(0,Math.round(damage*.5)-a.shield)<a.hp)return {response:'evade'};}
+ if(net<p.reactionThreshold||a.qi[k]<1)return {response:'none'};
+ if(b.difficulty==='questioning'&&net<a.hp*.45){const blocked=reactionBudgetConflict(b,{[k]:1});if(blocked.length)return {response:'none',reason:`应对会令预告中的「${blocked.map(id=>b.skill(a,id).name).join('、')}」缺气，承受此击保留出招资源。`};}
+ return {response:'shield'};
 }
+export const opponentReaction=(b,id,s,raw)=>opponentReactionDecision(b,id,s,raw).response;
