@@ -213,3 +213,7 @@ node scripts/depth-behavior.mjs /tmp/qingxiao-depth-comparison
 ## 水、木、土立绘设计
 
 [三系立绘设计记录](docs/水木土三系立绘设计.md)规划水系的寒凝／潮汐男修、木系的灵植／藤蔓女修、土系的岩甲／镇岳男修，素材位于 `docs/art/portraits/`，留待对应流派实现时接入战斗。
+
+## 六类角色男女立绘
+
+[男女立绘设计](docs/六类男女立绘设计.md)覆盖剑修、火木、离火、水、木、土各男女两张，共十二张新原画，重新区分步态、重心与手臂动作。[对照图册](docs/art/characters/index.html)与[总览图](docs/art/characters-overview.png)可并排查看，素材位于 `docs/art/characters/`。
