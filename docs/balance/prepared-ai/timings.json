@@ -1,0 +1,15 @@
+{
+  "note": "Observed Node wall time on this workspace; performance measurements are not deterministic replay assertions.",
+  "before": {
+    "decisions": 3422,
+    "medianMs": 2.094318999999814,
+    "p95Ms": 24.22055999999793,
+    "maxMs": 52.7853080000059
+  },
+  "after": {
+    "decisions": 2464,
+    "medianMs": 18.26329000000078,
+    "p95Ms": 36.697143999997934,
+    "maxMs": 72.40067000000272
+  }
+}
