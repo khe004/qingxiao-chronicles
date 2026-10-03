@@ -1,0 +1,541 @@
+{
+  "step": 1,
+  "executions": 8,
+  "snapshotRootChoices": 8,
+  "knownPolicyLeafReplays": 96,
+  "elapsedSeconds": 187.87005617999998,
+  "variants": [
+    {
+      "id": "base",
+      "engineHash": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+      "autoHash": "77343207a44e05d3aadf59662e2e99126fe2a4fd",
+      "runtimeHash": "e5071f4141f2c633678b480942284a4edcd9cb2e",
+      "snapshotMeanMs": 73.65831375000042,
+      "snapshotRegrets": [
+        0,
+        12.779999999999998,
+        0,
+        14.68
+      ],
+      "duels": [
+        {
+          "id": "base",
+          "a": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "first": 0,
+          "distance": 1,
+          "limit": 12,
+          "winner": null,
+          "rounds": 12,
+          "hp": [
+            120,
+            68
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "swift": 6,
+                "expose": 4,
+                "guard": 13,
+                "basic": 3,
+                "unity": 2,
+                "strike": 4,
+                "near": 1,
+                "cut": 1
+              },
+              "reactions": {
+                "evade": 3,
+                "none": 15
+              },
+              "unusedAP": 0
+            },
+            {
+              "actions": {
+                "swift": 8,
+                "expose": 3,
+                "guard": 12,
+                "basic": 4,
+                "near": 3,
+                "cut": 2,
+                "strike": 2,
+                "unity": 1
+              },
+              "reactions": {
+                "shield": 2,
+                "none": 10,
+                "evade": 2
+              },
+              "unusedAP": 0
+            }
+          ],
+          "ms": 3244.949840000001,
+          "choices": 69,
+          "forecasts": {
+            "0": 654
+          }
+        },
+        {
+          "id": "base",
+          "a": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "first": 1,
+          "distance": 1,
+          "limit": 12,
+          "winner": null,
+          "rounds": 12,
+          "hp": [
+            68,
+            120
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "swift": 8,
+                "expose": 3,
+                "guard": 12,
+                "basic": 4,
+                "near": 3,
+                "cut": 2,
+                "strike": 2,
+                "unity": 1
+              },
+              "reactions": {
+                "shield": 2,
+                "none": 10,
+                "evade": 2
+              },
+              "unusedAP": 0
+            },
+            {
+              "actions": {
+                "swift": 6,
+                "expose": 4,
+                "guard": 13,
+                "basic": 3,
+                "unity": 2,
+                "strike": 4,
+                "near": 1,
+                "cut": 1
+              },
+              "reactions": {
+                "evade": 3,
+                "none": 15
+              },
+              "unusedAP": 0
+            }
+          ],
+          "ms": 3199.3865250000017,
+          "choices": 69,
+          "forecasts": {
+            "0": 654
+          }
+        },
+        {
+          "id": "base",
+          "a": {
+            "key": "fire",
+            "config": {
+              "major": "sustain"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "heavy"
+            }
+          },
+          "first": 0,
+          "distance": 1,
+          "limit": 12,
+          "winner": 0,
+          "rounds": 11,
+          "hp": [
+            38,
+            0
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "seed": 2,
+                "blaze": 7,
+                "far": 1,
+                "spark": 9,
+                "heal": 5,
+                "near": 4,
+                "vine": 2,
+                "nourish": 2
+              },
+              "reactions": {
+                "none": 4,
+                "evade": 3,
+                "shield": 1
+              },
+              "unusedAP": 0
+            },
+            {
+              "actions": {
+                "expose": 4,
+                "guard": 8,
+                "purify": 3,
+                "unity": 3,
+                "basic": 3,
+                "strike": 4,
+                "swift": 2
+              },
+              "reactions": {
+                "shield": 4,
+                "none": 10
+              },
+              "unusedAP": 0
+            }
+          ],
+          "ms": 4888.977949000007,
+          "choices": 59,
+          "forecasts": {
+            "0": 597
+          }
+        },
+        {
+          "id": "base",
+          "a": {
+            "key": "fire",
+            "config": {
+              "major": "sustain"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "heavy"
+            }
+          },
+          "first": 1,
+          "distance": 1,
+          "limit": 12,
+          "winner": 1,
+          "rounds": 6,
+          "hp": [
+            0,
+            49
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "spark": 5,
+                "nourish": 2,
+                "blaze": 4,
+                "far": 1,
+                "heal": 1,
+                "near": 1,
+                "vine": 1
+              },
+              "reactions": {
+                "shield": 4,
+                "none": 2
+              },
+              "unusedAP": 0
+            },
+            {
+              "actions": {
+                "swift": 5,
+                "expose": 3,
+                "strike": 3,
+                "meditate": 1,
+                "guard": 2,
+                "purify": 1,
+                "unity": 1,
+                "near": 1
+              },
+              "reactions": {
+                "shield": 2,
+                "none": 4,
+                "evade": 1
+              },
+              "unusedAP": 0
+            }
+          ],
+          "ms": 2981.8058009999804,
+          "choices": 32,
+          "forecasts": {
+            "0": 313
+          }
+        }
+      ]
+    },
+    {
+      "id": "staged4",
+      "engineHash": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+      "autoHash": "77343207a44e05d3aadf59662e2e99126fe2a4fd",
+      "runtimeHash": "e31ef1aa860ee6c25a1260bb0bfbbe8aefbff0e7",
+      "snapshotMeanMs": 848.4827332500008,
+      "snapshotRegrets": [
+        0,
+        0,
+        0,
+        11.759999999999998
+      ],
+      "duels": [
+        {
+          "id": "staged4",
+          "a": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "first": 0,
+          "distance": 1,
+          "limit": 12,
+          "winner": null,
+          "rounds": 12,
+          "hp": [
+            209,
+            187
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "swift": 3,
+                "expose": 1,
+                "guard": 11,
+                "basic": 17
+              },
+              "reactions": {
+                "evade": 1,
+                "none": 23
+              },
+              "unusedAP": 4
+            },
+            {
+              "actions": {
+                "swift": 1,
+                "guard": 10,
+                "basic": 23,
+                "expose": 1
+              },
+              "reactions": {
+                "shield": 1,
+                "none": 18
+              },
+              "unusedAP": 1
+            }
+          ],
+          "ms": 28642.615747,
+          "choices": 71,
+          "forecasts": {
+            "0": 6269,
+            "1": 265
+          }
+        },
+        {
+          "id": "staged4",
+          "a": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "quick"
+            }
+          },
+          "first": 1,
+          "distance": 1,
+          "limit": 12,
+          "winner": null,
+          "rounds": 12,
+          "hp": [
+            187,
+            209
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "swift": 1,
+                "guard": 10,
+                "basic": 23,
+                "expose": 1
+              },
+              "reactions": {
+                "shield": 1,
+                "none": 18
+              },
+              "unusedAP": 1
+            },
+            {
+              "actions": {
+                "swift": 3,
+                "expose": 1,
+                "guard": 11,
+                "basic": 17
+              },
+              "reactions": {
+                "evade": 1,
+                "none": 23
+              },
+              "unusedAP": 4
+            }
+          ],
+          "ms": 28797.977297999998,
+          "choices": 71,
+          "forecasts": {
+            "0": 6269,
+            "1": 265
+          }
+        },
+        {
+          "id": "staged4",
+          "a": {
+            "key": "fire",
+            "config": {
+              "major": "sustain"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "heavy"
+            }
+          },
+          "first": 0,
+          "distance": 1,
+          "limit": 12,
+          "winner": 1,
+          "rounds": 8,
+          "hp": [
+            0,
+            21
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "seed": 4,
+                "blaze": 4,
+                "spark": 12,
+                "heal": 4
+              },
+              "reactions": {
+                "none": 6,
+                "evade": 3,
+                "shield": 1
+              },
+              "unusedAP": 0
+            },
+            {
+              "actions": {
+                "near": 3,
+                "swift": 3,
+                "expose": 3,
+                "strike": 4,
+                "purify": 4,
+                "basic": 1,
+                "guard": 5
+              },
+              "reactions": {
+                "evade": 1,
+                "shield": 5,
+                "none": 4
+              },
+              "unusedAP": 0
+            }
+          ],
+          "ms": 49082.636687999984,
+          "choices": 47,
+          "forecasts": {
+            "0": 5228,
+            "1": 182
+          }
+        },
+        {
+          "id": "staged4",
+          "a": {
+            "key": "fire",
+            "config": {
+              "major": "sustain"
+            }
+          },
+          "b": {
+            "key": "sword",
+            "config": {
+              "major": "heavy"
+            }
+          },
+          "first": 1,
+          "distance": 1,
+          "limit": 12,
+          "winner": 1,
+          "rounds": 8,
+          "hp": [
+            0,
+            99
+          ],
+          "metrics": [
+            {
+              "actions": {
+                "seed": 2,
+                "blaze": 4,
+                "far": 2,
+                "spark": 9,
+                "heal": 2
+              },
+              "reactions": {
+                "none": 2,
+                "shield": 3
+              },
+              "unusedAP": 2
+            },
+            {
+              "actions": {
+                "expose": 2,
+                "guard": 9,
+                "purify": 4,
+                "near": 2,
+                "swift": 2,
+                "strike": 3
+              },
+              "reactions": {
+                "none": 11,
+                "shield": 1
+              },
+              "unusedAP": 0
+            }
+          ],
+          "ms": 45765.288524,
+          "choices": 42,
+          "forecasts": {
+            "0": 4676,
+            "1": 165
+          }
+        }
+      ]
+    }
+  ]
+}

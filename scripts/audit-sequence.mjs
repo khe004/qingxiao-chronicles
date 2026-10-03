@@ -1,0 +1,19 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {gunzipSync} from 'node:zlib';
+import {blobHash} from './shield-score-variants.mjs';
+const decode=p=>JSON.parse(gunzipSync(readFileSync(p)));let executions=0;
+for(const step of [1,2,3,4,5,6,7]){const dir=`docs/balance/sequence-${step}`,summary=JSON.parse(readFileSync(dir+'/summary.json')),result=decode(dir+'/results.json.gz');executions+=summary.executions;const source=decode(dir+'/source.json.gz');
+ const paired=new Map();for(const r of result.rows??result.matches){const key=JSON.stringify([r.id??r.variant??'base',r.a,r.b,r.distance,r.prefs??['balanced','balanced'],r.controller??'adaptive',r.compensation??null,r.group??'review',r.selection??null]);const count=paired.get(key)??[0,0];count[r.first]++;paired.set(key,count);}for(const count of paired.values())assert.deepEqual(count,[1,1],'Each retained duel case must exchange initiative exactly once');
+ if(step<=2){assert.equal(result.matches.length,8);assert.equal(result.snapshots.length,8);for(const r of result.snapshots){assert.ok(r.regret>=0);assert.ok(r.stats.roots[0].selected.length<=12);assert.ok(r.stats.roots[0].evaluated.length<=(r.id==='staged4'?4:12));}continue;}
+ const rows=result.rows;assert.equal(rows.length,summary.rows??summary.retainedRows);for(const r of rows){assert.ok([0,1,null].includes(r.winner));assert.equal(r.winner,r.hp[0]===0?1:r.hp[1]===0?0:null);assert.ok(r.rounds<=30);assert.ok(r.trace.length>0&&r.events.length>0);for(const d of r.detail){const q=d.charge;assert.equal(q.started,q.released+q.interrupted+q.rangeMiss+q.pending);for(const [id,n] of Object.entries(d.filtered))assert.ok(n<=(d.available[id]||0));}}
+ if(step===3)assert.equal(rows.length,48);
+ if(step===4){assert.equal(summary.executions,64);assert.equal(summary.cachedRows,32);const earlier=decode('docs/balance/sequence-3/results.json.gz').rows.filter(r=>r.prefs[0]==='balanced');assert.deepEqual(rows.slice(0,32),earlier);}
+ if(step===5){assert.equal(rows.length,240);assert.equal(decode(dir+'/tactics.json.gz').length,30);for(const variant of ['base','heal10','clear0','refund0','ap2'])assert.equal(rows.filter(r=>r.variant===variant&&r.group==='equipped-screen').length,32);assert.equal(rows.filter(r=>r.group==='cleanse-mirrors').length,48);const base=rows.filter(r=>r.variant==='base'&&r.group==='equipped-screen'),clear=rows.filter(r=>r.variant==='clear0'&&r.group==='equipped-screen');for(let i=0;i<base.length;i++)for(const k of ['winner','rounds','hp','metrics','trace'])assert.deepEqual(base[i][k],clear[i][k],'Sword cannot apply burn, cleanse should not affect cross-pair');}
+ if(step===6){assert.equal(rows.length,192);for(const compensation of [null,'shield8','qi1'])assert.equal(rows.filter(r=>r.compensation===compensation).length,64);}
+ if(step===7){assert.equal(rows.length,272);for(const major of ['ignite','sustain','quick','heavy']){const rs=rows.filter(r=>r.a.config.major===major&&r.group==='all28');assert.equal(rs.length,56);const ids=[...new Set(rs.flatMap(r=>r.a.config.skillIds))];assert.equal(ids.length,8);for(const id of ids)assert.equal(rs.filter(r=>r.a.config.skillIds.includes(id)).length,42);}assert.equal(decode(dir+'/tactics.json.gz').length,5);}
+ if(step!==5)for(const c of source.variants??[source]){if(c.sources)assert.equal(blobHash(c.sources.engine),'cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd');}
+}
+assert.equal(executions,832);
+assert.equal(blobHash(readFileSync('dist/engine.mjs')),'cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd');assert.equal(blobHash(readFileSync('dist/auto.mjs')),'cb202a8d1225afb666670aadf241939d81194854');
+console.log('832 new research duels; 32 reused rows; paired cohorts, retained traces, lifecycle, skill coverage and production hashes verified. Test-suite games are not included in research counts.');

@@ -1,0 +1,107 @@
+{
+  "step": 7,
+  "executions": 272,
+  "additionalExecutions": 0,
+  "retainedRows": 272,
+  "elapsedSeconds": 156.732855979,
+  "limit": 30,
+  "variants": [
+    {
+      "id": "base",
+      "engineHash": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+      "autoHash": "77343207a44e05d3aadf59662e2e99126fe2a4fd",
+      "runtimeHash": "e5071f4141f2c633678b480942284a4edcd9cb2e"
+    }
+  ],
+  "groups": [
+    {
+      "key": "[\"base\",\"immediate\",null,\"all28\"]",
+      "n": 224,
+      "wins": 100,
+      "losses": 124,
+      "unresolved": 0,
+      "firstWins": 88,
+      "meanRounds": 4.383928571428571,
+      "unusedAP": 0,
+      "actions": {
+        "ember": 230,
+        "basic": 307,
+        "blaze": 791,
+        "heal": 343,
+        "nourish": 335,
+        "swift": 780,
+        "expose": 468,
+        "strike": 752,
+        "near": 133,
+        "spark": 696,
+        "meditate": 122,
+        "seed": 166,
+        "return": 80,
+        "guard": 66,
+        "lunge": 63
+      }
+    },
+    {
+      "key": "[\"base\",\"script\",null,\"confirmation\"]",
+      "n": 24,
+      "wins": 7,
+      "losses": 17,
+      "unresolved": 0,
+      "firstWins": 15,
+      "meanRounds": 8.333333333333334,
+      "unusedAP": 1,
+      "actions": {
+        "seed": 40,
+        "blaze": 122,
+        "heal": 32,
+        "inferno": 31,
+        "near": 83,
+        "vine": 43,
+        "spark": 110,
+        "expose": 79,
+        "basic": 37,
+        "purify": 87,
+        "guard": 98,
+        "unity": 47,
+        "strike": 83,
+        "swift": 40,
+        "meditate": 10,
+        "nourish": 53,
+        "far": 26,
+        "ember": 13,
+        "return": 1
+      }
+    },
+    {
+      "key": "[\"base\",\"adaptive\",null,\"confirmation\"]",
+      "n": 24,
+      "wins": 4,
+      "losses": 20,
+      "unresolved": 0,
+      "firstWins": 16,
+      "meanRounds": 8,
+      "unusedAP": 0,
+      "actions": {
+        "seed": 36,
+        "blaze": 110,
+        "spark": 151,
+        "heal": 47,
+        "near": 66,
+        "vine": 26,
+        "basic": 57,
+        "expose": 54,
+        "guard": 138,
+        "purify": 64,
+        "unity": 35,
+        "swift": 68,
+        "strike": 62,
+        "inferno": 10,
+        "far": 41,
+        "nourish": 37,
+        "meditate": 6,
+        "ember": 17,
+        "return": 9
+      }
+    }
+  ]
+}

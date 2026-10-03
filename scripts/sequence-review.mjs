@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';
+import {gzipSync,gunzipSync} from 'node:zlib';
+import {pathToFileURL} from 'node:url';
+import {sequenceVariants} from './sequence-variants.mjs';
+export const build=(major,skillIds)=>({key:['ignite','sustain'].includes(major)?'fire':'sword',config:{major,...(skillIds?{skillIds}:{})}});
+export const pairs=[['ignite','quick'],['ignite','heavy'],['sustain','quick'],['sustain','heavy']];
+const decode=p=>JSON.parse(gunzipSync(readFileSync(p)));
+export function monitoredDuel(c,a,b,{first=0,distance=1,prefs=['balanced','balanced'],controller='adaptive',limit=30,compensation=null}={}){
+ const r=c.runtime,w=r.createPredictiveArena(a,b,{first,distance,prefs,controllers:[controller,controller],trace:true});
+ if(compensation){const s=w.actors[1-first];if(compensation==='shield8')s.shield=8;if(compensation==='qi1')w.battle.gain(s,{any:1});}
+ const events=[],detail=w.actors.map(()=>({damage:0,shieldDamage:0,healing:0,overheal:0,intentSpent:0,charge:{started:0,released:0,interrupted:0,rangeMiss:0,pending:0,damage:0,shieldDamage:0},available:{},filtered:{},phases:0}));
+ // Wrappers observe only the real battle; search clones serialize state and use prototype rules.
+ const battle=w.battle,resolve=battle.resolveAttack;
+ battle.resolveAttack=function(actor,s,raw,reduction=1){const target=this.other(actor),i=w.actors.indexOf(actor),hp=target.hp,shield=target.shield,charging=target.charge;resolve.call(this,actor,s,raw,reduction);detail[i].damage+=hp-target.hp;detail[i].shieldDamage+=shield-target.shield;if(s.kind==='charge'){detail[i].charge.damage+=hp-target.hp;detail[i].charge.shieldDamage+=shield-target.shield;}if(charging&&!target.charge&&s.interrupt)detail[1-i].charge.interrupted++;};
+ const release=battle.release;battle.release=function(actor){const i=w.actors.indexOf(actor);if(actor.charge.range.includes(this.distance))detail[i].charge.released++;else detail[i].charge.rangeMiss++;return release.call(this,actor);};
+ while(battle.round<=limit&&r.winner(w)===null){const seat=w.seat;detail[seat].phases++;
+ for(let n=0;r.winner(w)===null&&!w.ended;n++){assert.ok(n<8);battle.planEnemy();const available=c.planner.options(battle,prefs[seat]).map(s=>s.id);for(const s of c.engine.CLASSES[w.actors[seat].key].skills){if(!battle.legal(w.actors[seat],s.id)){detail[seat].available[s.id]=(detail[seat].available[s.id]||0)+1;if(!available.includes(s.id))detail[seat].filtered[s.id]=(detail[seat].filtered[s.id]||0)+1;}}
+ const before=r.worldState(w),choice=r.chooseArenaAction(w);if(choice.action==='end')r.endPhase(w);else{const actor=w.actors[seat],skill=battle.skill(actor,choice.skillId),hp=actor.hp,intent=actor.intent;if(skill.kind==='charge')detail[seat].charge.started++;assert.ok(r.actWorld(w,choice.skillId).ok);detail[seat].intentSpent+=Math.max(0,intent-actor.intent);detail[seat].healing+=Math.max(0,actor.hp-hp);if(skill.kind==='heal')detail[seat].overheal+=Math.max(0,(skill.heal+(actor.major==='sustain'&&!before.actors[seat].woodTriggered?2:0))-(actor.hp-hp));}
+ events.push({round:battle.round,seat,choice,before,after:r.worldState(w)});}
+ if(r.winner(w)!==null||(battle.round===limit&&w.seat!==w.first))break;r.advancePhase(w);}
+ for(let i=0;i<2;i++){detail[i].charge.pending=Number(Boolean(w.actors[i].charge));const q=detail[i].charge;assert.equal(q.started,q.released+q.interrupted+q.rangeMiss+q.pending,'Charge lifecycle accounted');}
+ return {winner:r.winner(w),rounds:battle.round,hp:w.actors.map(a=>a.hp),metrics:w.metrics,detail,events,trace:w.trace};
+}
+export function aggregate(rows){return {n:rows.length,wins:rows.filter(r=>r.winner===0).length,losses:rows.filter(r=>r.winner===1).length,unresolved:rows.filter(r=>r.winner===null).length,firstWins:rows.filter(r=>r.winner===r.first).length,meanRounds:rows.reduce((s,r)=>s+r.rounds,0)/rows.length,unusedAP:rows.reduce((s,r)=>s+r.metrics.reduce((n,m)=>n+m.unusedAP,0),0),actions:Object.fromEntries([...new Set(rows.flatMap(r=>r.metrics.flatMap(m=>Object.keys(m.actions))))].map(id=>[id,rows.reduce((s,r)=>s+r.metrics.reduce((n,m)=>n+(m.actions[id]||0),0),0)]))};}
+const step=Number(process.argv[2]);if(step&&import.meta.url===pathToFileURL(process.argv[1]).href){const dir=`docs/balance/sequence-${step}`;mkdirSync(dir,{recursive:true});let rows=[],cached=0,executions=0;const started=performance.now();
+ const save=()=>writeFileSync(dir+'/results.json.gz',gzipSync(JSON.stringify({step,rows}),{level:9}));
+ const v=await sequenceVariants([{id:'base'}]);const c=v.list[0];
+ const run=(a,b,opts={})=>{const t=performance.now(),result=monitoredDuel(c,a,b,opts);rows.push({a,b,first:opts.first??0,distance:opts.distance??1,prefs:opts.prefs??['balanced','balanced'],controller:opts.controller??'adaptive',...result,ms:performance.now()-t});executions++;save();if(executions%4===0)console.log(`step${step} ${executions} executions ${(performance.now()-started)/1000|0}s`);};
+ try{if(step===3){for(const [a,b] of pairs)for(const distance of [0,1,2])for(const first of [0,1])run(build(a),build(b),{first,distance});for(const major of ['ignite','sustain','quick','heavy'])for(const first of [0,1])run(build(major),build(major),{first});for(const [a,b] of pairs)for(const style of ['defensive','burst'])for(const first of [0,1])run(build(a),build(b),{first,prefs:[style,style]});}
+ else if(step===4){rows=decode('docs/balance/sequence-3/results.json.gz').rows.filter(r=>r.prefs[0]==='balanced');cached=rows.length;for(const controller of ['immediate','script'])for(const [a,b] of [...pairs,...['ignite','sustain','quick','heavy'].map(m=>[m,m])])for(const first of [0,1])for(const distance of (a===b?[1]:[0,1,2]))run(build(a),build(b),{first,distance,controller});}else throw Error('Step must be 3 or 4');
+ const summary={step,executions,cachedRows:cached,rows:rows.length,elapsedSeconds:(performance.now()-started)/1000,sourceHashes:{engine:c.engineHash,auto:c.autoHash,runtime:c.runtimeHash},controllers:[...new Set(rows.map(r=>r.controller))].map(controller=>({controller,all:aggregate(rows.filter(r=>r.controller===controller)),groups:[...new Set(rows.map(r=>r.a.config.major+'/'+r.b.config.major))].map(group=>({group,...aggregate(rows.filter(r=>r.controller===controller&&r.a.config.major+'/'+r.b.config.major===group))}))}))};
+ writeFileSync(dir+'/summary.json',JSON.stringify(summary,null,2)+'\n');writeFileSync(dir+'/source.json.gz',gzipSync(JSON.stringify({helper:readFileSync('scripts/sequence-variants.mjs','utf8'),runner:readFileSync('scripts/sequence-review.mjs','utf8'),sources:c.sources}),{level:9}));console.log(JSON.stringify({done:step,executions,cached,seconds:summary.elapsedSeconds}));}finally{v.cleanup();}}
