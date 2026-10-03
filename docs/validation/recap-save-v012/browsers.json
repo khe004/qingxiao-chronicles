@@ -1,0 +1,46 @@
+[
+  {
+    "test": "qa-challenge.cjs",
+    "passed": true,
+    "rerun": "Passed after preserving zero-action NPC abandonment records"
+  },
+  {
+    "test": "qa-duel.cjs",
+    "passed": true,
+    "seconds": 9.31
+  },
+  {
+    "test": "qa-flame.cjs",
+    "passed": true,
+    "seconds": 9.53
+  },
+  {
+    "test": "qa-hit.cjs",
+    "passed": true,
+    "seconds": 10.6
+  },
+  {
+    "test": "qa-prepared-ai.cjs",
+    "passed": true,
+    "seconds": 7.46
+  },
+  {
+    "test": "qa-prepared-trial.cjs",
+    "passed": true,
+    "seconds": 40.69
+  },
+  {
+    "test": "qa-water.cjs",
+    "passed": true,
+    "seconds": 17.11
+  },
+  {
+    "test": "qa-wood-earth.cjs",
+    "passed": true,
+    "seconds": 10.43
+  },
+  {
+    "test": "qa-save-recap.cjs",
+    "passed": true
+  }
+]

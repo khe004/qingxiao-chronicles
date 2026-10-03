@@ -1,0 +1,152 @@
+[
+  {
+    "test": "test-auto.mjs",
+    "passed": true,
+    "seconds": 11.41
+  },
+  {
+    "test": "test-balance-harness.mjs",
+    "passed": true,
+    "seconds": 1.17
+  },
+  {
+    "test": "test-challenge.mjs",
+    "passed": true,
+    "seconds": 11.21
+  },
+  {
+    "test": "test-charge-resource.mjs",
+    "passed": true,
+    "seconds": 0.58
+  },
+  {
+    "test": "test-charge-window.mjs",
+    "passed": true,
+    "seconds": 0.05
+  },
+  {
+    "test": "test-depth-variants.mjs",
+    "passed": true,
+    "seconds": 8.89
+  },
+  {
+    "test": "test-duel.mjs",
+    "passed": true,
+    "seconds": 0.58
+  },
+  {
+    "test": "test-engine.mjs",
+    "passed": true,
+    "seconds": 0.14
+  },
+  {
+    "test": "test-flame.mjs",
+    "passed": true,
+    "seconds": 8.99
+  },
+  {
+    "test": "test-heal.mjs",
+    "passed": true,
+    "seconds": 2.36
+  },
+  {
+    "test": "test-loadout.mjs",
+    "passed": true,
+    "seconds": 26.34
+  },
+  {
+    "test": "test-npc-reactions.mjs",
+    "passed": true,
+    "seconds": 0.22
+  },
+  {
+    "test": "test-planner-diagnostics.mjs",
+    "passed": true,
+    "seconds": 7.6
+  },
+  {
+    "test": "test-predictive-arena.mjs",
+    "passed": true,
+    "seconds": 30.85
+  },
+  {
+    "test": "test-prepared-ai.mjs",
+    "passed": true,
+    "seconds": 15.54
+  },
+  {
+    "test": "test-prepared-opponents.mjs",
+    "passed": true,
+    "seconds": 13.11
+  },
+  {
+    "test": "test-prepared-trial.mjs",
+    "passed": true,
+    "seconds": 1.19
+  },
+  {
+    "test": "test-questioning.mjs",
+    "passed": true,
+    "seconds": 3.82
+  },
+  {
+    "test": "test-range.mjs",
+    "passed": true,
+    "seconds": 4.37
+  },
+  {
+    "test": "test-sequence-monitor.mjs",
+    "passed": true,
+    "seconds": 9.17
+  },
+  {
+    "test": "test-sequence-numbers.mjs",
+    "passed": true,
+    "seconds": 0.25
+  },
+  {
+    "test": "test-sequence.mjs",
+    "passed": true,
+    "seconds": 6.15
+  },
+  {
+    "test": "test-shield-score.mjs",
+    "passed": true,
+    "seconds": 6.89
+  },
+  {
+    "test": "test-sustain.mjs",
+    "passed": true,
+    "seconds": 2.67
+  },
+  {
+    "test": "test-trial.mjs",
+    "passed": true,
+    "seconds": 0.08
+  },
+  {
+    "test": "test-water.mjs",
+    "passed": true,
+    "seconds": 6.3
+  },
+  {
+    "test": "test-wood-earth.mjs",
+    "passed": true,
+    "seconds": 0.12
+  },
+  {
+    "test": "test-forecast.mjs",
+    "passed": true,
+    "seconds": 0.09
+  },
+  {
+    "test": "test-recap-save.mjs",
+    "passed": true,
+    "seconds": 0.07
+  },
+  {
+    "test": "test-six-school.mjs",
+    "passed": true,
+    "seconds": 5.61
+  }
+]

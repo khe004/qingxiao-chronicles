@@ -109,6 +109,6 @@ function select(b,p,path){
 }
 export function planOpponent(b,id){if(b.difficulty==='questioning')return planQuestioning(b,id);const p=OPPONENTS[id];if(!p)throw Error('未知论道对手');const copy=preview(b),choices=[];for(let i=0;i<3&&!copy.result&&copy.enemy.ap>0;i++){const choice=select(copy,p,choices.map(c=>c.id));if(!choice||!copy.act(copy.enemy,choice.id).ok)break;choices.push(choice);}return choices;}
 export function opponentReactionDecision(b,id,s,raw){
- return Battle.prototype.reactionDecision.call(b,s,raw,{threshold:OPPONENTS[id].reactionThreshold,reserveHeavy:id!=='heavy'});
+ return b.reactionDecision(s,raw,{threshold:OPPONENTS[id].reactionThreshold,reserveHeavy:id!=='heavy'});
 }
 export const opponentReaction=(b,id,s,raw)=>opponentReactionDecision(b,id,s,raw).response;

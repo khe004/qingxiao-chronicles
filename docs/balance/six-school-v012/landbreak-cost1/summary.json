@@ -1,0 +1,206 @@
+{
+  "baseline": "54559c891e5796900adb8a525b1ae047dce2fca9",
+  "limits": {
+    "rounds": 30,
+    "distance": 1,
+    "tendency": "balanced",
+    "cross": "six default majors with both initiatives",
+    "mirrors": "all twelve majors with both initiatives",
+    "preparedBoundary": "fixed public script; actual rival chooses again"
+  },
+  "groups": {
+    "immediate": {
+      "games": 54,
+      "draws": 0,
+      "firstWins": 29,
+      "rounds": 222,
+      "schools": {
+        "fire": {
+          "games": 18,
+          "wins": 11,
+          "draws": 0,
+          "actions": {
+            "seed": 42,
+            "blaze": 86,
+            "spark": 33,
+            "basic": 3,
+            "heal": 9,
+            "nourish": 8
+          }
+        },
+        "sword": {
+          "games": 18,
+          "wins": 14,
+          "draws": 0,
+          "actions": {
+            "swift": 55,
+            "meditate": 10,
+            "strike": 50,
+            "expose": 41,
+            "near": 2,
+            "basic": 6
+          }
+        },
+        "flame": {
+          "games": 18,
+          "wins": 11,
+          "draws": 0,
+          "actions": {
+            "eruption": 51,
+            "meditate": 15,
+            "kindle": 42,
+            "cinder": 22,
+            "flare": 16,
+            "combust": 6
+          }
+        },
+        "water": {
+          "games": 18,
+          "wins": 5,
+          "draws": 0,
+          "actions": {
+            "waterbolt": 157,
+            "frost": 38,
+            "gather": 17,
+            "surge": 19
+          }
+        },
+        "wood": {
+          "games": 18,
+          "wins": 5,
+          "draws": 0,
+          "actions": {
+            "wooddart": 269
+          }
+        },
+        "earth": {
+          "games": 18,
+          "wins": 8,
+          "draws": 0,
+          "actions": {
+            "foundation": 66,
+            "landbreak": 114,
+            "stonebolt": 48
+          }
+        }
+      }
+    },
+    "prepared": {
+      "games": 54,
+      "draws": 0,
+      "firstWins": 31,
+      "rounds": 350,
+      "schools": {
+        "fire": {
+          "games": 18,
+          "wins": 10,
+          "draws": 0,
+          "actions": {
+            "seed": 35,
+            "inferno": 25,
+            "spark": 94,
+            "basic": 8,
+            "heal": 39,
+            "near": 21,
+            "blaze": 54,
+            "meditate": 2,
+            "far": 3,
+            "purify": 13,
+            "sever-growth": 1,
+            "sever-terrain": 1,
+            "nourish": 6
+          }
+        },
+        "sword": {
+          "games": 18,
+          "wins": 14,
+          "draws": 0,
+          "actions": {
+            "swift": 73,
+            "expose": 38,
+            "strike": 48,
+            "guard": 36,
+            "purify": 5,
+            "basic": 10,
+            "unity": 16,
+            "near": 16,
+            "meditate": 4,
+            "sever-growth": 4,
+            "sever-terrain": 1,
+            "return": 2
+          }
+        },
+        "flame": {
+          "games": 18,
+          "wins": 12,
+          "draws": 0,
+          "actions": {
+            "kindle": 126,
+            "purify": 21,
+            "basic": 7,
+            "eruption": 44,
+            "far": 5,
+            "flare": 21,
+            "near": 4,
+            "cinder": 1,
+            "meditate": 1,
+            "firewall": 6,
+            "combust": 2
+          }
+        },
+        "water": {
+          "games": 18,
+          "wins": 4,
+          "draws": 0,
+          "actions": {
+            "waterbolt": 123,
+            "gather": 11,
+            "waterwall": 25,
+            "frost": 79,
+            "far": 10,
+            "basic": 23,
+            "purify": 4,
+            "surge": 11,
+            "near": 6,
+            "sever-growth": 15
+          }
+        },
+        "wood": {
+          "games": 18,
+          "wins": 8,
+          "draws": 0,
+          "actions": {
+            "basic": 81,
+            "far": 5,
+            "cultivate": 95,
+            "purify": 13,
+            "bloomheal": 26,
+            "wooddart": 115,
+            "near": 3,
+            "bloomstrike": 22,
+            "prune": 48,
+            "parasite": 2,
+            "reap": 2
+          }
+        },
+        "earth": {
+          "games": 18,
+          "wins": 6,
+          "draws": 0,
+          "actions": {
+            "basic": 20,
+            "far": 11,
+            "purify": 9,
+            "foundation": 75,
+            "rampart": 26,
+            "earthenwall": 33,
+            "landbreak": 66,
+            "stonebolt": 64,
+            "near": 6,
+            "mountain": 4
+          }
+        }
+      }
+    }
+  }
+}
