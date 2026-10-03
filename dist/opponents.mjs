@@ -1,4 +1,6 @@
 import {Battle,CLASSES,total,payment} from './engine.mjs';
+import {planQuestioning} from './opponent-planner.mjs';
+export const DIFFICULTIES={practice:{name:'切磋',description:'按性格直观出招，适合熟悉招式和反制。'},questioning:{name:'问道',description:'提前考虑施压、退距与资源周转；预告仍固定，气血与伤害相同。'}};
 
 export const OPPONENTS={
  quick:{id:'quick',name:'顾追风',key:'sword',major:'quick',title:'快剑压制',seal:'疾',style:'主动接近 · 养意追击',description:'靠近后以快剑养意，及时追击、出重剑；你蓄势时优先打断。',counter:'留意近身追击；先防住剑意爆发，再找施法窗口。',skills:['swift','expose','strike','guard','cut','lunge'],reactionThreshold:25},
@@ -52,10 +54,11 @@ function select(b,p,path){
  if(!a.meditated&&total(a.qi)<4&&a.ap>=2&&legal('meditate'))return {id:'meditate',reason:'灵气不足，调息后再找进攻机会。'};
  return take(['basic'],'缺少合适灵气，以基础攻击保持压力。');
 }
-export function planOpponent(b,id){const p=OPPONENTS[id];if(!p)throw Error('未知论道对手');const copy=preview(b),choices=[];for(let i=0;i<3&&!copy.result&&copy.enemy.ap>0;i++){const choice=select(copy,p,choices.map(c=>c.id));if(!choice||!copy.act(copy.enemy,choice.id).ok)break;choices.push(choice);}return choices;}
+export function planOpponent(b,id){if(b.difficulty==='questioning')return planQuestioning(b,id);const p=OPPONENTS[id];if(!p)throw Error('未知论道对手');const copy=preview(b),choices=[];for(let i=0;i<3&&!copy.result&&copy.enemy.ap>0;i++){const choice=select(copy,p,choices.map(c=>c.id));if(!choice||!copy.act(copy.enemy,choice.id).ok)break;choices.push(choice);}return choices;}
 export function opponentReaction(b,id,s,raw){
  const p=OPPONENTS[id],a=b.enemy;const type=(b.player.key==='sword'&&s.id!=='expose')||s.id==='basic'?'physical':'magical';const damage=Math.round((raw+(s.id==='inferno'?a.burn*8:0))*100/(100+CLASSES[a.key][type]));const net=Math.max(0,damage-a.shield),k=CLASSES[a.key].reactionElement;
  if(!a.reaction||!net)return 'none';
  if(net>=a.hp){if(a.qi[k]>=1&&Math.max(0,damage-Math.min(60,a.shield+26))<a.hp)return 'shield';if(total(a.qi)>=2&&Math.max(0,Math.round(damage*.5)-a.shield)<a.hp)return 'evade';}
+ if(b.difficulty==='questioning'&&net<a.hp*.45){const demand=(b.enemyPlan??[]).reduce((n,id)=>n+(b.skill(a,id)?.cost[k]??0)-(id==='meditate'&&CLASSES[a.key].gen[k]?1:0),0);if(demand>=a.qi[k]&&net<38)return 'none';}
  return net>=p.reactionThreshold&&a.qi[k]>=1?'shield':'none';
 }

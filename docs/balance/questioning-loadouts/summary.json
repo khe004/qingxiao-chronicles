@@ -1,0 +1,126 @@
+{
+  "n": 192,
+  "scope": "Three representative six-slot configurations at mid range; fixed player-first. Direct controller picks immediate damage without reading the announced plan. Not human win rates or exhaustive build optimality.",
+  "groups": [
+    {
+      "difficulty": "practice",
+      "controller": "predictive",
+      "variant": "recommended",
+      "n": 16,
+      "wins": 16,
+      "losses": 0,
+      "draws": 0,
+      "remainingHp": 2922
+    },
+    {
+      "difficulty": "practice",
+      "controller": "predictive",
+      "variant": "counter",
+      "n": 16,
+      "wins": 16,
+      "losses": 0,
+      "draws": 0,
+      "remainingHp": 2984
+    },
+    {
+      "difficulty": "practice",
+      "controller": "predictive",
+      "variant": "pressure",
+      "n": 16,
+      "wins": 16,
+      "losses": 0,
+      "draws": 0,
+      "remainingHp": 2846
+    },
+    {
+      "difficulty": "practice",
+      "controller": "direct",
+      "variant": "recommended",
+      "n": 16,
+      "wins": 11,
+      "losses": 5,
+      "draws": 0,
+      "remainingHp": 914
+    },
+    {
+      "difficulty": "practice",
+      "controller": "direct",
+      "variant": "counter",
+      "n": 16,
+      "wins": 14,
+      "losses": 2,
+      "draws": 0,
+      "remainingHp": 1111
+    },
+    {
+      "difficulty": "practice",
+      "controller": "direct",
+      "variant": "pressure",
+      "n": 16,
+      "wins": 11,
+      "losses": 5,
+      "draws": 0,
+      "remainingHp": 882
+    },
+    {
+      "difficulty": "questioning",
+      "controller": "predictive",
+      "variant": "recommended",
+      "n": 16,
+      "wins": 16,
+      "losses": 0,
+      "draws": 0,
+      "remainingHp": 2804
+    },
+    {
+      "difficulty": "questioning",
+      "controller": "predictive",
+      "variant": "counter",
+      "n": 16,
+      "wins": 16,
+      "losses": 0,
+      "draws": 0,
+      "remainingHp": 2649
+    },
+    {
+      "difficulty": "questioning",
+      "controller": "predictive",
+      "variant": "pressure",
+      "n": 16,
+      "wins": 16,
+      "losses": 0,
+      "draws": 0,
+      "remainingHp": 2844
+    },
+    {
+      "difficulty": "questioning",
+      "controller": "direct",
+      "variant": "recommended",
+      "n": 16,
+      "wins": 8,
+      "losses": 8,
+      "draws": 0,
+      "remainingHp": 530
+    },
+    {
+      "difficulty": "questioning",
+      "controller": "direct",
+      "variant": "counter",
+      "n": 16,
+      "wins": 7,
+      "losses": 9,
+      "draws": 0,
+      "remainingHp": 281
+    },
+    {
+      "difficulty": "questioning",
+      "controller": "direct",
+      "variant": "pressure",
+      "n": 16,
+      "wins": 7,
+      "losses": 9,
+      "draws": 0,
+      "remainingHp": 484
+    }
+  ]
+}

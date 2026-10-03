@@ -1,6 +1,6 @@
 import {Battle,CLASSES,MAJORS,COMMON,ELEMENTS,ELEMENT_NAMES,total,payment} from './engine.mjs';
 import {ChallengeBattle} from './challenge-battle.mjs';
-import {OPPONENTS,ROUTES} from './opponents.mjs';
+import {OPPONENTS,ROUTES,DIFFICULTIES} from './opponents.mjs';
 import {Trial,resultLabel,recordText,historyText} from './trial.mjs';
 import {createLoadoutEditor} from './loadout.mjs';
 import {TENDENCIES,SPEEDS,chooseAction,chooseReaction,describeAutoChoice} from './auto.mjs';
@@ -8,7 +8,7 @@ const $=id=>document.getElementById(id);
 let battle=new Battle('fire'),generation=0,lastHit=0,lastLog=0,combatTimer=null;
 const automation={enabled:false,tendency:'balanced',speed:'normal'};
 const guide=$('guide-dialog'),reaction=$('reaction-dialog'),trialDialog=$('trial-dialog'),historyDialog=$('history-dialog');
-const trial=new Trial();let selectedRoute='sword',practiceOpponent=null,pendingOpponent=null;
+const trial=new Trial();let selectedRoute='sword',selectedDifficulty='practice',practiceDifficulty='practice',practiceOpponent=null,pendingOpponent=null;
 function pauseCombat(){generation++;clearTimeout(combatTimer);combatTimer=null;if(reaction.open)reaction.close();}
 const loadout=createLoadoutEditor({getBattle:()=>battle,onApply:(key,config)=>reset(key,config),onPause:pauseCombat,onResume:()=>{if(trial.status==='preparing'||pendingOpponent)reset();render();scheduleCombat();},getPreparation:()=>OPPONENTS[trial.status==='preparing'?trial.opponentId:pendingOpponent],rangeLabel,costHtml});
 
@@ -77,12 +77,12 @@ function toast(text){$('toast').textContent=text;$('toast').classList.add('show'
 function reset(key=battle.player.key,config=key===battle.player.key?{major:battle.player.major,skillIds:battle.player.skillIds}:{}){
   pauseCombat();automation.enabled=false;
   if(battle.opponentId&&!battle.result)trial.archive(battle,{abandoned:true});
-  if(pendingOpponent){practiceOpponent=pendingOpponent;pendingOpponent=null;}
+  if(pendingOpponent){practiceOpponent=pendingOpponent;practiceDifficulty=selectedDifficulty;pendingOpponent=null;}
   const profile=trial.active?trial.opponentId:practiceOpponent;
   if(trial.active&&trial.status!=='preparing')trial.retry();
   $('floating-hit').className='floating-hit';$('floating-hit').textContent='';
   $('player-art').classList.remove('hit');$('enemy-art').classList.remove('hit');
-  if(reaction.open)reaction.close();battle=profile?new ChallengeBattle(key,config,profile,{distance:trial.active&&trial.index===1?2:1}):new Battle(key,config);if(trial.active)trial.begin();lastLog=0;lastHit=0;
+  if(reaction.open)reaction.close();battle=profile?new ChallengeBattle(key,config,profile,{distance:trial.active&&trial.index===1?2:1,difficulty:trial.active?trial.difficulty:practiceDifficulty}):new Battle(key,config);if(trial.active)trial.begin();lastLog=0;lastHit=0;
   $('battle-log').replaceChildren();$('player-art').src=`assets/${key}.png`;$('player-art').alt=CLASSES[key].name;
   const enemy=battle.enemy.key;$('enemy-art').src=`assets/${enemy}.png`;$('enemy-art').alt=CLASSES[enemy].name;
   $('player-art').style.transform=key==='sword'?'scaleX(-1)':'';$('enemy-art').style.transform=enemy==='fire'?'scaleX(-1)':'';
@@ -120,7 +120,7 @@ function configureAutomation({enabled=automation.enabled,tendency=automation.ten
   else if(enabled&&old.tendency!==tendency)battle.log(`自动打法改为「${TENDENCIES[tendency].name}」：${TENDENCIES[tendency].description}`,'decision');
   render();scheduleCombat();return {ok:true};
 }
-function readState(){return {...battle.snapshot(),automation:{...automation},logCount:battle.logs.length,preparing:loadout.isOpen(),trial:trial.snapshot(),opponentId:battle.opponentId??null};}
+function readState(){return {...battle.snapshot(),automation:{...automation},logCount:battle.logs.length,preparing:loadout.isOpen(),trial:trial.snapshot(),opponentId:battle.opponentId??null,difficulty:battle.difficulty??'practice'};}
 function perform(id){
   if(loadout.isOpen()||trialDialog.open||historyDialog.open)return {ok:false,error:'请先完成配装或关闭论道记录'};
   if(automation.enabled)return {ok:false,error:'请先暂停自动斗法，再手动出招'};
@@ -154,18 +154,19 @@ function renderTrial(){
  const fighting=trial.active&&trial.status==='fighting';document.querySelectorAll('[data-class],#edit-loadout').forEach(el=>el.disabled=fighting);
  $('restart-button').textContent=trial.active?'重开本场':'重新论道';$('history-button').textContent=`论道记录${trial.history.length?` · ${trial.history.length}`:''}`;
  $('trial-progress').hidden=!trial.active;
- if(trial.active){const route=ROUTES[trial.route];$('trial-progress').innerHTML=`<div class="trial-heading"><h2>${route.name}</h2><span>${trial.status==='complete'?`已完成 · ${trial.snapshot().wins} 胜`:'第 '+(trial.index+1)+' / 3 场'} · 场间可换装</span></div><ol>${route.opponents.map((id,i)=>{const record=trial.history.find(r=>r.id===trial.stages[i]);return `<li class="${i===trial.index?'current':''}"><span>${i+1}</span><b>${OPPONENTS[id].name}</b><small>${record?resultLabel(record.result):i===trial.index?'当前场次':OPPONENTS[id].title}</small></li>`;}).join('')}</ol>`;}
- $('opponent-brief').hidden=!battle.opponentId;if(battle.opponentId)$('opponent-brief').innerHTML=opponentHtml(battle.opponentId);
+ if(trial.active){const route=ROUTES[trial.route];$('trial-progress').innerHTML=`<div class="trial-heading"><h2>${route.name} · ${DIFFICULTIES[trial.difficulty].name}</h2><span>${trial.status==='complete'?`已完成 · ${trial.snapshot().wins} 胜`:'第 '+(trial.index+1)+' / 3 场'} · 场间可换装</span></div><ol>${route.opponents.map((id,i)=>{const record=trial.history.find(r=>r.id===trial.stages[i]);return `<li class="${i===trial.index?'current':''}"><span>${i+1}</span><b>${OPPONENTS[id].name}</b><small>${record?resultLabel(record.result):i===trial.index?'当前场次':OPPONENTS[id].title}</small></li>`;}).join('')}</ol>`;}
+ $('opponent-brief').hidden=!battle.opponentId;if(battle.opponentId)$('opponent-brief').innerHTML=`<span class="small-label">${DIFFICULTIES[battle.difficulty].name}</span>`+opponentHtml(battle.opponentId);
 }
 function renderLobby(){
+ $('trial-difficulties').innerHTML=Object.entries(DIFFICULTIES).map(([id,d])=>`<button data-difficulty="${id}" aria-pressed="${selectedDifficulty===id}" class="${selectedDifficulty===id?'selected':''}"><b>${d.name}</b><span>${d.description}</span></button>`).join('');
  $('trial-routes').innerHTML=Object.entries(ROUTES).map(([id,r])=>`<button data-route="${id}" aria-pressed="${selectedRoute===id}" class="${selectedRoute===id?'selected':''}"><b>${r.name}</b><span>${r.description}</span></button>`).join('');
  $('trial-preview').innerHTML=`<ol class="trial-lineup">${ROUTES[selectedRoute].opponents.map((id,i)=>`<li><span class="small-label">第 ${i+1} 场 · ${i===1?'远距':'中距'}开局</span><div class="opponent-brief">${opponentHtml(id)}</div></li>`).join('')}</ol>`;
  $('start-trial').textContent=trial.active?'准备新一轮 · 第一场':'准备第一场';
  $('opponent-catalog').innerHTML=Object.values(OPPONENTS).map(p=>`<button data-practice="${p.id}"><b>${p.name}</b><span>${p.title}</span><small>${p.style}</small></button>`).join('');
 }
 function openLobby(){pauseCombat();renderLobby();trialDialog.showModal();}
-function reviewHtml(record){const r=record.review,[p,e]=r.actors,q=a=>a.charges;return `<div class="review-heading"><h3>${record.opponent} · ${resultLabel(record.result)}</h3><p>${r.rounds} 回合 · ${MAJORS[p.key][p.major].name}对${MAJORS[e.key][e.major].name}</p><p>你的配置：${skillNames(record.player.key,record.player.skillIds)}</p></div><table class="review-table"><thead><tr><th>打法回顾</th><th>你</th><th>${record.opponent}</th></tr></thead><tbody>${[
- ['剩余气血',`${p.hp} / ${p.maxHp}`,`${e.hp} / ${e.maxHp}`],['招式气血伤害 / 盾伤',`${p.hpDamage} / ${p.shieldDamage}`,`${e.hpDamage} / ${e.shieldDamage}`],['恢复 / 溢出',`${p.healing} / ${p.overheal}`,`${e.healing} / ${e.overheal}`],['剑意消费',p.intentSpent,e.intentSpent],['移动行动 / 闲置行动',`${p.movement} / ${p.unusedAP}`,`${e.movement} / ${e.unusedAP}`],['蓄势开始 / 释放',`${q(p).started} / ${q(p).released}`,`${q(e).started} / ${q(e).released}`],['打断 / 距离落空',`${q(p).interrupted} / ${q(p).rangeMiss}`,`${q(e).interrupted} / ${q(e).rangeMiss}`],['取消 / 未释放',`${q(p).canceled} / ${q(p).pending}`,`${q(e).canceled} / ${q(e).pending}`],['蓄势气血伤害 / 盾伤',`${q(p).hpDamage} / ${q(p).shieldDamage}`,`${q(e).hpDamage} / ${q(e).shieldDamage}`]
+function reviewHtml(record){const r=record.review,[p,e]=r.actors,q=a=>a.charges;return `<div class="review-heading"><h3>${record.opponent} · ${DIFFICULTIES[record.difficulty??'practice'].name} · ${resultLabel(record.result)}</h3><p>${r.rounds} 回合 · ${MAJORS[p.key][p.major].name}对${MAJORS[e.key][e.major].name}</p><p>你的配置：${skillNames(record.player.key,record.player.skillIds)}</p></div><table class="review-table"><thead><tr><th>打法回顾</th><th>你</th><th>${record.opponent}</th></tr></thead><tbody>${[
+ ['剩余气血',`${p.hp} / ${p.maxHp}`,`${e.hp} / ${e.maxHp}`],['招式气血伤害 / 盾伤',`${p.hpDamage} / ${p.shieldDamage}`,`${e.hpDamage} / ${e.shieldDamage}`],['恢复 / 溢出',`${p.healing} / ${p.overheal}`,`${e.healing} / ${e.overheal}`],['剑意消费',p.intentSpent,e.intentSpent],['移动行动 / 闲置行动',`${p.movement} / ${p.unusedAP}`,`${e.movement} / ${e.unusedAP}`],['跳招次数',Object.values(p.skipped??{}).reduce((a,n)=>a+n,0),Object.values(e.skipped??{}).reduce((a,n)=>a+n,0)],['蓄势开始 / 释放',`${q(p).started} / ${q(p).released}`,`${q(e).started} / ${q(e).released}`],['打断 / 距离落空',`${q(p).interrupted} / ${q(p).rangeMiss}`,`${q(e).interrupted} / ${q(e).rangeMiss}`],['取消 / 未释放',`${q(p).canceled} / ${q(p).pending}`,`${q(e).canceled} / ${q(e).pending}`],['蓄势气血伤害 / 盾伤',`${q(p).hpDamage} / ${q(p).shieldDamage}`,`${q(e).hpDamage} / ${q(e).shieldDamage}`]
  ].map(([k,a,b])=>`<tr><th>${k}</th><td>${a}</td><td>${b}</td></tr>`).join('')}</tbody></table><p class="review-note">招式伤害已计防御与应对，灼烧另在纪要结算；溢出指恢复潜力超过缺失气血。未释放包括战斗结束时仍在蓄势。</p>`;}
 function renderHistory(id){
  const records=trial.history,current=records.find(r=>r.id===Number(id))??records.at(-1);$('history-select').innerHTML=records.map(r=>`<option value="${r.id}" ${current?.id===r.id?'selected':''}>${r.run?`第${r.run}轮 第${r.stage}场`:'单场'} · ${r.opponent} · ${resultLabel(r.result)}</option>`).join('');
@@ -176,7 +177,7 @@ function renderHistory(id){
 }
 function openHistory(wholeRound=false){pauseCombat();const current=wholeRound?trial.currentRecords[0]:trial.captured.get(battle);renderHistory(current?.id);historyDialog.showModal();}
 $('trial-button').addEventListener('click',openLobby);$('close-trial').addEventListener('click',()=>{trialDialog.close();render();scheduleCombat();});
-trialDialog.addEventListener('click',event=>{const b=event.target.closest('button');if(!b)return;if(b.dataset.route){selectedRoute=b.dataset.route;renderLobby();}if(b.id==='start-trial'){if(battle.opponentId&&!battle.result)trial.archive(battle,{abandoned:true});trial.start(selectedRoute);trialDialog.close();loadout.open();}if(b.dataset.practice){if(battle.opponentId&&!battle.result)trial.archive(battle,{abandoned:true});trial.leave();pendingOpponent=b.dataset.practice;trialDialog.close();loadout.open();}});
+trialDialog.addEventListener('click',event=>{const b=event.target.closest('button');if(!b)return;if(b.dataset.difficulty){selectedDifficulty=b.dataset.difficulty;renderLobby();}if(b.dataset.route){selectedRoute=b.dataset.route;renderLobby();}if(b.id==='start-trial'){if(battle.opponentId&&!battle.result)trial.archive(battle,{abandoned:true});trial.start(selectedRoute,selectedDifficulty);trialDialog.close();loadout.open();}if(b.dataset.practice){if(battle.opponentId&&!battle.result)trial.archive(battle,{abandoned:true});trial.leave();pendingOpponent=b.dataset.practice;trialDialog.close();loadout.open();}});
 trialDialog.addEventListener('cancel',event=>{event.preventDefault();trialDialog.close();render();scheduleCombat();});
 trialDialog.addEventListener('close',()=>{render();scheduleCombat();});
 $('history-button').addEventListener('click',()=>openHistory());$('close-history').addEventListener('click',()=>{historyDialog.close();render();scheduleCombat();});historyDialog.addEventListener('cancel',event=>{event.preventDefault();historyDialog.close();render();scheduleCombat();});

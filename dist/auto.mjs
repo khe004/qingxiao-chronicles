@@ -27,7 +27,7 @@ export function chooseReaction(b,tendency='balanced'){
   return {...best,reason:best.response==='shield'?`以${c.reaction}减轻伤害，保留当前距离。`:best.response==='evade'?'闪身减伤，并拉开距离避开后续剑招。':'保留灵气，承受此招。'};
 }
 function projectEnemyPhase(b,tendency){
-  const next=copyBattle(b);if(next.result)return next;
+  const next=copyBattle(b);if(next.result)return next;if(next.opponentId)next.forecastOnly=true;
   next.endTurn();
   for(let steps=0;steps<12&&!next.result&&next.phase!=='player';steps++){
     if(next.phase==='reaction'){const choice=chooseReaction(next,tendency);next.react(choice.response);}else if(next.phase==='enemy')next.enemyStep();else break;

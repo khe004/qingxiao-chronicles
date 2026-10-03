@@ -1,0 +1,109 @@
+{
+  "games": 192,
+  "first": "player",
+  "limit": 30,
+  "variable": "Questioning difficulty acceptance: predictive automated player vs fixed public NPC plans; player always first. Not a PvP or human win rate.",
+  "elapsedSeconds": 84.903494826,
+  "hashes": {
+    "dist/engine.mjs": "cb96cc7d365ae59858c8ad4a4f0b1070fedd20fd",
+    "dist/auto.mjs": "cc022fdd35212a3e7c259faf46078d2e8619d303",
+    "dist/opponents.mjs": "0f78b794f783e854d44f4276209e72b042d5dd5d",
+    "dist/opponent-planner.mjs": "e6188427a6c6c6c9b388e869170c3761ce37ca31",
+    "dist/challenge-battle.mjs": "2e3b7fbcebff8e38b4e66fb3747771d239292f82"
+  },
+  "opponents": [
+    {
+      "id": "quick",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 4.875,
+      "movement": 66,
+      "unusedAP": 155,
+      "charges": 0,
+      "healing": 344,
+      "intentSpent": 147,
+      "actions": {
+        "swift": 60,
+        "strike": 101,
+        "purify": 43,
+        "near": 66,
+        "expose": 76,
+        "guard": 30,
+        "cut": 6,
+        "basic": 12,
+        "meditate": 9
+      }
+    },
+    {
+      "id": "heavy",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 6.020833333333333,
+      "movement": 41,
+      "unusedAP": 208,
+      "charges": 0,
+      "healing": 568,
+      "intentSpent": 106,
+      "actions": {
+        "expose": 108,
+        "strike": 80,
+        "guard": 120,
+        "purify": 77,
+        "basic": 42,
+        "near": 41,
+        "meditate": 7,
+        "swift": 40
+      }
+    },
+    {
+      "id": "ignite",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 4.020833333333333,
+      "movement": 8,
+      "unusedAP": 77,
+      "charges": 0,
+      "healing": 112,
+      "intentSpent": 0,
+      "actions": {
+        "seed": 62,
+        "spark": 153,
+        "ember": 57,
+        "purify": 14,
+        "blaze": 49,
+        "near": 8,
+        "basic": 15
+      }
+    },
+    {
+      "id": "sustain",
+      "n": 48,
+      "playerWins": 48,
+      "opponentWins": 0,
+      "draws": 0,
+      "meanRounds": 4.5,
+      "movement": 7,
+      "unusedAP": 115,
+      "charges": 0,
+      "healing": 915,
+      "intentSpent": 0,
+      "actions": {
+        "seed": 69,
+        "spark": 188,
+        "basic": 19,
+        "heal": 34,
+        "near": 7,
+        "blaze": 51,
+        "nourish": 9,
+        "vine": 2,
+        "purify": 10
+      }
+    }
+  ]
+}
