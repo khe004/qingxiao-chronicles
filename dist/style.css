@@ -41,3 +41,5 @@
 .class-switch{flex-wrap:wrap}.class-choice{min-width:195px}.loadout-classes{flex-wrap:wrap}
 @media(max-width:950px){.selection{align-items:flex-start}.class-switch{justify-content:flex-end}.class-choice{min-width:180px}}
 @media(max-width:680px){.class-switch{display:grid;grid-template-columns:1fr;width:100%}.class-choice{min-width:0;justify-content:flex-start}.class-choice small{display:inline;margin-left:10px}.loadout-classes button{flex:1;min-width:0;padding:9px 6px;font-size:14px}}
+
+.water-text{color:var(--water)}.status-chip.chill,.status-chip.tide{color:#b0d9ed;border-color:#69adc266;background:#22495466}

@@ -3,11 +3,11 @@ import {Battle,CLASSES,COMMON,total} from './dist/engine.mjs';
 import {chooseAction,TENDENCIES,describeAutoChoice} from './dist/auto.mjs';
 
 function charged(key,{ap=3,distance=1}={}){
-  const b=new Battle(key);b.distance=distance;b.player.ap=ap;
-  b.player.qi={metal:0,wood:0,water:0,fire:0,earth:0,any:1,...(key==='fire'?{fire:4,wood:2}:{metal:4,water:2})};
-  b.player.intent=2;assert.ok(b.act(b.player,key==='fire'?'inferno':'unity').ok);return b;
+  const b=new Battle(key,key==='flame'?{major:'smolder'}:{});b.distance=distance;b.player.ap=ap;
+  b.player.qi={metal:0,wood:0,water:0,fire:0,earth:0,any:1,...(key!=='sword'?{fire:4,wood:2}:{metal:4,water:2})};
+  b.player.intent=2;assert.ok(b.act(b.player,key==='fire'?'inferno':key==='flame'?'solar':'unity').ok);return b;
 }
-for(const key of Object.keys(CLASSES)){
+for(const key of Object.keys(CLASSES).filter(key=>CLASSES[key].skills.some(s=>s.kind==='charge'))){
   const b=charged(key),power=b.player.charge.storedPower;
   assert.equal(b.player.ap,1);assert.equal(total(b.player.qi),3);
   for(const s of [...b.skills(b.player),...COMMON])if(!['move','meditate','guard'].includes(s.kind)){
@@ -34,8 +34,8 @@ assert.equal(hp-guard.enemy.hp,Math.round(lockedPower*100/(100+CLASSES.fire.phys
 const cancelled=charged('fire');assert.ok(cancelled.act(cancelled.player,'meditate').ok);const qi=JSON.stringify(cancelled.player.qi);assert.ok(cancelled.cancelCharge().ok);assert.equal(JSON.stringify(cancelled.player.qi),qi);assert.equal(cancelled.player.ap,0,'Cancel does not refund any action or fee');
 
 for(const key of ['fire','sword']){
-  const b=new Battle(key==='fire'?'sword':'fire');b.round=3;b.enemy.qi={metal:0,wood:0,water:0,fire:0,earth:0,any:1,...(key==='fire'?{fire:4,wood:2}:{metal:4,water:2})};b.planEnemy();
-  const plan=[...b.enemyPlan],chargeId=key==='fire'?'inferno':'unity';assert.equal(plan[0],chargeId);assert.equal(plan.length,2);assert.ok(['guard','far','meditate'].includes(plan[1]));
+  const b=new Battle(key==='fire'?'sword':'fire');b.round=3;b.enemy.qi={metal:0,wood:0,water:0,fire:0,earth:0,any:1,...(key!=='sword'?{fire:4,wood:2}:{metal:4,water:2})};b.planEnemy();
+  const plan=[...b.enemyPlan],chargeId=key==='fire'?'inferno':key==='flame'?'solar':'unity';assert.equal(plan[0],chargeId);assert.equal(plan.length,2);assert.ok(['guard','far','meditate'].includes(plan[1]));
   b.endTurn();b.enemyStep();assert.ok(b.enemy.charge);assert.equal(b.enemy.ap,1);b.enemyStep();assert.equal(b.enemy.ap,0);assert.ok(b.enemy.charge);assert.deepEqual(b.enemyPlan,plan,'Enemy must execute its announced utility after charging');
 }
 console.log('Charge utility costs/limits, attack locks, range failure, fixed power, cancellation, all AI preferences and enemy announced actions passed.');

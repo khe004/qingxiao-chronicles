@@ -1,0 +1,421 @@
+{
+  "schema": 1,
+  "sourceHashes": {
+    "dist/engine.mjs": "792014fb90d60dac99e694b5ffcf6c99ccfca4e1b57187274194d3c1b2a2693f",
+    "dist/auto.mjs": "e6cd986ba3dc42deac7025742aad0460d76b0a38b4169c6f94614c687934eeec",
+    "dist/challenge-battle.mjs": "912c5629ef971545756698dad52e5fc14691536b9163e35c4deeaf33524b93bb",
+    "dist/opponents.mjs": "e56709497864a01d25803c137a89ffd4b37ba33bc393892087eecc428011e01f",
+    "dist/opponent-planner.mjs": "7fe987f568aa458a58dc3acb78b30e321285897226a0f08d01d00133d559dc09",
+    "dist/opponent-resources.mjs": "f2e83dfdfcd51ac3e5c4bf3d144636e8809ce6ffaf75e838f9a8ba43e54c0636",
+    "scripts/planner-internals.mjs": "1a49eb75921f6d9e37999ef53db5f8df363fbc22cf5f5a7c50a83074ac4270b2",
+    "scripts/predictive-arena.mjs": "6c8b5df606efdfbded8d66538950b27f99742eefa22ace0d0fa7a444a803fcd9",
+    "scripts/check-water.mjs": "1ed0e8f71369974c54bc4d76d684e8568a3c4c4dd0bb3da7e71b81f9d91fae3d",
+    "test-water.mjs": "611fdeb1ecdb4caaecfae2d51a229666a28d5b4a32164fd4c481c2b9cc18c138",
+    "scripts/forecast-audit.mjs": "1765714e3a876741a52ae7871d45621a7ac29607ad5d26e6147cc34494a84303"
+  },
+  "method": {
+    "npc": "112 recommended water games (2 majors × 7 opponents × 2 difficulties × 4 tendencies), 32 cleanse-equipped custom games and 24 old-major vs water NPC games. Middle range, player first, 30-round limit.",
+    "arena": "90 immediate symmetric games (72 versus six old majors, 18 water pairings) across three ranges and both initiatives; 24 middle-range cross-school confirmations with the script controller. Identical controller and balanced reactions at both seats.",
+    "limits": "Deterministic coverage only; no human or arbitrary-loadout balance claim. Full public-plan prediction can exploit fixed NPC scripts. Time-limit unresolved games are separate from wins/losses."
+  },
+  "totals": {
+    "npc": {
+      "games": 168,
+      "wins": 160,
+      "losses": 0,
+      "unresolved": 8
+    },
+    "arena": {
+      "games": 114,
+      "wins": 10,
+      "losses": 104,
+      "unresolved": 0
+    }
+  },
+  "npc": {
+    "recommended/cold/practice": {
+      "games": 28,
+      "wins": 26,
+      "losses": 0,
+      "unresolved": 2
+    },
+    "recommended/cold/questioning": {
+      "games": 28,
+      "wins": 26,
+      "losses": 0,
+      "unresolved": 2
+    },
+    "recommended/tidal/practice": {
+      "games": 28,
+      "wins": 27,
+      "losses": 0,
+      "unresolved": 1
+    },
+    "recommended/tidal/questioning": {
+      "games": 28,
+      "wins": 27,
+      "losses": 0,
+      "unresolved": 1
+    },
+    "custom-cleanse/cold/practice": {
+      "games": 8,
+      "wins": 8,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "custom-cleanse/cold/questioning": {
+      "games": 8,
+      "wins": 8,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "custom-cleanse/tidal/practice": {
+      "games": 8,
+      "wins": 7,
+      "losses": 0,
+      "unresolved": 1
+    },
+    "custom-cleanse/tidal/questioning": {
+      "games": 8,
+      "wins": 7,
+      "losses": 0,
+      "unresolved": 1
+    },
+    "old-vs-water/ignite/practice": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/ignite/questioning": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/sustain/practice": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/sustain/questioning": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/quick/practice": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/quick/questioning": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/heavy/practice": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/heavy/questioning": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/fierce/practice": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/fierce/questioning": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/smolder/practice": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "old-vs-water/smolder/questioning": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    }
+  },
+  "arena": {
+    "immediate/cold/fire/ignite": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/cold/fire/sustain": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/cold/sword/quick": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/cold/sword/heavy": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/cold/flame/fierce": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/cold/flame/smolder": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/tidal/fire/ignite": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/tidal/fire/sustain": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/tidal/sword/quick": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/tidal/sword/heavy": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/tidal/flame/fierce": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/tidal/flame/smolder": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "immediate/cold/water/cold": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0
+    },
+    "immediate/tidal/water/tidal": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0
+    },
+    "immediate/cold/water/tidal": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/cold/fire/ignite": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/cold/fire/sustain": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/cold/sword/quick": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/cold/sword/heavy": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/cold/flame/fierce": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/cold/flame/smolder": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/tidal/fire/ignite": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/tidal/fire/sustain": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/tidal/sword/quick": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/tidal/sword/heavy": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/tidal/flame/fierce": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "script/tidal/flame/smolder": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    }
+  },
+  "initiative": {
+    "immediate/cold/first": {
+      "games": 18,
+      "wins": 0,
+      "losses": 18,
+      "unresolved": 0
+    },
+    "immediate/cold/second": {
+      "games": 18,
+      "wins": 0,
+      "losses": 18,
+      "unresolved": 0
+    },
+    "immediate/tidal/first": {
+      "games": 18,
+      "wins": 0,
+      "losses": 18,
+      "unresolved": 0
+    },
+    "immediate/tidal/second": {
+      "games": 18,
+      "wins": 0,
+      "losses": 18,
+      "unresolved": 0
+    },
+    "script/cold/first": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "script/cold/second": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "script/tidal/first": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    },
+    "script/tidal/second": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0
+    }
+  },
+  "waterActions": {
+    "cold": {
+      "frost": 476,
+      "waterwall": 665,
+      "gather": 234,
+      "basic": 116,
+      "waterbolt": 619,
+      "surge": 102,
+      "dispel": 1,
+      "repulse": 32,
+      "far": 173,
+      "purify": 190,
+      "near": 34,
+      "rinse": 100
+    },
+    "tidal": {
+      "frost": 228,
+      "waterwall": 859,
+      "gather": 348,
+      "basic": 198,
+      "surge": 221,
+      "waterbolt": 584,
+      "far": 146,
+      "near": 29,
+      "purify": 157,
+      "meditate": 1,
+      "rinse": 152
+    }
+  },
+  "npcWaterOpponentActions": {
+    "cold": {
+      "frost": 200,
+      "waterbolt": 321,
+      "waterwall": 7,
+      "purify": 5,
+      "repulse": 2,
+      "gather": 1
+    },
+    "tidal": {
+      "gather": 35,
+      "waterbolt": 650,
+      "waterwall": 32,
+      "surge": 13,
+      "frost": 87,
+      "far": 1,
+      "basic": 24,
+      "ebb": 4,
+      "purify": 7
+    }
+  }
+}
