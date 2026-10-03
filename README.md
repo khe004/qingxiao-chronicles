@@ -272,3 +272,18 @@ node test-prepared-ai.mjs
 node scripts/check-prepared-ai.mjs --replay
 node qa-prepared-ai.cjs
 ```
+
+## v0.11 应对完善与木土论道
+
+对手按实际伤害选择保命、等待重招或预留公开出招费用，低耗直攻也可被应对。新增林栖萝（共生）、苏缠枝（寄生）、岳沉璧（壁垒）、陆镇川（镇岳）四位单场对手，两档难度均可选。
+
+「三场论道」新增木线寻木破阵、土线镇岳问生，赛前和场间可更换职业、主修与六槽神通；每场资源重置，完整纪要保留。回顾增加生长／寄生收获与地势消费，镇岳提示明确近中距与退远反制。
+
+28 个回归和 8 个浏览器检查通过，详细行为数据及限制见 [木土论道与应对完善](docs/木土论道与应对完善.md)。仍是单人对 AI，公开预告对完整预判自动玩家偏易。
+
+```sh
+node test-npc-reactions.mjs
+node test-prepared-opponents.mjs
+node test-prepared-trial.mjs
+node qa-prepared-trial.cjs
+```

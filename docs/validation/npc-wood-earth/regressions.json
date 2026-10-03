@@ -1,0 +1,142 @@
+[
+  {
+    "test": "test-auto.mjs",
+    "passed": true,
+    "seconds": 9.5
+  },
+  {
+    "test": "test-balance-harness.mjs",
+    "passed": true,
+    "seconds": 1.15
+  },
+  {
+    "test": "test-challenge.mjs",
+    "passed": true,
+    "seconds": 15.11
+  },
+  {
+    "test": "test-charge-resource.mjs",
+    "passed": true,
+    "seconds": 0.81
+  },
+  {
+    "test": "test-charge-window.mjs",
+    "passed": true,
+    "seconds": 0.06
+  },
+  {
+    "test": "test-depth-variants.mjs",
+    "passed": true,
+    "seconds": 11.62
+  },
+  {
+    "test": "test-duel.mjs",
+    "passed": true,
+    "seconds": 0.69
+  },
+  {
+    "test": "test-engine.mjs",
+    "passed": true,
+    "seconds": 0.17
+  },
+  {
+    "test": "test-flame.mjs",
+    "passed": true,
+    "seconds": 7.55
+  },
+  {
+    "test": "test-forecast.mjs",
+    "passed": true,
+    "seconds": 0.05
+  },
+  {
+    "test": "test-heal.mjs",
+    "passed": true,
+    "seconds": 2.53
+  },
+  {
+    "test": "test-loadout.mjs",
+    "passed": true,
+    "seconds": 26.08
+  },
+  {
+    "test": "test-npc-reactions.mjs",
+    "passed": true,
+    "seconds": 0.25
+  },
+  {
+    "test": "test-planner-diagnostics.mjs",
+    "passed": true,
+    "seconds": 10.76
+  },
+  {
+    "test": "test-predictive-arena.mjs",
+    "passed": true,
+    "seconds": 32.83
+  },
+  {
+    "test": "test-prepared-ai.mjs",
+    "passed": true,
+    "seconds": 12.59
+  },
+  {
+    "test": "test-prepared-opponents.mjs",
+    "passed": true,
+    "seconds": 7.58
+  },
+  {
+    "test": "test-prepared-trial.mjs",
+    "passed": true,
+    "seconds": 1.06
+  },
+  {
+    "test": "test-questioning.mjs",
+    "passed": true,
+    "seconds": 4.56
+  },
+  {
+    "test": "test-range.mjs",
+    "passed": true,
+    "seconds": 4.67
+  },
+  {
+    "test": "test-sequence-monitor.mjs",
+    "passed": true,
+    "seconds": 8.49
+  },
+  {
+    "test": "test-sequence-numbers.mjs",
+    "passed": true,
+    "seconds": 0.2
+  },
+  {
+    "test": "test-sequence.mjs",
+    "passed": true,
+    "seconds": 4.56
+  },
+  {
+    "test": "test-shield-score.mjs",
+    "passed": true,
+    "seconds": 4.49
+  },
+  {
+    "test": "test-sustain.mjs",
+    "passed": true,
+    "seconds": 1.8
+  },
+  {
+    "test": "test-trial.mjs",
+    "passed": true,
+    "seconds": 0.04
+  },
+  {
+    "test": "test-water.mjs",
+    "passed": true,
+    "seconds": 4.23
+  },
+  {
+    "test": "test-wood-earth.mjs",
+    "passed": true,
+    "seconds": 0.09
+  }
+]

@@ -1,0 +1,1 @@
+Prepared AI: real mature harvests, selective cleanse/breaking, far counter, released/protected mountain, no capped-heal waste or shield-refill credit, 48 immutable/bounded legal probes, 96 old-school legal probes (54 choices changed by the updated opponent reaction model) and offline seat symmetry passed; max probe 141 ms.

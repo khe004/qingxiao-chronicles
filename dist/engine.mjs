@@ -174,10 +174,41 @@ export class Battle {
     else {const raw=this.raw(actor,s);spendPrepared(this,actor,s);this.spendTide(actor,s);if(actor.major==='cold'&&s.id==='waterbolt'&&target.chilled&&!actor.coldTriggered){actor.coldTriggered=true;this.clearChill(target,'寒凝增伤消费');this.log(`寒凝控距 · ${actor.name}消费凝滞，为玄水矢增加 12 基础伤害；本回合不再触发。`,'resource');}if(actor.key==='flame'&&s.kind==='attack'&&s.element==='fire'){actor.fireCasts++;if(actor.major==='fierce'&&actor.fireCasts===2)this.log(`烈焰强攻 · ${actor.name}第二次付费火法增加 10 基础伤害。`,'resource');}this.attack(actor,s,raw);}
     paidPreparedCast(this,actor,s);return {ok:true};
   }
+  planBudget(qi=this.enemy.qi){
+    const {logs,stats,attack,...state}=this;
+    const c=Object.assign(Object.create(Battle.prototype),structuredClone(state),{logs:[]});
+    c.phase='enemy';c.pending=null;c.result=null;c.enemy.qi={...qi};c.player.hp=c.player.maxHp=1000000;
+    c.attack=function(a,s,raw){this.resolveAttack(a,s,raw);};
+    if(this.phase==='player')startPreparedPhase(c,c.enemy);
+    if(c.enemy.charge)c.release(c.enemy);
+    const failures=[];
+    for(const id of this.enemyQueue??this.enemyPlan??[]){const error=c.legal(c.enemy,id);if(error){if(error==='所需灵气不足')failures.push(id);continue;}c.act(c.enemy,id);}
+    return {failures,qi:{...c.enemy.qi}};
+  }
+  reactionDecision(s,raw,{threshold=15,reserveHeavy=true}={}){
+    const a=this.enemy,p=this.player,k=CLASSES[a.key].reactionElement;
+    const damageOf=(s,raw)=>Math.round((raw+burnBonus(s,a))*100/(100+CLASSES[a.key][(p.key==='sword'&&s.id!=='expose')||s.id==='basic'?'physical':'magical']));
+    const damage=damageOf(s,raw),net=Math.max(0,damage-a.shield),shieldNet=Math.max(0,damage-Math.min(60,a.shield+26)),evadeNet=Math.max(0,Math.round(damage*.5)-a.shield);
+    if(!a.reaction||!net)return {response:'none'};
+    const shield=a.qi[k]>=1&&shieldNet<net,evade=payment(a.qi,{any:2})&&evadeNet<net;
+    if(!shield&&!evade)return {response:'none'};
+    if(net>=a.hp){if(shield&&shieldNet<a.hp)return {response:'shield'};if(evade&&evadeNet<a.hp)return {response:'evade'};if(shield||evade)return {response:evade&&(!shield||evadeNet<shieldNet)?'evade':'shield'};}
+    if(net<threshold)return {response:'none'};
+    // Only remaining legal, equipped attacks are public threats. Do not infer a
+    // private next action or reserve against a charge which cannot release now.
+    const next=reserveHeavy?Math.max(0,...this.skills(p).filter(x=>x.kind==='attack'&&!this.legal(p,x.id)).map(x=>damageOf(x,this.raw(p,x)))):0;
+    if(net<a.hp*.3&&next>damage*1.8)return {response:'none',reason:'小招伤害可承受，保留本阶段应对给仍可施展的重招。'};
+    const response=shield?'shield':evade&&net>=Math.max(30,a.hp*.4)?'evade':'none';
+    if(response==='none')return {response};
+    const cost=response==='shield'?{[k]:1}:{any:2};
+    if(net<a.hp*.45){const before=this.planBudget().failures,after=this.planBudget(payment(a.qi,cost)).failures,counts=new Map();for(const id of before)counts.set(id,(counts.get(id)||0)+1);const blocked=after.filter(id=>{const n=counts.get(id)||0;if(n){counts.set(id,n-1);return false;}return true;});if(blocked.length)return {response:'none',reason:`应对会令预告中的「${blocked.map(id=>this.skill(a,id).name).join('、')}」缺气，承受此击保留出招资源。`};}
+    return {response};
+  }
   attack(actor,s,raw){
     if(actor===this.enemy&&this.player.reaction){this.pending={s,raw};this.phase='reaction';return;}
-    if(actor===this.player&&this.enemy.reaction&&raw>=35){const e=this.enemy,k=CLASSES[e.key].reactionElement;if(e.qi[k]>=1){e.qi[k]--;e.reaction=false;e.shield=Math.min(60,e.shield+26);this.log(`${e.name}以「${CLASSES[e.key].reaction}」应对，获得 26 护盾。`,'reaction');}}
-    this.resolveAttack(actor,s,raw);
+    let response='none';
+    if(actor===this.player&&this.enemy.reaction){const e=this.enemy,k=CLASSES[e.key].reactionElement,decision=this.reactionDecision(s,raw);response=decision.response;if(decision.reason)this.log(`${e.name}留气：${decision.reason}`,'decision');if(response==='shield'){e.qi[k]--;e.reaction=false;e.shield=Math.min(60,e.shield+26);this.log(`${e.name}以「${CLASSES[e.key].reaction}」应对，获得 26 护盾。`,'reaction');}else if(response==='evade'){e.qi=payment(e.qi,{any:2});e.reaction=false;this.moveActor(e,1);this.log(`${e.name}避让减伤，距离拉开一档。`,'reaction');}}
+    this.resolveAttack(actor,s,raw,response==='evade'?.5:1);
   }
   resolveAttack(actor,s,raw,reduction=1){
     const target=this.other(actor);const type=(actor.key==='sword'&&s.id!=='expose')||s.id==='basic'?'physical':'magical';
