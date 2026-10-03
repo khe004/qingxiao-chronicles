@@ -8,7 +8,7 @@ const input={player:builds[0],enemy:builds[0]},config=normalizeDuel(input);
 config.player.skillIds.pop();assert.equal(input.player.skillIds.length,6);assert.equal(config.enemy.skillIds.length,6);
 assert.throws(()=>normalizeDuel({player:{...builds[0],gender:'unknown'},enemy:builds[1]}));
 assert.throws(()=>normalizeDuel({player:builds[0],enemy:{...builds[1],skillIds:['basic']}}));
-assert.throws(()=>new Battle('fire',{}, {key:'wood'}));
+assert.throws(()=>new Battle('fire',{}, {key:'unknown'}));
 assert.equal(new Battle('fire').enemy.key,'sword');assert.equal(new Battle('sword').enemy.key,'fire');
 for(const key of Object.keys(CLASSES))for(const gender of ['male','female']){
   const path='dist/'+portraitPath(key,gender);assert.ok(existsSync(path));assert.equal(readFileSync(path).subarray(8,12).toString(),'WEBP');
@@ -27,4 +27,4 @@ for(const p of builds)for(const e of builds){
   }
   duels++;
 }
-console.log(`Custom duel: ${duels} class/major pairs with custom six-skill loadouts, same-class matches, immutable inputs/planning, eight portrait assets and resource invariants passed.`);
+console.log(`Custom duel: ${duels} class/major pairs with custom six-skill loadouts, same-class matches, immutable inputs/planning, twelve portrait assets and resource invariants passed.`);

@@ -2,6 +2,7 @@
 // Both actors use the same public auto controller; initiative is independent of actor identity.
 import assert from 'node:assert/strict';
 import {Battle,CLASSES,MAJORS,normalizeLoadout,total} from '../dist/engine.mjs';
+import {startPreparedPhase,finishPreparedPhase} from '../dist/prepared.mjs';
 import {chooseAction,chooseReaction} from '../dist/auto.mjs';
 const contexts=new WeakMap();
 function metric(){return {actions:{},spentAP:0,unusedAP:0,chargeUnusedAP:0,hpDamage:0,shieldDamage:0,charges:{},reactions:{}};}
@@ -47,12 +48,12 @@ export function createArena(a,b,{first=0,distance=1,prefs=['balanced','balanced'
 }
 export function startRound(arena,round){
   const b=arena.battle;b.round=round;
-  if(round>1)for(const a of arena.context.actors){a.ap=3;a.reaction=true;a.meditated=false;a.woodTriggered=false;a.igniteTriggered=false;a.quickTriggered=false;a.usedSkills=[];b.gain(a,CLASSES[a.key].gen);}
+  if(round>1)for(const a of arena.context.actors)b.resetActor(a);
 }
 export function playPhase(arena,seat,{forceFirst,banCharge=false}={}){
   const b=arena.battle,c=arena.context,a=c.actors[seat],other=c.actors[1-seat],m=c.metrics[seat];
   b.player=a;b.enemy=other;b.phase='player';b.result=null;b.pending=null;
-  b.tickBurn(a);if(a.hp<=0)return;if(a.charge)b.release(a);if(other.hp<=0)return;
+  startPreparedPhase(b,a);b.tickBurn(a);if(a.hp<=0)return;if(a.charge)b.release(a);if(other.hp<=0)return;
   for(let n=0;n<8&&a.hp>0&&other.hp>0;n++){
     b.planEnemy();
     let choice;
@@ -62,7 +63,7 @@ export function playPhase(arena,seat,{forceFirst,banCharge=false}={}){
       choice=chooseAction(copy,c.prefs[seat]);
     }else choice=chooseAction(b,c.prefs[seat]);
     assert.ok(choice);
-    if(choice.action==='end'){m.unusedAP+=a.ap;if(a.charge){m.chargeUnusedAP+=a.ap;chargeMetric(m,a.charge.id).unusedAP+=a.ap;}b.expireEdge(a);break;}
+    if(choice.action==='end'){m.unusedAP+=a.ap;if(a.charge){m.chargeUnusedAP+=a.ap;chargeMetric(m,a.charge.id).unusedAP+=a.ap;}b.expireEdge(a);b.clearChill(a,'行动结束');finishPreparedPhase(b,a);break;}
     const s=b.skill(a,choice.skillId);assert.ok(s);const cost=s.ap,charged=s.kind==='charge';
     assert.equal(b.legal(a,s.id),null);assert.ok(b.act(a,s.id).ok);
     m.actions[s.id]=(m.actions[s.id]||0)+1;m.spentAP+=cost;if(charged)chargeMetric(m,s.id).started++;

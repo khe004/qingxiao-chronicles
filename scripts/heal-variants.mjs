@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {readFileSync,writeFileSync,mkdirSync,mkdtempSync,rmSync} from 'node:fs';
+import {readFileSync,writeFileSync,copyFileSync,mkdirSync,mkdtempSync,rmSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
@@ -12,7 +12,7 @@ export async function healVariants(){
     for(const c of CANDIDATES){
       const engine=source.replace(/export const HEAL_RECOVERY = \d+;/,`export const HEAL_RECOVERY = ${c.heal};`).replace(/export const HEAL_CLEAR_BURN = \d+;/,`export const HEAL_CLEAR_BURN = ${c.clear};`),dir=join(root,c.id);
       const strip=s=>s.replace(/HEAL_RECOVERY = \d+;/,'HEAL_RECOVERY = X;').replace(/HEAL_CLEAR_BURN = \d+;/,'HEAL_CLEAR_BURN = X;');assert.equal(strip(engine),strip(source));
-      mkdirSync(join(dir,'dist'),{recursive:true});mkdirSync(join(dir,'scripts'));writeFileSync(join(dir,'dist/engine.mjs'),engine);writeFileSync(join(dir,'dist/auto.mjs'),auto);writeFileSync(join(dir,'scripts/balance-arena.mjs'),arena);
+      mkdirSync(join(dir,'dist'),{recursive:true});mkdirSync(join(dir,'scripts'));writeFileSync(join(dir,'dist/engine.mjs'),engine);if(engine.includes("'./prepared.mjs'"))copyFileSync('dist/prepared.mjs',join(dir,'dist/prepared.mjs'));writeFileSync(join(dir,'dist/auto.mjs'),auto);writeFileSync(join(dir,'scripts/balance-arena.mjs'),arena);
       list.push({...c,engineHash:blobHash(engine),autoHash:blobHash(auto),engine:await import(pathToFileURL(join(dir,'dist/engine.mjs'))),arena:await import(pathToFileURL(join(dir,'scripts/balance-arena.mjs')))});
     }
     return {list,cleanup:()=>rmSync(root,{recursive:true,force:true})};

@@ -1,0 +1,336 @@
+{
+  "schema": 1,
+  "sourceHashes": {
+    "dist/engine.mjs": "50cb39803540e6363726a253a1213fa365a74cd90ccab28bd9237403a622678e",
+    "dist/prepared.mjs": "78b219ef546e817f2d0b5178cddce453cca77f76a95f12e8bc3b703a8639c6e5",
+    "dist/auto.mjs": "0365d983f6240db50228973154cbc3418d008c4c0ccdd95b1e3c86e8207327f2",
+    "scripts/predictive-arena.mjs": "e54d13f8d7c0d7eacbe66aa4f156beb73686e8d13e12466c40fc675fb2ef68c7",
+    "scripts/planner-internals.mjs": "1a49eb75921f6d9e37999ef53db5f8df363fbc22cf5f5a7c50a83074ac4270b2",
+    "scripts/check-wood-earth.mjs": "0c62cf9ffd0b5fc61b72e1d7b0566148398aaadf8e2fd0dbfc8ac419c58a6322"
+  },
+  "method": "96 deterministic symmetric immediate-controller games, balanced reactions at both seats, recommended six skills, 30-round limit. 64 new-versus-old cases at middle distance with both initiatives; 24 wood-versus-earth cases across three ranges and both initiatives; 8 middle-distance mirrors. Counts concern seat 0 and are not human win rates. Unresolved limit cases are not wins or draws.",
+  "totals": {
+    "games": 96,
+    "wins": 38,
+    "losses": 58,
+    "unresolved": 0
+  },
+  "groups": {
+    "old-schools": {
+      "games": 64,
+      "wins": 10,
+      "losses": 54,
+      "unresolved": 0
+    },
+    "wood-earth": {
+      "games": 24,
+      "wins": 24,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "mirror": {
+      "games": 8,
+      "wins": 4,
+      "losses": 4,
+      "unresolved": 0
+    }
+  },
+  "byMatch": {
+    "wood/symbiosis vs fire/ignite": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs fire/sustain": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs sword/quick": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs sword/heavy": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs flame/fierce": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs flame/smolder": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs water/cold": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs water/tidal": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/parasitic vs fire/ignite": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/parasitic vs fire/sustain": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/parasitic vs sword/quick": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/parasitic vs sword/heavy": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/parasitic vs flame/fierce": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/parasitic vs flame/smolder": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "wood/parasitic vs water/cold": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "wood/parasitic vs water/tidal": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "earth/bastion vs fire/ignite": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/bastion vs fire/sustain": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/bastion vs sword/quick": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/bastion vs sword/heavy": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/bastion vs flame/fierce": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/bastion vs flame/smolder": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/bastion vs water/cold": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "earth/bastion vs water/tidal": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "earth/mountain vs fire/ignite": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/mountain vs fire/sustain": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/mountain vs sword/quick": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/mountain vs sword/heavy": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/mountain vs flame/fierce": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/mountain vs flame/smolder": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "earth/mountain vs water/cold": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "earth/mountain vs water/tidal": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs earth/bastion": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs earth/mountain": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/parasitic vs earth/bastion": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/parasitic vs earth/mountain": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs wood/symbiosis": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "wood/parasitic vs wood/parasitic": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "earth/bastion vs earth/bastion": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    },
+    "earth/mountain vs earth/mountain": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0
+    }
+  },
+  "initiative": {
+    "old-schools/0": {
+      "games": 32,
+      "wins": 2,
+      "losses": 30,
+      "unresolved": 0
+    },
+    "old-schools/1": {
+      "games": 32,
+      "wins": 8,
+      "losses": 24,
+      "unresolved": 0
+    },
+    "wood-earth/0": {
+      "games": 12,
+      "wins": 12,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood-earth/1": {
+      "games": 12,
+      "wins": 12,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "mirror/0": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0
+    },
+    "mirror/1": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0
+    }
+  },
+  "actions": {
+    "wood/symbiosis": {
+      "wooddart": 465
+    },
+    "wood/parasitic": {
+      "wooddart": 465
+    },
+    "earth/bastion": {
+      "stonebolt": 360,
+      "foundation": 21,
+      "landbreak": 39
+    },
+    "earth/mountain": {
+      "stonebolt": 342,
+      "foundation": 39,
+      "landbreak": 39
+    }
+  }
+}
