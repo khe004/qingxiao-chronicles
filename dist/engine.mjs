@@ -24,7 +24,7 @@ export const CLASSES = {
     {id:'return',name:'回澜剑',symbol:'澜',element:'metal',ap:1,cost:{metal:1,water:1},kind:'attack',power:24,finisher:true,intentLimit:2,desc:'消耗至多 2 剑意，每层增加 8 基础伤害；保留剩余剑意，利用破绽增伤 25%。',tag:'小重剑',range:[0,1]},
     {id:'unity',name:'万剑归一',symbol:'极',element:'metal',ap:2,cost:{metal:3,any:1},kind:'charge',power:86,finisher:true,desc:'消耗剑意蓄势，每层增加 8 基础伤害。下次行动阶段释放。',tag:'蓄势',range:[1,2]},
   ]},
-  flame: {name:'离火法修',nameShort:'纯火',art:'fire',person:'祝燃灯',sect:'离火宫',title:'烈焰逐隙 · 焚灼有度',hp:210,physical:22,magical:30,gen:{fire:4,any:1},passive:'离火心诀',passiveText:'以火灵气施法与护体；灼烧最多 5 层，每层每次结算造成 4 伤害，绕过护盾，刷新后持续 3 次结算。',reaction:'御火诀',reactionElement:'fire',skills:[
+  flame: {name:'离火法修',nameShort:'纯火',art:'flame',person:'祝燃灯',sect:'离火宫',title:'烈焰逐隙 · 焚灼有度',hp:210,physical:22,magical:30,gen:{fire:4,any:1},passive:'离火心诀',passiveText:'以火灵气施法与护体；灼烧最多 5 层，每层每次结算造成 4 伤害，绕过护盾，刷新后持续 3 次结算。',reaction:'御火诀',reactionElement:'fire',skills:[
     {id:'flare',name:'炎矢诀',symbol:'矢',element:'fire',ap:1,cost:{fire:1},kind:'attack',power:26,desc:'造成术法伤害。低耗全距施压，可参与烈焰连续施法。',tag:'直攻',range:[0,1,2]},
     {id:'kindle',name:'附焰术',symbol:'灼',element:'fire',ap:1,cost:{fire:1},kind:'attack',power:18,burn:2,desc:'造成术法伤害，附加 2 层灼烧，刷新为 3 次结算。',tag:'叠烧',range:[0,1,2]},
     {id:'eruption',name:'烈火冲',symbol:'烈',element:'fire',ap:1,cost:{fire:2,any:1},kind:'attack',power:48,desc:'造成术法伤害。强火力限近中距，消耗较多火气。',tag:'强攻',range:[0,1]},
