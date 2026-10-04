@@ -1,0 +1,118 @@
+[
+  {
+    "name": "engine",
+    "exit": 0
+  },
+  {
+    "name": "auto",
+    "exit": 0
+  },
+  {
+    "name": "loadout",
+    "exit": 0
+  },
+  {
+    "name": "charge-window",
+    "exit": 0
+  },
+  {
+    "name": "sustain",
+    "exit": 0
+  },
+  {
+    "name": "heal",
+    "exit": 0
+  },
+  {
+    "name": "range",
+    "exit": 0
+  },
+  {
+    "name": "forecast",
+    "exit": 0
+  },
+  {
+    "name": "flame",
+    "exit": 0
+  },
+  {
+    "name": "water",
+    "exit": 0
+  },
+  {
+    "name": "wood-earth",
+    "exit": 0
+  },
+  {
+    "name": "duel",
+    "exit": 0
+  },
+  {
+    "name": "challenge",
+    "exit": 0
+  },
+  {
+    "name": "trial",
+    "exit": 0
+  },
+  {
+    "name": "questioning",
+    "exit": 0
+  },
+  {
+    "name": "charge-resource",
+    "exit": 0
+  },
+  {
+    "name": "npc-reactions",
+    "exit": 0
+  },
+  {
+    "name": "prepared-opponents",
+    "exit": 0
+  },
+  {
+    "name": "prepared-ai",
+    "exit": 0
+  },
+  {
+    "name": "recap-save",
+    "exit": 0
+  },
+  {
+    "name": "prepared-trial",
+    "exit": 0
+  },
+  {
+    "name": "elements",
+    "exit": 0
+  },
+  {
+    "name": "predictive-arena",
+    "exit": 0
+  },
+  {
+    "name": "active-ai",
+    "exit": 0
+  },
+  {
+    "name": "tactics",
+    "exit": 0
+  },
+  {
+    "name": "symbiosis",
+    "exit": 0
+  },
+  {
+    "name": "cultivation-reuse",
+    "exit": 0
+  },
+  {
+    "name": "symbiosis-data",
+    "exit": 0
+  },
+  {
+    "name": "twelve-school-six-stratified-replays",
+    "exit": 0
+  }
+]

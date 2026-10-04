@@ -29,7 +29,7 @@ export const TACTICAL_SKILLS={
  wood:[
   skill('thornscreen','荆棘护幕','棘','wood','guard',1,{wood:1,any:1},{shield:12,intent:0,consumeGrowth:1,reflect:10,reflectPrepPower:6,reflectHits:2,once:true,tag:'生长反伤',desc:'获得12护盾；消费至多1生长强化两次反击，每次10基础木伤加每生长6，至下次自身阶段。'}),
   skill('leafmend','噬藤回生','生','wood','heal',1,{wood:2},{heal:16,clearBurn:0,minParasite:1,consumeParasite:1,parasiteHeal:8,once:true,tag:'寄生恢复',desc:'消费目标1寄生，恢复24气血；不清自身异常，放弃这层后续侵蚀，每回合一次。'}),
-  skill('graft','接枝催荣','枝','wood','cultivate',1,{wood:2},{instantGrowth:2,once:true,tag:'即时积累',desc:'立即积累2生长，上限3；不额外产生待成熟，支付2木气与1行动，每回合一次。培植与接枝共用每回合一次培育，收获后也不重置。'}),
+  skill('graft','接枝催荣','枝','wood','cultivate',1,{wood:2},{instantGrowth:2,once:true,tag:'即时积累',desc:'立即积累2生长，上限3；不额外产生待成熟，支付2木气与1行动，每回合一次。'}),
   skill('twinvine','双藤绞杀','绞','wood','attack',2,{wood:3,any:1},{power:32,minGrowth:1,minParasite:1,consumeGrowth:1,consumeParasite:2,growthPower:12,parasitePower:12,tag:'双储备配合',desc:'需要自身生长和目标寄生；消费1生长、至多2寄生，每层各增12，基础32，2行动，全距。'}),
  ],
  earth:[
@@ -39,9 +39,7 @@ export const TACTICAL_SKILLS={
   skill('gravel','叠岩诀','叠','earth','attack',1,{earth:1},{power:16,gainTerrain:1,once:true,tag:'直攻积势',desc:'造成16基础土伤，积累1地势，上限3；每回合一次，不免移动损阵。'}),
  ],
 };
-export const CULTIVATION_IDS=['cultivate','graft'];
 export function tacticalLegal(b,a,s){const e=b.other(a);
- if(CULTIVATION_IDS.includes(s.id)&&a.usedSkills.some(id=>CULTIVATION_IDS.includes(id)))return '培植与接枝共用每回合一次培育，收获后也不重置';
  if(s.minSeed&&e.seed<s.minSeed)return `目标需要至少${s.minSeed}灵种`;
  if(s.minChill&&!e.chilled)return '目标需要凝滞';
  if(s.kind==='intent'&&a.intent>=5)return '剑意已经充盈';
@@ -73,7 +71,7 @@ export const TACTICAL_LOADOUTS={
    "seed",
    "spark",
    "blaze",
-   "heal",
+   "rootdrink",
    "nourish",
    "sproutguard"
   ]
@@ -163,7 +161,7 @@ export const TACTICAL_LOADOUTS={
    "stonebolt",
    "foundation",
    "mountain",
-   "landbreak",
+   "faultline",
    "earthmend",
    "gravel"
   ]

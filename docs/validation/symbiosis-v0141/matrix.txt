@@ -1,0 +1,2 @@
+936 complete records; two controllers; three distances; both initiative orders; separate draws/mirrors; exact live/frozen hashes; six stratified deterministic full replays passed.
+468 diagnostic records and frozen hashes validated. Four v0.14 seat reversal probes matched winner, HP, actions, reactions and unused AP.

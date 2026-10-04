@@ -103,7 +103,7 @@ const gather=skillOf('water','gather');gather.desc=`${setupText(gather)}凝聚2�
 const surge=skillOf('water','surge');surge.desc=`至少1潮势；消耗至多2层，每层增加${surge.tidePower}基础伤害，与防护／回潮共用储备。`;
 const ww=skillOf('water','waterwall');ww.desc=`获得${ww.shield}护盾，有潮势时消费1层再增加${ww.tideShield}；总盾上限60。`;
 const rinse=skillOf('water','rinse');rinse.desc=`恢复${rinse.heal}气血，清除自身灼烧，每回合一次；不清凝滞或寄生。`;
-const cultivate=skillOf('wood','cultivate');cultivate.desc=`${setupText(cultivate)}生长+1，上限3，每回合一次；下次自身阶段再+1，共生再+2。收尽或全破除会取消成熟。培植与接枝共用每回合一次培育，收获后也不重置。`;
+const cultivate=skillOf('wood','cultivate');cultivate.desc=`${setupText(cultivate)}生长+1，上限3，每回合一次；下次自身阶段再+1，共生再+2。收尽或全破除会取消成熟。`;
 const bs=skillOf('wood','bloomstrike');bs.desc=`消费全部生长，每层增加${bs.growthPower}基础伤害，基础${bs.power}；不同时回血或补盾；满3生长可远距，未满限近中距。`;
 const bg=skillOf('wood','bloomguard');bg.desc=`消费全部生长，每层增加${bg.growthShield}护盾，基础${bg.shield}；总盾上限60，不返培育费用。`;
 const bh=skillOf('wood','bloomheal');bh.desc=`消费全部生长，每层增加${bh.growthHeal}恢复，基础${bh.heal}，清至多${bh.clearBurn}层灼烧；每回合一次，不清凝滞或寄生。`;

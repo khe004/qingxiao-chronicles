@@ -1,6 +1,6 @@
 // Combat balance parameters; frozen alongside every benchmark.
 export const RULES = {
-  "label": "v0.14.1-cultivation",
+  "label": "v0.14-tactics",
   "elements": true,
   "advantage": 1.08,
   "disadvantage": 0.92,
