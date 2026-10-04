@@ -1,7 +1,7 @@
 // Test-only arena: production skill, payment, damage, status and reaction rules are reused.
 // Both actors use the same public auto controller; initiative is independent of actor identity.
 import assert from 'node:assert/strict';
-import {Battle,CLASSES,MAJORS,normalizeLoadout,total} from '../dist/engine.mjs';
+import {Battle,CLASSES,MAJORS,normalizeLoadout,total,RULES} from '../dist/engine.mjs';
 import {startPreparedPhase,finishPreparedPhase} from '../dist/prepared.mjs';
 import {chooseAction,chooseReaction} from '../dist/auto.mjs';
 const contexts=new WeakMap();
@@ -23,9 +23,9 @@ class ArenaBattle extends Battle {
       this.result=defender.hp<=0?'win':actor.hp<=0?'lose':null;if(this.result)this.phase='over';
     }else this.resolveAttack(actor,skill,raw);
   }
-  resolveAttack(actor,skill,raw,reduction=1){
+  resolveAttack(actor,skill,raw,reduction=1,blockForce=false){
     const target=this.other(actor),beforeHp=target.hp,beforeShield=target.shield,charge=target.charge,c=contexts.get(this),m=c.metrics[c.actors.indexOf(actor)];
-    super.resolveAttack(actor,skill,raw,reduction);
+    super.resolveAttack(actor,skill,raw,reduction,blockForce);
     const hp=beforeHp-target.hp,shield=beforeShield-target.shield;m.hpDamage+=hp;m.shieldDamage+=shield;
     if(skill.kind==='charge'){const cm=chargeMetric(m,skill.id);cm.hpDamage+=hp;cm.shieldDamage+=shield;}
     if(charge&&!target.charge&&skill.interrupt)chargeMetric(c.metrics[c.actors.indexOf(target)],charge.id).interrupted++;
@@ -41,7 +41,7 @@ export function createArena(a,b,{first=0,distance=1,prefs=['balanced','balanced'
   const initial=new Battle(a.key,normalizeLoadout(a.key,a.config));
   const second=new Battle(b.key,normalizeLoadout(b.key,b.config)).player;
   Object.setPrototypeOf(initial,ArenaBattle.prototype);initial.enemy=second;
-  initial.player.name='甲';initial.enemy.name='乙';initial.distance=distance;initial.logs=[];initial.serial=0;
+  initial.player.name='甲';initial.enemy.name='乙';initial.distance=distance;initial.logs=[];initial.serial=0;initial.player.shield=0;initial.enemy.shield=0;(first===0?initial.enemy:initial.player).shield=RULES.secondShield;
   const c={actors:[initial.player,initial.enemy],prefs,metrics:[metric(),metric()],first,trace:trace?[]:null};contexts.set(initial,c);
   if(disableMajor!==undefined)c.actors[disableMajor].major='test-disabled';
   return {battle:initial,context:c};

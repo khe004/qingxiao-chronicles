@@ -1,0 +1,1 @@
+sequence variants: finite boundary, immutable search, legal choices, baseline parity, budgets and comparable final scores passed

@@ -1,0 +1,52 @@
+[
+  {
+    "test": "qa-challenge.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-duel.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-flame.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-hit.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-prepared-ai.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-prepared-trial.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-save-recap.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-water.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-wood-earth.cjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "qa-elements.cjs",
+    "exit": 0,
+    "tail": ""
+  }
+]

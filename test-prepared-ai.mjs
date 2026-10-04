@@ -37,7 +37,7 @@ assert.ok(harvest.some(id=>['bloomheal','bloomguard','bloomstrike'].includes(id)
 // A lethal public harvest warrants breaking; an attached parasite can be cleansed
 // before its equipped reap. Neither operation is treated as universal cleanse.
 const breakGrowth=new DuelBattle('earth',{}, {key:'wood',major:'symbiosis'});breakGrowth.player.ap=1;breakGrowth.player.hp=30;breakGrowth.player.reaction=false;breakGrowth.enemy.growth=2;queue(breakGrowth,['bloomstrike','wooddart']);
-assert.equal(choose(breakGrowth).choice.skillId,'sever-growth');breakGrowth.act(breakGrowth.player,'sever-growth');advance(breakGrowth);assert.ok(breakGrowth.player.hp>0);
+assert.equal(choose(breakGrowth).choice.skillId,'quakesunder');breakGrowth.act(breakGrowth.player,'quakesunder');assert.equal(breakGrowth.enemy.growth,0);advance(breakGrowth);assert.ok(breakGrowth.player.hp>0);
 const cleanse=new DuelBattle('earth',{}, {key:'wood',major:'parasitic'});cleanse.player.ap=1;cleanse.player.hp=20;cleanse.player.reaction=false;cleanse.player.parasite=3;cleanse.player.parasiteTurns=2;cleanse.player.shield=20;cleanse.player.terrain=3;queue(cleanse,['reap','wooddart']);
 assert.equal(choose(cleanse).choice.skillId,'unparasite');cleanse.act(cleanse.player,'unparasite');advance(cleanse);assert.ok(cleanse.player.hp>0);assert.ok(cleanse.logs.some(l=>l.text.includes('目标需要寄生')));
 
@@ -51,13 +51,14 @@ const mountain=new DuelBattle('earth',{major:'mountain'},{key:'earth'});mountain
 assert.ok(phase(mountain,'burst').includes('mountain'));advance(mountain,'burst');assert.ok(mountain.logs.some(l=>l.text.includes('释放「镇岳印」')));assert.equal(mountain.player.charge,null);
 const protectedCharge=new DuelBattle('earth',{major:'mountain',skillIds:['stonebolt','foundation','mountain','anchor','rampart','earthenwall']},{key:'water',major:'cold'});
 protectedCharge.player.terrain=3;protectedCharge.player.qi.earth=8;protectedCharge.player.qi.any=2;queue(protectedCharge,['frost','repulse','waterbolt']);
-const protection=choose(protectedCharge,'burst');assert.ok(protection.stats.plans.some(p=>p.path.includes('anchor')&&p.path.includes('mountain')));assert.ok(protection.stats.plans.some(p=>p.path.includes('near')&&p.path.includes('mountain')));
-assert.ok(phase(protectedCharge,'burst').includes('mountain'));assert.equal(protectedCharge.distance,0);advance(protectedCharge,'burst');assert.ok(protectedCharge.logs.some(l=>l.text.includes('释放「镇岳印」')));
+const protection=choose(protectedCharge,'burst');assert.ok(protection.stats.plans.every(p=>!p.path.includes('anchor')),'Anchor uses a reaction slot rather than an active AP');
+protectedCharge.player.charge={...protectedCharge.skill(protectedCharge.player,'mountain'),storedPower:106};protectedCharge.player.chilled=true;protectedCharge.phase='reaction';protectedCharge.pending={s:protectedCharge.skill(protectedCharge.enemy,'repulse'),raw:18};
+assert.equal(planner.chooseReaction(protectedCharge).response,'anchor');assert.ok(protectedCharge.react('anchor').ok);assert.equal(protectedCharge.distance,1);assert.equal(protectedCharge.player.terrain,2);assert.ok(protectedCharge.player.charge);
 
 // A capped heal that cannot remove burn is not a useful growth harvest. Net
 // shield scoring also gives no reward when the foe restores the same shield.
 const full=new DuelBattle('wood',{major:'symbiosis'},{key:'earth'});full.player.growth=3;full.player.burn=2;full.player.burnTurns=2;
-assert.ok(!planner.options(full,'defensive').some(s=>s.id==='bloomheal'));
+assert.ok(planner.options(full,'defensive').some(s=>s.id==='bloomheal'),'Burn-clearing harvest is useful even at full HP');full.player.burn=0;assert.ok(!planner.options(full,'defensive').some(s=>s.id==='bloomheal'));
 const s=new DuelBattle('wood',{}, {key:'earth'}),f=new DuelBattle('wood',{}, {key:'earth'});s.enemy.shield=40;f.enemy.shield=40;
 assert.equal(planner.preparedScore(s,f,'balanced',[],f),planner.planScore(s,f,'balanced',[],f));f.enemy.shield=20;
 assert.ok(Math.abs(planner.preparedScore(s,f,'balanced',[],f)-planner.planScore(s,f,'balanced',[],f)-20*planner.TENDENCIES.balanced.shield)<1e-9);

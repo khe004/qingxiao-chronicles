@@ -7,7 +7,7 @@ import {loadForecastModel} from './scripts/forecast-audit.mjs';
 import {createPredictiveArena,actWorld,endPhase,advancePhase} from './scripts/predictive-arena.mjs';
 
 const make=(major='cold',skillIds=MAJORS.water[major].recommended)=>{
- const b=new Battle('water',{major,skillIds});b.enemy.reaction=false;return b;
+ const b=new Battle('water',{major,skillIds});b.enemy.reaction=false;b.enemy.shield=0;return b;
 };
 const act=(b,id,a=b.player)=>assert.ok(b.act(a,id).ok,id);
 const reject=(b,id,a=b.player)=>{const before=JSON.stringify(b);assert.equal(b.act(a,id).ok,false,id);assert.equal(JSON.stringify(b),before,'Rejected action is immutable');};
@@ -39,14 +39,14 @@ const evade=make();evade.player.chilled=true;evade.phase='reaction';evade.pendin
 // spends a reaction; the attack preview and resolved power agree.
 const cold=make();act(cold,'frost');const s=cold.skill(cold.player,'waterbolt'),hp=cold.enemy.hp,preview=cold.preview(s);
 act(cold,'waterbolt');assert.equal(hp-cold.enemy.hp,preview);assert.equal(cold.enemy.chilled,false);assert.ok(cold.player.coldTriggered);reject(cold,'repulse');
-cold.enemy.chilled=true;assert.equal(cold.raw(cold.player,s),26);act(cold,'waterbolt');assert.ok(cold.enemy.chilled,'No second cold bonus this round');
+cold.enemy.chilled=true;assert.equal(cold.raw(cold.player,s),28);act(cold,'waterbolt');assert.ok(cold.enemy.chilled,'No second cold bonus this round');
 
 // Finite tide is actually spent and cannot be duplicated across outlets.
-for(const major of ['cold','tidal']){const b=make(major);const qi=total(b.player.qi);act(b,'gather');assert.equal(b.player.tide,major==='cold'?2:3);assert.equal(total(b.player.qi),qi-1);reject(b,'gather');const expected=b.preview(b.skill(b.player,'surge')),hp=b.enemy.hp;act(b,'surge');assert.equal(hp-b.enemy.hp,expected);assert.equal(b.player.tide,major==='cold'?0:1);act(b,'waterwall');assert.equal(b.player.shield,major==='cold'?18:30);assert.equal(b.player.tide,0);}
+for(const major of ['cold','tidal']){const b=make(major,['waterbolt','frost','repulse','gather','surge','waterwall']);const qi=total(b.player.qi);act(b,'gather');assert.equal(b.player.tide,major==='cold'?2:3);assert.equal(total(b.player.qi),qi-1);reject(b,'gather');const expected=b.preview(b.skill(b.player,'surge')),hp=b.enemy.hp;act(b,'surge');assert.equal(hp-b.enemy.hp,expected);assert.equal(b.player.tide,major==='cold'?0:1);act(b,'waterwall');assert.equal(b.player.shield,major==='cold'?30:42);assert.equal(b.player.tide,0);}
 const ebb=make('tidal');act(ebb,'gather');const qi=total(ebb.player.qi);act(ebb,'ebb');assert.equal(total(ebb.player.qi),qi+2);assert.equal(ebb.player.tide,1);reject(ebb,'ebb');act(ebb,'waterwall');assert.equal(ebb.player.tide,0);
 const cap=make('tidal');cap.player.tide=3;cap.player.qi.water=9;cap.player.qi.any=0;act(cap,'ebb');assert.equal(total(cap.player.qi),10);assert.equal(cap.player.tide,1);assert.ok(cap.logs.some(l=>l.text.includes('溢出 1')));
 const empty=make('tidal');reject(empty,'surge');reject(empty,'ebb');act(empty,'waterbolt');assert.ok(empty.enemy.hp<empty.enemy.maxHp,'No-setup attacks remain useful');
-const rinse=make('cold',['waterbolt','frost','repulse','gather','rinse','ebb']);rinse.player.hp=100;rinse.player.burn=5;rinse.player.burnTurns=3;rinse.player.chilled=true;act(rinse,'rinse');assert.equal(rinse.player.hp,112);assert.equal(rinse.player.burn,0);assert.ok(rinse.player.chilled);reject(rinse,'rinse');act(rinse,'dispel');assert.equal(rinse.player.chilled,false);
+const rinse=make('cold',['waterbolt','frost','repulse','gather','rinse','ebb']);rinse.player.hp=100;rinse.player.burn=5;rinse.player.burnTurns=3;rinse.player.chilled=true;act(rinse,'rinse');assert.equal(rinse.player.hp,118);assert.equal(rinse.player.burn,0);assert.ok(rinse.player.chilled);reject(rinse,'rinse');act(rinse,'dispel');assert.equal(rinse.player.chilled,false);
 const meditate=make();act(meditate,'meditate');assert.equal(meditate.player.qi.water,5);assert.equal(meditate.player.qi.any,2);assert.equal(meditate.player.qi.fire,0);
 
 // Public plans stay frozen when the player clears the setup or moves. Rules
@@ -55,7 +55,7 @@ for(const response of ['near','dispel']){const b=new ChallengeBattle('sword',{},
 const metrics=new ChallengeBattle('water',{major:'tidal'},'quick');act(metrics,'gather');act(metrics,'surge');act(metrics,'waterwall');assert.equal(metrics.review().actors[0].tideSpent,3);
 
 // Both actual seats use the same phase expiration and round reset boundaries.
-for(const first of [0,1]){const w=createPredictiveArena({key:'water',config:{major:'cold'}},{key:'water',config:{major:'tidal'}},{first,controllers:['immediate','immediate']});actWorld(w,'frost');assert.ok(w.actors[1-first].chilled);endPhase(w);advancePhase(w);assert.ok(w.actors[1-first].chilled);endPhase(w);assert.equal(w.actors[1-first].chilled,false);advancePhase(w);assert.equal(w.actors[0].coldTriggered,false);assert.equal(w.actors[1].tide,0);}
+for(const first of [0,1]){const w=createPredictiveArena({key:'water',config:{major:'cold'}},{key:'water',config:{major:'tidal',skillIds:['waterbolt','frost','repulse','gather','waterwall','rinse']}},{first,controllers:['immediate','immediate']});w.actors[1-first].reaction=false;actWorld(w,'frost');assert.ok(w.actors[1-first].chilled);endPhase(w);advancePhase(w);assert.ok(w.actors[1-first].chilled);endPhase(w);assert.equal(w.actors[1-first].chilled,false);advancePhase(w);assert.equal(w.actors[0].coldTriggered,false);assert.equal(w.actors[1].tide,0);}
 
 // Forecasts include tide spending, condensation expiration, reactions, caps
 // and the statistics from the exact same next-player phase boundary.

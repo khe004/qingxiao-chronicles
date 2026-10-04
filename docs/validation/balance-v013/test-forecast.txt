@@ -1,0 +1,1 @@
+Public forecast: fixed range skips/costs, evade movement, burn timing, stored charge power, free release, missed range, lethal stops and read-only state passed.

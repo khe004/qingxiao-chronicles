@@ -1,0 +1,1 @@
+Duel browser: all class/gender choices, same-school asymmetric builds, custom six-slot validation, cancel/escape isolation, paused enemy timers, reset persistence, automatic result, trial exit/history and 1440/390/320 layouts passed.

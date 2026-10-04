@@ -55,13 +55,13 @@ for(const controller of ['legacy','immediate','script'])for(const first of [0,1]
 
 // Both own-turn search clones and future clones retain symmetric defender reactions.
 const shield=createPredictiveArena(fire,sword,{controllers:['immediate','immediate'],prefs:['balanced','defensive']});
-const shadow=cloneWorld(shield);assert.ok(actWorld(shadow,'spark').ok);
+shield.actors[1].shield=0;const shadow=cloneWorld(shield);assert.ok(actWorld(shadow,'spark').ok);
 assert.equal(shadow.actors[1].reaction,false);assert.equal(shadow.actors[1].qi.metal,2);
 assert.equal(shield.actors[1].reaction,true);assert.equal(shield.actors[1].qi.metal,3);
 
 // Burn death stops before a charge can release; next own release is included free.
 const lethal=createPredictiveArena(fire,sword,{controllers:['immediate','immediate']});
-lethal.actors[1].hp=4;lethal.actors[1].burn=1;lethal.actors[1].burnTurns=1;
+lethal.actors[1].hp=1;lethal.actors[1].burn=1;lethal.actors[1].burnTurns=1;
 lethal.actors[1].charge={...lethal.battle.skill(lethal.actors[1],'unity'),storedPower:100};
 const stopped=forecastWorld(lethal);assert.equal(stopped.future.result,'win');assert.equal(stopped.world.battle.round,1);
 assert.equal(stopped.world.actors[0].hp,210);assert.ok(stopped.world.actors[1].charge);

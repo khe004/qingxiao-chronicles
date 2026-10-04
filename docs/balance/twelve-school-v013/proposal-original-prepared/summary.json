@@ -1,0 +1,1296 @@
+{
+  "sourceCommit": "f9246ecddfdf1adb4a08623ffc4bd6d708ba5f19",
+  "builds": [
+    {
+      "id": "fire/ignite",
+      "name": "引燃爆发",
+      "key": "fire",
+      "config": {
+        "major": "ignite",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "vine",
+          "inferno"
+        ]
+      }
+    },
+    {
+      "id": "fire/sustain",
+      "name": "生息消耗",
+      "key": "fire",
+      "config": {
+        "major": "sustain",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "nourish",
+          "vine"
+        ]
+      }
+    },
+    {
+      "id": "sword/quick",
+      "name": "快剑压制",
+      "key": "sword",
+      "config": {
+        "major": "quick",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "guard",
+          "cut",
+          "unity"
+        ]
+      }
+    },
+    {
+      "id": "sword/heavy",
+      "name": "藏锋重剑",
+      "key": "sword",
+      "config": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "guard",
+          "return",
+          "unity"
+        ]
+      }
+    },
+    {
+      "id": "flame/fierce",
+      "name": "烈焰强攻",
+      "key": "flame",
+      "config": {
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ]
+      }
+    },
+    {
+      "id": "flame/smolder",
+      "name": "焚灼消耗",
+      "key": "flame",
+      "config": {
+        "major": "smolder",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "cinder",
+          "combust",
+          "firewall",
+          "solar"
+        ]
+      }
+    },
+    {
+      "id": "water/cold",
+      "name": "寒凝控距",
+      "key": "water",
+      "config": {
+        "major": "cold",
+        "skillIds": [
+          "waterbolt",
+          "frost",
+          "repulse",
+          "gather",
+          "surge",
+          "waterwall"
+        ]
+      }
+    },
+    {
+      "id": "water/tidal",
+      "name": "潮汐调息",
+      "key": "water",
+      "config": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "frost",
+          "gather",
+          "surge",
+          "waterwall",
+          "ebb"
+        ]
+      }
+    },
+    {
+      "id": "wood/symbiosis",
+      "name": "灵植共生",
+      "key": "wood",
+      "config": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ]
+      }
+    },
+    {
+      "id": "wood/parasitic",
+      "name": "毒藤寄生",
+      "key": "wood",
+      "config": {
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomguard",
+          "parasite",
+          "reap",
+          "prune"
+        ]
+      }
+    },
+    {
+      "id": "earth/bastion",
+      "name": "壁垒守御",
+      "key": "earth",
+      "config": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "anchor",
+          "earthenwall"
+        ]
+      }
+    },
+    {
+      "id": "earth/mountain",
+      "name": "镇岳压制",
+      "key": "earth",
+      "config": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "mountain",
+          "quakesunder"
+        ]
+      }
+    }
+  ],
+  "limits": {
+    "rounds": 30,
+    "distances": [
+      0,
+      1,
+      2
+    ],
+    "tendency": "balanced",
+    "loadout": "recommended six skills",
+    "gamesPerPairPerController": 6,
+    "controllers": [
+      "prepared"
+    ],
+    "mirrorDiagonal": "not included in cross matrix; mirror first/second wins reported separately",
+    "preparedBoundary": "fixed public script; actual rival chooses again",
+    "deterministic": true
+  },
+  "controllers": {
+    "prepared": {
+      "games": 468,
+      "crossGames": 396,
+      "mirrorGames": 72,
+      "draws": 0,
+      "matrix": [
+        [
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          }
+        ],
+        [
+          {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "draws": 0
+          },
+          {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "draws": 0
+          },
+          {
+            "games": 0,
+            "wins": 0,
+            "losses": 0,
+            "draws": 0
+          }
+        ]
+      ],
+      "mirrors": [
+        {
+          "id": "fire/ignite",
+          "games": 6,
+          "firstWins": 4,
+          "secondWins": 2,
+          "draws": 0
+        },
+        {
+          "id": "fire/sustain",
+          "games": 6,
+          "firstWins": 6,
+          "secondWins": 0,
+          "draws": 0
+        },
+        {
+          "id": "sword/quick",
+          "games": 6,
+          "firstWins": 0,
+          "secondWins": 6,
+          "draws": 0
+        },
+        {
+          "id": "sword/heavy",
+          "games": 6,
+          "firstWins": 2,
+          "secondWins": 4,
+          "draws": 0
+        },
+        {
+          "id": "flame/fierce",
+          "games": 6,
+          "firstWins": 6,
+          "secondWins": 0,
+          "draws": 0
+        },
+        {
+          "id": "flame/smolder",
+          "games": 6,
+          "firstWins": 6,
+          "secondWins": 0,
+          "draws": 0
+        },
+        {
+          "id": "water/cold",
+          "games": 6,
+          "firstWins": 6,
+          "secondWins": 0,
+          "draws": 0
+        },
+        {
+          "id": "water/tidal",
+          "games": 6,
+          "firstWins": 4,
+          "secondWins": 2,
+          "draws": 0
+        },
+        {
+          "id": "wood/symbiosis",
+          "games": 6,
+          "firstWins": 4,
+          "secondWins": 2,
+          "draws": 0
+        },
+        {
+          "id": "wood/parasitic",
+          "games": 6,
+          "firstWins": 6,
+          "secondWins": 0,
+          "draws": 0
+        },
+        {
+          "id": "earth/bastion",
+          "games": 6,
+          "firstWins": 6,
+          "secondWins": 0,
+          "draws": 0
+        },
+        {
+          "id": "earth/mountain",
+          "games": 6,
+          "firstWins": 6,
+          "secondWins": 0,
+          "draws": 0
+        }
+      ],
+      "ranking": [
+        {
+          "id": "fire/ignite",
+          "name": "引燃爆发",
+          "games": 66,
+          "wins": 50,
+          "losses": 16,
+          "draws": 0
+        },
+        {
+          "id": "flame/smolder",
+          "name": "焚灼消耗",
+          "games": 66,
+          "wins": 47,
+          "losses": 19,
+          "draws": 0
+        },
+        {
+          "id": "water/cold",
+          "name": "寒凝控距",
+          "games": 66,
+          "wins": 41,
+          "losses": 25,
+          "draws": 0
+        },
+        {
+          "id": "earth/mountain",
+          "name": "镇岳压制",
+          "games": 66,
+          "wins": 39,
+          "losses": 27,
+          "draws": 0
+        },
+        {
+          "id": "water/tidal",
+          "name": "潮汐调息",
+          "games": 66,
+          "wins": 37,
+          "losses": 29,
+          "draws": 0
+        },
+        {
+          "id": "flame/fierce",
+          "name": "烈焰强攻",
+          "games": 66,
+          "wins": 36,
+          "losses": 30,
+          "draws": 0
+        },
+        {
+          "id": "fire/sustain",
+          "name": "生息消耗",
+          "games": 66,
+          "wins": 34,
+          "losses": 32,
+          "draws": 0
+        },
+        {
+          "id": "earth/bastion",
+          "name": "壁垒守御",
+          "games": 66,
+          "wins": 33,
+          "losses": 33,
+          "draws": 0
+        },
+        {
+          "id": "sword/quick",
+          "name": "快剑压制",
+          "games": 66,
+          "wins": 24,
+          "losses": 42,
+          "draws": 0
+        },
+        {
+          "id": "wood/symbiosis",
+          "name": "灵植共生",
+          "games": 66,
+          "wins": 22,
+          "losses": 44,
+          "draws": 0
+        },
+        {
+          "id": "sword/heavy",
+          "name": "藏锋重剑",
+          "games": 66,
+          "wins": 19,
+          "losses": 47,
+          "draws": 0
+        },
+        {
+          "id": "wood/parasitic",
+          "name": "毒藤寄生",
+          "games": 66,
+          "wins": 14,
+          "losses": 52,
+          "draws": 0
+        }
+      ]
+    }
+  }
+}

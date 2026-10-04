@@ -301,3 +301,18 @@ node test-six-school.mjs
 node test-recap-save.mjs
 node qa-save-recap.cjs
 ```
+
+## v0.13 五行与十二流派平衡调整
+
+加入金克木、木克土、土克水、水克火、火克金；顺克 ×1.08、受克 ×0.92，火木防守按 70% 火／30% 木加权。伤害预览、实际伤害、应对与 AI 判断共用结算。灼烧改为每层 3 基础火伤、持续 2 次，经法防与五行减免；收窄剑意、藏锋与破绽收益，补足水木土的准备投入和反制收益。
+
+木系满 3 层的进攻收获可远距兑现；寄生初次附着和目标每阶段首次付费施法产生有限木伤。稳固改为装备后在强制位移窗口付费应对，不消耗主动行动，也不免伤。后手仅开场获得 16 护盾。双方男女立绘仍不影响战斗数值，自选六槽、论道、回顾与旧存档继续可用。
+
+完整近／中／远、交换先后手的十二流派 12×12 矩阵及逐轮数据见 [v0.13 平衡复查](docs/balance/twelve-school-v013/report.md)，游戏页底可直接打开。确定性 AI 结果不能作为真人胜率；主表与即时 AI 对照分开报告，未决和镜像单列，不宣称十二流派已完全平衡。
+
+```sh
+node test-elements.mjs
+node test-twelve-school.mjs
+node scripts/check-twelve-school.mjs /tmp/qingxiao-twelve-school
+node qa-elements.cjs
+```

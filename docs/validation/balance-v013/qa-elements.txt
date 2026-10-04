@@ -1,0 +1,1 @@
+Browser elements: opening compensation, equipped reaction label, disabled active anchor, actual displacement window/payment/damage/AP, five-element attack explanation, matrix link and mobile layout passed.

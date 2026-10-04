@@ -29,9 +29,9 @@ const assert=require('node:assert/strict'),http=require('node:http'),fs=require(
   }
   await page.locator('[data-duel-major="player"]').selectOption('cold');await page.locator('[data-duel-major="enemy"]').selectOption('tidal');
   await page.locator('[data-side="player"][data-portrait="male"]').click();await page.locator('[data-side="enemy"][data-portrait="female"]').click();
-  await page.locator('#duel-enemy [data-duel-equip="frost"]').click();assert.ok(await page.locator('#apply-duel').isDisabled());
-  await page.locator('#duel-enemy [data-duel-equip="rinse"]').click();assert.ok(await page.locator('#apply-duel').isEnabled());
-  await page.locator('#apply-duel').click();let s=await state();assert.equal(s.player.key,'water');assert.equal(s.enemy.key,'water');assert.equal(s.player.major,'cold');assert.equal(s.enemy.major,'tidal');assert.ok(s.enemy.skillIds.includes('rinse'));assert.ok(!s.enemy.skillIds.includes('frost'));assert.deepEqual(s.portraits,{player:'male',enemy:'female'});
+  await page.locator('#duel-enemy [data-duel-equip="ebb"]').click();assert.ok(await page.locator('#apply-duel').isDisabled());
+  await page.locator('#duel-enemy [data-duel-equip="frost"]').click();assert.ok(await page.locator('#apply-duel').isEnabled());
+  await page.locator('#apply-duel').click();let s=await state();assert.equal(s.player.key,'water');assert.equal(s.enemy.key,'water');assert.equal(s.player.major,'cold');assert.equal(s.enemy.major,'tidal');assert.ok(s.enemy.skillIds.includes('rinse'));assert.ok(s.enemy.skillIds.includes('frost')&& !s.enemy.skillIds.includes('ebb'));assert.deepEqual(s.portraits,{player:'male',enemy:'female'});
   assert.ok((await page.locator('#enemy-loadout').textContent()).includes('涤尘诀'));assert.ok((await page.locator('#enemy-major').textContent()).includes('潮汐'));
   assert.equal(await page.locator('#player-art').getAttribute('src'),'assets/characters/water-male.webp');assert.equal(await page.locator('#enemy-art').getAttribute('src'),'assets/characters/water-female.webp');
   await page.locator('[data-skill="frost"]').click();const before=await state();await open();await page.locator('[data-duel-class="enemy"]').selectOption('flame');await page.locator('[data-duel-major="player"]').selectOption('tidal');await page.locator('#cancel-duel').click();assert.deepEqual(await state(),before,'Cancel leaves both fighters, portraits and combat unchanged');
