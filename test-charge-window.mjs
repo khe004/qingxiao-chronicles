@@ -28,9 +28,9 @@ for(const key of ['fire','sword','flame']){
   }
 }
 const guard=charged('sword'),lockedPower=guard.player.charge.storedPower;
-assert.equal(guard.player.intent,0);assert.ok(guard.act(guard.player,'guard').ok);assert.equal(guard.player.shield,22);assert.equal(guard.player.intent,1);assert.equal(guard.player.charge.storedPower,lockedPower);
-guard.enemy.reaction=false;const hp=guard.enemy.hp;guard.release(guard.player);
-assert.equal(hp-guard.enemy.hp,Math.round(lockedPower*100/(100+CLASSES.fire.physical)));assert.equal(guard.player.intent,1,'Release must retain post-charge intent');
+assert.equal(guard.player.intent,0);assert.ok(guard.act(guard.player,'guard').ok);assert.equal(guard.player.shield,20);assert.equal(guard.player.intent,1);assert.equal(guard.player.charge.storedPower,lockedPower);
+guard.enemy.reaction=false;guard.enemy.shield=0;const hp=guard.enemy.hp;guard.release(guard.player);
+assert.equal(hp-guard.enemy.hp,Math.round(lockedPower*.968*100/(100+CLASSES.fire.physical)));assert.equal(guard.player.intent,1,'Release must retain post-charge intent');
 const cancelled=charged('fire');assert.ok(cancelled.act(cancelled.player,'meditate').ok);const qi=JSON.stringify(cancelled.player.qi);assert.ok(cancelled.cancelCharge().ok);assert.equal(JSON.stringify(cancelled.player.qi),qi);assert.equal(cancelled.player.ap,0,'Cancel does not refund any action or fee');
 
 for(const key of ['fire','sword']){

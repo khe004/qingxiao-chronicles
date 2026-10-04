@@ -1,0 +1,162 @@
+[
+  {
+    "test": "test-auto.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-balance-harness.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-challenge.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-charge-resource.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-charge-window.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-depth-variants.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-duel.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-elements.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-engine.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-flame.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-forecast.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-heal.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-loadout.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-npc-reactions.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-planner-diagnostics.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-predictive-arena.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-prepared-ai.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-prepared-opponents.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-prepared-trial.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-questioning.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-range.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-recap-save.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-sequence-monitor.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-sequence-numbers.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-sequence.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-shield-score.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-six-school.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-sustain.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-trial.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-water.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-wood-earth.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "test-twelve-school.mjs",
+    "exit": 0,
+    "tail": ""
+  }
+]

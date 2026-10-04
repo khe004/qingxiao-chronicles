@@ -12,7 +12,7 @@ export const SOURCE_FILES=['dist/engine.mjs','dist/auto.mjs','scripts/predictive
 function liveSources(){
   const sources=Object.fromEntries(SOURCE_FILES.map(p=>[p,readFileSync(p,'utf8')]));
   if(sources['dist/engine.mjs'].includes("'./prepared.mjs'"))sources['dist/prepared.mjs']=readFileSync('dist/prepared.mjs','utf8');
-  return sources;
+  if(sources['dist/engine.mjs'].includes("'./rules.mjs'"))sources['dist/rules.mjs']=readFileSync('dist/rules.mjs','utf8');return sources;
 }
 export function freezeShieldSource(path){
   if(existsSync(path))return JSON.parse(gunzipSync(readFileSync(path)));

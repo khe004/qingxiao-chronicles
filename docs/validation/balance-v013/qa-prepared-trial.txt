@@ -1,0 +1,1 @@
+{"checks":"Both wood/earth routes at both difficulties: 12 automatic stages, per-stage class/major/skill changes, fresh resources, ordered NPCs, immutable histories, resource recap, four solo NPC entries and desktop/390/320 layouts passed.","stages":12}

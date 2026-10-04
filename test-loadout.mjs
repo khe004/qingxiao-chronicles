@@ -33,7 +33,7 @@ const beforeLunge=JSON.stringify(quick);assert.equal(quick.act(quick.player,'lun
 assert.ok(quick.act(quick.player,'near').ok);quick.enemy.charge={name:'测试蓄势'};
 assert.ok(quick.act(quick.player,'lunge').ok);assert.equal(quick.player.intent,1);assert.equal(quick.enemy.charge,null);
 
-const heavy=new Battle('sword',{major:'heavy',skillIds:swordSkills});heavy.enemy.reaction=false;heavy.player.intent=5;
+const heavy=new Battle('sword',{major:'heavy',skillIds:swordSkills});heavy.enemy.reaction=false;heavy.enemy.shield=0;heavy.player.intent=5;
 assert.ok(heavy.act(heavy.player,'guard').ok);heavy.hurt(heavy.player,10,'测试攻击');assert.equal(heavy.player.edge,true);assert.equal(heavy.player.edgeExpires,2);
 const preview=heavy.preview(heavy.skill(heavy.player,'return')),enemyHp=heavy.enemy.hp;
 assert.ok(heavy.act(heavy.player,'return').ok);assert.equal(heavy.player.intent,3);assert.equal(heavy.player.edge,false);assert.equal(enemyHp-heavy.enemy.hp,preview,'Preview includes partial sword intent and guarded bonus');
@@ -42,7 +42,7 @@ const expiry=new Battle('sword',{major:'heavy'});expiry.player.shield=20;expiry.
 assert.ok(expiry.endTurn().ok);expiry.enemyStep();assert.equal(expiry.round,2);assert.equal(expiry.player.edge,true);assert.ok(expiry.endTurn().ok);assert.equal(expiry.player.edge,false,'Unused guarded bonus expires at next own action end');
 
 const charged=new Battle('sword',{major:'heavy'});charged.enemy.reaction=false;charged.player.intent=3;charged.player.edge=true;
-assert.ok(charged.act(charged.player,'unity').ok);assert.equal(charged.player.charge.storedPower,122);assert.equal(charged.player.intent,0);assert.equal(charged.player.edge,false);
+assert.ok(charged.act(charged.player,'unity').ok);assert.equal(charged.player.charge.storedPower,117);assert.equal(charged.player.intent,0);assert.equal(charged.player.edge,false);
 charged.player.intent=1;charged.release(charged.player);assert.equal(charged.player.intent,1,'Release must not consume sword intent a second time');
 
 const builds=[];

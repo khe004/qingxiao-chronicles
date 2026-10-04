@@ -1,0 +1,1 @@
+Symmetric-controller harness: production damage/reactions, equal starting resources, seat-swap invariance, mirrors and charge remaining-action use passed.

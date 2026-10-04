@@ -1,0 +1,1 @@
+Enemy-shield score: identical rules/weights/candidate budgets, net shield change, no refill farming, unchanged terminal priorities, immutable planning, exact policy replay and identical actual casts passed.

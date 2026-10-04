@@ -1,0 +1,9 @@
+{
+  "dist/rules.mjs": "f2fac66a29d5f4550e9f9637828def092303035a743a6386a14a44b49bdc11ca",
+  "dist/engine.mjs": "cd30ca6ff826afda05e2098b19cb6deb2a9abd476cc6b966c9f162f6407977a3",
+  "dist/prepared.mjs": "c37220d1511f77c7c8be81b1ad540a297c00863c217e806fde021953e2dd9b5e",
+  "dist/auto.mjs": "9cb4f3b2f486572743668146948e5d8de91a359e8c0bf311c7275869fe9b1a7c",
+  "scripts/predictive-arena.mjs": "1b8e3216cb8d7bc7c615f07fccb9b725a0171ae60ddcf8ff04e5eeaa05caf07f",
+  "scripts/planner-internals.mjs": "7d10ec2ff27ac88a04373fa1ced42480db3e3c37493ef2aec06691f17abbe30a",
+  "scripts/check-twelve-school.mjs": "b8a461c6077055032b114eacacb33be04d4d691d827c2e8de388adbf3ee6652b"
+}

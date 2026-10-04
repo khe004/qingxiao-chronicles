@@ -1,10 +1,10 @@
-import {Battle,MAJORS,ELEMENTS} from './engine.mjs';
+import {Battle,RULES,MAJORS,ELEMENTS} from './engine.mjs';
 import {OPPONENTS,DIFFICULTIES,opponentConfig,planOpponent,opponentReactionDecision} from './opponents.mjs';
 import {RecordedBattle} from './recorded-battle.mjs';
 export class ChallengeBattle extends RecordedBattle{
  constructor(key,config,id,{distance=1,limit=30,difficulty='practice'}={}){
   if(!DIFFICULTIES[difficulty])throw Error('未知难度');if(!OPPONENTS[id])throw Error('未知论道对手');if(![0,1,2].includes(distance)||!Number.isInteger(limit)||limit<1)throw Error('论道参数无效');
-  super(key,config);this.opponentId=id;this.difficulty=difficulty;this.limit=limit;const p=OPPONENTS[id];this.enemy=new Battle(p.key,opponentConfig(id)).player;this.enemy.name=p.name;
+  super(key,config);this.opponentId=id;this.difficulty=difficulty;this.limit=limit;const p=OPPONENTS[id];this.enemy=new Battle(p.key,opponentConfig(id)).player;this.enemy.name=p.name;this.enemy.shield=RULES.secondShield;
   for(const a of [this.player,this.enemy])a.qi=Object.fromEntries(ELEMENTS.map(k=>[k,0]));
   this.round=0;this.distance=distance;this.logs=[];this.serial=0;this.events=[];
   this.log(`难度「${DIFFICULTIES[difficulty].name}」· 招式预告固定，距离或费用改变时跳过，不临时替换。`,'setup');

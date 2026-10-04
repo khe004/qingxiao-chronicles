@@ -1,0 +1,1 @@
+Real combat hits: both portraits in fire/sword matches, desktop/mobile, fixed facing at five animation times, unchanged recoil offsets, reduced motion and restart cleanup passed.

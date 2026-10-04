@@ -1,0 +1,1 @@
+Explicit depth: legal immutable planning, bounded recursion, frozen scoring and original depth-1 policy parity passed.
