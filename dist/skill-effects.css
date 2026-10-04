@@ -1,0 +1,30 @@
+/* 万剑归一：装饰层限于人物演武区，不遮住血条和操作。 */
+.skill-effects{position:absolute;inset:0;z-index:4;pointer-events:none;overflow:hidden;color:#e9d59a}
+.unity-charge,.unity-fizzle{position:absolute;width:240px;height:240px;transform:translate(-50%,-50%);transition:left .4s,top .4s}
+.unity-charge>svg,.unity-fizzle>svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 0 5px #d7dfab99)}
+.unity-charge{animation:unity-gather .65s ease-out both}
+.unity-orbit,.unity-inner{fill:none;stroke:#bcd7cb;stroke-width:.8;stroke-dasharray:2 10;transform-origin:center;animation:unity-orbit 24s linear infinite;opacity:.65}
+.unity-inner{stroke:#e7cf94;stroke-dasharray:30 12;animation-direction:reverse;animation-duration:32s;opacity:.35}
+.unity-sword{animation:unity-breathe 2.4s ease-in-out var(--delay) infinite alternate}
+.unity-ground{fill:#e4d3920a;stroke:#e4d392;stroke-width:.8;opacity:.7}
+.unity-caption{position:absolute;top:81%;left:50%;transform:translateX(-50%);font:500 15px var(--serif);letter-spacing:3px;white-space:nowrap;background:#07141ed9;border:1px solid #e9d59a55;padding:4px 10px;text-shadow:0 2px 5px #07141e}
+.unity-caption>span{display:block;font:10px system-ui;letter-spacing:2px;color:#c4d9cf;text-align:center;margin-top:3px}
+.unity-cast{position:absolute;width:0;height:0}
+.unity-flight{position:absolute;top:var(--lane);left:0;animation:unity-flight .6s cubic-bezier(.45,0,.8,.45) var(--delay) both}
+.unity-flight>svg{position:absolute;left:-11px;top:-37px;width:22px;height:74px;transform:rotate(var(--heading));filter:drop-shadow(0 0 6px #ebd893)}
+.unity-flight:before{content:'';position:absolute;width:130px;height:2px;left:-130px;top:0;background:linear-gradient(90deg,transparent,#bdd8d5aa,#fff0bf);transform-origin:right center;transform:rotate(calc(var(--heading) - 90deg))}
+.unity-impact{position:absolute;width:0;height:0;color:#f9e7b4;animation:unity-impact .8s ease-out .52s both}
+.unity-impact:before{content:'';position:absolute;inset:-65px;border-radius:50%;background:radial-gradient(circle,#fff1bb44,transparent 70%)}
+.unity-impact-ring{position:absolute;inset:-48px;border:1px solid currentColor;border-radius:50%;box-shadow:0 0 18px #e4d69b55,inset 0 0 15px #e4d69b33}
+.unity-impact-cut{position:absolute;left:-3px;top:-70px;width:6px;height:140px;background:linear-gradient(transparent,#fff6da,transparent);transform:rotate(35deg)}
+.unity-impact i{position:absolute;left:0;top:0;width:3px;height:24px;background:linear-gradient(#e6d195,transparent);transform:rotate(var(--angle)) translateY(-50px)}
+.unity-cast[data-outcome="shield"] .unity-impact{color:#afd1e3}.unity-cast[data-outcome="shield"] .unity-impact-cut{display:none}
+.unity-fizzle{animation:unity-fizzle .45s ease-out both}.unity-fizzle .unity-caption{display:none}
+@keyframes unity-gather{from{opacity:0;scale:.65}to{opacity:1;scale:1}}
+@keyframes unity-breathe{from{opacity:.55;translate:0 3px}to{opacity:1;translate:0 -3px}}
+@keyframes unity-orbit{to{rotate:360deg}}
+@keyframes unity-flight{0%{opacity:0;translate:0 0;scale:.65}15%{opacity:1}80%{opacity:1}100%{translate:var(--flight-x) var(--flight-y);opacity:0;scale:1.1}}
+@keyframes unity-impact{0%{opacity:0;scale:.4}18%{opacity:.85;scale:1}45%{opacity:.7}100%{opacity:0;scale:1.6}}
+@keyframes unity-fizzle{from{opacity:.6;scale:1}to{opacity:0;scale:.8;translate:0 15px}}
+@media(max-width:680px){.unity-charge,.unity-fizzle{width:180px;height:180px}.unity-caption{font-size:13px;letter-spacing:2px}.unity-flight>svg{width:16px;height:55px}.unity-flight:before{width:70px;left:-70px}}
+@media(prefers-reduced-motion:reduce){.skill-effects *{animation:none!important;transition:none!important}.unity-orbit{stroke-dasharray:none;opacity:.3}.unity-inner,.unity-flight,.unity-impact-cut,.unity-impact i,.unity-fizzle{display:none}.unity-impact{opacity:.65;scale:.8}.unity-charge{opacity:1}.unity-impact-ring{box-shadow:none}}

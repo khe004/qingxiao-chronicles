@@ -7,7 +7,9 @@ import {createDuelSetup,DuelBattle,portraitPath,GENDERS} from './duel-setup.mjs'
 import {TENDENCIES,SPEEDS,chooseAction,chooseReaction,describeAutoChoice} from './auto.mjs';
 import {battleRecap} from './recap.mjs';
 import {createLocalStore,HISTORY_LIMIT} from './save.mjs';
+import {createSkillEffects} from './skill-effects.mjs';
 const $=id=>document.getElementById(id);
+const skillEffects=createSkillEffects(document.querySelector('.duel-stage'));
 const localStore=createLocalStore(),restored=localStore.read(),saved=restored.value;let saveStatus=restored.error??'',lastSavedSignature=null,clearedBattle=null;
 let battle=new Battle(saved?.duel.player.key??'fire',saved?.duel.player??{}),generation=0,lastHit=0,lastLog=0,combatTimer=null;
 const automation={enabled:false,tendency:saved?.automation.tendency??'balanced',speed:saved?.automation.speed??'normal'};
@@ -101,6 +103,7 @@ function render(){
   $('log-round').textContent=`${b.logs.length} 条`;
   $('log-round').title='本场完整记录，重新论道或切换流派时清空';
   if(b.lastHit&&b.lastHit.id!==lastHit){lastHit=b.lastHit.id;const f=$('floating-hit');f.textContent=b.lastHit.damage?`−${b.lastHit.damage}`:'护盾抵御';f.className=`floating-hit ${b.lastHit.target}`;void f.offsetWidth;f.classList.add('animate');const art=$(b.lastHit.target==='player'?'player-art':'enemy-art');art.classList.remove('hit');void art.offsetWidth;art.classList.add('hit');}
+  skillEffects.sync(b);
   if(b.result){
     $('result-overlay').hidden=false;const inTrial=trial.active,done=trial.status==='complete',review=b.review?.()??null;
     $('result-overlay').innerHTML=`<span class="small-label">${inTrial?`第 ${trial.index+1} / 3 场 · `:''}第 ${b.round} 回合 · 切磋结束</span><div class="result-mark">${b.result==='win'?'论道告捷':b.result==='draw'?'难分高下':'胜负有时'}</div><p>${done?`三场论道已完成 · ${trial.snapshot().wins} 胜`:(b.result==='draw'?'双方收招，本场记为未决。':b.result==='win'?'对手拱手认输。':'此番惜败，观其招式再作调整。')}</p>${review?`<p class="result-recap">你的蓄势 ${review.actors[0].charges.started} 次 · 释放 ${review.actors[0].charges.released} 次<br>恢复 ${review.actors[0].healing} 气血 · ${p.key==='water'?`消费 ${review.actors[0].tideSpent??0} 潮势`:p.key==='flame'?`兑现 ${review.actors[0].burnConsumed??0} 层灼烧`:p.key==='wood'?`收获 ${review.actors[0].growthSpent??0} 生长 · ${review.actors[0].parasiteSpent??0} 寄生`:p.key==='earth'?`消费 ${review.actors[0].terrainSpent??0} 地势`:`消费 ${review.actors[0].intentSpent} 剑意`}</p>`:''}<div class="result-buttons">${inTrial?`<button id="next-trial">${done?'查看本轮结算':'备战下一场'}</button><button id="review-current">本场打法回顾</button>`:'<button data-reset="same">再战一场</button><button data-reset="other">换个流派</button><button id="review-current">本场打法回顾</button>'}</div>`;
