@@ -331,3 +331,16 @@ node qa-elements.cjs
 六派各新增四招，神通库扩为十二选六，加入不同资源出口、有限反击、破盾与回复；原推荐搭配保留，双方配装可一键载入「新招套路」。AI 超距时付行动调整距离，原招失效时按公开备用策略补气、换合法招式或安全普攻；蓄势和反伤存气等待有明确纪要理由。水木蓄势继续暂缓。
 
 详见 [神通扩充与主动应变](docs/神通扩充与主动应变.md)。[原推荐 12×12](docs/balance/twelve-school-v014/final/report.md) 与 [新招样例 12×12](docs/balance/twelve-school-v014/tactics/report.md) 分开记录，各 936 场、两控制器、三距离与互换先手，未决和镜像单列。
+
+## v0.14.1 培育取舍与配装复查
+
+培植诀、接枝催荣共用每回合一次培育，收获后不重置；延迟成熟和即时救急需要取舍。生息新招样例恢复青木回春，避免治疗抢占引燃灵种；镇岳新招样例恢复一行动裂地击，保留蓄势、养元与叠岩。其他神通仍可自由装备。
+
+逐招替换、旧六招与槽位顺序、共用培育、样例调整分别测量，详见 [复查报告](docs/共生循环与新招配装复查.md) 与 [当前新招 12×12](docs/balance/symbiosis-v0141/final/report.md)。历史矩阵保留；固定样例与有限 AI 结果不代表真人平衡。
+
+```sh
+node test-symbiosis.mjs
+node test-cultivation-reuse.mjs
+node test-twelve-school.mjs --sample-replays
+node qa-symbiosis.cjs
+```

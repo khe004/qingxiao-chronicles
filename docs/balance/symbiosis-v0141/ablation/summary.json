@@ -1,0 +1,278 @@
+{
+  "games": 72,
+  "limit": 30,
+  "variants": {
+    "baseline": {},
+    "without-graft": {
+      "swap": {
+        "graft": "prune"
+      }
+    },
+    "without-thorns": {
+      "swap": {
+        "thornscreen": "bloomguard"
+      }
+    },
+    "original": {
+      "swap": {
+        "graft": "prune",
+        "thornscreen": "bloomguard"
+      }
+    },
+    "graft-cost-3": {
+      "graft": {
+        "cost": {
+          "wood": 3
+        }
+      }
+    },
+    "graft-cost-4": {
+      "graft": {
+        "cost": {
+          "wood": 4
+        }
+      }
+    }
+  },
+  "scope": "six representative builds, middle distance, both initiative orders",
+  "controllers": [
+    "immediate",
+    "prepared"
+  ],
+  "results": {
+    "without-graft": {
+      "immediate": {
+        "games": 12,
+        "wins": 9,
+        "losses": 3,
+        "unresolved": 0,
+        "byOpponent": {
+          "fire/ignite": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 2,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "wood/parasitic": {
+            "games": 2,
+            "wins": 0,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          }
+        }
+      },
+      "prepared": {
+        "games": 12,
+        "wins": 12,
+        "losses": 0,
+        "unresolved": 0,
+        "byOpponent": {
+          "fire/ignite": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "wood/parasitic": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          }
+        }
+      }
+    },
+    "without-thorns": {
+      "immediate": {
+        "games": 12,
+        "wins": 7,
+        "losses": 5,
+        "unresolved": 0,
+        "byOpponent": {
+          "fire/ignite": {
+            "games": 2,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 2,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 2,
+            "wins": 0,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "wood/parasitic": {
+            "games": 2,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          }
+        }
+      },
+      "prepared": {
+        "games": 12,
+        "wins": 12,
+        "losses": 0,
+        "unresolved": 0,
+        "byOpponent": {
+          "fire/ignite": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "wood/parasitic": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          }
+        }
+      }
+    },
+    "original": {
+      "immediate": {
+        "games": 12,
+        "wins": 9,
+        "losses": 3,
+        "unresolved": 0,
+        "byOpponent": {
+          "fire/ignite": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 2,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "wood/parasitic": {
+            "games": 2,
+            "wins": 0,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          }
+        }
+      },
+      "prepared": {
+        "games": 12,
+        "wins": 9,
+        "losses": 2,
+        "unresolved": 1,
+        "byOpponent": {
+          "fire/ignite": {
+            "games": 2,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 2,
+            "wins": 0,
+            "unresolved": 1
+          },
+          "wood/parasitic": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 2,
+            "wins": 2,
+            "unresolved": 0
+          }
+        }
+      }
+    }
+  }
+}

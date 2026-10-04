@@ -1,0 +1,12 @@
+{
+  "dist/rules.mjs": "b34d5062639f207bf0593a2af4593004e2188f30183abc8d5ce880e1b499c9c6",
+  "dist/engine.mjs": "8c47b2707ff57f1979498fcf9c7e206788ecc671ff120ecc0fb086c149dc00d9",
+  "dist/prepared.mjs": "6cf11c26cfb0afd58ccf0e96fde90e7d7554c1a6002da70c0f5b3925a380fbbb",
+  "dist/auto.mjs": "363289b5aacbea11fb7d6d02406783a142b948ad749fd082ecc4194095c327ff",
+  "dist/tactics.mjs": "e9a21830a26163480bf0f6eb3f727d4756dd5fdbac87618f332ba091e0b2c9be",
+  "dist/active-policy.mjs": "54c0ceda014884606f53ce0c4b6e46d99d735bd32024143d6bc8967ce3fc9ee8",
+  "scripts/predictive-arena.mjs": "b0ed82174cf09c96d201c5f710ecd381e9d2f1b6bcfaa3980cf6382c7ae20fc9",
+  "scripts/planner-internals.mjs": "2a54bdd60d8c3f537218032096f5d1f68a9ee35d49f7411c3da1df25c50de6e4",
+  "scripts/check-twelve-school.mjs": "47d8c04b4ab89f5746585878b4fa0698f819d3e9a6be4b9a23352e0c9b4c89a0",
+  "scripts/cultivation-reuse.mjs": "e2e4be0c2bbd80da1b55dda4ce5572a8e998d5bd99e9fdfe9bf357ebe6c1f66c"
+}

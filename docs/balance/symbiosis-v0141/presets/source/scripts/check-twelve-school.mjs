@@ -8,7 +8,6 @@ import {predictiveDuel} from './predictive-arena.mjs';
 import {MAJORS,normalizeLoadout,RULES} from '../dist/engine.mjs';
 
 import {TACTICAL_LOADOUTS} from '../dist/tactics.mjs';
-import {verifyCultivationReuse,cultivationAffected} from './cultivation-reuse.mjs';
 
 if(!isMainThread){
   for(const job of workerData){
@@ -39,21 +38,18 @@ if(!isMainThread){
   assert.equal(jobs.length,78*gamesPerPair*selected.length);
   await mkdir(out,{recursive:true});
   const sourceFiles=['dist/rules.mjs','dist/engine.mjs','dist/prepared.mjs','dist/auto.mjs','dist/tactics.mjs','dist/active-policy.mjs',
-    'scripts/predictive-arena.mjs','scripts/planner-internals.mjs','scripts/check-twelve-school.mjs','scripts/cultivation-reuse.mjs'];
+    'scripts/predictive-arena.mjs','scripts/planner-internals.mjs','scripts/check-twelve-school.mjs'];
   const hashes={};
   const resume=process.argv.includes('--resume');
   const reuseFrom=process.argv.find(a=>a.startsWith('--reuse-from='))?.slice('--reuse-from='.length);
-  const cultivationReuse=process.argv.includes('--cultivation-only-reuse');
-  assert.ok(!cultivationReuse||(reuseFrom&&tactical),'Cultivation reuse needs a tactical source report');
   assert.ok(!(resume&&reuseFrom),'Choose resume or structural reuse');
   const reuseHashes=reuseFrom?JSON.parse(await readFile(`${reuseFrom}/source-hashes.json`,'utf8')):null;
   const previousHashes=resume?JSON.parse(await readFile(`${out}/source-hashes.json`,'utf8')):null;
   for(const name of sourceFiles){
     const data=await readFile(new URL('../'+name,import.meta.url));
     hashes[name]=createHash('sha256').update(data).digest('hex');
-    if(reuseFrom&&!['scripts/check-twelve-school.mjs','scripts/cultivation-reuse.mjs'].includes(name)){
-      if(cultivationReuse&&['dist/rules.mjs','dist/engine.mjs','dist/tactics.mjs'].includes(name))verifyCultivationReuse(name,await readFile(`${reuseFrom}/source/${name}`,'utf8'),data.toString());
-      else if(name==='dist/tactics.mjs'){const old=await readFile(`${reuseFrom}/source/${name}`,'utf8');const marker='export const TACTICAL_LOADOUTS=';assert.equal(old.split(marker).length,2);assert.equal(data.toString().split(marker).length,2);assert.equal(old.split(marker)[0],data.toString().split(marker)[0],'Only example loadout arrays may change during reuse');for(const source of [old,data.toString()])JSON.parse(source.split(marker)[1].trim().replace(/;$/,''));}
+    if(reuseFrom&&name!=='scripts/check-twelve-school.mjs'){
+      if(name==='dist/tactics.mjs'){const old=await readFile(`${reuseFrom}/source/${name}`,'utf8');const marker='export const TACTICAL_LOADOUTS=';assert.equal(old.split(marker).length,2);assert.equal(data.toString().split(marker).length,2);assert.equal(old.split(marker)[0],data.toString().split(marker)[0],'Only example loadout arrays may change during reuse');}
       else assert.equal(hashes[name],reuseHashes[name],`Cannot reuse changed combat source: ${name}`);
     }
     if(resume&&name!=='scripts/check-twelve-school.mjs')assert.equal(hashes[name],previousHashes[name],`Resume rules changed: ${name}`);
@@ -62,8 +58,8 @@ if(!isMainThread){
   }
   await writeFile(`${out}/source-hashes.json`,JSON.stringify(hashes,null,2)+'\n');
   const records=resume?JSON.parse(gunzipSync(await readFile(`${out}/checkpoint.json.gz`))):Array(jobs.length);
-  let complete=resume?records.length:0,reused=resume?records.filter(r=>r.structurallyReused).length:0;
-  if(reuseFrom){const old=JSON.parse(gunzipSync(await readFile(`${reuseFrom}/records.json.gz`)));for(const job of jobs){if(cultivationReuse&&cultivationAffected(job))continue;const match=old.find(r=>['a','b','first','distance','controller','tendency','kind'].every(k=>JSON.stringify(r[k])===JSON.stringify(job[k])));if(match){records[job.index]={...match,index:job.index,structurallyReused:true};complete++;reused++;}}console.log(`Structural reuse: ${reused} unchanged scenarios; rerun ${jobs.length-reused} affected scenarios.`);}
+  let complete=resume?records.length:0,reused=0;
+  if(reuseFrom){const old=JSON.parse(gunzipSync(await readFile(`${reuseFrom}/records.json.gz`)));for(const job of jobs){const match=old.find(r=>['a','b','first','distance','controller','tendency','kind'].every(k=>JSON.stringify(r[k])===JSON.stringify(job[k])));if(match){records[job.index]={...match,index:job.index,structurallyReused:true};complete++;reused++;}}console.log(`Structural reuse: ${reused} unchanged scenarios; rerun ${jobs.length-reused} affected scenarios.`);}
   if(resume){
     assert.equal(complete,jobs.length,'Only a completed checkpoint can be exported');
     records.forEach((r,i)=>{
@@ -121,7 +117,7 @@ if(!isMainThread){
   const head=(await readFile('.git/HEAD','utf8')).trim();
   const sourceCommit=head.startsWith('ref: ')?(await readFile('.git/'+head.slice(5),'utf8')).trim():head;
   assert.match(sourceCommit,/^[0-9a-f]{40}$/);
-  const summary={sourceCommit,rules:RULES,measurement:{executed:records.length-reused,structurallyReused:reused,reuseFrom:reuseFrom??null,reuseBoundary:cultivationReuse?'Exact reviewed cultivation guard and display/version edits only; every actor with both cultivation skills rerun; all other combat source and reused full configurations identical.':'All combat source identical; only tactical example loadout arrays may differ; reused scenarios have identical full configurations.'},
+  const summary={sourceCommit,rules:RULES,measurement:{executed:records.length-reused,structurallyReused:reused,reuseBoundary:'All combat source identical; only tactical example loadout arrays may differ; reused scenarios have identical full configurations.'},
     builds,limits:{rounds:30,distances,tendency,loadout:tactical?'tactical sample six skills':'recommended six skills',
       gamesPerPairPerController:gamesPerPair,controllers:selected,
       mirrorDiagonal:'not included in cross matrix; mirror first/second wins reported separately',
@@ -148,7 +144,7 @@ if(!isMainThread){
     md.push('','### 镜像（独立统计）','','| 流派 | 先手胜 | 后手胜 | 未决 |','| --- | ---: | ---: | ---: |');
     g.mirrors.forEach((m,i)=>md.push(`| ${builds[i].name} | ${m.firstWins} | ${m.secondWins} | ${m.draws} |`));md.push('');
   }
-  md.push('## 复现','','```sh',`node scripts/check-twelve-school.mjs /tmp/qingxiao-twelve-school${tactical?' --loadouts=tactics':''}`,'```','',
+  md.push('## 复现','','```sh',`node scripts/check-twelve-school.mjs /tmp/qingxiao-twelve-school`,'```','',
     '原始逐场结果、动作统计、完整纪要见 records.json.gz；summary.json 包含每格胜负未决场数。source/ 冻结测量源码，source-hashes.json 记录 SHA-256。','');
   await writeFile(`${out}/report.md`,md.join('\n'));
   console.log(JSON.stringify({games:complete,controllers:Object.fromEntries(Object.entries(controllers).map(([k,g])=>[k,{draws:g.draws,ranking:g.ranking}]))}));

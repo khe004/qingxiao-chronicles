@@ -1,0 +1,1 @@
+qa-symbiosis.cjs: both skill orders, harvest does not reset shared cultivation, both sides six classes twelve-select-six, sample buttons, finite reflection, public fallback and 1440/390/320 layout passed.

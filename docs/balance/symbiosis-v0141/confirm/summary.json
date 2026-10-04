@@ -1,0 +1,303 @@
+{
+  "games": 264,
+  "limit": 30,
+  "variants": {
+    "baseline": {},
+    "without-graft": {
+      "swap": {
+        "graft": "prune"
+      }
+    },
+    "without-thorns": {
+      "swap": {
+        "thornscreen": "bloomguard"
+      }
+    },
+    "original": {
+      "swap": {
+        "graft": "prune",
+        "thornscreen": "bloomguard"
+      }
+    },
+    "shared-cultivation": {
+      "sharedCultivation": true
+    },
+    "graft-cost-3": {
+      "graft": {
+        "cost": {
+          "wood": 3
+        }
+      }
+    },
+    "graft-cost-4": {
+      "graft": {
+        "cost": {
+          "wood": 4
+        }
+      }
+    }
+  },
+  "scope": "all 11 other builds, 3 distances, both initiative orders",
+  "controllers": [
+    "immediate",
+    "prepared"
+  ],
+  "results": {
+    "original": {
+      "immediate": {
+        "games": 66,
+        "wins": 37,
+        "losses": 29,
+        "unresolved": 0,
+        "byOpponent": {
+          "wood/parasitic": {
+            "games": 6,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "earth/mountain": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "water/cold": {
+            "games": 6,
+            "wins": 3,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          },
+          "flame/fierce": {
+            "games": 6,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 6,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "fire/ignite": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          },
+          "fire/sustain": {
+            "games": 6,
+            "wins": 3,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 6,
+            "wins": 4,
+            "unresolved": 0
+          },
+          "sword/heavy": {
+            "games": 6,
+            "wins": 0,
+            "unresolved": 0
+          }
+        }
+      },
+      "prepared": {
+        "games": 66,
+        "wins": 55,
+        "losses": 6,
+        "unresolved": 5,
+        "byOpponent": {
+          "wood/parasitic": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "earth/mountain": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          },
+          "water/cold": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 6,
+            "wins": 0,
+            "unresolved": 5
+          },
+          "flame/fierce": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "fire/ignite": {
+            "games": 6,
+            "wins": 4,
+            "unresolved": 0
+          },
+          "fire/sustain": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "sword/heavy": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          }
+        }
+      }
+    },
+    "shared-cultivation": {
+      "immediate": {
+        "games": 66,
+        "wins": 35,
+        "losses": 31,
+        "unresolved": 0,
+        "byOpponent": {
+          "wood/parasitic": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "earth/mountain": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "water/cold": {
+            "games": 6,
+            "wins": 3,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          },
+          "flame/fierce": {
+            "games": 6,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 6,
+            "wins": 0,
+            "unresolved": 0
+          },
+          "fire/ignite": {
+            "games": 6,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "fire/sustain": {
+            "games": 6,
+            "wins": 1,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 6,
+            "wins": 3,
+            "unresolved": 0
+          },
+          "sword/heavy": {
+            "games": 6,
+            "wins": 2,
+            "unresolved": 0
+          }
+        }
+      },
+      "prepared": {
+        "games": 66,
+        "wins": 50,
+        "losses": 15,
+        "unresolved": 1,
+        "byOpponent": {
+          "wood/parasitic": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "earth/bastion": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "earth/mountain": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          },
+          "water/cold": {
+            "games": 6,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "water/tidal": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 1
+          },
+          "flame/fierce": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "flame/smolder": {
+            "games": 6,
+            "wins": 6,
+            "unresolved": 0
+          },
+          "fire/ignite": {
+            "games": 6,
+            "wins": 4,
+            "unresolved": 0
+          },
+          "fire/sustain": {
+            "games": 6,
+            "wins": 5,
+            "unresolved": 0
+          },
+          "sword/quick": {
+            "games": 6,
+            "wins": 2,
+            "unresolved": 0
+          },
+          "sword/heavy": {
+            "games": 6,
+            "wins": 3,
+            "unresolved": 0
+          }
+        }
+      }
+    }
+  }
+}
