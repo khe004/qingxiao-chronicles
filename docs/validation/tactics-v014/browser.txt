@@ -1,0 +1,25 @@
+Duel browser: all class/gender choices, same-school asymmetric builds, custom six-slot validation, cancel/escape isolation, paused enemy timers, reset persistence, automatic result, trial exit/history and 1440/390/320 layouts passed.
+
+Browser save/recap: completed custom battle metrics, key-round jump and skill usage, both custom loadouts/portraits/settings after reload, draft isolation, trial between-stage and interrupted-stage recovery, paused automation, history clearing, blocked storage and 1440/390/320 layouts passed.
+
+New tactics browser: both sides six schools twelve-select-six, sample buttons, finite reflection chip, public fallback policy and 1440/390/320 layouts passed.
+
+inferno: 1440px female passed
+inferno: 1440px male passed
+inferno: 390px female passed
+inferno: 390px male passed
+inferno: 320px female passed
+inferno: 320px male passed
+solar: 1440px female passed
+solar: 1440px male passed
+solar: 390px female passed
+solar: 390px male passed
+solar: 320px female passed
+solar: 320px male passed
+mountain: 1440px female passed
+mountain: 1440px male passed
+mountain: 390px female passed
+mountain: 390px male passed
+mountain: 320px female passed
+mountain: 320px male passed
+All three charge skills: real UI release/cancel, both sides/genders, desktop/390/320px, pending reactions, misses/interrupts/shields, no replay, reset, reduced motion and native animation artwork passed.

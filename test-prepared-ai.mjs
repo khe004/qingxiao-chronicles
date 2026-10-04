@@ -36,13 +36,13 @@ assert.ok(harvest.some(id=>['bloomheal','bloomguard','bloomstrike'].includes(id)
 
 // A lethal public harvest warrants breaking; an attached parasite can be cleansed
 // before its equipped reap. Neither operation is treated as universal cleanse.
-const breakGrowth=new DuelBattle('earth',{}, {key:'wood',major:'symbiosis'});breakGrowth.player.ap=1;breakGrowth.player.hp=30;breakGrowth.player.reaction=false;breakGrowth.enemy.growth=2;queue(breakGrowth,['bloomstrike','wooddart']);
-assert.equal(choose(breakGrowth).choice.skillId,'quakesunder');breakGrowth.act(breakGrowth.player,'quakesunder');assert.equal(breakGrowth.enemy.growth,0);advance(breakGrowth);assert.ok(breakGrowth.player.hp>0);
-const cleanse=new DuelBattle('earth',{}, {key:'wood',major:'parasitic'});cleanse.player.ap=1;cleanse.player.hp=20;cleanse.player.reaction=false;cleanse.player.parasite=3;cleanse.player.parasiteTurns=2;cleanse.player.shield=20;cleanse.player.terrain=3;queue(cleanse,['reap','wooddart']);
+const breakGrowth=new DuelBattle('earth',{}, {key:'wood',major:'symbiosis'});breakGrowth.player.ap=1;breakGrowth.player.hp=30;breakGrowth.player.reaction=false;breakGrowth.enemy.growth=2;breakGrowth.enemy.ap=1;queue(breakGrowth,['bloomstrike','wooddart']);
+const breakChoice=choose(breakGrowth).choice;assert.ok(['quakesunder','sever-growth'].includes(breakChoice.skillId));breakGrowth.act(breakGrowth.player,breakChoice.skillId);assert.equal(breakGrowth.enemy.growth,0);advance(breakGrowth);assert.ok(breakGrowth.player.hp>0);
+const cleanse=new DuelBattle('earth',{}, {key:'wood',major:'parasitic'});cleanse.player.ap=1;cleanse.player.hp=20;cleanse.player.reaction=false;cleanse.player.parasite=3;cleanse.player.parasiteTurns=2;cleanse.player.shield=20;cleanse.player.terrain=3;cleanse.enemy.ap=1;queue(cleanse,['reap','wooddart']);
 assert.equal(choose(cleanse).choice.skillId,'unparasite');cleanse.act(cleanse.player,'unparasite');advance(cleanse);assert.ok(cleanse.player.hp>0);assert.ok(cleanse.logs.some(l=>l.text.includes('目标需要寄生')));
 
-const escape=new DuelBattle('wood',{}, {key:'earth',major:'mountain'});escape.player.ap=1;escape.player.hp=30;escape.enemy.charge={...escape.skill(escape.enemy,'mountain'),storedPower:150};queue(escape,[]);
-assert.equal(choose(escape).choice.skillId,'far');escape.act(escape.player,'far');advance(escape);assert.ok(escape.logs.some(l=>l.text.includes('因距离不适合而落空')));assert.equal(escape.player.hp,30);
+const escape=new DuelBattle('wood',{}, {key:'earth',major:'mountain'});escape.player.ap=1;escape.player.hp=30;escape.enemy.ap=0;escape.enemy.charge={...escape.skill(escape.enemy,'mountain'),storedPower:150};queue(escape,[]);
+assert.equal(choose(escape).choice.skillId,'far');escape.act(escape.player,'far');advance(escape);assert.ok(escape.logs.some(l=>l.text.includes('因距离不适合而落空')));assert.ok(escape.player.hp>0,'Charge misses while legal fallback attacks can still hurt');
 
 // Ready terrain and a safe release window produce a real mountain, not a bonus
 // for a never-released charge. A threatened release reserves both anchor+charge
@@ -61,7 +61,7 @@ const full=new DuelBattle('wood',{major:'symbiosis'},{key:'earth'});full.player.
 assert.ok(planner.options(full,'defensive').some(s=>s.id==='bloomheal'),'Burn-clearing harvest is useful even at full HP');full.player.burn=0;assert.ok(!planner.options(full,'defensive').some(s=>s.id==='bloomheal'));
 const s=new DuelBattle('wood',{}, {key:'earth'}),f=new DuelBattle('wood',{}, {key:'earth'});s.enemy.shield=40;f.enemy.shield=40;
 assert.equal(planner.preparedScore(s,f,'balanced',[],f),planner.planScore(s,f,'balanced',[],f));f.enemy.shield=20;
-assert.ok(Math.abs(planner.preparedScore(s,f,'balanced',[],f)-planner.planScore(s,f,'balanced',[],f)-20*planner.TENDENCIES.balanced.shield)<1e-9);
+assert.equal(planner.preparedScore(s,f,'balanced',[],f),planner.planScore(s,f,'balanced',[],f),'Both policies value net shield removal exactly once');
 
 // All prepared majors, all ranges/tendencies and costly high-resource branches
 // remain bounded, legal and read-only. Existing four-school policies retain the

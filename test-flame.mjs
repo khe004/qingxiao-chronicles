@@ -7,7 +7,7 @@ import {loadForecastModel} from './scripts/forecast-audit.mjs';
 import {createPredictiveArena,actWorld,endPhase,advancePhase,worldState,cloneWorld} from './scripts/predictive-arena.mjs';
 const custom=['flare','kindle','cinder','combust','firewall','solar'];
 const make=(major='smolder')=>{const b=new Battle('flame',{major,skillIds:custom});b.enemy.reaction=false;b.enemy.shield=0;return b;};
-assert.equal(CLASSES.flame.skills.length,8);assert.equal(Object.keys(MAJORS.flame).length,2);
+assert.equal(CLASSES.flame.skills.length,12);assert.equal(Object.keys(MAJORS.flame).length,2);
 for(const major of Object.keys(MAJORS.flame)){const b=make(major);assert.equal(total(b.player.qi),5);assert.equal(b.player.qi.fire,4);assert.equal(b.player.qi.wood,0);assert.equal(b.player.hp,CLASSES.fire.hp);}
 // Second paid instantaneous fire attack gets one bonus, even when guard separates casts.
 const chain=make('fierce');const damage=[];
@@ -15,7 +15,7 @@ for(let n=0;n<3;n++){const s=chain.skill(chain.player,'flare'),hp=chain.enemy.hp
 assert.deepEqual(damage,[20,26,20]);assert.equal(chain.logs.filter(l=>l.text.startsWith('烈焰强攻')).length,1);
 const separated=make('fierce');separated.act(separated.player,'flare');separated.act(separated.player,'firewall');assert.equal(separated.player.fireCasts,1);assert.equal(separated.player.intent,0);assert.equal(separated.preview(separated.skill(separated.player,'flare')),26);
 const paid=make('fierce');paid.act(paid.player,'solar');assert.equal(paid.player.ap,1);assert.equal(total(paid.player.qi),1);assert.equal(paid.player.fireCasts,0);assert.equal(paid.legal(paid.player,'flare'), '蓄势中仅可移动、调息或防守，也可结束回合或取消蓄势');paid.release(paid.player);assert.equal(paid.player.ap,1);assert.equal(paid.player.fireCasts,0);assert.equal(paid.player.charge,null);
-const refreshed=make('fierce');refreshed.act(refreshed.player,'flare');refreshed.enemyQueue=[];refreshed.endTurn();refreshed.enemyStep();assert.equal(refreshed.player.fireCasts,0);
+const refreshed=make('fierce');refreshed.act(refreshed.player,'flare');refreshed.enemyQueue=[];refreshed.endTurn();while(refreshed.phase!=='player'&&!refreshed.result){if(refreshed.phase==='reaction')refreshed.react('none');else refreshed.enemyStep();}assert.equal(refreshed.player.fireCasts,0);
 // Burn upkeep and cashout do not grant both damage streams or free resources.
 const upkeep=make();upkeep.act(upkeep.player,'kindle');assert.equal(upkeep.enemy.burn,3);upkeep.act(upkeep.player,'kindle');assert.equal(upkeep.enemy.burn,5);assert.equal(upkeep.logs.filter(l=>l.text.startsWith('焚灼消耗')).length,1);
 const partial=make();partial.enemy.burn=5;partial.enemy.burnTurns=2;const preview=partial.preview(partial.skill(partial.player,'cinder')),hp=partial.enemy.hp,qi=total(partial.player.qi);assert.ok(partial.act(partial.player,'cinder').ok);assert.equal(hp-partial.enemy.hp,preview);assert.equal(partial.enemy.burn,3);assert.equal(partial.enemy.burnTurns,2);assert.equal(total(partial.player.qi),qi-1);const shield=partial.enemy.shield;partial.tickBurn(partial.enemy);assert.equal(hp-partial.enemy.hp,preview+7);assert.equal(partial.enemy.shield,shield);

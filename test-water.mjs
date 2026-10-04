@@ -11,7 +11,7 @@ const make=(major='cold',skillIds=MAJORS.water[major].recommended)=>{
 };
 const act=(b,id,a=b.player)=>assert.ok(b.act(a,id).ok,id);
 const reject=(b,id,a=b.player)=>{const before=JSON.stringify(b);assert.equal(b.act(a,id).ok,false,id);assert.equal(JSON.stringify(b),before,'Rejected action is immutable');};
-assert.equal(CLASSES.water.skills.length,8);
+assert.equal(CLASSES.water.skills.length,12);
 for(const major of Object.keys(MAJORS.water)){const b=make(major);assert.equal(b.player.qi.water,4);assert.equal(total(b.player.qi),5);assert.equal(b.player.tide,0);assert.equal(b.player.skillIds.length,6);}
 
 // Condensation supplies one choice, never AP denial or permanent movement lock.
@@ -31,7 +31,7 @@ for(const id of ['near','far','dispel','purify']){
  assert.equal(total(b.enemy.qi),qi-(['dispel','purify'].includes(id)?1:0));
  assert.equal(b.enemy.chilled,id==='purify');assert.equal(b.enemy.burn,id==='purify'?0:3);
 }
-const expiry=make();act(expiry,'frost');expiry.enemyQueue=[];expiry.endTurn();assert.ok(expiry.enemy.chilled);expiry.enemyStep();assert.equal(expiry.enemy.chilled,false);
+const expiry=make();act(expiry,'frost');expiry.enemyQueue=[];expiry.endTurn();assert.ok(expiry.enemy.chilled);while(expiry.phase!=='player'&&!expiry.result){if(expiry.phase==='reaction')expiry.react('none');else expiry.enemyStep();}assert.equal(expiry.enemy.chilled,false);
 const playerExpiry=make();playerExpiry.player.chilled=true;playerExpiry.endTurn();assert.equal(playerExpiry.player.chilled,false);
 const evade=make();evade.player.chilled=true;evade.phase='reaction';evade.pending={s:evade.skill(evade.enemy,'basic'),raw:12};assert.ok(evade.react('evade').ok);assert.equal(evade.player.chilled,false);assert.equal(evade.lastMove.actor,'player');
 
@@ -50,7 +50,7 @@ const rinse=make('cold',['waterbolt','frost','repulse','gather','rinse','ebb']);
 const meditate=make();act(meditate,'meditate');assert.equal(meditate.player.qi.water,5);assert.equal(meditate.player.qi.any,2);assert.equal(meditate.player.qi.fire,0);
 
 // Public plans stay frozen when the player clears the setup or moves. Rules
-// should skip the now-illegal force, without spending AP or replacing it.
+// skip the now-illegal force without paying it; the public fallback may use spare AP.
 for(const response of ['near','dispel']){const b=new ChallengeBattle('sword',{},'cold');b.player.chilled=true;b.enemyPlan=['repulse','waterbolt'];b.enemyQueue=[...b.enemyPlan];const frozen=[...b.enemyPlan];act(b,response);b.endTurn();b.enemyStep();assert.deepEqual(b.enemyPlan,frozen);assert.ok(b.logs.some(l=>l.text.includes('目标需要凝滞')));}
 const metrics=new ChallengeBattle('water',{major:'tidal'},'quick');act(metrics,'gather');act(metrics,'surge');act(metrics,'waterwall');assert.equal(metrics.review().actors[0].tideSpent,3);
 

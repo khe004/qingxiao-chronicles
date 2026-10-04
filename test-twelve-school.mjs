@@ -4,8 +4,9 @@ import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 import {predictiveDuel} from './scripts/predictive-arena.mjs';
 import {RULES,normalizeLoadout} from './dist/engine.mjs';
+import {TACTICAL_LOADOUTS} from './dist/tactics.mjs';
 
-const root=process.argv[2]??'docs/balance/twelve-school-v013/final';
+const root=process.argv[2]??'docs/balance/twelve-school-v014/final';
 const read=name=>JSON.parse(readFileSync(`${root}/${name}`,'utf8'));
 const s=read('summary.json'),hashes=read('source-hashes.json');
 const records=JSON.parse(gunzipSync(readFileSync(`${root}/records.json.gz`)));
@@ -15,7 +16,7 @@ for(const [name,hash] of Object.entries(hashes)){
  assert.equal(digest(readFileSync(name)),hash,`Measured source differs from shipped source: ${name}`);
  assert.equal(digest(readFileSync(`${root}/source/${name}`)),hash,`Frozen source is corrupt: ${name}`);
 }
-for(const b of s.builds)assert.deepEqual(b.config,normalizeLoadout(b.key,{major:b.config.major}));
+for(const b of s.builds)assert.deepEqual(b.config,normalizeLoadout(b.key,{major:b.config.major,...(s.limits.loadout==='tactical sample six skills'?{skillIds:TACTICAL_LOADOUTS[b.key][b.config.major]}:{})}));
 for(const controller of ['immediate','prepared']){
  const g=s.controllers[controller];assert.equal(g.games,468);assert.equal(g.crossGames,396);assert.equal(g.mirrorGames,72);
  for(let i=0;i<12;i++)for(let j=0;j<12;j++){
@@ -32,7 +33,9 @@ for(const [index,r] of records.entries()){
 // Stratify replays by every class, both controllers and all initial distances.
 // Re-running identical deterministic seeds is not additional win-rate evidence.
 let replayed=0;
-for(const controller of ['immediate','prepared'])for(const key of ['fire','sword','flame','water','wood','earth'])for(const distance of [0,1,2]){
+const keys=['fire','sword','flame','water','wood','earth'];
+const cases=process.argv.includes('--sample-replays')?keys.map((key,i)=>({key,controller:i%2?'prepared':'immediate',distance:i%3})):['immediate','prepared'].flatMap(controller=>keys.flatMap(key=>[0,1,2].map(distance=>({controller,key,distance}))));
+for(const {controller,key,distance} of cases){
  const r=records.find(r=>r.controller===controller&&r.kind==='cross'&&r.a.key===key&&r.distance===distance&&r.first===distance%2);
  assert.ok(r);const actual=predictiveDuel(r.a,r.b,{first:r.first,distance:r.distance,limit:30,prefs:['balanced','balanced'],controllers:[controller,controller],trace:true});
  for(const field of ['winner','rounds','hp','metrics','trace'])assert.deepEqual(actual[field],r[field],`Replay mismatch: ${controller}/${key}/${distance}/${field}`);

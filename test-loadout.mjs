@@ -3,7 +3,7 @@ import {Battle,CLASSES,MAJORS,SUSTAIN_RECOVERY,normalizeLoadout,total} from './d
 import {TENDENCIES,chooseAction,chooseReaction,describeAutoChoice} from './dist/auto.mjs';
 
 for(const [key,c] of Object.entries(CLASSES)){
-  assert.equal(c.skills.length,8);
+  assert.equal(c.skills.length,12);
   for(const major of Object.keys(MAJORS[key])){
     const config=normalizeLoadout(key,{major});assert.equal(config.skillIds.length,6);
     assert.throws(()=>normalizeLoadout(key,{major,skillIds:config.skillIds.slice(1)}),/6/);
@@ -38,7 +38,7 @@ assert.ok(heavy.act(heavy.player,'guard').ok);heavy.hurt(heavy.player,10,'测试
 const preview=heavy.preview(heavy.skill(heavy.player,'return')),enemyHp=heavy.enemy.hp;
 assert.ok(heavy.act(heavy.player,'return').ok);assert.equal(heavy.player.intent,3);assert.equal(heavy.player.edge,false);assert.equal(enemyHp-heavy.enemy.hp,preview,'Preview includes partial sword intent and guarded bonus');
 
-const expiry=new Battle('sword',{major:'heavy'});expiry.player.shield=20;expiry.hurt(expiry.player,5,'测试攻击');expiry.enemyQueue=[];
+const expiry=new Battle('sword',{major:'heavy'});expiry.player.shield=20;expiry.hurt(expiry.player,5,'测试攻击');expiry.enemyQueue=[];expiry.enemy.ap=0;
 assert.ok(expiry.endTurn().ok);expiry.enemyStep();assert.equal(expiry.round,2);assert.equal(expiry.player.edge,true);assert.ok(expiry.endTurn().ok);assert.equal(expiry.player.edge,false,'Unused guarded bonus expires at next own action end');
 
 const charged=new Battle('sword',{major:'heavy'});charged.enemy.reaction=false;charged.player.intent=3;charged.player.edge=true;

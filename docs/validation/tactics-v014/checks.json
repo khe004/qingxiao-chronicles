@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "name": "engine",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "auto",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "charge-window",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "sustain",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "heal",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "range",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "forecast",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "loadout",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "water",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "wood-earth",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "duel",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "flame",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "trial",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "questioning",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "charge-resource",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "npc-reactions",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "prepared-opponents",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "challenge",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "recap-save",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "prepared-trial",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "elements",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "prepared-ai",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "active-ai",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "tactics",
+      "code": 0,
+      "error": ""
+    },
+    {
+      "name": "predictive-arena",
+      "code": 0,
+      "error": ""
+    }
+  ],
+  "total": 25,
+  "browserScripts": [
+    "qa-duel.cjs",
+    "qa-save-recap.cjs",
+    "qa-tactics.cjs",
+    "qa-charged.cjs"
+  ],
+  "sizes": [
+    1440,
+    390,
+    320
+  ],
+  "matrices": {
+    "completeRecords": 1872,
+    "initialExecutions": 1872,
+    "firewoodSampleReruns": 276,
+    "totalMeasuredExecutions": 2148,
+    "structurallyReusedInFinalTactics": 660,
+    "sourceHashes": "matched all nine source files",
+    "deterministicFullReplays": 12
+  }
+}
