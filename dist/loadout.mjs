@@ -1,4 +1,5 @@
 import {CLASSES,MAJORS,normalizeLoadout} from './engine.mjs';
+import {TACTICAL_LOADOUTS} from './tactics.mjs';
 
 export function createLoadoutEditor({getBattle,onApply,onPause,onResume,rangeLabel,costHtml,getPreparation=()=>null}){
   const $=id=>document.getElementById(id),dialog=$('loadout-dialog');
@@ -39,6 +40,7 @@ export function createLoadoutEditor({getBattle,onApply,onPause,onResume,rangeLab
     if(button.dataset.major&&button.dataset.major!==draft.major){recommended(key,button.dataset.major);render(`[data-major="${draft.major}"]`);}
     if(button.dataset.equip){const id=button.dataset.equip,index=draft.skillIds.indexOf(id);if(index>=0)draft.skillIds.splice(index,1);else if(draft.skillIds.length<6)draft.skillIds.push(id);render(`[data-equip="${id}"]`);}
     if(button.id==='recommend-loadout'){recommended(key,draft.major);render('#recommend-loadout');}
+    if(button.id==='tactical-loadout'){draft=normalizeLoadout(key,{major:draft.major,skillIds:TACTICAL_LOADOUTS[key][draft.major]});render('#tactical-loadout');}
     if(button.id==='close-loadout'||button.id==='cancel-loadout')close();
     if(button.id==='apply-loadout'){
       try{const config=normalizeLoadout(key,draft);onApply(key,config);dialog.close();resume();}catch(error){$('loadout-error').textContent=error.message;}

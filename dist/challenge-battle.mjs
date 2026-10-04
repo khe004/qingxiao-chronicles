@@ -7,7 +7,7 @@ export class ChallengeBattle extends RecordedBattle{
   super(key,config);this.opponentId=id;this.difficulty=difficulty;this.limit=limit;const p=OPPONENTS[id];this.enemy=new Battle(p.key,opponentConfig(id)).player;this.enemy.name=p.name;this.enemy.shield=RULES.secondShield;
   for(const a of [this.player,this.enemy])a.qi=Object.fromEntries(ELEMENTS.map(k=>[k,0]));
   this.round=0;this.distance=distance;this.logs=[];this.serial=0;this.events=[];
-  this.log(`难度「${DIFFICULTIES[difficulty].name}」· 招式预告固定，距离或费用改变时跳过，不临时替换。`,'setup');
+  this.log(`难度「${DIFFICULTIES[difficulty].name}」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。`,'setup');
   this.log(`对手「${p.name}」· ${p.title}：${p.description}`,'setup');
   for(const a of [this.player,this.enemy])this.log(`${a.name}主修「${MAJORS[a.key][a.major].name}」，装备：${this.skills(a).map(s=>s.name).join('、')}。`,'setup');this.beginRound();
  }

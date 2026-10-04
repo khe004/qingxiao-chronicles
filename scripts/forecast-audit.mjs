@@ -15,7 +15,8 @@ export async function loadForecastModel(){
   assert.equal(source.split('function projectEnemyPhase(').length,2);
   assert.equal(source.split("'./engine.mjs'").length,2);
   const instrumented=source.replace('function projectEnemyPhase(','export function projectEnemyPhase(')
-    .replace("'./engine.mjs'",JSON.stringify(pathToFileURL(resolve(root,'dist/engine.mjs')).href));
+    .replace("'./engine.mjs'",JSON.stringify(pathToFileURL(resolve(root,'dist/engine.mjs')).href))
+    .replace("'./active-policy.mjs'",JSON.stringify(pathToFileURL(resolve(root,'dist/active-policy.mjs')).href));
   return import('data:text/javascript;base64,'+Buffer.from(instrumented).toString('base64'));
 }
 const boundaries=new WeakMap();
