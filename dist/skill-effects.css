@@ -28,3 +28,51 @@
 @keyframes unity-fizzle{from{opacity:.6;scale:1}to{opacity:0;scale:.8;translate:0 15px}}
 @media(max-width:680px){.unity-charge,.unity-fizzle{width:180px;height:180px}.unity-caption{font-size:13px;letter-spacing:2px}.unity-flight>svg{width:16px;height:55px}.unity-flight:before{width:70px;left:-70px}}
 @media(prefers-reduced-motion:reduce){.skill-effects *{animation:none!important;transition:none!important}.unity-orbit{stroke-dasharray:none;opacity:.3}.unity-inner,.unity-flight,.unity-impact-cut,.unity-impact i,.unity-fizzle{display:none}.unity-impact{opacity:.65;scale:.8}.unity-charge{opacity:1}.unity-impact-ring{box-shadow:none}}
+
+/* 三种蓄势各用独立的轮廓与释放动作。 */
+.charge-cast{position:absolute;width:0;height:0;--sun-rise:-98px}
+.charge-impact{position:absolute;width:0;height:0}
+.inferno-charge,.inferno-fizzle{color:#f4b271}.inferno-charge>svg,.inferno-fizzle>svg{filter:drop-shadow(0 0 6px #e8784666)}
+.inferno-seal{fill:#c4512915;stroke:#edac68;stroke-width:1.2}.inferno-seal.inner{stroke-dasharray:9 6;opacity:.6}
+.inferno-rune{fill:none;stroke:#f7bf78;stroke-width:1.3;opacity:.7}
+.inferno-flame{animation:inferno-breathe 2.1s ease-in-out var(--delay) infinite alternate;transform-origin:0 30px}
+.inferno-ember{fill:#ffd18a;animation:inferno-embers 2.8s ease-out var(--delay) infinite}
+.inferno-stream{position:absolute;top:var(--lane);animation:inferno-stream .55s cubic-bezier(.4,0,.75,.35) var(--delay) both}
+.inferno-stream>svg{position:absolute;left:-110px;top:-30px;width:145px;height:60px;transform:scaleX(var(--direction));filter:drop-shadow(0 0 8px #ed8345aa)}
+.inferno-pillar{position:absolute;left:-80px;top:-120px;width:160px;height:200px;transform-origin:50% 85%;filter:drop-shadow(0 0 12px #f27c4466);animation:inferno-pillar .85s ease-out .48s both}
+.inferno-ground-burst{position:absolute;left:-75px;top:48px;width:150px;height:35px;border:2px solid #efb76b;border-radius:50%;animation:charge-shockwave .85s ease-out .52s both}
+.inferno-spark,.solar-spark,.mountain-debris{position:absolute;width:4px;height:9px;background:#ffc879;transform:rotate(var(--angle)) translateY(-28px);animation:charge-fragments .75s ease-out calc(.52s + var(--delay)) both}
+.solar-charge,.solar-fizzle{color:#ffd68b}.solar-charge>svg,.solar-fizzle>svg{filter:drop-shadow(0 0 8px #ffb54e66)}
+.solar-core{fill:#f3a13f;stroke:#ffde90;stroke-width:2;animation:solar-breathe 2.7s ease-in-out infinite alternate;transform-origin:0 0}
+.solar-core-inner{fill:#ffe2a0}.solar-corona{fill:#e9a754;opacity:.85;animation:unity-orbit 28s linear infinite;transform-origin:0 0}
+.solar-halo{fill:#ec9b3412;stroke:#efc272;stroke-dasharray:4 9;stroke-width:.8;opacity:.55}
+.solar-meridian,.solar-thread{fill:none;stroke:#f4c277;stroke-width:1;opacity:.55}
+.solar-flight{position:absolute;top:var(--sun-rise);left:0;animation:solar-flight .65s cubic-bezier(.3,0,.65,.3) both}
+.solar-flight>span{position:absolute;inset:-29px;border-radius:50%;border:2px solid #ffe9a3;background:radial-gradient(circle at 42% 40%,#fff0c5,#ffbc60 55%,#ed793c);box-shadow:0 0 20px #ffc55e55}
+.solar-fall{position:absolute;left:-18px;top:-115px;width:36px;height:150px;background:linear-gradient(transparent,#f8b85588,#ffe3a3);border-radius:40%;transform-origin:50% 100%;animation:solar-fall .5s ease-out .55s both}
+.solar-burst{position:absolute;inset:-55px;background:radial-gradient(circle,#fff0bfaa,#ffbd5d55 38%,transparent 70%);border-radius:50%;animation:solar-burst .9s ease-out .59s both}
+.solar-shockwave{position:absolute;inset:-48px;border:2px solid #f5cf84;border-radius:50%;animation:charge-shockwave .8s ease-out .63s both}
+.solar-spark{height:17px;background:linear-gradient(#ffe6a5,transparent)}
+.mountain-charge,.mountain-fizzle{color:#d8c297}.mountain-charge>svg,.mountain-fizzle>svg{filter:drop-shadow(0 0 5px #c3be9266)}
+.mountain-array{fill:#bba17812;stroke:#beaa80;stroke-width:1}
+.mountain-seal{animation:mountain-hover 3s ease-in-out infinite alternate}
+.mountain-rock{fill:#857d67;stroke:#d2ba8e;stroke-width:1;animation:mountain-hover 2.5s ease-in-out var(--delay) infinite alternate}
+.mountain-drop{position:absolute;left:-65px;top:-70px;width:130px;height:125px;filter:drop-shadow(0 4px 10px #121c1ac9);animation:mountain-drop .9s cubic-bezier(.5,0,.8,.45) both}
+.mountain-shockwave{position:absolute;left:-85px;top:45px;width:170px;height:40px;border:3px solid #dbc294;border-radius:50%;box-shadow:0 0 12px #bba47a33;animation:charge-shockwave .85s ease-out .45s both}
+.mountain-debris{width:9px;height:11px;background:#98896c;border:1px solid #d5bd90;clip-path:polygon(20% 0,100% 15%,85% 100%,0 75%)}
+.charge-cast[data-outcome="shield"] .charge-impact:after{content:'';position:absolute;inset:-52px;border:2px solid #acd6e8;border-radius:50%;box-shadow:0 0 15px #85bad555;animation:charge-shockwave .85s ease-out .52s both}
+.charge-cast[data-outcome="shield"] .inferno-pillar,.charge-cast[data-outcome="shield"] .solar-burst{opacity:.55}
+@keyframes inferno-breathe{from{opacity:.6;scale:1 .85}to{opacity:.95;scale:1 1.08}}
+@keyframes inferno-embers{0%{opacity:0;translate:0 22px}25%{opacity:.8}100%{opacity:0;translate:5px -38px}}
+@keyframes inferno-stream{0%{opacity:0;translate:0 0;scale:.6}15%{opacity:.9}80%{opacity:.9}100%{opacity:0;translate:var(--flight-x) var(--flight-y);scale:1.1}}
+@keyframes inferno-pillar{0%{opacity:0;scale:.65 .1}22%{opacity:.85;scale:1 1}65%{opacity:.6}100%{opacity:0;scale:.9 1.15}}
+@keyframes charge-shockwave{0%{opacity:0;scale:.4}18%{opacity:.8}100%{opacity:0;scale:1.6}}
+@keyframes charge-fragments{0%{opacity:0;transform:rotate(var(--angle)) translateY(-22px)}15%{opacity:.85}100%{opacity:0;transform:rotate(var(--angle)) translateY(-90px)}}
+@keyframes solar-breathe{from{opacity:.8;scale:.96}to{opacity:1;scale:1.04}}
+@keyframes solar-flight{0%{opacity:0;translate:0 0;scale:.75}12%{opacity:1}50%{translate:calc(var(--flight-x)*.5) -22px}85%{opacity:1}100%{opacity:0;translate:var(--flight-x) calc(var(--flight-y) + 50px);scale:.85}}
+@keyframes solar-fall{0%{opacity:0;scale:.5 .2}30%{opacity:.8;scale:1 1}100%{opacity:0;scale:.7 1}}
+@keyframes solar-burst{0%{opacity:0;scale:.3}22%{opacity:.9;scale:1}100%{opacity:0;scale:1.5}}
+@keyframes mountain-hover{from{translate:0 3px}to{translate:0 -4px}}
+@keyframes mountain-drop{0%{opacity:0;translate:0 -80px;scale:.7}15%{opacity:1}52%{translate:0 15px;scale:1}65%{opacity:.8;translate:0 9px}100%{opacity:0;translate:0 20px;scale:1.05}}
+@media(max-width:680px){.charge-cast{--sun-rise:-74px}.inferno-stream>svg{width:95px;height:48px;left:-70px}.inferno-pillar{width:120px;height:160px;left:-60px;top:-95px}.solar-flight>span{inset:-22px}.solar-fall{height:115px;top:-85px;width:28px;left:-14px}.mountain-drop{width:105px;height:100px;left:-52px;top:-58px}.mountain-shockwave{width:120px;left:-60px}.inferno-ground-burst{width:110px;left:-55px}}
+@media(prefers-reduced-motion:reduce){.inferno-ember,.inferno-stream,.inferno-pillar,.inferno-spark,.solar-flight,.solar-fall,.solar-spark,.mountain-drop,.mountain-debris{display:none}.inferno-ground-burst,.solar-shockwave,.mountain-shockwave,.charge-cast[data-outcome="shield"] .charge-impact:after{opacity:.55;scale:.8;box-shadow:none}.solar-burst{opacity:.3;scale:.8}.solar-flight>span{box-shadow:none}}
