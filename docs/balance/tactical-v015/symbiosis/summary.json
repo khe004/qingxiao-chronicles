@@ -1,0 +1,158 @@
+{
+  "label": "3 symbiosis healing loop isolation; five fixed matchups; paired controller/seat",
+  "games": 80,
+  "limit": 30,
+  "groups": {
+    "baseline/immediate/balanced": {
+      "games": 10,
+      "wins": 4,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 106,
+      "actions": {
+        "wooddart": 115,
+        "basic": 62,
+        "graft": 61,
+        "bloomstrike": 9,
+        "bloomheal": 56,
+        "cultivate": 6
+      },
+      "unusedAP": 0
+    },
+    "baseline/prepared/balanced": {
+      "games": 10,
+      "wins": 8,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 190,
+      "actions": {
+        "wooddart": 114,
+        "basic": 109,
+        "far": 11,
+        "purify": 72,
+        "graft": 46,
+        "bloomheal": 46,
+        "cultivate": 100,
+        "bloomstrike": 28,
+        "thornscreen": 8,
+        "near": 2,
+        "unparasite": 26,
+        "sever-growth": 1
+      },
+      "unusedAP": 0
+    },
+    "heal-cost/immediate/balanced": {
+      "games": 10,
+      "wins": 3,
+      "losses": 7,
+      "unresolved": 0,
+      "rounds": 92,
+      "actions": {
+        "wooddart": 99,
+        "basic": 58,
+        "graft": 52,
+        "bloomstrike": 7,
+        "bloomheal": 48,
+        "cultivate": 4
+      },
+      "unusedAP": 0
+    },
+    "heal-cost/prepared/balanced": {
+      "games": 10,
+      "wins": 6,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 184,
+      "actions": {
+        "wooddart": 119,
+        "basic": 103,
+        "far": 11,
+        "purify": 61,
+        "graft": 47,
+        "bloomheal": 48,
+        "cultivate": 89,
+        "bloomstrike": 24,
+        "meditate": 3,
+        "near": 4,
+        "thornscreen": 7,
+        "unparasite": 26,
+        "sever-growth": 1
+      },
+      "unusedAP": 0
+    },
+    "heal-value/immediate/balanced": {
+      "games": 10,
+      "wins": 2,
+      "losses": 8,
+      "unresolved": 0,
+      "rounds": 91,
+      "actions": {
+        "wooddart": 90,
+        "basic": 59,
+        "graft": 55,
+        "bloomstrike": 5,
+        "bloomheal": 50
+      },
+      "unusedAP": 0
+    },
+    "heal-value/prepared/balanced": {
+      "games": 10,
+      "wins": 7,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 189,
+      "actions": {
+        "wooddart": 142,
+        "basic": 101,
+        "far": 10,
+        "purify": 70,
+        "graft": 39,
+        "bloomheal": 32,
+        "cultivate": 103,
+        "bloomstrike": 31,
+        "near": 3,
+        "thornscreen": 1,
+        "unparasite": 30
+      },
+      "unusedAP": 0
+    },
+    "cleanse/immediate/balanced": {
+      "games": 10,
+      "wins": 4,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 105,
+      "actions": {
+        "wooddart": 115,
+        "basic": 61,
+        "graft": 60,
+        "bloomstrike": 9,
+        "bloomheal": 55,
+        "cultivate": 6
+      },
+      "unusedAP": 0
+    },
+    "cleanse/prepared/balanced": {
+      "games": 10,
+      "wins": 7,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 192,
+      "actions": {
+        "wooddart": 135,
+        "basic": 106,
+        "far": 11,
+        "purify": 76,
+        "graft": 42,
+        "bloomheal": 42,
+        "cultivate": 101,
+        "bloomstrike": 24,
+        "thornscreen": 3,
+        "near": 2,
+        "unparasite": 26,
+        "sever-growth": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

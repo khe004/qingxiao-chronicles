@@ -59,7 +59,7 @@
         </aside>
       </div>
     </main>
-    <footer><span>青霄论道</span><span>战斗原型 v0.14.1 · 培育取舍与配装复查</span><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/twelve-school-v014/final/report.md" target="_blank" rel="noopener">原推荐胜率表 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/symbiosis-v0141/final/report.md" target="_blank" rel="noopener">新招配装对阵表 ↗</a></footer>
+    <footer><span>青霄论道</span><span>战斗原型 v0.15 · 具名套路与资源取舍</span><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/twelve-school-v014/final/report.md" target="_blank" rel="noopener">历版原推荐表 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/tactical-v015/final/report.md" target="_blank" rel="noopener">最新12×12对阵表 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/tactical-v015/README.md" target="_blank" rel="noopener">四倾向与套路对照 ↗</a></footer>
   </div>
   <dialog id="duel-dialog" class="duel-dialog" aria-labelledby="duel-title">
     <div class="loadout-header"><div><span class="small-label">青霄峰 · 自选 1 对 1</span><h2 id="duel-title">双方功法与立绘</h2><p class="duel-help">各选一门主修、六道神通和一张立绘。可同职业对战；男女立绘不影响数值。</p></div><button id="close-duel" class="close-button" aria-label="关闭双方配置">×</button></div>
@@ -75,6 +75,7 @@
       <p class="loadout-passive" id="loadout-passive"></p>
       <div class="loadout-section-heading"><h3>六个战斗槽位</h3><span id="loadout-count" role="status" aria-live="polite"></span></div>
       <div class="loadout-slots" id="loadout-slots" aria-label="已装备神通"></div>
+      <section class="build-panel" aria-label="套路建议"><label class="build-label" for="build-select">选择套路<select id="build-select"></select></label><div id="build-guide" class="build-guide"></div></section>
       <div class="loadout-library-heading"><div><h3>神通库 · 十二选六</h3><p id="loadout-hint" role="status" aria-live="polite"></p></div><div><button class="quiet" id="recommend-loadout">推荐搭配</button><button class="quiet" id="tactical-loadout">新招套路</button></div></div>
       <div id="loadout-skills" class="loadout-skills" role="group" aria-label="从十二个神通中装备六个"></div>
       <p id="loadout-style-tip" class="loadout-style-tip"></p>

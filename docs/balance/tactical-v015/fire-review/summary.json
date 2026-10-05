@@ -1,0 +1,193 @@
+{
+  "label": "4 ignite/sustain one-slot substitutions after healing-price change, fixed six opponents",
+  "games": 120,
+  "limit": 30,
+  "groups": {
+    "ignite/baseline/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "seed": 34,
+        "blaze": 68,
+        "spark": 39,
+        "sproutguard": 2,
+        "seedburst": 3,
+        "heal": 14,
+        "near": 8,
+        "basic": 6
+      },
+      "unusedAP": 0
+    },
+    "ignite/baseline/prepared/balanced": {
+      "games": 12,
+      "wins": 5,
+      "losses": 7,
+      "unresolved": 0,
+      "rounds": 105,
+      "actions": {
+        "sproutguard": 26,
+        "spark": 97,
+        "near": 46,
+        "blaze": 65,
+        "heal": 32,
+        "seed": 5,
+        "seedburst": 2,
+        "basic": 14,
+        "sever-growth": 6
+      },
+      "unusedAP": 0
+    },
+    "ignite/partial-ignite/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "seed": 33,
+        "blaze": 67,
+        "spark": 39,
+        "ember": 11,
+        "sproutguard": 2,
+        "heal": 16,
+        "near": 8,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "ignite/partial-ignite/prepared/balanced": {
+      "games": 12,
+      "wins": 3,
+      "losses": 9,
+      "unresolved": 0,
+      "rounds": 117,
+      "actions": {
+        "sproutguard": 19,
+        "spark": 73,
+        "ember": 38,
+        "near": 75,
+        "blaze": 62,
+        "heal": 51,
+        "basic": 8,
+        "seed": 1,
+        "sever-growth": 9,
+        "far": 2
+      },
+      "unusedAP": 0
+    },
+    "ignite/seed-channel/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "seed": 32,
+        "blaze": 69,
+        "spark": 45,
+        "sproutguard": 2,
+        "heal": 14,
+        "near": 8,
+        "basic": 6
+      },
+      "unusedAP": 0
+    },
+    "ignite/seed-channel/prepared/balanced": {
+      "games": 12,
+      "wins": 4,
+      "losses": 8,
+      "unresolved": 0,
+      "rounds": 109,
+      "actions": {
+        "sproutguard": 23,
+        "spark": 105,
+        "near": 51,
+        "blaze": 66,
+        "heal": 35,
+        "basic": 16,
+        "sever-growth": 12,
+        "seed": 4
+      },
+      "unusedAP": 0
+    },
+    "sustain/baseline/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 94,
+      "actions": {
+        "seed": 6,
+        "blaze": 43,
+        "spark": 112,
+        "heal": 52,
+        "nourish": 22,
+        "sproutguard": 1,
+        "near": 25,
+        "basic": 16
+      },
+      "unusedAP": 0
+    },
+    "sustain/baseline/prepared/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 118,
+      "actions": {
+        "sproutguard": 22,
+        "spark": 92,
+        "near": 63,
+        "blaze": 71,
+        "basic": 12,
+        "heal": 45,
+        "seed": 3,
+        "nourish": 14,
+        "far": 1,
+        "sever-growth": 17
+      },
+      "unusedAP": 0
+    },
+    "sustain/partial-sustain/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 96,
+      "actions": {
+        "seed": 9,
+        "blaze": 37,
+        "spark": 85,
+        "heal": 52,
+        "nourish": 23,
+        "ember": 49,
+        "near": 23,
+        "basic": 5
+      },
+      "unusedAP": 0
+    },
+    "sustain/partial-sustain/prepared/balanced": {
+      "games": 12,
+      "wins": 4,
+      "losses": 8,
+      "unresolved": 0,
+      "rounds": 110,
+      "actions": {
+        "seed": 7,
+        "blaze": 49,
+        "spark": 84,
+        "heal": 49,
+        "near": 52,
+        "nourish": 18,
+        "basic": 13,
+        "far": 1,
+        "ember": 29,
+        "sever-growth": 8
+      },
+      "unusedAP": 0
+    }
+  }
+}

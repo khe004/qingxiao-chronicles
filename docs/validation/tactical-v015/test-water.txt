@@ -1,0 +1,1 @@
+Water: paid single-use control, movement ownership, phase expiry, selective cleansing, cold cashout, finite shared tide, regeneration caps, immutable failures, frozen plans, both-seat timing and 12 full-state forecast cases passed.

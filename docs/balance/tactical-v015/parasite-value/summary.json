@@ -1,0 +1,77 @@
+{
+  "label": "1 twin-vine payoff candidate, two AP and all costs/requirements held",
+  "games": 48,
+  "limit": 30,
+  "groups": {
+    "baseline-twin-value/immediate/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 107,
+      "actions": {
+        "wooddart": 236,
+        "basic": 27,
+        "parasite": 24,
+        "leafmend": 24,
+        "cultivate": 4
+      },
+      "unusedAP": 0
+    },
+    "baseline-twin-value/prepared/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 146,
+      "actions": {
+        "wooddart": 113,
+        "basic": 56,
+        "far": 15,
+        "parasite": 120,
+        "purify": 9,
+        "leafmend": 59,
+        "reap": 14,
+        "cultivate": 25,
+        "near": 7,
+        "meditate": 1,
+        "sever-growth": 1,
+        "twinvine": 2
+      },
+      "unusedAP": 0
+    },
+    "growth-heal-twin-value/immediate/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 121,
+      "actions": {
+        "wooddart": 229,
+        "basic": 37,
+        "cultivate": 43,
+        "bloomheal": 43
+      },
+      "unusedAP": 0
+    },
+    "growth-heal-twin-value/prepared/balanced": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 178,
+      "actions": {
+        "wooddart": 137,
+        "parasite": 150,
+        "far": 15,
+        "basic": 51,
+        "cultivate": 73,
+        "bloomheal": 54,
+        "purify": 4,
+        "reap": 21,
+        "near": 17
+      },
+      "unusedAP": 0
+    }
+  }
+}

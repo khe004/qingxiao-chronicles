@@ -1,0 +1,1 @@
+Trial: three stages, outcomes including draws, full resets, immutable/idempotent archives, retries and retained previous runs passed.

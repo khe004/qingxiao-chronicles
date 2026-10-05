@@ -29,7 +29,9 @@ function advance(b,t='balanced'){
 }
 
 // Preparation must actually survive the enemy phase and lead to a later harvest.
-const grow=new DuelBattle('wood',{major:'symbiosis'},{key:'earth'});grow.player.hp=70;queue(grow,['stonebolt','stonebolt','stonebolt']);
+// The foe spends an action building terrain, leaving a credible maturation
+// window. Against three direct attacks an early defensive harvest is valid.
+const grow=new DuelBattle('wood',{major:'symbiosis'},{key:'earth'});grow.player.hp=70;queue(grow,['foundation','landbreak','stonebolt']);
 const growIds=phase(grow,'defensive');assert.ok(growIds.includes('cultivate'));assert.ok(grow.player.growthPending);
 advance(grow,'defensive');assert.equal(grow.player.growth,3);const harvest=phase(grow,'defensive');
 assert.ok(harvest.some(id=>['bloomheal','bloomguard','bloomstrike'].includes(id)),'The mature preparation is spent by real, later actions');

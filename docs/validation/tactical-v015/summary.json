@@ -1,0 +1,134 @@
+[
+  {
+    "test": "engine",
+    "exit": 0
+  },
+  {
+    "test": "auto",
+    "exit": 0
+  },
+  {
+    "test": "loadout",
+    "exit": 0
+  },
+  {
+    "test": "charge-window",
+    "exit": 0
+  },
+  {
+    "test": "sustain",
+    "exit": 0
+  },
+  {
+    "test": "heal",
+    "exit": 0
+  },
+  {
+    "test": "range",
+    "exit": 0
+  },
+  {
+    "test": "forecast",
+    "exit": 0
+  },
+  {
+    "test": "flame",
+    "exit": 0
+  },
+  {
+    "test": "water",
+    "exit": 0
+  },
+  {
+    "test": "wood-earth",
+    "exit": 0
+  },
+  {
+    "test": "duel",
+    "exit": 0
+  },
+  {
+    "test": "challenge",
+    "exit": 0
+  },
+  {
+    "test": "trial",
+    "exit": 0
+  },
+  {
+    "test": "questioning",
+    "exit": 0
+  },
+  {
+    "test": "charge-resource",
+    "exit": 0
+  },
+  {
+    "test": "npc-reactions",
+    "exit": 0
+  },
+  {
+    "test": "prepared-opponents",
+    "exit": 0
+  },
+  {
+    "test": "prepared-ai",
+    "exit": 0
+  },
+  {
+    "test": "recap-save",
+    "exit": 0
+  },
+  {
+    "test": "prepared-trial",
+    "exit": 0
+  },
+  {
+    "test": "elements",
+    "exit": 0
+  },
+  {
+    "test": "predictive-arena",
+    "exit": 0
+  },
+  {
+    "test": "active-ai",
+    "exit": 0
+  },
+  {
+    "test": "tactics",
+    "exit": 0
+  },
+  {
+    "test": "symbiosis",
+    "exit": 0
+  },
+  {
+    "test": "ai-review",
+    "exit": 0
+  },
+  {
+    "test": "twelve-school",
+    "exit": 0
+  },
+  {
+    "test": "balance-resume",
+    "exit": 0
+  },
+  {
+    "test": "matrix-aggressive",
+    "exit": 0
+  },
+  {
+    "test": "matrix-defensive",
+    "exit": 0
+  },
+  {
+    "test": "matrix-burst",
+    "exit": 0
+  },
+  {
+    "test": "build-cohort",
+    "exit": 0
+  }
+]

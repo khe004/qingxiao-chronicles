@@ -1,0 +1,146 @@
+{
+  "label": "1 parasite loadout paired screening, unchanged v0.14.1 rules",
+  "games": 96,
+  "limit": 30,
+  "groups": {
+    "baseline/immediate/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 107,
+      "actions": {
+        "wooddart": 236,
+        "basic": 27,
+        "parasite": 24,
+        "leafmend": 24,
+        "cultivate": 4
+      },
+      "unusedAP": 0
+    },
+    "baseline/prepared/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 149,
+      "actions": {
+        "wooddart": 125,
+        "basic": 69,
+        "far": 15,
+        "parasite": 124,
+        "purify": 11,
+        "leafmend": 44,
+        "reap": 12,
+        "cultivate": 22,
+        "near": 6,
+        "meditate": 1,
+        "twinvine": 1
+      },
+      "unusedAP": 0
+    },
+    "growth-heal/immediate/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 121,
+      "actions": {
+        "wooddart": 229,
+        "basic": 37,
+        "cultivate": 43,
+        "bloomheal": 43
+      },
+      "unusedAP": 0
+    },
+    "growth-heal/prepared/balanced": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 176,
+      "actions": {
+        "wooddart": 133,
+        "parasite": 150,
+        "far": 15,
+        "basic": 60,
+        "cultivate": 70,
+        "bloomheal": 47,
+        "purify": 4,
+        "reap": 21,
+        "near": 17
+      },
+      "unusedAP": 0
+    },
+    "direct-counter/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 121,
+      "actions": {
+        "wooddart": 277,
+        "basic": 27,
+        "parasite": 24,
+        "leafmend": 24
+      },
+      "unusedAP": 0
+    },
+    "direct-counter/prepared/balanced": {
+      "games": 12,
+      "wins": 5,
+      "losses": 7,
+      "unresolved": 0,
+      "rounds": 183,
+      "actions": {
+        "wooddart": 181,
+        "parasite": 155,
+        "basic": 81,
+        "leafmend": 16,
+        "purify": 11,
+        "prune": 8,
+        "far": 3,
+        "thornscreen": 56,
+        "reap": 16,
+        "near": 6,
+        "sever-growth": 1,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "recommended/immediate/balanced": {
+      "games": 12,
+      "wins": 9,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 122,
+      "actions": {
+        "wooddart": 265,
+        "basic": 29,
+        "cultivate": 32,
+        "bloomheal": 32
+      },
+      "unusedAP": 0
+    },
+    "recommended/prepared/balanced": {
+      "games": 12,
+      "wins": 11,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 161,
+      "actions": {
+        "wooddart": 119,
+        "parasite": 127,
+        "basic": 48,
+        "purify": 7,
+        "reap": 25,
+        "cultivate": 71,
+        "bloomheal": 48,
+        "far": 3,
+        "near": 15,
+        "prune": 12
+      },
+      "unusedAP": 0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "label": "4 bastion single-slot healing to attack-and-break confirmation",
+  "games": 24,
+  "limit": 30,
+  "groups": {
+    "earth/counter/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 100,
+      "actions": {
+        "stonebolt": 265,
+        "gravel": 20,
+        "foundation": 5,
+        "landbreak": 1,
+        "basic": 1,
+        "quakesunder": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/counter/prepared/balanced": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 173,
+      "actions": {
+        "stonebolt": 198,
+        "gravel": 96,
+        "stoneback": 90,
+        "basic": 17,
+        "purify": 12,
+        "foundation": 28,
+        "near": 26,
+        "landbreak": 22,
+        "sever-growth": 2,
+        "quakesunder": 14
+      },
+      "unusedAP": 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "dist/rules.mjs": "b34d5062639f207bf0593a2af4593004e2188f30183abc8d5ce880e1b499c9c6",
+  "dist/engine.mjs": "8c47b2707ff57f1979498fcf9c7e206788ecc671ff120ecc0fb086c149dc00d9",
+  "dist/prepared.mjs": "6cf11c26cfb0afd58ccf0e96fde90e7d7554c1a6002da70c0f5b3925a380fbbb",
+  "dist/auto.mjs": "363289b5aacbea11fb7d6d02406783a142b948ad749fd082ecc4194095c327ff",
+  "dist/tactics.mjs": "ad2eb5c5727c3413a9da98ddedb29e3eac0835c12c720740d72de9ac2ebf3bd6",
+  "dist/active-policy.mjs": "54c0ceda014884606f53ce0c4b6e46d99d735bd32024143d6bc8967ce3fc9ee8",
+  "scripts/predictive-arena.mjs": "b0ed82174cf09c96d201c5f710ecd381e9d2f1b6bcfaa3980cf6382c7ae20fc9",
+  "scripts/planner-internals.mjs": "2a54bdd60d8c3f537218032096f5d1f68a9ee35d49f7411c3da1df25c50de6e4",
+  "scripts/review-tactics.mjs": "d24a7df87625d6b44e54c7448ed511d653742e558d5a618fecb8e3cd5463c6a9"
+}
