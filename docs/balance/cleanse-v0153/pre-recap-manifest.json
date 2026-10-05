@@ -1,0 +1,8 @@
+{
+  "retainedCompletedRecords": {
+    "pre-recap-partial": 552,
+    "pre-recap-defensive": 468
+  },
+  "scope": "Combined parameters before correcting purify overheal metrics. Partial balanced run was stopped. Results excluded from final matrix; corrected source is measured afresh. In-flight unretained work is not counted as evidence.",
+  "counting": "1020 extra completed records excluded from 4056 adopted research executions and final-version denominator; total retained executions 5076."
+}

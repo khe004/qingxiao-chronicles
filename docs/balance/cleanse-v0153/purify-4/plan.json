@@ -1,0 +1,2813 @@
+{
+  "label": "Isolated purify healing 4; explicit variant source or skillOverride; 30-round limit; exact historical scenarios stored separately, zero new baseline executions.",
+  "jobs": [
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "purify-4"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "purify-4"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "newExecutions": 180,
+  "baseline": "docs/balance/cleanse-v0153/confirmation-baseline-records.json.gz",
+  "specs": [
+    {
+      "id": "rinse-clear-1",
+      "directory": "docs/balance/cleanse-v0153/rinse-clear-1",
+      "clearBurn": 1,
+      "newExecutions": 90
+    },
+    {
+      "id": "rinse-clear-2",
+      "directory": "docs/balance/cleanse-v0153/rinse-clear-2",
+      "clearBurn": 2,
+      "newExecutions": 90
+    }
+  ]
+}

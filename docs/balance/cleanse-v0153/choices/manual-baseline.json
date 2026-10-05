@@ -1,0 +1,282 @@
+{
+  "scope": "Read-only baseline reproduction, zero-burn universal purify can restore 24 HP in three paid actions; not a duel or win-rate sample",
+  "before": {
+    "round": 1,
+    "phase": "player",
+    "distance": "中距",
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 100,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 4,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": true,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "fire",
+      "major": "ignite",
+      "skillIds": [
+        "seed",
+        "spark",
+        "blaze",
+        "heal",
+        "vine",
+        "inferno"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "沈知微",
+      "hp": 210,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 2,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": true,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false
+    },
+    "enemyPlan": [
+      "seed",
+      "blaze",
+      "spark"
+    ],
+    "result": null,
+    "pending": null
+  },
+  "actions": [
+    {
+      "ok": true
+    },
+    {
+      "ok": true
+    },
+    {
+      "ok": true
+    }
+  ],
+  "after": {
+    "round": 1,
+    "phase": "player",
+    "distance": "中距",
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 124,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 2,
+        "earth": 0,
+        "any": 0
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "fire",
+      "major": "ignite",
+      "skillIds": [
+        "seed",
+        "spark",
+        "blaze",
+        "heal",
+        "vine",
+        "inferno"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "沈知微",
+      "hp": 210,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 2,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": true,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false
+    },
+    "enemyPlan": [
+      "seed",
+      "blaze",
+      "spark"
+    ],
+    "result": null,
+    "pending": null
+  },
+  "logs": [
+    {
+      "id": 1,
+      "round": 0,
+      "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+      "type": "setup"
+    },
+    {
+      "id": 2,
+      "round": 0,
+      "text": "沈知微主修「引燃爆发」，装备：催生术、流火诀、焚炎术、青木回春、缠灵藤、离火焚天。",
+      "type": "setup"
+    },
+    {
+      "id": 3,
+      "round": 1,
+      "text": "第 1 回合 · 双方纳气，轮到你行动。",
+      "type": "round"
+    },
+    {
+      "id": 4,
+      "round": 1,
+      "text": "你施展「净息」。",
+      "type": "player"
+    },
+    {
+      "id": 5,
+      "round": 1,
+      "text": "你恢复 8 气血，清除灼烧。",
+      "type": "heal"
+    },
+    {
+      "id": 6,
+      "round": 1,
+      "text": "你施展「净息」。",
+      "type": "player"
+    },
+    {
+      "id": 7,
+      "round": 1,
+      "text": "你恢复 8 气血，清除灼烧。",
+      "type": "heal"
+    },
+    {
+      "id": 8,
+      "round": 1,
+      "text": "你施展「净息」。",
+      "type": "player"
+    },
+    {
+      "id": 9,
+      "round": 1,
+      "text": "你恢复 8 气血，清除灼烧。",
+      "type": "heal"
+    }
+  ]
+}

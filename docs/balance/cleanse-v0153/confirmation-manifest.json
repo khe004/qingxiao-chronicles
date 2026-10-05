@@ -1,0 +1,42 @@
+{
+  "newExecutions": 660,
+  "historicalUniqueRecords": 606,
+  "historicalNewExecutions": 0,
+  "specs": [
+    {
+      "id": "purify-0",
+      "directory": "docs/balance/cleanse-v0153/purify-0-confirm",
+      "screenExecutions": 72,
+      "newExecutions": 288,
+      "combinedUniqueScenarios": 360,
+      "targets": [
+        "fire/ignite",
+        "flame/fierce",
+        "flame/smolder"
+      ]
+    },
+    {
+      "id": "rinse-14",
+      "directory": "docs/balance/cleanse-v0153/rinse-14-confirm",
+      "screenExecutions": 132,
+      "newExecutions": 186,
+      "combinedUniqueScenarios": 318,
+      "targets": [
+        "water/cold",
+        "water/tidal"
+      ]
+    },
+    {
+      "id": "rinse-12",
+      "directory": "docs/balance/cleanse-v0153/rinse-12-confirm",
+      "screenExecutions": 132,
+      "newExecutions": 186,
+      "combinedUniqueScenarios": 318,
+      "targets": [
+        "water/cold",
+        "water/tidal"
+      ]
+    }
+  ],
+  "scope": "Only unscreened scenarios are freshly executed; common target-versus-target pairs execute once and contribute to both row totals. Original ordered actors and full kits remain fixed."
+}

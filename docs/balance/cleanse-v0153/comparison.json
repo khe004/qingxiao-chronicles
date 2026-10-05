@@ -1,0 +1,1241 @@
+{
+  "before": "docs/balance/pressure-v0152",
+  "after": "docs/balance/cleanse-v0153",
+  "finalExecutions": 1404,
+  "controllers": {
+    "final/prepared": {
+      "rows": [
+        {
+          "id": "fire/ignite",
+          "name": "引燃爆发",
+          "before": {
+            "id": "fire/ignite",
+            "name": "引燃爆发",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/ignite",
+            "name": "引燃爆发",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          }
+        },
+        {
+          "id": "fire/sustain",
+          "name": "生息消耗",
+          "before": {
+            "id": "fire/sustain",
+            "name": "生息消耗",
+            "games": 66,
+            "wins": 24,
+            "losses": 42,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/sustain",
+            "name": "生息消耗",
+            "games": 66,
+            "wins": 26,
+            "losses": 40,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/quick",
+          "name": "快剑压制",
+          "before": {
+            "id": "sword/quick",
+            "name": "快剑压制",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/quick",
+            "name": "快剑压制",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/heavy",
+          "name": "藏锋重剑",
+          "before": {
+            "id": "sword/heavy",
+            "name": "藏锋重剑",
+            "games": 66,
+            "wins": 29,
+            "losses": 37,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/heavy",
+            "name": "藏锋重剑",
+            "games": 66,
+            "wins": 29,
+            "losses": 37,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/fierce",
+          "name": "烈焰强攻",
+          "before": {
+            "id": "flame/fierce",
+            "name": "烈焰强攻",
+            "games": 66,
+            "wins": 27,
+            "losses": 39,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/fierce",
+            "name": "烈焰强攻",
+            "games": 66,
+            "wins": 30,
+            "losses": 36,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/smolder",
+          "name": "焚灼消耗",
+          "before": {
+            "id": "flame/smolder",
+            "name": "焚灼消耗",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/smolder",
+            "name": "焚灼消耗",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/cold",
+          "name": "寒凝控距",
+          "before": {
+            "id": "water/cold",
+            "name": "寒凝控距",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/cold",
+            "name": "寒凝控距",
+            "games": 66,
+            "wins": 35,
+            "losses": 31,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/tidal",
+          "name": "潮汐调息",
+          "before": {
+            "id": "water/tidal",
+            "name": "潮汐调息",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/tidal",
+            "name": "潮汐调息",
+            "games": 66,
+            "wins": 30,
+            "losses": 36,
+            "draws": 0
+          }
+        },
+        {
+          "id": "wood/symbiosis",
+          "name": "灵植共生",
+          "before": {
+            "id": "wood/symbiosis",
+            "name": "灵植共生",
+            "games": 66,
+            "wins": 34,
+            "losses": 29,
+            "draws": 3
+          },
+          "after": {
+            "id": "wood/symbiosis",
+            "name": "灵植共生",
+            "games": 66,
+            "wins": 34,
+            "losses": 29,
+            "draws": 3
+          }
+        },
+        {
+          "id": "wood/parasitic",
+          "name": "毒藤寄生",
+          "before": {
+            "id": "wood/parasitic",
+            "name": "毒藤寄生",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          },
+          "after": {
+            "id": "wood/parasitic",
+            "name": "毒藤寄生",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          }
+        },
+        {
+          "id": "earth/bastion",
+          "name": "壁垒守御",
+          "before": {
+            "id": "earth/bastion",
+            "name": "壁垒守御",
+            "games": 66,
+            "wins": 38,
+            "losses": 27,
+            "draws": 1
+          },
+          "after": {
+            "id": "earth/bastion",
+            "name": "壁垒守御",
+            "games": 66,
+            "wins": 38,
+            "losses": 27,
+            "draws": 1
+          }
+        },
+        {
+          "id": "earth/mountain",
+          "name": "镇岳压制",
+          "before": {
+            "id": "earth/mountain",
+            "name": "镇岳压制",
+            "games": 66,
+            "wins": 42,
+            "losses": 22,
+            "draws": 2
+          },
+          "after": {
+            "id": "earth/mountain",
+            "name": "镇岳压制",
+            "games": 66,
+            "wins": 42,
+            "losses": 22,
+            "draws": 2
+          }
+        }
+      ],
+      "drawsBefore": 3,
+      "drawsAfter": 3,
+      "extremes": [
+        {
+          "a": "fire/ignite",
+          "b": "fire/sustain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/ignite",
+          "b": "flame/smolder",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/ignite",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "flame/fierce",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "flame/fierce",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "wood/symbiosis",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 4,
+          "losses": 0,
+          "draws": 2
+        },
+        {
+          "a": "earth/bastion",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        }
+      ]
+    },
+    "final/immediate": {
+      "rows": [
+        {
+          "id": "fire/ignite",
+          "name": "引燃爆发",
+          "before": {
+            "id": "fire/ignite",
+            "name": "引燃爆发",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/ignite",
+            "name": "引燃爆发",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          }
+        },
+        {
+          "id": "fire/sustain",
+          "name": "生息消耗",
+          "before": {
+            "id": "fire/sustain",
+            "name": "生息消耗",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/sustain",
+            "name": "生息消耗",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/quick",
+          "name": "快剑压制",
+          "before": {
+            "id": "sword/quick",
+            "name": "快剑压制",
+            "games": 66,
+            "wins": 27,
+            "losses": 39,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/quick",
+            "name": "快剑压制",
+            "games": 66,
+            "wins": 27,
+            "losses": 39,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/heavy",
+          "name": "藏锋重剑",
+          "before": {
+            "id": "sword/heavy",
+            "name": "藏锋重剑",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/heavy",
+            "name": "藏锋重剑",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/fierce",
+          "name": "烈焰强攻",
+          "before": {
+            "id": "flame/fierce",
+            "name": "烈焰强攻",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/fierce",
+            "name": "烈焰强攻",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/smolder",
+          "name": "焚灼消耗",
+          "before": {
+            "id": "flame/smolder",
+            "name": "焚灼消耗",
+            "games": 66,
+            "wins": 45,
+            "losses": 21,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/smolder",
+            "name": "焚灼消耗",
+            "games": 66,
+            "wins": 45,
+            "losses": 21,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/cold",
+          "name": "寒凝控距",
+          "before": {
+            "id": "water/cold",
+            "name": "寒凝控距",
+            "games": 66,
+            "wins": 37,
+            "losses": 29,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/cold",
+            "name": "寒凝控距",
+            "games": 66,
+            "wins": 37,
+            "losses": 29,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/tidal",
+          "name": "潮汐调息",
+          "before": {
+            "id": "water/tidal",
+            "name": "潮汐调息",
+            "games": 66,
+            "wins": 42,
+            "losses": 24,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/tidal",
+            "name": "潮汐调息",
+            "games": 66,
+            "wins": 42,
+            "losses": 24,
+            "draws": 0
+          }
+        },
+        {
+          "id": "wood/symbiosis",
+          "name": "灵植共生",
+          "before": {
+            "id": "wood/symbiosis",
+            "name": "灵植共生",
+            "games": 66,
+            "wins": 28,
+            "losses": 38,
+            "draws": 0
+          },
+          "after": {
+            "id": "wood/symbiosis",
+            "name": "灵植共生",
+            "games": 66,
+            "wins": 28,
+            "losses": 38,
+            "draws": 0
+          }
+        },
+        {
+          "id": "wood/parasitic",
+          "name": "毒藤寄生",
+          "before": {
+            "id": "wood/parasitic",
+            "name": "毒藤寄生",
+            "games": 66,
+            "wins": 33,
+            "losses": 33,
+            "draws": 0
+          },
+          "after": {
+            "id": "wood/parasitic",
+            "name": "毒藤寄生",
+            "games": 66,
+            "wins": 33,
+            "losses": 33,
+            "draws": 0
+          }
+        },
+        {
+          "id": "earth/bastion",
+          "name": "壁垒守御",
+          "before": {
+            "id": "earth/bastion",
+            "name": "壁垒守御",
+            "games": 66,
+            "wins": 35,
+            "losses": 31,
+            "draws": 0
+          },
+          "after": {
+            "id": "earth/bastion",
+            "name": "壁垒守御",
+            "games": 66,
+            "wins": 35,
+            "losses": 31,
+            "draws": 0
+          }
+        },
+        {
+          "id": "earth/mountain",
+          "name": "镇岳压制",
+          "before": {
+            "id": "earth/mountain",
+            "name": "镇岳压制",
+            "games": 66,
+            "wins": 24,
+            "losses": 42,
+            "draws": 0
+          },
+          "after": {
+            "id": "earth/mountain",
+            "name": "镇岳压制",
+            "games": 66,
+            "wins": 24,
+            "losses": 42,
+            "draws": 0
+          }
+        }
+      ],
+      "drawsBefore": 0,
+      "drawsAfter": 0,
+      "extremes": [
+        {
+          "a": "fire/ignite",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/ignite",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "flame/smolder",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "flame/smolder",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "wood/parasitic",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "wood/parasitic",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        }
+      ]
+    },
+    "defensive/immediate": {
+      "rows": [
+        {
+          "id": "fire/ignite",
+          "name": "引燃爆发",
+          "before": {
+            "id": "fire/ignite",
+            "name": "引燃爆发",
+            "games": 66,
+            "wins": 30,
+            "losses": 36,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/ignite",
+            "name": "引燃爆发",
+            "games": 66,
+            "wins": 31,
+            "losses": 35,
+            "draws": 0
+          }
+        },
+        {
+          "id": "fire/sustain",
+          "name": "生息消耗",
+          "before": {
+            "id": "fire/sustain",
+            "name": "生息消耗",
+            "games": 66,
+            "wins": 29,
+            "losses": 31,
+            "draws": 6
+          },
+          "after": {
+            "id": "fire/sustain",
+            "name": "生息消耗",
+            "games": 66,
+            "wins": 29,
+            "losses": 31,
+            "draws": 6
+          }
+        },
+        {
+          "id": "sword/quick",
+          "name": "快剑压制",
+          "before": {
+            "id": "sword/quick",
+            "name": "快剑压制",
+            "games": 66,
+            "wins": 31,
+            "losses": 31,
+            "draws": 4
+          },
+          "after": {
+            "id": "sword/quick",
+            "name": "快剑压制",
+            "games": 66,
+            "wins": 31,
+            "losses": 31,
+            "draws": 4
+          }
+        },
+        {
+          "id": "sword/heavy",
+          "name": "藏锋重剑",
+          "before": {
+            "id": "sword/heavy",
+            "name": "藏锋重剑",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/heavy",
+            "name": "藏锋重剑",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/fierce",
+          "name": "烈焰强攻",
+          "before": {
+            "id": "flame/fierce",
+            "name": "烈焰强攻",
+            "games": 66,
+            "wins": 44,
+            "losses": 22,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/fierce",
+            "name": "烈焰强攻",
+            "games": 66,
+            "wins": 48,
+            "losses": 18,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/smolder",
+          "name": "焚灼消耗",
+          "before": {
+            "id": "flame/smolder",
+            "name": "焚灼消耗",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/smolder",
+            "name": "焚灼消耗",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/cold",
+          "name": "寒凝控距",
+          "before": {
+            "id": "water/cold",
+            "name": "寒凝控距",
+            "games": 66,
+            "wins": 38,
+            "losses": 28,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/cold",
+            "name": "寒凝控距",
+            "games": 66,
+            "wins": 37,
+            "losses": 29,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/tidal",
+          "name": "潮汐调息",
+          "before": {
+            "id": "water/tidal",
+            "name": "潮汐调息",
+            "games": 66,
+            "wins": 49,
+            "losses": 3,
+            "draws": 14
+          },
+          "after": {
+            "id": "water/tidal",
+            "name": "潮汐调息",
+            "games": 66,
+            "wins": 45,
+            "losses": 7,
+            "draws": 14
+          }
+        },
+        {
+          "id": "wood/symbiosis",
+          "name": "灵植共生",
+          "before": {
+            "id": "wood/symbiosis",
+            "name": "灵植共生",
+            "games": 66,
+            "wins": 15,
+            "losses": 48,
+            "draws": 3
+          },
+          "after": {
+            "id": "wood/symbiosis",
+            "name": "灵植共生",
+            "games": 66,
+            "wins": 15,
+            "losses": 48,
+            "draws": 3
+          }
+        },
+        {
+          "id": "wood/parasitic",
+          "name": "毒藤寄生",
+          "before": {
+            "id": "wood/parasitic",
+            "name": "毒藤寄生",
+            "games": 66,
+            "wins": 21,
+            "losses": 43,
+            "draws": 2
+          },
+          "after": {
+            "id": "wood/parasitic",
+            "name": "毒藤寄生",
+            "games": 66,
+            "wins": 21,
+            "losses": 43,
+            "draws": 2
+          }
+        },
+        {
+          "id": "earth/bastion",
+          "name": "壁垒守御",
+          "before": {
+            "id": "earth/bastion",
+            "name": "壁垒守御",
+            "games": 66,
+            "wins": 42,
+            "losses": 17,
+            "draws": 7
+          },
+          "after": {
+            "id": "earth/bastion",
+            "name": "壁垒守御",
+            "games": 66,
+            "wins": 42,
+            "losses": 17,
+            "draws": 7
+          }
+        },
+        {
+          "id": "earth/mountain",
+          "name": "镇岳压制",
+          "before": {
+            "id": "earth/mountain",
+            "name": "镇岳压制",
+            "games": 66,
+            "wins": 19,
+            "losses": 41,
+            "draws": 6
+          },
+          "after": {
+            "id": "earth/mountain",
+            "name": "镇岳压制",
+            "games": 66,
+            "wins": 19,
+            "losses": 41,
+            "draws": 6
+          }
+        }
+      ],
+      "drawsBefore": 27,
+      "drawsAfter": 27,
+      "extremes": [
+        {
+          "a": "fire/ignite",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/ignite",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 4,
+          "losses": 0,
+          "draws": 2
+        },
+        {
+          "a": "sword/quick",
+          "b": "sword/heavy",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 3,
+          "draws": 3
+        },
+        {
+          "a": "sword/quick",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 5,
+          "losses": 0,
+          "draws": 1
+        },
+        {
+          "a": "water/tidal",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 0,
+          "draws": 6
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 2,
+          "draws": 4
+        },
+        {
+          "a": "wood/parasitic",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "earth/bastion",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        }
+      ]
+    }
+  },
+  "matchedIsolatedClearOneScenarios": 90,
+  "unchangedNonBurnScenarios": 648
+}

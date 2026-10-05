@@ -1,0 +1,33 @@
+{
+  "id": "rinse-12",
+  "kind": "rinse",
+  "heal": 12,
+  "sourceBaseline": "docs/balance/pressure-v0152",
+  "baselineHashes": {
+    "dist/rules.mjs": "91604c0f7b418f8e660af5d2fbc144b82efec87281d4ebdc0f7b50ffa3847519",
+    "dist/engine.mjs": "8c47b2707ff57f1979498fcf9c7e206788ecc671ff120ecc0fb086c149dc00d9",
+    "dist/prepared.mjs": "6cf11c26cfb0afd58ccf0e96fde90e7d7554c1a6002da70c0f5b3925a380fbbb",
+    "dist/auto.mjs": "7283eddd776b78c56c6ea5e94751ab87e3d5e1c11c39daf21e1b309cc493ed10",
+    "dist/tactics.mjs": "ccf62a8d1c087a8cd2143f42e63770f88f96234fd9fed4fefe480a7ed1512108",
+    "dist/active-policy.mjs": "f1a19ce052c1954d63eb67028f9b143180ff7c63d7fe8a914c2fcd5ce74084e2",
+    "dist/recorded-battle.mjs": "07698647e6432451f926bf4ceedb2471b98ea8d81e02899d67b10896c297e473",
+    "scripts/predictive-arena.mjs": "b0ed82174cf09c96d201c5f710ecd381e9d2f1b6bcfaa3980cf6382c7ae20fc9",
+    "scripts/planner-internals.mjs": "2a54bdd60d8c3f537218032096f5d1f68a9ee35d49f7411c3da1df25c50de6e4",
+    "scripts/check-twelve-school.mjs": "f451cd5eca45302747976621631a4c4b3375df3f79e50e68a83995dce316d5ff",
+    "scripts/cultivation-reuse.mjs": "e2e4be0c2bbd80da1b55dda4ce5572a8e998d5bd99e9fdfe9bf357ebe6c1f66c"
+  },
+  "hashes": {
+    "dist/rules.mjs": "91604c0f7b418f8e660af5d2fbc144b82efec87281d4ebdc0f7b50ffa3847519",
+    "dist/engine.mjs": "8c47b2707ff57f1979498fcf9c7e206788ecc671ff120ecc0fb086c149dc00d9",
+    "dist/prepared.mjs": "6cf11c26cfb0afd58ccf0e96fde90e7d7554c1a6002da70c0f5b3925a380fbbb",
+    "dist/auto.mjs": "7283eddd776b78c56c6ea5e94751ab87e3d5e1c11c39daf21e1b309cc493ed10",
+    "dist/tactics.mjs": "ccf62a8d1c087a8cd2143f42e63770f88f96234fd9fed4fefe480a7ed1512108",
+    "dist/active-policy.mjs": "f1a19ce052c1954d63eb67028f9b143180ff7c63d7fe8a914c2fcd5ce74084e2",
+    "dist/recorded-battle.mjs": "07698647e6432451f926bf4ceedb2471b98ea8d81e02899d67b10896c297e473",
+    "scripts/predictive-arena.mjs": "b0ed82174cf09c96d201c5f710ecd381e9d2f1b6bcfaa3980cf6382c7ae20fc9",
+    "scripts/planner-internals.mjs": "2a54bdd60d8c3f537218032096f5d1f68a9ee35d49f7411c3da1df25c50de6e4",
+    "scripts/review-tactics.mjs": "86e0e3c712a84a857064438ca2be8f3df43e495c9e368309c6fd78eabc4f41a3"
+  },
+  "patches": [],
+  "newExecutions": 132
+}

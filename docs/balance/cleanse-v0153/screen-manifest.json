@@ -1,0 +1,25 @@
+{
+  "previous": "docs/balance/pressure-v0152",
+  "specs": [
+    {
+      "id": "purify-4",
+      "games": 72
+    },
+    {
+      "id": "purify-0",
+      "games": 72
+    },
+    {
+      "id": "rinse-14",
+      "games": 132
+    },
+    {
+      "id": "rinse-12",
+      "games": 132
+    }
+  ],
+  "newExecutions": 408,
+  "historicalUniqueRecords": 180,
+  "historicalNewExecutions": 0,
+  "scope": "All nine combat files match the v0.15.2 source before forks; purify forks change only its heal literal and log; rinse uses explicit per-job skill overrides. Exact ordered actors, six slots, controller, tendency, range and initiative are checked."
+}

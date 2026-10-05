@@ -1,0 +1,80 @@
+{
+  "label": "Isolated rinse burn-clear cap 2, heal18/cost/once/passive unchanged; both water majors against three specified burning builds, all balanced controllers, plus tidal defensive. Historical references separately stored; not a full matrix.",
+  "games": 90,
+  "limit": 30,
+  "groups": {
+    "rinse-clear-2/immediate/balanced": {
+      "games": 36,
+      "wins": 3,
+      "losses": 33,
+      "unresolved": 0,
+      "rounds": 147,
+      "actions": {
+        "seed": 25,
+        "blaze": 48,
+        "spark": 43,
+        "heal": 11,
+        "basic": 18,
+        "near": 7,
+        "kindle": 78,
+        "eruption": 20,
+        "flare": 53,
+        "meditate": 6,
+        "firestorm": 34,
+        "quench": 11,
+        "cinder": 5
+      },
+      "unusedAP": 0
+    },
+    "rinse-clear-2/prepared/balanced": {
+      "games": 36,
+      "wins": 11,
+      "losses": 25,
+      "unresolved": 0,
+      "rounds": 300,
+      "actions": {
+        "blaze": 25,
+        "seed": 37,
+        "basic": 32,
+        "inferno": 61,
+        "far": 46,
+        "heal": 52,
+        "seedburst": 15,
+        "spark": 25,
+        "near": 46,
+        "kindle": 180,
+        "flare": 57,
+        "quench": 45,
+        "firestorm": 40,
+        "eruption": 17,
+        "ashenward": 51,
+        "meditate": 2,
+        "cinder": 8
+      },
+      "unusedAP": 0
+    },
+    "rinse-clear-2/immediate/defensive": {
+      "games": 18,
+      "wins": 1,
+      "losses": 17,
+      "unresolved": 0,
+      "rounds": 347,
+      "actions": {
+        "seed": 10,
+        "blaze": 52,
+        "spark": 154,
+        "heal": 67,
+        "basic": 18,
+        "near": 15,
+        "kindle": 311,
+        "eruption": 16,
+        "firestorm": 106,
+        "ashenward": 1,
+        "flare": 38,
+        "quench": 76,
+        "cinder": 46
+      },
+      "unusedAP": 0
+    }
+  }
+}

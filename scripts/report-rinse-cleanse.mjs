@@ -1,0 +1,19 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+import {gunzipSync} from 'node:zlib';
+import {createHash} from 'node:crypto';
+const root=process.argv[2]??'docs/balance/cleanse-v0153';
+const json=async f=>JSON.parse(await readFile(f)),records=async f=>JSON.parse(gunzipSync(await readFile(f))),context=r=>JSON.stringify([r.a,r.b,r.controller,r.tendency,r.distance,r.first]);
+const manifest=await json(`${root}/clear-manifest.json`),baseline=await records(manifest.baseline),refs=new Map(baseline.map(r=>[context(r),r]));
+const originalHashes=await json('docs/balance/pressure-v0152/final/source-hashes.json');
+const blank=()=>({games:0,wins:0,losses:0,unresolved:0,actions:{}}),add=(s,r,seat)=>{s.games++;s[r.winner===null?'unresolved':r.winner===seat?'wins':'losses']++;for(const [id,n]of Object.entries(r.metrics[seat].actions))s.actions[id]=(s.actions[id]??0)+n;};
+const result={newExecutions:180,scope:'Only rinse clearBurn cap changes; healing18, cost and once unchanged, original purify8. Three specified burning rivals, both balanced controllers plus tidal defensive; not a final/full matrix. No burning action from sword/wood/earth/water is assumed without measurements.',variants:{}};
+for(const spec of manifest.specs){const plan=await json(`${spec.directory}/plan.json`),list=await records(`${spec.directory}/records.json.gz`),hashes=await json(`${spec.directory}/source-hashes.json`);assert.equal(list.length,90);assert.equal(plan.jobs.length,90);for(const [file,h]of Object.entries(hashes)){assert.equal(createHash('sha256').update(await readFile(`${spec.directory}/source/${file}`)).digest('hex'),h);if(file!=='scripts/review-tactics.mjs')assert.equal(h,originalHashes[file]);}
+ const groups={},seen=new Set();for(const r of list){for(const k of Object.keys(plan.jobs[r.index]))assert.deepEqual(r[k],plan.jobs[r.index][k]);assert.deepEqual(r.skillOverrides,{water:{rinse:{clearBurn:spec.clearBurn}}});assert.ok(!seen.has(context(r)));seen.add(context(r));const ref=refs.get(context(r));assert.ok(ref);const seat=r.a.id===r.target?0:1;assert.equal(r[seat?'b':'a'].id,r.target);const key=`${r.target}/${r.controller}/${r.tendency}`,g=groups[key]??={target:r.target,controller:r.controller,tendency:r.tendency,before:blank(),after:blank(),foes:{}};add(g.before,ref,seat);add(g.after,r,seat);const foe=r[seat?'a':'b'].id,f=g.foes[foe]??={before:blank(),after:blank()};add(f.before,ref,seat);add(f.after,r,seat);}
+ for(const g of Object.values(groups)){assert.equal(g.before.games,18);assert.equal(g.after.games,18);assert.equal(Object.keys(g.foes).length,3);for(const f of Object.values(g.foes))assert.equal(f.after.games,6);}
+ result.variants[spec.id]={clearBurn:spec.clearBurn,newExecutions:90,groups};
+}
+await writeFile(`${root}/clear-report.json`,JSON.stringify(result,null,2));
+const row=s=>`${s.wins} / ${s.losses} / ${s.unresolved}`,pct=s=>(s.wins/s.games*100).toFixed(1)+'%';const md=['# 涤尘 · 清灼烧上限对照','','保持18回复、水气费用、每回合一次和首次水法清1层不变，清灼烧由至多5层分别测试为1／2层。每候选90场，新增180；同情境历史引用新增0。两种水修对指定引燃、烈焰、焚灼三对手；双方均衡即时／筹划，潮汐另含稳守即时，近中远交换先手。',''];
+for(const [id,v]of Object.entries(result.variants)){md.push(`## ${id}`,'','| 主修 | 控制器 / 倾向 | 旧胜 / 负 / 未决 | 新胜 / 负 / 未决 | 旧胜率 | 新胜率 |','| --- | --- | ---: | ---: | ---: | ---: |');for(const g of Object.values(v.groups))md.push(`| ${g.target} | ${g.controller} / ${g.tendency} | ${row(g.before)} | ${row(g.after)} | ${pct(g.before)} | ${pct(g.after)} |`);md.push('');}
+md.push('逐对手和实际出招见[clear-report.json](clear-report.json)。此处不是全对手总胜率；采用须确认生息烧伤对局、非烧伤对局及最终同时采用组合。','');await writeFile(`${root}/clear-report.md`,md.join('\n'));console.log(Object.fromEntries(Object.entries(result.variants).map(([id,v])=>[id,Object.fromEntries(Object.entries(v.groups).map(([key,g])=>[key,[g.after.wins,g.after.losses,g.after.unresolved]]))])));

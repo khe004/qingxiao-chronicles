@@ -1,0 +1,1317 @@
+{
+  "newExecutions": 180,
+  "scope": "Only rinse clearBurn cap changes; healing18, cost and once unchanged, original purify8. Three specified burning rivals, both balanced controllers plus tidal defensive; not a final/full matrix. No burning action from sword/wood/earth/water is assumed without measurements.",
+  "variants": {
+    "rinse-clear-1": {
+      "clearBurn": 1,
+      "newExecutions": 90,
+      "groups": {
+        "water/tidal/immediate/balanced": {
+          "target": "water/tidal",
+          "controller": "immediate",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 16,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "gather": 24,
+              "surge": 35,
+              "basic": 15,
+              "waterbolt": 147,
+              "tidespear": 7
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 16,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "gather": 24,
+              "surge": 35,
+              "basic": 15,
+              "waterbolt": 147,
+              "tidespear": 7
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 10,
+                  "surge": 16,
+                  "basic": 9,
+                  "waterbolt": 46,
+                  "tidespear": 1
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 10,
+                  "surge": 16,
+                  "basic": 9,
+                  "waterbolt": 46,
+                  "tidespear": 1
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 6,
+                  "surge": 7,
+                  "basic": 3,
+                  "waterbolt": 53,
+                  "tidespear": 3
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 6,
+                  "surge": 7,
+                  "basic": 3,
+                  "waterbolt": 53,
+                  "tidespear": 3
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 4,
+                "losses": 2,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 48,
+                  "gather": 8,
+                  "surge": 12,
+                  "basic": 3,
+                  "tidespear": 3
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 4,
+                "losses": 2,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 48,
+                  "gather": 8,
+                  "surge": 12,
+                  "basic": 3,
+                  "tidespear": 3
+                }
+              }
+            }
+          }
+        },
+        "water/tidal/prepared/balanced": {
+          "target": "water/tidal",
+          "controller": "prepared",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 10,
+            "losses": 8,
+            "unresolved": 0,
+            "actions": {
+              "gather": 62,
+              "rinse": 57,
+              "waterwall": 48,
+              "waterbolt": 108,
+              "tidespear": 41,
+              "basic": 36,
+              "far": 2,
+              "near": 22,
+              "surge": 18,
+              "purify": 1
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 8,
+            "losses": 10,
+            "unresolved": 0,
+            "actions": {
+              "gather": 66,
+              "rinse": 63,
+              "waterwall": 50,
+              "waterbolt": 114,
+              "surge": 42,
+              "far": 6,
+              "basic": 31,
+              "tidespear": 27,
+              "near": 54,
+              "purify": 22
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 0,
+                "losses": 6,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 25,
+                  "rinse": 33,
+                  "waterwall": 41,
+                  "waterbolt": 59,
+                  "tidespear": 12,
+                  "basic": 19,
+                  "far": 2,
+                  "near": 7,
+                  "surge": 6
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 1,
+                "losses": 5,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 24,
+                  "rinse": 31,
+                  "waterwall": 35,
+                  "waterbolt": 56,
+                  "surge": 7,
+                  "far": 6,
+                  "basic": 20,
+                  "tidespear": 9,
+                  "near": 13,
+                  "purify": 6
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 19,
+                  "basic": 13,
+                  "waterbolt": 28,
+                  "tidespear": 16,
+                  "rinse": 14,
+                  "waterwall": 7,
+                  "near": 4,
+                  "surge": 3
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 2,
+                "losses": 4,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 24,
+                  "basic": 8,
+                  "waterbolt": 23,
+                  "tidespear": 15,
+                  "waterwall": 15,
+                  "rinse": 21,
+                  "purify": 14,
+                  "near": 8,
+                  "surge": 6
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 18,
+                  "rinse": 10,
+                  "basic": 4,
+                  "waterbolt": 21,
+                  "tidespear": 13,
+                  "near": 11,
+                  "surge": 9,
+                  "purify": 1
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 18,
+                  "rinse": 11,
+                  "purify": 2,
+                  "surge": 29,
+                  "near": 33,
+                  "waterbolt": 35,
+                  "tidespear": 3,
+                  "basic": 3
+                }
+              }
+            }
+          }
+        },
+        "water/tidal/immediate/defensive": {
+          "target": "water/tidal",
+          "controller": "immediate",
+          "tendency": "defensive",
+          "before": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 221,
+              "rinse": 235,
+              "waterwall": 276,
+              "surge": 68,
+              "purify": 11,
+              "basic": 17,
+              "waterbolt": 126,
+              "tidespear": 44,
+              "near": 29
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 13,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "gather": 213,
+              "rinse": 262,
+              "waterwall": 345,
+              "surge": 67,
+              "purify": 16,
+              "waterbolt": 129,
+              "tidespear": 30,
+              "near": 24,
+              "basic": 4
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 60,
+                  "rinse": 58,
+                  "waterwall": 70,
+                  "surge": 23,
+                  "purify": 6,
+                  "basic": 7,
+                  "waterbolt": 53,
+                  "tidespear": 11,
+                  "near": 7
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 67,
+                  "rinse": 75,
+                  "waterwall": 84,
+                  "surge": 23,
+                  "purify": 11,
+                  "waterbolt": 60,
+                  "tidespear": 12,
+                  "near": 8,
+                  "basic": 3
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 76,
+                  "rinse": 92,
+                  "waterwall": 113,
+                  "surge": 21,
+                  "purify": 5,
+                  "basic": 5,
+                  "waterbolt": 35,
+                  "tidespear": 16,
+                  "near": 16
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 1,
+                "losses": 5,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 73,
+                  "rinse": 100,
+                  "waterwall": 137,
+                  "surge": 18,
+                  "purify": 2,
+                  "near": 10,
+                  "waterbolt": 33,
+                  "tidespear": 10
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 85,
+                  "rinse": 85,
+                  "waterwall": 93,
+                  "surge": 24,
+                  "waterbolt": 38,
+                  "basic": 5,
+                  "tidespear": 17,
+                  "near": 6
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 73,
+                  "rinse": 87,
+                  "waterwall": 124,
+                  "surge": 26,
+                  "purify": 3,
+                  "near": 6,
+                  "waterbolt": 36,
+                  "basic": 1,
+                  "tidespear": 8
+                }
+              }
+            }
+          }
+        },
+        "water/cold/immediate/balanced": {
+          "target": "water/cold",
+          "controller": "immediate",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 89,
+              "frost": 64,
+              "icebreaker": 35
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 89,
+              "frost": 64,
+              "icebreaker": 35
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 28,
+                  "frost": 22,
+                  "icebreaker": 14
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 28,
+                  "frost": 22,
+                  "icebreaker": 14
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 31,
+                  "frost": 21,
+                  "icebreaker": 9
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 31,
+                  "frost": 21,
+                  "icebreaker": 9
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 30,
+                  "frost": 21,
+                  "icebreaker": 12
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 30,
+                  "frost": 21,
+                  "icebreaker": 12
+                }
+              }
+            }
+          }
+        },
+        "water/cold/prepared/balanced": {
+          "target": "water/cold",
+          "controller": "prepared",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 85,
+              "frost": 84,
+              "icebreaker": 72,
+              "far": 32,
+              "rinse": 61,
+              "basic": 4,
+              "mirrorwater": 49,
+              "near": 1,
+              "purify": 35
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 16,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "frost": 86,
+              "icebreaker": 71,
+              "rinse": 51,
+              "far": 37,
+              "waterbolt": 83,
+              "purify": 32,
+              "basic": 6,
+              "mirrorwater": 46,
+              "near": 1
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 27,
+                  "frost": 28,
+                  "icebreaker": 24,
+                  "far": 12,
+                  "rinse": 1,
+                  "basic": 2
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "frost": 30,
+                  "icebreaker": 24,
+                  "rinse": 2,
+                  "far": 13,
+                  "waterbolt": 23,
+                  "purify": 1,
+                  "basic": 2
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 29,
+                  "mirrorwater": 3,
+                  "rinse": 4,
+                  "frost": 31,
+                  "icebreaker": 26,
+                  "basic": 2,
+                  "far": 20,
+                  "near": 1
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 24,
+                  "mirrorwater": 2,
+                  "rinse": 5,
+                  "frost": 33,
+                  "icebreaker": 29,
+                  "far": 24,
+                  "near": 1,
+                  "basic": 1
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "frost": 25,
+                  "icebreaker": 22,
+                  "rinse": 56,
+                  "mirrorwater": 46,
+                  "waterbolt": 29,
+                  "purify": 35
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "mirrorwater": 44,
+                  "waterbolt": 36,
+                  "rinse": 44,
+                  "purify": 31,
+                  "frost": 23,
+                  "icebreaker": 18,
+                  "basic": 3
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rinse-clear-2": {
+      "clearBurn": 2,
+      "newExecutions": 90,
+      "groups": {
+        "water/tidal/immediate/balanced": {
+          "target": "water/tidal",
+          "controller": "immediate",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 16,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "gather": 24,
+              "surge": 35,
+              "basic": 15,
+              "waterbolt": 147,
+              "tidespear": 7
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 16,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "gather": 24,
+              "surge": 35,
+              "basic": 15,
+              "waterbolt": 147,
+              "tidespear": 7
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 10,
+                  "surge": 16,
+                  "basic": 9,
+                  "waterbolt": 46,
+                  "tidespear": 1
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 10,
+                  "surge": 16,
+                  "basic": 9,
+                  "waterbolt": 46,
+                  "tidespear": 1
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 6,
+                  "surge": 7,
+                  "basic": 3,
+                  "waterbolt": 53,
+                  "tidespear": 3
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 6,
+                  "surge": 7,
+                  "basic": 3,
+                  "waterbolt": 53,
+                  "tidespear": 3
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 4,
+                "losses": 2,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 48,
+                  "gather": 8,
+                  "surge": 12,
+                  "basic": 3,
+                  "tidespear": 3
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 4,
+                "losses": 2,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 48,
+                  "gather": 8,
+                  "surge": 12,
+                  "basic": 3,
+                  "tidespear": 3
+                }
+              }
+            }
+          }
+        },
+        "water/tidal/prepared/balanced": {
+          "target": "water/tidal",
+          "controller": "prepared",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 10,
+            "losses": 8,
+            "unresolved": 0,
+            "actions": {
+              "gather": 62,
+              "rinse": 57,
+              "waterwall": 48,
+              "waterbolt": 108,
+              "tidespear": 41,
+              "basic": 36,
+              "far": 2,
+              "near": 22,
+              "surge": 18,
+              "purify": 1
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 9,
+            "losses": 9,
+            "unresolved": 0,
+            "actions": {
+              "gather": 63,
+              "rinse": 58,
+              "waterwall": 50,
+              "waterbolt": 117,
+              "surge": 41,
+              "far": 5,
+              "basic": 35,
+              "tidespear": 29,
+              "purify": 8,
+              "near": 49
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 0,
+                "losses": 6,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 25,
+                  "rinse": 33,
+                  "waterwall": 41,
+                  "waterbolt": 59,
+                  "tidespear": 12,
+                  "basic": 19,
+                  "far": 2,
+                  "near": 7,
+                  "surge": 6
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 0,
+                "losses": 6,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 27,
+                  "rinse": 35,
+                  "waterwall": 46,
+                  "waterbolt": 56,
+                  "surge": 4,
+                  "far": 5,
+                  "basic": 22,
+                  "tidespear": 13,
+                  "purify": 4,
+                  "near": 9
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 19,
+                  "basic": 13,
+                  "waterbolt": 28,
+                  "tidespear": 16,
+                  "rinse": 14,
+                  "waterwall": 7,
+                  "near": 4,
+                  "surge": 3
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 4,
+                "losses": 2,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 18,
+                  "basic": 10,
+                  "waterbolt": 26,
+                  "tidespear": 13,
+                  "rinse": 12,
+                  "purify": 2,
+                  "near": 7,
+                  "surge": 8,
+                  "waterwall": 4
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 18,
+                  "rinse": 10,
+                  "basic": 4,
+                  "waterbolt": 21,
+                  "tidespear": 13,
+                  "near": 11,
+                  "surge": 9,
+                  "purify": 1
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 18,
+                  "rinse": 11,
+                  "purify": 2,
+                  "surge": 29,
+                  "near": 33,
+                  "waterbolt": 35,
+                  "tidespear": 3,
+                  "basic": 3
+                }
+              }
+            }
+          }
+        },
+        "water/tidal/immediate/defensive": {
+          "target": "water/tidal",
+          "controller": "immediate",
+          "tendency": "defensive",
+          "before": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 221,
+              "rinse": 235,
+              "waterwall": 276,
+              "surge": 68,
+              "purify": 11,
+              "basic": 17,
+              "waterbolt": 126,
+              "tidespear": 44,
+              "near": 29
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 205,
+              "rinse": 230,
+              "waterwall": 301,
+              "surge": 65,
+              "purify": 9,
+              "basic": 12,
+              "waterbolt": 110,
+              "tidespear": 39,
+              "near": 26
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 60,
+                  "rinse": 58,
+                  "waterwall": 70,
+                  "surge": 23,
+                  "purify": 6,
+                  "basic": 7,
+                  "waterbolt": 53,
+                  "tidespear": 11,
+                  "near": 7
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 63,
+                  "rinse": 61,
+                  "waterwall": 74,
+                  "surge": 25,
+                  "purify": 7,
+                  "basic": 8,
+                  "waterbolt": 51,
+                  "tidespear": 11,
+                  "near": 9
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 76,
+                  "rinse": 92,
+                  "waterwall": 113,
+                  "surge": 21,
+                  "purify": 5,
+                  "basic": 5,
+                  "waterbolt": 35,
+                  "tidespear": 16,
+                  "near": 16
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 76,
+                  "rinse": 93,
+                  "waterwall": 124,
+                  "surge": 17,
+                  "purify": 1,
+                  "waterbolt": 35,
+                  "tidespear": 15,
+                  "near": 12,
+                  "basic": 2
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 85,
+                  "rinse": 85,
+                  "waterwall": 93,
+                  "surge": 24,
+                  "waterbolt": 38,
+                  "basic": 5,
+                  "tidespear": 17,
+                  "near": 6
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "gather": 66,
+                  "rinse": 76,
+                  "waterwall": 103,
+                  "surge": 23,
+                  "waterbolt": 24,
+                  "basic": 2,
+                  "tidespear": 13,
+                  "near": 5,
+                  "purify": 1
+                }
+              }
+            }
+          }
+        },
+        "water/cold/immediate/balanced": {
+          "target": "water/cold",
+          "controller": "immediate",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 89,
+              "frost": 64,
+              "icebreaker": 35
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 89,
+              "frost": 64,
+              "icebreaker": 35
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 28,
+                  "frost": 22,
+                  "icebreaker": 14
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 28,
+                  "frost": 22,
+                  "icebreaker": 14
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 31,
+                  "frost": 21,
+                  "icebreaker": 9
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 31,
+                  "frost": 21,
+                  "icebreaker": 9
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 30,
+                  "frost": 21,
+                  "icebreaker": 12
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 30,
+                  "frost": 21,
+                  "icebreaker": 12
+                }
+              }
+            }
+          }
+        },
+        "water/cold/prepared/balanced": {
+          "target": "water/cold",
+          "controller": "prepared",
+          "tendency": "balanced",
+          "before": {
+            "games": 18,
+            "wins": 17,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 85,
+              "frost": 84,
+              "icebreaker": 72,
+              "far": 32,
+              "rinse": 61,
+              "basic": 4,
+              "mirrorwater": 49,
+              "near": 1,
+              "purify": 35
+            }
+          },
+          "after": {
+            "games": 18,
+            "wins": 16,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "frost": 83,
+              "icebreaker": 66,
+              "rinse": 49,
+              "far": 33,
+              "waterbolt": 88,
+              "basic": 4,
+              "mirrorwater": 39,
+              "purify": 25
+            }
+          },
+          "foes": {
+            "fire/ignite": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 27,
+                  "frost": 28,
+                  "icebreaker": 24,
+                  "far": 12,
+                  "rinse": 1,
+                  "basic": 2
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "frost": 28,
+                  "icebreaker": 25,
+                  "rinse": 2,
+                  "far": 13,
+                  "waterbolt": 23,
+                  "basic": 2
+                }
+              }
+            },
+            "flame/fierce": {
+              "before": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 29,
+                  "mirrorwater": 3,
+                  "rinse": 4,
+                  "frost": 31,
+                  "icebreaker": 26,
+                  "basic": 2,
+                  "far": 20,
+                  "near": 1
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 27,
+                  "mirrorwater": 3,
+                  "rinse": 4,
+                  "frost": 31,
+                  "icebreaker": 25,
+                  "basic": 2,
+                  "far": 20
+                }
+              }
+            },
+            "flame/smolder": {
+              "before": {
+                "games": 6,
+                "wins": 6,
+                "losses": 0,
+                "unresolved": 0,
+                "actions": {
+                  "frost": 25,
+                  "icebreaker": 22,
+                  "rinse": 56,
+                  "mirrorwater": 46,
+                  "waterbolt": 29,
+                  "purify": 35
+                }
+              },
+              "after": {
+                "games": 6,
+                "wins": 5,
+                "losses": 1,
+                "unresolved": 0,
+                "actions": {
+                  "waterbolt": 38,
+                  "frost": 24,
+                  "icebreaker": 16,
+                  "rinse": 43,
+                  "mirrorwater": 36,
+                  "purify": 25
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
