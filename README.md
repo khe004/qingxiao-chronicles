@@ -1,6 +1,6 @@
 # qingxiao-chronicles
 
-当前版本 **v0.15.3**：[净化与恢复调整理由](docs/净化与恢复复查-v0153.md) · [最新12×12胜率表](docs/balance/cleanse-v0153/final/report.md) · [净化与稳守复查](docs/balance/cleanse-v0153/README.md)。
+当前页面版本 **v0.15.4**：[局面提示与烈焰复盘](docs/局面提示与烈焰反制复查-v0154.md) · [12×12胜率表（战斗规则v0.15.3）](docs/balance/cleanse-v0153/final/report.md) · [公开预告与双AI对照](docs/balance/fierce-window-v0154/report.md)。
 
 青霄纪
 
@@ -19,6 +19,8 @@ python3 -m http.server 8000 --directory dist
 浏览器访问 `http://localhost:8000`。页面使用 ES modules，应通过 HTTP 服务打开。
 
 ## 已实现
+
+- 「局面提示」可展开查看当前可接两招、准备兑现出口、移动后出招、净化／破除的行动代价、蓄势反制和应对留气。每次出招后更新，使用实际配装与合法费用；不改变战斗。
 
 - 自选 1 对 1：点击「双方功法 / 立绘」，分别配置双方职业、主修与六个神通，支持同职业、不同主修对战。左方由玩家操作，右方 AI 遵守选定配装并公开预告招式。
 - 六个已实装职业各接入男、女两张立绘；双方独立选择，性别不影响战斗属性。仓库原图保留，运行时使用透明 WebP。取消不改变当前对战，重新论道保留双方配装与立绘。

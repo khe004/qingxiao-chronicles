@@ -46,6 +46,7 @@
           <section id="opponent-brief" class="opponent-brief" hidden aria-label="对手性格与配置"></section>
           <section class="intent-bar" aria-label="敌方意图"><span class="intent-icon" aria-hidden="true">观</span><div><span class="small-label">敌方意图</span><p id="intent-text"></p></div><span class="intent-note" id="intent-note"></span></section>
           <p id="enemy-policy" class="enemy-policy"></p>
+          <details id="tactical-hints" class="tactical-hints"><summary>局面提示 <span>核对连招、反制和应对留气</span></summary><p class="hints-note">依据当前配装与局面；出招后会更新。可行连招不是必胜建议。</p><ul id="tactical-hints-list"></ul></details>
           <section class="distance-rules" aria-label="距离规则"><div><span>当前距离 <b id="distance-current">中距</b></span><p id="distance-explanation">中距适合所有已装备神通。</p></div><p class="distance-help">距离只限制技能有效范围，不直接增减伤害。接近 / 拉开：1 行动点，改变 1 档双方距离。蓄势技能释放时也会检查距离。</p></section>
           <section class="resource-panel" aria-label="战斗资源"><div class="qi-heading"><h2>五行灵气 <span id="qi-total"></span></h2><span class="small-label" id="generation-label"></span></div><div class="resource-row"><div class="qi-pool" id="qi-pool"></div><div class="ap-block"><span class="small-label">行动点</span><div id="action-points"></div></div><div class="reaction-status" id="reaction-status"></div></div></section>
           <section class="skill-section" aria-label="神通"><div class="section-title"><h2>神通</h2><span id="passive-label"></span></div><div class="skills-grid" id="skills-grid"></div></section>
@@ -59,7 +60,7 @@
         </aside>
       </div>
     </main>
-    <footer><span>青霄论道</span><span>战斗原型 v0.15.3 · 净化与恢复取舍</span><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/twelve-school-v014/final/report.md" target="_blank" rel="noopener">历版原推荐表 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/cleanse-v0153/final/report.md" target="_blank" rel="noopener">最新12×12对阵表 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/cleanse-v0153/README.md" target="_blank" rel="noopener">净化与稳守复查 ↗</a></footer>
+    <footer><span>青霄论道</span><span>战斗原型 v0.15.4 · 局面提示与反制取舍</span><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/twelve-school-v014/final/report.md" target="_blank" rel="noopener">历版原推荐表 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/cleanse-v0153/final/report.md" target="_blank" rel="noopener">最新12×12对阵表 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/cleanse-v0153/README.md" target="_blank" rel="noopener">净化与稳守复查 ↗</a><a href="https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/fierce-window-v0154/report.md" target="_blank" rel="noopener">公开预告与双AI复盘 ↗</a></footer>
   </div>
   <dialog id="duel-dialog" class="duel-dialog" aria-labelledby="duel-title">
     <div class="loadout-header"><div><span class="small-label">青霄峰 · 自选 1 对 1</span><h2 id="duel-title">双方功法与立绘</h2><p class="duel-help">各选一门主修、六道神通和一张立绘。可同职业对战；男女立绘不影响数值。</p></div><button id="close-duel" class="close-button" aria-label="关闭双方配置">×</button></div>

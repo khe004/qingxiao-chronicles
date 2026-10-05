@@ -1,0 +1,220 @@
+{
+  "newResearchExecutions": 60,
+  "screenExecutions": 48,
+  "publicExecutions": 12,
+  "historicalReferences": 12,
+  "historicalNewExecutions": 0,
+  "initialUnfrozenProbeExecutions": 12,
+  "initialProbeInFinalDenominator": false,
+  "decision": "No kit adopted: both symbiosis and parasitic are at best 1/6 per candidate; all three wins are close-range, one flame-first versus parasitic and two wood-first versus symbiosis. No full-rival or non-balanced confirmation, so no global improvement claimed.",
+  "groups": {
+    "eruption-to-combust": {
+      "remove": "eruption",
+      "add": "combust",
+      "foes": {
+        "wood/symbiosis": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "wins": []
+        },
+        "wood/parasitic": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          "wins": [
+            {
+              "distance": 0,
+              "first": 0,
+              "rounds": 11,
+              "hp": [
+                69,
+                0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "eruption-to-cinder": {
+      "remove": "eruption",
+      "add": "cinder",
+      "foes": {
+        "wood/symbiosis": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "wins": []
+        },
+        "wood/parasitic": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "wins": []
+        }
+      }
+    },
+    "quench-to-combust": {
+      "remove": "quench",
+      "add": "combust",
+      "foes": {
+        "wood/symbiosis": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          "wins": [
+            {
+              "distance": 0,
+              "first": 1,
+              "rounds": 11,
+              "hp": [
+                56,
+                0
+              ]
+            }
+          ]
+        },
+        "wood/parasitic": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "wins": []
+        }
+      }
+    },
+    "ward-to-combust": {
+      "remove": "ashenward",
+      "add": "combust",
+      "foes": {
+        "wood/symbiosis": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          "wins": [
+            {
+              "distance": 0,
+              "first": 1,
+              "rounds": 11,
+              "hp": [
+                56,
+                0
+              ]
+            }
+          ]
+        },
+        "wood/parasitic": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          "wins": []
+        }
+      }
+    }
+  },
+  "publicGroups": {
+    "flame/fierce vs wood/symbiosis": {
+      "player": "flame/fierce",
+      "enemy": "wood/symbiosis",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs flame/fierce": {
+      "player": "wood/symbiosis",
+      "enemy": "flame/fierce",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "flame/fierce vs wood/parasitic": {
+      "player": "flame/fierce",
+      "enemy": "wood/parasitic",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/parasitic vs flame/fierce": {
+      "player": "wood/parasitic",
+      "enemy": "flame/fierce",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    }
+  }
+}

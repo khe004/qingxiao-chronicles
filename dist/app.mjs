@@ -8,6 +8,7 @@ import {TENDENCIES,SPEEDS,chooseAction,chooseReaction,describeAutoChoice} from '
 import {battleRecap} from './recap.mjs';
 import {createLocalStore,HISTORY_LIMIT} from './save.mjs';
 import {createSkillEffects} from './skill-effects.mjs';
+import {tacticalHints} from './tactical-hints.mjs';
 const $=id=>document.getElementById(id);
 const skillEffects=createSkillEffects(document.querySelector('.duel-stage'));
 const localStore=createLocalStore(),restored=localStore.read(),saved=restored.value;let saveStatus=restored.error??'',lastSavedSignature=null,clearedBattle=null;
@@ -100,6 +101,7 @@ function render(){
   $('passive-seal').textContent={fire:'生',flame:'火',water:'水',wood:'木',earth:'土',sword:'剑'}[p.key];$('passive-name').textContent=major.name;$('passive-description').textContent=`${major.effect} 基础心法「${c.passive}」：${c.passiveText}`;
   $('stat-list').innerHTML=[['境界','筑基初期'],['肉身防御',c.physical],['灵力防御',c.magical],['灵气容量','10'],['每回合纳气','5'],['先手',`你先手 · 对手开场${RULES.secondShield}盾`]].map(([k,v])=>`<div class="stat-row"><span>${k}</span><b>${v}</b></div>`).join('');
   $('enemy-policy').textContent=b.enemyPolicy??'';
+  renderTacticalHints();
   $('tip-line').textContent=p.charge?`蓄势中仍可移动、调息或防守。下次行动开始免费释放，有效：${rangeLabel(p.charge)}；${p.charge.range.includes(0)?'退远':'近身'}或打断可化解。`:p.ap===0?'行动点已用尽。结束回合，让对手出招。':`主修小诀：${major.tip}`;
   const logView=$('battle-log');
   const followLatest=logView.scrollHeight-logView.clientHeight-logView.scrollTop<=32;
@@ -117,6 +119,15 @@ function render(){
   persist();
   if(b.phase==='reaction'&&!automation.enabled&&!loadout.isOpen()&&!duel.isOpen()&&!trialDialog.open&&!historyDialog.open)showReaction();else if(reaction.open)reaction.close();
 }
+function renderTacticalHints(){
+  const panel=$('tactical-hints');if(!panel.open)return;
+  const list=$('tactical-hints-list');list.replaceChildren();
+  for(const hint of tacticalHints(battle)){
+    const item=document.createElement('li'),title=document.createElement('b'),text=document.createElement('p');
+    item.dataset.hint=hint.id;title.textContent=hint.title;text.textContent=hint.text;item.append(title,text);list.append(item);
+  }
+}
+$('tactical-hints').addEventListener('toggle',renderTacticalHints);
 function matchLabel(s,target){const m=elementMultiplier(s.element,target.key);return m===1?'':` · ${m>1?'顺克 +':'受克 '}${Math.round((m-1)*1000)/10}%`;}
 function showReaction(){const p=battle.player,c=CLASSES[p.key],s=battle.pending.s,damage=battle.damage(battle.enemy,s,battle.pending.raw,1,p);$('reaction-title').textContent=`${battle.enemy.name} · ${s.name}`;$('reaction-description').textContent=`这一招预计造成 ${damage} 伤害（护盾吸收前）${matchLabel(s,p)}${s.shieldPierce?`，其中${Math.round(s.shieldPierce*100)}%越过护盾`:""}。选择应对，或保留机会。`;$('reaction-options').innerHTML=`<button class="reaction-choice" data-reaction="shield" ${p.qi[c.reactionElement]<1?'disabled':''}><span>${c.reaction}<small>获得 26 护盾</small></span><span style="color:var(--${c.reactionElement})">1 ${ELEMENT_NAMES[c.reactionElement]}</span></button><button class="reaction-choice" data-reaction="evade" ${!payment(p.qi,{any:2})?'disabled':''}><span>闪身避让<small>本次减伤 50%，距离拉开一档</small></span><span>2 任意</span></button>${p.key==='earth'&&p.skillIds.includes('anchor')&&s.kind==='force'?`<button class="reaction-choice" data-reaction="anchor" ${battle.canAnchor(p,s)?'':'disabled'}><span>稳固诀<small>挡住位移，仍承受伤害</small></span><span>1 土气＋1 地势</span></button>`:''}<button class="reaction-choice" data-reaction="none"><span>承受此招<small>保留本回合应对机会</small></span><span>无消耗</span></button>`;if(!reaction.open)reaction.showModal();}
 

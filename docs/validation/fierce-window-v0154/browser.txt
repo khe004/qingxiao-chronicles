@@ -1,0 +1,1 @@
+Tactical hints browser: immutable opening, legal three-AP combo, actual follow-up after setup, live AP and reaction updates, no errors/404 and 1440/390/320 layouts passed.
