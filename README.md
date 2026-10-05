@@ -1,6 +1,6 @@
 # qingxiao-chronicles
 
-当前页面版本 **v0.15.4**：[局面提示与烈焰复盘](docs/局面提示与烈焰反制复查-v0154.md) · [12×12胜率表（战斗规则v0.15.3）](docs/balance/cleanse-v0153/final/report.md) · [公开预告与双AI对照](docs/balance/fierce-window-v0154/report.md)。
+当前页面版本 **v0.15.5**：[问道应对预算与分级复查](docs/问道应对预算复查-v0155.md) · [12×12胜率表（战斗规则v0.15.3）](docs/balance/cleanse-v0153/final/report.md) · [两档实际对手对照](docs/balance/opponent-budget-v0155/report.md)。
 
 青霄纪
 

@@ -1,7 +1,7 @@
 import {Battle,CLASSES,burnBonus,total,payment} from './engine.mjs';
 import {planQuestioning} from './opponent-planner.mjs';
 import {startPreparedPhase} from './prepared.mjs';
-export const DIFFICULTIES={practice:{name:'切磋',description:'按性格直观出招，适合熟悉招式和反制。'},questioning:{name:'问道',description:'比较施压、退距、准备与回复；按真实费用估量应对留气和稳固，预告仍固定，气血与伤害相同。'}};
+export const DIFFICULTIES={practice:{name:'切磋',description:'按性格直观出招，适合熟悉招式和反制。'},questioning:{name:'问道',description:'提前考虑施压、退距与资源周转；预告仍固定，气血与伤害相同。'}};
 
 export const OPPONENTS={
  symbiosis:{id:'symbiosis',name:'林栖萝',key:'wood',major:'symbiosis',title:'灵植共生',seal:'荣',style:'培植待熟 · 按需收获',description:'培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。',counter:'趁成熟前施压，或付费破除生长；灵植回春不清灼烧，退远可限制繁花击。',skills:['wooddart','cultivate','bloomstrike','bloomguard','bloomheal','prune'],reactionThreshold:16},
