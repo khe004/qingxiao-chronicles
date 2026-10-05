@@ -1,0 +1,8 @@
+{
+  "runner": "scripts/check-defense-tail.mjs",
+  "runnerSha256": "77f1af72948b9064d50d59d6b9d258c6f8dd5e5de56f9a4460b446402c41d043",
+  "retainedMeasurements": 1,
+  "sameConfigurationReplaysDoNotIncreaseWinRateEvidence": true,
+  "combatSourceManifest": "source-hashes.json",
+  "initialOneSameCaseExploratoryReplayExcludedFromWinRateEvidence": true
+}

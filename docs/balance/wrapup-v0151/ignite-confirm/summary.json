@@ -1,0 +1,90 @@
+{
+  "label": "Expanded ignite baseline versus charge outlet across all 11 other tactical builds, held reflection fix, 3 distances/both initiative/2 controllers",
+  "games": 264,
+  "limit": 30,
+  "groups": {
+    "baseline/immediate/balanced": {
+      "games": 66,
+      "wins": 36,
+      "losses": 30,
+      "unresolved": 0,
+      "rounds": 380,
+      "actions": {
+        "seed": 147,
+        "blaze": 351,
+        "spark": 267,
+        "heal": 130,
+        "near": 99,
+        "basic": 77,
+        "sproutguard": 8,
+        "seedburst": 12
+      },
+      "unusedAP": 0
+    },
+    "baseline/prepared/balanced": {
+      "games": 66,
+      "wins": 22,
+      "losses": 44,
+      "unresolved": 0,
+      "rounds": 698,
+      "actions": {
+        "spark": 613,
+        "sproutguard": 110,
+        "basic": 129,
+        "blaze": 374,
+        "sever-growth": 41,
+        "near": 305,
+        "heal": 273,
+        "seed": 50,
+        "seedburst": 16,
+        "unparasite": 61,
+        "meditate": 4,
+        "sever-terrain": 2,
+        "far": 8,
+        "purify": 9
+      },
+      "unusedAP": 0
+    },
+    "charge-outlet/immediate/balanced": {
+      "games": 66,
+      "wins": 36,
+      "losses": 30,
+      "unresolved": 0,
+      "rounds": 380,
+      "actions": {
+        "seed": 139,
+        "blaze": 355,
+        "spark": 289,
+        "heal": 130,
+        "near": 99,
+        "basic": 77,
+        "sproutguard": 8
+      },
+      "unusedAP": 0
+    },
+    "charge-outlet/prepared/balanced": {
+      "games": 66,
+      "wins": 49,
+      "losses": 17,
+      "unresolved": 0,
+      "rounds": 600,
+      "actions": {
+        "blaze": 215,
+        "sproutguard": 114,
+        "spark": 324,
+        "sever-growth": 10,
+        "seed": 45,
+        "heal": 238,
+        "inferno": 261,
+        "meditate": 13,
+        "near": 97,
+        "basic": 68,
+        "unparasite": 59,
+        "sever-terrain": 8,
+        "far": 6,
+        "purify": 16
+      },
+      "unusedAP": 0
+    }
+  }
+}

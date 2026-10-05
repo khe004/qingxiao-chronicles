@@ -1,0 +1,448 @@
+{
+  "label": "One-slot or complete-core comparisons; reflection correction held constant; explicit 3 distances / both initiative / 2 controllers",
+  "games": 384,
+  "limit": 30,
+  "groups": {
+    "fire/ignite/baseline/immediate/balanced": {
+      "games": 24,
+      "wins": 17,
+      "losses": 7,
+      "unresolved": 0,
+      "rounds": 163,
+      "actions": {
+        "seed": 54,
+        "blaze": 147,
+        "spark": 126,
+        "heal": 57,
+        "near": 43,
+        "basic": 37,
+        "seedburst": 3,
+        "sproutguard": 6
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite/baseline/prepared/balanced": {
+      "games": 24,
+      "wins": 10,
+      "losses": 14,
+      "unresolved": 0,
+      "rounds": 249,
+      "actions": {
+        "spark": 210,
+        "sproutguard": 54,
+        "basic": 20,
+        "blaze": 161,
+        "sever-growth": 40,
+        "near": 118,
+        "heal": 84,
+        "seed": 13,
+        "seedburst": 5,
+        "far": 2,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite/core/immediate/balanced": {
+      "games": 24,
+      "wins": 15,
+      "losses": 9,
+      "unresolved": 0,
+      "rounds": 171,
+      "actions": {
+        "seed": 46,
+        "blaze": 133,
+        "spark": 148,
+        "heal": 70,
+        "near": 50,
+        "vine": 1,
+        "basic": 43
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite/core/prepared/balanced": {
+      "games": 24,
+      "wins": 11,
+      "losses": 13,
+      "unresolved": 0,
+      "rounds": 190,
+      "actions": {
+        "spark": 89,
+        "vine": 8,
+        "blaze": 69,
+        "sever-growth": 9,
+        "heal": 86,
+        "inferno": 82,
+        "seed": 35,
+        "meditate": 5,
+        "near": 49,
+        "basic": 19,
+        "far": 5
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite/paid-vine/immediate/balanced": {
+      "games": 24,
+      "wins": 15,
+      "losses": 9,
+      "unresolved": 0,
+      "rounds": 170,
+      "actions": {
+        "seed": 48,
+        "blaze": 130,
+        "spark": 140,
+        "heal": 70,
+        "near": 47,
+        "vine": 1,
+        "seedburst": 5,
+        "basic": 43
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite/paid-vine/prepared/balanced": {
+      "games": 24,
+      "wins": 10,
+      "losses": 14,
+      "unresolved": 0,
+      "rounds": 258,
+      "actions": {
+        "spark": 248,
+        "seed": 33,
+        "basic": 23,
+        "blaze": 138,
+        "sever-growth": 47,
+        "near": 118,
+        "heal": 113,
+        "meditate": 3,
+        "seedburst": 8,
+        "vine": 9,
+        "far": 2
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite/charge-outlet/immediate/balanced": {
+      "games": 24,
+      "wins": 17,
+      "losses": 7,
+      "unresolved": 0,
+      "rounds": 163,
+      "actions": {
+        "seed": 52,
+        "blaze": 148,
+        "spark": 131,
+        "heal": 57,
+        "near": 43,
+        "basic": 37,
+        "sproutguard": 6
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite/charge-outlet/prepared/balanced": {
+      "games": 24,
+      "wins": 16,
+      "losses": 8,
+      "unresolved": 0,
+      "rounds": 206,
+      "actions": {
+        "blaze": 99,
+        "sproutguard": 57,
+        "spark": 68,
+        "sever-growth": 7,
+        "seed": 14,
+        "heal": 82,
+        "inferno": 97,
+        "meditate": 3,
+        "near": 52,
+        "basic": 15,
+        "far": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/baseline/immediate/balanced": {
+      "games": 12,
+      "wins": 10,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 101,
+      "actions": {
+        "kindle": 98,
+        "eruption": 44,
+        "flare": 34,
+        "meditate": 4,
+        "quench": 48,
+        "basic": 48,
+        "near": 23
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/baseline/prepared/balanced": {
+      "games": 12,
+      "wins": 0,
+      "losses": 12,
+      "unresolved": 0,
+      "rounds": 259,
+      "actions": {
+        "far": 2,
+        "kindle": 224,
+        "ashenward": 49,
+        "quench": 115,
+        "sever-growth": 127,
+        "flare": 45,
+        "near": 26,
+        "eruption": 40,
+        "stoke": 5,
+        "basic": 17,
+        "unparasite": 109
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/core/immediate/balanced": {
+      "games": 12,
+      "wins": 12,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 65,
+      "actions": {
+        "kindle": 58,
+        "eruption": 59,
+        "cinder": 26,
+        "flare": 14,
+        "meditate": 4,
+        "near": 26
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/core/prepared/balanced": {
+      "games": 12,
+      "wins": 1,
+      "losses": 11,
+      "unresolved": 0,
+      "rounds": 211,
+      "actions": {
+        "far": 2,
+        "kindle": 225,
+        "firewall": 79,
+        "sever-growth": 77,
+        "flare": 26,
+        "cinder": 22,
+        "near": 24,
+        "eruption": 33,
+        "unparasite": 86,
+        "basic": 43
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/far-cinder/immediate/balanced": {
+      "games": 12,
+      "wins": 12,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 95,
+      "actions": {
+        "kindle": 89,
+        "eruption": 35,
+        "cinder": 39,
+        "flare": 21,
+        "meditate": 4,
+        "quench": 38,
+        "basic": 38,
+        "near": 15
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/far-cinder/prepared/balanced": {
+      "games": 12,
+      "wins": 1,
+      "losses": 11,
+      "unresolved": 0,
+      "rounds": 240,
+      "actions": {
+        "far": 2,
+        "kindle": 210,
+        "ashenward": 39,
+        "quench": 105,
+        "sever-growth": 122,
+        "cinder": 29,
+        "flare": 27,
+        "near": 34,
+        "eruption": 36,
+        "basic": 9,
+        "unparasite": 91
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/guard-firewall/immediate/balanced": {
+      "games": 12,
+      "wins": 10,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 101,
+      "actions": {
+        "kindle": 98,
+        "eruption": 44,
+        "flare": 34,
+        "meditate": 4,
+        "quench": 48,
+        "basic": 48,
+        "near": 23
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/guard-firewall/prepared/balanced": {
+      "games": 12,
+      "wins": 0,
+      "losses": 12,
+      "unresolved": 0,
+      "rounds": 268,
+      "actions": {
+        "far": 2,
+        "kindle": 239,
+        "firewall": 63,
+        "sever-growth": 124,
+        "flare": 50,
+        "quench": 94,
+        "near": 29,
+        "eruption": 48,
+        "stoke": 5,
+        "basic": 21,
+        "unparasite": 111
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/baseline/immediate/balanced": {
+      "games": 12,
+      "wins": 9,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "flare": 27,
+        "kindle": 54,
+        "firestorm": 39,
+        "cinder": 16
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/baseline/prepared/balanced": {
+      "games": 12,
+      "wins": 0,
+      "losses": 12,
+      "unresolved": 0,
+      "rounds": 83,
+      "actions": {
+        "kindle": 84,
+        "basic": 4,
+        "ashenward": 40,
+        "flare": 30,
+        "cinder": 12,
+        "firestorm": 12,
+        "solar": 14,
+        "sever-growth": 3,
+        "unparasite": 3,
+        "far": 1,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/core/immediate/balanced": {
+      "games": 12,
+      "wins": 12,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 79,
+      "actions": {
+        "flare": 21,
+        "kindle": 181,
+        "combust": 14,
+        "cinder": 10,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/core/prepared/balanced": {
+      "games": 12,
+      "wins": 1,
+      "losses": 11,
+      "unresolved": 0,
+      "rounds": 144,
+      "actions": {
+        "kindle": 168,
+        "meditate": 1,
+        "firewall": 27,
+        "combust": 21,
+        "flare": 74,
+        "cinder": 13,
+        "basic": 2,
+        "sever-growth": 8,
+        "solar": 21,
+        "unparasite": 58
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/healing/immediate/balanced": {
+      "games": 12,
+      "wins": 9,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 62,
+      "actions": {
+        "flare": 31,
+        "kindle": 44,
+        "firestorm": 36,
+        "cinder": 22,
+        "quench": 15
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/healing/prepared/balanced": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 177,
+      "actions": {
+        "kindle": 211,
+        "ashenward": 18,
+        "sever-growth": 46,
+        "flare": 99,
+        "cinder": 13,
+        "firestorm": 21,
+        "unparasite": 90
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/guard-firewall/immediate/balanced": {
+      "games": 12,
+      "wins": 9,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "flare": 27,
+        "kindle": 54,
+        "firestorm": 39,
+        "cinder": 16
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/guard-firewall/prepared/balanced": {
+      "games": 12,
+      "wins": 1,
+      "losses": 11,
+      "unresolved": 0,
+      "rounds": 156,
+      "actions": {
+        "kindle": 168,
+        "basic": 5,
+        "firewall": 73,
+        "flare": 63,
+        "cinder": 22,
+        "firestorm": 28,
+        "solar": 29,
+        "far": 1,
+        "unparasite": 2,
+        "sever-growth": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

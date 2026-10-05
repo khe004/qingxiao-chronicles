@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
 import {DuelBattle} from './dist/duel-setup.mjs';
+import {RULES} from './dist/engine.mjs';
+import {planner} from './scripts/planner-internals.mjs';
 import {chooseAction,chooseReaction,choosePreparedAction,PREPARED_SEARCH_BUDGET} from './dist/auto.mjs';
 import {activeFallback} from './dist/active-policy.mjs';
 import {loadForecastModel,auditState} from './scripts/forecast-audit.mjs';
@@ -17,8 +19,18 @@ for(const [key,id,ids,qi] of [
 const finish=new DuelBattle('fire');empty(finish.player);empty(finish.enemy);finish.player.ap=1;finish.player.hp=2;finish.player.meditated=true;finish.enemy.reaction=false;finish.enemy.hp=1;finish.enemy.shield=8;finish.enemy.counter={name:'有限反击',power:25,hits:2,element:'water'};
 const choice=activeFallback(finish,finish.player);assert.equal(choice.id,'basic');assert.ok(finish.act(finish.player,choice.id).ok);assert.equal(finish.result,'win');assert.equal(finish.player.hp,2);assert.equal(finish.stats[1].reflectionDamage,0);
 const threatened=new DuelBattle('fire');empty(threatened.player);threatened.player.ap=1;threatened.player.hp=2;threatened.player.meditated=true;threatened.enemy.reaction=false;threatened.enemy.hp=20;threatened.enemy.shield=8;threatened.enemy.counter={name:'有限反击',power:25,hits:2,element:'water'};assert.equal(activeFallback(threatened,threatened.player).id,undefined,'A surviving defender is still dangerous');
+// The old fallback discarded even a shield-covered attack in the observed
+// mountain/heavy counterexample. Verify the decision against real resolution.
+for(const shield of [60,4]){
+ const b=new DuelBattle('earth',{major:'mountain'}, {key:'sword',major:'heavy'});empty(b.player);b.player.qi.earth=6;b.player.qi.any=3;b.player.ap=1;b.player.meditated=true;b.player.shield=shield;b.enemy.shield=12;b.enemy.reaction=false;b.enemy.counter={name:'回锋剑屏',power:12,hits:1,element:'metal'};
+ const c=activeFallback(b,b.player);assert.ok(c.id&&!b.legal(b.player,c.id));
+ const d=b.damage(b.player,b.skill(b.player,c.id)),reflect=b.damage(b.enemy,{id:'reflection',element:'metal',damageType:'magical'},Math.min(d,12),1,b.player),hp=b.player.hp;
+ assert.ok(b.act(b.player,c.id).ok);assert.equal(b.player.hp,hp-b.healthDamage(reflect,shield));assert.equal(b.player.shield,Math.max(0,shield-reflect));assert.equal(b.enemy.counter,null,'Exactly one real reflection is consumed');
+}
+const lethal=new DuelBattle('fire');empty(lethal.player);lethal.player.hp=1;lethal.player.ap=1;lethal.player.meditated=true;lethal.enemy.shield=0;lethal.enemy.reaction=false;lethal.enemy.counter={name:'反击',power:25,hits:2,element:'water'};assert.equal(activeFallback(lethal,lethal.player).id,undefined,'A positive trade must never recommend lethal reflection');
 const response=new DuelBattle('fire',{}, {key:'sword'});empty(response.player);empty(response.enemy);response.player.qi.wood=1;response.player.shield=0;response.enemy.intent=5;response.enemy.ap=0;response.phase='reaction';response.pending={s:response.skill(response.enemy,'swift'),raw:12};response.enemyQueue=['unity'];assert.ok(response.legal(response.enemy,'unity'));assert.equal(chooseReaction(response,'defensive').response,'shield','An unpayable queued heavy cannot justify withholding this useful defense');
 response.enemy.ap=2;response.enemy.qi.metal=3;response.enemy.qi.any=1;assert.equal(response.legal(response.enemy,'unity'),null);assert.equal(chooseReaction(response,'defensive').response,'none','An affordable larger queued threat can still receive the reserved response');
+assert.ok(planner.reasonFor(new DuelBattle('sword'),'expose').includes(`${Math.round((RULES.brokenMultiplier-1)*100)}%`),'Decision reasons track the actual broken multiplier');
 const model=await loadForecastModel();let forecasts=0;
 for(const key of ['wood','earth'])for(const distance of [0,1,2]){
  const b=new DuelBattle(key,{}, {key:'sword'});b.distance=distance;b.player.hp-=30;const stats={trace:true},live=JSON.stringify(b),c=choosePreparedAction(b,'balanced',{stats});assert.equal(JSON.stringify(b),live);assert.ok(stats.rootStates<=PREPARED_SEARCH_BUDGET.rootStates);assert.ok(c.action==='end'||!b.legal(b.player,c.skillId));

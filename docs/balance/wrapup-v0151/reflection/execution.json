@@ -1,0 +1,9 @@
+{
+  "runner": "scripts/check-reflection-choice.mjs",
+  "runnerSha256": "0c9ab37fa2ffeaa7b2bec2108f900d6517ac5a02a99ef472a11cdee5d5eaa567",
+  "retainedMeasurements": 1,
+  "sameConfigurationReplaysDoNotIncreaseWinRateEvidence": true,
+  "beforeSourceManifest": "../../tactical-v015/build-cohort/source-hashes.json",
+  "afterSourceManifest": "../final/source-hashes.json",
+  "sourceCommitBeforeEdits": "6ed1a3b80760307dbe2f8f08dec0170487fc337f"
+}
