@@ -1,6 +1,6 @@
 # qingxiao-chronicles
 
-当前版本 **v0.15.2**：[烈焰与潮汐调整理由](docs/烈焰与潮汐配装复查-v0152.md) · [最新12×12胜率表](docs/balance/pressure-v0152/final/report.md) · [套路与稳守复查](docs/balance/pressure-v0152/README.md)。
+当前版本 **v0.15.3**：[净化与恢复调整理由](docs/净化与恢复复查-v0153.md) · [最新12×12胜率表](docs/balance/cleanse-v0153/final/report.md) · [净化与稳守复查](docs/balance/cleanse-v0153/README.md)。
 
 青霄纪
 
@@ -372,3 +372,9 @@ node qa-symbiosis.cjs
 烈焰新样例“烈火横流”用燃血槽换焰海，放弃主动返气，增加有灼烧门槛的全距2行动兑现。潮汐新样例“贯潮涤尘”用润脉槽换涤尘，少6点峰值恢复，独立清灼烧并保留进攻潮势。原推荐、自由配装、旧六槽保存继续保留；技能数值与AI不变。
 
 先做单槽隔离筛选与全对手确认，再测同时采用组合；另检查稳守倾向及预测误差，保留未采用的候选与已知极端格。详见[采用理由与限制](docs/烈焰与潮汐配装复查-v0152.md)、[完整12×12](docs/balance/pressure-v0152/final/report.md)、[前后对照](docs/balance/pressure-v0152/comparison.md)。
+
+## v0.15.3 · 净化与恢复取舍
+
+净息需要自身有灼烧，花1行动与1任意灵气清尽灼烧并回复8气血；涤尘仍恢复18气血、每回合一次，但清烧上限改为1层。首次付费水法另外清1层，原费用与六槽不变。回顾按神通参数统计净息回复，避免重复计数，界面说明与套路提示按实际清除上限显示。
+
+先隔离筛选并补全对手，再重新执行均衡936与稳守468场；完整[12×12](docs/balance/cleanse-v0153/final/report.md)、[前后对照](docs/balance/cleanse-v0153/comparison.md)及[采用理由／未解决问题](docs/净化与恢复复查-v0153.md)公开。固定AI结果不代表真人胜率或十二流派已经整体平衡。

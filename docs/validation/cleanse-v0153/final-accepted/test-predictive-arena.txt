@@ -1,0 +1,1 @@
+Predictive arena: 24 legacy parity duels, both initiative boundaries, full-state policy replay, symmetric clone reactions, burn/charge timing, finite adaptive depth, immutable forecasts and seat-swap invariance passed.

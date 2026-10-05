@@ -1,0 +1,1241 @@
+{
+  "before": "docs/balance/pressure-v0152",
+  "after": "docs/balance/cleanse-v0153",
+  "finalExecutions": 1404,
+  "controllers": {
+    "final/prepared": {
+      "rows": [
+        {
+          "id": "fire/ignite",
+          "name": "\u5f15\u71c3\u7206\u53d1",
+          "before": {
+            "id": "fire/ignite",
+            "name": "\u5f15\u71c3\u7206\u53d1",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/ignite",
+            "name": "\u5f15\u71c3\u7206\u53d1",
+            "games": 66,
+            "wins": 41,
+            "losses": 25,
+            "draws": 0
+          }
+        },
+        {
+          "id": "fire/sustain",
+          "name": "\u751f\u606f\u6d88\u8017",
+          "before": {
+            "id": "fire/sustain",
+            "name": "\u751f\u606f\u6d88\u8017",
+            "games": 66,
+            "wins": 24,
+            "losses": 42,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/sustain",
+            "name": "\u751f\u606f\u6d88\u8017",
+            "games": 66,
+            "wins": 29,
+            "losses": 37,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/quick",
+          "name": "\u5feb\u5251\u538b\u5236",
+          "before": {
+            "id": "sword/quick",
+            "name": "\u5feb\u5251\u538b\u5236",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/quick",
+            "name": "\u5feb\u5251\u538b\u5236",
+            "games": 66,
+            "wins": 31,
+            "losses": 35,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/heavy",
+          "name": "\u85cf\u950b\u91cd\u5251",
+          "before": {
+            "id": "sword/heavy",
+            "name": "\u85cf\u950b\u91cd\u5251",
+            "games": 66,
+            "wins": 29,
+            "losses": 37,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/heavy",
+            "name": "\u85cf\u950b\u91cd\u5251",
+            "games": 66,
+            "wins": 28,
+            "losses": 38,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/fierce",
+          "name": "\u70c8\u7130\u5f3a\u653b",
+          "before": {
+            "id": "flame/fierce",
+            "name": "\u70c8\u7130\u5f3a\u653b",
+            "games": 66,
+            "wins": 27,
+            "losses": 39,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/fierce",
+            "name": "\u70c8\u7130\u5f3a\u653b",
+            "games": 66,
+            "wins": 35,
+            "losses": 31,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/smolder",
+          "name": "\u711a\u707c\u6d88\u8017",
+          "before": {
+            "id": "flame/smolder",
+            "name": "\u711a\u707c\u6d88\u8017",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/smolder",
+            "name": "\u711a\u707c\u6d88\u8017",
+            "games": 66,
+            "wins": 43,
+            "losses": 23,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/cold",
+          "name": "\u5bd2\u51dd\u63a7\u8ddd",
+          "before": {
+            "id": "water/cold",
+            "name": "\u5bd2\u51dd\u63a7\u8ddd",
+            "games": 66,
+            "wins": 36,
+            "losses": 30,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/cold",
+            "name": "\u5bd2\u51dd\u63a7\u8ddd",
+            "games": 66,
+            "wins": 30,
+            "losses": 36,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/tidal",
+          "name": "\u6f6e\u6c50\u8c03\u606f",
+          "before": {
+            "id": "water/tidal",
+            "name": "\u6f6e\u6c50\u8c03\u606f",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/tidal",
+            "name": "\u6f6e\u6c50\u8c03\u606f",
+            "games": 66,
+            "wins": 31,
+            "losses": 35,
+            "draws": 0
+          }
+        },
+        {
+          "id": "wood/symbiosis",
+          "name": "\u7075\u690d\u5171\u751f",
+          "before": {
+            "id": "wood/symbiosis",
+            "name": "\u7075\u690d\u5171\u751f",
+            "games": 66,
+            "wins": 34,
+            "losses": 29,
+            "draws": 3
+          },
+          "after": {
+            "id": "wood/symbiosis",
+            "name": "\u7075\u690d\u5171\u751f",
+            "games": 66,
+            "wins": 26,
+            "losses": 37,
+            "draws": 3
+          }
+        },
+        {
+          "id": "wood/parasitic",
+          "name": "\u6bd2\u85e4\u5bc4\u751f",
+          "before": {
+            "id": "wood/parasitic",
+            "name": "\u6bd2\u85e4\u5bc4\u751f",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          },
+          "after": {
+            "id": "wood/parasitic",
+            "name": "\u6bd2\u85e4\u5bc4\u751f",
+            "games": 66,
+            "wins": 20,
+            "losses": 46,
+            "draws": 0
+          }
+        },
+        {
+          "id": "earth/bastion",
+          "name": "\u58c1\u5792\u5b88\u5fa1",
+          "before": {
+            "id": "earth/bastion",
+            "name": "\u58c1\u5792\u5b88\u5fa1",
+            "games": 66,
+            "wins": 38,
+            "losses": 27,
+            "draws": 1
+          },
+          "after": {
+            "id": "earth/bastion",
+            "name": "\u58c1\u5792\u5b88\u5fa1",
+            "games": 66,
+            "wins": 37,
+            "losses": 28,
+            "draws": 1
+          }
+        },
+        {
+          "id": "earth/mountain",
+          "name": "\u9547\u5cb3\u538b\u5236",
+          "before": {
+            "id": "earth/mountain",
+            "name": "\u9547\u5cb3\u538b\u5236",
+            "games": 66,
+            "wins": 42,
+            "losses": 22,
+            "draws": 2
+          },
+          "after": {
+            "id": "earth/mountain",
+            "name": "\u9547\u5cb3\u538b\u5236",
+            "games": 66,
+            "wins": 42,
+            "losses": 22,
+            "draws": 2
+          }
+        }
+      ],
+      "drawsBefore": 3,
+      "drawsAfter": 3,
+      "extremes": [
+        {
+          "a": "fire/ignite",
+          "b": "fire/sustain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/ignite",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "sword/heavy",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "flame/fierce",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "flame/smolder",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "flame/fierce",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "wood/symbiosis",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 4,
+          "losses": 0,
+          "draws": 2
+        },
+        {
+          "a": "earth/bastion",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        }
+      ]
+    },
+    "final/immediate": {
+      "rows": [
+        {
+          "id": "fire/ignite",
+          "name": "\u5f15\u71c3\u7206\u53d1",
+          "before": {
+            "id": "fire/ignite",
+            "name": "\u5f15\u71c3\u7206\u53d1",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/ignite",
+            "name": "\u5f15\u71c3\u7206\u53d1",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          }
+        },
+        {
+          "id": "fire/sustain",
+          "name": "\u751f\u606f\u6d88\u8017",
+          "before": {
+            "id": "fire/sustain",
+            "name": "\u751f\u606f\u6d88\u8017",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/sustain",
+            "name": "\u751f\u606f\u6d88\u8017",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/quick",
+          "name": "\u5feb\u5251\u538b\u5236",
+          "before": {
+            "id": "sword/quick",
+            "name": "\u5feb\u5251\u538b\u5236",
+            "games": 66,
+            "wins": 27,
+            "losses": 39,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/quick",
+            "name": "\u5feb\u5251\u538b\u5236",
+            "games": 66,
+            "wins": 27,
+            "losses": 39,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/heavy",
+          "name": "\u85cf\u950b\u91cd\u5251",
+          "before": {
+            "id": "sword/heavy",
+            "name": "\u85cf\u950b\u91cd\u5251",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/heavy",
+            "name": "\u85cf\u950b\u91cd\u5251",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/fierce",
+          "name": "\u70c8\u7130\u5f3a\u653b",
+          "before": {
+            "id": "flame/fierce",
+            "name": "\u70c8\u7130\u5f3a\u653b",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/fierce",
+            "name": "\u70c8\u7130\u5f3a\u653b",
+            "games": 66,
+            "wins": 34,
+            "losses": 32,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/smolder",
+          "name": "\u711a\u707c\u6d88\u8017",
+          "before": {
+            "id": "flame/smolder",
+            "name": "\u711a\u707c\u6d88\u8017",
+            "games": 66,
+            "wins": 45,
+            "losses": 21,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/smolder",
+            "name": "\u711a\u707c\u6d88\u8017",
+            "games": 66,
+            "wins": 45,
+            "losses": 21,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/cold",
+          "name": "\u5bd2\u51dd\u63a7\u8ddd",
+          "before": {
+            "id": "water/cold",
+            "name": "\u5bd2\u51dd\u63a7\u8ddd",
+            "games": 66,
+            "wins": 37,
+            "losses": 29,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/cold",
+            "name": "\u5bd2\u51dd\u63a7\u8ddd",
+            "games": 66,
+            "wins": 37,
+            "losses": 29,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/tidal",
+          "name": "\u6f6e\u6c50\u8c03\u606f",
+          "before": {
+            "id": "water/tidal",
+            "name": "\u6f6e\u6c50\u8c03\u606f",
+            "games": 66,
+            "wins": 42,
+            "losses": 24,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/tidal",
+            "name": "\u6f6e\u6c50\u8c03\u606f",
+            "games": 66,
+            "wins": 42,
+            "losses": 24,
+            "draws": 0
+          }
+        },
+        {
+          "id": "wood/symbiosis",
+          "name": "\u7075\u690d\u5171\u751f",
+          "before": {
+            "id": "wood/symbiosis",
+            "name": "\u7075\u690d\u5171\u751f",
+            "games": 66,
+            "wins": 28,
+            "losses": 38,
+            "draws": 0
+          },
+          "after": {
+            "id": "wood/symbiosis",
+            "name": "\u7075\u690d\u5171\u751f",
+            "games": 66,
+            "wins": 28,
+            "losses": 38,
+            "draws": 0
+          }
+        },
+        {
+          "id": "wood/parasitic",
+          "name": "\u6bd2\u85e4\u5bc4\u751f",
+          "before": {
+            "id": "wood/parasitic",
+            "name": "\u6bd2\u85e4\u5bc4\u751f",
+            "games": 66,
+            "wins": 33,
+            "losses": 33,
+            "draws": 0
+          },
+          "after": {
+            "id": "wood/parasitic",
+            "name": "\u6bd2\u85e4\u5bc4\u751f",
+            "games": 66,
+            "wins": 33,
+            "losses": 33,
+            "draws": 0
+          }
+        },
+        {
+          "id": "earth/bastion",
+          "name": "\u58c1\u5792\u5b88\u5fa1",
+          "before": {
+            "id": "earth/bastion",
+            "name": "\u58c1\u5792\u5b88\u5fa1",
+            "games": 66,
+            "wins": 35,
+            "losses": 31,
+            "draws": 0
+          },
+          "after": {
+            "id": "earth/bastion",
+            "name": "\u58c1\u5792\u5b88\u5fa1",
+            "games": 66,
+            "wins": 35,
+            "losses": 31,
+            "draws": 0
+          }
+        },
+        {
+          "id": "earth/mountain",
+          "name": "\u9547\u5cb3\u538b\u5236",
+          "before": {
+            "id": "earth/mountain",
+            "name": "\u9547\u5cb3\u538b\u5236",
+            "games": 66,
+            "wins": 24,
+            "losses": 42,
+            "draws": 0
+          },
+          "after": {
+            "id": "earth/mountain",
+            "name": "\u9547\u5cb3\u538b\u5236",
+            "games": 66,
+            "wins": 24,
+            "losses": 42,
+            "draws": 0
+          }
+        }
+      ],
+      "drawsBefore": 0,
+      "drawsAfter": 0,
+      "extremes": [
+        {
+          "a": "fire/ignite",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/ignite",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "flame/smolder",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "flame/smolder",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "wood/parasitic",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "wood/parasitic",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        }
+      ]
+    },
+    "defensive/immediate": {
+      "rows": [
+        {
+          "id": "fire/ignite",
+          "name": "\u5f15\u71c3\u7206\u53d1",
+          "before": {
+            "id": "fire/ignite",
+            "name": "\u5f15\u71c3\u7206\u53d1",
+            "games": 66,
+            "wins": 30,
+            "losses": 36,
+            "draws": 0
+          },
+          "after": {
+            "id": "fire/ignite",
+            "name": "\u5f15\u71c3\u7206\u53d1",
+            "games": 66,
+            "wins": 31,
+            "losses": 35,
+            "draws": 0
+          }
+        },
+        {
+          "id": "fire/sustain",
+          "name": "\u751f\u606f\u6d88\u8017",
+          "before": {
+            "id": "fire/sustain",
+            "name": "\u751f\u606f\u6d88\u8017",
+            "games": 66,
+            "wins": 29,
+            "losses": 31,
+            "draws": 6
+          },
+          "after": {
+            "id": "fire/sustain",
+            "name": "\u751f\u606f\u6d88\u8017",
+            "games": 66,
+            "wins": 35,
+            "losses": 31,
+            "draws": 0
+          }
+        },
+        {
+          "id": "sword/quick",
+          "name": "\u5feb\u5251\u538b\u5236",
+          "before": {
+            "id": "sword/quick",
+            "name": "\u5feb\u5251\u538b\u5236",
+            "games": 66,
+            "wins": 31,
+            "losses": 31,
+            "draws": 4
+          },
+          "after": {
+            "id": "sword/quick",
+            "name": "\u5feb\u5251\u538b\u5236",
+            "games": 66,
+            "wins": 29,
+            "losses": 33,
+            "draws": 4
+          }
+        },
+        {
+          "id": "sword/heavy",
+          "name": "\u85cf\u950b\u91cd\u5251",
+          "before": {
+            "id": "sword/heavy",
+            "name": "\u85cf\u950b\u91cd\u5251",
+            "games": 66,
+            "wins": 25,
+            "losses": 41,
+            "draws": 0
+          },
+          "after": {
+            "id": "sword/heavy",
+            "name": "\u85cf\u950b\u91cd\u5251",
+            "games": 66,
+            "wins": 22,
+            "losses": 44,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/fierce",
+          "name": "\u70c8\u7130\u5f3a\u653b",
+          "before": {
+            "id": "flame/fierce",
+            "name": "\u70c8\u7130\u5f3a\u653b",
+            "games": 66,
+            "wins": 44,
+            "losses": 22,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/fierce",
+            "name": "\u70c8\u7130\u5f3a\u653b",
+            "games": 66,
+            "wins": 47,
+            "losses": 19,
+            "draws": 0
+          }
+        },
+        {
+          "id": "flame/smolder",
+          "name": "\u711a\u707c\u6d88\u8017",
+          "before": {
+            "id": "flame/smolder",
+            "name": "\u711a\u707c\u6d88\u8017",
+            "games": 66,
+            "wins": 32,
+            "losses": 34,
+            "draws": 0
+          },
+          "after": {
+            "id": "flame/smolder",
+            "name": "\u711a\u707c\u6d88\u8017",
+            "games": 66,
+            "wins": 37,
+            "losses": 29,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/cold",
+          "name": "\u5bd2\u51dd\u63a7\u8ddd",
+          "before": {
+            "id": "water/cold",
+            "name": "\u5bd2\u51dd\u63a7\u8ddd",
+            "games": 66,
+            "wins": 38,
+            "losses": 28,
+            "draws": 0
+          },
+          "after": {
+            "id": "water/cold",
+            "name": "\u5bd2\u51dd\u63a7\u8ddd",
+            "games": 66,
+            "wins": 37,
+            "losses": 29,
+            "draws": 0
+          }
+        },
+        {
+          "id": "water/tidal",
+          "name": "\u6f6e\u6c50\u8c03\u606f",
+          "before": {
+            "id": "water/tidal",
+            "name": "\u6f6e\u6c50\u8c03\u606f",
+            "games": 66,
+            "wins": 49,
+            "losses": 3,
+            "draws": 14
+          },
+          "after": {
+            "id": "water/tidal",
+            "name": "\u6f6e\u6c50\u8c03\u606f",
+            "games": 66,
+            "wins": 45,
+            "losses": 7,
+            "draws": 14
+          }
+        },
+        {
+          "id": "wood/symbiosis",
+          "name": "\u7075\u690d\u5171\u751f",
+          "before": {
+            "id": "wood/symbiosis",
+            "name": "\u7075\u690d\u5171\u751f",
+            "games": 66,
+            "wins": 15,
+            "losses": 48,
+            "draws": 3
+          },
+          "after": {
+            "id": "wood/symbiosis",
+            "name": "\u7075\u690d\u5171\u751f",
+            "games": 66,
+            "wins": 15,
+            "losses": 50,
+            "draws": 1
+          }
+        },
+        {
+          "id": "wood/parasitic",
+          "name": "\u6bd2\u85e4\u5bc4\u751f",
+          "before": {
+            "id": "wood/parasitic",
+            "name": "\u6bd2\u85e4\u5bc4\u751f",
+            "games": 66,
+            "wins": 21,
+            "losses": 43,
+            "draws": 2
+          },
+          "after": {
+            "id": "wood/parasitic",
+            "name": "\u6bd2\u85e4\u5bc4\u751f",
+            "games": 66,
+            "wins": 23,
+            "losses": 43,
+            "draws": 0
+          }
+        },
+        {
+          "id": "earth/bastion",
+          "name": "\u58c1\u5792\u5b88\u5fa1",
+          "before": {
+            "id": "earth/bastion",
+            "name": "\u58c1\u5792\u5b88\u5fa1",
+            "games": 66,
+            "wins": 42,
+            "losses": 17,
+            "draws": 7
+          },
+          "after": {
+            "id": "earth/bastion",
+            "name": "\u58c1\u5792\u5b88\u5fa1",
+            "games": 66,
+            "wins": 39,
+            "losses": 20,
+            "draws": 7
+          }
+        },
+        {
+          "id": "earth/mountain",
+          "name": "\u9547\u5cb3\u538b\u5236",
+          "before": {
+            "id": "earth/mountain",
+            "name": "\u9547\u5cb3\u538b\u5236",
+            "games": 66,
+            "wins": 19,
+            "losses": 41,
+            "draws": 6
+          },
+          "after": {
+            "id": "earth/mountain",
+            "name": "\u9547\u5cb3\u538b\u5236",
+            "games": 66,
+            "wins": 21,
+            "losses": 41,
+            "draws": 4
+          }
+        }
+      ],
+      "drawsBefore": 27,
+      "drawsAfter": 21,
+      "extremes": [
+        {
+          "a": "fire/ignite",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "fire/sustain",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "sword/heavy",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "flame/smolder",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/quick",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 3,
+          "draws": 3
+        },
+        {
+          "a": "sword/quick",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "sword/heavy",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/fierce",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "water/cold",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "flame/smolder",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "water/tidal",
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "draws": 0
+        },
+        {
+          "a": "water/cold",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "wood/symbiosis",
+          "games": 6,
+          "wins": 5,
+          "losses": 0,
+          "draws": 1
+        },
+        {
+          "a": "water/tidal",
+          "b": "wood/parasitic",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/bastion",
+          "games": 6,
+          "wins": 0,
+          "losses": 0,
+          "draws": 6
+        },
+        {
+          "a": "water/tidal",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 0,
+          "losses": 2,
+          "draws": 4
+        },
+        {
+          "a": "wood/parasitic",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        },
+        {
+          "a": "earth/bastion",
+          "b": "earth/mountain",
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "draws": 0
+        }
+      ]
+    }
+  },
+  "unchangedNonBurnScenarios": 648,
+  "scope": "Rejected full combination: purify heal0, rinse heal18/clear1. Frozen source and data are in combined-zero and combined-zero-defensive; not the final accepted version."
+}

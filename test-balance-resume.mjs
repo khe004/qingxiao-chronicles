@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';import {mkdtemp,readFile,writeFile,cp,rm} from 'node:fs/promises';import {tmpdir} from 'node:os';import {join} from 'node:path';import {gzipSync,gunzipSync} from 'node:zlib';import {spawnSync} from 'node:child_process';
 // Replays a subset of the ongoing/full report to exercise a real interrupted
 // measurement. These validations are not new win-rate samples.
-const root=process.argv[2]??'docs/balance/pressure-v0152/final';const list=JSON.parse(gunzipSync(await readFile(`${root}/checkpoint.json.gz`)));const first=list.find(r=>r.index===0);assert.ok(first);
+const root=process.argv[2]??'docs/balance/cleanse-v0153/final';const list=JSON.parse(gunzipSync(await readFile(`${root}/checkpoint.json.gz`)));const first=list.find(r=>r.index===0);assert.ok(first);
 const temp=await mkdtemp(join(tmpdir(),'qingxiao-resume-'));const run=dir=>spawnSync(process.execPath,['scripts/check-twelve-school.mjs',dir,'--loadouts=tactics','--controllers=immediate','--distances=0','--resume'],{encoding:'utf8'});
 try{
  for(const dir of ['valid','duplicate','changed']){await cp(`${root}/source`,`${temp}/${dir}/source`,{recursive:true});await cp(`${root}/source-hashes.json`,`${temp}/${dir}/source-hashes.json`);await writeFile(`${temp}/${dir}/checkpoint.json.gz`,gzipSync(JSON.stringify(dir==='duplicate'?[first,first]:[first])));}

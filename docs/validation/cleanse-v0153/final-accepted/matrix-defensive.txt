@@ -1,0 +1,1 @@
+Full 12×12 matrices: 468 complete records, measured controllers/ranges/initiative, symmetric cells, separate draws/mirrors, exact shipped/frozen source hashes and 6 stratified full deterministic replays passed.

@@ -46,7 +46,7 @@ for(const major of ['cold','tidal']){const b=make(major,['waterbolt','frost','re
 const ebb=make('tidal');act(ebb,'gather');const qi=total(ebb.player.qi);act(ebb,'ebb');assert.equal(total(ebb.player.qi),qi+2);assert.equal(ebb.player.tide,1);reject(ebb,'ebb');act(ebb,'waterwall');assert.equal(ebb.player.tide,0);
 const cap=make('tidal');cap.player.tide=3;cap.player.qi.water=9;cap.player.qi.any=0;act(cap,'ebb');assert.equal(total(cap.player.qi),10);assert.equal(cap.player.tide,1);assert.ok(cap.logs.some(l=>l.text.includes('溢出 1')));
 const empty=make('tidal');reject(empty,'surge');reject(empty,'ebb');act(empty,'waterbolt');assert.ok(empty.enemy.hp<empty.enemy.maxHp,'No-setup attacks remain useful');
-const rinse=make('cold',['waterbolt','frost','repulse','gather','rinse','ebb']);rinse.player.hp=100;rinse.player.burn=5;rinse.player.burnTurns=3;rinse.player.chilled=true;act(rinse,'rinse');assert.equal(rinse.player.hp,118);assert.equal(rinse.player.burn,0);assert.ok(rinse.player.chilled);reject(rinse,'rinse');act(rinse,'dispel');assert.equal(rinse.player.chilled,false);
+const rinse=make('cold',['waterbolt','frost','repulse','gather','rinse','ebb']);rinse.player.hp=100;rinse.player.burn=5;rinse.player.burnTurns=3;rinse.player.chilled=true;act(rinse,'rinse');assert.equal(rinse.player.hp,118);assert.equal(rinse.player.burn,3);assert.equal(rinse.player.burnTurns,3);assert.ok(rinse.player.chilled);reject(rinse,'rinse');act(rinse,'dispel');assert.equal(rinse.player.chilled,false);
 const meditate=make();act(meditate,'meditate');assert.equal(meditate.player.qi.water,5);assert.equal(meditate.player.qi.any,2);assert.equal(meditate.player.qi.fire,0);
 
 // Public plans stay frozen when the player clears the setup or moves. Rules

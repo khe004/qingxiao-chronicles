@@ -1,0 +1,4235 @@
+{
+  "label": "Isolated rinse burn-clear cap 2, heal18/cost/once/passive unchanged; both water majors against three specified burning builds, all balanced controllers, plus tidal defensive. Historical references separately stored; not a full matrix.",
+  "jobs": [
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/tidal",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    },
+    {
+      "tag": "rinse-clear-2",
+      "target": "water/cold",
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "clearBurn": 2
+          }
+        }
+      }
+    }
+  ]
+}

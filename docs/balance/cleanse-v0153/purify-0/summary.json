@@ -1,0 +1,57 @@
+{
+  "label": "Isolated purify healing 0; explicit variant source or skillOverride; 30-round limit; exact historical scenarios stored separately, zero new baseline executions.",
+  "games": 72,
+  "limit": 30,
+  "groups": {
+    "purify-0/immediate/balanced": {
+      "games": 36,
+      "wins": 12,
+      "losses": 24,
+      "unresolved": 0,
+      "rounds": 191,
+      "actions": {
+        "kindle": 76,
+        "eruption": 34,
+        "flare": 50,
+        "firestorm": 55,
+        "meditate": 10,
+        "quench": 6,
+        "basic": 22,
+        "seed": 33,
+        "blaze": 90,
+        "spark": 51,
+        "heal": 34,
+        "near": 28
+      },
+      "unusedAP": 0
+    },
+    "purify-0/prepared/balanced": {
+      "games": 36,
+      "wins": 17,
+      "losses": 19,
+      "unresolved": 0,
+      "rounds": 374,
+      "actions": {
+        "far": 6,
+        "kindle": 170,
+        "ashenward": 13,
+        "quench": 81,
+        "sever-growth": 76,
+        "firestorm": 56,
+        "flare": 58,
+        "eruption": 46,
+        "near": 41,
+        "basic": 46,
+        "meditate": 5,
+        "unparasite": 118,
+        "blaze": 16,
+        "spark": 126,
+        "seed": 19,
+        "heal": 55,
+        "inferno": 41,
+        "seedburst": 8
+      },
+      "unusedAP": 0
+    }
+  }
+}

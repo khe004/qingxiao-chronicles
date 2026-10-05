@@ -6,7 +6,7 @@ import {predictiveDuel} from './scripts/predictive-arena.mjs';
 import {RULES,normalizeLoadout} from './dist/engine.mjs';
 import {TACTICAL_LOADOUTS} from './dist/tactics.mjs';
 
-const root=process.argv.slice(2).find(arg=>!arg.startsWith('--'))??'docs/balance/pressure-v0152/final';
+const root=process.argv.slice(2).find(arg=>!arg.startsWith('--'))??'docs/balance/cleanse-v0153/final';
 const read=name=>JSON.parse(readFileSync(`${root}/${name}`,'utf8'));
 const s=read('summary.json'),hashes=read('source-hashes.json');
 const records=JSON.parse(gunzipSync(readFileSync(`${root}/records.json.gz`)));

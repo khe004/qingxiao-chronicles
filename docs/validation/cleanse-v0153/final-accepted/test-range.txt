@@ -1,0 +1,1 @@
+Range candidates: invariant costs/damage/recovery, actual and simulated range checks, immutable invalid moves, one-time approach refunds/reset, seat symmetry with both controllers and forecast isolation passed.

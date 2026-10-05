@@ -1,0 +1,8561 @@
+{
+  "label": "rinse-14: new execution of only unscreened full-rival scenarios; original screened cases are frozen and referenced separately, not rerun.",
+  "jobs": [
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 0,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "defensive",
+      "distance": 2,
+      "first": 1,
+      "tag": "rinse-14",
+      "skillOverrides": {
+        "water": {
+          "rinse": {
+            "heal": 14
+          }
+        }
+      }
+    }
+  ]
+}
