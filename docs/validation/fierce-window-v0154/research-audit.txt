@@ -1,0 +1,43 @@
+{
+  research: 60,
+  groups: {
+    'eruption-to-combust': { remove: 'eruption', add: 'combust', foes: [Object] },
+    'eruption-to-cinder': { remove: 'eruption', add: 'cinder', foes: [Object] },
+    'quench-to-combust': { remove: 'quench', add: 'combust', foes: [Object] },
+    'ward-to-combust': { remove: 'ashenward', add: 'combust', foes: [Object] }
+  },
+  publicGroups: {
+    'flame/fierce vs wood/symbiosis': {
+      player: 'flame/fierce',
+      enemy: 'wood/symbiosis',
+      games: 3,
+      wins: 3,
+      losses: 0,
+      unresolved: 0
+    },
+    'wood/symbiosis vs flame/fierce': {
+      player: 'wood/symbiosis',
+      enemy: 'flame/fierce',
+      games: 3,
+      wins: 3,
+      losses: 0,
+      unresolved: 0
+    },
+    'flame/fierce vs wood/parasitic': {
+      player: 'flame/fierce',
+      enemy: 'wood/parasitic',
+      games: 3,
+      wins: 3,
+      losses: 0,
+      unresolved: 0
+    },
+    'wood/parasitic vs flame/fierce': {
+      player: 'wood/parasitic',
+      enemy: 'flame/fierce',
+      games: 3,
+      wins: 3,
+      losses: 0,
+      unresolved: 0
+    }
+  }
+}

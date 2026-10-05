@@ -1,0 +1,90 @@
+{
+  "label": "Current v0.15.3 storm kit; four isolated one-slot alternatives vs two prepared wood builds; no rules or AI changes. Three ranges and exchanged initiative, not a full matrix.",
+  "games": 48,
+  "limit": 30,
+  "groups": {
+    "eruption-to-combust/prepared/balanced": {
+      "games": 12,
+      "wins": 1,
+      "losses": 11,
+      "unresolved": 0,
+      "rounds": 156,
+      "actions": {
+        "flare": 23,
+        "ashenward": 25,
+        "basic": 4,
+        "kindle": 153,
+        "quench": 68,
+        "firestorm": 22,
+        "combust": 21,
+        "sever-growth": 60,
+        "far": 1,
+        "near": 5,
+        "unparasite": 46
+      },
+      "unusedAP": 0
+    },
+    "eruption-to-cinder/prepared/balanced": {
+      "games": 12,
+      "wins": 0,
+      "losses": 12,
+      "unresolved": 0,
+      "rounds": 171,
+      "actions": {
+        "flare": 30,
+        "ashenward": 9,
+        "basic": 3,
+        "kindle": 144,
+        "quench": 84,
+        "sever-growth": 81,
+        "firestorm": 38,
+        "cinder": 8,
+        "unparasite": 60
+      },
+      "unusedAP": 0
+    },
+    "quench-to-combust/prepared/balanced": {
+      "games": 12,
+      "wins": 1,
+      "losses": 11,
+      "unresolved": 0,
+      "rounds": 149,
+      "actions": {
+        "far": 1,
+        "kindle": 143,
+        "ashenward": 52,
+        "sever-growth": 70,
+        "near": 14,
+        "eruption": 27,
+        "flare": 25,
+        "combust": 5,
+        "firestorm": 20,
+        "meditate": 1,
+        "unparasite": 50,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "ward-to-combust/prepared/balanced": {
+      "games": 12,
+      "wins": 1,
+      "losses": 11,
+      "unresolved": 0,
+      "rounds": 173,
+      "actions": {
+        "far": 2,
+        "eruption": 32,
+        "flare": 33,
+        "near": 17,
+        "kindle": 150,
+        "quench": 65,
+        "sever-growth": 70,
+        "firestorm": 31,
+        "combust": 6,
+        "unparasite": 61,
+        "basic": 5
+      },
+      "unusedAP": 0
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "games": 12,
+  "scope": "Player AI versus actual public queue; fixed player first, three ranges per role, 30-round limit. No symmetric per-pair six-game denominator.",
+  "groups": {
+    "flame/fierce vs wood/symbiosis": {
+      "player": "flame/fierce",
+      "enemy": "wood/symbiosis",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/symbiosis vs flame/fierce": {
+      "player": "wood/symbiosis",
+      "enemy": "flame/fierce",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "flame/fierce vs wood/parasitic": {
+      "player": "flame/fierce",
+      "enemy": "wood/parasitic",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    },
+    "wood/parasitic vs flame/fierce": {
+      "player": "wood/parasitic",
+      "enemy": "flame/fierce",
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0
+    }
+  }
+}

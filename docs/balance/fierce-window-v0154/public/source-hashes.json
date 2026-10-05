@@ -1,0 +1,12 @@
+{
+  "dist/engine.mjs": "92998e3fa12d747229471f40535a188e23b3907656870c312924c5c10457e40c",
+  "dist/rules.mjs": "bf24fe2761fae21bce2c800bcbc72add22342687127b78f58a6ede717d2b7457",
+  "dist/auto.mjs": "7283eddd776b78c56c6ea5e94751ab87e3d5e1c11c39daf21e1b309cc493ed10",
+  "dist/active-policy.mjs": "f1a19ce052c1954d63eb67028f9b143180ff7c63d7fe8a914c2fcd5ce74084e2",
+  "dist/prepared.mjs": "6cf11c26cfb0afd58ccf0e96fde90e7d7554c1a6002da70c0f5b3925a380fbbb",
+  "dist/tactics.mjs": "ccf62a8d1c087a8cd2143f42e63770f88f96234fd9fed4fefe480a7ed1512108",
+  "dist/recorded-battle.mjs": "5be5f384ef639627806d0aa253c2a4863b0173a58a03486ab1a33d50f249324b",
+  "dist/duel-setup.mjs": "ab00a6430c74ed1c8705087c4b5b7aafd9faaa0dc36b4be3fdea63d5ab9d9be9",
+  "dist/builds.mjs": "52516c928c7f5f62fb407eb80e106a27cdbfe11f02dcb149a946111bcc856a30",
+  "scripts/check-public-duel.mjs": "c8957744a651aa8e2bc1ee653a4c71dfea33c50bcf804a16557c54ac7b542df4"
+}
