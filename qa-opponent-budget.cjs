@@ -1,0 +1,22 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/opt/codex/cua_node/lib/node_modules/playwright');
+const assert=require('node:assert/strict'),http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+(async()=>{
+ const root=path.resolve(__dirname,'dist'),server=http.createServer((req,res)=>{
+  const file=path.resolve(root,'.'+new URL(req.url,'http://localhost').pathname.replace(/\/$/,'/index.html'));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return;}
+  try{res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.mjs':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png','.jpg':'image/jpeg'})[path.extname(file)]||'application/octet-stream');res.end(fs.readFileSync(file));}catch{res.writeHead(404).end();}
+ });await new Promise(r=>server.listen(0,'127.0.0.1',r));let browser;
+ try{
+  browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],missing=[];page.setDefaultTimeout(30000);page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400&&r.url().startsWith('http://127.0.0.1'))missing.push(r.url());});
+  await page.addInitScript(()=>{window.duelTools={};Object.defineProperty(document,'modelContext',{value:{registerTool(t){window.duelTools[t.name]=t;}}});});await page.clock.install();await page.goto('http://127.0.0.1:'+server.address().port);await page.locator('#cancel-loadout').click();
+  const state=()=>page.evaluate(()=>window.duelTools.read_duel_state.execute({}));
+  for(const [width,id]of [[1440,'symbiosis'],[390,'parasitic'],[320,'mountain']]){
+   await page.setViewportSize({width,height:844});await page.locator('#trial-button').click();assert.equal(await page.locator('[data-practice]').count(),11);await page.locator('[data-difficulty="practice"]').click();await page.locator(`[data-practice="${id}"]`).click();await page.locator('#cancel-loadout').click();const practice=await state();
+   await page.locator('#trial-button').click();await page.locator('[data-difficulty="questioning"]').click();assert.ok((await page.locator('[data-difficulty="questioning"]').textContent()).includes('真实费用'));assert.ok(await page.evaluate(()=>{const d=document.querySelector('#trial-dialog');return d.scrollWidth<=d.clientWidth+1;}));await page.locator(`[data-practice="${id}"]`).click();await page.locator('#cancel-loadout').click();let s=await state();assert.equal(s.difficulty,'questioning');assert.equal(s.enemy.maxHp,practice.enemy.maxHp);assert.deepEqual(s.enemy.skillIds,practice.enemy.skillIds);assert.deepEqual(s.enemy.qi,practice.enemy.qi);
+   const plan=[...s.enemyPlan];assert.ok(plan.length);await page.locator('[data-skill="far"]').click();assert.deepEqual((await state()).enemyPlan,plan,'Moving cannot replace the announced plan');
+   if(!await page.locator('#tactical-hints').evaluate(el=>el.open))await page.locator('#tactical-hints summary').click();await page.clock.runFor(1);await page.waitForFunction(()=>document.querySelector('#tactical-hints-list li'));assert.ok(await page.locator('#tactical-hints-list li').count());
+   await page.locator('#auto-speed').selectOption('fast');await page.locator('#auto-toggle').click();await page.clock.runFor(90000);s=await state();assert.ok(s.result);assert.equal(s.automation.enabled,false);assert.ok(!(await page.locator('#battle-log').textContent()).includes('undefined'));
+   await page.locator('#review-current').click();assert.ok((await page.locator('.review-heading h3').textContent()).includes('问道'));assert.ok(await page.locator('#history-log .log-entry').count());await page.locator('#close-history').click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:`/workspace/qingxiao-opponent-budget-${width}.png`,fullPage:true});
+  }
+  assert.deepEqual(errors,[]);assert.deepEqual(missing,[]);console.log('Opponent budget browser: eleven NPC entries, equal tier HP/qi/loadouts, updated tier explanation, frozen previews after movement, live tactical hints, three actual questioning games and archives, no errors/404 and 1440/390/320 layouts passed.');
+ }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
+})().catch(e=>{console.error(e);process.exit(1);});

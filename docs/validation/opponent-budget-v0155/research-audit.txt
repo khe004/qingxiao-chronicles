@@ -1,0 +1,9 @@
+{
+  executions: 264,
+  identicalPractice: 66,
+  changedQuestioning: 55,
+  groups: {
+    practice: { before: [Object], after: [Object] },
+    questioning: { before: [Object], after: [Object] }
+  }
+}
