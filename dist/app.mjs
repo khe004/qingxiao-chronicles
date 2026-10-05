@@ -149,6 +149,9 @@ function scheduleCombat(){
         if(choice){battle.log(`【自动·${TENDENCIES[automation.tendency].name}】应对：${choice.reason}`,'decision');const r=battle.react(choice.response);if(!r.ok)throw Error(r.error);}
       }else if(automation.enabled&&phase==='player'){
         const choice=chooseAction(battle,automation.tendency);
+        // Keep the displayed broken-defense percentage tied to the actual
+        // equipped skill, including balance overrides, rather than old prose.
+        if(choice?.action==='skill'&&battle.skill(battle.player,choice.skillId)?.expose)choice.reason=battle.skill(battle.player,choice.skillId).desc;
         if(choice){battle.log(describeAutoChoice(battle,choice,automation.tendency),'decision');const r=choice.action==='end'?battle.endTurn():battle.act(battle.player,choice.skillId);if(!r.ok)throw Error(r.error);}
       }
     }catch(error){automation.enabled=false;battle.log(`自动斗法暂停：${error.message}，可继续手动出招。`,'decision');}

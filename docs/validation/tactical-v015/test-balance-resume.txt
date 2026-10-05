@@ -1,0 +1,3 @@
+Command: node test-balance-resume.mjs
+Exit: 0
+Balance checkpoint: 1/156 partial run resumes only missing scenarios, completed export preserves all records, duplicate indices and changed combat hashes rejected. Validation replays excluded from new measurement counts.

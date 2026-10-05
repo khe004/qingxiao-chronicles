@@ -1,0 +1,42 @@
+{
+  "label": "3 counter-loadout before wood healing changes; recommended fire opponents",
+  "games": 16,
+  "limit": 30,
+  "groups": {
+    "fire-recommended-counter/immediate/balanced": {
+      "games": 8,
+      "wins": 2,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 73,
+      "actions": {
+        "wooddart": 59,
+        "basic": 54,
+        "graft": 49,
+        "bloomstrike": 3,
+        "bloomheal": 46
+      },
+      "unusedAP": 0
+    },
+    "fire-recommended-counter/prepared/balanced": {
+      "games": 8,
+      "wins": 6,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 131,
+      "actions": {
+        "wooddart": 83,
+        "basic": 65,
+        "far": 7,
+        "cultivate": 88,
+        "bloomstrike": 18,
+        "graft": 24,
+        "bloomheal": 32,
+        "purify": 55,
+        "thornscreen": 13,
+        "near": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

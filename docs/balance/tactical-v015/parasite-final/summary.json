@@ -1,0 +1,41 @@
+{
+  "label": "1 independent growth healing plus optional counter, unchanged skill values",
+  "games": 24,
+  "limit": 30,
+  "groups": {
+    "growth-counter/immediate/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 121,
+      "actions": {
+        "wooddart": 229,
+        "basic": 37,
+        "cultivate": 43,
+        "bloomheal": 43
+      },
+      "unusedAP": 0
+    },
+    "growth-counter/prepared/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 170,
+      "actions": {
+        "wooddart": 109,
+        "parasite": 144,
+        "far": 17,
+        "thornscreen": 60,
+        "cultivate": 64,
+        "bloomheal": 24,
+        "basic": 48,
+        "purify": 5,
+        "reap": 14,
+        "near": 13
+      },
+      "unusedAP": 0
+    }
+  }
+}

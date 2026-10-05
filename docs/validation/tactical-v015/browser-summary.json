@@ -1,0 +1,18 @@
+[
+  {
+    "test": "duel",
+    "exit": 0
+  },
+  {
+    "test": "save-recap",
+    "exit": 0
+  },
+  {
+    "test": "symbiosis",
+    "exit": 0
+  },
+  {
+    "test": "builds",
+    "exit": 0
+  }
+]

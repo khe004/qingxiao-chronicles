@@ -1,0 +1,166 @@
+{
+  "label": "2 quick-sword loadout screening, unchanged costs/intent/range",
+  "games": 96,
+  "limit": 30,
+  "groups": {
+    "baseline/immediate/balanced": {
+      "games": 12,
+      "wins": 4,
+      "losses": 8,
+      "unresolved": 0,
+      "rounds": 66,
+      "actions": {
+        "swift": 49,
+        "near": 21,
+        "purify": 1,
+        "pierce": 3,
+        "strike": 23,
+        "meditate": 9,
+        "basic": 77,
+        "sever-terrain": 1,
+        "temper": 1
+      },
+      "unusedAP": 0
+    },
+    "baseline/prepared/balanced": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 76,
+      "actions": {
+        "swift": 38,
+        "basic": 43,
+        "purify": 9,
+        "unity": 21,
+        "near": 30,
+        "pierce": 4,
+        "strike": 27,
+        "cut": 7,
+        "meditate": 11,
+        "temper": 2,
+        "sever-growth": 2
+      },
+      "unusedAP": 0
+    },
+    "guard/immediate/balanced": {
+      "games": 12,
+      "wins": 4,
+      "losses": 8,
+      "unresolved": 0,
+      "rounds": 70,
+      "actions": {
+        "swift": 49,
+        "near": 22,
+        "purify": 1,
+        "pierce": 3,
+        "strike": 24,
+        "meditate": 9,
+        "guard": 11,
+        "basic": 78
+      },
+      "unusedAP": 0
+    },
+    "guard/prepared/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 90,
+      "actions": {
+        "swift": 37,
+        "guard": 47,
+        "strike": 29,
+        "purify": 11,
+        "pierce": 11,
+        "basic": 35,
+        "unity": 18,
+        "near": 23,
+        "meditate": 10,
+        "far": 3,
+        "cut": 7,
+        "sever-growth": 5
+      },
+      "unusedAP": 0
+    },
+    "chase/immediate/balanced": {
+      "games": 12,
+      "wins": 4,
+      "losses": 8,
+      "unresolved": 0,
+      "rounds": 70,
+      "actions": {
+        "swift": 46,
+        "near": 22,
+        "purify": 1,
+        "pierce": 1,
+        "lunge": 5,
+        "strike": 24,
+        "meditate": 9,
+        "guard": 11,
+        "basic": 78
+      },
+      "unusedAP": 0
+    },
+    "chase/prepared/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 79,
+      "actions": {
+        "swift": 40,
+        "guard": 33,
+        "strike": 29,
+        "purify": 11,
+        "pierce": 5,
+        "near": 31,
+        "lunge": 20,
+        "unity": 13,
+        "meditate": 9,
+        "basic": 14,
+        "far": 2,
+        "sever-growth": 4
+      },
+      "unusedAP": 0
+    },
+    "short-cycle/immediate/balanced": {
+      "games": 12,
+      "wins": 5,
+      "losses": 7,
+      "unresolved": 0,
+      "rounds": 74,
+      "actions": {
+        "swift": 46,
+        "guard": 17,
+        "near": 23,
+        "strike": 26,
+        "meditate": 9,
+        "basic": 81,
+        "pierce": 2
+      },
+      "unusedAP": 0
+    },
+    "short-cycle/prepared/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 115,
+      "actions": {
+        "swift": 57,
+        "basic": 45,
+        "near": 66,
+        "strike": 32,
+        "guard": 62,
+        "purify": 17,
+        "pierce": 26,
+        "cut": 5,
+        "meditate": 2,
+        "return": 1,
+        "sever-growth": 16
+      },
+      "unusedAP": 0
+    }
+  }
+}

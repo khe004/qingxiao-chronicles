@@ -1,0 +1,4966 @@
+{
+  "rules": "v0.15-builds",
+  "sourceHashes": {
+    "rules": "b1c26993cd404869a4e86c88be80b1ea50f9a0a09dddd0b4542b0d0fabc12ce4",
+    "engine": "8c47b2707ff57f1979498fcf9c7e206788ecc671ff120ecc0fb086c149dc00d9",
+    "prepared": "6cf11c26cfb0afd58ccf0e96fde90e7d7554c1a6002da70c0f5b3925a380fbbb",
+    "tactics": "2d7aa84dae3e3b0e6804ba00ed5a6b9626348c78994cc8d45fca5c0a3866df54"
+  },
+  "scope": "144 manual legal casts, 72 skills and both majors; maximum stored preparations are independent fixtures, not a feasible single-turn combo",
+  "rows": [
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "wooddart",
+      "name": "青叶矢",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 28,
+      "hpChange": 0,
+      "enemyHpLoss": 2,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "低耗全距木法，不需要生长或寄生。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "cultivate",
+      "name": "培植诀",
+      "kind": "cultivate",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 12,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 1,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "同时获得12护盾；生长+1，上限3，每回合一次；下次自身阶段再+1，共生再+2。收尽或全破除会取消成熟。培植与接枝共用每回合一次培育，收获后也不重置。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "bloomstrike",
+      "name": "繁花击",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 84,
+      "hpChange": 0,
+      "enemyHpLoss": 45,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 0,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部生长，每层增加18基础伤害，基础30；不同时回血或补盾；满3生长可远距，未满限近中距。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "bloomguard",
+      "name": "蔓生屏",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 50,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 0,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部生长，每层增加12护盾，基础14；总盾上限60，不返培育费用。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "bloomheal",
+      "name": "灵植回春",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 42,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 0,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部生长，每层增加10恢复，基础12，清至多2层灼烧；每回合一次，不清凝滞或寄生。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "parasite",
+      "name": "寄藤诀",
+      "kind": "parasite",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "付费附着造成2基础木伤；目标寄生+1，上限3，维持两次目标阶段。目标每阶段首次付费施法使寄生+1（寄生主修+2），每层造成4基础木伤并破除至多1地势；可单独净化，不扣灵气或行动。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "reap",
+      "name": "噬藤收获",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 84,
+      "hpChange": 0,
+      "enemyHpLoss": 45,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 0,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部寄生，每层增加18基础傷害，基础30；已收获层数不再侵蚀；满3寄生可远距，未满限近中距。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "prune",
+      "name": "截根术",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "攻击后破除1地势；目标没有地势时改为破除2生长。只处理一种准备，不清异常、不打断蓄势。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "thornscreen",
+      "name": "荆棘护幕",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 12,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 2,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 16,
+        "hits": 2,
+        "element": "wood",
+        "name": "荆棘护幕"
+      },
+      "desc": "获得12护盾；消费至多1生长强化两次反击，每次10基础木伤加每生长6，至下次自身阶段。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "leafmend",
+      "name": "噬藤回生",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 24,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 2,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费目标1寄生，恢复24气血；不清自身异常，放弃这层后续侵蚀，每回合一次。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "graft",
+      "name": "接枝催荣",
+      "kind": "cultivate",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 2,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "立即积累2生长，上限3；不额外产生待成熟，支付2木气与1行动，每回合一次。培植与接枝共用每回合一次培育，收获后也不重置。"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "id": "twinvine",
+      "name": "双藤绞杀",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "wood": 3,
+        "any": 1
+      },
+      "raw": 68,
+      "hpChange": 0,
+      "enemyHpLoss": 32,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 5,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 2,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 1,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "需要自身生长和目标寄生；消费1生长、至多2寄生，每层各增12，基础32，2行动，全距。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "wooddart",
+      "name": "青叶矢",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 28,
+      "hpChange": 0,
+      "enemyHpLoss": 2,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "低耗全距木法，不需要生长或寄生。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "cultivate",
+      "name": "培植诀",
+      "kind": "cultivate",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 12,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 1,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "同时获得12护盾；生长+1，上限3，每回合一次；下次自身阶段再+1，共生再+2。收尽或全破除会取消成熟。培植与接枝共用每回合一次培育，收获后也不重置。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "bloomstrike",
+      "name": "繁花击",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 84,
+      "hpChange": 0,
+      "enemyHpLoss": 45,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 0,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部生长，每层增加18基础伤害，基础30；不同时回血或补盾；满3生长可远距，未满限近中距。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "bloomguard",
+      "name": "蔓生屏",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 50,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 0,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部生长，每层增加12护盾，基础14；总盾上限60，不返培育费用。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "bloomheal",
+      "name": "灵植回春",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 42,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 0,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部生长，每层增加10恢复，基础12，清至多2层灼烧；每回合一次，不清凝滞或寄生。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "parasite",
+      "name": "寄藤诀",
+      "kind": "parasite",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "付费附着造成2基础木伤；目标寄生+1，上限3，维持两次目标阶段。目标每阶段首次付费施法使寄生+1（寄生主修+2），每层造成4基础木伤并破除至多1地势；可单独净化，不扣灵气或行动。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "reap",
+      "name": "噬藤收获",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 84,
+      "hpChange": 0,
+      "enemyHpLoss": 45,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 0,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部寄生，每层增加18基础傷害，基础30；已收获层数不再侵蚀；满3寄生可远距，未满限近中距。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "prune",
+      "name": "截根术",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "攻击后破除1地势；目标没有地势时改为破除2生长。只处理一种准备，不清异常、不打断蓄势。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "thornscreen",
+      "name": "荆棘护幕",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 12,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 7,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 2,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 16,
+        "hits": 2,
+        "element": "wood",
+        "name": "荆棘护幕"
+      },
+      "desc": "获得12护盾；消费至多1生长强化两次反击，每次10基础木伤加每生长6，至下次自身阶段。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "leafmend",
+      "name": "噬藤回生",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 24,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 2,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费目标1寄生，恢复24气血；不清自身异常，放弃这层后续侵蚀，每回合一次。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "graft",
+      "name": "接枝催荣",
+      "kind": "cultivate",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 6,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 2,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "立即积累2生长，上限3；不额外产生待成熟，支付2木气与1行动，每回合一次。培植与接枝共用每回合一次培育，收获后也不重置。"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "id": "twinvine",
+      "name": "双藤绞杀",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "wood": 3,
+        "any": 1
+      },
+      "raw": 68,
+      "hpChange": 0,
+      "enemyHpLoss": 32,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 5,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 2,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 1,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "需要自身生长和目标寄生；消费1生长、至多2寄生，每层各增12，基础32，2行动，全距。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "stonebolt",
+      "name": "飞岩诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 28,
+      "hpChange": 0,
+      "enemyHpLoss": 3,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "低耗全距土法，不需要地势；地势耗尽后仍可进攻。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "foundation",
+      "name": "筑垒诀",
+      "kind": "terrain",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 8,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "同时获得8护盾；建立2地势，壁垒主修为3，上限3，每回合一次，不因承伤免费增长。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "rampart",
+      "name": "磐石壁",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 54,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2地势，每层增加14护盾，基础14；总盾上限60；壁垒主修每回合首次以地势防守额外12盾。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "landbreak",
+      "name": "裂地击",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 2
+      },
+      "raw": 58,
+      "hpChange": 0,
+      "enemyHpLoss": 28,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 6,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2地势，每层增加14基础伤害，基础30；消耗后防守／稳固可用地势减少。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "mountain",
+      "name": "镇岳印",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "earth": 3,
+        "any": 1
+      },
+      "raw": 115,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 5,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "支付2行动、3土气与1任意气、2地势蓄势，基础68，每地势增加16；启动锁定，下次自身阶段近中距释放，可退距或打断，费用不返。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "anchor",
+      "name": "稳固诀",
+      "kind": "reaction",
+      "ap": 0,
+      "cost": {
+        "earth": 1
+      },
+      "preparation": "1地势及本回合应对",
+      "raw": 0,
+      "hpChange": -12
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "quakesunder",
+      "name": "碎阵诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 1,
+        "any": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "攻击后破除1地势；无地势时改为破除2生长。只处理一种准备，不附带打断。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "earthenwall",
+      "name": "岩衣术",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 22,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得22护盾，上限60；不需要或增加地势。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "stoneback",
+      "name": "磐甲反震",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "earth": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 24,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 2,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 18,
+        "hits": 2,
+        "element": "earth",
+        "name": "磐甲反震"
+      },
+      "desc": "获得12护盾；消费至多1地势强化两次反击，每次12基础土伤加每地势6，至下次自身阶段。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "earthmend",
+      "name": "地脉养元",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "earth": 2
+      },
+      "raw": 0,
+      "hpChange": 22,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 6,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2地势，每层恢复8气血，基础恢复6；不清异常，每回合一次。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "faultline",
+      "name": "裂岩破阵",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "earth": 3,
+        "any": 1
+      },
+      "raw": 62,
+      "hpChange": 0,
+      "enemyHpLoss": 32,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 5,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 2,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费1地势，46基础土伤加16；四分之一伤害越过护盾，再破除1地势或2生长，2行动，全距。"
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "id": "gravel",
+      "name": "叠岩诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 16,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成16基础土伤，积累1地势，上限3；每回合一次，不免移动损阵。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "stonebolt",
+      "name": "飞岩诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 28,
+      "hpChange": 0,
+      "enemyHpLoss": 3,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "低耗全距土法，不需要地势；地势耗尽后仍可进攻。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "foundation",
+      "name": "筑垒诀",
+      "kind": "terrain",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 8,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 2,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "同时获得8护盾；建立2地势，壁垒主修为3，上限3，每回合一次，不因承伤免费增长。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "rampart",
+      "name": "磐石壁",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 42,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2地势，每层增加14护盾，基础14；总盾上限60；壁垒主修每回合首次以地势防守额外12盾。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "landbreak",
+      "name": "裂地击",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 2
+      },
+      "raw": 64,
+      "hpChange": 0,
+      "enemyHpLoss": 33,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 6,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2地势，每层增加14基础伤害，基础30；消耗后防守／稳固可用地势减少。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "mountain",
+      "name": "镇岳印",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "earth": 3,
+        "any": 1
+      },
+      "raw": 122,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 5,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "支付2行动、3土气与1任意气、2地势蓄势，基础68，每地势增加16；启动锁定，下次自身阶段近中距释放，可退距或打断，费用不返。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "anchor",
+      "name": "稳固诀",
+      "kind": "reaction",
+      "ap": 0,
+      "cost": {
+        "earth": 1
+      },
+      "preparation": "1地势及本回合应对",
+      "raw": 0,
+      "hpChange": -12
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "quakesunder",
+      "name": "碎阵诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 1,
+        "any": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "攻击后破除1地势；无地势时改为破除2生长。只处理一种准备，不附带打断。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "earthenwall",
+      "name": "岩衣术",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 22,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得22护盾，上限60；不需要或增加地势。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "stoneback",
+      "name": "磐甲反震",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "earth": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 12,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 2,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 18,
+        "hits": 2,
+        "element": "earth",
+        "name": "磐甲反震"
+      },
+      "desc": "获得12护盾；消费至多1地势强化两次反击，每次12基础土伤加每地势6，至下次自身阶段。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "earthmend",
+      "name": "地脉养元",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "earth": 2
+      },
+      "raw": 0,
+      "hpChange": 22,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 6,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 1,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2地势，每层恢复8气血，基础恢复6；不清异常，每回合一次。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "faultline",
+      "name": "裂岩破阵",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "earth": 3,
+        "any": 1
+      },
+      "raw": 68,
+      "hpChange": 0,
+      "enemyHpLoss": 36,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 5,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 2,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费1地势，46基础土伤加16；四分之一伤害越过护盾，再破除1地势或2生长，2行动，全距。"
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "id": "gravel",
+      "name": "叠岩诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "earth": 1
+      },
+      "raw": 16,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 7,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成16基础土伤，积累1地势，上限3；每回合一次，不免移动损阵。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "waterbolt",
+      "name": "玄水矢",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 46,
+      "hpChange": 0,
+      "enemyHpLoss": 15,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "低耗全距术法。寒凝主修可消耗凝滞强化本回合首次玄水矢，或保留凝滞用于逐浪。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "frost",
+      "name": "凝霜诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 22,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，施加一次凝滞，不叠层；可被净息或目标自己移动消解，至目标下次行动结束消散。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "repulse",
+      "name": "逐浪术",
+      "kind": "force",
+      "ap": 1,
+      "cost": {
+        "water": 1,
+        "any": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "需要目标凝滞且不在远距。消耗凝滞，造成18基础水伤后将存活目标推远一档；每回合一次，不打断蓄势或扣行动。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "gather",
+      "name": "纳潮诀",
+      "kind": "tide",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 8,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 2,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "同时获得8护盾；凝聚2潮势，潮汐主修为3，上限3，每回合一次；不回复气血或灵气。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "surge",
+      "name": "沧澜击",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 2
+      },
+      "raw": 68,
+      "hpChange": 0,
+      "enemyHpLoss": 32,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 6,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 1,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "至少1潮势；消耗至多2层，每层增加18基础伤害，与防护／回潮共用储备。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "waterwall",
+      "name": "回流障",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 34,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 2,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得22护盾，有潮势时消费1层再增加12；总盾上限60。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "rinse",
+      "name": "涤尘诀",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 18,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复18气血，清除自身灼烧，每回合一次；不清凝滞或寄生。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "ebb",
+      "name": "回潮调息",
+      "kind": "ebb",
+      "ap": 1,
+      "cost": {},
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 4,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 1,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗至多 2 潮势，每层凝聚 1 水灵气；每回合限一次，受 10 点容量限制。回潮占行动，不触发纳潮或免费续转。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "tidespear",
+      "name": "贯潮长虹",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "water": 3,
+        "any": 1
+      },
+      "raw": 80,
+      "hpChange": 0,
+      "enemyHpLoss": 42,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 5,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 0,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部潮势，每层增加12基础伤害，基础44；至少1潮势，2行动，全距。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "mirrorwater",
+      "name": "玄水镜屏",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "water": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 10,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 2,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 20,
+        "hits": 1,
+        "element": "water",
+        "name": "玄水镜屏"
+      },
+      "desc": "获得10护盾；消费至多1潮势强化一次反击，12基础水伤加每潮势8，至下次自身阶段。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "mendingtide",
+      "name": "润脉回潮",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 24,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 1,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2潮势，每层恢复8气血，基础恢复8；不清异常，每回合一次。"
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "id": "icebreaker",
+      "name": "碎冰矢",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 2
+      },
+      "raw": 52,
+      "hpChange": 0,
+      "enemyHpLoss": 20,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 6,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "需要并消费凝滞，34基础水伤加18强化；不迫退，与寒凝增伤和逐浪争用同一次凝滞。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "waterbolt",
+      "name": "玄水矢",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 28,
+      "hpChange": 0,
+      "enemyHpLoss": 2,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "低耗全距术法。寒凝主修可消耗凝滞强化本回合首次玄水矢，或保留凝滞用于逐浪。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "frost",
+      "name": "凝霜诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 22,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，施加一次凝滞，不叠层；可被净息或目标自己移动消解，至目标下次行动结束消散。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "repulse",
+      "name": "逐浪术",
+      "kind": "force",
+      "ap": 1,
+      "cost": {
+        "water": 1,
+        "any": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "需要目标凝滞且不在远距。消耗凝滞，造成18基础水伤后将存活目标推远一档；每回合一次，不打断蓄势或扣行动。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "gather",
+      "name": "纳潮诀",
+      "kind": "tide",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 8,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "同时获得8护盾；凝聚2潮势，潮汐主修为3，上限3，每回合一次；不回复气血或灵气。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "surge",
+      "name": "沧澜击",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 2
+      },
+      "raw": 68,
+      "hpChange": 0,
+      "enemyHpLoss": 32,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 6,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 1,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "至少1潮势；消耗至多2层，每层增加18基础伤害，与防护／回潮共用储备。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "waterwall",
+      "name": "回流障",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 34,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 2,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得22护盾，有潮势时消费1层再增加12；总盾上限60。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "rinse",
+      "name": "涤尘诀",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 18,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复18气血，清除自身灼烧，每回合一次；不清凝滞或寄生。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "ebb",
+      "name": "回潮调息",
+      "kind": "ebb",
+      "ap": 1,
+      "cost": {},
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 4,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 1,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗至多 2 潮势，每层凝聚 1 水灵气；每回合限一次，受 10 点容量限制。回潮占行动，不触发纳潮或免费续转。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "tidespear",
+      "name": "贯潮长虹",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "water": 3,
+        "any": 1
+      },
+      "raw": 80,
+      "hpChange": 0,
+      "enemyHpLoss": 42,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 5,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 0,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部潮势，每层增加12基础伤害，基础44；至少1潮势，2行动，全距。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "mirrorwater",
+      "name": "玄水镜屏",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "water": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 10,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 2,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 20,
+        "hits": 1,
+        "element": "water",
+        "name": "玄水镜屏"
+      },
+      "desc": "获得10护盾；消费至多1潮势强化一次反击，12基础水伤加每潮势8，至下次自身阶段。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "mendingtide",
+      "name": "润脉回潮",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 24,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 7,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 1,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2潮势，每层恢复8气血，基础恢复8；不清异常，每回合一次。"
+    },
+    {
+      "key": "water",
+      "major": "tidal",
+      "id": "icebreaker",
+      "name": "碎冰矢",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 2
+      },
+      "raw": 52,
+      "hpChange": 0,
+      "enemyHpLoss": 20,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 6,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "需要并消费凝滞，34基础水伤加18强化；不迫退，与寒凝增伤和逐浪争用同一次凝滞。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "seed",
+      "name": "催生术",
+      "kind": "seed",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "种下 2 层灵种。焚炎术每引燃一层，伤害提高 20%。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "spark",
+      "name": "流火诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 24,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，附加 1 层灼烧。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "blaze",
+      "name": "焚炎术",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 2,
+        "any": 1
+      },
+      "raw": 84,
+      "hpChange": 0,
+      "enemyHpLoss": 39,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 0,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "引燃全部灵种，附加 2 层灼烧。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "heal",
+      "name": "青木回春",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 18,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复 18 气血，清除自身灼烧。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "vine",
+      "name": "缠灵藤",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 12,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，打断敌人蓄势。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "ember",
+      "name": "星火引",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 38,
+      "hpChange": 0,
+      "enemyHpLoss": 7,
+      "shieldGain": 0,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 4,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 3,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗至多 2 层灵种，每层增加 10 基础伤害；保留剩余灵种。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "nourish",
+      "name": "枯荣转生",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 14,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复 14 气血，清除 1 层灼烧，凝聚 1 通灵。每回合限一次。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "inferno",
+      "name": "离火焚天",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 99,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 1,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "蓄势至下次行动阶段。引爆灼烧，每层额外造成 8 基础伤害。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "sproutguard",
+      "name": "灵芽护身",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 14,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得14护盾，在对手身上积累1灵种；每回合一次。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "rootdrink",
+      "name": "摄灵回春",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 26,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 3,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2灵种，每层恢复8气血，基础恢复10；不清异常，每回合一次。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "seedburst",
+      "name": "千种燎原",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 122,
+      "hpChange": 0,
+      "enemyHpLoss": 66,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 1,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 0,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部灵种，每层增加16基础伤害，基础42；至少2灵种，2行动，全距。"
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "id": "sapflow",
+      "name": "青木引火",
+      "kind": "channel",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 0
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 4,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费1灵种，凝聚2火气；支付1木气与1行动，每回合一次，受容量限制。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "seed",
+      "name": "催生术",
+      "kind": "seed",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 2,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "种下 2 层灵种。焚炎术每引燃一层，伤害提高 20%。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "spark",
+      "name": "流火诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 24,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，附加 1 层灼烧。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "blaze",
+      "name": "焚炎术",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 2,
+        "any": 1
+      },
+      "raw": 84,
+      "hpChange": 0,
+      "enemyHpLoss": 39,
+      "shieldGain": 0,
+      "qiChange": -3,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 2,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 0,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "引燃全部灵种，附加 2 层灼烧。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "heal",
+      "name": "青木回春",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 2
+      },
+      "raw": 0,
+      "hpChange": 20,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复 18 气血，清除自身灼烧。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "vine",
+      "name": "缠灵藤",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 12,
+      "hpChange": 2,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，打断敌人蓄势。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "ember",
+      "name": "星火引",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 38,
+      "hpChange": 0,
+      "enemyHpLoss": 7,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 3,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗至多 2 层灵种，每层增加 10 基础伤害；保留剩余灵种。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "nourish",
+      "name": "枯荣转生",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 16,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复 14 气血，清除 1 层灼烧，凝聚 1 通灵。每回合限一次。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "inferno",
+      "name": "离火焚天",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 99,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 1,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "蓄势至下次行动阶段。引爆灼烧，每层额外造成 8 基础伤害。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "sproutguard",
+      "name": "灵芽护身",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 2,
+      "enemyHpLoss": 0,
+      "shieldGain": 14,
+      "qiChange": 0,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得14护盾，在对手身上积累1灵种；每回合一次。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "rootdrink",
+      "name": "摄灵回春",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "wood": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 28,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 3,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 3,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多2灵种，每层恢复8气血，基础恢复10；不清异常，每回合一次。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "seedburst",
+      "name": "千种燎原",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 122,
+      "hpChange": 0,
+      "enemyHpLoss": 66,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 4,
+        "water": 0,
+        "fire": 1,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 0,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费全部灵种，每层增加16基础伤害，基础42；至少2灵种，2行动，全距。"
+    },
+    {
+      "key": "fire",
+      "major": "sustain",
+      "id": "sapflow",
+      "name": "青木引火",
+      "kind": "channel",
+      "ap": 1,
+      "cost": {
+        "wood": 1
+      },
+      "raw": 0,
+      "hpChange": 2,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 0
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 4,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费1灵种，凝聚2火气；支付1木气与1行动，每回合一次，受容量限制。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "swift",
+      "name": "掠影剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1
+      },
+      "raw": 28,
+      "hpChange": 0,
+      "enemyHpLoss": 3,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成兵刃伤害，积累 1 层剑意。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "expose",
+      "name": "照隙诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 12,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 6,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "制造破绽，使下一次重剑伤害提高15%。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "strike",
+      "name": "断岳剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 2,
+        "any": 1
+      },
+      "raw": 98,
+      "hpChange": 0,
+      "enemyHpLoss": 60,
+      "shieldGain": 0,
+      "qiChange": -3,
+      "remainingQi": {
+        "metal": 4,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗全部剑意，每层增加7基础伤害；利用破绽增伤15%。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "guard",
+      "name": "藏锋式",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "metal": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 20,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得20护盾与1层剑意，总盾上限60。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "cut",
+      "name": "截脉剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 20,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成兵刃伤害，打断敌人蓄势。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "lunge",
+      "name": "追风剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1
+      },
+      "raw": 48,
+      "hpChange": 0,
+      "enemyHpLoss": 19,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗 2 剑意，近身出剑并打断蓄势；命中后积累 1 剑意。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "return",
+      "name": "回澜剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 44,
+      "hpChange": 0,
+      "enemyHpLoss": 16,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗至多2层剑意，每层增加7基础伤害；利用破绽增伤15%。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "unity",
+      "name": "万剑归一",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "metal": 3,
+        "any": 1
+      },
+      "raw": 139,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 3,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗剑意蓄势，每层增加7基础伤害，下次自身阶段释放。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "temper",
+      "name": "静心养剑",
+      "kind": "intent",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "积累2剑意，上限5；不攻击，不触发快剑额外养意，每回合一次。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "riposte",
+      "name": "回锋剑屏",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 12,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 12,
+        "hits": 1,
+        "element": "metal",
+        "name": "回锋剑屏"
+      },
+      "desc": "获得12护盾，下一次承受直接攻击反击至多12基础金伤；下次自身阶段到期，不递归反伤。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "pierce",
+      "name": "穿甲剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 2
+      },
+      "raw": 32,
+      "hpChange": 0,
+      "enemyHpLoss": 13,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 4,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "支付1剑意，造成32基础金伤；一半伤害越过护盾，仍按兵刃防御减免，命中后养意。"
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "id": "cleave",
+      "name": "碎垒重剑",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "metal": 3,
+        "any": 1
+      },
+      "raw": 95,
+      "hpChange": 0,
+      "enemyHpLoss": 58,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 3,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多3剑意，每层按重剑规则增伤；目标有护盾时额外20基础伤害，基础42，2行动。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "swift",
+      "name": "掠影剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1
+      },
+      "raw": 28,
+      "hpChange": 0,
+      "enemyHpLoss": 3,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成兵刃伤害，积累 1 层剑意。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "expose",
+      "name": "照隙诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "water": 1
+      },
+      "raw": 12,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 6,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "制造破绽，使下一次重剑伤害提高15%。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "strike",
+      "name": "断岳剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 2,
+        "any": 1
+      },
+      "raw": 109,
+      "hpChange": 0,
+      "enemyHpLoss": 69,
+      "shieldGain": 0,
+      "qiChange": -3,
+      "remainingQi": {
+        "metal": 4,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗全部剑意，每层增加7基础伤害；利用破绽增伤15%。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "guard",
+      "name": "藏锋式",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "metal": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 20,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得20护盾与1层剑意，总盾上限60。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "cut",
+      "name": "截脉剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 20,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成兵刃伤害，打断敌人蓄势。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "lunge",
+      "name": "追风剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1
+      },
+      "raw": 48,
+      "hpChange": 0,
+      "enemyHpLoss": 19,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗 2 剑意，近身出剑并打断蓄势；命中后积累 1 剑意。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "return",
+      "name": "回澜剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 55,
+      "hpChange": 0,
+      "enemyHpLoss": 25,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗至多2层剑意，每层增加7基础伤害；利用破绽增伤15%。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "unity",
+      "name": "万剑归一",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "metal": 3,
+        "any": 1
+      },
+      "raw": 151,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 3,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消耗剑意蓄势，每层增加7基础伤害，下次自身阶段释放。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "temper",
+      "name": "静心养剑",
+      "kind": "intent",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "积累2剑意，上限5；不攻击，不触发快剑额外养意，每回合一次。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "riposte",
+      "name": "回锋剑屏",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "metal": 1,
+        "water": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 12,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 5,
+        "wood": 0,
+        "water": 1,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 12,
+        "hits": 1,
+        "element": "metal",
+        "name": "回锋剑屏"
+      },
+      "desc": "获得12护盾，下一次承受直接攻击反击至多12基础金伤；下次自身阶段到期，不递归反伤。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "pierce",
+      "name": "穿甲剑",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "metal": 2
+      },
+      "raw": 32,
+      "hpChange": 0,
+      "enemyHpLoss": 13,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 4,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "支付1剑意，造成32基础金伤；一半伤害越过护盾，仍按兵刃防御减免，命中后养意。"
+    },
+    {
+      "key": "sword",
+      "major": "heavy",
+      "id": "cleave",
+      "name": "碎垒重剑",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "metal": 3,
+        "any": 1
+      },
+      "raw": 107,
+      "hpChange": 0,
+      "enemyHpLoss": 68,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 3,
+        "wood": 0,
+        "water": 2,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "消费至多3剑意，每层按重剑规则增伤；目标有护盾时额外20基础伤害，基础42，2行动。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "flare",
+      "name": "炎矢诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 34,
+      "hpChange": 0,
+      "enemyHpLoss": 4,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害。低耗全距施压，可参与烈焰连续施法。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "kindle",
+      "name": "附焰术",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 26,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，附加2层灼烧，刷新为2次结算。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "eruption",
+      "name": "烈火冲",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 2,
+        "any": 1
+      },
+      "raw": 56,
+      "hpChange": 0,
+      "enemyHpLoss": 20,
+      "shieldGain": 0,
+      "qiChange": -3,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 6,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害。强火力限近中距，消耗较多火气。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "cinder",
+      "name": "摘烬诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 26,
+      "hpChange": 0,
+      "enemyHpLoss": 13,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 3
+      },
+      "counter": null,
+      "desc": "需要目标有灼烧。消耗至多 2 层，每层增加 10 基础伤害；保留剩余层数与期限。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "combust",
+      "name": "焚身引",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 2,
+        "any": 1
+      },
+      "raw": 38,
+      "hpChange": 0,
+      "enemyHpLoss": 49,
+      "shieldGain": 0,
+      "qiChange": -3,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 6,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 0
+      },
+      "counter": null,
+      "desc": "需要目标有灼烧。消耗全部灼烧，每层增加 12 基础伤害；放弃这些层数后续的持续伤害。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "firewall",
+      "name": "离火障",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 22,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得 22 护盾，最多 60。消耗的火气也可用于攻击或御火应对。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "scorchcut",
+      "name": "断焰指",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1,
+        "any": 1
+      },
+      "raw": 26,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，打断敌方蓄势。限近中距，费用不返还。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "solar",
+      "name": "赤日临空",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 97,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "先支付 2 行动蓄势，下次己方行动开始释放；届时消耗全部灼烧，每层增加 8 基础伤害。可被打断、净化铺垫或近身化解。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "stoke",
+      "name": "燃血聚火",
+      "kind": "sacrifice",
+      "ap": 1,
+      "cost": {},
+      "raw": 0,
+      "hpChange": -18,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 3,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 4,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "损失18气血，凝聚2火气与1通灵；每回合一次，不可致死，受灵气容量限制。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "ashenward",
+      "name": "烬火反障",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 10,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 10,
+        "hits": 2,
+        "element": "fire",
+        "name": "烬火反障"
+      },
+      "desc": "获得10护盾，至下次自身阶段前可反击两次直接攻击，每次至多10基础火伤；不递归。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "quench",
+      "name": "敛焰复元",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "fire": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 14,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复14气血，清除自身至多2层灼烧；每回合一次，不清其他异常。"
+    },
+    {
+      "key": "flame",
+      "major": "fierce",
+      "id": "firestorm",
+      "name": "焰海横流",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 60,
+      "hpChange": 0,
+      "enemyHpLoss": 37,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "至少2层灼烧，消费至多2层各增10基础伤害，基础52；命中再附加2层，2行动，全距。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "flare",
+      "name": "炎矢诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 26,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害。低耗全距施压，可参与烈焰连续施法。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "kindle",
+      "name": "附焰术",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，附加2层灼烧，刷新为2次结算。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "eruption",
+      "name": "烈火冲",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 2,
+        "any": 1
+      },
+      "raw": 48,
+      "hpChange": 0,
+      "enemyHpLoss": 14,
+      "shieldGain": 0,
+      "qiChange": -3,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 6,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害。强火力限近中距，消耗较多火气。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "cinder",
+      "name": "摘烬诀",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 7,
+      "shieldGain": 0,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 3
+      },
+      "counter": null,
+      "desc": "需要目标有灼烧。消耗至多 2 层，每层增加 10 基础伤害；保留剩余层数与期限。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "combust",
+      "name": "焚身引",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 2,
+        "any": 1
+      },
+      "raw": 30,
+      "hpChange": 0,
+      "enemyHpLoss": 44,
+      "shieldGain": 0,
+      "qiChange": -3,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 6,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 0
+      },
+      "counter": null,
+      "desc": "需要目标有灼烧。消耗全部灼烧，每层增加 12 基础伤害；放弃这些层数后续的持续伤害。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "firewall",
+      "name": "离火障",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 22,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "获得 22 护盾，最多 60。消耗的火气也可用于攻击或御火应对。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "scorchcut",
+      "name": "断焰指",
+      "kind": "attack",
+      "ap": 1,
+      "cost": {
+        "fire": 1,
+        "any": 1
+      },
+      "raw": 18,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "造成术法伤害，打断敌方蓄势。限近中距，费用不返还。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "solar",
+      "name": "赤日临空",
+      "kind": "charge",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 97,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "先支付 2 行动蓄势，下次己方行动开始释放；届时消耗全部灼烧，每层增加 8 基础伤害。可被打断、净化铺垫或近身化解。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "stoke",
+      "name": "燃血聚火",
+      "kind": "sacrifice",
+      "ap": 1,
+      "cost": {},
+      "raw": 0,
+      "hpChange": -18,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": 3,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 4,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "损失18气血，凝聚2火气与1通灵；每回合一次，不可致死，受灵气容量限制。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "ashenward",
+      "name": "烬火反障",
+      "kind": "guard",
+      "ap": 1,
+      "cost": {
+        "fire": 1
+      },
+      "raw": 0,
+      "hpChange": 0,
+      "enemyHpLoss": 0,
+      "shieldGain": 10,
+      "qiChange": -1,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 2
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": {
+        "power": 10,
+        "hits": 2,
+        "element": "fire",
+        "name": "烬火反障"
+      },
+      "desc": "获得10护盾，至下次自身阶段前可反击两次直接攻击，每次至多10基础火伤；不递归。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "quench",
+      "name": "敛焰复元",
+      "kind": "heal",
+      "ap": 1,
+      "cost": {
+        "fire": 1,
+        "any": 1
+      },
+      "raw": 0,
+      "hpChange": 14,
+      "enemyHpLoss": 0,
+      "shieldGain": 0,
+      "qiChange": -2,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 7,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "恢复14气血，清除自身至多2层灼烧；每回合一次，不清其他异常。"
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "id": "firestorm",
+      "name": "焰海横流",
+      "kind": "attack",
+      "ap": 2,
+      "cost": {
+        "fire": 3,
+        "any": 1
+      },
+      "raw": 52,
+      "hpChange": 0,
+      "enemyHpLoss": 31,
+      "shieldGain": 0,
+      "qiChange": -4,
+      "remainingQi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 5,
+        "earth": 0,
+        "any": 1
+      },
+      "prepared": {
+        "growth": 3,
+        "terrain": 3,
+        "tide": 3,
+        "parasite": 3,
+        "seed": 5,
+        "burn": 5
+      },
+      "counter": null,
+      "desc": "至少2层灼烧，消费至多2层各增10基础伤害，基础52；命中再附加2层，2行动，全距。"
+    }
+  ]
+}

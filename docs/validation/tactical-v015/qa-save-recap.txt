@@ -1,0 +1,1 @@
+Browser save/recap: completed custom battle metrics, key-round jump and skill usage, both custom loadouts/portraits/settings after reload, draft isolation, trial between-stage and interrupted-stage recovery, paused automation, history clearing, blocked storage and 1440/390/320 layouts passed.

@@ -1,0 +1,306 @@
+{
+  "scope": "Four selected 30-round defensive immediate-AI unresolved scenarios extended to 90; diagnostic runs counted separately, not replacements or extra win-rate samples",
+  "observationLimit": 90,
+  "indices": [
+    116,
+    170,
+    380,
+    452
+  ],
+  "results": [
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "winner": null,
+      "rounds": 90,
+      "hp": [
+        210,
+        137
+      ],
+      "metrics": [
+        {
+          "actions": {
+            "spark": 90,
+            "sproutguard": 6,
+            "blaze": 90,
+            "seed": 84
+          },
+          "reactions": {
+            "none": 4
+          },
+          "unusedAP": 0
+        },
+        {
+          "actions": {
+            "cultivate": 90,
+            "bloomheal": 90,
+            "basic": 4,
+            "purify": 86
+          },
+          "reactions": {
+            "shield": 90
+          },
+          "unusedAP": 0
+        }
+      ],
+      "ms": 3985.687379
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "mendingtide",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "winner": 1,
+      "rounds": 48,
+      "hp": [
+        0,
+        169
+      ],
+      "metrics": [
+        {
+          "actions": {
+            "swift": 8,
+            "guard": 132,
+            "near": 2,
+            "pierce": 1,
+            "strike": 1
+          },
+          "reactions": {
+            "none": 125,
+            "evade": 4
+          },
+          "unusedAP": 0
+        },
+        {
+          "actions": {
+            "waterbolt": 129,
+            "gather": 5,
+            "waterwall": 4,
+            "surge": 2,
+            "tidespear": 2
+          },
+          "reactions": {
+            "none": 8,
+            "evade": 2
+          },
+          "unusedAP": 0
+        }
+      ],
+      "ms": 1006.5621440000004
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "mendingtide",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "mendingtide",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "winner": 0,
+      "rounds": 33,
+      "hp": [
+        29,
+        0
+      ],
+      "metrics": [
+        {
+          "actions": {
+            "gather": 13,
+            "waterbolt": 50,
+            "waterwall": 26,
+            "surge": 6,
+            "basic": 2,
+            "tidespear": 1
+          },
+          "reactions": {
+            "none": 40,
+            "shield": 4,
+            "evade": 1
+          },
+          "unusedAP": 0
+        },
+        {
+          "actions": {
+            "waterbolt": 52,
+            "gather": 12,
+            "waterwall": 26,
+            "mendingtide": 3,
+            "surge": 2,
+            "near": 1
+          },
+          "reactions": {
+            "none": 43,
+            "shield": 6,
+            "evade": 1
+          },
+          "unusedAP": 0
+        }
+      ],
+      "ms": 1100.7486679999993
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "winner": 0,
+      "rounds": 47,
+      "hp": [
+        12,
+        0
+      ],
+      "metrics": [
+        {
+          "actions": {
+            "foundation": 41,
+            "stonebolt": 55,
+            "stoneback": 41,
+            "sever-terrain": 3
+          },
+          "reactions": {
+            "none": 38,
+            "evade": 2,
+            "shield": 5
+          },
+          "unusedAP": 0
+        },
+        {
+          "actions": {
+            "foundation": 40,
+            "stoneback": 40,
+            "gravel": 1,
+            "landbreak": 2,
+            "stonebolt": 53,
+            "sever-terrain": 1,
+            "near": 1
+          },
+          "reactions": {
+            "none": 38,
+            "shield": 6
+          },
+          "unusedAP": 0
+        }
+      ],
+      "ms": 3521.147767999999
+    }
+  ]
+}

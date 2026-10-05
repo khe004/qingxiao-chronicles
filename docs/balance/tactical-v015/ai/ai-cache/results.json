@@ -1,0 +1,2935 @@
+{
+  "fixtures": 8,
+  "timedDecisions": 96,
+  "meanBefore": 104.45015014583328,
+  "meanAfter": 103.93591022916672,
+  "cacheHits": 0,
+  "note": "Same complete root/follow-up scores and choices; six interleaved runs per fixture after parity warmups; local Node timing, not browser SLA",
+  "results": [
+    {
+      "key": "wood",
+      "major": "symbiosis",
+      "foe": "wood",
+      "fm": "symbiosis",
+      "distance": 0,
+      "choice": {
+        "action": "skill",
+        "skillId": "wooddart",
+        "reason": "以本系低耗全距术法直接施压，不依靠准备。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "wooddart",
+            "wooddart",
+            "bloomstrike"
+          ],
+          "firstScore": -21.63000000000001,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": -10.23750000000001,
+          "future": {
+            "hp": [
+              70,
+              104
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -56.37000000000002,
+          "follow": 43.580000000000005,
+          "followPath": [
+            "bloomheal",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": -23.685000000000016,
+          "future": {
+            "hp": [
+              102,
+              188
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 3,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "bloomstrike",
+            "cultivate"
+          ],
+          "firstScore": -14.430000000000007,
+          "follow": 35.38999999999999,
+          "followPath": [
+            "wooddart",
+            "bloomheal",
+            "cultivate"
+          ],
+          "score": 12.11249999999999,
+          "future": {
+            "hp": [
+              82,
+              125
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 3,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "bloomstrike",
+            "sever-growth"
+          ],
+          "firstScore": 15.319999999999999,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": 26.7125,
+          "future": {
+            "hp": [
+              123,
+              125
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "bloomstrike",
+            "far"
+          ],
+          "firstScore": -7.78000000000001,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": 3.61249999999999,
+          "future": {
+            "hp": [
+              102,
+              125
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "wooddart",
+            "bloomheal"
+          ],
+          "firstScore": -35.430000000000014,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": -24.037500000000016,
+          "future": {
+            "hp": [
+              102,
+              153
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "cultivate",
+            "bloomstrike"
+          ],
+          "firstScore": -15.43000000000001,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": -4.03750000000001,
+          "future": {
+            "hp": [
+              82,
+              111
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "bloomstrike",
+            "basic"
+          ],
+          "firstScore": 1.21999999999999,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": 12.61249999999999,
+          "future": {
+            "hp": [
+              102,
+              116
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "cultivate",
+            "bloomstrike",
+            "basic"
+          ],
+          "firstScore": 7.419999999999993,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": 18.812499999999993,
+          "future": {
+            "hp": [
+              114,
+              123
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "bloomstrike",
+            "thornscreen"
+          ],
+          "firstScore": -15.78000000000001,
+          "follow": 15.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": -4.38750000000001,
+          "future": {
+            "hp": [
+              82,
+              111
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "wooddart",
+            "wooddart"
+          ],
+          "firstScore": 0.2199999999999882,
+          "follow": 23.990000000000002,
+          "followPath": [
+            "wooddart",
+            "bloomheal",
+            "cultivate"
+          ],
+          "score": 18.212499999999988,
+          "future": {
+            "hp": [
+              102,
+              132
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 3,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "bloomstrike",
+            "sever-terrain"
+          ],
+          "firstScore": -11.380000000000004,
+          "follow": 12.19,
+          "followPath": [
+            "cultivate",
+            "basic",
+            "basic"
+          ],
+          "score": -2.2375000000000043,
+          "future": {
+            "hp": [
+              96,
+              125
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 0,
+            "parasite": 3,
+            "terrain": 3
+          }
+        }
+      ],
+      "stats": {
+        "before": 855,
+        "after": 855,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          121.14975199999998,
+          126.71776399999999,
+          105.00519800000006,
+          120.4498799999999,
+          106.597442,
+          105.42366000000015
+        ],
+        "after": [
+          132.30611200000004,
+          119.70741599999997,
+          104.32337700000005,
+          113.91524800000002,
+          103.51682900000014,
+          106.03287399999999
+        ]
+      }
+    },
+    {
+      "key": "wood",
+      "major": "parasitic",
+      "foe": "earth",
+      "fm": "bastion",
+      "distance": 1,
+      "choice": {
+        "action": "skill",
+        "skillId": "wooddart",
+        "reason": "以本系低耗全距术法直接施压，不依靠准备。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "wooddart",
+            "wooddart",
+            "reap"
+          ],
+          "firstScore": 22.409999999999993,
+          "follow": 25.549999999999997,
+          "followPath": [
+            "bloomheal",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 41.57249999999999,
+          "future": {
+            "hp": [
+              116,
+              100
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 3,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -20.260000000000005,
+          "follow": 27.52,
+          "followPath": [
+            "twinvine",
+            "reap"
+          ],
+          "score": 0.37999999999999545,
+          "future": {
+            "hp": [
+              142,
+              183
+            ],
+            "shield": [
+              0,
+              14
+            ],
+            "growth": 3,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "reap",
+            "parasite"
+          ],
+          "firstScore": 17.969999999999995,
+          "follow": 26.549999999999997,
+          "followPath": [
+            "bloomheal",
+            "cultivate",
+            "wooddart"
+          ],
+          "score": 37.88249999999999,
+          "future": {
+            "hp": [
+              116,
+              119
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 3,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "reap",
+            "bloomheal",
+            "sever-growth"
+          ],
+          "firstScore": 2.2599999999999945,
+          "follow": 24.65,
+          "followPath": [
+            "wooddart",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 20.74749999999999,
+          "future": {
+            "hp": [
+              148,
+              146
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 0,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "reap",
+            "bloomheal",
+            "far"
+          ],
+          "firstScore": 20.510000000000005,
+          "follow": -4.350000000000001,
+          "followPath": [
+            "wooddart",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 17.247500000000002,
+          "future": {
+            "hp": [
+              167,
+              146
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 0,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "reap",
+            "bloomheal",
+            "basic"
+          ],
+          "firstScore": 5.609999999999996,
+          "follow": 24.65,
+          "followPath": [
+            "wooddart",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 24.097499999999993,
+          "future": {
+            "hp": [
+              148,
+              137
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 0,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "parasite",
+            "reap"
+          ],
+          "firstScore": 16.409999999999993,
+          "follow": 25.549999999999997,
+          "followPath": [
+            "bloomheal",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 35.57249999999999,
+          "future": {
+            "hp": [
+              116,
+              106
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 3,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "reap",
+            "basic"
+          ],
+          "firstScore": 37.010000000000005,
+          "follow": 25.549999999999997,
+          "followPath": [
+            "bloomheal",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 56.1725,
+          "future": {
+            "hp": [
+              142,
+              114
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 3,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "reap",
+            "cultivate"
+          ],
+          "firstScore": 12.609999999999996,
+          "follow": 25.549999999999997,
+          "followPath": [
+            "bloomheal",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 31.772499999999994,
+          "future": {
+            "hp": [
+              128,
+              123
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 3,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "wooddart",
+            "reap",
+            "sever-growth"
+          ],
+          "firstScore": 33.66,
+          "follow": 4.25,
+          "followPath": [
+            "bloomheal",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 36.8475,
+          "future": {
+            "hp": [
+              142,
+              123
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 3,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "reap",
+            "bloomheal",
+            "sever-terrain"
+          ],
+          "firstScore": -3.7400000000000038,
+          "follow": 24.65,
+          "followPath": [
+            "wooddart",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 14.747499999999993,
+          "future": {
+            "hp": [
+              148,
+              146
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 0,
+            "parasite": 0,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "parasite",
+            "reap",
+            "basic"
+          ],
+          "firstScore": 31.01,
+          "follow": 25.549999999999997,
+          "followPath": [
+            "bloomheal",
+            "wooddart",
+            "cultivate"
+          ],
+          "score": 50.1725,
+          "future": {
+            "hp": [
+              142,
+              120
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "growth": 3,
+            "parasite": 0,
+            "terrain": 3
+          }
+        }
+      ],
+      "stats": {
+        "before": 895,
+        "after": 895,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          113.61283800000001,
+          110.75947199999973,
+          126.9377629999999,
+          107.23263600000018,
+          108.23822799999971,
+          105.493113
+        ],
+        "after": [
+          109.59087700000009,
+          115.22935800000005,
+          119.71610099999998,
+          104.42067099999986,
+          111.80996099999993,
+          103.352574
+        ]
+      }
+    },
+    {
+      "key": "earth",
+      "major": "bastion",
+      "foe": "wood",
+      "fm": "symbiosis",
+      "distance": 2,
+      "choice": {
+        "action": "skill",
+        "skillId": "stonebolt",
+        "reason": "以本系低耗全距术法直接施压，不依靠准备。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "stonebolt"
+          ],
+          "firstScore": -18.479999999999997,
+          "follow": 7.349999999999998,
+          "followPath": [
+            "stoneback",
+            "foundation",
+            "gravel"
+          ],
+          "score": -12.967499999999998,
+          "future": {
+            "hp": [
+              90,
+              138
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -69.07000000000001,
+          "follow": 10.589999999999996,
+          "followPath": [
+            "stoneback",
+            "foundation",
+            "stonebolt"
+          ],
+          "score": -61.12750000000001,
+          "future": {
+            "hp": [
+              90,
+              188
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "near",
+            "landbreak",
+            "foundation"
+          ],
+          "firstScore": -30.680000000000007,
+          "follow": 1.4899999999999989,
+          "followPath": [
+            "gravel",
+            "basic",
+            "basic"
+          ],
+          "score": -29.562500000000007,
+          "future": {
+            "hp": [
+              98,
+              155
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 2
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "sever-growth"
+          ],
+          "firstScore": 0.5699999999999967,
+          "follow": 7.349999999999998,
+          "followPath": [
+            "stoneback",
+            "foundation",
+            "gravel"
+          ],
+          "score": 6.082499999999995,
+          "future": {
+            "hp": [
+              127,
+              157
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "near",
+            "landbreak"
+          ],
+          "firstScore": -28.479999999999997,
+          "follow": 8.94,
+          "followPath": [
+            "gravel",
+            "foundation",
+            "basic"
+          ],
+          "score": -21.775,
+          "future": {
+            "hp": [
+              90,
+              136
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "gravel"
+          ],
+          "firstScore": -26.480000000000004,
+          "follow": 7.349999999999998,
+          "followPath": [
+            "stoneback",
+            "foundation",
+            "gravel"
+          ],
+          "score": -20.967500000000005,
+          "future": {
+            "hp": [
+              90,
+              146
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "basic"
+          ],
+          "firstScore": -28.130000000000003,
+          "follow": 7.349999999999998,
+          "followPath": [
+            "stoneback",
+            "foundation",
+            "gravel"
+          ],
+          "score": -22.617500000000003,
+          "future": {
+            "hp": [
+              90,
+              148
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "near",
+            "landbreak",
+            "gravel"
+          ],
+          "firstScore": -36.48,
+          "follow": 8.94,
+          "followPath": [
+            "gravel",
+            "foundation",
+            "basic"
+          ],
+          "score": -29.775,
+          "future": {
+            "hp": [
+              90,
+              144
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "near",
+            "landbreak",
+            "quakesunder"
+          ],
+          "firstScore": -41.280000000000015,
+          "follow": 14.589999999999996,
+          "followPath": [
+            "foundation",
+            "stonebolt",
+            "stonebolt"
+          ],
+          "score": -30.33750000000002,
+          "future": {
+            "hp": [
+              82,
+              143
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "stoneback"
+          ],
+          "firstScore": 0.11999999999999522,
+          "follow": 1.4899999999999989,
+          "followPath": [
+            "gravel",
+            "basic",
+            "basic"
+          ],
+          "score": 1.2374999999999945,
+          "future": {
+            "hp": [
+              106,
+              133
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 2
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "sever-terrain"
+          ],
+          "firstScore": -34.480000000000004,
+          "follow": 4.349999999999998,
+          "followPath": [
+            "stoneback",
+            "foundation",
+            "gravel"
+          ],
+          "score": -31.217500000000005,
+          "future": {
+            "hp": [
+              90,
+              157
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "gravel",
+            "basic"
+          ],
+          "firstScore": -36.13,
+          "follow": 7.349999999999998,
+          "followPath": [
+            "stoneback",
+            "foundation",
+            "gravel"
+          ],
+          "score": -30.617500000000003,
+          "future": {
+            "hp": [
+              90,
+              156
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        }
+      ],
+      "stats": {
+        "before": 897,
+        "after": 897,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          97.39866500000016,
+          91.08206599999994,
+          100.68555500000002,
+          107.730055,
+          98.93819100000019,
+          90.3080460000001
+        ],
+        "after": [
+          104.09749099999999,
+          95.07494499999984,
+          96.53905799999939,
+          93.76477900000009,
+          102.95774799999981,
+          97.29654299999947
+        ]
+      }
+    },
+    {
+      "key": "earth",
+      "major": "mountain",
+      "foe": "water",
+      "fm": "cold",
+      "distance": 0,
+      "choice": {
+        "action": "skill",
+        "skillId": "stonebolt",
+        "reason": "以本系低耗全距术法直接施压，不依靠准备。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "landbreak"
+          ],
+          "firstScore": 11.169999999999998,
+          "follow": 13.849999999999998,
+          "followPath": [
+            "foundation",
+            "stonebolt",
+            "landbreak"
+          ],
+          "score": 21.557499999999997,
+          "future": {
+            "hp": [
+              143,
+              126
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -18.82,
+          "follow": 43.54,
+          "followPath": [
+            "landbreak",
+            "stonebolt",
+            "stonebolt"
+          ],
+          "score": 13.835,
+          "future": {
+            "hp": [
+              169,
+              192
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 2
+          }
+        },
+        {
+          "path": [
+            "mountain",
+            "far"
+          ],
+          "firstScore": -28.619999999999997,
+          "follow": -4.459999999999999,
+          "followPath": [
+            "foundation",
+            "earthmend",
+            "sever-growth"
+          ],
+          "score": -31.964999999999996,
+          "future": {
+            "hp": [
+              169,
+              192
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "mountain"
+          ],
+          "firstScore": 5.019999999999996,
+          "follow": 30.65,
+          "followPath": [
+            "stonebolt",
+            "stonebolt",
+            "stonebolt"
+          ],
+          "score": 28.007499999999993,
+          "future": {
+            "hp": [
+              143,
+              132
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "landbreak",
+            "foundation"
+          ],
+          "firstScore": 4.969999999999999,
+          "follow": 19.5,
+          "followPath": [
+            "mountain",
+            "near"
+          ],
+          "score": 19.595,
+          "future": {
+            "hp": [
+              151,
+              149
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 2
+          }
+        },
+        {
+          "path": [
+            "landbreak",
+            "landbreak",
+            "sever-growth"
+          ],
+          "firstScore": 7.819999999999997,
+          "follow": 13.849999999999998,
+          "followPath": [
+            "foundation",
+            "stonebolt",
+            "landbreak"
+          ],
+          "score": 18.207499999999996,
+          "future": {
+            "hp": [
+              143,
+              135
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "landbreak",
+            "landbreak",
+            "far"
+          ],
+          "firstScore": 2.169999999999998,
+          "follow": -0.04999999999999971,
+          "followPath": [
+            "gravel",
+            "foundation",
+            "earthmend"
+          ],
+          "score": 2.1324999999999985,
+          "future": {
+            "hp": [
+              143,
+              135
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "earthmend"
+          ],
+          "firstScore": 8.370000000000001,
+          "follow": 13.849999999999998,
+          "followPath": [
+            "foundation",
+            "landbreak",
+            "stonebolt"
+          ],
+          "score": 18.7575,
+          "future": {
+            "hp": [
+              165,
+              153
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "landbreak",
+            "landbreak",
+            "basic"
+          ],
+          "firstScore": 12.169999999999998,
+          "follow": 13.849999999999998,
+          "followPath": [
+            "foundation",
+            "stonebolt",
+            "landbreak"
+          ],
+          "score": 22.557499999999997,
+          "future": {
+            "hp": [
+              143,
+              125
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 0
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "gravel"
+          ],
+          "firstScore": 33.769999999999996,
+          "follow": 19.5,
+          "followPath": [
+            "mountain",
+            "near"
+          ],
+          "score": 48.394999999999996,
+          "future": {
+            "hp": [
+              169,
+              140
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 2
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "landbreak",
+            "gravel"
+          ],
+          "firstScore": 5.170000000000002,
+          "follow": 42.65,
+          "followPath": [
+            "stonebolt",
+            "stonebolt",
+            "gravel"
+          ],
+          "score": 37.1575,
+          "future": {
+            "hp": [
+              143,
+              136
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 1
+          }
+        },
+        {
+          "path": [
+            "stonebolt",
+            "stonebolt",
+            "basic"
+          ],
+          "firstScore": 31.119999999999997,
+          "follow": 30.499999999999993,
+          "followPath": [
+            "landbreak",
+            "foundation",
+            "landbreak"
+          ],
+          "score": 53.99499999999999,
+          "future": {
+            "hp": [
+              169,
+              143
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 2
+          }
+        }
+      ],
+      "stats": {
+        "before": 1004,
+        "after": 1004,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          114.74173499999961,
+          115.5383780000002,
+          113.26979499999925,
+          117.80552400000033,
+          111.37501599999996,
+          106.82172600000013
+        ],
+        "after": [
+          113.17266599999948,
+          112.60005499999988,
+          110.77078900000015,
+          105.36836800000037,
+          132.87040199999956,
+          104.85615700000017
+        ]
+      }
+    },
+    {
+      "key": "fire",
+      "major": "ignite",
+      "foe": "wood",
+      "fm": "symbiosis",
+      "distance": 1,
+      "choice": {
+        "action": "skill",
+        "skillId": "blaze",
+        "reason": "直接以火法输出并叠加灼烧。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "seed",
+            "blaze",
+            "blaze"
+          ],
+          "firstScore": -24.38000000000001,
+          "follow": 10.94,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": -16.17500000000001,
+          "future": {
+            "hp": [
+              51,
+              116
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -64.67000000000002,
+          "follow": 23.38,
+          "followPath": [
+            "spark",
+            "heal",
+            "basic"
+          ],
+          "score": -47.13500000000002,
+          "future": {
+            "hp": [
+              84,
+              188
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "blaze",
+            "heal",
+            "sever-growth"
+          ],
+          "firstScore": -17.78000000000001,
+          "follow": 10.94,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": -9.575000000000008,
+          "future": {
+            "hp": [
+              97,
+              160
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "blaze",
+            "heal",
+            "far"
+          ],
+          "firstScore": -48.23000000000001,
+          "follow": -6.0600000000000005,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": -52.77500000000001,
+          "future": {
+            "hp": [
+              69,
+              160
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "sproutguard",
+            "blaze",
+            "blaze"
+          ],
+          "firstScore": -15.980000000000013,
+          "follow": 10.94,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": -7.775000000000013,
+          "future": {
+            "hp": [
+              65,
+              123
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "spark",
+            "heal",
+            "blaze"
+          ],
+          "firstScore": -30.580000000000013,
+          "follow": 10.94,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": -22.375000000000014,
+          "future": {
+            "hp": [
+              69,
+              142
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "seed",
+            "spark",
+            "blaze"
+          ],
+          "firstScore": -1.0800000000000072,
+          "follow": -6.0600000000000005,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": -5.625000000000007,
+          "future": {
+            "hp": [
+              84,
+              129
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "spark",
+            "sproutguard",
+            "blaze"
+          ],
+          "firstScore": 7.319999999999997,
+          "follow": -6.0600000000000005,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": 2.774999999999997,
+          "future": {
+            "hp": [
+              98,
+              136
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "blaze",
+            "heal",
+            "basic"
+          ],
+          "firstScore": -39.23000000000001,
+          "follow": 10.94,
+          "followPath": [
+            "spark",
+            "heal",
+            "spark"
+          ],
+          "score": -31.025000000000013,
+          "future": {
+            "hp": [
+              69,
+              151
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "blaze",
+            "sproutguard",
+            "spark"
+          ],
+          "firstScore": -2.3800000000000043,
+          "follow": 12.44,
+          "followPath": [
+            "sproutguard",
+            "blaze",
+            "blaze"
+          ],
+          "score": 6.949999999999996,
+          "future": {
+            "hp": [
+              91,
+              142
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "seed",
+            "seed",
+            "blaze"
+          ],
+          "firstScore": -6.080000000000007,
+          "follow": -6.0600000000000005,
+          "followPath": [
+            "heal",
+            "spark",
+            "spark"
+          ],
+          "score": -10.625000000000007,
+          "future": {
+            "hp": [
+              84,
+              134
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "blaze",
+            "seed",
+            "spark"
+          ],
+          "firstScore": -13.780000000000014,
+          "follow": 0.18999999999999762,
+          "followPath": [
+            "blaze",
+            "heal",
+            "spark"
+          ],
+          "score": -13.637500000000015,
+          "future": {
+            "hp": [
+              77,
+              142
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        }
+      ],
+      "stats": {
+        "before": 817,
+        "after": 817,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          115.48890500000016,
+          94.31562599999961,
+          101.09449100000074,
+          96.2706189999999,
+          106.59370600000057,
+          109.06942100000015
+        ],
+        "after": [
+          105.07717500000035,
+          103.09130499999992,
+          107.41084800000044,
+          95.27332800000022,
+          107.24369000000024,
+          99.6572269999997
+        ]
+      }
+    },
+    {
+      "key": "sword",
+      "major": "quick",
+      "foe": "wood",
+      "fm": "parasitic",
+      "distance": 2,
+      "choice": {
+        "action": "skill",
+        "skillId": "guard",
+        "reason": "藏锋护体，同时积累剑意，为下一轮反击准备。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "guard",
+            "near",
+            "swift"
+          ],
+          "firstScore": 35.04,
+          "follow": 13.93,
+          "followPath": [
+            "unparasite",
+            "pierce",
+            "basic"
+          ],
+          "score": 45.4875,
+          "future": {
+            "hp": [
+              169,
+              171
+            ],
+            "shield": [
+              6,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -10.22,
+          "follow": 6.890000000000001,
+          "followPath": [
+            "unparasite",
+            "guard",
+            "guard"
+          ],
+          "score": -5.0525,
+          "future": {
+            "hp": [
+              155,
+              188
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "unity",
+            "near"
+          ],
+          "firstScore": -15.030000000000001,
+          "follow": 23.14999999999999,
+          "followPath": [
+            "near",
+            "strike",
+            "swift"
+          ],
+          "score": 2.3324999999999925,
+          "future": {
+            "hp": [
+              129,
+              150
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "sever-growth",
+            "unity"
+          ],
+          "firstScore": -9.38,
+          "follow": 28.00999999999999,
+          "followPath": [
+            "near",
+            "strike",
+            "swift"
+          ],
+          "score": 11.627499999999992,
+          "future": {
+            "hp": [
+              129,
+              150
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "sever-growth",
+            "near",
+            "swift"
+          ],
+          "firstScore": 23.72,
+          "follow": -9.400000000000004,
+          "followPath": [
+            "basic",
+            "near",
+            "strike"
+          ],
+          "score": 16.669999999999995,
+          "future": {
+            "hp": [
+              155,
+              171
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "guard",
+            "guard",
+            "guard"
+          ],
+          "firstScore": 21.060000000000002,
+          "follow": 15.329999999999997,
+          "followPath": [
+            "basic",
+            "basic",
+            "basic"
+          ],
+          "score": 32.5575,
+          "future": {
+            "hp": [
+              170,
+              188
+            ],
+            "shield": [
+              19,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "guard",
+            "guard",
+            "sever-growth"
+          ],
+          "firstScore": 19.880000000000003,
+          "follow": 15.67,
+          "followPath": [
+            "basic",
+            "basic",
+            "basic"
+          ],
+          "score": 31.6325,
+          "future": {
+            "hp": [
+              169,
+              188
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "sever-terrain",
+            "near",
+            "swift"
+          ],
+          "firstScore": 20.72,
+          "follow": 6.25,
+          "followPath": [
+            "unparasite",
+            "pierce",
+            "basic"
+          ],
+          "score": 25.4075,
+          "future": {
+            "hp": [
+              155,
+              171
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "guard",
+            "guard",
+            "basic"
+          ],
+          "firstScore": 18.47,
+          "follow": 9.6,
+          "followPath": [
+            "basic",
+            "basic",
+            "basic"
+          ],
+          "score": 25.669999999999998,
+          "future": {
+            "hp": [
+              169,
+              186
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "guard",
+            "guard",
+            "sever-terrain"
+          ],
+          "firstScore": 16.88,
+          "follow": 2.1900000000000017,
+          "followPath": [
+            "basic",
+            "basic",
+            "basic"
+          ],
+          "score": 18.5225,
+          "future": {
+            "hp": [
+              169,
+              188
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "guard",
+            "near",
+            "pierce"
+          ],
+          "firstScore": 11.419999999999998,
+          "follow": 10.3,
+          "followPath": [
+            "basic",
+            "basic",
+            "basic"
+          ],
+          "score": 19.145,
+          "future": {
+            "hp": [
+              159,
+              181
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "near",
+            "meditate",
+            "swift"
+          ],
+          "firstScore": 18.77,
+          "follow": 8.9,
+          "followPath": [
+            "unparasite",
+            "pierce",
+            "basic"
+          ],
+          "score": 25.445,
+          "future": {
+            "hp": [
+              155,
+              171
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        }
+      ],
+      "stats": {
+        "before": 763,
+        "after": 763,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          79.35453099999995,
+          76.55435500000021,
+          80.78920199999993,
+          85.75378300000011,
+          88.81501800000115,
+          81.66368299999885
+        ],
+        "after": [
+          80.11871700000029,
+          89.41915100000006,
+          75.57457000000068,
+          84.06672900000012,
+          78.15583200000037,
+          78.08529799999997
+        ]
+      }
+    },
+    {
+      "key": "water",
+      "major": "cold",
+      "foe": "earth",
+      "fm": "mountain",
+      "distance": 0,
+      "choice": {
+        "action": "skill",
+        "skillId": "frost",
+        "reason": "凝霜铺垫一次控距或玄水增伤；对手移动与净息仍可消解。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "firstScore": 70.67,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 27.882499999999993,
+          "future": {
+            "hp": [
+              178,
+              146
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [],
+          "firstScore": 11.39,
+          "follow": -66.57,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": -38.537499999999994,
+          "future": {
+            "hp": [
+              160,
+              183
+            ],
+            "shield": [
+              0,
+              14
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "frost",
+            "icebreaker",
+            "sever-growth"
+          ],
+          "firstScore": 56.87,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 14.082499999999989,
+          "future": {
+            "hp": [
+              160,
+              146
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "frost",
+            "icebreaker",
+            "far"
+          ],
+          "firstScore": 51.22,
+          "follow": -39.150000000000006,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 21.857499999999995,
+          "future": {
+            "hp": [
+              160,
+              146
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "frost",
+            "icebreaker"
+          ],
+          "firstScore": 69.87,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 27.082499999999996,
+          "future": {
+            "hp": [
+              160,
+              127
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "frost",
+            "waterbolt",
+            "rinse"
+          ],
+          "firstScore": 67.02000000000001,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 24.2325,
+          "future": {
+            "hp": [
+              178,
+              150
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "frost",
+            "waterbolt"
+          ],
+          "firstScore": 66.22000000000001,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 23.432500000000005,
+          "future": {
+            "hp": [
+              160,
+              131
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "frost",
+            "icebreaker",
+            "frost"
+          ],
+          "firstScore": 65.87,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 23.082499999999996,
+          "future": {
+            "hp": [
+              160,
+              131
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "frost",
+            "waterbolt",
+            "frost"
+          ],
+          "firstScore": 62.22,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 19.43249999999999,
+          "future": {
+            "hp": [
+              160,
+              135
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "frost",
+            "icebreaker",
+            "basic"
+          ],
+          "firstScore": 60.22,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 17.43249999999999,
+          "future": {
+            "hp": [
+              160,
+              137
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "waterbolt",
+            "rinse"
+          ],
+          "firstScore": 58.019999999999996,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 15.232499999999987,
+          "future": {
+            "hp": [
+              178,
+              159
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "waterbolt",
+            "waterbolt"
+          ],
+          "firstScore": 57.22,
+          "follow": -57.05000000000001,
+          "followPath": [
+            "frost",
+            "icebreaker",
+            "rinse"
+          ],
+          "score": 14.43249999999999,
+          "future": {
+            "hp": [
+              160,
+              140
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        }
+      ],
+      "stats": {
+        "before": 946,
+        "after": 946,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          130.11235900000065,
+          128.15458099999887,
+          130.34494300000006,
+          131.41063600000052,
+          120.66690299999937,
+          127.21306399999958
+        ],
+        "after": [
+          129.43571300000076,
+          126.51713000000018,
+          127.44846400000097,
+          128.4514820000004,
+          122.17159800000081,
+          125.02844000000005
+        ]
+      }
+    },
+    {
+      "key": "flame",
+      "major": "smolder",
+      "foe": "wood",
+      "fm": "symbiosis",
+      "distance": 1,
+      "choice": {
+        "action": "skill",
+        "skillId": "flare",
+        "reason": "以低耗炎矢直接施压，保留火气用于强招或护体。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "plans": [
+        {
+          "path": [
+            "flare",
+            "firestorm"
+          ],
+          "firstScore": -30.180000000000007,
+          "follow": 2.2399999999999936,
+          "followPath": [
+            "firestorm",
+            "cinder"
+          ],
+          "score": -28.50000000000001,
+          "future": {
+            "hp": [
+              51,
+              120
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -64.67000000000002,
+          "follow": 22.730000000000004,
+          "followPath": [
+            "firestorm",
+            "flare"
+          ],
+          "score": -47.62250000000002,
+          "future": {
+            "hp": [
+              84,
+              188
+            ],
+            "shield": [
+              0,
+              7
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "solar",
+            "far"
+          ],
+          "firstScore": -45.58000000000001,
+          "follow": 22.239999999999995,
+          "followPath": [
+            "kindle",
+            "firestorm"
+          ],
+          "score": -28.900000000000016,
+          "future": {
+            "hp": [
+              77,
+              155
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "kindle",
+            "solar"
+          ],
+          "firstScore": -51.17999999999999,
+          "follow": 22.239999999999995,
+          "followPath": [
+            "kindle",
+            "firestorm"
+          ],
+          "score": -34.5,
+          "future": {
+            "hp": [
+              51,
+              132
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "firestorm",
+            "sever-growth"
+          ],
+          "firstScore": -18.380000000000003,
+          "follow": 2.2399999999999936,
+          "followPath": [
+            "firestorm",
+            "cinder"
+          ],
+          "score": -16.700000000000006,
+          "future": {
+            "hp": [
+              79,
+              139
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "firestorm",
+            "far"
+          ],
+          "firstScore": -20.580000000000005,
+          "follow": 2.2399999999999936,
+          "followPath": [
+            "firestorm",
+            "cinder"
+          ],
+          "score": -18.90000000000001,
+          "future": {
+            "hp": [
+              77,
+              139
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "firestorm",
+            "cinder"
+          ],
+          "firstScore": -31.180000000000007,
+          "follow": 0.23999999999999344,
+          "followPath": [
+            "firestorm",
+            "kindle"
+          ],
+          "score": -31.00000000000001,
+          "future": {
+            "hp": [
+              51,
+              116
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "kindle",
+            "firestorm"
+          ],
+          "firstScore": -32.18000000000001,
+          "follow": 4.239999999999993,
+          "followPath": [
+            "cinder",
+            "firestorm"
+          ],
+          "score": -29.00000000000001,
+          "future": {
+            "hp": [
+              51,
+              124
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "firestorm",
+            "basic"
+          ],
+          "firstScore": -11.580000000000013,
+          "follow": 2.2399999999999936,
+          "followPath": [
+            "firestorm",
+            "cinder"
+          ],
+          "score": -9.900000000000016,
+          "future": {
+            "hp": [
+              77,
+              130
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "flare",
+            "cinder",
+            "kindle"
+          ],
+          "firstScore": -7.080000000000007,
+          "follow": 2.2399999999999936,
+          "followPath": [
+            "firestorm",
+            "cinder"
+          ],
+          "score": -5.400000000000012,
+          "future": {
+            "hp": [
+              84,
+              133
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "cinder",
+            "kindle",
+            "cinder"
+          ],
+          "firstScore": -8.080000000000007,
+          "follow": 0.23999999999999344,
+          "followPath": [
+            "firestorm",
+            "kindle"
+          ],
+          "score": -7.900000000000012,
+          "future": {
+            "hp": [
+              84,
+              129
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        },
+        {
+          "path": [
+            "kindle",
+            "cinder",
+            "kindle"
+          ],
+          "firstScore": -9.080000000000007,
+          "follow": 4.239999999999993,
+          "followPath": [
+            "cinder",
+            "firestorm"
+          ],
+          "score": -5.900000000000013,
+          "future": {
+            "hp": [
+              84,
+              137
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "growth": 2,
+            "parasite": 3,
+            "terrain": 3
+          }
+        }
+      ],
+      "stats": {
+        "before": 626,
+        "after": 626,
+        "hits": 0
+      },
+      "timing": {
+        "before": [
+          86.84932300000037,
+          86.20076899999913,
+          83.80261799999971,
+          80.93166599999859,
+          83.83369499999935,
+          85.01081200000044
+        ],
+        "after": [
+          82.0982780000013,
+          90.56435799999963,
+          88.10953299999892,
+          83.13631899999928,
+          84.19129500000054,
+          85.3068119999989
+        ]
+      }
+    }
+  ]
+}

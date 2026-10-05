@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';import {readFile,writeFile} from 'node:fs/promises';import {gunzipSync} from 'node:zlib';import {createHash} from 'node:crypto';import {predictiveDuel} from './predictive-arena.mjs';
+const root=process.argv.slice(2).find(x=>!x.startsWith('--'))??'docs/balance/tactical-v015/build-cohort';
+const read=async n=>JSON.parse(await readFile(`${root}/${n}`));const plan=await read('plan.json'),s=await read('summary.json'),hashes=await read('source-hashes.json'),records=JSON.parse(gunzipSync(await readFile(`${root}/records.json.gz`)));
+assert.equal(records.length,576);assert.equal(plan.jobs.length,576);assert.equal(s.games,576);
+for(const [file,hash] of Object.entries(hashes)){const sha=b=>createHash('sha256').update(b).digest('hex');assert.equal(sha(await readFile(file)),hash,`Shipped combat changed: ${file}`);assert.equal(sha(await readFile(`${root}/source/${file}`)),hash);}
+for(const [index,r] of records.entries()){assert.equal(r.index,index);for(const [key,value] of Object.entries(plan.jobs[index]))assert.deepEqual(r[key],value);assert.ok(!r.structurallyReused);assert.ok(r.rounds<=30);assert.ok(r.metrics.every(m=>m.unusedAP>=0));if(r.winner===null)assert.ok(r.hp.every(x=>x>0));else assert.equal(r.hp[1-r.winner],0);}
+const tags=[...new Set(records.map(r=>r.tag))],tendencies=['balanced','aggressive','defensive','burst'];assert.equal(tags.length,12);let replayed=0;
+if(process.argv.includes('--sample-replays'))for(const [i,key] of ['fire','sword','flame','water','wood','earth'].entries()){
+ const r=records.find(r=>r.a.key===key&&r.controller===(i%2?'prepared':'immediate')&&r.tendency===tendencies[i%4]&&r.distance===i%3&&r.first===i%2);assert.ok(r);
+ const actual=predictiveDuel(r.a,r.b,{first:r.first,distance:r.distance,limit:30,prefs:[r.tendency,r.tendency],controllers:[r.controller,r.controller],trace:true});for(const field of ['winner','rounds','hp','metrics','trace'])assert.deepEqual(actual[field],r[field]);replayed++;
+}
+const md=['# 四倾向：原推荐对指定新招对手','','十二个明确原推荐→新招配置对局，各按近中远交换先手、四种倾向、两种控制器，共576场新执行。每格6场，表示原推荐左方的胜/负/未决与胜率；这是指定对手的构筑采样，不是原推荐的完整12×12矩阵。','','确定性AI、30回合上限、公开固定主招加合法备用策略。未决仍在分母，不能当作随机胜率或真人结果。实际六槽与槽位顺序见plan.json，完整纪要见records.json.gz。',''];
+for(const controller of ['prepared','immediate']){
+ md.push(`## ${controller==='prepared'?'筹划型':'即时型'}AI`,'','| 原推荐 → 指定新招对手 | 均衡 | 强攻 | 稳守 | 蓄势 |','| --- | ---: | ---: | ---: | ---: |');
+ for(const tag of tags){const example=records.find(r=>r.tag===tag);const cells=tendencies.map(t=>{const rows=records.filter(r=>r.tag===tag&&r.controller===controller&&r.tendency===t);assert.equal(rows.length,6);assert.equal(new Set(rows.map(r=>`${r.distance}/${r.first}`)).size,6);const wins=rows.filter(r=>r.winner===0).length,losses=rows.filter(r=>r.winner===1).length,unresolved=6-wins-losses;return `${wins}/${losses}/${unresolved} · ${(100*wins/6).toFixed(1)}%`;});md.push(`| ${example.a.name} → ${example.b.name} | ${cells.join(' | ')} |`);}
+ md.push('');
+}
+const waits={};for(const r of records){const g=waits[r.controller]??={games:0,unresolved:0,unusedAP:0,rounds:0};g.games++;g.unresolved+=r.winner===null?1:0;g.unusedAP+=r.metrics.reduce((n,m)=>n+m.unusedAP,0);g.rounds+=r.rounds;}
+md.push('## 行动与未决','','| 控制器 | 场数 | 30回合未决 | 双方剩余行动合计 |','| --- | ---: | ---: | ---: |');for(const [c,g] of Object.entries(waits))md.push(`| ${c} | ${g.games} | ${g.unresolved} | ${g.unusedAP} |`);
+md.push('','剩余行动不是一律错误；蓄势等释放、有限反伤危险或资源已满时可以合理结束。这里是过程指标，不把“所有回合耗尽行动”作为必胜标准。','','## 复现','','```sh','node scripts/plan-build-cohort.mjs /tmp/qingxiao-cohort-plan.json','node scripts/review-tactics.mjs /tmp/qingxiao-cohort-plan.json /tmp/qingxiao-cohort','node scripts/report-build-cohort.mjs /tmp/qingxiao-cohort --sample-replays','```','');await writeFile(`${root}/report.md`,md.join('\n'));console.log(`Build cohort: 576 fresh complete records, 12 explicit core→tactical configurations, both controllers/four tendencies/ranges/initiative, exact source provenance, ${replayed} stratified full replays passed.`);

@@ -1,0 +1,1 @@
+24 new skills: resource/AP bounds, shared consumption, immediate growth, healing stats, shield piercing, nonlethal sacrifice, limited nonrecursive reflection and old/new record compatibility passed.

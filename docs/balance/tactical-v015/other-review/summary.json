@@ -1,0 +1,151 @@
+{
+  "label": "4 cold/bastion core vs tactical loadouts, unchanged individual skills",
+  "games": 96,
+  "limit": 30,
+  "groups": {
+    "water/core/immediate/balanced": {
+      "games": 12,
+      "wins": 10,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 71,
+      "actions": {
+        "waterbolt": 126,
+        "frost": 62,
+        "rinse": 14,
+        "basic": 5
+      },
+      "unusedAP": 0
+    },
+    "water/core/prepared/balanced": {
+      "games": 12,
+      "wins": 3,
+      "losses": 8,
+      "unresolved": 1,
+      "rounds": 167,
+      "actions": {
+        "waterbolt": 134,
+        "basic": 22,
+        "far": 18,
+        "frost": 53,
+        "repulse": 12,
+        "rinse": 104,
+        "waterwall": 67,
+        "gather": 51,
+        "near": 3,
+        "purify": 4,
+        "sever-growth": 18
+      },
+      "unusedAP": 0
+    },
+    "water/tactical/immediate/balanced": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 55,
+      "actions": {
+        "waterbolt": 58,
+        "frost": 54,
+        "icebreaker": 40,
+        "rinse": 8
+      },
+      "unusedAP": 0
+    },
+    "water/tactical/prepared/balanced": {
+      "games": 12,
+      "wins": 7,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 109,
+      "actions": {
+        "frost": 71,
+        "icebreaker": 43,
+        "far": 14,
+        "rinse": 44,
+        "waterbolt": 99,
+        "mirrorwater": 19,
+        "near": 2,
+        "purify": 9,
+        "repulse": 2,
+        "basic": 4,
+        "sever-growth": 3
+      },
+      "unusedAP": 0
+    },
+    "earth/core/immediate/balanced": {
+      "games": 12,
+      "wins": 8,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 102,
+      "actions": {
+        "stonebolt": 271,
+        "foundation": 8,
+        "rampart": 2,
+        "landbreak": 4,
+        "basic": 13,
+        "quakesunder": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/core/prepared/balanced": {
+      "games": 12,
+      "wins": 5,
+      "losses": 5,
+      "unresolved": 2,
+      "rounds": 189,
+      "actions": {
+        "stonebolt": 256,
+        "foundation": 58,
+        "earthenwall": 11,
+        "purify": 15,
+        "rampart": 28,
+        "basic": 15,
+        "near": 75,
+        "landbreak": 28,
+        "quakesunder": 70,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/tactical/immediate/balanced": {
+      "games": 12,
+      "wins": 6,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 136,
+      "actions": {
+        "gravel": 82,
+        "stonebolt": 181,
+        "foundation": 39,
+        "earthmend": 67,
+        "basic": 23,
+        "landbreak": 7,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/tactical/prepared/balanced": {
+      "games": 12,
+      "wins": 3,
+      "losses": 9,
+      "unresolved": 0,
+      "rounds": 187,
+      "actions": {
+        "gravel": 100,
+        "stonebolt": 168,
+        "earthmend": 43,
+        "purify": 17,
+        "stoneback": 94,
+        "foundation": 53,
+        "near": 28,
+        "landbreak": 28,
+        "far": 4,
+        "basic": 9,
+        "sever-growth": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}
