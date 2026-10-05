@@ -6,7 +6,7 @@
   "historicalNewExecutions": 0,
   "initialUnfrozenProbeExecutions": 12,
   "initialProbeInFinalDenominator": false,
-  "decision": "No kit adopted: symbiosis remains 0/6 for every candidate; parasitic at best 1/6, a single close-range flame-first case. No full-rival or non-balanced confirmation, so no global improvement claimed.",
+  "decision": "No kit adopted: both symbiosis and parasitic are at best 1/6 per candidate; all three wins are close-range, one flame-first versus parasitic and two wood-first versus symbiosis. No full-rival or non-balanced confirmation, so no global improvement claimed.",
   "groups": {
     "eruption-to-combust": {
       "remove": "eruption",
