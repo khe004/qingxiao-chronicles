@@ -1,0 +1,87 @@
+{
+  "label": "Two alternative single-slot charge trades against all 11 other builds; held original v0.15 kits/rules plus reflection correction; loss of healing or shield slot; baseline is unchanged measured ignite-confirm baseline",
+  "games": 264,
+  "limit": 30,
+  "groups": {
+    "charge-no-heal/immediate/balanced": {
+      "games": 66,
+      "wins": 25,
+      "losses": 41,
+      "unresolved": 0,
+      "rounds": 341,
+      "actions": {
+        "seed": 158,
+        "blaze": 266,
+        "spark": 296,
+        "basic": 159,
+        "seedburst": 19,
+        "near": 47,
+        "sproutguard": 10
+      },
+      "unusedAP": 0
+    },
+    "charge-no-heal/prepared/balanced": {
+      "games": 66,
+      "wins": 39,
+      "losses": 27,
+      "unresolved": 0,
+      "rounds": 459,
+      "actions": {
+        "blaze": 167,
+        "sproutguard": 228,
+        "spark": 144,
+        "sever-growth": 3,
+        "seed": 74,
+        "inferno": 200,
+        "near": 74,
+        "meditate": 10,
+        "seedburst": 47,
+        "basic": 80,
+        "unparasite": 14,
+        "far": 10,
+        "purify": 12
+      },
+      "unusedAP": 0
+    },
+    "charge-no-guard/immediate/balanced": {
+      "games": 66,
+      "wins": 33,
+      "losses": 33,
+      "unresolved": 0,
+      "rounds": 385,
+      "actions": {
+        "seed": 148,
+        "blaze": 342,
+        "spark": 273,
+        "heal": 140,
+        "near": 102,
+        "basic": 79,
+        "seedburst": 12
+      },
+      "unusedAP": 0
+    },
+    "charge-no-guard/prepared/balanced": {
+      "games": 66,
+      "wins": 34,
+      "losses": 32,
+      "unresolved": 0,
+      "rounds": 554,
+      "actions": {
+        "blaze": 134,
+        "meditate": 17,
+        "spark": 265,
+        "seed": 142,
+        "heal": 234,
+        "inferno": 240,
+        "sever-growth": 14,
+        "seedburst": 47,
+        "basic": 80,
+        "near": 69,
+        "far": 10,
+        "unparasite": 57,
+        "purify": 7
+      },
+      "unusedAP": 0
+    }
+  }
+}

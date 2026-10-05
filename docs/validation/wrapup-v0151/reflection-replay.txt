@@ -1,0 +1,16 @@
+{
+  identicalSnapshot: {
+    oldChoice: { reason: '对手有1次有限反伤准备；当前进攻收益不足，存气等待准备到期。' },
+    newChoice: { id: 'stonebolt', reason: '按备用策略改用已装备、费用与射程合法的招式。' },
+    health: [ 207, 207 ]
+  },
+  fullReplay: [
+    {
+      label: 'before',
+      choice: [Object],
+      shield: 60,
+      counter: [Object]
+    },
+    { label: 'after', choice: [Object], shield: 46, counter: null }
+  ]
+}

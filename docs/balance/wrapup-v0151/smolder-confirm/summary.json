@@ -1,0 +1,85 @@
+{
+  "label": "Smolder solar-to-quench single-slot substitution across all 11 other original tactical builds, baseline held reflection fix; screening lift comes from changed choices, not assumed healing usage",
+  "games": 264,
+  "limit": 30,
+  "groups": {
+    "baseline/immediate/balanced": {
+      "games": 66,
+      "wins": 45,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 292,
+      "actions": {
+        "flare": 136,
+        "kindle": 314,
+        "firestorm": 148,
+        "cinder": 88,
+        "basic": 11
+      },
+      "unusedAP": 0
+    },
+    "baseline/prepared/balanced": {
+      "games": 66,
+      "wins": 24,
+      "losses": 42,
+      "unresolved": 0,
+      "rounds": 453,
+      "actions": {
+        "kindle": 464,
+        "basic": 21,
+        "ashenward": 131,
+        "flare": 75,
+        "cinder": 53,
+        "firestorm": 93,
+        "solar": 116,
+        "sever-growth": 3,
+        "unparasite": 3,
+        "far": 86,
+        "meditate": 2,
+        "near": 10,
+        "purify": 10
+      },
+      "unusedAP": 0
+    },
+    "no-solar/immediate/balanced": {
+      "games": 66,
+      "wins": 45,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 310,
+      "actions": {
+        "flare": 142,
+        "kindle": 284,
+        "firestorm": 148,
+        "cinder": 97,
+        "quench": 71,
+        "basic": 13
+      },
+      "unusedAP": 0
+    },
+    "no-solar/prepared/balanced": {
+      "games": 66,
+      "wins": 39,
+      "losses": 27,
+      "unresolved": 0,
+      "rounds": 648,
+      "actions": {
+        "kindle": 731,
+        "ashenward": 199,
+        "sever-growth": 46,
+        "flare": 186,
+        "cinder": 74,
+        "firestorm": 145,
+        "unparasite": 90,
+        "basic": 10,
+        "quench": 111,
+        "far": 112,
+        "sever-terrain": 4,
+        "near": 7,
+        "purify": 13,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

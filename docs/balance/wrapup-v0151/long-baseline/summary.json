@@ -1,0 +1,36 @@
+{
+  "scope": "One historical v0.15 defensive sustain/symbiosis 90-round unresolved case, extended to 260 with original frozen sources; separate diagnostic, excluded from win-rate denominators",
+  "baselineIndex": 116,
+  "winner": 0,
+  "rounds": 197,
+  "hp": [
+    210,
+    0
+  ],
+  "metrics": [
+    {
+      "actions": {
+        "spark": 197,
+        "sproutguard": 6,
+        "blaze": 197,
+        "seed": 191
+      },
+      "reactions": {
+        "none": 4
+      },
+      "unusedAP": 0
+    },
+    {
+      "actions": {
+        "cultivate": 196,
+        "bloomheal": 196,
+        "basic": 4,
+        "purify": 192
+      },
+      "reactions": {
+        "shield": 197
+      },
+      "unusedAP": 0
+    }
+  ]
+}

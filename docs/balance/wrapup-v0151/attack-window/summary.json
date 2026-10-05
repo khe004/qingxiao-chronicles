@@ -1,0 +1,50 @@
+{
+  "label": "Isolated AI candidate: keep highest actual direct damage root among fixed 12 finalists; no skill/rules/kit changes; baseline wood/flame prepared cases",
+  "games": 24,
+  "limit": 30,
+  "groups": {
+    "flame/fierce/attack-window/prepared/balanced": {
+      "games": 12,
+      "wins": 0,
+      "losses": 12,
+      "unresolved": 0,
+      "rounds": 180,
+      "actions": {
+        "eruption": 42,
+        "kindle": 166,
+        "far": 4,
+        "near": 29,
+        "ashenward": 45,
+        "sever-growth": 46,
+        "quench": 64,
+        "stoke": 5,
+        "flare": 11,
+        "meditate": 1,
+        "basic": 10,
+        "unparasite": 99
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder/attack-window/prepared/balanced": {
+      "games": 12,
+      "wins": 0,
+      "losses": 12,
+      "unresolved": 0,
+      "rounds": 81,
+      "actions": {
+        "kindle": 69,
+        "basic": 4,
+        "ashenward": 40,
+        "flare": 35,
+        "cinder": 11,
+        "firestorm": 12,
+        "solar": 14,
+        "unparasite": 9,
+        "sever-growth": 2,
+        "far": 1,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

@@ -1,0 +1,1676 @@
+{
+  "scenario": {
+    "tag": "earth/mountain",
+    "a": {
+      "id": "earth/mountain/core",
+      "name": "镇岳破阵",
+      "key": "earth",
+      "config": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "mountain",
+          "quakesunder"
+        ]
+      }
+    },
+    "b": {
+      "id": "sword/heavy/tactical",
+      "name": "回锋碎垒",
+      "key": "sword",
+      "config": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "riposte",
+          "cleave",
+          "unity"
+        ]
+      }
+    },
+    "controller": "prepared",
+    "tendency": "defensive",
+    "distance": 0,
+    "first": 1,
+    "index": 559,
+    "winner": 0,
+    "rounds": 9,
+    "hp": [
+      45,
+      0
+    ],
+    "metrics": [
+      {
+        "actions": {
+          "foundation": 9,
+          "stonebolt": 6,
+          "rampart": 4,
+          "landbreak": 5,
+          "meditate": 1
+        },
+        "reactions": {
+          "none": 7,
+          "evade": 4
+        },
+        "unusedAP": 1
+      },
+      {
+        "actions": {
+          "swift": 8,
+          "expose": 3,
+          "far": 1,
+          "near": 6,
+          "riposte": 2,
+          "unity": 2,
+          "strike": 3
+        },
+        "reactions": {
+          "evade": 5,
+          "shield": 2,
+          "none": 1
+        },
+        "unusedAP": 0
+      }
+    ],
+    "trace": [
+      {
+        "round": 1,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 1,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的掠影剑：甲受到 5 伤害，护盾吸收 16。"
+      },
+      {
+        "round": 1,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 1 层剑意。"
+      },
+      {
+        "round": 1,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「照隙诀」。"
+      },
+      {
+        "round": 1,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的照隙诀：甲受到 8 伤害。"
+      },
+      {
+        "round": 1,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「拉开」。"
+      },
+      {
+        "round": 1,
+        "seat": 1,
+        "type": "normal",
+        "text": "乙主动退开，双方距离变为中距。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有8。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「飞岩诀」。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "normal",
+        "text": "乙主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的飞岩诀：乙受到 11 伤害。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「磐石壁」。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「磐石壁」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 1,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲获得护盾，现有 50 护盾。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「接近」。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "normal",
+        "text": "乙主动接近，双方距离变为中距。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的掠影剑：甲受到 0 伤害，护盾吸收 21。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 2 层剑意。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的掠影剑：甲受到 0 伤害，护盾吸收 21。"
+      },
+      {
+        "round": 2,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 3 层剑意。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有16。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「裂地击」。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「裂地击」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "resource",
+        "text": "镇岳压制 · 甲主动消费地势，兑现本回合首次进攻+6。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "normal",
+        "text": "乙主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的裂地击：乙受到 24 伤害。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「飞岩诀」。"
+      },
+      {
+        "round": 2,
+        "seat": 0,
+        "type": "hit",
+        "text": "甲的飞岩诀：乙受到 21 伤害。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「接近」。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "normal",
+        "text": "乙主动接近，双方距离变为中距。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "resource",
+        "text": "甲自己移动，损失1地势，剩余0；对手自己移动不影响此阵地。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "normal",
+        "text": "甲主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的掠影剑：甲受到 0 伤害，护盾吸收 11。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 4 层剑意。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「接近」。"
+      },
+      {
+        "round": 3,
+        "seat": 1,
+        "type": "normal",
+        "text": "乙主动接近，双方距离变为中距。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有13。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「飞岩诀」。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "normal",
+        "text": "乙主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的飞岩诀：乙受到 11 伤害。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「磐石壁」。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「磐石壁」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 3,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲获得护盾，现有 55 护盾。"
+      },
+      {
+        "round": 4,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「回锋剑屏」。"
+      },
+      {
+        "round": 4,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙准备1次反击，每次至多12基础金伤，下次自身阶段到期。"
+      },
+      {
+        "round": 4,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙获得护盾，现有 12 护盾、4 剑意。"
+      },
+      {
+        "round": 4,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「万剑归一」。"
+      },
+      {
+        "round": 4,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙消耗 4 层剑意，剩余 0 层。"
+      },
+      {
+        "round": 4,
+        "seat": 1,
+        "type": "charge",
+        "text": "乙开始蓄势「万剑归一」，下次行动阶段释放。"
+      },
+      {
+        "round": 4,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「调息」。"
+      },
+      {
+        "round": 4,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲调息，凝聚 2 灵气。"
+      },
+      {
+        "round": 4,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 4,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有60。"
+      },
+      {
+        "round": 4,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙上一阶段的反击准备到期。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "charge",
+        "text": "乙释放「万剑归一」！"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "normal",
+        "text": "甲主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的万剑归一：甲受到 0 伤害，护盾吸收 50。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「接近」。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "normal",
+        "text": "乙主动接近，双方距离变为中距。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "hit",
+        "text": "乙的掠影剑：甲受到 11 伤害，护盾吸收 10。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 1 层剑意。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「断岳剑」。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "hit",
+        "text": "乙的断岳剑：甲受到 43 伤害。"
+      },
+      {
+        "round": 5,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙消耗 1 层剑意，剩余 0 层。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「磐石壁」。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「磐石壁」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲获得护盾，现有 42 护盾。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有50。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「裂地击」。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「裂地击」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "resource",
+        "text": "镇岳压制 · 甲主动消费地势，兑现本回合首次进攻+6。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "reaction",
+        "text": "你施展「横剑式」，获得 26 护盾。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的裂地击：乙受到 10 伤害，护盾吸收 38。"
+      },
+      {
+        "round": 5,
+        "seat": 0,
+        "type": "resource",
+        "text": "藏锋重剑 · 乙承接攻击，获得藏锋，下一次重剑强化；至第 6 回合己方行动结束失效。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的掠影剑：甲受到 0 伤害，护盾吸收 21。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 1 层剑意。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的掠影剑：甲受到 0 伤害，护盾吸收 21。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 2 层剑意。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「照隙诀」。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的照隙诀：甲受到 0 伤害，护盾吸收 8。"
+      },
+      {
+        "round": 6,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙的藏锋超过时限，强化消散。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有8。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「飞岩诀」。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "normal",
+        "text": "乙主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的飞岩诀：乙受到 11 伤害。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「磐石壁」。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「磐石壁」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 6,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲获得护盾，现有 50 护盾。"
+      },
+      {
+        "round": 7,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「回锋剑屏」。"
+      },
+      {
+        "round": 7,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙准备1次反击，每次至多12基础金伤，下次自身阶段到期。"
+      },
+      {
+        "round": 7,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙获得护盾，现有 12 护盾、2 剑意。"
+      },
+      {
+        "round": 7,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「万剑归一」。"
+      },
+      {
+        "round": 7,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙消耗 2 层剑意，剩余 0 层。"
+      },
+      {
+        "round": 7,
+        "seat": 1,
+        "type": "charge",
+        "text": "乙开始蓄势「万剑归一」，下次行动阶段释放。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「飞岩诀」。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "normal",
+        "text": "乙主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的飞岩诀：乙受到 0 伤害，护盾吸收 11。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "resource",
+        "text": "藏锋重剑 · 乙承接攻击，获得藏锋，下一次重剑强化；至第 8 回合己方行动结束失效。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "hit",
+        "text": "乙的回锋剑屏反击：甲受到 0 伤害，护盾吸收 8。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「飞岩诀」。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "hit",
+        "text": "甲的飞岩诀：乙受到 20 伤害，护盾吸收 1。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "resource",
+        "text": "藏锋重剑 · 乙承接攻击，获得藏锋，下一次重剑强化；至第 8 回合己方行动结束失效。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有50。"
+      },
+      {
+        "round": 7,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "charge",
+        "text": "乙释放「万剑归一」！"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "normal",
+        "text": "甲主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的万剑归一：甲受到 0 伤害，护盾吸收 44。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「照隙诀」。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "hit",
+        "text": "乙的照隙诀：甲受到 2 伤害，护盾吸收 6。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「接近」。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "normal",
+        "text": "乙主动接近，双方距离变为中距。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「断岳剑」。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "hit",
+        "text": "乙的断岳剑：甲受到 52 伤害。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "resource",
+        "text": "藏锋重剑 · 乙消耗藏锋，为「断岳剑」增加 10 基础伤害。"
+      },
+      {
+        "round": 8,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙消耗 0 层剑意，剩余 0 层。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「裂地击」。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「裂地击」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "resource",
+        "text": "镇岳压制 · 甲主动消费地势，兑现本回合首次进攻+6。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "reaction",
+        "text": "你施展「横剑式」，获得 26 护盾。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的裂地击：乙受到 22 伤害，护盾吸收 26。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "resource",
+        "text": "藏锋重剑 · 乙承接攻击，获得藏锋，下一次重剑强化；至第 9 回合己方行动结束失效。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有8。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「裂地击」。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「裂地击」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 8,
+        "seat": 0,
+        "type": "hit",
+        "text": "甲的裂地击：乙受到 44 伤害。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「掠影剑」。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "resource",
+        "text": "甲自己移动，损失1地势，剩余0；对手自己移动不影响此阵地。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "normal",
+        "text": "甲主动退开，双方距离变为远距。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "reaction",
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "damage",
+        "text": "乙的掠影剑：甲受到 3 伤害，护盾吸收 8。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙现有 1 层剑意。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「接近」。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "normal",
+        "text": "乙主动接近，双方距离变为中距。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "player",
+        "text": "乙施展「断岳剑」。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "hit",
+        "text": "乙的断岳剑：甲受到 51 伤害。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "resource",
+        "text": "藏锋重剑 · 乙消耗藏锋，为「断岳剑」增加 10 基础伤害。"
+      },
+      {
+        "round": 9,
+        "seat": 1,
+        "type": "resource",
+        "text": "乙消耗 1 层剑意，剩余 0 层。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「筑垒诀」。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲付费准备，获得8护盾，现有8。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲主动布置，现有2 / 3地势。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "player",
+        "text": "甲施展「裂地击」。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "resource",
+        "text": "甲以「裂地击」消费2地势，同一准备不能重复兑现。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "resource",
+        "text": "镇岳压制 · 甲主动消费地势，兑现本回合首次进攻+6。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "damage",
+        "text": "甲的裂地击：乙受到 46 伤害。"
+      },
+      {
+        "round": 9,
+        "seat": 0,
+        "type": "result",
+        "text": "本场惜败 · 调整招式，再试一场。"
+      }
+    ],
+    "ms": 1834.4943000000203
+  },
+  "results": [
+    {
+      "label": "before",
+      "choice": {
+        "action": "end",
+        "reason": "对手有1次有限反伤准备；当前进攻收益不足，存气等待准备到期。"
+      },
+      "state": {
+        "round": 4,
+        "first": 1,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "earth",
+            "major": "mountain",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "rampart",
+              "landbreak",
+              "mountain",
+              "quakesunder"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [
+              "foundation"
+            ],
+            "name": "甲",
+            "hp": 207,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 6,
+              "any": 3
+            },
+            "shield": 60,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": true,
+            "charge": null,
+            "ap": 1,
+            "reaction": true,
+            "meditated": true,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 2,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          },
+          {
+            "key": "sword",
+            "major": "heavy",
+            "skillIds": [
+              "swift",
+              "expose",
+              "strike",
+              "riposte",
+              "cleave",
+              "unity"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [
+              "riposte"
+            ],
+            "name": "乙",
+            "hp": 153,
+            "maxHp": 220,
+            "qi": {
+              "metal": 1,
+              "wood": 0,
+              "water": 2,
+              "fire": 0,
+              "earth": 0,
+              "any": 0
+            },
+            "shield": 12,
+            "counter": {
+              "power": 12,
+              "hits": 1,
+              "element": "metal",
+              "name": "回锋剑屏"
+            },
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": {
+              "id": "unity",
+              "name": "万剑归一",
+              "symbol": "极",
+              "element": "metal",
+              "ap": 2,
+              "cost": {
+                "metal": 3,
+                "any": 1
+              },
+              "kind": "charge",
+              "power": 86,
+              "finisher": true,
+              "desc": "消耗剑意蓄势，每层增加7基础伤害，下次自身阶段释放。",
+              "tag": "蓄势",
+              "range": [
+                1,
+                2
+              ],
+              "storedPower": 131
+            },
+            "ap": 0,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          }
+        ]
+      }
+    },
+    {
+      "label": "after",
+      "choice": {
+        "action": "skill",
+        "skillId": "foundation",
+        "reason": "投入土气与行动建立有限地势，后续攻击、防守与稳固共用储备。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "state": {
+        "round": 4,
+        "first": 1,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "earth",
+            "major": "mountain",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "rampart",
+              "landbreak",
+              "mountain",
+              "quakesunder"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 207,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 4,
+              "any": 2
+            },
+            "shield": 46,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": true,
+            "charge": null,
+            "ap": 1,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 0,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          },
+          {
+            "key": "sword",
+            "major": "heavy",
+            "skillIds": [
+              "swift",
+              "expose",
+              "strike",
+              "riposte",
+              "cleave",
+              "unity"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": true,
+            "edgeExpires": 5,
+            "usedSkills": [
+              "riposte"
+            ],
+            "name": "乙",
+            "hp": 149,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 2,
+              "fire": 0,
+              "earth": 0,
+              "any": 0
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": {
+              "id": "unity",
+              "name": "万剑归一",
+              "symbol": "极",
+              "element": "metal",
+              "ap": 2,
+              "cost": {
+                "metal": 3,
+                "any": 1
+              },
+              "kind": "charge",
+              "power": 86,
+              "finisher": true,
+              "desc": "消耗剑意蓄势，每层增加7基础伤害，下次自身阶段释放。",
+              "tag": "蓄势",
+              "range": [
+                1,
+                2
+              ],
+              "storedPower": 131
+            },
+            "ap": 0,
+            "reaction": false,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          }
+        ]
+      }
+    }
+  ],
+  "identicalSnapshot": {
+    "state": {
+      "round": 4,
+      "first": 1,
+      "seat": 0,
+      "ended": false,
+      "distance": 2,
+      "winner": null,
+      "actors": [
+        {
+          "key": "earth",
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "rampart",
+            "landbreak",
+            "mountain",
+            "quakesunder"
+          ],
+          "igniteTriggered": false,
+          "quickTriggered": false,
+          "edge": false,
+          "edgeExpires": 0,
+          "usedSkills": [
+            "foundation"
+          ],
+          "name": "甲",
+          "hp": 207,
+          "maxHp": 220,
+          "qi": {
+            "metal": 0,
+            "wood": 0,
+            "water": 0,
+            "fire": 0,
+            "earth": 6,
+            "any": 3
+          },
+          "shield": 60,
+          "counter": null,
+          "intent": 0,
+          "seed": 0,
+          "burn": 0,
+          "burnTurns": 0,
+          "chilled": false,
+          "broken": true,
+          "charge": null,
+          "ap": 1,
+          "reaction": true,
+          "meditated": true,
+          "woodTriggered": false,
+          "waterCleanseTriggered": false,
+          "bastionTriggered": false,
+          "parasite": 0,
+          "parasiteTurns": 0,
+          "parasiteFed": false,
+          "terrain": 2,
+          "anchored": false,
+          "anchorExpires": 0,
+          "mountainTriggered": false
+        },
+        {
+          "key": "sword",
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ],
+          "igniteTriggered": false,
+          "quickTriggered": false,
+          "edge": false,
+          "edgeExpires": 0,
+          "usedSkills": [
+            "riposte"
+          ],
+          "name": "乙",
+          "hp": 153,
+          "maxHp": 220,
+          "qi": {
+            "metal": 1,
+            "wood": 0,
+            "water": 2,
+            "fire": 0,
+            "earth": 0,
+            "any": 0
+          },
+          "shield": 12,
+          "counter": {
+            "power": 12,
+            "hits": 1,
+            "element": "metal",
+            "name": "回锋剑屏"
+          },
+          "intent": 0,
+          "seed": 0,
+          "burn": 0,
+          "burnTurns": 0,
+          "chilled": false,
+          "broken": false,
+          "charge": {
+            "id": "unity",
+            "name": "万剑归一",
+            "symbol": "极",
+            "element": "metal",
+            "ap": 2,
+            "cost": {
+              "metal": 3,
+              "any": 1
+            },
+            "kind": "charge",
+            "power": 86,
+            "finisher": true,
+            "desc": "消耗剑意蓄势，每层增加7基础伤害，下次自身阶段释放。",
+            "tag": "蓄势",
+            "range": [
+              1,
+              2
+            ],
+            "storedPower": 131
+          },
+          "ap": 0,
+          "reaction": true,
+          "meditated": false,
+          "woodTriggered": false,
+          "waterCleanseTriggered": false,
+          "bastionTriggered": false,
+          "parasite": 0,
+          "parasiteTurns": 0,
+          "parasiteFed": false
+        }
+      ]
+    },
+    "oldChoice": {
+      "reason": "对手有1次有限反伤准备；当前进攻收益不足，存气等待准备到期。"
+    },
+    "newChoice": {
+      "id": "stonebolt",
+      "reason": "按备用策略改用已装备、费用与射程合法的招式。"
+    },
+    "resolved": {
+      "round": 4,
+      "first": 1,
+      "seat": 0,
+      "ended": false,
+      "distance": 2,
+      "winner": null,
+      "actors": [
+        {
+          "key": "earth",
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "rampart",
+            "landbreak",
+            "mountain",
+            "quakesunder"
+          ],
+          "igniteTriggered": false,
+          "quickTriggered": false,
+          "edge": false,
+          "edgeExpires": 0,
+          "usedSkills": [
+            "foundation"
+          ],
+          "name": "甲",
+          "hp": 207,
+          "maxHp": 220,
+          "qi": {
+            "metal": 0,
+            "wood": 0,
+            "water": 0,
+            "fire": 0,
+            "earth": 5,
+            "any": 3
+          },
+          "shield": 51,
+          "counter": null,
+          "intent": 0,
+          "seed": 0,
+          "burn": 0,
+          "burnTurns": 0,
+          "chilled": false,
+          "broken": true,
+          "charge": null,
+          "ap": 0,
+          "reaction": true,
+          "meditated": true,
+          "woodTriggered": false,
+          "waterCleanseTriggered": false,
+          "bastionTriggered": false,
+          "parasite": 0,
+          "parasiteTurns": 0,
+          "parasiteFed": false,
+          "terrain": 2,
+          "anchored": false,
+          "anchorExpires": 0,
+          "mountainTriggered": false
+        },
+        {
+          "key": "sword",
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ],
+          "igniteTriggered": false,
+          "quickTriggered": false,
+          "edge": true,
+          "edgeExpires": 5,
+          "usedSkills": [
+            "riposte"
+          ],
+          "name": "乙",
+          "hp": 153,
+          "maxHp": 220,
+          "qi": {
+            "metal": 0,
+            "wood": 0,
+            "water": 2,
+            "fire": 0,
+            "earth": 0,
+            "any": 0
+          },
+          "shield": 17,
+          "counter": null,
+          "intent": 0,
+          "seed": 0,
+          "burn": 0,
+          "burnTurns": 0,
+          "chilled": false,
+          "broken": false,
+          "charge": {
+            "id": "unity",
+            "name": "万剑归一",
+            "symbol": "极",
+            "element": "metal",
+            "ap": 2,
+            "cost": {
+              "metal": 3,
+              "any": 1
+            },
+            "kind": "charge",
+            "power": 86,
+            "finisher": true,
+            "desc": "消耗剑意蓄势，每层增加7基础伤害，下次自身阶段释放。",
+            "tag": "蓄势",
+            "range": [
+              1,
+              2
+            ],
+            "storedPower": 131
+          },
+          "ap": 0,
+          "reaction": false,
+          "meditated": false,
+          "woodTriggered": false,
+          "waterCleanseTriggered": false,
+          "bastionTriggered": false,
+          "parasite": 0,
+          "parasiteTurns": 0,
+          "parasiteFed": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Charge utility costs/limits, attack locks, range failure, fixed power, cancellation, all AI preferences and enemy announced actions passed.
