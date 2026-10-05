@@ -1,0 +1,1237 @@
+{
+  "newExecutions": 198,
+  "referenceRecords": 198,
+  "referenceNewExecutions": 0,
+  "reference": "docs/balance/pressure-v0152",
+  "scope": "Further one-slot waterwall→mirrorwater trade on the rinse kit, with the same newly combined rivals and unchanged combat source. Baseline entries point to existing final/defensive runs, never add another execution.",
+  "groups": {
+    "immediate/balanced": {
+      "before": {
+        "games": 66,
+        "wins": 42,
+        "losses": 24,
+        "unresolved": 0,
+        "actions": {
+          "gather": 158,
+          "surge": 144,
+          "basic": 180,
+          "waterbolt": 544,
+          "tidespear": 64,
+          "rinse": 185,
+          "waterwall": 27,
+          "near": 21
+        }
+      },
+      "after": {
+        "games": 66,
+        "wins": 39,
+        "losses": 27,
+        "unresolved": 0,
+        "actions": {
+          "gather": 124,
+          "surge": 115,
+          "basic": 268,
+          "waterbolt": 535,
+          "tidespear": 56,
+          "rinse": 187,
+          "near": 6
+        }
+      },
+      "foes": {
+        "fire/ignite": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 10,
+              "surge": 16,
+              "basic": 9,
+              "waterbolt": 46,
+              "tidespear": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 10,
+              "surge": 16,
+              "basic": 9,
+              "waterbolt": 46,
+              "tidespear": 1
+            }
+          }
+        },
+        "fire/sustain": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 82,
+              "gather": 8,
+              "surge": 14,
+              "basic": 2,
+              "tidespear": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 82,
+              "gather": 8,
+              "surge": 14,
+              "basic": 2,
+              "tidespear": 1
+            }
+          }
+        },
+        "sword/quick": {
+          "before": {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 38,
+              "gather": 19,
+              "rinse": 12,
+              "waterwall": 7,
+              "surge": 27,
+              "tidespear": 1,
+              "basic": 2,
+              "near": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 49,
+              "gather": 16,
+              "rinse": 13,
+              "tidespear": 9,
+              "basic": 7,
+              "surge": 12,
+              "near": 1
+            }
+          }
+        },
+        "sword/heavy": {
+          "before": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 18,
+              "surge": 8,
+              "basic": 13,
+              "waterbolt": 27,
+              "rinse": 10,
+              "tidespear": 13,
+              "waterwall": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 16,
+              "surge": 8,
+              "basic": 24,
+              "waterbolt": 26,
+              "rinse": 14,
+              "tidespear": 12
+            }
+          }
+        },
+        "flame/fierce": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 6,
+              "surge": 7,
+              "basic": 3,
+              "waterbolt": 53,
+              "tidespear": 3
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 6,
+              "surge": 7,
+              "basic": 3,
+              "waterbolt": 53,
+              "tidespear": 3
+            }
+          }
+        },
+        "flame/smolder": {
+          "before": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 48,
+              "gather": 8,
+              "surge": 12,
+              "basic": 3,
+              "tidespear": 3
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 48,
+              "gather": 8,
+              "surge": 12,
+              "basic": 3,
+              "tidespear": 3
+            }
+          }
+        },
+        "water/cold": {
+          "before": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "gather": 9,
+              "surge": 8,
+              "basic": 13,
+              "waterbolt": 37,
+              "rinse": 5,
+              "tidespear": 3
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "gather": 9,
+              "surge": 8,
+              "basic": 13,
+              "waterbolt": 37,
+              "rinse": 5,
+              "tidespear": 3
+            }
+          }
+        },
+        "wood/symbiosis": {
+          "before": {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 96,
+              "gather": 21,
+              "surge": 9,
+              "rinse": 15,
+              "waterwall": 2,
+              "tidespear": 15,
+              "basic": 13
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 97,
+              "gather": 13,
+              "surge": 9,
+              "rinse": 22,
+              "basic": 37,
+              "tidespear": 7
+            }
+          }
+        },
+        "wood/parasitic": {
+          "before": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 53,
+              "gather": 19,
+              "surge": 11,
+              "rinse": 23,
+              "basic": 22,
+              "waterwall": 2,
+              "tidespear": 11
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 37,
+              "gather": 14,
+              "surge": 11,
+              "rinse": 25,
+              "basic": 38,
+              "tidespear": 6
+            }
+          }
+        },
+        "earth/bastion": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 13,
+              "gather": 24,
+              "surge": 17,
+              "rinse": 50,
+              "waterwall": 9,
+              "near": 11,
+              "basic": 26,
+              "tidespear": 9
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 13,
+              "gather": 15,
+              "surge": 8,
+              "rinse": 39,
+              "basic": 40,
+              "near": 2,
+              "tidespear": 9
+            }
+          }
+        },
+        "earth/mountain": {
+          "before": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 51,
+              "gather": 16,
+              "surge": 15,
+              "rinse": 70,
+              "basic": 74,
+              "waterwall": 6,
+              "tidespear": 4,
+              "near": 9
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 47,
+              "gather": 9,
+              "surge": 10,
+              "rinse": 69,
+              "basic": 92,
+              "tidespear": 2,
+              "near": 3
+            }
+          }
+        }
+      }
+    },
+    "prepared/balanced": {
+      "before": {
+        "games": 66,
+        "wins": 34,
+        "losses": 32,
+        "unresolved": 0,
+        "actions": {
+          "gather": 255,
+          "rinse": 307,
+          "waterwall": 199,
+          "waterbolt": 434,
+          "tidespear": 112,
+          "basic": 216,
+          "far": 13,
+          "near": 99,
+          "surge": 148,
+          "purify": 10,
+          "sever-growth": 42,
+          "unparasite": 58,
+          "sever-terrain": 1
+        }
+      },
+      "after": {
+        "games": 66,
+        "wins": 20,
+        "losses": 46,
+        "unresolved": 0,
+        "actions": {
+          "gather": 256,
+          "rinse": 408,
+          "mirrorwater": 201,
+          "waterbolt": 492,
+          "surge": 129,
+          "far": 27,
+          "basic": 265,
+          "near": 115,
+          "tidespear": 64,
+          "purify": 11,
+          "meditate": 3,
+          "sever-growth": 73,
+          "unparasite": 82,
+          "sever-terrain": 13
+        }
+      },
+      "foes": {
+        "fire/ignite": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "gather": 25,
+              "rinse": 33,
+              "waterwall": 41,
+              "waterbolt": 59,
+              "tidespear": 12,
+              "basic": 19,
+              "far": 2,
+              "near": 7,
+              "surge": 6
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "gather": 20,
+              "rinse": 26,
+              "mirrorwater": 15,
+              "waterbolt": 39,
+              "surge": 5,
+              "far": 4,
+              "basic": 13,
+              "near": 9,
+              "tidespear": 10,
+              "purify": 1,
+              "meditate": 1
+            }
+          }
+        },
+        "fire/sustain": {
+          "before": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 85,
+              "rinse": 41,
+              "waterwall": 10,
+              "gather": 18,
+              "surge": 7,
+              "basic": 35,
+              "purify": 9,
+              "tidespear": 10,
+              "far": 2,
+              "near": 4
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 72,
+              "gather": 12,
+              "mirrorwater": 8,
+              "surge": 9,
+              "rinse": 45,
+              "tidespear": 5,
+              "basic": 50,
+              "far": 5,
+              "near": 9,
+              "purify": 6,
+              "meditate": 1
+            }
+          }
+        },
+        "sword/quick": {
+          "before": {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0,
+            "actions": {
+              "gather": 30,
+              "rinse": 8,
+              "waterwall": 21,
+              "waterbolt": 32,
+              "surge": 33,
+              "near": 6,
+              "far": 1,
+              "tidespear": 3,
+              "basic": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 36,
+              "gather": 15,
+              "mirrorwater": 11,
+              "surge": 16,
+              "basic": 5,
+              "near": 6,
+              "far": 2,
+              "rinse": 5,
+              "tidespear": 3
+            }
+          }
+        },
+        "sword/heavy": {
+          "before": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 32,
+              "gather": 23,
+              "surge": 13,
+              "waterwall": 17,
+              "rinse": 13,
+              "basic": 6,
+              "near": 10,
+              "tidespear": 9,
+              "far": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 24,
+              "gather": 17,
+              "surge": 13,
+              "rinse": 11,
+              "basic": 10,
+              "far": 4,
+              "tidespear": 3,
+              "mirrorwater": 6,
+              "near": 5
+            }
+          }
+        },
+        "flame/fierce": {
+          "before": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 19,
+              "basic": 13,
+              "waterbolt": 28,
+              "tidespear": 16,
+              "rinse": 14,
+              "waterwall": 7,
+              "near": 4,
+              "surge": 3
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "actions": {
+              "gather": 53,
+              "basic": 12,
+              "waterbolt": 25,
+              "rinse": 57,
+              "mirrorwater": 53,
+              "tidespear": 15,
+              "near": 6,
+              "surge": 4
+            }
+          }
+        },
+        "flame/smolder": {
+          "before": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 18,
+              "rinse": 10,
+              "basic": 4,
+              "waterbolt": 21,
+              "tidespear": 13,
+              "near": 11,
+              "surge": 9,
+              "purify": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 18,
+              "rinse": 30,
+              "basic": 2,
+              "waterbolt": 30,
+              "tidespear": 4,
+              "near": 22,
+              "mirrorwater": 10,
+              "surge": 16,
+              "meditate": 1,
+              "purify": 4
+            }
+          }
+        },
+        "water/cold": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 29,
+              "waterwall": 28,
+              "waterbolt": 49,
+              "surge": 29,
+              "rinse": 25,
+              "near": 25,
+              "basic": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 26,
+              "waterbolt": 32,
+              "rinse": 19,
+              "surge": 27,
+              "far": 1,
+              "basic": 8,
+              "mirrorwater": 18,
+              "near": 18,
+              "tidespear": 2
+            }
+          }
+        },
+        "wood/symbiosis": {
+          "before": {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 62,
+              "gather": 32,
+              "basic": 21,
+              "surge": 8,
+              "sever-growth": 42,
+              "rinse": 53,
+              "waterwall": 18,
+              "tidespear": 22,
+              "near": 5
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 114,
+              "gather": 19,
+              "mirrorwater": 17,
+              "surge": 11,
+              "sever-growth": 69,
+              "basic": 12,
+              "rinse": 76,
+              "near": 8,
+              "tidespear": 5
+            }
+          }
+        },
+        "wood/parasitic": {
+          "before": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 32,
+              "waterwall": 3,
+              "gather": 9,
+              "unparasite": 58,
+              "surge": 8,
+              "rinse": 50,
+              "basic": 87,
+              "tidespear": 5
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 72,
+              "mirrorwater": 4,
+              "gather": 7,
+              "surge": 3,
+              "unparasite": 82,
+              "basic": 127,
+              "rinse": 38,
+              "tidespear": 5,
+              "sever-growth": 4
+            }
+          }
+        },
+        "earth/bastion": {
+          "before": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 29,
+              "gather": 35,
+              "waterwall": 49,
+              "rinse": 37,
+              "surge": 16,
+              "basic": 20,
+              "tidespear": 17,
+              "sever-terrain": 1,
+              "near": 7,
+              "far": 3
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 39,
+              "gather": 60,
+              "basic": 13,
+              "near": 6,
+              "surge": 13,
+              "rinse": 79,
+              "mirrorwater": 59,
+              "far": 6,
+              "tidespear": 12,
+              "sever-terrain": 13
+            }
+          }
+        },
+        "earth/mountain": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 5,
+              "gather": 17,
+              "far": 4,
+              "near": 20,
+              "rinse": 23,
+              "basic": 8,
+              "tidespear": 5,
+              "surge": 16,
+              "waterwall": 5
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 9,
+              "gather": 9,
+              "far": 5,
+              "near": 26,
+              "rinse": 22,
+              "basic": 13,
+              "surge": 12
+            }
+          }
+        }
+      }
+    },
+    "immediate/defensive": {
+      "before": {
+        "games": 66,
+        "wins": 49,
+        "losses": 3,
+        "unresolved": 14,
+        "actions": {
+          "gather": 865,
+          "rinse": 593,
+          "waterwall": 1244,
+          "surge": 349,
+          "purify": 16,
+          "basic": 65,
+          "waterbolt": 833,
+          "tidespear": 154,
+          "near": 69,
+          "unparasite": 5
+        }
+      },
+      "after": {
+        "games": 66,
+        "wins": 37,
+        "losses": 27,
+        "unresolved": 2,
+        "actions": {
+          "waterbolt": 753,
+          "gather": 542,
+          "rinse": 711,
+          "surge": 249,
+          "purify": 122,
+          "basic": 120,
+          "tidespear": 204,
+          "near": 64,
+          "mirrorwater": 224,
+          "meditate": 2,
+          "unparasite": 30,
+          "sever-terrain": 7
+        }
+      },
+      "foes": {
+        "fire/ignite": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 60,
+              "rinse": 58,
+              "waterwall": 70,
+              "surge": 23,
+              "purify": 6,
+              "basic": 7,
+              "waterbolt": 53,
+              "tidespear": 11,
+              "near": 7
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 69,
+              "gather": 25,
+              "rinse": 64,
+              "surge": 14,
+              "purify": 37,
+              "basic": 17,
+              "tidespear": 14,
+              "near": 2
+            }
+          }
+        },
+        "fire/sustain": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 63,
+              "rinse": 52,
+              "waterwall": 64,
+              "waterbolt": 50,
+              "surge": 33,
+              "purify": 5,
+              "basic": 7,
+              "tidespear": 10,
+              "near": 5
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 28,
+              "rinse": 65,
+              "basic": 7,
+              "waterbolt": 93,
+              "surge": 23,
+              "purify": 24,
+              "near": 3,
+              "tidespear": 13
+            }
+          }
+        },
+        "sword/quick": {
+          "before": {
+            "games": 6,
+            "wins": 3,
+            "losses": 0,
+            "unresolved": 3,
+            "actions": {
+              "waterbolt": 159,
+              "gather": 76,
+              "waterwall": 49,
+              "rinse": 26,
+              "surge": 41,
+              "tidespear": 34
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 3,
+            "losses": 1,
+            "unresolved": 2,
+            "actions": {
+              "waterbolt": 128,
+              "gather": 75,
+              "surge": 23,
+              "rinse": 34,
+              "tidespear": 57,
+              "mirrorwater": 2,
+              "basic": 1
+            }
+          }
+        },
+        "sword/heavy": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 45,
+              "rinse": 34,
+              "waterwall": 62,
+              "surge": 29,
+              "basic": 3,
+              "waterbolt": 14,
+              "tidespear": 5
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 20,
+              "gather": 32,
+              "rinse": 36,
+              "surge": 21,
+              "basic": 2,
+              "meditate": 2,
+              "mirrorwater": 14,
+              "tidespear": 2
+            }
+          }
+        },
+        "flame/fierce": {
+          "before": {
+            "games": 6,
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0,
+            "actions": {
+              "gather": 76,
+              "rinse": 92,
+              "waterwall": 113,
+              "surge": 21,
+              "purify": 5,
+              "basic": 5,
+              "waterbolt": 35,
+              "tidespear": 16,
+              "near": 16
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 14,
+              "gather": 11,
+              "rinse": 48,
+              "purify": 40,
+              "surge": 8,
+              "tidespear": 2,
+              "basic": 33
+            }
+          }
+        },
+        "flame/smolder": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 85,
+              "rinse": 85,
+              "waterwall": 93,
+              "surge": 24,
+              "waterbolt": 38,
+              "basic": 5,
+              "tidespear": 17,
+              "near": 6
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 53,
+              "gather": 23,
+              "rinse": 53,
+              "surge": 14,
+              "basic": 16,
+              "mirrorwater": 8,
+              "purify": 21,
+              "tidespear": 11,
+              "near": 2
+            }
+          }
+        },
+        "water/cold": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 71,
+              "rinse": 35,
+              "waterwall": 156,
+              "waterbolt": 74,
+              "surge": 25,
+              "tidespear": 9,
+              "near": 5,
+              "basic": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 100,
+              "gather": 22,
+              "rinse": 63,
+              "surge": 7,
+              "basic": 5,
+              "tidespear": 12,
+              "mirrorwater": 13
+            }
+          }
+        },
+        "wood/symbiosis": {
+          "before": {
+            "games": 6,
+            "wins": 5,
+            "losses": 0,
+            "unresolved": 1,
+            "actions": {
+              "gather": 87,
+              "waterbolt": 106,
+              "waterwall": 137,
+              "surge": 41,
+              "rinse": 49,
+              "tidespear": 13,
+              "basic": 22,
+              "near": 6
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 80,
+              "gather": 79,
+              "surge": 30,
+              "rinse": 47,
+              "mirrorwater": 31,
+              "tidespear": 31,
+              "near": 1,
+              "basic": 2
+            }
+          }
+        },
+        "wood/parasitic": {
+          "before": {
+            "games": 6,
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0,
+            "actions": {
+              "gather": 96,
+              "waterbolt": 121,
+              "waterwall": 103,
+              "surge": 66,
+              "rinse": 16,
+              "tidespear": 15,
+              "basic": 7,
+              "near": 11,
+              "unparasite": 5
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 96,
+              "gather": 66,
+              "surge": 38,
+              "rinse": 67,
+              "unparasite": 30,
+              "mirrorwater": 29,
+              "tidespear": 22,
+              "basic": 12,
+              "near": 2
+            }
+          }
+        },
+        "earth/bastion": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 0,
+            "unresolved": 6,
+            "actions": {
+              "gather": 103,
+              "waterbolt": 112,
+              "waterwall": 237,
+              "rinse": 53,
+              "surge": 14,
+              "basic": 1,
+              "tidespear": 10
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 42,
+              "gather": 87,
+              "surge": 20,
+              "rinse": 118,
+              "mirrorwater": 76,
+              "near": 14,
+              "sever-terrain": 7,
+              "tidespear": 18,
+              "basic": 5
+            }
+          }
+        },
+        "earth/mountain": {
+          "before": {
+            "games": 6,
+            "wins": 0,
+            "losses": 2,
+            "unresolved": 4,
+            "actions": {
+              "gather": 103,
+              "waterbolt": 71,
+              "waterwall": 160,
+              "rinse": 93,
+              "surge": 32,
+              "tidespear": 14,
+              "basic": 7,
+              "near": 13
+            }
+          },
+          "after": {
+            "games": 6,
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0,
+            "actions": {
+              "waterbolt": 58,
+              "gather": 94,
+              "surge": 51,
+              "rinse": 116,
+              "mirrorwater": 51,
+              "near": 40,
+              "basic": 20,
+              "tidespear": 22
+            }
+          }
+        }
+      }
+    }
+  }
+}

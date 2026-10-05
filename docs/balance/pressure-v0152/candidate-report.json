@@ -1,0 +1,1627 @@
+{
+  "newExecutions": 636,
+  "historicalReferenceRecords": 264,
+  "historicalUniqueRecords": 252,
+  "historicalNewExecutions": 0,
+  "screen": {
+    "flame/fierce/far-storm/immediate": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-storm",
+      "games": 24,
+      "wins": 11,
+      "losses": 13,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "kindle": 71,
+        "eruption": 29,
+        "flare": 58,
+        "firestorm": 60,
+        "meditate": 8,
+        "quench": 8,
+        "basic": 10
+      }
+    },
+    "flame/fierce/far-storm/prepared": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-storm",
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "far": 4,
+        "kindle": 275,
+        "ashenward": 106,
+        "quench": 138,
+        "sever-growth": 71,
+        "firestorm": 48,
+        "eruption": 49,
+        "flare": 42,
+        "near": 38,
+        "basic": 11,
+        "meditate": 3,
+        "unparasite": 61,
+        "sever-terrain": 4
+      }
+    },
+    "flame/fierce/storm-trade/immediate": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/storm-trade",
+      "games": 24,
+      "wins": 9,
+      "losses": 15,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "kindle": 74,
+        "firestorm": 78,
+        "flare": 54,
+        "quench": 12,
+        "basic": 12
+      }
+    },
+    "flame/fierce/storm-trade/prepared": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/storm-trade",
+      "games": 24,
+      "wins": 0,
+      "losses": 24,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "flare": 42,
+        "ashenward": 145,
+        "basic": 7,
+        "kindle": 293,
+        "quench": 196,
+        "sever-growth": 75,
+        "firestorm": 56,
+        "stoke": 6,
+        "unparasite": 60,
+        "near": 3,
+        "far": 6,
+        "sever-terrain": 3
+      }
+    },
+    "flame/fierce/far-combust/immediate": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-combust",
+      "games": 24,
+      "wins": 18,
+      "losses": 6,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "kindle": 141,
+        "combust": 36,
+        "flare": 55,
+        "eruption": 45,
+        "meditate": 8,
+        "near": 37,
+        "quench": 49,
+        "basic": 53
+      }
+    },
+    "flame/fierce/far-combust/prepared": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-combust",
+      "games": 24,
+      "wins": 4,
+      "losses": 20,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "far": 8,
+        "kindle": 346,
+        "ashenward": 119,
+        "quench": 188,
+        "sever-growth": 121,
+        "flare": 55,
+        "near": 76,
+        "eruption": 50,
+        "basic": 32,
+        "combust": 18,
+        "unparasite": 92,
+        "meditate": 1,
+        "sever-terrain": 3
+      }
+    },
+    "flame/fierce/cinder-trade/immediate": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/cinder-trade",
+      "games": 24,
+      "wins": 18,
+      "losses": 6,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "flare": 46,
+        "kindle": 173,
+        "quench": 85,
+        "basic": 91,
+        "cinder": 87
+      }
+    },
+    "flame/fierce/cinder-trade/prepared": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/cinder-trade",
+      "games": 24,
+      "wins": 0,
+      "losses": 24,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "flare": 75,
+        "ashenward": 207,
+        "basic": 34,
+        "kindle": 360,
+        "quench": 282,
+        "sever-growth": 117,
+        "cinder": 50,
+        "unparasite": 93,
+        "stoke": 7,
+        "far": 21,
+        "near": 2,
+        "sever-terrain": 9
+      }
+    },
+    "water/tidal/ebb-outlet/immediate": {
+      "target": "water/tidal",
+      "variant": "water/tidal/ebb-outlet",
+      "games": 24,
+      "wins": 12,
+      "losses": 12,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 346,
+        "gather": 170,
+        "surge": 82,
+        "waterwall": 67,
+        "mendingtide": 127,
+        "basic": 41,
+        "near": 34
+      }
+    },
+    "water/tidal/ebb-outlet/prepared": {
+      "target": "water/tidal",
+      "variant": "water/tidal/ebb-outlet",
+      "games": 24,
+      "wins": 3,
+      "losses": 15,
+      "unresolved": 6,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 6
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 132,
+        "gather": 315,
+        "basic": 117,
+        "surge": 36,
+        "sever-growth": 153,
+        "waterwall": 178,
+        "mendingtide": 327,
+        "near": 47,
+        "unparasite": 27,
+        "sever-terrain": 3,
+        "far": 5
+      }
+    },
+    "water/tidal/independent-heal/immediate": {
+      "target": "water/tidal",
+      "variant": "water/tidal/independent-heal",
+      "games": 24,
+      "wins": 8,
+      "losses": 16,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 213,
+        "gather": 80,
+        "surge": 52,
+        "rinse": 158,
+        "waterwall": 19,
+        "tidespear": 39,
+        "basic": 135,
+        "near": 20
+      }
+    },
+    "water/tidal/independent-heal/prepared": {
+      "target": "water/tidal",
+      "variant": "water/tidal/independent-heal",
+      "games": 24,
+      "wins": 8,
+      "losses": 16,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 128,
+        "gather": 93,
+        "basic": 136,
+        "surge": 48,
+        "sever-growth": 42,
+        "rinse": 163,
+        "waterwall": 75,
+        "tidespear": 49,
+        "near": 32,
+        "unparasite": 58,
+        "sever-terrain": 1,
+        "far": 7
+      }
+    },
+    "water/tidal/mirror-trade/immediate": {
+      "target": "water/tidal",
+      "variant": "water/tidal/mirror-trade",
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 322,
+        "gather": 168,
+        "surge": 35,
+        "mendingtide": 143,
+        "basic": 114,
+        "tidespear": 5,
+        "near": 10
+      }
+    },
+    "water/tidal/mirror-trade/prepared": {
+      "target": "water/tidal",
+      "variant": "water/tidal/mirror-trade",
+      "games": 24,
+      "wins": 0,
+      "losses": 15,
+      "unresolved": 9,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 3,
+          "unresolved": 3
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 6
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 149,
+        "gather": 354,
+        "mirrorwater": 148,
+        "surge": 48,
+        "sever-growth": 134,
+        "mendingtide": 312,
+        "near": 43,
+        "basic": 83,
+        "tidespear": 29,
+        "unparasite": 102,
+        "sever-terrain": 18,
+        "far": 15
+      }
+    },
+    "water/tidal/ebb-defense-trade/immediate": {
+      "target": "water/tidal",
+      "variant": "water/tidal/ebb-defense-trade",
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 322,
+        "gather": 168,
+        "surge": 35,
+        "mendingtide": 143,
+        "basic": 114,
+        "tidespear": 5,
+        "near": 10
+      }
+    },
+    "water/tidal/ebb-defense-trade/prepared": {
+      "target": "water/tidal",
+      "variant": "water/tidal/ebb-defense-trade",
+      "games": 24,
+      "wins": 2,
+      "losses": 16,
+      "unresolved": 6,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 0,
+          "unresolved": 6
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 80,
+        "gather": 287,
+        "basic": 172,
+        "surge": 21,
+        "sever-growth": 158,
+        "mendingtide": 274,
+        "tidespear": 7,
+        "unparasite": 30,
+        "near": 33,
+        "far": 3,
+        "sever-terrain": 2
+      }
+    }
+  },
+  "confirmation": {
+    "flame/fierce/far-storm/immediate": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-storm",
+      "games": 66,
+      "wins": 34,
+      "losses": 32,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "fire/ignite": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "water/tidal": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "kindle": 198,
+        "eruption": 93,
+        "flare": 149,
+        "firestorm": 154,
+        "meditate": 24,
+        "quench": 24,
+        "basic": 29
+      }
+    },
+    "flame/fierce/far-storm/prepared": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-storm",
+      "games": 66,
+      "wins": 32,
+      "losses": 34,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "fire/ignite": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "water/tidal": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "far": 19,
+        "kindle": 564,
+        "ashenward": 160,
+        "quench": 207,
+        "sever-growth": 71,
+        "firestorm": 173,
+        "eruption": 94,
+        "flare": 114,
+        "near": 100,
+        "basic": 55,
+        "meditate": 10,
+        "unparasite": 61,
+        "sever-terrain": 4,
+        "purify": 18
+      }
+    },
+    "flame/fierce/far-combust/immediate": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-combust",
+      "games": 66,
+      "wins": 46,
+      "losses": 20,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "fire/ignite": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "water/tidal": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "kindle": 366,
+        "combust": 101,
+        "flare": 127,
+        "eruption": 113,
+        "meditate": 24,
+        "near": 77,
+        "quench": 113,
+        "basic": 118
+      }
+    },
+    "flame/fierce/far-combust/prepared": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/far-combust",
+      "games": 66,
+      "wins": 30,
+      "losses": 36,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "fire/ignite": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "water/tidal": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "far": 21,
+        "kindle": 697,
+        "ashenward": 221,
+        "quench": 322,
+        "sever-growth": 121,
+        "flare": 151,
+        "near": 182,
+        "eruption": 161,
+        "basic": 97,
+        "combust": 51,
+        "unparasite": 92,
+        "meditate": 8,
+        "sever-terrain": 4,
+        "purify": 42
+      }
+    },
+    "water/tidal/independent-heal/immediate": {
+      "target": "water/tidal",
+      "variant": "water/tidal/independent-heal",
+      "games": 66,
+      "wins": 39,
+      "losses": 27,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "fire/ignite": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "flame/fierce": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 565,
+        "gather": 157,
+        "surge": 144,
+        "rinse": 185,
+        "waterwall": 27,
+        "tidespear": 63,
+        "basic": 180,
+        "near": 21
+      }
+    },
+    "water/tidal/independent-heal/prepared": {
+      "target": "water/tidal",
+      "variant": "water/tidal/independent-heal",
+      "games": 66,
+      "wins": 34,
+      "losses": 32,
+      "unresolved": 0,
+      "foes": {
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "fire/ignite": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "flame/fierce": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 439,
+        "gather": 260,
+        "basic": 220,
+        "surge": 149,
+        "sever-growth": 42,
+        "rinse": 307,
+        "waterwall": 195,
+        "tidespear": 118,
+        "near": 97,
+        "unparasite": 58,
+        "sever-terrain": 1,
+        "far": 13,
+        "purify": 10
+      }
+    }
+  },
+  "baseline": {
+    "flame/fierce/baseline/immediate": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/baseline",
+      "games": 66,
+      "wins": 43,
+      "losses": 23,
+      "unresolved": 0,
+      "foes": {
+        "fire/ignite": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/tidal": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "eruption": 190,
+        "meditate": 22,
+        "flare": 172,
+        "kindle": 374,
+        "quench": 140,
+        "basic": 146,
+        "near": 71,
+        "stoke": 2
+      }
+    },
+    "flame/fierce/baseline/prepared": {
+      "target": "flame/fierce",
+      "variant": "flame/fierce/baseline",
+      "games": 66,
+      "wins": 23,
+      "losses": 43,
+      "unresolved": 0,
+      "foes": {
+        "fire/ignite": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "water/tidal": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "far": 28,
+        "kindle": 722,
+        "near": 167,
+        "eruption": 185,
+        "quench": 342,
+        "purify": 41,
+        "ashenward": 236,
+        "flare": 161,
+        "meditate": 8,
+        "basic": 104,
+        "stoke": 14,
+        "sever-growth": 127,
+        "unparasite": 109,
+        "sever-terrain": 3
+      }
+    },
+    "water/tidal/baseline/immediate": {
+      "target": "water/tidal",
+      "variant": "water/tidal/baseline",
+      "games": 66,
+      "wins": 35,
+      "losses": 31,
+      "unresolved": 0,
+      "foes": {
+        "fire/ignite": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 6,
+          "losses": 0,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "flame/fierce": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 2,
+          "losses": 4,
+          "unresolved": 0
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "gather": 262,
+        "surge": 147,
+        "basic": 81,
+        "waterbolt": 745,
+        "tidespear": 31,
+        "mendingtide": 169,
+        "waterwall": 85,
+        "near": 28
+      }
+    },
+    "water/tidal/baseline/prepared": {
+      "target": "water/tidal",
+      "variant": "water/tidal/baseline",
+      "games": 66,
+      "wins": 23,
+      "losses": 41,
+      "unresolved": 2,
+      "foes": {
+        "fire/ignite": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        },
+        "fire/sustain": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "sword/quick": {
+          "games": 6,
+          "wins": 5,
+          "losses": 1,
+          "unresolved": 0
+        },
+        "sword/heavy": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "flame/fierce": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "flame/smolder": {
+          "games": 6,
+          "wins": 4,
+          "losses": 2,
+          "unresolved": 0
+        },
+        "water/cold": {
+          "games": 6,
+          "wins": 1,
+          "losses": 5,
+          "unresolved": 0
+        },
+        "wood/symbiosis": {
+          "games": 6,
+          "wins": 0,
+          "losses": 5,
+          "unresolved": 1
+        },
+        "wood/parasitic": {
+          "games": 6,
+          "wins": 3,
+          "losses": 3,
+          "unresolved": 0
+        },
+        "earth/bastion": {
+          "games": 6,
+          "wins": 0,
+          "losses": 5,
+          "unresolved": 1
+        },
+        "earth/mountain": {
+          "games": 6,
+          "wins": 0,
+          "losses": 6,
+          "unresolved": 0
+        }
+      },
+      "actions": {
+        "waterbolt": 507,
+        "gather": 518,
+        "surge": 174,
+        "waterwall": 345,
+        "mendingtide": 366,
+        "purify": 76,
+        "basic": 193,
+        "near": 107,
+        "far": 21,
+        "tidespear": 64,
+        "meditate": 1,
+        "sever-growth": 44,
+        "unparasite": 26,
+        "sever-terrain": 3
+      }
+    }
+  },
+  "scope": "One-slot isolated kits, unchanged nine combat modules, same ordered actors and full opponent config, both controllers, three ranges and both initiatives. Confirmation combines distinct frozen screening and extension scenarios; these are deterministic configurations, not independent random samples."
+}

@@ -1,0 +1,2 @@
+Exact budgets: colored/universal costs, meditation, refunds, duplicate failures, range skips, death priority and immutable planning passed.
+Live reaction preserves an announced strike, records the reason, and executes without a resource skip.

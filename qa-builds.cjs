@@ -46,6 +46,17 @@ const assert=require('node:assert/strict'),http=require('node:http'),fs=require(
   await page.locator('#edit-loadout').click();await page.locator('[data-equip="inferno"]').click();await page.locator('[data-equip="sproutguard"]').click();await page.locator('#apply-loadout').click();const oldKit=(await state()).player.skillIds;
   await page.reload();assert.equal(await page.locator('#build-select').inputValue(),'custom');await page.locator('#cancel-loadout').click();assert.deepEqual((await state()).player.skillIds,oldKit);
   await page.locator('#duel-button').click();
+  await page.locator('[data-duel-class="player"]').selectOption('flame');await page.locator('[data-duel-major="player"]').selectOption('fierce');await page.locator('[data-duel-build="player"]').selectOption('tactical');
+  await page.locator('[data-duel-class="enemy"]').selectOption('water');await page.locator('[data-duel-major="enemy"]').selectOption('tidal');await page.locator('[data-duel-build="enemy"]').selectOption('tactical');await page.locator('#apply-duel').click();
+  revised=await state();assert.deepEqual([...revised.player.skillIds].sort(),['flare','kindle','eruption','firestorm','ashenward','quench'].sort());assert.deepEqual([...revised.enemy.skillIds].sort(),['waterbolt','gather','surge','tidespear','rinse','waterwall'].sort());
+  await page.reload();assert.equal(await page.locator('#build-select').inputValue(),'tactical');assert.ok((await page.locator('#build-guide').textContent()).includes('烈火横流'));await page.locator('#cancel-loadout').click();assert.deepEqual((await state()).player.skillIds,revised.player.skillIds);assert.deepEqual((await state()).enemy.skillIds,revised.enemy.skillIds);
+  // Both previously saved v0.15.1 kits remain exact custom configurations.
+  await page.locator('#duel-button').click();
+  await page.locator('#duel-player [data-duel-equip="firestorm"]').click();await page.locator('#duel-player [data-duel-equip="stoke"]').click();
+  await page.locator('#duel-enemy [data-duel-equip="rinse"]').click();await page.locator('#duel-enemy [data-duel-equip="mendingtide"]').click();
+  for(const side of ['player','enemy'])assert.equal(await page.locator(`[data-duel-build="${side}"]`).inputValue(),'custom');await page.locator('#apply-duel').click();const oldPressure=await state();
+  await page.reload();assert.equal(await page.locator('#build-select').inputValue(),'custom');await page.locator('#cancel-loadout').click();assert.deepEqual((await state()).player.skillIds,oldPressure.player.skillIds);assert.deepEqual((await state()).enemy.skillIds,oldPressure.enemy.skillIds);
+  await page.locator('#duel-button').click();
   await page.locator('[data-duel-class="player"]').selectOption('wood');await page.locator('[data-duel-major="player"]').selectOption('parasitic');await page.locator('[data-duel-build="player"]').selectOption('tactical');
   await page.locator('[data-portrait="female"][data-side="player"]').click();
   await page.locator('[data-duel-class="enemy"]').selectOption('earth');await page.locator('[data-duel-build="enemy"]').selectOption('tactical');
@@ -57,6 +68,6 @@ const assert=require('node:assert/strict'),http=require('node:http'),fs=require(
   await page.reload();if(!await page.locator('#loadout-dialog').isVisible())await page.locator('#edit-loadout').click();assert.equal(await page.locator('#build-select').inputValue(),'tactical');await page.locator('#cancel-loadout').click();assert.deepEqual((await state()).player.skillIds,applied.player.skillIds);
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   assert.deepEqual(errors,[]);assert.deepEqual(missing,[]);
-  console.log(`Named builds browser: ${choices} selections, twelve majors × two profiles × both sides at 1440/390/320, six-slot costs/guides, custom edits, live/draft isolation, both portraits, revised ignite/smolder presets, exact old-kit persistence, apply and saved profile reload passed.`);
+  console.log(`Named builds browser: ${choices} selections, twelve majors × two profiles × both sides at 1440/390/320, six-slot costs/guides, custom edits, live/draft isolation, both portraits, revised ignite/smolder/fierce/tidal presets, exact old-kit persistence, apply and saved profile reload passed.`);
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exit(1);});

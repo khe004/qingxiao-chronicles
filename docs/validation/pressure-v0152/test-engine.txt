@@ -1,0 +1,2 @@
+Resource, combo, distance, charge, interruption, reaction and 80 complete duels passed.
+{"fire":{"win":3,"lose":37},"sword":{"win":7,"lose":33}}
