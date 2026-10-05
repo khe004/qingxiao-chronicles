@@ -1,0 +1,2 @@
+Questioning: equal resources/loadouts, isolated cached planning and auto forecast, frozen previews after player movement, difficulty archives/retry and invalid options verified.
+Questioning forecast combat fields match actual execution; equipped interrupts and two-step distance counterplay preserve one remaining AP.

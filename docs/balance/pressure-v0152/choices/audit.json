@@ -1,0 +1,2610 @@
+{
+  "scope": "Four round-3 midrange read-only probes; public queue forecast vs actual next prepared-AI phase, not win-rate samples or proof the browser forecast is incorrect",
+  "results": [
+    {
+      "a": "flame/fierce",
+      "b": "wood/symbiosis",
+      "start": {
+        "round": 3,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "flame",
+            "major": "fierce",
+            "skillIds": [
+              "flare",
+              "kindle",
+              "eruption",
+              "stoke",
+              "ashenward",
+              "quench"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 210,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 7,
+              "earth": 0,
+              "any": 1
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "fireCasts": 0,
+            "smolderTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "wood",
+            "major": "symbiosis",
+            "skillIds": [
+              "wooddart",
+              "cultivate",
+              "graft",
+              "bloomstrike",
+              "bloomheal",
+              "thornscreen"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 225,
+            "maxHp": 225,
+            "qi": {
+              "metal": 0,
+              "wood": 4,
+              "water": 0,
+              "fire": 0,
+              "earth": 0,
+              "any": 1
+            },
+            "shield": 12,
+            "counter": {
+              "power": 10,
+              "hits": 2,
+              "element": "wood",
+              "name": "荆棘护幕"
+            },
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "growth": 0,
+            "growthPending": false
+          }
+        ]
+      },
+      "choice": {
+        "action": "skill",
+        "skillId": "kindle",
+        "reason": "附着灼烧并刷新期限；也可保留持续伤害。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "budget": {
+        "rootStates": 246,
+        "candidates": 12,
+        "forecasts": 48,
+        "rootTruncated": false
+      },
+      "plans": [
+        {
+          "path": [
+            "kindle",
+            "ashenward",
+            "quench"
+          ],
+          "firstScore": -0.6800000000000015,
+          "follow": 19.08,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": 13.629999999999997,
+          "future": {
+            "hp": [
+              198,
+              218
+            ],
+            "shield": [
+              4,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "ashenward",
+            "kindle",
+            "basic"
+          ],
+          "firstScore": -4.360000000000001,
+          "follow": 18.16,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": 9.26,
+          "future": {
+            "hp": [
+              187,
+              209
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "near",
+            "kindle",
+            "kindle"
+          ],
+          "firstScore": -5.000000000000002,
+          "follow": 9,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": 1.7499999999999982,
+          "future": {
+            "hp": [
+              179,
+              202
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "kindle",
+            "basic",
+            "quench"
+          ],
+          "firstScore": -6.150000000000002,
+          "follow": 10,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": 1.3499999999999979,
+          "future": {
+            "hp": [
+              191,
+              211
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "near",
+            "eruption",
+            "kindle"
+          ],
+          "firstScore": -8.000000000000005,
+          "follow": 10,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": -0.5000000000000053,
+          "future": {
+            "hp": [
+              176,
+              196
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "near",
+            "kindle",
+            "flare"
+          ],
+          "firstScore": -9.000000000000002,
+          "follow": 10,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": -1.5000000000000018,
+          "future": {
+            "hp": [
+              179,
+              201
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "kindle",
+            "kindle",
+            "quench"
+          ],
+          "firstScore": -8.84,
+          "follow": 8.32,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": -2.5999999999999996,
+          "future": {
+            "hp": [
+              190,
+              215
+            ],
+            "shield": [
+              0,
+              19
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "flare",
+            "kindle",
+            "kindle"
+          ],
+          "firstScore": -9.650000000000006,
+          "follow": 9,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": -2.9000000000000057,
+          "future": {
+            "hp": [
+              176,
+              203
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "basic",
+            "basic",
+            "kindle"
+          ],
+          "firstScore": -11.100000000000003,
+          "follow": 10,
+          "followPath": [
+            "kindle",
+            "quench",
+            "sever-growth"
+          ],
+          "score": -3.600000000000003,
+          "future": {
+            "hp": [
+              178,
+              202
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "flare",
+            "basic",
+            "quench"
+          ],
+          "firstScore": -8.150000000000002,
+          "follow": 3.9999999999999996,
+          "followPath": [
+            "quench",
+            "kindle",
+            "sever-growth"
+          ],
+          "score": -5.150000000000002,
+          "future": {
+            "hp": [
+              191,
+              209
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "near",
+            "eruption",
+            "flare"
+          ],
+          "firstScore": -10.000000000000005,
+          "follow": 3.9999999999999996,
+          "followPath": [
+            "quench",
+            "kindle",
+            "sever-growth"
+          ],
+          "score": -7.000000000000005,
+          "future": {
+            "hp": [
+              176,
+              194
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -25.939999999999998,
+          "follow": 9.44,
+          "followPath": [
+            "kindle",
+            "kindle",
+            "sever-growth"
+          ],
+          "score": -18.86,
+          "future": {
+            "hp": [
+              192,
+              225
+            ],
+            "shield": [
+              0,
+              24
+            ],
+            "parasite": 0
+          }
+        }
+      ],
+      "predicted": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "flame",
+            "major": "fierce",
+            "skillIds": [
+              "flare",
+              "kindle",
+              "eruption",
+              "stoke",
+              "ashenward",
+              "quench"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 198,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 7,
+              "earth": 0,
+              "any": 1
+            },
+            "shield": 4,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "fireCasts": 0,
+            "smolderTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "wood",
+            "major": "symbiosis",
+            "skillIds": [
+              "wooddart",
+              "cultivate",
+              "graft",
+              "bloomstrike",
+              "bloomheal",
+              "thornscreen"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 218,
+            "maxHp": 225,
+            "qi": {
+              "metal": 0,
+              "wood": 5,
+              "water": 0,
+              "fire": 0,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 2,
+            "burnTurns": 1,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "growth": 1,
+            "growthPending": true
+          }
+        ]
+      },
+      "actual": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "flame",
+            "major": "fierce",
+            "skillIds": [
+              "flare",
+              "kindle",
+              "eruption",
+              "stoke",
+              "ashenward",
+              "quench"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 198,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 8,
+              "earth": 0,
+              "any": 1
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "fireCasts": 0,
+            "smolderTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "wood",
+            "major": "symbiosis",
+            "skillIds": [
+              "wooddart",
+              "cultivate",
+              "graft",
+              "bloomstrike",
+              "bloomheal",
+              "thornscreen"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 220,
+            "maxHp": 225,
+            "qi": {
+              "metal": 0,
+              "wood": 5,
+              "water": 0,
+              "fire": 0,
+              "earth": 0,
+              "any": 1
+            },
+            "shield": 17,
+            "counter": {
+              "power": 10,
+              "hits": 2,
+              "element": "wood",
+              "name": "荆棘护幕"
+            },
+            "intent": 0,
+            "seed": 0,
+            "burn": 2,
+            "burnTurns": 1,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "growth": 1,
+            "growthPending": true
+          }
+        ]
+      }
+    },
+    {
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "start": {
+        "round": 3,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "flame",
+            "major": "fierce",
+            "skillIds": [
+              "flare",
+              "kindle",
+              "eruption",
+              "stoke",
+              "ashenward",
+              "quench"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 192,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 6,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "fireCasts": 0,
+            "smolderTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "earth",
+            "major": "bastion",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "landbreak",
+              "stoneback",
+              "quakesunder",
+              "gravel"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 182,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 5,
+              "any": 1
+            },
+            "shield": 36,
+            "counter": {
+              "power": 18,
+              "hits": 2,
+              "element": "earth",
+              "name": "磐甲反震"
+            },
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 1,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          }
+        ]
+      },
+      "choice": {
+        "action": "skill",
+        "skillId": "ashenward",
+        "reason": "付费准备有限反击，直接攻击可触发，持续伤害不触发；对手可试探或等待到期。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "budget": {
+        "rootStates": 354,
+        "candidates": 12,
+        "forecasts": 30,
+        "rootTruncated": false
+      },
+      "plans": [
+        {
+          "path": [
+            "ashenward",
+            "quench",
+            "meditate"
+          ],
+          "firstScore": -0.5,
+          "follow": 26.639999999999997,
+          "followPath": [
+            "kindle",
+            "flare",
+            "kindle"
+          ],
+          "score": 19.479999999999997,
+          "future": {
+            "hp": [
+              194,
+              182
+            ],
+            "shield": [
+              4,
+              30
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "quench",
+            "ashenward",
+            "meditate"
+          ],
+          "firstScore": -0.5,
+          "follow": 26.639999999999997,
+          "followPath": [
+            "kindle",
+            "flare",
+            "kindle"
+          ],
+          "score": 19.479999999999997,
+          "future": {
+            "hp": [
+              194,
+              182
+            ],
+            "shield": [
+              4,
+              30
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "ashenward",
+            "quench",
+            "sever-terrain"
+          ],
+          "firstScore": -1.1999999999999993,
+          "follow": 26.99,
+          "followPath": [
+            "kindle",
+            "flare",
+            "kindle"
+          ],
+          "score": 19.0425,
+          "future": {
+            "hp": [
+              194,
+              182
+            ],
+            "shield": [
+              4,
+              30
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "quench",
+            "ashenward",
+            "sever-terrain"
+          ],
+          "firstScore": -1.1999999999999993,
+          "follow": 26.99,
+          "followPath": [
+            "kindle",
+            "flare",
+            "kindle"
+          ],
+          "score": 19.0425,
+          "future": {
+            "hp": [
+              194,
+              182
+            ],
+            "shield": [
+              4,
+              30
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "ashenward",
+            "kindle",
+            "quench"
+          ],
+          "firstScore": 3.08,
+          "follow": 15.11,
+          "followPath": [
+            "kindle",
+            "quench",
+            "basic"
+          ],
+          "score": 14.4125,
+          "future": {
+            "hp": [
+              188,
+              178
+            ],
+            "shield": [
+              0,
+              17
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "ashenward",
+            "quench",
+            "kindle"
+          ],
+          "firstScore": 3.08,
+          "follow": 15.11,
+          "followPath": [
+            "kindle",
+            "quench",
+            "basic"
+          ],
+          "score": 14.4125,
+          "future": {
+            "hp": [
+              188,
+              178
+            ],
+            "shield": [
+              0,
+              17
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "quench",
+            "ashenward",
+            "kindle"
+          ],
+          "firstScore": 3.08,
+          "follow": 15.11,
+          "followPath": [
+            "kindle",
+            "quench",
+            "basic"
+          ],
+          "score": 14.4125,
+          "future": {
+            "hp": [
+              188,
+              178
+            ],
+            "shield": [
+              0,
+              17
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "kindle",
+            "ashenward",
+            "quench"
+          ],
+          "firstScore": -0.040000000000000924,
+          "follow": 18.23,
+          "followPath": [
+            "kindle",
+            "quench",
+            "basic"
+          ],
+          "score": 13.632499999999999,
+          "future": {
+            "hp": [
+              184,
+              178
+            ],
+            "shield": [
+              4,
+              17
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "kindle",
+            "quench",
+            "ashenward"
+          ],
+          "firstScore": -0.040000000000000924,
+          "follow": 18.23,
+          "followPath": [
+            "kindle",
+            "quench",
+            "basic"
+          ],
+          "score": 13.632499999999999,
+          "future": {
+            "hp": [
+              184,
+              178
+            ],
+            "shield": [
+              4,
+              17
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "quench",
+            "kindle",
+            "ashenward"
+          ],
+          "firstScore": -0.040000000000000924,
+          "follow": 18.23,
+          "followPath": [
+            "kindle",
+            "quench",
+            "basic"
+          ],
+          "score": 13.632499999999999,
+          "future": {
+            "hp": [
+              184,
+              178
+            ],
+            "shield": [
+              4,
+              17
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "ashenward",
+            "quench",
+            "near"
+          ],
+          "firstScore": -20.68,
+          "follow": 19.99,
+          "followPath": [
+            "kindle",
+            "flare",
+            "kindle"
+          ],
+          "score": -5.6875,
+          "future": {
+            "hp": [
+              172,
+              182
+            ],
+            "shield": [
+              0,
+              30
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -27.66,
+          "follow": 18.56,
+          "followPath": [
+            "kindle",
+            "kindle",
+            "quench"
+          ],
+          "score": -13.740000000000002,
+          "future": {
+            "hp": [
+              174,
+              182
+            ],
+            "shield": [
+              0,
+              44
+            ],
+            "parasite": 0
+          }
+        }
+      ],
+      "predicted": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "flame",
+            "major": "fierce",
+            "skillIds": [
+              "flare",
+              "kindle",
+              "eruption",
+              "stoke",
+              "ashenward",
+              "quench"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 194,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 8,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 4,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "fireCasts": 0,
+            "smolderTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "earth",
+            "major": "bastion",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "landbreak",
+              "stoneback",
+              "quakesunder",
+              "gravel"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 182,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 6,
+              "any": 2
+            },
+            "shield": 30,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 3,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          }
+        ]
+      },
+      "actual": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "flame",
+            "major": "fierce",
+            "skillIds": [
+              "flare",
+              "kindle",
+              "eruption",
+              "stoke",
+              "ashenward",
+              "quench"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 194,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 8,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "fireCasts": 0,
+            "smolderTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "earth",
+            "major": "bastion",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "landbreak",
+              "stoneback",
+              "quakesunder",
+              "gravel"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 182,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 6,
+              "any": 1
+            },
+            "shield": 60,
+            "counter": {
+              "power": 18,
+              "hits": 2,
+              "element": "earth",
+              "name": "磐甲反震"
+            },
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 3,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          }
+        ]
+      }
+    },
+    {
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "start": {
+        "round": 3,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "water",
+            "major": "tidal",
+            "skillIds": [
+              "waterbolt",
+              "gather",
+              "surge",
+              "tidespear",
+              "mendingtide",
+              "waterwall"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 186,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 8,
+              "fire": 0,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "tide": 3,
+            "coldTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "wood",
+            "major": "symbiosis",
+            "skillIds": [
+              "wooddart",
+              "cultivate",
+              "graft",
+              "bloomstrike",
+              "bloomheal",
+              "thornscreen"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 202,
+            "maxHp": 225,
+            "qi": {
+              "metal": 0,
+              "wood": 8,
+              "water": 0,
+              "fire": 0,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 12,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "growth": 1,
+            "growthPending": true
+          }
+        ]
+      },
+      "choice": {
+        "action": "skill",
+        "skillId": "waterbolt",
+        "reason": "以低耗玄水矢直接施压，留水气用于护体或周转。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "budget": {
+        "rootStates": 193,
+        "candidates": 12,
+        "forecasts": 33,
+        "rootTruncated": false
+      },
+      "plans": [
+        {
+          "path": [
+            "waterbolt",
+            "mendingtide",
+            "sever-growth"
+          ],
+          "firstScore": 9.000000000000002,
+          "follow": 3.1999999999999997,
+          "followPath": [
+            "mendingtide",
+            "waterbolt",
+            "sever-growth"
+          ],
+          "score": 11.400000000000002,
+          "future": {
+            "hp": [
+              192,
+              193
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "mendingtide",
+            "waterwall",
+            "gather"
+          ],
+          "firstScore": -8.6,
+          "follow": 15.000000000000002,
+          "followPath": [
+            "mendingtide",
+            "waterbolt",
+            "basic"
+          ],
+          "score": 2.650000000000002,
+          "future": {
+            "hp": [
+              176,
+              202
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "mendingtide",
+            "waterwall"
+          ],
+          "firstScore": -13.56,
+          "follow": 16.84,
+          "followPath": [
+            "gather",
+            "mendingtide",
+            "basic"
+          ],
+          "score": -0.9300000000000015,
+          "future": {
+            "hp": [
+              168,
+              193
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "mendingtide",
+            "waterbolt",
+            "waterwall"
+          ],
+          "firstScore": -13.56,
+          "follow": 16.84,
+          "followPath": [
+            "gather",
+            "mendingtide",
+            "basic"
+          ],
+          "score": -0.9300000000000015,
+          "future": {
+            "hp": [
+              168,
+              193
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "mendingtide",
+            "waterwall",
+            "waterbolt"
+          ],
+          "firstScore": -13.56,
+          "follow": 16.84,
+          "followPath": [
+            "gather",
+            "mendingtide",
+            "basic"
+          ],
+          "score": -0.9300000000000015,
+          "future": {
+            "hp": [
+              168,
+              193
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "mendingtide",
+            "gather"
+          ],
+          "firstScore": -33.160000000000004,
+          "follow": 18.610000000000003,
+          "followPath": [
+            "waterbolt",
+            "tidespear"
+          ],
+          "score": -19.2025,
+          "future": {
+            "hp": [
+              142,
+              193
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "mendingtide",
+            "waterbolt",
+            "gather"
+          ],
+          "firstScore": -33.160000000000004,
+          "follow": 18.610000000000003,
+          "followPath": [
+            "waterbolt",
+            "tidespear"
+          ],
+          "score": -19.2025,
+          "future": {
+            "hp": [
+              142,
+              193
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "mendingtide",
+            "gather",
+            "waterbolt"
+          ],
+          "firstScore": -33.160000000000004,
+          "follow": 18.610000000000003,
+          "followPath": [
+            "waterbolt",
+            "tidespear"
+          ],
+          "score": -19.2025,
+          "future": {
+            "hp": [
+              142,
+              193
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "mendingtide",
+            "basic"
+          ],
+          "firstScore": -38.96,
+          "follow": 13.840000000000002,
+          "followPath": [
+            "gather",
+            "mendingtide",
+            "basic"
+          ],
+          "score": -28.58,
+          "future": {
+            "hp": [
+              134,
+              184
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "basic",
+            "mendingtide"
+          ],
+          "firstScore": -38.96,
+          "follow": 13.840000000000002,
+          "followPath": [
+            "gather",
+            "mendingtide",
+            "basic"
+          ],
+          "score": -28.58,
+          "future": {
+            "hp": [
+              134,
+              184
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterbolt",
+            "mendingtide",
+            "near"
+          ],
+          "firstScore": -47.96,
+          "follow": 13.840000000000002,
+          "followPath": [
+            "gather",
+            "mendingtide",
+            "basic"
+          ],
+          "score": -37.58,
+          "future": {
+            "hp": [
+              134,
+              193
+            ],
+            "shield": [
+              0,
+              0
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -80.60000000000001,
+          "follow": 15.000000000000002,
+          "followPath": [
+            "mendingtide",
+            "waterbolt",
+            "basic"
+          ],
+          "score": -69.35000000000001,
+          "future": {
+            "hp": [
+              110,
+              202
+            ],
+            "shield": [
+              0,
+              12
+            ],
+            "parasite": 0
+          }
+        }
+      ],
+      "predicted": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "water",
+            "major": "tidal",
+            "skillIds": [
+              "waterbolt",
+              "gather",
+              "surge",
+              "tidespear",
+              "mendingtide",
+              "waterwall"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 192,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 9,
+              "fire": 0,
+              "earth": 0,
+              "any": 1
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "tide": 1,
+            "coldTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "wood",
+            "major": "symbiosis",
+            "skillIds": [
+              "wooddart",
+              "cultivate",
+              "graft",
+              "bloomstrike",
+              "bloomheal",
+              "thornscreen"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 193,
+            "maxHp": 225,
+            "qi": {
+              "metal": 0,
+              "wood": 8,
+              "water": 0,
+              "fire": 0,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 12,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "growth": 1,
+            "growthPending": true
+          }
+        ]
+      },
+      "actual": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "water",
+            "major": "tidal",
+            "skillIds": [
+              "waterbolt",
+              "gather",
+              "surge",
+              "tidespear",
+              "mendingtide",
+              "waterwall"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 170,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 9,
+              "fire": 0,
+              "earth": 0,
+              "any": 1
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "tide": 1,
+            "coldTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "wood",
+            "major": "symbiosis",
+            "skillIds": [
+              "wooddart",
+              "cultivate",
+              "graft",
+              "bloomstrike",
+              "bloomheal",
+              "thornscreen"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 193,
+            "maxHp": 225,
+            "qi": {
+              "metal": 0,
+              "wood": 8,
+              "water": 0,
+              "fire": 0,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "growth": 0,
+            "growthPending": false
+          }
+        ]
+      }
+    },
+    {
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "start": {
+        "round": 3,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 1,
+        "winner": null,
+        "actors": [
+          {
+            "key": "water",
+            "major": "tidal",
+            "skillIds": [
+              "waterbolt",
+              "gather",
+              "surge",
+              "tidespear",
+              "mendingtide",
+              "waterwall"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 209,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 8,
+              "fire": 0,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 7,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "tide": 3,
+            "coldTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "earth",
+            "major": "bastion",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "landbreak",
+              "stoneback",
+              "quakesunder",
+              "gravel"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 217,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 7,
+              "any": 1
+            },
+            "shield": 44,
+            "counter": {
+              "power": 18,
+              "hits": 2,
+              "element": "earth",
+              "name": "磐甲反震"
+            },
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 0,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          }
+        ]
+      },
+      "choice": {
+        "action": "skill",
+        "skillId": "waterwall",
+        "reason": "支付水气护体并消费一层潮势增强护盾，与沧澜和回潮争用储备。 已比较下次自身行动的兑现，以及随后敌方公开招式。"
+      },
+      "budget": {
+        "rootStates": 199,
+        "candidates": 12,
+        "forecasts": 45,
+        "rootTruncated": false
+      },
+      "plans": [
+        {
+          "path": [
+            "waterwall",
+            "surge",
+            "waterwall"
+          ],
+          "firstScore": 0.6400000000000006,
+          "follow": 17.199999999999996,
+          "followPath": [
+            "gather",
+            "surge",
+            "waterbolt"
+          ],
+          "score": 13.539999999999997,
+          "future": {
+            "hp": [
+              209,
+              214
+            ],
+            "shield": [
+              3,
+              8
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "surge",
+            "far"
+          ],
+          "firstScore": -4.4,
+          "follow": 15.42,
+          "followPath": [
+            "waterbolt",
+            "gather",
+            "basic"
+          ],
+          "score": 7.164999999999999,
+          "future": {
+            "hp": [
+              209,
+              214
+            ],
+            "shield": [
+              6,
+              8
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "mendingtide",
+            "waterwall",
+            "gather"
+          ],
+          "firstScore": -6.02,
+          "follow": 6.6,
+          "followPath": [
+            "surge",
+            "waterbolt",
+            "waterbolt"
+          ],
+          "score": -1.0700000000000003,
+          "future": {
+            "hp": [
+              210,
+              217
+            ],
+            "shield": [
+              4,
+              52
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "gather",
+            "surge"
+          ],
+          "firstScore": -11.97,
+          "follow": 12.95,
+          "followPath": [
+            "waterbolt",
+            "mendingtide",
+            "gather"
+          ],
+          "score": -2.257500000000002,
+          "future": {
+            "hp": [
+              196,
+              214
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "surge",
+            "gather"
+          ],
+          "firstScore": -5.970000000000001,
+          "follow": -0.2500000000000001,
+          "followPath": [
+            "near",
+            "surge",
+            "waterbolt"
+          ],
+          "score": -6.157500000000001,
+          "future": {
+            "hp": [
+              196,
+              214
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "surge",
+            "basic"
+          ],
+          "firstScore": -22.120000000000008,
+          "follow": 20.6,
+          "followPath": [
+            "gather",
+            "mendingtide",
+            "waterbolt"
+          ],
+          "score": -6.670000000000007,
+          "future": {
+            "hp": [
+              181,
+              205
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "waterbolt",
+            "gather"
+          ],
+          "firstScore": -16.62,
+          "follow": 1.8399999999999994,
+          "followPath": [
+            "mendingtide",
+            "waterwall",
+            "gather"
+          ],
+          "score": -15.240000000000002,
+          "future": {
+            "hp": [
+              196,
+              217
+            ],
+            "shield": [
+              0,
+              33
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "gather",
+            "waterbolt"
+          ],
+          "firstScore": -16.62,
+          "follow": 1.8399999999999994,
+          "followPath": [
+            "mendingtide",
+            "waterwall",
+            "gather"
+          ],
+          "score": -15.240000000000002,
+          "future": {
+            "hp": [
+              196,
+              217
+            ],
+            "shield": [
+              0,
+              33
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "waterwall",
+            "gather"
+          ],
+          "firstScore": -20.500000000000004,
+          "follow": 3.479999999999998,
+          "followPath": [
+            "surge",
+            "waterbolt",
+            "waterbolt"
+          ],
+          "score": -17.890000000000004,
+          "future": {
+            "hp": [
+              198,
+              217
+            ],
+            "shield": [
+              0,
+              52
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "tidespear",
+            "gather"
+          ],
+          "firstScore": -35.52,
+          "follow": 12.499999999999998,
+          "followPath": [
+            "mendingtide",
+            "waterbolt",
+            "basic"
+          ],
+          "score": -26.145000000000003,
+          "future": {
+            "hp": [
+              162,
+              206
+            ],
+            "shield": [
+              0,
+              8
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [
+            "waterwall",
+            "waterbolt",
+            "waterwall"
+          ],
+          "firstScore": -20.42,
+          "follow": -8.650000000000002,
+          "followPath": [
+            "mendingtide",
+            "gather",
+            "surge"
+          ],
+          "score": -26.907500000000002,
+          "future": {
+            "hp": [
+              198,
+              217
+            ],
+            "shield": [
+              0,
+              33
+            ],
+            "parasite": 0
+          }
+        },
+        {
+          "path": [],
+          "firstScore": -51.800000000000004,
+          "follow": 12.840000000000002,
+          "followPath": [
+            "mendingtide",
+            "waterwall",
+            "gather"
+          ],
+          "score": -42.17,
+          "future": {
+            "hp": [
+              169,
+              217
+            ],
+            "shield": [
+              0,
+              52
+            ],
+            "parasite": 0
+          }
+        }
+      ],
+      "predicted": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 1,
+        "winner": null,
+        "actors": [
+          {
+            "key": "water",
+            "major": "tidal",
+            "skillIds": [
+              "waterbolt",
+              "gather",
+              "surge",
+              "tidespear",
+              "mendingtide",
+              "waterwall"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 209,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 7,
+              "fire": 0,
+              "earth": 0,
+              "any": 3
+            },
+            "shield": 3,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "tide": 0,
+            "coldTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "earth",
+            "major": "bastion",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "landbreak",
+              "stoneback",
+              "quakesunder",
+              "gravel"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 214,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 7,
+              "any": 2
+            },
+            "shield": 8,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 1,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          }
+        ]
+      },
+      "actual": {
+        "round": 4,
+        "first": 0,
+        "seat": 0,
+        "ended": false,
+        "distance": 2,
+        "winner": null,
+        "actors": [
+          {
+            "key": "water",
+            "major": "tidal",
+            "skillIds": [
+              "waterbolt",
+              "gather",
+              "surge",
+              "tidespear",
+              "mendingtide",
+              "waterwall"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "甲",
+            "hp": 209,
+            "maxHp": 210,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 8,
+              "fire": 0,
+              "earth": 0,
+              "any": 2
+            },
+            "shield": 2,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "tide": 0,
+            "coldTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false
+          },
+          {
+            "key": "earth",
+            "major": "bastion",
+            "skillIds": [
+              "stonebolt",
+              "foundation",
+              "landbreak",
+              "stoneback",
+              "quakesunder",
+              "gravel"
+            ],
+            "igniteTriggered": false,
+            "quickTriggered": false,
+            "edge": false,
+            "edgeExpires": 0,
+            "usedSkills": [],
+            "name": "乙",
+            "hp": 214,
+            "maxHp": 220,
+            "qi": {
+              "metal": 0,
+              "wood": 0,
+              "water": 0,
+              "fire": 0,
+              "earth": 9,
+              "any": 1
+            },
+            "shield": 0,
+            "counter": null,
+            "intent": 0,
+            "seed": 0,
+            "burn": 0,
+            "burnTurns": 0,
+            "chilled": false,
+            "broken": false,
+            "charge": null,
+            "ap": 3,
+            "reaction": true,
+            "meditated": false,
+            "woodTriggered": false,
+            "waterCleanseTriggered": false,
+            "bastionTriggered": false,
+            "parasite": 0,
+            "parasiteTurns": 0,
+            "parasiteFed": false,
+            "terrain": 0,
+            "anchored": false,
+            "anchorExpires": 0,
+            "mountainTriggered": false
+          }
+        ]
+      }
+    }
+  ]
+}

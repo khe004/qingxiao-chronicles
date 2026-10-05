@@ -1,6 +1,6 @@
 # qingxiao-chronicles
 
-当前版本 **v0.15.1**：[收尾与采用理由](docs/反伤与火系套路收尾-v0151.md) · [最新12×12胜率表](docs/balance/wrapup-v0151/final/report.md) · [套路与稳守复查](docs/balance/wrapup-v0151/README.md)。
+当前版本 **v0.15.2**：[烈焰与潮汐调整理由](docs/烈焰与潮汐配装复查-v0152.md) · [最新12×12胜率表](docs/balance/pressure-v0152/final/report.md) · [套路与稳守复查](docs/balance/pressure-v0152/README.md)。
 
 青霄纪
 
@@ -366,3 +366,9 @@ node qa-symbiosis.cjs
 引燃“种灵双燃”用主动护体槽换离火蓄势，保留回春和千种的取舍；焚灼“焰海回转”用赤日换敛焰，采用即时灼烧兑现和有限恢复。技能数值未改变，原推荐仍保留；旧存档按原六槽读取，原样例不匹配新名称时显示自选，不擅自换招。
 
 详见[单项筛选与放弃理由](docs/反伤与火系套路收尾-v0151.md)、[最终12×12](docs/balance/wrapup-v0151/final/report.md)和[最终稳守矩阵](docs/balance/wrapup-v0151/defensive/report.md)。原90回合未决长局沿原规则延长后第197回合结束，仍是极慢对局；原矩阵未决记录不被覆盖。
+
+## v0.15.2 · 烈焰与潮汐配装复查
+
+烈焰新样例“烈火横流”用燃血槽换焰海，放弃主动返气，增加有灼烧门槛的全距2行动兑现。潮汐新样例“贯潮涤尘”用润脉槽换涤尘，少6点峰值恢复，独立清灼烧并保留进攻潮势。原推荐、自由配装、旧六槽保存继续保留；技能数值与AI不变。
+
+先做单槽隔离筛选与全对手确认，再测同时采用组合；另检查稳守倾向及预测误差，保留未采用的候选与已知极端格。详见[采用理由与限制](docs/烈焰与潮汐配装复查-v0152.md)、[完整12×12](docs/balance/pressure-v0152/final/report.md)、[前后对照](docs/balance/pressure-v0152/comparison.md)。

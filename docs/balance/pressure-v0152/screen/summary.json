@@ -1,0 +1,317 @@
+{
+  "label": "Fierce and tidal four single-slot variants, four specified opponents per school, two controllers/three distances/initiative. 384 fresh executions; 96 exact historical baseline records stored separately.",
+  "games": 384,
+  "limit": 30,
+  "groups": {
+    "flame/fierce/far-storm/immediate/balanced": {
+      "games": 24,
+      "wins": 11,
+      "losses": 13,
+      "unresolved": 0,
+      "rounds": 107,
+      "actions": {
+        "kindle": 71,
+        "eruption": 29,
+        "flare": 58,
+        "firestorm": 60,
+        "meditate": 8,
+        "quench": 8,
+        "basic": 10
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/far-storm/prepared/balanced": {
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 310,
+      "actions": {
+        "far": 4,
+        "kindle": 275,
+        "ashenward": 106,
+        "quench": 138,
+        "sever-growth": 71,
+        "firestorm": 48,
+        "eruption": 49,
+        "flare": 42,
+        "near": 38,
+        "basic": 11,
+        "meditate": 3,
+        "unparasite": 61,
+        "sever-terrain": 4
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/storm-trade/immediate/balanced": {
+      "games": 24,
+      "wins": 9,
+      "losses": 15,
+      "unresolved": 0,
+      "rounds": 107,
+      "actions": {
+        "kindle": 74,
+        "firestorm": 78,
+        "flare": 54,
+        "quench": 12,
+        "basic": 12
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/storm-trade/prepared/balanced": {
+      "games": 24,
+      "wins": 0,
+      "losses": 24,
+      "unresolved": 0,
+      "rounds": 328,
+      "actions": {
+        "flare": 42,
+        "ashenward": 145,
+        "basic": 7,
+        "kindle": 293,
+        "quench": 196,
+        "sever-growth": 75,
+        "firestorm": 56,
+        "stoke": 6,
+        "unparasite": 60,
+        "near": 3,
+        "far": 6,
+        "sever-terrain": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/far-combust/immediate/balanced": {
+      "games": 24,
+      "wins": 18,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 147,
+      "actions": {
+        "kindle": 141,
+        "combust": 36,
+        "flare": 55,
+        "eruption": 45,
+        "meditate": 8,
+        "near": 37,
+        "quench": 49,
+        "basic": 53
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/far-combust/prepared/balanced": {
+      "games": 24,
+      "wins": 4,
+      "losses": 20,
+      "unresolved": 0,
+      "rounds": 379,
+      "actions": {
+        "far": 8,
+        "kindle": 346,
+        "ashenward": 119,
+        "quench": 188,
+        "sever-growth": 121,
+        "flare": 55,
+        "near": 76,
+        "eruption": 50,
+        "basic": 32,
+        "combust": 18,
+        "unparasite": 92,
+        "meditate": 1,
+        "sever-terrain": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/cinder-trade/immediate/balanced": {
+      "games": 24,
+      "wins": 18,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 167,
+      "actions": {
+        "flare": 46,
+        "kindle": 173,
+        "quench": 85,
+        "basic": 91,
+        "cinder": 87
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce/cinder-trade/prepared/balanced": {
+      "games": 24,
+      "wins": 0,
+      "losses": 24,
+      "unresolved": 0,
+      "rounds": 432,
+      "actions": {
+        "flare": 75,
+        "ashenward": 207,
+        "basic": 34,
+        "kindle": 360,
+        "quench": 282,
+        "sever-growth": 117,
+        "cinder": 50,
+        "unparasite": 93,
+        "stoke": 7,
+        "far": 21,
+        "near": 2,
+        "sever-terrain": 9
+      },
+      "unusedAP": 3
+    },
+    "water/tidal/ebb-outlet/immediate/balanced": {
+      "games": 24,
+      "wins": 12,
+      "losses": 12,
+      "unresolved": 0,
+      "rounds": 294,
+      "actions": {
+        "waterbolt": 346,
+        "gather": 170,
+        "surge": 82,
+        "waterwall": 67,
+        "mendingtide": 127,
+        "basic": 41,
+        "near": 34
+      },
+      "unusedAP": 0
+    },
+    "water/tidal/ebb-outlet/prepared/balanced": {
+      "games": 24,
+      "wins": 3,
+      "losses": 15,
+      "unresolved": 6,
+      "rounds": 455,
+      "actions": {
+        "waterbolt": 132,
+        "gather": 315,
+        "basic": 117,
+        "surge": 36,
+        "sever-growth": 153,
+        "waterwall": 178,
+        "mendingtide": 327,
+        "near": 47,
+        "unparasite": 27,
+        "sever-terrain": 3,
+        "far": 5
+      },
+      "unusedAP": 0
+    },
+    "water/tidal/independent-heal/immediate/balanced": {
+      "games": 24,
+      "wins": 8,
+      "losses": 16,
+      "unresolved": 0,
+      "rounds": 259,
+      "actions": {
+        "waterbolt": 213,
+        "gather": 80,
+        "surge": 52,
+        "rinse": 158,
+        "waterwall": 19,
+        "tidespear": 39,
+        "basic": 135,
+        "near": 20
+      },
+      "unusedAP": 0
+    },
+    "water/tidal/independent-heal/prepared/balanced": {
+      "games": 24,
+      "wins": 8,
+      "losses": 16,
+      "unresolved": 0,
+      "rounds": 302,
+      "actions": {
+        "waterbolt": 128,
+        "gather": 93,
+        "basic": 136,
+        "surge": 48,
+        "sever-growth": 42,
+        "rinse": 163,
+        "waterwall": 75,
+        "tidespear": 49,
+        "near": 32,
+        "unparasite": 58,
+        "sever-terrain": 1,
+        "far": 7
+      },
+      "unusedAP": 0
+    },
+    "water/tidal/mirror-trade/immediate/balanced": {
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 277,
+      "actions": {
+        "waterbolt": 322,
+        "gather": 168,
+        "surge": 35,
+        "mendingtide": 143,
+        "basic": 114,
+        "tidespear": 5,
+        "near": 10
+      },
+      "unusedAP": 0
+    },
+    "water/tidal/mirror-trade/prepared/balanced": {
+      "games": 24,
+      "wins": 0,
+      "losses": 15,
+      "unresolved": 9,
+      "rounds": 496,
+      "actions": {
+        "waterbolt": 149,
+        "gather": 354,
+        "mirrorwater": 148,
+        "surge": 48,
+        "sever-growth": 134,
+        "mendingtide": 312,
+        "near": 43,
+        "basic": 83,
+        "tidespear": 29,
+        "unparasite": 102,
+        "sever-terrain": 18,
+        "far": 15
+      },
+      "unusedAP": 0
+    },
+    "water/tidal/ebb-defense-trade/immediate/balanced": {
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 277,
+      "actions": {
+        "waterbolt": 322,
+        "gather": 168,
+        "surge": 35,
+        "mendingtide": 143,
+        "basic": 114,
+        "tidespear": 5,
+        "near": 10
+      },
+      "unusedAP": 0
+    },
+    "water/tidal/ebb-defense-trade/prepared/balanced": {
+      "games": 24,
+      "wins": 2,
+      "losses": 16,
+      "unresolved": 6,
+      "rounds": 366,
+      "actions": {
+        "waterbolt": 80,
+        "gather": 287,
+        "basic": 172,
+        "surge": 21,
+        "sever-growth": 158,
+        "mendingtide": 274,
+        "tidespear": 7,
+        "unparasite": 30,
+        "near": 33,
+        "far": 3,
+        "sever-terrain": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}
