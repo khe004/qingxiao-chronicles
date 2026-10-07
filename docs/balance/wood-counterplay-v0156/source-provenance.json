@@ -1,0 +1,7 @@
+{
+  "baselineCommit": "e3d5e97aa0de02e8b0b3d91ffde0182754c50db4",
+  "baselineTree": "c96dfa300ee1bfcb114fce0c4dcd7292da6fcd1b",
+  "baselineDistVerifiedAgainstGit": true,
+  "adoptedSource": "after/source-hashes.json",
+  "scope": "Measurement frozen module bytes; report/doc/footer changes do not alter combat inputs."
+}

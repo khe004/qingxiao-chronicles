@@ -1,0 +1,1 @@
+Opponent budget browser: eleven NPC entries, equal tier HP/qi/loadouts, updated tier explanation, frozen previews after movement, live tactical hints, three actual questioning games and archives, no errors/404 and 1440/390/320 layouts passed.

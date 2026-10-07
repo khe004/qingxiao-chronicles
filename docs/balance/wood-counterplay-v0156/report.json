@@ -1,0 +1,3267 @@
+{
+  "primaryExecutions": 264,
+  "additionalExecutions": {
+    "rejectedEmptyPreview": 132,
+    "pilot": 12
+  },
+  "totalNewExecutions": 408,
+  "scope": "Eleven actual NPCs, two explicit tactical player builds each, three ranges, two tiers, balanced page player, fixed player first, 30 rounds. Not a 12x12 PvP matrix or human win-rate estimate.",
+  "changedFiles": [
+    "dist/opponent-planner.mjs"
+  ],
+  "identicalPractice": 66,
+  "changedQuestioning": 66,
+  "groups": {
+    "practice": {
+      "before": {
+        "games": 66,
+        "playerWins": 66,
+        "npcWins": 0,
+        "unresolved": 0,
+        "rounds": 396,
+        "npcHpDamage": 6600,
+        "npcHealing": 1058,
+        "npcUnusedAP": 0,
+        "failedPreviews": 131,
+        "resources": {
+          "growthSpent": 42,
+          "parasiteSpent": 2,
+          "terrainSpent": 136
+        },
+        "actions": {
+          "cultivate": 36,
+          "wooddart": 90,
+          "bloomstrike": 6,
+          "bloomheal": 24,
+          "parasite": 13,
+          "reap": 2,
+          "foundation": 69,
+          "landbreak": 66,
+          "stonebolt": 31,
+          "near": 136,
+          "basic": 19,
+          "rampart": 12,
+          "mountain": 3,
+          "frost": 28,
+          "waterbolt": 85,
+          "waterwall": 7,
+          "gather": 12,
+          "surge": 14,
+          "kindle": 39,
+          "cinder": 21,
+          "eruption": 4,
+          "flare": 1,
+          "swift": 35,
+          "lunge": 14,
+          "meditate": 15,
+          "strike": 24,
+          "guard": 38,
+          "expose": 6,
+          "seed": 37,
+          "blaze": 29,
+          "spark": 26,
+          "inferno": 7,
+          "far": 1,
+          "ember": 7,
+          "nourish": 17,
+          "heal": 6
+        }
+      },
+      "after": {
+        "games": 66,
+        "playerWins": 66,
+        "npcWins": 0,
+        "unresolved": 0,
+        "rounds": 396,
+        "npcHpDamage": 6600,
+        "npcHealing": 1058,
+        "npcUnusedAP": 0,
+        "failedPreviews": 131,
+        "resources": {
+          "growthSpent": 42,
+          "parasiteSpent": 2,
+          "terrainSpent": 136
+        },
+        "actions": {
+          "cultivate": 36,
+          "wooddart": 90,
+          "bloomstrike": 6,
+          "bloomheal": 24,
+          "parasite": 13,
+          "reap": 2,
+          "foundation": 69,
+          "landbreak": 66,
+          "stonebolt": 31,
+          "near": 136,
+          "basic": 19,
+          "rampart": 12,
+          "mountain": 3,
+          "frost": 28,
+          "waterbolt": 85,
+          "waterwall": 7,
+          "gather": 12,
+          "surge": 14,
+          "kindle": 39,
+          "cinder": 21,
+          "eruption": 4,
+          "flare": 1,
+          "swift": 35,
+          "lunge": 14,
+          "meditate": 15,
+          "strike": 24,
+          "guard": 38,
+          "expose": 6,
+          "seed": 37,
+          "blaze": 29,
+          "spark": 26,
+          "inferno": 7,
+          "far": 1,
+          "ember": 7,
+          "nourish": 17,
+          "heal": 6
+        }
+      },
+      "npcs": {
+        "symbiosis": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 42,
+            "npcHpDamage": 376,
+            "npcHealing": 648,
+            "npcUnusedAP": 0,
+            "failedPreviews": 6,
+            "resources": {
+              "growthSpent": 42,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "cultivate": 36,
+              "wooddart": 42,
+              "bloomstrike": 6,
+              "bloomheal": 24
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 42,
+            "npcHpDamage": 376,
+            "npcHealing": 648,
+            "npcUnusedAP": 0,
+            "failedPreviews": 6,
+            "resources": {
+              "growthSpent": 42,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "cultivate": 36,
+              "wooddart": 42,
+              "bloomstrike": 6,
+              "bloomheal": 24
+            }
+          }
+        },
+        "parasitic": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 27,
+            "npcHpDamage": 536,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 2,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 2,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "parasite": 13,
+              "wooddart": 48,
+              "reap": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 27,
+            "npcHpDamage": 536,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 2,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 2,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "parasite": 13,
+              "wooddart": 48,
+              "reap": 2
+            }
+          }
+        },
+        "bastion": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 62,
+            "npcHpDamage": 1316,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 36,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 118
+            },
+            "actions": {
+              "foundation": 52,
+              "landbreak": 56,
+              "stonebolt": 12,
+              "near": 35,
+              "basic": 3,
+              "rampart": 10
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 62,
+            "npcHpDamage": 1316,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 36,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 118
+            },
+            "actions": {
+              "foundation": 52,
+              "landbreak": 56,
+              "stonebolt": 12,
+              "near": 35,
+              "basic": 3,
+              "rampart": 10
+            }
+          }
+        },
+        "mountain": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 28,
+            "npcHpDamage": 312,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 14,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 18
+            },
+            "actions": {
+              "foundation": 17,
+              "mountain": 3,
+              "near": 12,
+              "landbreak": 10,
+              "stonebolt": 19,
+              "rampart": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 28,
+            "npcHpDamage": 312,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 14,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 18
+            },
+            "actions": {
+              "foundation": 17,
+              "mountain": 3,
+              "near": 12,
+              "landbreak": 10,
+              "stonebolt": 19,
+              "rampart": 2
+            }
+          }
+        },
+        "cold": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 34,
+            "npcHpDamage": 1032,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 0,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "frost": 28,
+              "waterbolt": 51,
+              "waterwall": 5
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 34,
+            "npcHpDamage": 1032,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 0,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "frost": 28,
+              "waterbolt": 51,
+              "waterwall": 5
+            }
+          }
+        },
+        "tidal": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 29,
+            "npcHpDamage": 775,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 7,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "gather": 12,
+              "surge": 14,
+              "waterbolt": 34,
+              "near": 7,
+              "waterwall": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 29,
+            "npcHpDamage": 775,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 7,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "gather": 12,
+              "surge": 14,
+              "waterbolt": 34,
+              "near": 7,
+              "waterwall": 2
+            }
+          }
+        },
+        "fierce": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 28,
+            "npcHpDamage": 801,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 2,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "kindle": 39,
+              "cinder": 21,
+              "eruption": 4,
+              "near": 1,
+              "flare": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 28,
+            "npcHpDamage": 801,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 2,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "kindle": 39,
+              "cinder": 21,
+              "eruption": 4,
+              "near": 1,
+              "flare": 1
+            }
+          }
+        },
+        "quick": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 32,
+            "npcHpDamage": 224,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 38,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "swift": 13,
+              "near": 40,
+              "lunge": 14,
+              "meditate": 5,
+              "strike": 3,
+              "basic": 3
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 32,
+            "npcHpDamage": 224,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 38,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "swift": 13,
+              "near": 40,
+              "lunge": 14,
+              "meditate": 5,
+              "strike": 3,
+              "basic": 3
+            }
+          }
+        },
+        "heavy": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 49,
+            "npcHpDamage": 622,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 11,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "guard": 38,
+              "expose": 6,
+              "swift": 22,
+              "strike": 21,
+              "meditate": 4,
+              "near": 25,
+              "basic": 13
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 49,
+            "npcHpDamage": 622,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 11,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "guard": 38,
+              "expose": 6,
+              "swift": 22,
+              "strike": 21,
+              "meditate": 4,
+              "near": 25,
+              "basic": 13
+            }
+          }
+        },
+        "ignite": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 27,
+            "npcHpDamage": 347,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 3,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 14,
+              "blaze": 7,
+              "spark": 12,
+              "near": 2,
+              "inferno": 7,
+              "far": 1,
+              "ember": 7,
+              "meditate": 6
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 27,
+            "npcHpDamage": 347,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 3,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 14,
+              "blaze": 7,
+              "spark": 12,
+              "near": 2,
+              "inferno": 7,
+              "far": 1,
+              "ember": 7,
+              "meditate": 6
+            }
+          }
+        },
+        "sustain": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 38,
+            "npcHpDamage": 259,
+            "npcHealing": 410,
+            "npcUnusedAP": 0,
+            "failedPreviews": 12,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 23,
+              "blaze": 22,
+              "spark": 14,
+              "nourish": 17,
+              "near": 14,
+              "heal": 6
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 38,
+            "npcHpDamage": 259,
+            "npcHealing": 410,
+            "npcUnusedAP": 0,
+            "failedPreviews": 12,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 23,
+              "blaze": 22,
+              "spark": 14,
+              "nourish": 17,
+              "near": 14,
+              "heal": 6
+            }
+          }
+        }
+      }
+    },
+    "questioning": {
+      "before": {
+        "games": 66,
+        "playerWins": 65,
+        "npcWins": 1,
+        "unresolved": 0,
+        "rounds": 398,
+        "npcHpDamage": 8334,
+        "npcHealing": 804,
+        "npcUnusedAP": 0,
+        "failedPreviews": 72,
+        "resources": {
+          "growthSpent": 13,
+          "parasiteSpent": 8,
+          "terrainSpent": 29
+        },
+        "actions": {
+          "wooddart": 104,
+          "cultivate": 36,
+          "bloomstrike": 7,
+          "prune": 2,
+          "purify": 37,
+          "basic": 87,
+          "far": 3,
+          "parasite": 7,
+          "reap": 4,
+          "stonebolt": 148,
+          "foundation": 23,
+          "landbreak": 8,
+          "rampart": 8,
+          "earthenwall": 2,
+          "frost": 26,
+          "waterbolt": 111,
+          "waterwall": 2,
+          "gather": 2,
+          "near": 55,
+          "surge": 2,
+          "kindle": 24,
+          "cinder": 17,
+          "eruption": 9,
+          "flare": 12,
+          "swift": 27,
+          "expose": 17,
+          "strike": 16,
+          "meditate": 6,
+          "guard": 22,
+          "lunge": 1,
+          "unity": 3,
+          "return": 2,
+          "seed": 8,
+          "blaze": 27,
+          "spark": 83,
+          "ember": 17,
+          "inferno": 1,
+          "heal": 21,
+          "nourish": 7
+        }
+      },
+      "after": {
+        "games": 66,
+        "playerWins": 65,
+        "npcWins": 1,
+        "unresolved": 0,
+        "rounds": 413,
+        "npcHpDamage": 8307,
+        "npcHealing": 806,
+        "npcUnusedAP": 1,
+        "failedPreviews": 29,
+        "resources": {
+          "growthSpent": 16,
+          "parasiteSpent": 2,
+          "terrainSpent": 52
+        },
+        "actions": {
+          "cultivate": 21,
+          "purify": 33,
+          "prune": 5,
+          "wooddart": 102,
+          "bloomstrike": 6,
+          "basic": 91,
+          "parasite": 2,
+          "reap": 2,
+          "stonebolt": 146,
+          "foundation": 33,
+          "landbreak": 10,
+          "rampart": 19,
+          "earthenwall": 9,
+          "meditate": 15,
+          "frost": 26,
+          "waterbolt": 112,
+          "gather": 3,
+          "surge": 4,
+          "near": 67,
+          "kindle": 22,
+          "eruption": 11,
+          "cinder": 15,
+          "flare": 12,
+          "swift": 27,
+          "expose": 14,
+          "strike": 15,
+          "lunge": 8,
+          "guard": 22,
+          "unity": 6,
+          "seed": 12,
+          "blaze": 34,
+          "ember": 22,
+          "spark": 80,
+          "heal": 24,
+          "nourish": 5
+        }
+      },
+      "npcs": {
+        "symbiosis": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 43,
+            "npcHpDamage": 925,
+            "npcHealing": 56,
+            "npcUnusedAP": 0,
+            "failedPreviews": 18,
+            "resources": {
+              "growthSpent": 13,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "wooddart": 58,
+              "cultivate": 26,
+              "bloomstrike": 7,
+              "prune": 1,
+              "purify": 7,
+              "basic": 11,
+              "far": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 38,
+            "npcHpDamage": 977,
+            "npcHealing": 48,
+            "npcUnusedAP": 0,
+            "failedPreviews": 3,
+            "resources": {
+              "growthSpent": 16,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "cultivate": 16,
+              "purify": 6,
+              "prune": 4,
+              "wooddart": 49,
+              "bloomstrike": 6,
+              "basic": 15
+            }
+          }
+        },
+        "parasitic": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 31,
+            "npcHpDamage": 710,
+            "npcHealing": 32,
+            "npcUnusedAP": 0,
+            "failedPreviews": 4,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 8,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "wooddart": 46,
+              "cultivate": 10,
+              "parasite": 7,
+              "reap": 4,
+              "purify": 4,
+              "basic": 3,
+              "prune": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 28,
+            "npcHpDamage": 663,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 3,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 2,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "wooddart": 53,
+              "cultivate": 5,
+              "prune": 1,
+              "parasite": 2,
+              "reap": 2,
+              "basic": 3
+            }
+          }
+        },
+        "bastion": {
+          "before": {
+            "games": 6,
+            "playerWins": 5,
+            "npcWins": 1,
+            "unresolved": 0,
+            "rounds": 52,
+            "npcHpDamage": 1266,
+            "npcHealing": 32,
+            "npcUnusedAP": 0,
+            "failedPreviews": 5,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 27
+            },
+            "actions": {
+              "stonebolt": 94,
+              "foundation": 16,
+              "landbreak": 7,
+              "purify": 4,
+              "basic": 9,
+              "rampart": 8,
+              "earthenwall": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 5,
+            "npcWins": 1,
+            "unresolved": 0,
+            "rounds": 65,
+            "npcHpDamage": 1166,
+            "npcHealing": 32,
+            "npcUnusedAP": 0,
+            "failedPreviews": 5,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 50
+            },
+            "actions": {
+              "stonebolt": 92,
+              "foundation": 26,
+              "landbreak": 9,
+              "rampart": 19,
+              "purify": 4,
+              "basic": 18,
+              "earthenwall": 9,
+              "meditate": 1
+            }
+          }
+        },
+        "mountain": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 30,
+            "npcHpDamage": 650,
+            "npcHealing": 32,
+            "npcUnusedAP": 0,
+            "failedPreviews": 1,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 2
+            },
+            "actions": {
+              "stonebolt": 54,
+              "foundation": 7,
+              "landbreak": 1,
+              "purify": 4,
+              "basic": 6
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 30,
+            "npcHpDamage": 650,
+            "npcHealing": 32,
+            "npcUnusedAP": 0,
+            "failedPreviews": 1,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 2
+            },
+            "actions": {
+              "stonebolt": 54,
+              "foundation": 7,
+              "landbreak": 1,
+              "purify": 4,
+              "basic": 6
+            }
+          }
+        },
+        "cold": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 32,
+            "npcHpDamage": 1010,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 0,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "frost": 26,
+              "waterbolt": 50,
+              "waterwall": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 32,
+            "npcHpDamage": 1052,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 0,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "frost": 26,
+              "waterbolt": 52
+            }
+          }
+        },
+        "tidal": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 28,
+            "npcHpDamage": 733,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 1,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "waterbolt": 61,
+              "gather": 2,
+              "near": 1,
+              "surge": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 29,
+            "npcHpDamage": 780,
+            "npcHealing": 8,
+            "npcUnusedAP": 0,
+            "failedPreviews": 0,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "gather": 3,
+              "surge": 4,
+              "waterbolt": 60,
+              "purify": 1,
+              "near": 1
+            }
+          }
+        },
+        "fierce": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 30,
+            "npcHpDamage": 870,
+            "npcHealing": 32,
+            "npcUnusedAP": 0,
+            "failedPreviews": 7,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "kindle": 24,
+              "cinder": 17,
+              "eruption": 9,
+              "purify": 4,
+              "flare": 12,
+              "near": 4,
+              "basic": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 30,
+            "npcHpDamage": 862,
+            "npcHealing": 32,
+            "npcUnusedAP": 0,
+            "failedPreviews": 1,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "kindle": 22,
+              "eruption": 11,
+              "cinder": 15,
+              "flare": 12,
+              "meditate": 2,
+              "purify": 4,
+              "near": 5,
+              "basic": 1
+            }
+          }
+        },
+        "quick": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 30,
+            "npcHpDamage": 473,
+            "npcHealing": 24,
+            "npcUnusedAP": 0,
+            "failedPreviews": 23,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "swift": 15,
+              "expose": 7,
+              "basic": 14,
+              "near": 19,
+              "strike": 8,
+              "meditate": 4,
+              "guard": 1,
+              "purify": 3,
+              "lunge": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 30,
+            "npcHpDamage": 281,
+            "npcHealing": 16,
+            "npcUnusedAP": 0,
+            "failedPreviews": 8,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "near": 30,
+              "swift": 11,
+              "expose": 4,
+              "basic": 6,
+              "purify": 2,
+              "strike": 6,
+              "meditate": 5,
+              "lunge": 8
+            }
+          }
+        },
+        "heavy": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 41,
+            "npcHpDamage": 546,
+            "npcHealing": 88,
+            "npcUnusedAP": 0,
+            "failedPreviews": 8,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "near": 15,
+              "swift": 12,
+              "meditate": 2,
+              "expose": 10,
+              "guard": 21,
+              "purify": 11,
+              "basic": 16,
+              "unity": 3,
+              "strike": 8,
+              "far": 2,
+              "return": 2
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 46,
+            "npcHpDamage": 596,
+            "npcHealing": 72,
+            "npcUnusedAP": 1,
+            "failedPreviews": 6,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "near": 17,
+              "swift": 16,
+              "basic": 17,
+              "expose": 10,
+              "purify": 9,
+              "guard": 22,
+              "meditate": 7,
+              "strike": 9,
+              "unity": 6
+            }
+          }
+        },
+        "ignite": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 28,
+            "npcHpDamage": 415,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "failedPreviews": 3,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 6,
+              "blaze": 4,
+              "spark": 24,
+              "near": 2,
+              "ember": 17,
+              "basic": 11,
+              "inferno": 1
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 29,
+            "npcHpDamage": 399,
+            "npcHealing": 24,
+            "npcUnusedAP": 0,
+            "failedPreviews": 2,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 7,
+              "near": 2,
+              "blaze": 8,
+              "ember": 22,
+              "purify": 3,
+              "basic": 10,
+              "spark": 17
+            }
+          }
+        },
+        "sustain": {
+          "before": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 53,
+            "npcHpDamage": 736,
+            "npcHealing": 508,
+            "npcUnusedAP": 0,
+            "failedPreviews": 2,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 2,
+              "spark": 59,
+              "blaze": 23,
+              "heal": 21,
+              "basic": 15,
+              "nourish": 7,
+              "near": 14
+            }
+          },
+          "after": {
+            "games": 6,
+            "playerWins": 6,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 56,
+            "npcHpDamage": 881,
+            "npcHealing": 542,
+            "npcUnusedAP": 0,
+            "failedPreviews": 0,
+            "resources": {
+              "growthSpent": 0,
+              "parasiteSpent": 0,
+              "terrainSpent": 0
+            },
+            "actions": {
+              "seed": 5,
+              "blaze": 26,
+              "spark": 63,
+              "heal": 24,
+              "basic": 15,
+              "nourish": 5,
+              "near": 12
+            }
+          }
+        }
+      }
+    }
+  },
+  "differences": [
+    {
+      "index": 1,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          101,
+          0
+        ],
+        [
+          107,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 3,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          122,
+          0
+        ],
+        [
+          72,
+          0
+        ]
+      ],
+      "rounds": [
+        10,
+        8
+      ]
+    },
+    {
+      "index": 5,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          77,
+          0
+        ],
+        [
+          77,
+          0
+        ]
+      ],
+      "rounds": [
+        9,
+        8
+      ]
+    },
+    {
+      "index": 7,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          116,
+          0
+        ],
+        [
+          88,
+          0
+        ]
+      ],
+      "rounds": [
+        7,
+        5
+      ]
+    },
+    {
+      "index": 9,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          59,
+          0
+        ],
+        [
+          57,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        6
+      ]
+    },
+    {
+      "index": 11,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          94,
+          0
+        ],
+        [
+          66,
+          0
+        ]
+      ],
+      "rounds": [
+        7,
+        6
+      ]
+    },
+    {
+      "index": 13,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          101,
+          0
+        ],
+        [
+          104,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 15,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          44,
+          0
+        ],
+        [
+          87,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        5
+      ]
+    },
+    {
+      "index": 17,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          44,
+          0
+        ],
+        [
+          111,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        5
+      ]
+    },
+    {
+      "index": 19,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          129,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        4
+      ]
+    },
+    {
+      "index": 21,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "distance": 1,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          133,
+          0
+        ],
+        [
+          111,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 23,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "distance": 2,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          129,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 25,
+      "npc": "bastion",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          87,
+          0
+        ],
+        [
+          70,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 27,
+      "npc": "bastion",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          80,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 29,
+      "npc": "bastion",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          80,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ],
+      "rounds": [
+        8,
+        8
+      ]
+    },
+    {
+      "index": 31,
+      "npc": "bastion",
+      "player": "water/cold",
+      "distance": 0,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "hp": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          27
+        ]
+      ],
+      "rounds": [
+        9,
+        9
+      ]
+    },
+    {
+      "index": 33,
+      "npc": "bastion",
+      "player": "water/cold",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          91,
+          0
+        ],
+        [
+          131,
+          0
+        ]
+      ],
+      "rounds": [
+        15,
+        20
+      ]
+    },
+    {
+      "index": 35,
+      "npc": "bastion",
+      "player": "water/cold",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          52,
+          0
+        ],
+        [
+          170,
+          0
+        ]
+      ],
+      "rounds": [
+        10,
+        17
+      ]
+    },
+    {
+      "index": 37,
+      "npc": "mountain",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          95,
+          0
+        ],
+        [
+          95,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 39,
+      "npc": "mountain",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          110,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 41,
+      "npc": "mountain",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          134,
+          0
+        ],
+        [
+          134,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 43,
+      "npc": "mountain",
+      "player": "wood/parasitic",
+      "distance": 0,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          172,
+          0
+        ],
+        [
+          172,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 45,
+      "npc": "mountain",
+      "player": "wood/parasitic",
+      "distance": 1,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          108,
+          0
+        ],
+        [
+          108,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 47,
+      "npc": "mountain",
+      "player": "wood/parasitic",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          170,
+          0
+        ],
+        [
+          170,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 49,
+      "npc": "cold",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          81,
+          0
+        ],
+        [
+          81,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 51,
+      "npc": "cold",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          66,
+          0
+        ],
+        [
+          66,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 53,
+      "npc": "cold",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          60,
+          0
+        ],
+        [
+          51,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 55,
+      "npc": "cold",
+      "player": "earth/mountain",
+      "distance": 0,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          68,
+          0
+        ],
+        [
+          68,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 57,
+      "npc": "cold",
+      "player": "earth/mountain",
+      "distance": 1,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          50,
+          0
+        ],
+        [
+          50,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 59,
+      "npc": "cold",
+      "player": "earth/mountain",
+      "distance": 2,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          47,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 61,
+      "npc": "tidal",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          95,
+          0
+        ],
+        [
+          86,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 63,
+      "npc": "tidal",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          106,
+          0
+        ],
+        [
+          109,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 65,
+      "npc": "tidal",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          101,
+          0
+        ],
+        [
+          101,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 67,
+      "npc": "tidal",
+      "player": "flame/smolder",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          101,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 69,
+      "npc": "tidal",
+      "player": "flame/smolder",
+      "distance": 1,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          111,
+          0
+        ],
+        [
+          111,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 71,
+      "npc": "tidal",
+      "player": "flame/smolder",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          111,
+          0
+        ],
+        [
+          111,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 73,
+      "npc": "fierce",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          87,
+          0
+        ],
+        [
+          68,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 75,
+      "npc": "fierce",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          110,
+          0
+        ],
+        [
+          106,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 77,
+      "npc": "fierce",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          144,
+          0
+        ],
+        [
+          140,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 79,
+      "npc": "fierce",
+      "player": "fire/ignite",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          48,
+          0
+        ],
+        [
+          78,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 81,
+      "npc": "fierce",
+      "player": "fire/ignite",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          75,
+          0
+        ],
+        [
+          82,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        4
+      ]
+    },
+    {
+      "index": 83,
+      "npc": "fierce",
+      "player": "fire/ignite",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          63,
+          0
+        ],
+        [
+          63,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 85,
+      "npc": "quick",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          141,
+          0
+        ],
+        [
+          155,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        4
+      ]
+    },
+    {
+      "index": 87,
+      "npc": "quick",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          149,
+          0
+        ],
+        [
+          178,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 89,
+      "npc": "quick",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          186,
+          0
+        ],
+        [
+          186,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 91,
+      "npc": "quick",
+      "player": "sword/heavy",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          108,
+          0
+        ],
+        [
+          170,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        7
+      ]
+    },
+    {
+      "index": 93,
+      "npc": "quick",
+      "player": "sword/heavy",
+      "distance": 1,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          125,
+          0
+        ],
+        [
+          149,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 95,
+      "npc": "quick",
+      "player": "sword/heavy",
+      "distance": 2,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          108,
+          0
+        ],
+        [
+          171,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        6
+      ]
+    },
+    {
+      "index": 97,
+      "npc": "heavy",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          177,
+          0
+        ],
+        [
+          153,
+          0
+        ]
+      ],
+      "rounds": [
+        7,
+        7
+      ]
+    },
+    {
+      "index": 99,
+      "npc": "heavy",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          117,
+          0
+        ],
+        [
+          181,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 101,
+      "npc": "heavy",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          169,
+          0
+        ],
+        [
+          183,
+          0
+        ]
+      ],
+      "rounds": [
+        7,
+        6
+      ]
+    },
+    {
+      "index": 103,
+      "npc": "heavy",
+      "player": "water/cold",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          105,
+          0
+        ],
+        [
+          114,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        12
+      ]
+    },
+    {
+      "index": 105,
+      "npc": "heavy",
+      "player": "water/cold",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          161,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ],
+      "rounds": [
+        8,
+        11
+      ]
+    },
+    {
+      "index": 107,
+      "npc": "heavy",
+      "player": "water/cold",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          113,
+          0
+        ],
+        [
+          104,
+          0
+        ]
+      ],
+      "rounds": [
+        8,
+        5
+      ]
+    },
+    {
+      "index": 109,
+      "npc": "ignite",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          117,
+          0
+        ],
+        [
+          175,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 111,
+      "npc": "ignite",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          195,
+          0
+        ],
+        [
+          168,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        4
+      ]
+    },
+    {
+      "index": 113,
+      "npc": "ignite",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          195,
+          0
+        ],
+        [
+          195,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        5
+      ]
+    },
+    {
+      "index": 115,
+      "npc": "ignite",
+      "player": "wood/parasitic",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          160,
+          0
+        ],
+        [
+          116,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        7
+      ]
+    },
+    {
+      "index": 117,
+      "npc": "ignite",
+      "player": "wood/parasitic",
+      "distance": 1,
+      "changed": [
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          123,
+          0
+        ],
+        [
+          123,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        4
+      ]
+    },
+    {
+      "index": 119,
+      "npc": "ignite",
+      "player": "wood/parasitic",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          126,
+          0
+        ],
+        [
+          198,
+          0
+        ]
+      ],
+      "rounds": [
+        5,
+        4
+      ]
+    },
+    {
+      "index": 121,
+      "npc": "sustain",
+      "player": "flame/fierce",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          128,
+          0
+        ],
+        [
+          112,
+          0
+        ]
+      ],
+      "rounds": [
+        4,
+        5
+      ]
+    },
+    {
+      "index": 123,
+      "npc": "sustain",
+      "player": "flame/fierce",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          178,
+          0
+        ],
+        [
+          144,
+          0
+        ]
+      ],
+      "rounds": [
+        7,
+        5
+      ]
+    },
+    {
+      "index": 125,
+      "npc": "sustain",
+      "player": "flame/fierce",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          174,
+          0
+        ],
+        [
+          174,
+          0
+        ]
+      ],
+      "rounds": [
+        8,
+        9
+      ]
+    },
+    {
+      "index": 127,
+      "npc": "sustain",
+      "player": "earth/mountain",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          53,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ],
+      "rounds": [
+        15,
+        6
+      ]
+    },
+    {
+      "index": 129,
+      "npc": "sustain",
+      "player": "earth/mountain",
+      "distance": 1,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          117,
+          0
+        ],
+        [
+          63,
+          0
+        ]
+      ],
+      "rounds": [
+        6,
+        13
+      ]
+    },
+    {
+      "index": 131,
+      "npc": "sustain",
+      "player": "earth/mountain",
+      "distance": 2,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "hp": [
+        [
+          42,
+          0
+        ],
+        [
+          60,
+          0
+        ]
+      ],
+      "rounds": [
+        13,
+        18
+      ]
+    }
+  ],
+  "audits": 7
+}
