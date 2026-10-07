@@ -1,6 +1,6 @@
 # qingxiao-chronicles
 
-当前页面版本 **v0.15.6**：[木修反制推演复查](docs/木修反制推演复查-v0156.md) · [12×12胜率表（战斗规则v0.15.3）](docs/balance/cleanse-v0153/final/report.md) · [两档实际对手对照](docs/balance/wood-counterplay-v0156/report.md)。
+当前页面版本 **v0.15.7**：[木修预告兑现复查](docs/木修预告兑现复查-v0157.md) · [12×12胜率表（战斗规则v0.15.3）](docs/balance/cleanse-v0153/final/report.md) · [木修各配装与打法对照](docs/balance/wood-previews-v0157/report.md)。
 
 青霄纪
 

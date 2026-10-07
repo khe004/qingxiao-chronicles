@@ -1,0 +1,4513 @@
+{
+  "scope": "Actual fixed-preview wood NPCs. Twelve tactical player builds at balanced, six explicit representative builds also aggressive/defensive; all three ranges, player first, 30 rounds. 144 questioning +36 balanced practice controls. Finite deterministic scenarios, not human win rates or full 12x12 PvP.",
+  "representatives": [
+    "fire/ignite",
+    "sword/heavy",
+    "flame/fierce",
+    "water/cold",
+    "wood/parasitic",
+    "earth/mountain"
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 1,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 2,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 3,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 4,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 5,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 6,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 7,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 8,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 9,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 10,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 11,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 12,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 13,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 14,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 15,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 16,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 17,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 18,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 19,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 20,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 21,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 22,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 23,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 24,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 25,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 26,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 27,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 28,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 29,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 30,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 31,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 32,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 33,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 34,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 35,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 36,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 37,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 38,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 39,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 40,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 41,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 42,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 43,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 44,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 45,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 46,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 47,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 48,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 49,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 50,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 51,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 52,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 53,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 54,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 55,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 56,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 57,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 58,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 59,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 60,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 61,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 62,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 63,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 64,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 65,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 66,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 67,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 68,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 69,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 70,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 71,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 72,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 73,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 74,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 75,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 76,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 77,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 78,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 79,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 80,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 81,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 82,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 83,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 84,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 85,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 86,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 87,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 88,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 89,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 90,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 91,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 92,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 93,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 94,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 95,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 96,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 97,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 98,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 99,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 100,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 101,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 102,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 103,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 104,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 105,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 106,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 107,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 108,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 109,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 110,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 111,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 112,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 113,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 114,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 115,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 116,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 117,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 118,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 119,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 120,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 121,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 122,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 123,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 124,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 125,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 126,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 127,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 128,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 129,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 130,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 131,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 132,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 133,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 134,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 135,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 136,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 137,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 138,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 139,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 140,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 141,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 142,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 143,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 144,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 145,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 146,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 147,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 148,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 149,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 150,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 151,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 152,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 153,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 154,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 155,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 156,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 157,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 158,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 159,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 160,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 161,
+      "opponentId": "symbiosis",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 162,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 163,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 164,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 165,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 166,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 167,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 168,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 169,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 170,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 171,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 172,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 173,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 174,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 175,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 176,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 177,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 178,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    },
+    {
+      "index": 179,
+      "opponentId": "parasitic",
+      "player": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "first": "player",
+      "limit": 30
+    }
+  ]
+}

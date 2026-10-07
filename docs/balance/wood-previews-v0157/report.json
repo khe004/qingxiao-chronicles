@@ -1,0 +1,5193 @@
+{
+  "newNPCExecutions": 360,
+  "newCompatibilityReplays": 276,
+  "totalNewCompleteExecutions": 636,
+  "observerHistoricalComparisons": 24,
+  "observerHistoricalGamesReused": 0,
+  "groups": {
+    "questioning": {
+      "before": {
+        "games": 144,
+        "playerWins": 136,
+        "npcWins": 8,
+        "unresolved": 0,
+        "rounds": 1026,
+        "npcHpDamage": 24691,
+        "npcHealing": 678,
+        "npcUnusedAP": 0,
+        "growthSpent": 107,
+        "parasiteSpent": 6,
+        "declared": 1396,
+        "announcedOK": 1191,
+        "announcedFailed": 27,
+        "unattempted": 178,
+        "repairs": 0,
+        "fallbacks": 1475,
+        "failures": {
+          "生长已满，无法再培植": 14,
+          "普通射程限制": 1,
+          "灼烧已消失，无需净息": 11,
+          "移动已到边界": 1
+        }
+      },
+      "after": {
+        "games": 144,
+        "playerWins": 136,
+        "npcWins": 8,
+        "unresolved": 0,
+        "rounds": 1027,
+        "npcHpDamage": 24808,
+        "npcHealing": 678,
+        "npcUnusedAP": 0,
+        "growthSpent": 106,
+        "parasiteSpent": 6,
+        "declared": 1392,
+        "announcedOK": 1190,
+        "announcedFailed": 27,
+        "unattempted": 175,
+        "repairs": 0,
+        "fallbacks": 1479,
+        "failures": {
+          "生长已满，无法再培植": 14,
+          "普通射程限制": 1,
+          "灼烧已消失，无需净息": 11,
+          "移动已到边界": 1
+        }
+      },
+      "npcs": {
+        "symbiosis": {
+          "before": {
+            "games": 72,
+            "playerWins": 68,
+            "npcWins": 4,
+            "unresolved": 0,
+            "rounds": 532,
+            "npcHpDamage": 12784,
+            "npcHealing": 594,
+            "npcUnusedAP": 0,
+            "growthSpent": 107,
+            "parasiteSpent": 0,
+            "declared": 767,
+            "announcedOK": 652,
+            "announcedFailed": 20,
+            "unattempted": 95,
+            "repairs": 0,
+            "fallbacks": 738,
+            "failures": {
+              "生长已满，无法再培植": 13,
+              "普通射程限制": 1,
+              "灼烧已消失，无需净息": 5,
+              "移动已到边界": 1
+            }
+          },
+          "after": {
+            "games": 72,
+            "playerWins": 68,
+            "npcWins": 4,
+            "unresolved": 0,
+            "rounds": 533,
+            "npcHpDamage": 12901,
+            "npcHealing": 594,
+            "npcUnusedAP": 0,
+            "growthSpent": 106,
+            "parasiteSpent": 0,
+            "declared": 763,
+            "announcedOK": 651,
+            "announcedFailed": 20,
+            "unattempted": 92,
+            "repairs": 0,
+            "fallbacks": 742,
+            "failures": {
+              "生长已满，无法再培植": 13,
+              "普通射程限制": 1,
+              "灼烧已消失，无需净息": 5,
+              "移动已到边界": 1
+            }
+          }
+        },
+        "parasitic": {
+          "before": {
+            "games": 72,
+            "playerWins": 68,
+            "npcWins": 4,
+            "unresolved": 0,
+            "rounds": 494,
+            "npcHpDamage": 11907,
+            "npcHealing": 84,
+            "npcUnusedAP": 0,
+            "growthSpent": 0,
+            "parasiteSpent": 6,
+            "declared": 629,
+            "announcedOK": 539,
+            "announcedFailed": 7,
+            "unattempted": 83,
+            "repairs": 0,
+            "fallbacks": 737,
+            "failures": {
+              "灼烧已消失，无需净息": 6,
+              "生长已满，无法再培植": 1
+            }
+          },
+          "after": {
+            "games": 72,
+            "playerWins": 68,
+            "npcWins": 4,
+            "unresolved": 0,
+            "rounds": 494,
+            "npcHpDamage": 11907,
+            "npcHealing": 84,
+            "npcUnusedAP": 0,
+            "growthSpent": 0,
+            "parasiteSpent": 6,
+            "declared": 629,
+            "announcedOK": 539,
+            "announcedFailed": 7,
+            "unattempted": 83,
+            "repairs": 0,
+            "fallbacks": 737,
+            "failures": {
+              "灼烧已消失，无需净息": 6,
+              "生长已满，无法再培植": 1
+            }
+          }
+        }
+      }
+    },
+    "practice": {
+      "before": {
+        "games": 36,
+        "playerWins": 34,
+        "npcWins": 0,
+        "unresolved": 2,
+        "rounds": 350,
+        "npcHpDamage": 4905,
+        "npcHealing": 2326,
+        "npcUnusedAP": 0,
+        "growthSpent": 136,
+        "parasiteSpent": 7,
+        "declared": 1050,
+        "announcedOK": 843,
+        "announcedFailed": 105,
+        "unattempted": 102,
+        "repairs": 2,
+        "fallbacks": 103,
+        "failures": {
+          "玩家破除生长": 87,
+          "缺气（补回应对支出可支付）": 2,
+          "自身已无寄生，无需净化": 10,
+          "剩余行动不足": 2,
+          "目标没有寄生": 4
+        }
+      },
+      "after": {
+        "games": 36,
+        "playerWins": 34,
+        "npcWins": 0,
+        "unresolved": 2,
+        "rounds": 350,
+        "npcHpDamage": 4905,
+        "npcHealing": 2326,
+        "npcUnusedAP": 0,
+        "growthSpent": 136,
+        "parasiteSpent": 7,
+        "declared": 1050,
+        "announcedOK": 843,
+        "announcedFailed": 105,
+        "unattempted": 102,
+        "repairs": 2,
+        "fallbacks": 103,
+        "failures": {
+          "玩家破除生长": 87,
+          "缺气（补回应对支出可支付）": 2,
+          "自身已无寄生，无需净化": 10,
+          "剩余行动不足": 2,
+          "目标没有寄生": 4
+        }
+      },
+      "npcs": {
+        "symbiosis": {
+          "before": {
+            "games": 18,
+            "playerWins": 16,
+            "npcWins": 0,
+            "unresolved": 2,
+            "rounds": 217,
+            "npcHpDamage": 1988,
+            "npcHealing": 2326,
+            "npcUnusedAP": 0,
+            "growthSpent": 136,
+            "parasiteSpent": 0,
+            "declared": 651,
+            "announcedOK": 505,
+            "announcedFailed": 98,
+            "unattempted": 48,
+            "repairs": 1,
+            "fallbacks": 97,
+            "failures": {
+              "玩家破除生长": 87,
+              "缺气（补回应对支出可支付）": 2,
+              "自身已无寄生，无需净化": 8,
+              "剩余行动不足": 1
+            }
+          },
+          "after": {
+            "games": 18,
+            "playerWins": 16,
+            "npcWins": 0,
+            "unresolved": 2,
+            "rounds": 217,
+            "npcHpDamage": 1988,
+            "npcHealing": 2326,
+            "npcUnusedAP": 0,
+            "growthSpent": 136,
+            "parasiteSpent": 0,
+            "declared": 651,
+            "announcedOK": 505,
+            "announcedFailed": 98,
+            "unattempted": 48,
+            "repairs": 1,
+            "fallbacks": 97,
+            "failures": {
+              "玩家破除生长": 87,
+              "缺气（补回应对支出可支付）": 2,
+              "自身已无寄生，无需净化": 8,
+              "剩余行动不足": 1
+            }
+          }
+        },
+        "parasitic": {
+          "before": {
+            "games": 18,
+            "playerWins": 18,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 133,
+            "npcHpDamage": 2917,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "growthSpent": 0,
+            "parasiteSpent": 7,
+            "declared": 399,
+            "announcedOK": 338,
+            "announcedFailed": 7,
+            "unattempted": 54,
+            "repairs": 1,
+            "fallbacks": 6,
+            "failures": {
+              "目标没有寄生": 4,
+              "自身已无寄生，无需净化": 2,
+              "剩余行动不足": 1
+            }
+          },
+          "after": {
+            "games": 18,
+            "playerWins": 18,
+            "npcWins": 0,
+            "unresolved": 0,
+            "rounds": 133,
+            "npcHpDamage": 2917,
+            "npcHealing": 0,
+            "npcUnusedAP": 0,
+            "growthSpent": 0,
+            "parasiteSpent": 7,
+            "declared": 399,
+            "announcedOK": 338,
+            "announcedFailed": 7,
+            "unattempted": 54,
+            "repairs": 1,
+            "fallbacks": 6,
+            "failures": {
+              "目标没有寄生": 4,
+              "自身已无寄生，无需净化": 2,
+              "剩余行动不足": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "differences": [
+    {
+      "index": 0,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          88,
+          0
+        ],
+        [
+          88,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [
+        "rounds",
+        "hp",
+        "review",
+        "logs",
+        "previewRounds"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        6
+      ],
+      "hp": [
+        [
+          54,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          92,
+          0
+        ],
+        [
+          92,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          57,
+          0
+        ],
+        [
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [
+        "hp",
+        "review",
+        "logs",
+        "previewRounds"
+      ],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          85,
+          0
+        ],
+        [
+          29,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          87,
+          0
+        ],
+        [
+          87,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          66,
+          0
+        ],
+        [
+          66,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          35,
+          0
+        ],
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          73,
+          0
+        ],
+        [
+          73,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "npc": "symbiosis",
+      "player": "fire/sustain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          36,
+          0
+        ],
+        [
+          36,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "npc": "symbiosis",
+      "player": "fire/sustain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          72,
+          0
+        ],
+        [
+          72,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "npc": "symbiosis",
+      "player": "fire/sustain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          76,
+          0
+        ],
+        [
+          76,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "npc": "symbiosis",
+      "player": "sword/quick",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          118,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "npc": "symbiosis",
+      "player": "sword/quick",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          137,
+          0
+        ],
+        [
+          137,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "npc": "symbiosis",
+      "player": "sword/quick",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          119,
+          0
+        ],
+        [
+          119,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          117,
+          0
+        ],
+        [
+          117,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          87,
+          0
+        ],
+        [
+          87,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          114,
+          0
+        ],
+        [
+          114,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          114,
+          0
+        ],
+        [
+          114,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          13,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          104,
+          0
+        ],
+        [
+          104,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          119,
+          0
+        ],
+        [
+          119,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          13,
+          0
+        ],
+        [
+          13,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 23,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          116,
+          0
+        ],
+        [
+          116,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 24,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          107,
+          0
+        ],
+        [
+          107,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 25,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          77,
+          0
+        ],
+        [
+          77,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 26,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        15,
+        15
+      ],
+      "hp": [
+        [
+          210,
+          0
+        ],
+        [
+          210,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 27,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          72,
+          0
+        ],
+        [
+          72,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 28,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          57,
+          0
+        ],
+        [
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 29,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          107,
+          0
+        ],
+        [
+          107,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 30,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          77,
+          0
+        ],
+        [
+          77,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 31,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          35,
+          0
+        ],
+        [
+          35,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 32,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        12,
+        12
+      ],
+      "hp": [
+        [
+          208,
+          0
+        ],
+        [
+          208,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 33,
+      "npc": "symbiosis",
+      "player": "flame/smolder",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          115,
+          0
+        ],
+        [
+          115,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 34,
+      "npc": "symbiosis",
+      "player": "flame/smolder",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          95,
+          0
+        ],
+        [
+          95,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 35,
+      "npc": "symbiosis",
+      "player": "flame/smolder",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          120,
+          0
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 36,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          47,
+          0
+        ],
+        [
+          47,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 37,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          14,
+          0
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 38,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          80,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 39,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          44,
+          0
+        ],
+        [
+          44,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 40,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          58,
+          0
+        ],
+        [
+          58,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 41,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          143,
+          0
+        ],
+        [
+          143,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 42,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          62,
+          0
+        ],
+        [
+          62,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 43,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          14,
+          0
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 44,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          80,
+          0
+        ],
+        [
+          80,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 45,
+      "npc": "symbiosis",
+      "player": "water/tidal",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          140,
+          0
+        ],
+        [
+          140,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 46,
+      "npc": "symbiosis",
+      "player": "water/tidal",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          180,
+          0
+        ],
+        [
+          180,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 47,
+      "npc": "symbiosis",
+      "player": "water/tidal",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          171,
+          0
+        ],
+        [
+          171,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 48,
+      "npc": "symbiosis",
+      "player": "wood/symbiosis",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          178,
+          0
+        ],
+        [
+          178,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 49,
+      "npc": "symbiosis",
+      "player": "wood/symbiosis",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          166,
+          0
+        ],
+        [
+          166,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 50,
+      "npc": "symbiosis",
+      "player": "wood/symbiosis",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          154,
+          0
+        ],
+        [
+          154,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 51,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          123,
+          0
+        ],
+        [
+          123,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 52,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          11,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 53,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          187,
+          0
+        ],
+        [
+          187,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 54,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          175,
+          0
+        ],
+        [
+          175,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 55,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 56,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        14,
+        14
+      ],
+      "hp": [
+        [
+          188,
+          0
+        ],
+        [
+          188,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 57,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          175,
+          0
+        ],
+        [
+          175,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 58,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 59,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        13,
+        13
+      ],
+      "hp": [
+        [
+          188,
+          0
+        ],
+        [
+          188,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 60,
+      "npc": "symbiosis",
+      "player": "earth/bastion",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          152,
+          0
+        ],
+        [
+          152,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 61,
+      "npc": "symbiosis",
+      "player": "earth/bastion",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          132,
+          0
+        ],
+        [
+          132,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 62,
+      "npc": "symbiosis",
+      "player": "earth/bastion",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          121,
+          0
+        ],
+        [
+          121,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 63,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 64,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          17,
+          0
+        ],
+        [
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 65,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        11,
+        11
+      ],
+      "hp": [
+        [
+          31,
+          0
+        ],
+        [
+          31,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 66,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        14,
+        14
+      ],
+      "hp": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "index": 67,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          28,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 68,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        16,
+        16
+      ],
+      "hp": [
+        [
+          0,
+          42
+        ],
+        [
+          0,
+          42
+        ]
+      ]
+    },
+    {
+      "index": 69,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        13,
+        13
+      ],
+      "hp": [
+        [
+          0,
+          26
+        ],
+        [
+          0,
+          26
+        ]
+      ]
+    },
+    {
+      "index": 70,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          28,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 71,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        16,
+        16
+      ],
+      "hp": [
+        [
+          0,
+          65
+        ],
+        [
+          0,
+          65
+        ]
+      ]
+    },
+    {
+      "index": 72,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          110,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 73,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          40,
+          0
+        ],
+        [
+          40,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 74,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          102,
+          0
+        ],
+        [
+          102,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 75,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          104,
+          0
+        ],
+        [
+          104,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 76,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          72,
+          0
+        ],
+        [
+          72,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 77,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          158,
+          0
+        ],
+        [
+          158,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 78,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          91,
+          0
+        ],
+        [
+          91,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 79,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          26,
+          0
+        ],
+        [
+          26,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 80,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          122,
+          0
+        ],
+        [
+          122,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 81,
+      "npc": "parasitic",
+      "player": "fire/sustain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          118,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 82,
+      "npc": "parasitic",
+      "player": "fire/sustain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          72,
+          0
+        ],
+        [
+          72,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 83,
+      "npc": "parasitic",
+      "player": "fire/sustain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          59,
+          0
+        ],
+        [
+          59,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 84,
+      "npc": "parasitic",
+      "player": "sword/quick",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          118,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 85,
+      "npc": "parasitic",
+      "player": "sword/quick",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          128,
+          0
+        ],
+        [
+          128,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 86,
+      "npc": "parasitic",
+      "player": "sword/quick",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          124,
+          0
+        ],
+        [
+          124,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 87,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          118,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 88,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          51,
+          0
+        ],
+        [
+          51,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 89,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          142,
+          0
+        ],
+        [
+          142,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 90,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          111,
+          0
+        ],
+        [
+          111,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 91,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          85,
+          0
+        ],
+        [
+          85,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 92,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          173,
+          0
+        ],
+        [
+          173,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 93,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          110,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 94,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          74,
+          0
+        ],
+        [
+          74,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 95,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          158,
+          0
+        ],
+        [
+          158,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 96,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          104,
+          0
+        ],
+        [
+          104,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 97,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          52,
+          0
+        ],
+        [
+          52,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 98,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          118,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 99,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          87,
+          0
+        ],
+        [
+          87,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 100,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          12,
+          0
+        ],
+        [
+          12,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 101,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          136,
+          0
+        ],
+        [
+          136,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 102,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          111,
+          0
+        ],
+        [
+          111,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 103,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          54,
+          0
+        ],
+        [
+          54,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 104,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          138,
+          0
+        ],
+        [
+          138,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 105,
+      "npc": "parasitic",
+      "player": "flame/smolder",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          120,
+          0
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 106,
+      "npc": "parasitic",
+      "player": "flame/smolder",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          90,
+          0
+        ],
+        [
+          90,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 107,
+      "npc": "parasitic",
+      "player": "flame/smolder",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          112,
+          0
+        ],
+        [
+          112,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 108,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          108,
+          0
+        ],
+        [
+          108,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 109,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          52,
+          0
+        ],
+        [
+          52,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 110,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          150,
+          0
+        ],
+        [
+          150,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 111,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          184,
+          0
+        ],
+        [
+          184,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 112,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          77,
+          0
+        ],
+        [
+          77,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 113,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          210,
+          0
+        ],
+        [
+          210,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 114,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          122,
+          0
+        ],
+        [
+          122,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 115,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          14,
+          0
+        ],
+        [
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 116,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          115,
+          0
+        ],
+        [
+          115,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 117,
+      "npc": "parasitic",
+      "player": "water/tidal",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          182,
+          0
+        ],
+        [
+          182,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 118,
+      "npc": "parasitic",
+      "player": "water/tidal",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          180,
+          0
+        ],
+        [
+          180,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 119,
+      "npc": "parasitic",
+      "player": "water/tidal",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          171,
+          0
+        ],
+        [
+          171,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 120,
+      "npc": "parasitic",
+      "player": "wood/symbiosis",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          183,
+          0
+        ],
+        [
+          183,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 121,
+      "npc": "parasitic",
+      "player": "wood/symbiosis",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          166,
+          0
+        ],
+        [
+          166,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 122,
+      "npc": "parasitic",
+      "player": "wood/symbiosis",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          154,
+          0
+        ],
+        [
+          154,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 123,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          123,
+          0
+        ],
+        [
+          123,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 124,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          11,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 125,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          188,
+          0
+        ],
+        [
+          188,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 126,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          175,
+          0
+        ],
+        [
+          175,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 127,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          23,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 128,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        14,
+        14
+      ],
+      "hp": [
+        [
+          188,
+          0
+        ],
+        [
+          188,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 129,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          175,
+          0
+        ],
+        [
+          175,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 130,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 131,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        11,
+        11
+      ],
+      "hp": [
+        [
+          148,
+          0
+        ],
+        [
+          148,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 132,
+      "npc": "parasitic",
+      "player": "earth/bastion",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          152,
+          0
+        ],
+        [
+          152,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 133,
+      "npc": "parasitic",
+      "player": "earth/bastion",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          132,
+          0
+        ],
+        [
+          132,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 134,
+      "npc": "parasitic",
+      "player": "earth/bastion",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          121,
+          0
+        ],
+        [
+          121,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 135,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 136,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          17,
+          0
+        ],
+        [
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 137,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        11,
+        11
+      ],
+      "hp": [
+        [
+          31,
+          0
+        ],
+        [
+          31,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 138,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        14,
+        14
+      ],
+      "hp": [
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          13
+        ]
+      ]
+    },
+    {
+      "index": 139,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          22,
+          0
+        ],
+        [
+          22,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 140,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        17,
+        17
+      ],
+      "hp": [
+        [
+          0,
+          49
+        ],
+        [
+          0,
+          49
+        ]
+      ]
+    },
+    {
+      "index": 141,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        13,
+        13
+      ],
+      "hp": [
+        [
+          0,
+          26
+        ],
+        [
+          0,
+          26
+        ]
+      ]
+    },
+    {
+      "index": 142,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "aggressive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          28,
+          0
+        ],
+        [
+          28,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 143,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "defensive",
+      "difficulty": "questioning",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "lose",
+        "lose"
+      ],
+      "rounds": [
+        16,
+        16
+      ],
+      "hp": [
+        [
+          0,
+          65
+        ],
+        [
+          0,
+          65
+        ]
+      ]
+    },
+    {
+      "index": 144,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          171,
+          0
+        ],
+        [
+          171,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 145,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          167,
+          0
+        ],
+        [
+          167,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 146,
+      "npc": "symbiosis",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          149,
+          0
+        ],
+        [
+          149,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 147,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          165,
+          0
+        ],
+        [
+          165,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 148,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          155,
+          0
+        ],
+        [
+          155,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 149,
+      "npc": "symbiosis",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        11,
+        11
+      ],
+      "hp": [
+        [
+          108,
+          0
+        ],
+        [
+          108,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 150,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          155,
+          0
+        ],
+        [
+          155,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 151,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          145,
+          0
+        ],
+        [
+          145,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 152,
+      "npc": "symbiosis",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          133,
+          0
+        ],
+        [
+          133,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 153,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          171,
+          0
+        ],
+        [
+          171,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 154,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          149,
+          0
+        ],
+        [
+          149,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 155,
+      "npc": "symbiosis",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        16,
+        16
+      ],
+      "hp": [
+        [
+          174,
+          0
+        ],
+        [
+          174,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 156,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        11,
+        11
+      ],
+      "hp": [
+        [
+          225,
+          0
+        ],
+        [
+          225,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 157,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          223,
+          0
+        ],
+        [
+          223,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 158,
+      "npc": "symbiosis",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        12,
+        12
+      ],
+      "hp": [
+        [
+          211,
+          0
+        ],
+        [
+          211,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 159,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        26,
+        26
+      ],
+      "hp": [
+        [
+          187,
+          0
+        ],
+        [
+          187,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 160,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "draw",
+        "draw"
+      ],
+      "rounds": [
+        30,
+        30
+      ],
+      "hp": [
+        [
+          208,
+          172
+        ],
+        [
+          208,
+          172
+        ]
+      ]
+    },
+    {
+      "index": 161,
+      "npc": "symbiosis",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "draw",
+        "draw"
+      ],
+      "rounds": [
+        30,
+        30
+      ],
+      "hp": [
+        [
+          208,
+          177
+        ],
+        [
+          208,
+          177
+        ]
+      ]
+    },
+    {
+      "index": 162,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          79,
+          0
+        ],
+        [
+          79,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 163,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          55,
+          0
+        ],
+        [
+          55,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 164,
+      "npc": "parasitic",
+      "player": "fire/ignite",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          86,
+          0
+        ],
+        [
+          86,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 165,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          152,
+          0
+        ],
+        [
+          152,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 166,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          127,
+          0
+        ],
+        [
+          127,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 167,
+      "npc": "parasitic",
+      "player": "sword/heavy",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          104,
+          0
+        ],
+        [
+          104,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 168,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        4,
+        4
+      ],
+      "hp": [
+        [
+          141,
+          0
+        ],
+        [
+          141,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 169,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          110,
+          0
+        ],
+        [
+          110,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 170,
+      "npc": "parasitic",
+      "player": "flame/fierce",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        5,
+        5
+      ],
+      "hp": [
+        [
+          120,
+          0
+        ],
+        [
+          120,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 171,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          92,
+          0
+        ],
+        [
+          92,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 172,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        7,
+        7
+      ],
+      "hp": [
+        [
+          90,
+          0
+        ],
+        [
+          90,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 173,
+      "npc": "parasitic",
+      "player": "water/cold",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        10,
+        10
+      ],
+      "hp": [
+        [
+          133,
+          0
+        ],
+        [
+          133,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 174,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          211,
+          0
+        ],
+        [
+          211,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 175,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        9,
+        9
+      ],
+      "hp": [
+        [
+          132,
+          0
+        ],
+        [
+          132,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 176,
+      "npc": "parasitic",
+      "player": "wood/parasitic",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        8,
+        8
+      ],
+      "hp": [
+        [
+          211,
+          0
+        ],
+        [
+          211,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 177,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 0,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        6,
+        6
+      ],
+      "hp": [
+        [
+          72,
+          0
+        ],
+        [
+          72,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 178,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 1,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        16,
+        16
+      ],
+      "hp": [
+        [
+          39,
+          0
+        ],
+        [
+          39,
+          0
+        ]
+      ]
+    },
+    {
+      "index": 179,
+      "npc": "parasitic",
+      "player": "earth/mountain",
+      "tendency": "balanced",
+      "difficulty": "practice",
+      "distance": 2,
+      "changed": [],
+      "result": [
+        "win",
+        "win"
+      ],
+      "rounds": [
+        18,
+        18
+      ],
+      "hp": [
+        [
+          65,
+          0
+        ],
+        [
+          65,
+          0
+        ]
+      ]
+    }
+  ],
+  "changedFiles": [
+    "dist/active-policy.mjs",
+    "dist/engine.mjs"
+  ],
+  "matrix": {
+    "compared": 276,
+    "identicalFullTrajectories": 276,
+    "historicalNonWoodNotRerun": 660,
+    "differences": []
+  },
+  "fixtures": 12
+}

@@ -1,0 +1,7 @@
+{
+  "baselineCommit": "6745fa2029293a62c00dbdeb49f51f757a3af888",
+  "baselineTree": "555ca99b29e06a8c37dd39714bca0f18002c1325",
+  "baselineDistVerifiedAgainstGit": true,
+  "observationalRunner": "scripts/check-wood-previews.mjs",
+  "beforeAndAfterFreezeFullDist": true
+}

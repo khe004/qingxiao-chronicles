@@ -1,0 +1,5550 @@
+[
+  {
+    "id": "symbiosis/1/3/2",
+    "opponentId": "symbiosis",
+    "skill": "bloomstrike",
+    "prep": "growth",
+    "n": 1,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "林栖萝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 1,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "bloomstrike"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "bloomstrike"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "symbiosis",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "cultivate",
+          "reason": "培植后保留生长，等待下一次自身阶段成熟，不立刻收尽。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "symbiosis",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomstrike",
+        "bloomguard",
+        "bloomheal",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "林栖萝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 1,
+      "growthPending": false
+    },
+    "plan": [
+      "bloomstrike"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【灵植共生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「繁花击」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "林栖萝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "林栖萝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "symbiosis/2/3/2",
+    "opponentId": "symbiosis",
+    "skill": "bloomstrike",
+    "prep": "growth",
+    "n": 2,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "林栖萝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 2,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "bloomstrike"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "bloomstrike"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "symbiosis",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "cultivate",
+          "reason": "培植后保留生长，等待下一次自身阶段成熟，不立刻收尽。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "symbiosis",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomstrike",
+        "bloomguard",
+        "bloomheal",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "林栖萝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 2,
+      "growthPending": false
+    },
+    "plan": [
+      "bloomstrike"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【灵植共生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「繁花击」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "林栖萝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "林栖萝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "symbiosis/0/3/2",
+    "opponentId": "symbiosis",
+    "skill": "bloomstrike",
+    "prep": "growth",
+    "n": 0,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "林栖萝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 0,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "bloomstrike"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "bloomstrike"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "symbiosis",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "cultivate",
+          "reason": "培植后保留生长，等待下一次自身阶段成熟，不立刻收尽。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "symbiosis",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomstrike",
+        "bloomguard",
+        "bloomheal",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "林栖萝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "bloomstrike"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【灵植共生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「繁花击」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "林栖萝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "林栖萝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "symbiosis/3/3/2",
+    "opponentId": "symbiosis",
+    "skill": "bloomstrike",
+    "prep": "growth",
+    "n": 3,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "林栖萝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 3,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "bloomstrike"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "bloomstrike"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "symbiosis",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "cultivate",
+          "reason": "培植后保留生长，等待下一次自身阶段成熟，不立刻收尽。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [
+      "bloomstrike"
+    ],
+    "actions": {
+      "bloomstrike": 1,
+      "meditate": 1,
+      "wooddart": 1
+    },
+    "unusedAP": 0,
+    "hp": [
+      156,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 156,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 0
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "symbiosis",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomstrike",
+        "bloomguard",
+        "bloomheal",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "林栖萝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "bloomstrike"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【灵植共生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "林栖萝施展「繁花击」。",
+        "type": "enemy"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "林栖萝以「繁花击」消费3生长，同一准备不能重复兑现。",
+        "type": "resource"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "你主动退开，双方距离变为远距。",
+        "type": "normal"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。",
+        "type": "reaction"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "林栖萝的繁花击：你受到 32 伤害。",
+        "type": "damage"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "林栖萝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "林栖萝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 22 伤害。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "symbiosis/1/1/2",
+    "opponentId": "symbiosis",
+    "skill": "bloomstrike",
+    "prep": "growth",
+    "n": 1,
+    "ap": 1,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "林栖萝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 1,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 1,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "bloomstrike"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "bloomstrike"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "symbiosis",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "cultivate",
+          "reason": "培植后保留生长，等待下一次自身阶段成熟，不立刻收尽。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "wooddart",
+      "reason": "按备用策略改用已装备、费用与射程合法的招式。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "wooddart": 1
+    },
+    "unusedAP": 0,
+    "hp": [
+      210,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 210,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 4,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "symbiosis",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomstrike",
+        "bloomguard",
+        "bloomheal",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "林栖萝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 1,
+      "growthPending": false
+    },
+    "plan": [
+      "bloomstrike"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【灵植共生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「繁花击」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "symbiosis/1/3/1",
+    "opponentId": "symbiosis",
+    "skill": "bloomstrike",
+    "prep": "growth",
+    "n": 1,
+    "ap": 3,
+    "wood": 1,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "林栖萝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 1,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 1,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "bloomstrike"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "bloomstrike"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "symbiosis",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "cultivate",
+          "reason": "培植后保留生长，等待下一次自身阶段成熟，不立刻收尽。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "symbiosis",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomstrike",
+        "bloomguard",
+        "bloomheal",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "林栖萝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 1,
+      "growthPending": false
+    },
+    "plan": [
+      "bloomstrike"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「林栖萝」· 灵植共生：培植后等待下次自身阶段成熟；繁花、蔓屏与回春消费同一份生长，受伤时会提前收获保命。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "林栖萝主修「灵植共生」，装备：青叶矢、培植诀、繁花击、蔓生屏、灵植回春、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【灵植共生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「繁花击」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "林栖萝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "林栖萝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "林栖萝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "林栖萝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "parasitic/1/3/2",
+    "opponentId": "parasitic",
+    "skill": "reap",
+    "prep": "parasite",
+    "n": 1,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 1,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomguard",
+          "parasite",
+          "reap",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "苏缠枝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 0,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "reap"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "reap"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "parasitic",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "parasite",
+          "reason": "付费维护寄藤，等待目标首次耗气施法催长并侵蚀准备。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 1,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "parasitic",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomguard",
+        "parasite",
+        "reap",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "苏缠枝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "reap"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【毒藤寄生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「噬藤收获」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "苏缠枝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "苏缠枝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "parasitic/2/3/2",
+    "opponentId": "parasitic",
+    "skill": "reap",
+    "prep": "parasite",
+    "n": 2,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 2,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomguard",
+          "parasite",
+          "reap",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "苏缠枝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 0,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "reap"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "reap"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "parasitic",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "parasite",
+          "reason": "付费维护寄藤，等待目标首次耗气施法催长并侵蚀准备。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 2,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "parasitic",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomguard",
+        "parasite",
+        "reap",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "苏缠枝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "reap"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【毒藤寄生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「噬藤收获」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "苏缠枝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "苏缠枝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "parasitic/0/3/2",
+    "opponentId": "parasitic",
+    "skill": "reap",
+    "prep": "parasite",
+    "n": 0,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomguard",
+          "parasite",
+          "reap",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "苏缠枝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 0,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "reap"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "reap"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "parasitic",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "parasite",
+          "reason": "付费维护寄藤，等待目标首次耗气施法催长并侵蚀准备。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "parasitic",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomguard",
+        "parasite",
+        "reap",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "苏缠枝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "reap"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【毒藤寄生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「噬藤收获」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "苏缠枝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "苏缠枝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "parasitic/3/3/2",
+    "opponentId": "parasitic",
+    "skill": "reap",
+    "prep": "parasite",
+    "n": 3,
+    "ap": 3,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 3,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomguard",
+          "parasite",
+          "reap",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "苏缠枝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 0,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "reap"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "reap"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "parasitic",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "parasite",
+          "reason": "付费维护寄藤，等待目标首次耗气施法催长并侵蚀准备。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [
+      "reap"
+    ],
+    "actions": {
+      "reap": 1,
+      "meditate": 1,
+      "wooddart": 1
+    },
+    "unusedAP": 0,
+    "hp": [
+      156,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 156,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 0
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "parasitic",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomguard",
+        "parasite",
+        "reap",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "苏缠枝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "reap"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【毒藤寄生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "苏缠枝施展「噬藤收获」。",
+        "type": "enemy"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "苏缠枝以「噬藤收获」消费3寄生，同一准备不能重复兑现。",
+        "type": "resource"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "你主动退开，双方距离变为远距。",
+        "type": "normal"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "你闪身避让，本次伤害降低 50%，距离拉开一档。",
+        "type": "reaction"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "苏缠枝的噬藤收获：你受到 32 伤害。",
+        "type": "damage"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "苏缠枝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "苏缠枝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 22 伤害。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "parasitic/1/1/2",
+    "opponentId": "parasitic",
+    "skill": "reap",
+    "prep": "parasite",
+    "n": 1,
+    "ap": 1,
+    "wood": 2,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 1,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomguard",
+          "parasite",
+          "reap",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "苏缠枝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 2,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 1,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 0,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "reap"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "reap"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "parasitic",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "parasite",
+          "reason": "付费维护寄藤，等待目标首次耗气施法催长并侵蚀准备。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "wooddart",
+      "reason": "按备用策略改用已装备、费用与射程合法的招式。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 2,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "wooddart": 1
+    },
+    "unusedAP": 0,
+    "hp": [
+      210,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 210,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 4,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 1,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "parasitic",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomguard",
+        "parasite",
+        "reap",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "苏缠枝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "reap"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【毒藤寄生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「噬藤收获」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      }
+    ]
+  },
+  {
+    "id": "parasitic/1/3/1",
+    "opponentId": "parasitic",
+    "skill": "reap",
+    "prep": "parasite",
+    "n": 1,
+    "ap": 3,
+    "wood": 1,
+    "input": {
+      "round": 1,
+      "phase": "enemy",
+      "distance": 2,
+      "player": {
+        "key": "flame",
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "你",
+        "hp": 210,
+        "maxHp": 210,
+        "qi": {
+          "metal": 0,
+          "wood": 0,
+          "water": 0,
+          "fire": 4,
+          "earth": 0,
+          "any": 1
+        },
+        "shield": 0,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "fireCasts": 0,
+        "smolderTriggered": false,
+        "parasite": 1,
+        "parasiteTurns": 2,
+        "parasiteFed": false
+      },
+      "enemy": {
+        "key": "wood",
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomguard",
+          "parasite",
+          "reap",
+          "prune"
+        ],
+        "igniteTriggered": false,
+        "quickTriggered": false,
+        "edge": false,
+        "edgeExpires": 0,
+        "usedSkills": [],
+        "name": "苏缠枝",
+        "hp": 225,
+        "maxHp": 225,
+        "qi": {
+          "metal": 0,
+          "wood": 1,
+          "water": 0,
+          "fire": 0,
+          "earth": 0,
+          "any": 0
+        },
+        "shield": 16,
+        "counter": null,
+        "intent": 0,
+        "seed": 0,
+        "burn": 0,
+        "burnTurns": 0,
+        "chilled": false,
+        "broken": false,
+        "charge": null,
+        "ap": 3,
+        "reaction": true,
+        "meditated": false,
+        "woodTriggered": false,
+        "waterCleanseTriggered": false,
+        "bastionTriggered": false,
+        "parasite": 0,
+        "parasiteTurns": 0,
+        "parasiteFed": false,
+        "growth": 0,
+        "growthPending": false
+      },
+      "logs": [
+        {
+          "id": 1,
+          "round": 0,
+          "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+          "type": "setup"
+        },
+        {
+          "id": 2,
+          "round": 0,
+          "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+          "type": "setup"
+        },
+        {
+          "id": 3,
+          "round": 0,
+          "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+          "type": "setup"
+        },
+        {
+          "id": 4,
+          "round": 0,
+          "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+          "type": "setup"
+        },
+        {
+          "id": 5,
+          "round": 1,
+          "text": "第 1 回合 · 双方纳气，轮到你行动。",
+          "type": "round"
+        }
+      ],
+      "pending": null,
+      "enemyQueue": [
+        "reap"
+      ],
+      "result": null,
+      "serial": 5,
+      "enemyPolicy": "超距先调整距离；缺气可调息或改用合法低耗招；安全普攻收尾。蓄势与反伤危险时可留气，纪要说明原因。",
+      "enemyWaitReason": null,
+      "enemyPlan": [
+        "reap"
+      ],
+      "stats": [
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        },
+        {
+          "actions": {},
+          "skipped": {},
+          "adaptations": 0,
+          "waits": {},
+          "reflectionDamage": 0,
+          "reactionPreserved": 0,
+          "spentAP": 0,
+          "unusedAP": 0,
+          "healing": 0,
+          "overheal": 0,
+          "intentSpent": 0,
+          "burnConsumed": 0,
+          "tideSpent": 0,
+          "growthSpent": 0,
+          "parasiteSpent": 0,
+          "terrainSpent": 0,
+          "forcedMoves": 0,
+          "chillCleared": 0,
+          "movement": 0,
+          "hpDamage": 0,
+          "shieldDamage": 0,
+          "burnTaken": 0,
+          "charges": {
+            "started": 0,
+            "released": 0,
+            "interrupted": 0,
+            "rangeMiss": 0,
+            "canceled": 0,
+            "hpDamage": 0,
+            "shieldDamage": 0
+          }
+        }
+      ],
+      "events": [],
+      "opponentId": "parasitic",
+      "difficulty": "practice",
+      "limit": 30,
+      "enemyReasons": [
+        {
+          "id": "parasite",
+          "reason": "付费维护寄藤，等待目标首次耗气施法催长并侵蚀准备。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        },
+        {
+          "id": "wooddart",
+          "reason": "培育或寄藤等待期间，用低耗青叶矢维持压力。"
+        }
+      ]
+    },
+    "fix": {
+      "id": "meditate",
+      "reason": "灵气不足，先调息再出招，补气占用行动。"
+    },
+    "budget": {
+      "failures": [],
+      "qi": {
+        "metal": 0,
+        "wood": 1,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 0
+      }
+    },
+    "conflict": [],
+    "actions": {
+      "meditate": 1,
+      "wooddart": 2
+    },
+    "unusedAP": 0,
+    "hp": [
+      192,
+      225
+    ],
+    "player": {
+      "key": "flame",
+      "major": "fierce",
+      "skillIds": [
+        "flare",
+        "kindle",
+        "eruption",
+        "cinder",
+        "firewall",
+        "scorchcut"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "你",
+      "hp": 192,
+      "maxHp": 210,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 3,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 0,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 3,
+      "reaction": false,
+      "meditated": false,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "fireCasts": 0,
+      "smolderTriggered": false,
+      "parasite": 1,
+      "parasiteTurns": 2,
+      "parasiteFed": false
+    },
+    "enemy": {
+      "key": "wood",
+      "major": "parasitic",
+      "skillIds": [
+        "wooddart",
+        "cultivate",
+        "bloomguard",
+        "parasite",
+        "reap",
+        "prune"
+      ],
+      "igniteTriggered": false,
+      "quickTriggered": false,
+      "edge": false,
+      "edgeExpires": 0,
+      "usedSkills": [],
+      "name": "苏缠枝",
+      "hp": 225,
+      "maxHp": 225,
+      "qi": {
+        "metal": 0,
+        "wood": 0,
+        "water": 0,
+        "fire": 0,
+        "earth": 0,
+        "any": 1
+      },
+      "shield": 16,
+      "counter": null,
+      "intent": 0,
+      "seed": 0,
+      "burn": 0,
+      "burnTurns": 0,
+      "chilled": false,
+      "broken": false,
+      "charge": null,
+      "ap": 0,
+      "reaction": true,
+      "meditated": true,
+      "woodTriggered": false,
+      "waterCleanseTriggered": false,
+      "bastionTriggered": false,
+      "parasite": 0,
+      "parasiteTurns": 0,
+      "parasiteFed": false,
+      "growth": 0,
+      "growthPending": false
+    },
+    "plan": [
+      "reap"
+    ],
+    "queue": [],
+    "logs": [
+      {
+        "id": 1,
+        "round": 0,
+        "text": "难度「切磋」· 主招预告固定；距离或费用改变时按公开备用策略调整、补气或换用已装备招式。",
+        "type": "setup"
+      },
+      {
+        "id": 2,
+        "round": 0,
+        "text": "对手「苏缠枝」· 毒藤寄生：寄藤附着后，目标每阶段首次耗气施法使其成长，造成有限木伤并破除地势；噬藤收获会消耗寄生，不能同时保留侵蚀。",
+        "type": "setup"
+      },
+      {
+        "id": 3,
+        "round": 0,
+        "text": "你主修「烈焰强攻」，装备：炎矢诀、附焰术、烈火冲、摘烬诀、离火障、断焰指。",
+        "type": "setup"
+      },
+      {
+        "id": 4,
+        "round": 0,
+        "text": "苏缠枝主修「毒藤寄生」，装备：青叶矢、培植诀、蔓生屏、寄藤诀、噬藤收获、截根术。",
+        "type": "setup"
+      },
+      {
+        "id": 5,
+        "round": 1,
+        "text": "第 1 回合 · 双方纳气，轮到你行动。",
+        "type": "round"
+      },
+      {
+        "id": 6,
+        "round": 1,
+        "text": "【毒藤寄生】按公开计划出招。",
+        "type": "decision"
+      },
+      {
+        "id": 7,
+        "round": 1,
+        "text": "敌方未能施展「噬藤收获」：远距收获需要对应准备满3层。",
+        "type": "normal"
+      },
+      {
+        "id": 8,
+        "round": 1,
+        "text": "【备用策略】灵气不足，先调息再出招，补气占用行动。",
+        "type": "decision"
+      },
+      {
+        "id": 9,
+        "round": 1,
+        "text": "苏缠枝施展「调息」。",
+        "type": "enemy"
+      },
+      {
+        "id": 10,
+        "round": 1,
+        "text": "苏缠枝调息，凝聚 2 灵气。",
+        "type": "resource"
+      },
+      {
+        "id": 11,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 12,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 13,
+        "round": 1,
+        "text": "你施展「御火诀」，获得 26 护盾。",
+        "type": "reaction"
+      },
+      {
+        "id": 14,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 0 伤害，护盾吸收 22。",
+        "type": "damage"
+      },
+      {
+        "id": 15,
+        "round": 1,
+        "text": "【备用策略】按备用策略改用已装备、费用与射程合法的招式。",
+        "type": "decision"
+      },
+      {
+        "id": 16,
+        "round": 1,
+        "text": "苏缠枝施展「青叶矢」。",
+        "type": "enemy"
+      },
+      {
+        "id": 17,
+        "round": 1,
+        "text": "苏缠枝的青叶矢：你受到 18 伤害，护盾吸收 4。",
+        "type": "damage"
+      }
+    ]
+  }
+]
