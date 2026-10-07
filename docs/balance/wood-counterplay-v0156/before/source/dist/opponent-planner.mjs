@@ -26,20 +26,12 @@ function clone(b){
 }
 function value(start,c,id){const a=c.enemy,e=c.player,p=start.enemy,q=start.player;if(c.result==='lose')return 10000;if(c.result==='win')return -10000;const weights={cold:{hp:1,shield:.3,intent:0,seed:0,burn:4},tidal:{hp:1.1,shield:.45,intent:0,seed:0,burn:4},fierce:{hp:.85,shield:.3,intent:0,seed:0,burn:5},quick:{hp:.7,shield:.18,intent:7,seed:0,burn:3},heavy:{hp:1.35,shield:.65,intent:7,seed:0,burn:3},ignite:{hp:.7,shield:.2,intent:0,seed:5,burn:6},sustain:{hp:1.3,shield:.3,intent:0,seed:4,burn:5},symbiosis:{hp:1.25,shield:.35,intent:0,seed:0,burn:4},parasitic:{hp:.95,shield:.3,intent:0,seed:0,burn:4},bastion:{hp:1.4,shield:.6,intent:0,seed:0,burn:4},mountain:{hp:.95,shield:.3,intent:0,seed:0,burn:4}}[id];return (q.hp-e.hp)*1.8+(a.hp-p.hp)*weights.hp+(a.shield-p.shield)*weights.shield+(a.intent-p.intent)*weights.intent+(e.seed-q.seed)*weights.seed+(e.burn-q.burn)*weights.burn-(a.burn-p.burn)*6+(Number(e.broken)-Number(q.broken))*7+(Number(a.edge)-Number(p.edge))*7+((a.tide??0)-(p.tide??0))*4+(total(a.qi)-total(p.qi))*.7+((a.growth??0)-(p.growth??0))*12+(Number(Boolean(a.growthPending))-Number(Boolean(p.growthPending)))*12+((e.parasite??0)-(q.parasite??0))*(id==='parasitic'?8:4)+((a.terrain??0)-(p.terrain??0))*(id==='mountain'?10:7)-(a.parasite??0)*5;}
 function available(c,a){return [...c.skills(a),...COMMON].filter(s=>!c.legal(a,s.id)&&!(s.kind==='heal'&&a.hp===a.maxHp&&(!a.burn||!s.clearBurn))&&!(s.kind==='purify'&&!a.burn)&&!(s.kind==='seed'&&c.other(a).seed>=5)&&!(s.id==='expose'&&c.other(a).broken)&&!(s.interrupt&&s.id!=='lunge'&&!c.other(a).charge)&&!(s.kind==='guard'&&a.shield>=44)&&!(s.id==='meditate'&&total(a.qi)>=7));}
-function woodCounterValue(start,c){
- if(start.enemy.key!=='wood')return 0;
- // The same preparation values used for the NPC must also price a legal
- // player counter. Removing the final growth cancels its pending maturity.
- return ((start.enemy.growth??0)-(c.enemy.growth??0))*12
-  +(Number(Boolean(start.enemy.growthPending))-Number(Boolean(c.enemy.growthPending)))*12
-  +((start.player.parasite??0)-(c.player.parasite??0))*(start.enemy.major==='parasitic'?8:4);
-}
 function playerPressure(b,mode){const c=clone(b);c.phase='player';c.pending=null;
  if(mode==='retreat'&&c.distance<2&&c.player.ap>0&&!c.legal(c.player,'far'))c.act(c.player,'far');
  if(mode==='counter'){
   // Every candidate must survive a whole legal player combination, not just a greedy
   // first hit. Compare all candidates against the same bounded full-AP response.
-  const start=clone(c),score=x=>{if(x.result==='win')return 10000;if(x.result==='lose')return -10000;let v=(start.enemy.hp-x.enemy.hp)*1.3+(x.player.hp-start.player.hp)*1.1+(x.player.shield-start.player.shield)*.25+(x.player.intent-start.player.intent)*7+(x.enemy.seed-start.enemy.seed)*5+(x.enemy.burn-start.enemy.burn)*6+(Number(x.enemy.broken)-Number(start.enemy.broken))*8+(start.player.burn-x.player.burn)*6+woodCounterValue(start,x);if(mode!=='attack'){if(!x.enemy.charge)v+=65;else if(!x.enemy.charge.range.includes(x.distance))v+=75;}if(x.player.charge)v+=22;return v;};
+  const start=clone(c),score=x=>{if(x.result==='win')return 10000;if(x.result==='lose')return -10000;let v=(start.enemy.hp-x.enemy.hp)*1.3+(x.player.hp-start.player.hp)*1.1+(x.player.shield-start.player.shield)*.25+(x.player.intent-start.player.intent)*7+(x.enemy.seed-start.enemy.seed)*5+(x.enemy.burn-start.enemy.burn)*6+(Number(x.enemy.broken)-Number(start.enemy.broken))*8+(start.player.burn-x.player.burn)*6;if(mode!=='attack'){if(!x.enemy.charge)v+=65;else if(!x.enemy.charge.range.includes(x.distance))v+=75;}if(x.player.charge)v+=22;return v;};
   let beam=[c],best=c,bestScore=score(c);
   for(let depth=0;depth<3;depth++){
    const next=[];for(const state of beam){if(state.result||!state.player.ap)continue;for(const s of available(state,state.player)){const x=clone(state);if(!x.act(x.player,s.id).ok)continue;const v=score(x);if(v>bestScore){best=x;bestScore=v;}next.push({x,v});}}
@@ -48,20 +40,13 @@ function playerPressure(b,mode){const c=clone(b);c.phase='player';c.pending=null
   Object.assign(c,best);if(!c.result)c.endTurn();return c;
  }
  for(let n=0;n<3&&c.player.ap>0&&!c.result;n++){
-  let best=null,score=0;for(const s of available(c,c.player)){const x=clone(c);if(!x.act(x.player,s.id).ok)continue;let v=(c.enemy.hp-x.enemy.hp)*1.3+(x.player.hp-c.player.hp)*1.1+(x.player.shield-c.player.shield)*.25+(x.player.intent-c.player.intent)*7+(x.enemy.seed-c.enemy.seed)*5+(x.enemy.burn-c.enemy.burn)*6+(Number(x.enemy.broken)-Number(c.enemy.broken))*8+woodCounterValue(c,x);
+  let best=null,score=0;for(const s of available(c,c.player)){const x=clone(c);if(!x.act(x.player,s.id).ok)continue;let v=(c.enemy.hp-x.enemy.hp)*1.3+(x.player.hp-c.player.hp)*1.1+(x.player.shield-c.player.shield)*.25+(x.player.intent-c.player.intent)*7+(x.enemy.seed-c.enemy.seed)*5+(x.enemy.burn-c.enemy.burn)*6+(Number(x.enemy.broken)-Number(c.enemy.broken))*8;
    if(mode!=='attack'&&c.enemy.charge&&!x.enemy.charge)v+=65;if(s.kind==='charge')v+=22;if(s.id==='near'&&c.distance===2&&c.player.key==='sword')v+=24;if(mode!=='attack'&&s.kind==='move'&&c.enemy.charge&&!c.enemy.charge.range.includes(x.distance))v+=75;else if(mode!=='attack'&&s.id==='near'&&c.enemy.charge&&c.distance===2)v+=35;if(s.id==='meditate')v+=total(c.player.qi)<3?16:1;if(v>score){best=x;score=v;}}
   if(!best)break;Object.assign(c,best);
  }
  if(!c.result)c.endTurn();return c;
 }
-function execute(b,path){
- const c=clone(b);c.phase='enemy';c.enemyPlan=[...path];c.enemyQueue=[...path];
- // Run the real fixed queue, including paid movement and public fallback.
- // Stop at this phase boundary; afterResponse owns the next-round horizon.
- Object.defineProperty(c,'beginRound',{value:()=>{},configurable:true});
- for(let n=0;n<4&&!c.result;n++)if(!Battle.prototype.enemyStep.call(c))break;
- delete c.beginRound;return c;
-}
+function execute(b,path){const c=clone(b);c.phase='enemy';for(const id of path){if(c.result)break;c.act(c.enemy,id);}c.expireEdge(c.enemy);c.clearChill(c.enemy,'行动结束');finishPreparedPhase(c,c.enemy);return c;}
 function afterResponse(b,mode='counter'){const c=clone(b);if(c.result)return c;c.beginRound();if(c.result)return c;return playerPressure(c,mode);}
 const cache=new Map();
 const planningKey=(b,id,queue=b.enemyQueue??[],plan=b.enemyPlan??[])=>JSON.stringify([id,b.round,b.distance,b.player,b.enemy,queue,plan]);
@@ -74,9 +59,6 @@ export function planQuestioning(b,id){
   // Preserve public charges and pending cultivation even before they pay out.
   for(const root of [base,...scenarios]){let beam=[{c:clone(root),path:[]}];for(let depth=0;depth<3;depth++){const next=[];for(const {c,path} of beam){candidates.set(path.join(','),path);if(c.result||!c.enemy.ap)continue;for(const s of available(c,c.enemy)){if(s.kind==='guard'&&path.includes(s.id))continue;const x=clone(c);if(x.act(x.enemy,s.id).ok){const p=[...path,s.id];candidates.set(p.join(','),p);next.push({c:x,path:p,score:value(b,x,id)+(x.enemy.charge?70:0)});}}}beam=next.sort((a,z)=>z.score-a.score).slice(0,24);}}
  }else{search(base,[]);for(const s of scenarios)if(!s.result)search(clone(s),[]);}
- // Fallback fills unused AP in every projection. It must not make an empty
- // preview win by hiding all of those actions from the player.
- if(candidates.size>1)candidates.delete('');
  const ranked=[...candidates.values()].map(path=>{const leaves=scenarios.map(s=>execute(s,path));const values=leaves.map(c=>value(b,c,id));const score=Math.min(...values)*.65+values.reduce((a,x)=>a+x,0)/values.length*.35+value(b,execute(base,path),id)*.12-path.length*.12;return {path,leaves,score};}).sort((a,c)=>c.score-a.score);
  // A charge has not released at this first horizon. Keep its best candidates
  // for the full counterplay horizon rather than discarding them for no damage.

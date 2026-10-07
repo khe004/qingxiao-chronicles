@@ -74,9 +74,6 @@ export function planQuestioning(b,id){
   // Preserve public charges and pending cultivation even before they pay out.
   for(const root of [base,...scenarios]){let beam=[{c:clone(root),path:[]}];for(let depth=0;depth<3;depth++){const next=[];for(const {c,path} of beam){candidates.set(path.join(','),path);if(c.result||!c.enemy.ap)continue;for(const s of available(c,c.enemy)){if(s.kind==='guard'&&path.includes(s.id))continue;const x=clone(c);if(x.act(x.enemy,s.id).ok){const p=[...path,s.id];candidates.set(p.join(','),p);next.push({c:x,path:p,score:value(b,x,id)+(x.enemy.charge?70:0)});}}}beam=next.sort((a,z)=>z.score-a.score).slice(0,24);}}
  }else{search(base,[]);for(const s of scenarios)if(!s.result)search(clone(s),[]);}
- // Fallback fills unused AP in every projection. It must not make an empty
- // preview win by hiding all of those actions from the player.
- if(candidates.size>1)candidates.delete('');
  const ranked=[...candidates.values()].map(path=>{const leaves=scenarios.map(s=>execute(s,path));const values=leaves.map(c=>value(b,c,id));const score=Math.min(...values)*.65+values.reduce((a,x)=>a+x,0)/values.length*.35+value(b,execute(base,path),id)*.12-path.length*.12;return {path,leaves,score};}).sort((a,c)=>c.score-a.score);
  // A charge has not released at this first horizon. Keep its best candidates
  // for the full counterplay horizon rather than discarding them for no damage.
