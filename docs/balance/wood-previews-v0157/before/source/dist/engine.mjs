@@ -245,19 +245,7 @@ export class Battle {
     if(this.phase==='player')startPreparedPhase(c,c.enemy);
     if(c.enemy.charge)c.release(c.enemy);
     const failures=[];
-    for(const id of this.enemyQueue??this.enemyPlan??[]){
-      let error=c.legal(c.enemy,id);
-      for(let steps=0;error&&steps<2;steps++){const fix=activeFallback(c,c.enemy,{blockedId:id});if(!fix.retry)break;c.act(c.enemy,fix.id);error=c.legal(c.enemy,id);}
-      // After a response spends qi, a partial harvest may no longer qualify
-      // for distance repair. Check its cost at mid range without granting a
-      // move or reserving attacks with zero preparation / insufficient AP.
-      const s=c.skill(c.enemy,id);
-      if(error==='远距收获需要对应准备满3层'&&s?.farPrep&&c.enemy.ap>=s.ap+1&&!c.legal(c.enemy,'near')){
-        const distance=c.distance;c.distance=1;const closeError=c.legal(c.enemy,id);c.distance=distance;
-        if(closeError==='所需灵气不足')error=closeError;
-      }
-      if(error){if(error==='所需灵气不足')failures.push(id);continue;}c.act(c.enemy,id);
-    }
+    for(const id of this.enemyQueue??this.enemyPlan??[]){let error=c.legal(c.enemy,id);for(let steps=0;error==='距离不适合'&&steps<2;steps++){const fix=activeFallback(c,c.enemy,{blockedId:id});if(!fix.retry)break;c.act(c.enemy,fix.id);error=c.legal(c.enemy,id);}if(error){if(error==='所需灵气不足')failures.push(id);continue;}c.act(c.enemy,id);}
     return {failures,qi:{...c.enemy.qi}};
   }
   reactionDecision(s,raw,{threshold=15,reserveHeavy=true}={}){

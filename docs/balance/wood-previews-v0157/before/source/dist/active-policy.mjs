@@ -17,11 +17,6 @@ export function activeFallback(b,a,{blockedId=null}={}){
  if(finishers[0])return {id:finishers[0].id,reason:'对手已无付费应对，这一击可以结束斗法；倒下后不会再触发反伤。'};
  if(e.charge){const interrupt=skills.find(s=>s.interrupt&&legal(s.id));if(interrupt)return {id:interrupt.id,reason:`按备用策略打断「${e.charge.name}」。`};const escape=['near','far'].find(id=>legal(id)&&!e.charge.range.includes(b.distance+b.skill(a,id).delta));if(escape)return {id:escape,reason:'按备用策略退离已公开蓄势范围。'};}
  const blocked=b.skill(a,blockedId);
- // Full preparation extends these harvests to far range. Partial preparation
- // still permits a paid move to mid range; this is not missing preparation.
- if(blocked?.farPrep&&b.distance===2&&b.legal(a,blockedId)==='远距收获需要对应准备满3层'){
-  if(a.ap>=blocked.ap+1&&legal('near')&&atDistance(b,a,blocked,1))return {id:'near',retry:true,reason:`「${blocked.name}」准备未满3层，先接近再按预告收获；移动消耗行动，收获仍需付费。`};
- }
  if(blocked&&b.legal(a,blockedId)==='距离不适合'){
   const d=blocked.range.toSorted((x,y)=>Math.abs(x-b.distance)-Math.abs(y-b.distance))[0],steps=Math.abs(d-b.distance),id=d<b.distance?'near':'far';
   if(a.ap>=steps+blocked.ap&&legal(id)&&atDistance(b,a,blocked,d))return {id,retry:true,reason:`「${blocked.name}」超距，先${id==='near'?'接近':'拉开'}再施展；移动同样付行动。`};
