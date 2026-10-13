@@ -17,7 +17,7 @@ function compare(b,path){
  const predicted=model.execute(b,path);assert.deepEqual(fields(predicted),fields(actual),`${b.opponentId}/${b.player.key}/${b.distance}/${path}`);assert.equal(JSON.stringify(b),frozen);comparisons++;return predicted;
 }
 for(const kind of ['growth','parasite'])for(const mode of ['attack','counter']){
- const b=new ChallengeBattle('flame',{},kind==='growth'?'symbiosis':'parasitic');b.player.ap=1;b.player.qi=Object.fromEntries(Object.keys(b.player.qi).map(k=>[k,k==='any'?1:0]));b.enemy.shield=60;b.enemy.reaction=false;b.enemyPlan=[];b.enemyQueue=[];b.enemy.growth=kind==='growth'?2:0;b.enemy.growthPending=kind==='growth';b.player.parasite=kind==='parasite'?3:0;b.player.parasiteTurns=2;
+ const b=new ChallengeBattle('flame',{},kind==='growth'?'symbiosis':'parasitic');b.player.ap=1;b.player.qi=Object.fromEntries(Object.keys(b.player.qi).map(k=>[k,k==='any'?(kind==='parasite'?2:1):0]));b.enemy.shield=60;b.enemy.reaction=false;b.enemyPlan=[];b.enemyQueue=[];b.enemy.growth=kind==='growth'?2:0;b.enemy.growthPending=kind==='growth';b.player.parasite=kind==='parasite'?3:0;b.player.parasiteTurns=2;
  const frozen=JSON.stringify(b),c=model.playerPressure(b,mode);assert.equal(JSON.stringify(b),frozen);assert.equal(c.player.ap,0);assert.equal(c.player.qi.any,0);
  if(kind==='growth'){assert.equal(c.enemy.growth,0);assert.equal(c.enemy.growthPending,false);}else assert.equal(c.player.parasite,0);
 }

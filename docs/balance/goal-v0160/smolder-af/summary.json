@@ -1,0 +1,92 @@
+{
+  "label": "AE once-storm38 survival tradeoff confirmation",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "storm38-smolder205/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "kindle": 88,
+        "ashenward": 45,
+        "meditate": 3,
+        "cinder": 10,
+        "firestorm": 10,
+        "quench": 6,
+        "basic": 3,
+        "flare": 2,
+        "far": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "storm38-smolder205/earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "kindle": 18,
+        "firestorm": 19,
+        "basic": 4,
+        "flare": 14,
+        "cinder": 13,
+        "sever-terrain": 1,
+        "quench": 1,
+        "meditate": 2,
+        "near": 2,
+        "ashenward": 3,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "storm38-smolder210/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 61,
+      "actions": {
+        "kindle": 90,
+        "ashenward": 46,
+        "meditate": 1,
+        "cinder": 11,
+        "firestorm": 8,
+        "quench": 6,
+        "basic": 5,
+        "flare": 4,
+        "far": 1,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "storm38-smolder210/earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "kindle": 18,
+        "firestorm": 19,
+        "basic": 4,
+        "flare": 14,
+        "cinder": 13,
+        "sever-terrain": 1,
+        "quench": 1,
+        "meditate": 2,
+        "near": 2,
+        "ashenward": 3,
+        "far": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

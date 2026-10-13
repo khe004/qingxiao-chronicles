@@ -1,0 +1,79 @@
+{
+  "label": "AZ smolder HP225 and limited reflection 13/12; original frozen configurations, prepared only",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "smolder-reflect13--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 84,
+      "actions": {
+        "kindle": 118,
+        "ashenward": 72,
+        "meditate": 1,
+        "quench": 22,
+        "cinder": 15,
+        "firestorm": 6,
+        "flare": 6,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-reflect13--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "kindle": 36,
+        "ashenward": 30,
+        "firestorm": 12,
+        "basic": 6,
+        "meditate": 9,
+        "quench": 3,
+        "cinder": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-reflect12--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 81,
+      "actions": {
+        "kindle": 118,
+        "ashenward": 69,
+        "meditate": 1,
+        "quench": 16,
+        "cinder": 17,
+        "firestorm": 6,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-reflect12--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "kindle": 36,
+        "ashenward": 15,
+        "flare": 15,
+        "firestorm": 12,
+        "basic": 12,
+        "meditate": 3,
+        "cinder": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

@@ -9,6 +9,10 @@ import {MAJORS,normalizeLoadout,RULES} from '../dist/engine.mjs';
 
 import {TACTICAL_LOADOUTS} from '../dist/tactics.mjs';
 import {verifyCultivationReuse,cultivationAffected} from './cultivation-reuse.mjs';
+import {changedRuleSkills,skillRuleAffected} from './skill-rule-reuse.mjs';
+import {changedActorRules,actorRuleAffected} from './actor-rule-reuse.mjs';
+import {pathToFileURL} from 'node:url';
+import {resolve} from 'node:path';
 
 if(!isMainThread){
   for(const job of workerData){
@@ -39,33 +43,58 @@ if(!isMainThread){
   assert.equal(jobs.length,78*gamesPerPair*selected.length);
   await mkdir(out,{recursive:true});
   const sourceFiles=['dist/rules.mjs','dist/engine.mjs','dist/prepared.mjs','dist/auto.mjs','dist/tactics.mjs','dist/active-policy.mjs',
-    'dist/recorded-battle.mjs','scripts/predictive-arena.mjs','scripts/planner-internals.mjs','scripts/check-twelve-school.mjs','scripts/cultivation-reuse.mjs'];
+    'dist/recorded-battle.mjs','scripts/predictive-arena.mjs','scripts/planner-internals.mjs','scripts/check-twelve-school.mjs','scripts/cultivation-reuse.mjs','scripts/skill-rule-reuse.mjs','scripts/actor-rule-reuse.mjs'];
   const hashes={};
   const resume=process.argv.includes('--resume');
   const reuseFrom=process.argv.find(a=>a.startsWith('--reuse-from='))?.slice('--reuse-from='.length);
   const cultivationReuse=process.argv.includes('--cultivation-only-reuse');
+  const skillReuse=process.argv.includes('--skill-rule-reuse');
+  const actorReuse=process.argv.includes('--actor-rule-reuse');
+  assert.ok(!actorReuse||(reuseFrom&&tactical&&!skillReuse&&!cultivationReuse),'Actor reuse needs a tactical source report and cannot combine reuse modes');
   assert.ok(!cultivationReuse||(reuseFrom&&tactical),'Cultivation reuse needs a tactical source report');
-  assert.ok(!(resume&&reuseFrom),'Choose resume or structural reuse');
+  assert.ok(!skillReuse||(reuseFrom&&tactical&&!cultivationReuse),'Skill-only reuse needs a tactical source report and cannot combine with cultivation reuse');
+  assert.ok(!(resume&&reuseFrom)||actorReuse||skillReuse,'Resume plus reuse needs a verified actor/skill rule boundary');
   const reuseHashes=reuseFrom?JSON.parse(await readFile(`${reuseFrom}/source-hashes.json`,'utf8')):null;
+  let changedSkills=[],actorProof={skills:[],majors:[]};
+  if(skillReuse||actorReuse){
+    const source=await readFile(`${reuseFrom}/source/dist/rules.mjs`);
+    assert.equal(createHash('sha256').update(source).digest('hex'),reuseHashes['dist/rules.mjs'],'Frozen old rule source hash mismatch');
+    const old=(await import(pathToFileURL(resolve(reuseFrom,'source/dist/rules.mjs')))).RULES;
+    assert.deepEqual(old,JSON.parse(await readFile(`${reuseFrom}/summary.json`,'utf8')).rules,'Old rule summary and frozen source differ');
+    if(actorReuse){actorProof=changedActorRules(old,RULES,builds);changedSkills=actorProof.skills;}
+    else changedSkills=changedRuleSkills(old,RULES);
+    for(const {key,id} of changedSkills)assert.ok(builds.some(b=>b.key===key),'Unknown changed school');
+  }
   const previousHashes=resume?JSON.parse(await readFile(`${out}/source-hashes.json`,'utf8')):null;
   for(const name of sourceFiles){
     const data=await readFile(new URL('../'+name,import.meta.url));
     hashes[name]=createHash('sha256').update(data).digest('hex');
-    if(reuseFrom&&!['scripts/check-twelve-school.mjs','scripts/cultivation-reuse.mjs'].includes(name)){
-      if(cultivationReuse&&['dist/rules.mjs','dist/engine.mjs','dist/tactics.mjs'].includes(name))verifyCultivationReuse(name,await readFile(`${reuseFrom}/source/${name}`,'utf8'),data.toString());
+    if(reuseFrom&&!['scripts/check-twelve-school.mjs','scripts/cultivation-reuse.mjs','scripts/skill-rule-reuse.mjs','scripts/actor-rule-reuse.mjs'].includes(name)){
+      if(skillReuse||actorReuse){if(name!=='dist/rules.mjs')assert.equal(hashes[name],reuseHashes[name],`Cannot reuse changed combat source: ${name}`);}
+      else if(cultivationReuse&&['dist/rules.mjs','dist/engine.mjs','dist/tactics.mjs'].includes(name))verifyCultivationReuse(name,await readFile(`${reuseFrom}/source/${name}`,'utf8'),data.toString());
       else if(name==='dist/tactics.mjs'){const old=await readFile(`${reuseFrom}/source/${name}`,'utf8');const marker='export const TACTICAL_LOADOUTS=';assert.equal(old.split(marker).length,2);assert.equal(data.toString().split(marker).length,2);assert.equal(old.split(marker)[0],data.toString().split(marker)[0],'Only example loadout arrays may change during reuse');for(const source of [old,data.toString()])JSON.parse(source.split(marker)[1].trim().replace(/;$/,''));}
       else assert.equal(hashes[name],reuseHashes[name],`Cannot reuse changed combat source: ${name}`);
     }
-    if(resume&&name!=='scripts/check-twelve-school.mjs')assert.equal(hashes[name],previousHashes[name],`Resume rules changed: ${name}`);
+    if(resume&&!['scripts/check-twelve-school.mjs','scripts/skill-rule-reuse.mjs','scripts/actor-rule-reuse.mjs'].includes(name))assert.equal(hashes[name],previousHashes[name],`Resume rules changed: ${name}`);
     await mkdir(`${out}/source/${name.slice(0,name.lastIndexOf('/'))}`,{recursive:true});
     await writeFile(`${out}/source/${name}`,data);
   }
   await writeFile(`${out}/source-hashes.json`,JSON.stringify(hashes,null,2)+'\n');
   const stored=resume?JSON.parse(gunzipSync(await readFile(`${out}/checkpoint.json.gz`))):[];
+  let provenance=resume?await readFile(`${out}/reuse-provenance.json`,'utf8').then(JSON.parse).catch(error=>{if(error.code==='ENOENT')return null;throw error;}):null;
+  if(resume&&stored.some(r=>r.structurallyReused))assert.ok(provenance?.reuseFrom,'Resume must preserve structural reuse provenance');
+  const expectedProvenance={reuseFrom:reuseFrom??null,changedSkills:skillReuse||actorReuse?changedSkills:undefined,changedMajorHp:actorReuse?actorProof.majors:undefined,changedMajorPassives:actorReuse?actorProof.passives:undefined,
+    reuseBoundary:actorReuse?'Only RULES.skills, per-key/major starting HP, the paid bastion terrain-guard shield bonus and label may differ; every match with an affected fighter or equipped skill rerun. Economy, class defenses, other passives, loadouts and all combat source identical.':skillReuse?'Only RULES.skills and label may differ; every match with either actor equipping a changed skill rerun; global rules, class stats, passives, recommended/tactical loadouts and all other combat source identical.':cultivationReuse?'Exact reviewed cultivation guard and display/version edits only; every actor with both cultivation skills rerun; all other combat source and reused full configurations identical.':reuseFrom?'All combat source identical; only tactical example loadout arrays may differ; reused scenarios have identical full configurations.':null};
+  if(resume&&reuseFrom){
+    assert.ok(provenance,'Resume plus reuse must preserve the original reuse origin');
+    for(const [field,value] of Object.entries(expectedProvenance))assert.deepEqual(provenance[field],value,`Resume reuse origin or boundary changed: ${field}`);
+  }else if(!resume)provenance=expectedProvenance;
+  provenance??={reuseFrom:null,reuseBoundary:null};
+  await writeFile(`${out}/reuse-provenance.json`,JSON.stringify(provenance,null,2)+'\n');
   const records=Array(jobs.length);
   for(const r of stored){assert.ok(Number.isInteger(r.index)&&r.index>=0&&r.index<jobs.length&&!records[r.index],'Invalid or duplicate checkpoint index');records[r.index]=r;}
   let complete=stored.length,reused=stored.filter(r=>r.structurallyReused).length;
-  if(reuseFrom){const old=JSON.parse(gunzipSync(await readFile(`${reuseFrom}/records.json.gz`)));for(const job of jobs){if(cultivationReuse&&cultivationAffected(job))continue;const match=old.find(r=>['a','b','first','distance','controller','tendency','kind'].every(k=>JSON.stringify(r[k])===JSON.stringify(job[k])));if(match){records[job.index]={...match,index:job.index,structurallyReused:true};complete++;reused++;}}console.log(`Structural reuse: ${reused} unchanged scenarios; rerun ${jobs.length-reused} affected scenarios.`);}
+  if(reuseFrom){const old=JSON.parse(gunzipSync(await readFile(`${reuseFrom}/records.json.gz`)));for(const job of jobs){if(records[job.index]||cultivationReuse&&cultivationAffected(job)||skillReuse&&skillRuleAffected(job,changedSkills)||actorReuse&&actorRuleAffected(job,actorProof))continue;const match=old.find(r=>['a','b','first','distance','controller','tendency','kind'].every(k=>JSON.stringify(r[k])===JSON.stringify(job[k])));if(match){records[job.index]={...match,index:job.index,structurallyReused:true};complete++;reused++;}}console.log(`Structural reuse: ${reused} unchanged scenarios; resume keeps ${stored.length} saved scenarios; execute ${jobs.length-complete} missing scenarios.`);}
   if(resume){
     records.forEach((r,i)=>{
       const {index,...s}=jobs[i];assert.equal(r.index,index);
@@ -89,13 +118,15 @@ if(!isMainThread){
   for(const controller of selected){
     const list=records.filter(r=>r.controller===controller);
     const matrix=builds.map(()=>builds.map(()=>({games:0,wins:0,losses:0,draws:0})));
-    const mirrors=builds.map(b=>({id:b.id,games:0,firstWins:0,secondWins:0,draws:0}));
+    const mirrors=builds.map(b=>({id:b.id,games:0,firstWins:0,secondWins:0,draws:0,byDistance:distances.map(distance=>({distance,games:0,firstWins:0,secondWins:0,draws:0}))}));
     for(const r of list){
       const i=builds.findIndex(b=>b.id===r.a.id),j=builds.findIndex(b=>b.id===r.b.id);
       if(i===j){
         const m=mirrors[i];m.games++;
         if(r.winner===null)m.draws++;
         else if(r.winner===r.first)m.firstWins++;else m.secondWins++;
+        const d=m.byDistance.find(d=>d.distance===r.distance);d.games++;
+        if(r.winner===null)d.draws++;else if(r.winner===r.first)d.firstWins++;else d.secondWins++;
         continue;
       }
       for(const [row,col,seat] of [[i,j,0],[j,i,1]]){
@@ -123,7 +154,7 @@ if(!isMainThread){
   const head=(await readFile('.git/HEAD','utf8')).trim();
   const sourceCommit=head.startsWith('ref: ')?(await readFile('.git/'+head.slice(5),'utf8')).trim():head;
   assert.match(sourceCommit,/^[0-9a-f]{40}$/);
-  const summary={sourceCommit,rules:RULES,measurement:{executed:records.length-reused,structurallyReused:reused,reuseFrom:reuseFrom??null,reuseBoundary:cultivationReuse?'Exact reviewed cultivation guard and display/version edits only; every actor with both cultivation skills rerun; all other combat source and reused full configurations identical.':'All combat source identical; only tactical example loadout arrays may differ; reused scenarios have identical full configurations.'},
+  const summary={sourceCommit,rules:RULES,measurement:{executed:records.length-reused,structurallyReused:reused,...provenance},
     builds,limits:{rounds:30,distances,tendency,loadout:tactical?'tactical sample six skills':'recommended six skills',
       gamesPerPairPerController:gamesPerPair,controllers:selected,
       mirrorDiagonal:'not included in cross matrix; mirror first/second wins reported separately',
@@ -147,8 +178,8 @@ if(!isMainThread){
     }
     md.push('### 跨流派总计（剔除镜像）','','| 流派 | 胜 / 负 / 未决 | 胜率 |','| --- | ---: | ---: |');
     for(const r of g.ranking)md.push(`| ${r.name} | ${r.wins} / ${r.losses} / ${r.draws} | ${pct(r)} |`);
-    md.push('','### 镜像（独立统计）','','| 流派 | 先手胜 | 后手胜 | 未决 |','| --- | ---: | ---: | ---: |');
-    g.mirrors.forEach((m,i)=>md.push(`| ${builds[i].name} | ${m.firstWins} | ${m.secondWins} | ${m.draws} |`));md.push('');
+    md.push('','### 镜像（按初始距离独立统计）','','| 流派 | 距离 | 先手胜 | 后手胜 | 未决 |','| --- | --- | ---: | ---: | ---: |');
+    g.mirrors.forEach((m,i)=>m.byDistance.forEach(d=>md.push(`| ${builds[i].name} | ${['近','中','远'][d.distance]} | ${d.firstWins} | ${d.secondWins} | ${d.draws} |`)));md.push('');
   }
   md.push('## 复现','','```sh',`node scripts/check-twelve-school.mjs /tmp/qingxiao-twelve-school${tactical?' --loadouts=tactics':''} --controllers=${selected.join(',')} --distances=${distances.join(',')} --tendency=${tendency}`,'```','',
     '原始逐场结果、动作统计、完整纪要见 records.json.gz；summary.json 包含每格胜负未决场数。source/ 冻结测量源码，source-hashes.json 记录 SHA-256。','');

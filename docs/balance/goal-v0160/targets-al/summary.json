@@ -1,0 +1,78 @@
+{
+  "label": "AL two-qi partial cleanse, stronger chill payoff; original two remaining locked pairs",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "flame/smolder--water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "flare": 12,
+        "kindle": 18,
+        "firestorm": 9,
+        "basic": 9,
+        "quench": 3,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 22,
+        "icebreaker": 21,
+        "waterbolt": 13,
+        "basic": 10
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 51,
+      "actions": {
+        "kindle": 64,
+        "ashenward": 39,
+        "meditate": 3,
+        "quench": 12,
+        "cinder": 8,
+        "firestorm": 7,
+        "near": 6,
+        "far": 4,
+        "flare": 1
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "frost": 28,
+        "icebreaker": 24,
+        "basic": 8,
+        "waterbolt": 14,
+        "mirrorwater": 4,
+        "meditate": 2,
+        "far": 1,
+        "rinse": 1,
+        "near": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

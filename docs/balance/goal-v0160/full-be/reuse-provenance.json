@@ -1,0 +1,31 @@
+{
+  "reuseFrom": "/workspace/qingxiao-chronicles/docs/balance/goal-v0160/full-bd",
+  "changedSkills": [
+    {
+      "key": "wood",
+      "id": "reap"
+    }
+  ],
+  "changedMajorHp": [
+    {
+      "key": "fire",
+      "major": "ignite"
+    },
+    {
+      "key": "sword",
+      "major": "quick"
+    },
+    {
+      "key": "water",
+      "major": "tidal"
+    }
+  ],
+  "changedMajorPassives": [
+    {
+      "key": "earth",
+      "major": "bastion",
+      "field": "bastionShield"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills, per-key/major starting HP, the paid bastion terrain-guard shield bonus and label may differ; every match with an affected fighter or equipped skill rerun. Economy, class defenses, other passives, loadouts and all combat source identical."
+}

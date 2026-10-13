@@ -1,0 +1,5585 @@
+{
+  "label": "G rules; isolated ice mana catalyst / paid earth retaliation / combined guards",
+  "jobs": [
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ice-catalyst/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-earth/bastion",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "thin-stoneback/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/water/cold-wood/parasitic",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-sword/heavy",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-fire/ignite",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "both/earth/bastion-flame/fierce",
+      "skillOverrides": {
+        "water": {
+          "icebreaker": {
+            "cost": {
+              "water": 1,
+              "any": 1
+            }
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "shield": 6,
+            "reflect": 8,
+            "reflectPrepPower": 4,
+            "reflectHits": 1
+          }
+        }
+      }
+    }
+  ]
+}

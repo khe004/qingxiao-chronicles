@@ -1,0 +1,105 @@
+{
+  "label": "Isolated reserve valuation; otherwise unchanged numerical rules, six guarded pairs",
+  "games": 36,
+  "limit": 30,
+  "groups": {
+    "sword/quick-flame/fierce/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "swift": 12,
+        "basic": 35,
+        "guard": 20,
+        "lunge": 4,
+        "meditate": 2,
+        "strike": 6,
+        "near": 5
+      },
+      "unusedAP": 0
+    },
+    "sword/heavy-flame/fierce/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "swift": 12,
+        "expose": 10,
+        "basic": 34,
+        "strike": 5,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "sword/heavy-water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "swift": 18,
+        "expose": 8,
+        "basic": 43,
+        "strike": 4,
+        "meditate": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce-water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "eruption": 16,
+        "meditate": 8,
+        "kindle": 17,
+        "quench": 7,
+        "basic": 9,
+        "flare": 4,
+        "firestorm": 7
+      },
+      "unusedAP": 0
+    },
+    "sword/heavy-wood/symbiosis/immediate/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 56,
+      "actions": {
+        "swift": 30,
+        "expose": 39,
+        "basic": 4,
+        "strike": 55,
+        "near": 36,
+        "riposte": 2
+      },
+      "unusedAP": 0
+    },
+    "sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 49,
+      "actions": {
+        "swift": 52,
+        "near": 28,
+        "pierce": 3,
+        "basic": 14,
+        "strike": 31,
+        "lunge": 11,
+        "guard": 4
+      },
+      "unusedAP": 0
+    }
+  }
+}

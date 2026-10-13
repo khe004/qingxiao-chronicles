@@ -1,6 +1,6 @@
 # qingxiao-chronicles
 
-当前页面版本 **v0.15.7**：[木修预告兑现复查](docs/木修预告兑现复查-v0157.md) · [12×12胜率表（战斗规则v0.15.3）](docs/balance/cleanse-v0153/final/report.md) · [木修各配装与打法对照](docs/balance/wood-previews-v0157/report.md)。
+当前页面版本 **v0.16.0**：[采用与边界](docs/十二流派平衡调整-v0160.md) · [完整12×12](docs/balance/goal-v0160/final/report.md) · [可交互胜率页](https://qingxiao-duel.njuhekai.chatgpt.site/balance.html)。固定均衡样例达标；强攻、稳守、单控制器弱格和反制结果分别保留。
 
 青霄纪
 

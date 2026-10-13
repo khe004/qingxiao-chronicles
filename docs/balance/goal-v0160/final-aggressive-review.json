@@ -1,0 +1,2344 @@
+{
+  "scope": "Same twelve original tactical presets, prepared controller, three ranges and swapped initiative; no results merged into balanced acceptance",
+  "tendency": "aggressive",
+  "candidate": {
+    "tendency": "aggressive",
+    "games": 468,
+    "unresolved": 0,
+    "rounds": {
+      "median": 4,
+      "maximum": 6,
+      "atLeast20": 0
+    },
+    "highestRate": 68.18,
+    "beatsEveryOpponent": [],
+    "rows": [
+      {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "games": 66,
+        "wins": 33,
+        "losses": 33,
+        "unresolved": 0,
+        "winRate": 50,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 3,
+        "opponents": [
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "blaze": 145,
+          "seed": 102,
+          "spark": 333,
+          "heal": 49,
+          "basic": 40,
+          "purify": 2,
+          "inferno": 8,
+          "seedburst": 8,
+          "near": 13,
+          "far": 5,
+          "meditate": 8
+        },
+        "restorativeActions": {
+          "heal": 49,
+          "purify": 2,
+          "meditate": 8
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "games": 66,
+        "wins": 41,
+        "losses": 25,
+        "unresolved": 0,
+        "winRate": 62.12,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 5,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "spark": 405,
+          "sproutguard": 105,
+          "basic": 45,
+          "blaze": 133,
+          "heal": 12,
+          "seed": 40,
+          "far": 7,
+          "near": 15,
+          "meditate": 4,
+          "nourish": 11
+        },
+        "restorativeActions": {
+          "sproutguard": 105,
+          "heal": 12,
+          "meditate": 4,
+          "nourish": 11
+        },
+        "unusedAP": 2
+      },
+      {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "games": 66,
+        "wins": 45,
+        "losses": 21,
+        "unresolved": 0,
+        "winRate": 68.18,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 8,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "swift": 253,
+          "basic": 15,
+          "strike": 177,
+          "near": 98,
+          "lunge": 61,
+          "unity": 9,
+          "meditate": 3,
+          "guard": 5,
+          "pierce": 13,
+          "far": 1,
+          "purify": 1
+        },
+        "restorativeActions": {
+          "meditate": 3,
+          "guard": 5,
+          "purify": 1
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "games": 66,
+        "wins": 25,
+        "losses": 41,
+        "unresolved": 0,
+        "winRate": 37.88,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 3,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "swift": 231,
+          "expose": 34,
+          "near": 93,
+          "strike": 150,
+          "far": 5,
+          "unity": 46,
+          "riposte": 12,
+          "basic": 24,
+          "purify": 6,
+          "meditate": 5,
+          "cleave": 8,
+          "sever-growth": 1
+        },
+        "restorativeActions": {
+          "riposte": 12,
+          "purify": 6,
+          "meditate": 5
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "games": 66,
+        "wins": 25,
+        "losses": 41,
+        "unresolved": 0,
+        "winRate": 37.88,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 1,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "flare": 167,
+          "kindle": 187,
+          "ashenward": 38,
+          "eruption": 98,
+          "firestorm": 68,
+          "meditate": 22,
+          "basic": 20,
+          "far": 4,
+          "near": 33,
+          "purify": 1
+        },
+        "restorativeActions": {
+          "ashenward": 38,
+          "meditate": 22,
+          "purify": 1
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "games": 66,
+        "wins": 34,
+        "losses": 32,
+        "unresolved": 0,
+        "winRate": 51.52,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 2,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "flare": 244,
+          "kindle": 191,
+          "far": 5,
+          "firestorm": 66,
+          "cinder": 119,
+          "ashenward": 37,
+          "purify": 2,
+          "near": 2,
+          "basic": 21,
+          "meditate": 14
+        },
+        "restorativeActions": {
+          "ashenward": 37,
+          "purify": 2,
+          "meditate": 14
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "games": 66,
+        "wins": 19,
+        "losses": 47,
+        "unresolved": 0,
+        "winRate": 28.79,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 1,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "waterbolt": 532,
+          "frost": 44,
+          "repulse": 5,
+          "mirrorwater": 62,
+          "icebreaker": 28,
+          "basic": 1,
+          "near": 7,
+          "meditate": 6,
+          "purify": 1,
+          "far": 3
+        },
+        "restorativeActions": {
+          "mirrorwater": 62,
+          "meditate": 6,
+          "purify": 1
+        },
+        "unusedAP": 4
+      },
+      {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "games": 66,
+        "wins": 21,
+        "losses": 45,
+        "unresolved": 0,
+        "winRate": 31.82,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 0,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "waterbolt": 589,
+          "gather": 34,
+          "tidespear": 17,
+          "near": 6,
+          "surge": 17,
+          "waterwall": 6,
+          "purify": 1,
+          "far": 4,
+          "meditate": 3
+        },
+        "restorativeActions": {
+          "waterwall": 6,
+          "purify": 1,
+          "meditate": 3
+        },
+        "unusedAP": 9
+      },
+      {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "games": 66,
+        "wins": 44,
+        "losses": 22,
+        "unresolved": 0,
+        "winRate": 66.67,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 6,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "wooddart": 566,
+          "cultivate": 41,
+          "bloomstrike": 43,
+          "graft": 14,
+          "thornscreen": 15,
+          "near": 1,
+          "far": 2,
+          "meditate": 1,
+          "bloomheal": 2
+        },
+        "restorativeActions": {
+          "thornscreen": 15,
+          "meditate": 1,
+          "bloomheal": 2
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "games": 66,
+        "wins": 44,
+        "losses": 22,
+        "unresolved": 0,
+        "winRate": 66.67,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 7,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "wooddart": 520,
+          "parasite": 62,
+          "reap": 55,
+          "cultivate": 4,
+          "near": 1,
+          "basic": 2
+        },
+        "restorativeActions": {},
+        "unusedAP": 0
+      },
+      {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "games": 66,
+        "wins": 34,
+        "losses": 32,
+        "unresolved": 0,
+        "winRate": 51.52,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 4,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "stonebolt": 545,
+          "gravel": 22,
+          "landbreak": 24,
+          "stoneback": 94,
+          "far": 10,
+          "near": 8,
+          "foundation": 18,
+          "basic": 2,
+          "quakesunder": 13
+        },
+        "restorativeActions": {
+          "stoneback": 94
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "games": 66,
+        "wins": 31,
+        "losses": 35,
+        "unresolved": 0,
+        "winRate": 46.97,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 3,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "stonebolt": 664,
+          "foundation": 14,
+          "basic": 5,
+          "mountain": 1,
+          "gravel": 13,
+          "landbreak": 6,
+          "far": 3,
+          "purify": 1,
+          "near": 3
+        },
+        "restorativeActions": {
+          "purify": 1
+        },
+        "unusedAP": 0
+      }
+    ],
+    "timeouts": []
+  },
+  "baseline": {
+    "tendency": "aggressive",
+    "games": 468,
+    "unresolved": 0,
+    "rounds": {
+      "median": 4,
+      "maximum": 7,
+      "atLeast20": 0
+    },
+    "highestRate": 78.79,
+    "beatsEveryOpponent": [],
+    "rows": [
+      {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "games": 66,
+        "wins": 20,
+        "losses": 46,
+        "unresolved": 0,
+        "winRate": 30.3,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 1,
+        "opponents": [
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "seed": 112,
+          "blaze": 195,
+          "basic": 35,
+          "spark": 251,
+          "heal": 42,
+          "inferno": 23,
+          "near": 37,
+          "seedburst": 8,
+          "far": 4,
+          "meditate": 16,
+          "purify": 1,
+          "sever-growth": 2,
+          "unparasite": 1
+        },
+        "restorativeActions": {
+          "heal": 42,
+          "meditate": 16,
+          "purify": 1
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "games": 66,
+        "wins": 19,
+        "losses": 47,
+        "unresolved": 0,
+        "winRate": 28.79,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 1,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "spark": 375,
+          "heal": 29,
+          "blaze": 141,
+          "seed": 64,
+          "nourish": 2,
+          "basic": 60,
+          "near": 30,
+          "far": 8,
+          "sproutguard": 57,
+          "meditate": 1
+        },
+        "restorativeActions": {
+          "heal": 29,
+          "nourish": 2,
+          "sproutguard": 57,
+          "meditate": 1
+        },
+        "unusedAP": 1
+      },
+      {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "games": 66,
+        "wins": 43,
+        "losses": 23,
+        "unresolved": 0,
+        "winRate": 65.15,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 6,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "swift": 234,
+          "basic": 46,
+          "strike": 148,
+          "meditate": 14,
+          "purify": 3,
+          "near": 116,
+          "lunge": 79,
+          "pierce": 11,
+          "guard": 6,
+          "unity": 16,
+          "far": 1
+        },
+        "restorativeActions": {
+          "meditate": 14,
+          "purify": 3,
+          "guard": 6
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "games": 66,
+        "wins": 21,
+        "losses": 45,
+        "unresolved": 0,
+        "winRate": 31.82,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 1,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "swift": 217,
+          "meditate": 21,
+          "strike": 152,
+          "basic": 25,
+          "expose": 88,
+          "near": 97,
+          "unity": 41,
+          "riposte": 12,
+          "far": 2,
+          "purify": 2,
+          "cleave": 2
+        },
+        "restorativeActions": {
+          "meditate": 21,
+          "riposte": 12,
+          "purify": 2
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "games": 66,
+        "wins": 29,
+        "losses": 37,
+        "unresolved": 0,
+        "winRate": 43.94,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 5,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "flare": 189,
+          "kindle": 201,
+          "far": 4,
+          "eruption": 102,
+          "firestorm": 54,
+          "ashenward": 6,
+          "basic": 4,
+          "meditate": 4,
+          "near": 21
+        },
+        "restorativeActions": {
+          "ashenward": 6,
+          "meditate": 4
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "games": 66,
+        "wins": 30,
+        "losses": 36,
+        "unresolved": 0,
+        "winRate": 45.45,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 2,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "flare": 118,
+          "kindle": 253,
+          "cinder": 221,
+          "ashenward": 12,
+          "basic": 7,
+          "far": 5,
+          "firestorm": 46,
+          "near": 4,
+          "meditate": 1
+        },
+        "restorativeActions": {
+          "ashenward": 12,
+          "meditate": 1
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "games": 66,
+        "wins": 33,
+        "losses": 33,
+        "unresolved": 0,
+        "winRate": 50,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 5,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "waterbolt": 600,
+          "mirrorwater": 11,
+          "frost": 51,
+          "rinse": 4,
+          "repulse": 4,
+          "icebreaker": 19,
+          "meditate": 1,
+          "near": 5,
+          "far": 4
+        },
+        "restorativeActions": {
+          "mirrorwater": 11,
+          "rinse": 4,
+          "meditate": 1
+        },
+        "unusedAP": 5
+      },
+      {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "games": 66,
+        "wins": 34,
+        "losses": 32,
+        "unresolved": 0,
+        "winRate": 51.52,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 5,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "waterbolt": 539,
+          "gather": 53,
+          "surge": 74,
+          "near": 11,
+          "basic": 5,
+          "tidespear": 8,
+          "far": 7,
+          "waterwall": 1
+        },
+        "restorativeActions": {
+          "waterwall": 1
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "games": 66,
+        "wins": 43,
+        "losses": 23,
+        "unresolved": 0,
+        "winRate": 65.15,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 7,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 1,
+            "losses": 5,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "wooddart": 638,
+          "thornscreen": 5,
+          "graft": 6,
+          "bloomstrike": 41,
+          "cultivate": 43,
+          "basic": 1,
+          "far": 5,
+          "near": 2
+        },
+        "restorativeActions": {
+          "thornscreen": 5
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "games": 66,
+        "wins": 52,
+        "losses": 14,
+        "unresolved": 0,
+        "winRate": 78.79,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 8,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "wooddart": 570,
+          "parasite": 74,
+          "reap": 66,
+          "far": 2,
+          "meditate": 4,
+          "near": 2,
+          "cultivate": 3,
+          "basic": 1
+        },
+        "restorativeActions": {
+          "meditate": 4
+        },
+        "unusedAP": 3
+      },
+      {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "games": 66,
+        "wins": 36,
+        "losses": 30,
+        "unresolved": 0,
+        "winRate": 54.55,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 5,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 5,
+            "losses": 1,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/mountain",
+            "wins": 2,
+            "losses": 4,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "stonebolt": 561,
+          "stoneback": 66,
+          "foundation": 43,
+          "landbreak": 54,
+          "gravel": 16,
+          "quakesunder": 16,
+          "near": 9,
+          "far": 9,
+          "purify": 1
+        },
+        "restorativeActions": {
+          "stoneback": 66,
+          "purify": 1
+        },
+        "unusedAP": 0
+      },
+      {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "games": 66,
+        "wins": 36,
+        "losses": 30,
+        "unresolved": 0,
+        "winRate": 54.55,
+        "beatsEveryOpponent": false,
+        "majorityOpponents": 6,
+        "opponents": [
+          {
+            "id": "fire/ignite",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "fire/sustain",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/quick",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "sword/heavy",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/fierce",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "flame/smolder",
+            "wins": 3,
+            "losses": 3,
+            "unresolved": 0
+          },
+          {
+            "id": "water/cold",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "water/tidal",
+            "wins": 6,
+            "losses": 0,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/symbiosis",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "wood/parasitic",
+            "wins": 0,
+            "losses": 6,
+            "unresolved": 0
+          },
+          {
+            "id": "earth/bastion",
+            "wins": 4,
+            "losses": 2,
+            "unresolved": 0
+          }
+        ],
+        "actions": {
+          "stonebolt": 613,
+          "basic": 3,
+          "foundation": 29,
+          "mountain": 12,
+          "landbreak": 32,
+          "gravel": 31,
+          "far": 2,
+          "meditate": 1,
+          "purify": 1,
+          "earthmend": 1,
+          "sever-growth": 3
+        },
+        "restorativeActions": {
+          "meditate": 1,
+          "purify": 1,
+          "earthmend": 1
+        },
+        "unusedAP": 0
+      }
+    ],
+    "timeouts": []
+  },
+  "comparison": {
+    "highestRateDelta": -10.61,
+    "unresolvedDelta": 0,
+    "newBeatsEveryOpponent": []
+  }
+}

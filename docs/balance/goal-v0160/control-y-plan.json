@@ -1,0 +1,461 @@
+{
+  "label": "Y rules, retain paid force-to-far and tide setup in the unchanged forecast budget",
+  "jobs": [
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 0,
+      "distance": 0,
+      "tag": "water/cold-earth/mountain"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 1,
+      "distance": 0,
+      "tag": "water/cold-earth/mountain"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 0,
+      "distance": 1,
+      "tag": "water/cold-earth/mountain"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 1,
+      "distance": 1,
+      "tag": "water/cold-earth/mountain"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 0,
+      "distance": 2,
+      "tag": "water/cold-earth/mountain"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 1,
+      "distance": 2,
+      "tag": "water/cold-earth/mountain"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 0,
+      "distance": 0,
+      "tag": "water/tidal-earth/bastion"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 1,
+      "distance": 0,
+      "tag": "water/tidal-earth/bastion"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 0,
+      "distance": 1,
+      "tag": "water/tidal-earth/bastion"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 1,
+      "distance": 1,
+      "tag": "water/tidal-earth/bastion"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 0,
+      "distance": 2,
+      "tag": "water/tidal-earth/bastion"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "first": 1,
+      "distance": 2,
+      "tag": "water/tidal-earth/bastion"
+    }
+  ]
+}

@@ -1,0 +1,838 @@
+{
+  "scope": "complete balanced matrix",
+  "games": 936,
+  "gates": {
+    "fullMatrix": true,
+    "primaryRanking": false,
+    "combinedRanking": false,
+    "noCombinedLock": false,
+    "initiative": false,
+    "primaryDraws": true
+  },
+  "passed": false,
+  "primary": [
+    {
+      "id": "fire/ignite",
+      "name": "引燃爆发",
+      "games": 66,
+      "wins": 31,
+      "draws": 0,
+      "losses": 35,
+      "winRate": 46.97
+    },
+    {
+      "id": "fire/sustain",
+      "name": "生息消耗",
+      "games": 66,
+      "wins": 28,
+      "draws": 0,
+      "losses": 38,
+      "winRate": 42.42
+    },
+    {
+      "id": "sword/quick",
+      "name": "快剑压制",
+      "games": 66,
+      "wins": 34,
+      "draws": 0,
+      "losses": 32,
+      "winRate": 51.52
+    },
+    {
+      "id": "sword/heavy",
+      "name": "藏锋重剑",
+      "games": 66,
+      "wins": 30,
+      "draws": 0,
+      "losses": 36,
+      "winRate": 45.45
+    },
+    {
+      "id": "flame/fierce",
+      "name": "烈焰强攻",
+      "games": 66,
+      "wins": 42,
+      "draws": 0,
+      "losses": 24,
+      "winRate": 63.64
+    },
+    {
+      "id": "flame/smolder",
+      "name": "焚灼消耗",
+      "games": 66,
+      "wins": 42,
+      "draws": 0,
+      "losses": 24,
+      "winRate": 63.64
+    },
+    {
+      "id": "water/cold",
+      "name": "寒凝控距",
+      "games": 66,
+      "wins": 32,
+      "draws": 0,
+      "losses": 34,
+      "winRate": 48.48
+    },
+    {
+      "id": "water/tidal",
+      "name": "潮汐调息",
+      "games": 66,
+      "wins": 18,
+      "draws": 0,
+      "losses": 48,
+      "winRate": 27.27
+    },
+    {
+      "id": "wood/symbiosis",
+      "name": "灵植共生",
+      "games": 66,
+      "wins": 39,
+      "draws": 3,
+      "losses": 24,
+      "winRate": 59.09
+    },
+    {
+      "id": "wood/parasitic",
+      "name": "毒藤寄生",
+      "games": 66,
+      "wins": 31,
+      "draws": 0,
+      "losses": 35,
+      "winRate": 46.97
+    },
+    {
+      "id": "earth/bastion",
+      "name": "壁垒守御",
+      "games": 66,
+      "wins": 30,
+      "draws": 0,
+      "losses": 36,
+      "winRate": 45.45
+    },
+    {
+      "id": "earth/mountain",
+      "name": "镇岳压制",
+      "games": 66,
+      "wins": 36,
+      "draws": 3,
+      "losses": 27,
+      "winRate": 54.55
+    }
+  ],
+  "combined": [
+    {
+      "id": "fire/ignite",
+      "name": "引燃爆发",
+      "games": 132,
+      "wins": 53,
+      "draws": 0,
+      "losses": 79,
+      "winRate": 40.15
+    },
+    {
+      "id": "fire/sustain",
+      "name": "生息消耗",
+      "games": 132,
+      "wins": 74,
+      "draws": 0,
+      "losses": 58,
+      "winRate": 56.06
+    },
+    {
+      "id": "sword/quick",
+      "name": "快剑压制",
+      "games": 132,
+      "wins": 66,
+      "draws": 0,
+      "losses": 66,
+      "winRate": 50
+    },
+    {
+      "id": "sword/heavy",
+      "name": "藏锋重剑",
+      "games": 132,
+      "wins": 55,
+      "draws": 0,
+      "losses": 77,
+      "winRate": 41.67
+    },
+    {
+      "id": "flame/fierce",
+      "name": "烈焰强攻",
+      "games": 132,
+      "wins": 69,
+      "draws": 0,
+      "losses": 63,
+      "winRate": 52.27
+    },
+    {
+      "id": "flame/smolder",
+      "name": "焚灼消耗",
+      "games": 132,
+      "wins": 82,
+      "draws": 0,
+      "losses": 50,
+      "winRate": 62.12
+    },
+    {
+      "id": "water/cold",
+      "name": "寒凝控距",
+      "games": 132,
+      "wins": 62,
+      "draws": 0,
+      "losses": 70,
+      "winRate": 46.97
+    },
+    {
+      "id": "water/tidal",
+      "name": "潮汐调息",
+      "games": 132,
+      "wins": 46,
+      "draws": 0,
+      "losses": 86,
+      "winRate": 34.85
+    },
+    {
+      "id": "wood/symbiosis",
+      "name": "灵植共生",
+      "games": 132,
+      "wins": 87,
+      "draws": 3,
+      "losses": 42,
+      "winRate": 65.91
+    },
+    {
+      "id": "wood/parasitic",
+      "name": "毒藤寄生",
+      "games": 132,
+      "wins": 81,
+      "draws": 0,
+      "losses": 51,
+      "winRate": 61.36
+    },
+    {
+      "id": "earth/bastion",
+      "name": "壁垒守御",
+      "games": 132,
+      "wins": 56,
+      "draws": 0,
+      "losses": 76,
+      "winRate": 42.42
+    },
+    {
+      "id": "earth/mountain",
+      "name": "镇岳压制",
+      "games": 132,
+      "wins": 58,
+      "draws": 3,
+      "losses": 71,
+      "winRate": 43.94
+    }
+  ],
+  "initiative": [
+    {
+      "controller": "immediate",
+      "games": 396,
+      "firstWins": 189,
+      "draws": 0,
+      "firstRate": 47.73
+    },
+    {
+      "controller": "prepared",
+      "games": 396,
+      "firstWins": 258,
+      "draws": 3,
+      "firstRate": 65.15
+    }
+  ],
+  "primaryDraws": {
+    "games": 468,
+    "draws": 3,
+    "rate": 0.64
+  },
+  "locks": [
+    {
+      "a": "fire/ignite",
+      "b": "wood/symbiosis",
+      "games": 12,
+      "wins": [
+        0,
+        12
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "sword/quick",
+      "games": 12,
+      "wins": [
+        12,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "sword/heavy",
+      "games": 12,
+      "wins": [
+        12,
+        0
+      ]
+    },
+    {
+      "a": "flame/smolder",
+      "b": "earth/mountain",
+      "games": 12,
+      "wins": [
+        12,
+        0
+      ]
+    },
+    {
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "games": 12,
+      "wins": [
+        0,
+        12
+      ]
+    },
+    {
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "games": 12,
+      "wins": [
+        0,
+        12
+      ]
+    },
+    {
+      "a": "water/tidal",
+      "b": "earth/mountain",
+      "games": 12,
+      "wins": [
+        0,
+        12
+      ]
+    },
+    {
+      "a": "wood/symbiosis",
+      "b": "earth/bastion",
+      "games": 12,
+      "wins": [
+        12,
+        0
+      ]
+    },
+    {
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "games": 12,
+      "wins": [
+        9,
+        0
+      ]
+    },
+    {
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "games": 12,
+      "wins": [
+        12,
+        0
+      ]
+    }
+  ],
+  "singleControllerLocks": [
+    {
+      "a": "fire/ignite",
+      "b": "fire/sustain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "fire/ignite",
+      "b": "water/cold",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "fire/ignite",
+      "b": "water/tidal",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "fire/ignite",
+      "b": "wood/symbiosis",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "fire/ignite",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "fire/ignite",
+      "b": "wood/parasitic",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "fire/ignite",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "sword/quick",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "sword/quick",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "sword/heavy",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "sword/heavy",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "flame/fierce",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "fire/sustain",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "sword/quick",
+      "b": "sword/heavy",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "sword/quick",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "sword/heavy",
+      "b": "flame/fierce",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "sword/heavy",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "sword/heavy",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "flame/fierce",
+      "b": "water/cold",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "flame/fierce",
+      "b": "water/tidal",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "flame/fierce",
+      "b": "wood/symbiosis",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "flame/fierce",
+      "b": "wood/parasitic",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "flame/fierce",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "flame/smolder",
+      "b": "water/cold",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "flame/smolder",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "flame/smolder",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "flame/smolder",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "flame/smolder",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "water/cold",
+      "b": "wood/symbiosis",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/cold",
+      "b": "wood/parasitic",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/cold",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/tidal",
+      "b": "wood/parasitic",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/tidal",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "water/tidal",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    },
+    {
+      "a": "wood/symbiosis",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "wood/symbiosis",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        3,
+        0
+      ]
+    },
+    {
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "wood/parasitic",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ]
+    },
+    {
+      "a": "earth/bastion",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ]
+    }
+  ]
+}

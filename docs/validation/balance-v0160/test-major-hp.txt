@@ -1,0 +1,1 @@
+Starting/max HP in both seats, fallback, descriptions and unchanged income/AP; real HP change reruns all 24 affected scenarios and preserves 132 unchanged scenarios with provenance across resume. Validation replays only.

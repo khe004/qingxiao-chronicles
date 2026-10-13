@@ -1,0 +1,279 @@
+{
+  "label": "D rules; two isolated parasite early/full-harvest tradeoffs, full quick-sword guard and three opponent sentinels",
+  "games": 48,
+  "limit": 30,
+  "groups": {
+    "early-reap/sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 42,
+      "actions": {
+        "swift": 46,
+        "lunge": 11,
+        "near": 29,
+        "strike": 24,
+        "basic": 3,
+        "guard": 9,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "early-reap/sword/quick-wood/parasitic/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 47,
+      "actions": {
+        "swift": 38,
+        "lunge": 10,
+        "meditate": 1,
+        "strike": 17,
+        "near": 26,
+        "unparasite": 19,
+        "basic": 2,
+        "pierce": 4,
+        "sever-growth": 4,
+        "unity": 3,
+        "guard": 10
+      },
+      "unusedAP": 0
+    },
+    "early-reap/fire/ignite-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "seed": 5,
+        "blaze": 9,
+        "spark": 11,
+        "heal": 2
+      },
+      "unusedAP": 0
+    },
+    "early-reap/fire/ignite-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "seed": 2,
+        "blaze": 6,
+        "spark": 21,
+        "unparasite": 18,
+        "sever-growth": 2,
+        "heal": 12,
+        "inferno": 7,
+        "near": 2,
+        "basic": 4,
+        "meditate": 1,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "early-reap/flame/fierce-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "kindle": 5,
+        "eruption": 3,
+        "flare": 5,
+        "firestorm": 4,
+        "meditate": 1,
+        "quench": 1,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "early-reap/flame/fierce-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "flare": 3,
+        "near": 11,
+        "eruption": 10,
+        "kindle": 14,
+        "unparasite": 19,
+        "quench": 9,
+        "sever-growth": 8,
+        "ashenward": 4,
+        "firestorm": 3
+      },
+      "unusedAP": 0
+    },
+    "early-reap/wood/parasitic-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 16,
+      "actions": {
+        "wooddart": 44,
+        "parasite": 2,
+        "reap": 2
+      },
+      "unusedAP": 0
+    },
+    "early-reap/wood/parasitic-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "wooddart": 56,
+        "parasite": 34,
+        "cultivate": 8,
+        "bloomheal": 4,
+        "near": 3,
+        "reap": 2,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 42,
+      "actions": {
+        "swift": 46,
+        "lunge": 11,
+        "near": 29,
+        "strike": 24,
+        "basic": 3,
+        "guard": 9,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/sword/quick-wood/parasitic/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 48,
+      "actions": {
+        "swift": 40,
+        "lunge": 11,
+        "meditate": 2,
+        "near": 26,
+        "strike": 24,
+        "unparasite": 20,
+        "basic": 3,
+        "unity": 5,
+        "guard": 2,
+        "pierce": 1
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/fire/ignite-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "seed": 8,
+        "blaze": 14,
+        "spark": 2
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/fire/ignite-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "seed": 2,
+        "blaze": 2,
+        "spark": 30,
+        "unparasite": 23,
+        "sever-growth": 2,
+        "basic": 7,
+        "heal": 8,
+        "inferno": 7,
+        "near": 1,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/flame/fierce-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "kindle": 6,
+        "eruption": 1,
+        "flare": 6,
+        "firestorm": 5,
+        "quench": 2,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/flame/fierce-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "flare": 5,
+        "near": 10,
+        "eruption": 9,
+        "kindle": 14,
+        "unparasite": 18,
+        "quench": 8,
+        "sever-growth": 12,
+        "ashenward": 2,
+        "firestorm": 3
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/wood/parasitic-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 16,
+      "actions": {
+        "wooddart": 48
+      },
+      "unusedAP": 0
+    },
+    "priced-reap/wood/parasitic-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "wooddart": 43,
+        "parasite": 38,
+        "cultivate": 16,
+        "bloomheal": 11,
+        "near": 6,
+        "basic": 4,
+        "reap": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

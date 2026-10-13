@@ -1,0 +1,1 @@
+Balance browser: all controllers, 12×12 split/full, reversed row/column counts/HP/initiative, pair details/focus, range-separated mirrors, 1440/390/320 layouts and no runtime/HTTP errors passed.

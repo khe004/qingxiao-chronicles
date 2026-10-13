@@ -9,13 +9,13 @@ function charged(key,{ap=3,distance=1}={}){
 }
 for(const key of ['fire','sword','flame']){
   const b=charged(key),power=b.player.charge.storedPower;
-  assert.equal(b.player.ap,1);assert.equal(total(b.player.qi),3);
+  assert.equal(b.player.ap,1);assert.equal(total(b.player.qi),key==='fire'?2:3);
   for(const s of [...b.skills(b.player),...COMMON])if(!['move','meditate','guard'].includes(s.kind)){
     const before=JSON.stringify(b);assert.equal(b.act(b.player,s.id).ok,false);assert.equal(JSON.stringify(b),before,'Blocked skills must not alter the battle');
   }
   assert.ok(b.act(b.player,'far').ok);assert.equal(b.distance,2);assert.equal(b.player.ap,0);assert.equal(b.player.charge.storedPower,power);
   assert.equal(b.act(b.player,'meditate').ok,false,'Utility actions still cost AP');
-  const m=charged(key);assert.ok(m.act(m.player,'meditate').ok);assert.equal(total(m.player.qi),5);assert.equal(m.player.meditated,true);assert.equal(m.player.ap,0);
+  const m=charged(key);assert.ok(m.act(m.player,'meditate').ok);assert.equal(total(m.player.qi),key==='fire'?4:5);assert.equal(m.player.meditated,true);assert.equal(m.player.ap,0);
   m.player.ap=1;assert.equal(m.act(m.player,'meditate').ok,false,'The once-per-round limit still applies');
   const empty=charged(key,{ap:2});assert.equal(empty.player.ap,0);assert.equal(empty.act(empty.player,'far').ok,false);
   const tooClose=charged(key);assert.ok(tooClose.act(tooClose.player,'near').ok);const hp=tooClose.enemy.hp;tooClose.release(tooClose.player);assert.equal(tooClose.enemy.hp,hp);assert.equal(tooClose.player.charge,null,'Moving near still invalidates release');

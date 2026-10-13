@@ -1,0 +1,121 @@
+{
+  "label": "N isolated finite ward sweep",
+  "games": 144,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "ward12-11/immediate/balanced": {
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 111,
+      "actions": {
+        "kindle": 127,
+        "flare": 51,
+        "eruption": 9,
+        "quench": 48,
+        "basic": 12,
+        "firestorm": 25
+      },
+      "unusedAP": 0
+    },
+    "ward12-11/prepared/balanced": {
+      "games": 24,
+      "wins": 10,
+      "losses": 14,
+      "unresolved": 0,
+      "rounds": 272,
+      "actions": {
+        "kindle": 305,
+        "ashenward": 198,
+        "quench": 55,
+        "eruption": 14,
+        "meditate": 4,
+        "firestorm": 34,
+        "near": 43,
+        "basic": 4,
+        "flare": 56,
+        "far": 2,
+        "cinder": 33
+      },
+      "unusedAP": 0
+    },
+    "ward14-11/immediate/balanced": {
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 111,
+      "actions": {
+        "kindle": 127,
+        "flare": 51,
+        "eruption": 9,
+        "quench": 48,
+        "basic": 12,
+        "firestorm": 25
+      },
+      "unusedAP": 0
+    },
+    "ward14-11/prepared/balanced": {
+      "games": 24,
+      "wins": 11,
+      "losses": 13,
+      "unresolved": 0,
+      "rounds": 283,
+      "actions": {
+        "kindle": 319,
+        "ashenward": 204,
+        "quench": 46,
+        "basic": 17,
+        "eruption": 24,
+        "flare": 46,
+        "meditate": 3,
+        "near": 49,
+        "firestorm": 37,
+        "far": 2,
+        "cinder": 47
+      },
+      "unusedAP": 0
+    },
+    "ward12-12/immediate/balanced": {
+      "games": 24,
+      "wins": 3,
+      "losses": 21,
+      "unresolved": 0,
+      "rounds": 111,
+      "actions": {
+        "kindle": 127,
+        "flare": 51,
+        "eruption": 9,
+        "quench": 48,
+        "basic": 12,
+        "firestorm": 25
+      },
+      "unusedAP": 0
+    },
+    "ward12-12/prepared/balanced": {
+      "games": 24,
+      "wins": 10,
+      "losses": 14,
+      "unresolved": 0,
+      "rounds": 272,
+      "actions": {
+        "kindle": 305,
+        "ashenward": 198,
+        "quench": 55,
+        "eruption": 14,
+        "meditate": 4,
+        "firestorm": 34,
+        "near": 43,
+        "basic": 4,
+        "flare": 56,
+        "far": 2,
+        "cinder": 33
+      },
+      "unusedAP": 0
+    }
+  }
+}

@@ -1,0 +1,4973 @@
+{
+  "label": "N isolated paid stoneback sweep",
+  "jobs": [
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-16",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-20",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 20
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "reflect-24",
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "reflect": 24
+          }
+        }
+      }
+    }
+  ]
+}

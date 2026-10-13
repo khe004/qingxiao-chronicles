@@ -1,0 +1,1 @@
+PASS: source BK counter records cannot be reused as final numerics. Numerical/fee changes rejected before any output is written.

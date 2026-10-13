@@ -1,0 +1,84 @@
+{
+  "label": "waterwall-bd original configurations on BD",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "sword/quick--water/tidal/value32/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 39,
+      "actions": {
+        "swift": 39,
+        "meditate": 1,
+        "lunge": 8,
+        "strike": 28,
+        "near": 16,
+        "basic": 5,
+        "guard": 10,
+        "pierce": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/value32/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "eruption": 6,
+        "kindle": 37,
+        "far": 1,
+        "ashenward": 13,
+        "basic": 13,
+        "firestorm": 14,
+        "near": 10,
+        "flare": 6,
+        "quench": 3,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "sword/quick--water/tidal/value34/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "swift": 31,
+        "meditate": 1,
+        "lunge": 9,
+        "strike": 24,
+        "near": 16,
+        "basic": 3,
+        "guard": 7,
+        "pierce": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/value34/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 37,
+      "actions": {
+        "eruption": 6,
+        "kindle": 38,
+        "far": 2,
+        "ashenward": 16,
+        "basic": 13,
+        "firestorm": 12,
+        "near": 10,
+        "flare": 5
+      },
+      "unusedAP": 0
+    }
+  }
+}

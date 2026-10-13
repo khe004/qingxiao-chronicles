@@ -1,0 +1,697 @@
+{
+  "label": "Two one-slot counters per unresolved original controller lock; fixed original opponents",
+  "games": 240,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "targeted-0/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "seed": 7,
+        "blaze": 14,
+        "spark": 38,
+        "heal": 10,
+        "sproutguard": 1,
+        "basic": 1,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-1/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "seed": 7,
+        "blaze": 12,
+        "spark": 31,
+        "heal": 10,
+        "ember": 11,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-2/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 95,
+      "actions": {
+        "seed": 12,
+        "spark": 105,
+        "blaze": 10,
+        "heal": 27,
+        "unparasite": 78,
+        "inferno": 10,
+        "basic": 15,
+        "sever-growth": 6,
+        "meditate": 2,
+        "seedburst": 5
+      },
+      "unusedAP": 0
+    },
+    "targeted-3/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 103,
+      "actions": {
+        "seed": 8,
+        "spark": 124,
+        "blaze": 6,
+        "unparasite": 87,
+        "sever-growth": 15,
+        "heal": 31,
+        "inferno": 9,
+        "near": 1,
+        "seedburst": 4,
+        "basic": 7,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-4/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 65,
+      "actions": {
+        "spark": 109,
+        "sproutguard": 28,
+        "basic": 10,
+        "blaze": 17,
+        "seed": 5,
+        "nourish": 6,
+        "near": 11,
+        "heal": 4,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-5/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 44,
+      "actions": {
+        "spark": 63,
+        "sproutguard": 17,
+        "basic": 3,
+        "blaze": 17,
+        "near": 5,
+        "nourish": 10,
+        "seed": 2,
+        "heal": 9,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-6/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "spark": 39,
+        "ember": 24,
+        "sproutguard": 4,
+        "blaze": 3,
+        "seed": 1,
+        "heal": 24,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-7/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "spark": 58,
+        "sproutguard": 2,
+        "basic": 6,
+        "heal": 12,
+        "nourish": 12
+      },
+      "unusedAP": 0
+    },
+    "targeted-8/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 74,
+      "actions": {
+        "spark": 79,
+        "sproutguard": 27,
+        "blaze": 22,
+        "sever-growth": 41,
+        "heal": 25,
+        "near": 11,
+        "nourish": 6,
+        "basic": 5,
+        "seed": 3
+      },
+      "unusedAP": 0
+    },
+    "targeted-9/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 89,
+      "actions": {
+        "spark": 129,
+        "sproutguard": 27,
+        "blaze": 13,
+        "sever-growth": 46,
+        "heal": 21,
+        "basic": 8,
+        "nourish": 16,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "targeted-10/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 55,
+      "actions": {
+        "blaze": 17,
+        "sproutguard": 27,
+        "spark": 78,
+        "far": 2,
+        "seed": 5,
+        "heal": 12,
+        "nourish": 5,
+        "near": 7,
+        "basic": 1,
+        "sever-terrain": 5
+      },
+      "unusedAP": 0
+    },
+    "targeted-11/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 56,
+      "actions": {
+        "blaze": 23,
+        "sproutguard": 24,
+        "spark": 71,
+        "far": 3,
+        "nourish": 6,
+        "near": 15,
+        "heal": 12,
+        "sever-terrain": 5,
+        "basic": 4,
+        "seed": 2
+      },
+      "unusedAP": 0
+    },
+    "targeted-12/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "swift": 22,
+        "guard": 6,
+        "lunge": 3,
+        "pierce": 3,
+        "meditate": 2,
+        "near": 19,
+        "strike": 19,
+        "basic": 4,
+        "unity": 2
+      },
+      "unusedAP": 0
+    },
+    "targeted-13/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "swift": 23,
+        "guard": 1,
+        "lunge": 6,
+        "near": 16,
+        "strike": 19,
+        "basic": 9,
+        "meditate": 3,
+        "unity": 5,
+        "pierce": 1,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-14/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "swift": 20,
+        "lunge": 3,
+        "strike": 19,
+        "basic": 6,
+        "near": 8,
+        "guard": 3
+      },
+      "unusedAP": 0
+    },
+    "targeted-15/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 25,
+      "actions": {
+        "swift": 25,
+        "lunge": 3,
+        "strike": 22,
+        "basic": 12,
+        "near": 8,
+        "guard": 3
+      },
+      "unusedAP": 0
+    },
+    "targeted-16/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "swift": 25,
+        "strike": 21,
+        "far": 1,
+        "near": 15,
+        "meditate": 1,
+        "basic": 2,
+        "expose": 6,
+        "riposte": 3,
+        "unity": 4
+      },
+      "unusedAP": 0
+    },
+    "targeted-17/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "swift": 22,
+        "strike": 19,
+        "far": 1,
+        "near": 16,
+        "meditate": 6,
+        "unity": 8,
+        "expose": 6
+      },
+      "unusedAP": 0
+    },
+    "targeted-18/immediate/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 23,
+      "actions": {
+        "swift": 27,
+        "strike": 15,
+        "basic": 11,
+        "near": 7,
+        "expose": 1,
+        "riposte": 2
+      },
+      "unusedAP": 0
+    },
+    "targeted-19/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "swift": 27,
+        "strike": 23,
+        "basic": 13,
+        "near": 7,
+        "expose": 1,
+        "riposte": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-20/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "kindle": 29,
+        "eruption": 3,
+        "flare": 3,
+        "quench": 19,
+        "basic": 21
+      },
+      "unusedAP": 0
+    },
+    "targeted-21/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "kindle": 29,
+        "eruption": 3,
+        "flare": 3,
+        "quench": 19,
+        "basic": 21
+      },
+      "unusedAP": 0
+    },
+    "targeted-22/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 42,
+      "actions": {
+        "eruption": 33,
+        "kindle": 31,
+        "far": 1,
+        "firewall": 10,
+        "near": 14,
+        "quench": 6,
+        "flare": 7,
+        "meditate": 3,
+        "ashenward": 9,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "targeted-23/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "eruption": 12,
+        "kindle": 32,
+        "far": 1,
+        "quench": 11,
+        "near": 17,
+        "flare": 5,
+        "ashenward": 8,
+        "stoke": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-24/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 59,
+      "actions": {
+        "kindle": 83,
+        "firewall": 24,
+        "ashenward": 23,
+        "cinder": 20,
+        "flare": 11,
+        "quench": 6
+      },
+      "unusedAP": 0
+    },
+    "targeted-25/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 41,
+      "actions": {
+        "kindle": 50,
+        "ashenward": 31,
+        "flare": 8,
+        "quench": 10,
+        "cinder": 10,
+        "stoke": 5
+      },
+      "unusedAP": 0
+    },
+    "targeted-26/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 57,
+      "actions": {
+        "flare": 9,
+        "kindle": 52,
+        "ashenward": 43,
+        "sever-terrain": 9,
+        "firestorm": 16,
+        "quench": 16,
+        "far": 8,
+        "cinder": 11,
+        "basic": 3,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-27/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 76,
+      "actions": {
+        "flare": 14,
+        "kindle": 68,
+        "ashenward": 59,
+        "sever-terrain": 16,
+        "quench": 27,
+        "far": 14,
+        "cinder": 15,
+        "firestorm": 10,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-28/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "frost": 27,
+        "icebreaker": 26,
+        "waterbolt": 28
+      },
+      "unusedAP": 0
+    },
+    "targeted-29/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "frost": 27,
+        "icebreaker": 26,
+        "waterbolt": 28
+      },
+      "unusedAP": 0
+    },
+    "targeted-30/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "waterbolt": 20,
+        "gather": 20,
+        "tidespear": 10,
+        "surge": 10,
+        "rinse": 1,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "targeted-31/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "waterbolt": 28,
+        "gather": 30,
+        "waterwall": 4,
+        "surge": 28,
+        "rinse": 1,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "targeted-32/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "waterbolt": 20,
+        "gather": 20,
+        "tidespear": 10,
+        "surge": 10,
+        "rinse": 1,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "targeted-33/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "waterbolt": 28,
+        "gather": 31,
+        "waterwall": 3,
+        "surge": 29,
+        "rinse": 1,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "targeted-34/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 114,
+      "actions": {
+        "wooddart": 73,
+        "cultivate": 101,
+        "basic": 11,
+        "thornscreen": 81,
+        "bloomheal": 17,
+        "sever-terrain": 41,
+        "bloomstrike": 3,
+        "near": 2,
+        "meditate": 1
+      },
+      "unusedAP": 3
+    },
+    "targeted-35/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 74,
+      "actions": {
+        "wooddart": 84,
+        "cultivate": 59,
+        "prune": 1,
+        "far": 1,
+        "sever-terrain": 35,
+        "bloomheal": 10,
+        "basic": 17,
+        "bloomstrike": 3,
+        "graft": 1,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "targeted-36/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "wooddart": 74,
+        "cultivate": 8,
+        "bloomstrike": 8
+      },
+      "unusedAP": 0
+    },
+    "targeted-37/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "wooddart": 73,
+        "cultivate": 8,
+        "bloomstrike": 8
+      },
+      "unusedAP": 0
+    },
+    "targeted-38/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 88,
+      "actions": {
+        "wooddart": 66,
+        "parasite": 82,
+        "cultivate": 54,
+        "bloomheal": 50,
+        "reap": 7,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "targeted-39/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 93,
+      "actions": {
+        "wooddart": 68,
+        "parasite": 87,
+        "cultivate": 60,
+        "bloomheal": 53,
+        "reap": 6,
+        "basic": 5
+      },
+      "unusedAP": 0
+    }
+  }
+}

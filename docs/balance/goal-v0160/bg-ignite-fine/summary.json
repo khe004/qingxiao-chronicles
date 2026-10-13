@@ -1,0 +1,145 @@
+{
+  "label": "Fine durability screen for ignite/cold only, not a complete matrix",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "ignite-231/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "seed": 7,
+        "blaze": 12,
+        "spark": 41,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ignite-231/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "seed": 7,
+        "spark": 10,
+        "basic": 10,
+        "blaze": 16,
+        "heal": 8,
+        "inferno": 8,
+        "near": 17,
+        "far": 1,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "ignite-232/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "seed": 8,
+        "blaze": 13,
+        "spark": 42,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ignite-232/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "seed": 7,
+        "spark": 11,
+        "basic": 10,
+        "blaze": 15,
+        "heal": 8,
+        "inferno": 8,
+        "near": 17,
+        "far": 1,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "ignite-233/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "seed": 8,
+        "blaze": 13,
+        "spark": 42,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ignite-233/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "seed": 7,
+        "spark": 13,
+        "basic": 10,
+        "blaze": 15,
+        "heal": 9,
+        "inferno": 8,
+        "near": 17,
+        "far": 1,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "ignite-234/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "seed": 8,
+        "blaze": 13,
+        "spark": 42,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ignite-234/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "seed": 8,
+        "spark": 14,
+        "basic": 10,
+        "blaze": 15,
+        "heal": 9,
+        "inferno": 8,
+        "near": 16,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

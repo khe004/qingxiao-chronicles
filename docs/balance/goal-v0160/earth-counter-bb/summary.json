@@ -1,0 +1,126 @@
+{
+  "label": "earth-counter-bb original frozen configurations; BB runtime; isolated paid-rule overrides",
+  "games": 36,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "wood/symbiosis--earth/bastion/value18/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 5,
+      "unresolved": 1,
+      "rounds": 138,
+      "actions": {
+        "wooddart": 84,
+        "thornscreen": 96,
+        "cultivate": 126,
+        "sever-terrain": 40,
+        "basic": 21,
+        "bloomheal": 30,
+        "graft": 3,
+        "bloomstrike": 4,
+        "meditate": 1,
+        "near": 2
+      },
+      "unusedAP": 1
+    },
+    "wood/parasitic--earth/bastion/value18/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 125,
+      "actions": {
+        "wooddart": 83,
+        "parasite": 116,
+        "cultivate": 92,
+        "bloomheal": 61,
+        "reap": 10,
+        "far": 1,
+        "basic": 6,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--earth/bastion/value18/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 78,
+      "actions": {
+        "flare": 8,
+        "kindle": 69,
+        "ashenward": 65,
+        "sever-terrain": 4,
+        "basic": 3,
+        "quench": 33,
+        "firestorm": 12,
+        "cinder": 19,
+        "meditate": 3,
+        "far": 14
+      },
+      "unusedAP": 0
+    },
+    "wood/symbiosis--earth/bastion/value16/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 132,
+      "actions": {
+        "wooddart": 90,
+        "thornscreen": 93,
+        "cultivate": 119,
+        "sever-terrain": 26,
+        "basic": 19,
+        "bloomheal": 28,
+        "bloomstrike": 4,
+        "far": 1,
+        "graft": 3,
+        "meditate": 1,
+        "near": 2
+      },
+      "unusedAP": 1
+    },
+    "wood/parasitic--earth/bastion/value16/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 117,
+      "actions": {
+        "wooddart": 77,
+        "parasite": 110,
+        "cultivate": 80,
+        "bloomheal": 63,
+        "reap": 9,
+        "far": 1,
+        "basic": 7
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--earth/bastion/value16/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 75,
+      "actions": {
+        "flare": 11,
+        "kindle": 69,
+        "ashenward": 59,
+        "sever-terrain": 4,
+        "basic": 2,
+        "quench": 32,
+        "cinder": 17,
+        "firestorm": 12,
+        "meditate": 3,
+        "far": 13
+      },
+      "unusedAP": 0
+    }
+  }
+}

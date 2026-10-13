@@ -1,0 +1,77 @@
+{
+  "label": "AM finite two-hit reflection, cold durability trade; fixed two target pairs",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "flame/smolder--water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "flare": 12,
+        "kindle": 18,
+        "firestorm": 9,
+        "basic": 9,
+        "quench": 3,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 22,
+        "icebreaker": 21,
+        "waterbolt": 13,
+        "basic": 10
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 51,
+      "actions": {
+        "kindle": 54,
+        "ashenward": 45,
+        "meditate": 2,
+        "quench": 19,
+        "cinder": 10,
+        "firestorm": 7,
+        "flare": 3,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "frost": 28,
+        "icebreaker": 24,
+        "basic": 9,
+        "waterbolt": 16,
+        "mirrorwater": 4,
+        "far": 2,
+        "meditate": 2,
+        "rinse": 1,
+        "near": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

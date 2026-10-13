@@ -1,0 +1,1133 @@
+{
+  "label": "Z baseline: paid two-hit water mirror, Earth matchup screen only",
+  "jobs": [
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "mirror14-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "mirror14-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "mirror14-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "mirror14-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "mirror14-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "mirror14-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "mirror14-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "mirror14-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "mirror14-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "mirror14-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "mirror14-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "mirror14-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 14,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "mirror16-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "mirror16-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "mirror16-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "mirror16-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "mirror16-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "mirror16-2/earth/bastion",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "mirror16-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "mirror16-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "mirror16-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "mirror16-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "mirror16-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "mirror16-2/earth/mountain",
+      "skillOverrides": {
+        "water": {
+          "mirrorwater": {
+            "reflect": 16,
+            "reflectHits": 2
+          }
+        }
+      }
+    }
+  ]
+}

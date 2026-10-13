@@ -1,0 +1,855 @@
+{
+  "mode": "actor-rule structural proof",
+  "origin": "/workspace/qingxiao-chronicles/docs/balance/goal-v0160/bm-counter",
+  "originalHashes": {
+    "dist/rules.mjs": "66fdc8b4d118fcb264a7bd7a5942a182cd30ad70f17fa0e87b56a1cb7396d15f",
+    "dist/engine.mjs": "7f5ec1ec7280f2aa143cf225fc505242c281597d0f091de077ce866a770aef80",
+    "dist/prepared.mjs": "a29eadb106d10bd1d76d485b9baa4f8c19f97caaa37e27bce217388b57ec432d",
+    "dist/auto.mjs": "02697ca414ee6676f126f5108f52dd63f6584e4cab40b8defbfc8fa29ffb24bf",
+    "dist/tactics.mjs": "ccf62a8d1c087a8cd2143f42e63770f88f96234fd9fed4fefe480a7ed1512108",
+    "dist/active-policy.mjs": "72ca741b62ad25143955c66126fabf715ee9770dfd801aa4d77a720581160c6a",
+    "dist/recorded-battle.mjs": "5be5f384ef639627806d0aa253c2a4863b0173a58a03486ab1a33d50f249324b",
+    "scripts/predictive-arena.mjs": "b0ed82174cf09c96d201c5f710ecd381e9d2f1b6bcfaa3980cf6382c7ae20fc9",
+    "scripts/planner-internals.mjs": "2a54bdd60d8c3f537218032096f5d1f68a9ee35d49f7411c3da1df25c50de6e4",
+    "scripts/review-tactics.mjs": "5f58637bfce296220f4b78942a4ced5e800eadd2854550396f2ab45cdf7c4823"
+  },
+  "currentHashes": {
+    "dist/rules.mjs": "baec3361ba6837ce226144d4086685d7170c9b26b832d1b5a8f15bb7e2e96d46",
+    "dist/engine.mjs": "7f5ec1ec7280f2aa143cf225fc505242c281597d0f091de077ce866a770aef80",
+    "dist/prepared.mjs": "a29eadb106d10bd1d76d485b9baa4f8c19f97caaa37e27bce217388b57ec432d",
+    "dist/auto.mjs": "02697ca414ee6676f126f5108f52dd63f6584e4cab40b8defbfc8fa29ffb24bf",
+    "dist/tactics.mjs": "ccf62a8d1c087a8cd2143f42e63770f88f96234fd9fed4fefe480a7ed1512108",
+    "dist/active-policy.mjs": "72ca741b62ad25143955c66126fabf715ee9770dfd801aa4d77a720581160c6a",
+    "dist/recorded-battle.mjs": "5be5f384ef639627806d0aa253c2a4863b0173a58a03486ab1a33d50f249324b",
+    "scripts/predictive-arena.mjs": "b0ed82174cf09c96d201c5f710ecd381e9d2f1b6bcfaa3980cf6382c7ae20fc9",
+    "scripts/planner-internals.mjs": "2a54bdd60d8c3f537218032096f5d1f68a9ee35d49f7411c3da1df25c50de6e4",
+    "scripts/review-tactics.mjs": "066915f1f1fc03429b0e938d2e2386136d597bc5f1f5007b03836faf7a97d020",
+    "scripts/actor-rule-reuse.mjs": "f60652ea5a3aa77c2b04b5e91ca52a45ad736d0e8253c305cc00f816a7cec298",
+    "scripts/skill-rule-reuse.mjs": "1524937b55f502dc247cd21add34ad8eb58f2e876f9b0523b8450a82d0d8cd28"
+  },
+  "proof": {
+    "skills": [],
+    "majors": []
+  },
+  "mappings": [
+    {
+      "index": 0,
+      "originalIndex": 0
+    },
+    {
+      "index": 1,
+      "originalIndex": 1
+    },
+    {
+      "index": 2,
+      "originalIndex": 2
+    },
+    {
+      "index": 3,
+      "originalIndex": 3
+    },
+    {
+      "index": 4,
+      "originalIndex": 4
+    },
+    {
+      "index": 5,
+      "originalIndex": 5
+    },
+    {
+      "index": 6,
+      "originalIndex": 6
+    },
+    {
+      "index": 7,
+      "originalIndex": 7
+    },
+    {
+      "index": 8,
+      "originalIndex": 8
+    },
+    {
+      "index": 9,
+      "originalIndex": 9
+    },
+    {
+      "index": 10,
+      "originalIndex": 10
+    },
+    {
+      "index": 11,
+      "originalIndex": 11
+    },
+    {
+      "index": 12,
+      "originalIndex": 12
+    },
+    {
+      "index": 13,
+      "originalIndex": 13
+    },
+    {
+      "index": 14,
+      "originalIndex": 14
+    },
+    {
+      "index": 15,
+      "originalIndex": 15
+    },
+    {
+      "index": 16,
+      "originalIndex": 16
+    },
+    {
+      "index": 17,
+      "originalIndex": 17
+    },
+    {
+      "index": 18,
+      "originalIndex": 18
+    },
+    {
+      "index": 19,
+      "originalIndex": 19
+    },
+    {
+      "index": 20,
+      "originalIndex": 20
+    },
+    {
+      "index": 21,
+      "originalIndex": 21
+    },
+    {
+      "index": 22,
+      "originalIndex": 22
+    },
+    {
+      "index": 23,
+      "originalIndex": 23
+    },
+    {
+      "index": 24,
+      "originalIndex": 24
+    },
+    {
+      "index": 25,
+      "originalIndex": 25
+    },
+    {
+      "index": 26,
+      "originalIndex": 26
+    },
+    {
+      "index": 27,
+      "originalIndex": 27
+    },
+    {
+      "index": 28,
+      "originalIndex": 28
+    },
+    {
+      "index": 29,
+      "originalIndex": 29
+    },
+    {
+      "index": 30,
+      "originalIndex": 30
+    },
+    {
+      "index": 31,
+      "originalIndex": 31
+    },
+    {
+      "index": 32,
+      "originalIndex": 32
+    },
+    {
+      "index": 33,
+      "originalIndex": 33
+    },
+    {
+      "index": 34,
+      "originalIndex": 34
+    },
+    {
+      "index": 35,
+      "originalIndex": 35
+    },
+    {
+      "index": 36,
+      "originalIndex": 36
+    },
+    {
+      "index": 37,
+      "originalIndex": 37
+    },
+    {
+      "index": 38,
+      "originalIndex": 38
+    },
+    {
+      "index": 39,
+      "originalIndex": 39
+    },
+    {
+      "index": 40,
+      "originalIndex": 40
+    },
+    {
+      "index": 41,
+      "originalIndex": 41
+    },
+    {
+      "index": 42,
+      "originalIndex": 42
+    },
+    {
+      "index": 43,
+      "originalIndex": 43
+    },
+    {
+      "index": 44,
+      "originalIndex": 44
+    },
+    {
+      "index": 45,
+      "originalIndex": 45
+    },
+    {
+      "index": 46,
+      "originalIndex": 46
+    },
+    {
+      "index": 47,
+      "originalIndex": 47
+    },
+    {
+      "index": 48,
+      "originalIndex": 48
+    },
+    {
+      "index": 49,
+      "originalIndex": 49
+    },
+    {
+      "index": 50,
+      "originalIndex": 50
+    },
+    {
+      "index": 51,
+      "originalIndex": 51
+    },
+    {
+      "index": 52,
+      "originalIndex": 52
+    },
+    {
+      "index": 53,
+      "originalIndex": 53
+    },
+    {
+      "index": 54,
+      "originalIndex": 54
+    },
+    {
+      "index": 55,
+      "originalIndex": 55
+    },
+    {
+      "index": 56,
+      "originalIndex": 56
+    },
+    {
+      "index": 57,
+      "originalIndex": 57
+    },
+    {
+      "index": 58,
+      "originalIndex": 58
+    },
+    {
+      "index": 59,
+      "originalIndex": 59
+    },
+    {
+      "index": 60,
+      "originalIndex": 60
+    },
+    {
+      "index": 61,
+      "originalIndex": 61
+    },
+    {
+      "index": 62,
+      "originalIndex": 62
+    },
+    {
+      "index": 63,
+      "originalIndex": 63
+    },
+    {
+      "index": 64,
+      "originalIndex": 64
+    },
+    {
+      "index": 65,
+      "originalIndex": 65
+    },
+    {
+      "index": 66,
+      "originalIndex": 66
+    },
+    {
+      "index": 67,
+      "originalIndex": 67
+    },
+    {
+      "index": 68,
+      "originalIndex": 68
+    },
+    {
+      "index": 69,
+      "originalIndex": 69
+    },
+    {
+      "index": 70,
+      "originalIndex": 70
+    },
+    {
+      "index": 71,
+      "originalIndex": 71
+    },
+    {
+      "index": 72,
+      "originalIndex": 72
+    },
+    {
+      "index": 73,
+      "originalIndex": 73
+    },
+    {
+      "index": 74,
+      "originalIndex": 74
+    },
+    {
+      "index": 75,
+      "originalIndex": 75
+    },
+    {
+      "index": 76,
+      "originalIndex": 76
+    },
+    {
+      "index": 77,
+      "originalIndex": 77
+    },
+    {
+      "index": 78,
+      "originalIndex": 78
+    },
+    {
+      "index": 79,
+      "originalIndex": 79
+    },
+    {
+      "index": 80,
+      "originalIndex": 80
+    },
+    {
+      "index": 81,
+      "originalIndex": 81
+    },
+    {
+      "index": 82,
+      "originalIndex": 82
+    },
+    {
+      "index": 83,
+      "originalIndex": 83
+    },
+    {
+      "index": 84,
+      "originalIndex": 84
+    },
+    {
+      "index": 85,
+      "originalIndex": 85
+    },
+    {
+      "index": 86,
+      "originalIndex": 86
+    },
+    {
+      "index": 87,
+      "originalIndex": 87
+    },
+    {
+      "index": 88,
+      "originalIndex": 88
+    },
+    {
+      "index": 89,
+      "originalIndex": 89
+    },
+    {
+      "index": 90,
+      "originalIndex": 90
+    },
+    {
+      "index": 91,
+      "originalIndex": 91
+    },
+    {
+      "index": 92,
+      "originalIndex": 92
+    },
+    {
+      "index": 93,
+      "originalIndex": 93
+    },
+    {
+      "index": 94,
+      "originalIndex": 94
+    },
+    {
+      "index": 95,
+      "originalIndex": 95
+    },
+    {
+      "index": 96,
+      "originalIndex": 96
+    },
+    {
+      "index": 97,
+      "originalIndex": 97
+    },
+    {
+      "index": 98,
+      "originalIndex": 98
+    },
+    {
+      "index": 99,
+      "originalIndex": 99
+    },
+    {
+      "index": 100,
+      "originalIndex": 100
+    },
+    {
+      "index": 101,
+      "originalIndex": 101
+    },
+    {
+      "index": 102,
+      "originalIndex": 102
+    },
+    {
+      "index": 103,
+      "originalIndex": 103
+    },
+    {
+      "index": 104,
+      "originalIndex": 104
+    },
+    {
+      "index": 105,
+      "originalIndex": 105
+    },
+    {
+      "index": 106,
+      "originalIndex": 106
+    },
+    {
+      "index": 107,
+      "originalIndex": 107
+    },
+    {
+      "index": 108,
+      "originalIndex": 108
+    },
+    {
+      "index": 109,
+      "originalIndex": 109
+    },
+    {
+      "index": 110,
+      "originalIndex": 110
+    },
+    {
+      "index": 111,
+      "originalIndex": 111
+    },
+    {
+      "index": 112,
+      "originalIndex": 112
+    },
+    {
+      "index": 113,
+      "originalIndex": 113
+    },
+    {
+      "index": 114,
+      "originalIndex": 114
+    },
+    {
+      "index": 115,
+      "originalIndex": 115
+    },
+    {
+      "index": 116,
+      "originalIndex": 116
+    },
+    {
+      "index": 117,
+      "originalIndex": 117
+    },
+    {
+      "index": 118,
+      "originalIndex": 118
+    },
+    {
+      "index": 119,
+      "originalIndex": 119
+    },
+    {
+      "index": 120,
+      "originalIndex": 120
+    },
+    {
+      "index": 121,
+      "originalIndex": 121
+    },
+    {
+      "index": 122,
+      "originalIndex": 122
+    },
+    {
+      "index": 123,
+      "originalIndex": 123
+    },
+    {
+      "index": 124,
+      "originalIndex": 124
+    },
+    {
+      "index": 125,
+      "originalIndex": 125
+    },
+    {
+      "index": 126,
+      "originalIndex": 126
+    },
+    {
+      "index": 127,
+      "originalIndex": 127
+    },
+    {
+      "index": 128,
+      "originalIndex": 128
+    },
+    {
+      "index": 129,
+      "originalIndex": 129
+    },
+    {
+      "index": 130,
+      "originalIndex": 130
+    },
+    {
+      "index": 131,
+      "originalIndex": 131
+    },
+    {
+      "index": 132,
+      "originalIndex": 132
+    },
+    {
+      "index": 133,
+      "originalIndex": 133
+    },
+    {
+      "index": 134,
+      "originalIndex": 134
+    },
+    {
+      "index": 135,
+      "originalIndex": 135
+    },
+    {
+      "index": 136,
+      "originalIndex": 136
+    },
+    {
+      "index": 137,
+      "originalIndex": 137
+    },
+    {
+      "index": 138,
+      "originalIndex": 138
+    },
+    {
+      "index": 139,
+      "originalIndex": 139
+    },
+    {
+      "index": 140,
+      "originalIndex": 140
+    },
+    {
+      "index": 141,
+      "originalIndex": 141
+    },
+    {
+      "index": 142,
+      "originalIndex": 142
+    },
+    {
+      "index": 143,
+      "originalIndex": 143
+    },
+    {
+      "index": 144,
+      "originalIndex": 144
+    },
+    {
+      "index": 145,
+      "originalIndex": 145
+    },
+    {
+      "index": 146,
+      "originalIndex": 146
+    },
+    {
+      "index": 147,
+      "originalIndex": 147
+    },
+    {
+      "index": 148,
+      "originalIndex": 148
+    },
+    {
+      "index": 149,
+      "originalIndex": 149
+    },
+    {
+      "index": 150,
+      "originalIndex": 150
+    },
+    {
+      "index": 151,
+      "originalIndex": 151
+    },
+    {
+      "index": 152,
+      "originalIndex": 152
+    },
+    {
+      "index": 153,
+      "originalIndex": 153
+    },
+    {
+      "index": 154,
+      "originalIndex": 154
+    },
+    {
+      "index": 155,
+      "originalIndex": 155
+    },
+    {
+      "index": 156,
+      "originalIndex": 156
+    },
+    {
+      "index": 157,
+      "originalIndex": 157
+    },
+    {
+      "index": 158,
+      "originalIndex": 158
+    },
+    {
+      "index": 159,
+      "originalIndex": 159
+    },
+    {
+      "index": 160,
+      "originalIndex": 160
+    },
+    {
+      "index": 161,
+      "originalIndex": 161
+    },
+    {
+      "index": 162,
+      "originalIndex": 162
+    },
+    {
+      "index": 163,
+      "originalIndex": 163
+    },
+    {
+      "index": 164,
+      "originalIndex": 164
+    },
+    {
+      "index": 165,
+      "originalIndex": 165
+    },
+    {
+      "index": 166,
+      "originalIndex": 166
+    },
+    {
+      "index": 167,
+      "originalIndex": 167
+    },
+    {
+      "index": 168,
+      "originalIndex": 168
+    },
+    {
+      "index": 169,
+      "originalIndex": 169
+    },
+    {
+      "index": 170,
+      "originalIndex": 170
+    },
+    {
+      "index": 171,
+      "originalIndex": 171
+    },
+    {
+      "index": 172,
+      "originalIndex": 172
+    },
+    {
+      "index": 173,
+      "originalIndex": 173
+    },
+    {
+      "index": 174,
+      "originalIndex": 174
+    },
+    {
+      "index": 175,
+      "originalIndex": 175
+    },
+    {
+      "index": 176,
+      "originalIndex": 176
+    },
+    {
+      "index": 177,
+      "originalIndex": 177
+    },
+    {
+      "index": 178,
+      "originalIndex": 178
+    },
+    {
+      "index": 179,
+      "originalIndex": 179
+    },
+    {
+      "index": 180,
+      "originalIndex": 180
+    },
+    {
+      "index": 181,
+      "originalIndex": 181
+    },
+    {
+      "index": 182,
+      "originalIndex": 182
+    },
+    {
+      "index": 183,
+      "originalIndex": 183
+    },
+    {
+      "index": 184,
+      "originalIndex": 184
+    },
+    {
+      "index": 185,
+      "originalIndex": 185
+    },
+    {
+      "index": 186,
+      "originalIndex": 186
+    },
+    {
+      "index": 187,
+      "originalIndex": 187
+    },
+    {
+      "index": 188,
+      "originalIndex": 188
+    },
+    {
+      "index": 189,
+      "originalIndex": 189
+    },
+    {
+      "index": 190,
+      "originalIndex": 190
+    },
+    {
+      "index": 191,
+      "originalIndex": 191
+    },
+    {
+      "index": 192,
+      "originalIndex": 192
+    },
+    {
+      "index": 193,
+      "originalIndex": 193
+    },
+    {
+      "index": 194,
+      "originalIndex": 194
+    },
+    {
+      "index": 195,
+      "originalIndex": 195
+    },
+    {
+      "index": 196,
+      "originalIndex": 196
+    },
+    {
+      "index": 197,
+      "originalIndex": 197
+    },
+    {
+      "index": 198,
+      "originalIndex": 198
+    },
+    {
+      "index": 199,
+      "originalIndex": 199
+    },
+    {
+      "index": 200,
+      "originalIndex": 200
+    },
+    {
+      "index": 201,
+      "originalIndex": 201
+    },
+    {
+      "index": 202,
+      "originalIndex": 202
+    },
+    {
+      "index": 203,
+      "originalIndex": 203
+    }
+  ],
+  "structurallyReused": 204,
+  "executed": 0,
+  "exactOriginalTraces": true
+}

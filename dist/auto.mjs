@@ -108,8 +108,8 @@ function reasonFor(b,id){
     case 'waterbolt':return p.major==='cold'&&e.chilled&&!p.coldTriggered?'消费凝滞强化玄水矢，放弃这次逐浪控距机会。':'以低耗玄水矢直接施压，留水气用于护体或周转。';
     case 'frost':return '凝霜铺垫一次控距或玄水增伤；对手移动与净息仍可消解。';
     case 'repulse':return '消费凝滞迫使目标退开一档，限制后续射程；不取消蓄势，对手仍可接近。';
-    case 'gather':return `投入行动与水气积累 ${p.major==='tidal'?3:2} 潮势，后续攻击、防护与回潮共用储备。`;
-    case 'surge':return `消费 ${Math.min(2,p.tide)} 潮势集中进攻，不再保留这份储备用于防护或补水。`;
+    case 'gather':return `投入行动与灵气积累 ${p.major==='tidal'?3:2} 潮势，后续攻击、防护与回潮共用储备。`;
+    case 'surge':return `消费 ${Math.min(b.skill(p,'surge').consumeTide??0,p.tide)} 潮势集中进攻，不再保留这份储备用于防护或补水。`;
     case 'waterwall':return `支付水气护体${p.tide?'并消费一层潮势增强护盾':''}，与沧澜和回潮争用储备。`;
     case 'rinse':return '支付水气恢复气血、清除灼烧；凝滞仍需单独净息。';
     case 'ebb':return `消费 ${Math.min(2,p.tide)} 潮势补水，占用一次行动，不能再兑现同一储备。`;

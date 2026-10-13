@@ -116,6 +116,25 @@ const m=skillOf('earth','mountain');m.desc=`支付2行动、3土气与1任意气
 if(RULES.anchorReaction){skillOf('earth','anchor').desc='装备后，在强制位移的应对窗口花1土气、1地势和本回合应对机会挡一次位移；不耗行动，不减伤或免打断。';CLASSES.earth.passiveText='地势上限3，主动布置后供攻防与稳固共同消费。自己实际移动损失1地势，对手移动不损失；稳固仅在应对窗口取消一次强制位移。';}
 MAJORS.earth.mountain.effect=`每回合首次主动付费且消费地势的攻击或蓄势增加${RULES.mountainBonus}基础伤害；启动锁定，免费释放不再触发。`;MAJORS.earth.bastion.effect=`筑垒建立3地势，上限3；每回合首次以地势防守额外${RULES.bastionShield}护盾，地势供攻防与稳固共用。`;MAJORS.wood.parasitic.tip='首次付费施法触发有限木伤并破除地势；提前收获放弃后续侵蚀，目标可单独净化。';
 const ew=skillOf('earth','earthenwall');ew.desc=`获得${ew.shield}护盾，上限60；不需要或增加地势。`;
+// Balance descriptions share the actual patched skill parameters.
+const nourish=skillOf('fire','nourish');nourish.desc=`恢复${nourish.heal}气血，清除${nourish.clearBurn}层灼烧，凝聚1通灵；每回合一次。`;
+const sprout=skillOf('fire','sproutguard');sprout.desc=`获得${sprout.shield}护盾，在对手身上积累${sprout.seedGain}灵种；每回合一次。`;
+const riposte=skillOf('sword','riposte');riposte.desc=`获得${riposte.shield}护盾${riposte.intent?'与'+riposte.intent+'剑意':''}，准备一次至多${riposte.reflect}基础金伤的反击；下次自身阶段到期，不递归反伤。`;
+const cleave=skillOf('sword','cleave');cleave.desc=`消费至多${cleave.intentLimit}剑意，每层增加${RULES.intentPower}基础伤害；目标有盾时额外${cleave.shieldBonus}，基础${cleave.power}，2行动。`;
+const eruption=skillOf('flame','eruption');eruption.desc=`造成${eruption.power}基础火伤${eruption.breakPrep?'，再破除'+(eruption.breakPrepAmount??2)+'生长（有地势则改破除1地势）':''}；限近中距，支付2火气与1任意气。`;
+const firestorm=skillOf('flame','firestorm');firestorm.desc=`至少${firestorm.minBurn}层灼烧，消费至多${firestorm.consumeBurn}层各增${firestorm.burnPower}基础伤害，基础${firestorm.power}；命中再附加${firestorm.burn}层，${firestorm.ap}行动，全距${firestorm.once?'；每回合一次':''}。`;
+const tidespear=skillOf('water','tidespear');tidespear.desc=`至少${tidespear.minTide}潮势，消费至多${tidespear.consumeTide}层，每层增加${tidespear.tidePower}基础伤害，基础${tidespear.power}；${tidespear.ap}行动，全距${tidespear.interrupt?'；命中打断蓄势':''}${tidespear.shieldPierce?'，'+Math.round(tidespear.shieldPierce*100)+'%伤害越过护盾，仍受防御与五行减免':''}。`;
+surge.desc=`至少1潮势，消费至多${surge.consumeTide}层，每层增加${surge.tidePower}基础伤害，基础${surge.power}${surge.farPrep?'；满3潮势可远距，未满限近中距':'；限近中距'}。同一储备不能再用于防护或回潮。`;
+const icebreaker=skillOf('water','icebreaker');icebreaker.desc=`需要并消费凝滞，${icebreaker.power}基础水伤加${icebreaker.chillPower}强化；不迫退，与寒凝增伤和逐浪争用同一次凝滞${icebreaker.shieldPierce?'；'+Math.round(icebreaker.shieldPierce*100)+'%伤害越过护盾，仍受防御与五行减免':''}。`;
+const swordguard=skillOf('sword','guard');swordguard.desc=`获得${swordguard.shield}护盾${swordguard.intent?'与'+swordguard.intent+'剑意':''}；金气也用于进攻和横剑应对。`;
+const pierce=skillOf('sword','pierce');pierce.desc=`支付${pierce.intentCost}剑意，造成${pierce.power}基础金伤；${Math.round(pierce.shieldPierce*100)}%伤害越过护盾，仍按兵刃防御减免，命中后养意。`;
+const lunge=skillOf('sword','lunge');lunge.desc=`消耗${lunge.intentCost}剑意，近身造成${lunge.power}基础金伤并打断蓄势；命中后积累1剑意。`;
+const earthmend=skillOf('earth','earthmend');earthmend.desc=`消费至多${earthmend.consumeTerrain}地势，每层恢复${earthmend.terrainHeal}气血，基础${earthmend.heal}${earthmend.clearBurn?'，清除至多'+earthmend.clearBurn+'层灼烧':'，不清异常'}；每回合一次。`;
+const stoneback=skillOf('earth','stoneback');stoneback.desc=`获得${stoneback.shield}护盾，消费至多${stoneback.consumeTerrain}地势，准备${stoneback.reflectHits}次反击；每次${stoneback.reflect}基础土伤，每层地势增加${stoneback.reflectPrepPower}，至下次自身阶段；每回合一次。`;
+const gravel=skillOf('earth','gravel');gravel.desc=`造成${gravel.power}基础土伤，积累${gravel.gainTerrain}地势，上限3${gravel.breakPrep?'，再破除'+(gravel.breakPrepAmount??2)+'生长（有地势则改破除1地势）':''}；每回合一次，不免移动损阵。`;
+if(reap.shieldPierce)reap.desc+=` ${Math.round(reap.shieldPierce*100)}%伤害越过护盾，仍受防御与五行减免。`;
+// A specialization may trade initial durability for its tactical advantages.
+for(const [key,majors] of Object.entries(RULES.majorHp??{}))for(const [major,hp] of Object.entries(majors)){if(!MAJORS[key]?.[major]||!Number.isInteger(hp)||hp<1||hp>500)throw Error('主修气血配置无效');MAJORS[key][major].effect+=` 气血上限为${hp}。`;}
 export function normalizeLoadout(key,config={}){
   if(!Object.hasOwn(CLASSES,key))throw Error('未知流派');
   if(!config||typeof config!=='object')throw Error('配装格式无效');
@@ -135,6 +154,7 @@ export const COMMON = [
   {id:'purify',name:'净息',ap:1,cost:{any:1},kind:'purify',heal:RULES.purifyHeal,desc:`消耗1行动、1任意灵气，清除全部自身灼烧${RULES.purifyHeal?`，恢复${RULES.purifyHeal}气血`:'，不恢复气血'}；需要自身有灼烧，不清凝滞或寄生。`},
   {id:'dispel',name:'净息·凝滞',ap:1,cost:{any:1},kind:'dispel',desc:'恢复 8 气血，只清除自身凝滞；不清除灼烧。'},
 ];
+const unparasite=COMMON.find(s=>s.id==='unparasite');unparasite.desc=`支付1行动、${unparasite.cost.any}任意灵气，只清除自身寄生；不回血，不清其他异常。`;
 export function tideBonus(s,actor){return Math.min(actor.tide??0,s.consumeTide??0)*(s.tidePower??0);}
 export function burnBonus(s,target){return s.id==='inferno'?target.burn*8:Math.min(target.burn,s.consumeBurn??0)*(s.burnPower??0);}
 export function total(qi){return ELEMENTS.reduce((n,k)=>n+(qi[k]||0),0)}
@@ -147,7 +167,7 @@ export function payment(qi,cost){
   for(const k of order){const n=Math.min(rest,next[k]||0);next[k]=(next[k]||0)-n;rest-=n;}
   return rest===0?next:null;
 }
-function fighter(key,player,config){const c=CLASSES[key],loadout=normalizeLoadout(key,config);return {key,major:loadout.major,skillIds:loadout.skillIds,igniteTriggered:false,quickTriggered:false,edge:false,edgeExpires:0,usedSkills:[],name:player?'你':c.person,hp:c.hp,maxHp:c.hp,qi:Object.fromEntries(ELEMENTS.map(k=>[k,0])),shield:0,counter:null,intent:0,seed:0,burn:0,burnTurns:0,chilled:false,broken:false,charge:null,ap:3,reaction:true,meditated:false,woodTriggered:false,waterCleanseTriggered:false,bastionTriggered:false,...(key==='flame'?{fireCasts:0,smolderTriggered:false}:{}),...(key==='water'?{tide:0,coldTriggered:false}:{}),...preparedFields(key)};}
+function fighter(key,player,config){const c=CLASSES[key],loadout=normalizeLoadout(key,config),hp=RULES.majorHp?.[key]?.[loadout.major]??c.hp;return {key,major:loadout.major,skillIds:loadout.skillIds,igniteTriggered:false,quickTriggered:false,edge:false,edgeExpires:0,usedSkills:[],name:player?'你':c.person,hp,maxHp:hp,qi:Object.fromEntries(ELEMENTS.map(k=>[k,0])),shield:0,counter:null,intent:0,seed:0,burn:0,burnTurns:0,chilled:false,broken:false,charge:null,ap:3,reaction:true,meditated:false,woodTriggered:false,waterCleanseTriggered:false,bastionTriggered:false,...(key==='flame'?{fireCasts:0,smolderTriggered:false}:{}),...(key==='water'?{tide:0,coldTriggered:false}:{}),...preparedFields(key)};}
 export class Battle {
   constructor(key='fire',config={},enemyConfig={}) {if(!Object.hasOwn(CLASSES,key))throw new Error('未知流派');this.round=0;this.phase='player';this.distance=1;this.player=fighter(key,true,config);this.enemy=fighter(enemyConfig.key??(key==='fire'?'sword':'fire'),false,enemyConfig);this.logs=[];this.pending=null;this.enemyQueue=[];this.result=null;this.serial=0;this.enemyPolicy=AI_POLICY;this.enemy.shield=RULES.secondShield;for(const a of [this.player,this.enemy])this.log(`${a.name}主修「${MAJORS[a.key][a.major].name}」，装备：${this.skills(a).map(s=>s.name).join('、')}。`,'setup');this.beginRound();}
   log(text,type='normal'){this.logs.push({id:++this.serial,round:this.round,text,type});}
@@ -294,7 +314,7 @@ export class Battle {
     const ignited=s.ignite?target.seed:s.partialIgnite?Math.min(s.partialIgnite,target.seed):0;
     if(ignited){target.seed-=ignited;this.log(`${actor.name}引燃 ${ignited} 层灵种，剩余 ${target.seed} 层。`,'resource');if(actor.major==='ignite'&&!actor.igniteTriggered){actor.igniteTriggered=true;const n=this.gain(actor,{fire:1});this.log(`引燃爆发 · ${actor.name}凝聚 ${n} 火灵气。`,'resource');}}
     if(s.finisher){if(s.kind!=='charge')this.spendFinisher(actor,s);target.broken=false;}
-    if(s.breakPrep)breakPreparation(this,target,target.terrain?'terrain':'growth',target.terrain?1:2);
+    if(s.breakPrep)breakPreparation(this,target,target.terrain?'terrain':'growth',target.terrain?1:(s.breakPrepAmount??2));
     if(s.expose)target.broken=true;
     if(s.sword&&!s.finisher){let n=1;if(actor.major==='quick'&&!actor.quickTriggered){actor.quickTriggered=true;n++;this.log(`快剑压制 · ${actor.name}额外养剑 1 层。`,'resource');}actor.intent=Math.min(5,actor.intent+n);this.log(`${actor.name}现有 ${actor.intent} 层剑意。`,'resource');}
     if(s.burn){let n=s.burn;if(actor.key==='flame'&&actor.major==='smolder'&&s.kind==='attack'&&!actor.smolderTriggered){actor.smolderTriggered=true;n++;this.log(`焚灼消耗 · ${actor.name}首次附焰额外增加 1 层灼烧。`,'resource');}target.burn=Math.min(5,target.burn+n);target.burnTurns=RULES.burnTurns;}

@@ -1,0 +1,2165 @@
+{
+  "label": "Mountain 221-224, immediate lock diagnostics against cold and smolder; no final acceptance",
+  "jobs": [
+    {
+      "tag": "mountain-221/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-221/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 221
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-222/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 222
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-223/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 223
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/water/cold",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    },
+    {
+      "tag": "mountain-224/flame/smolder",
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "limit": 30,
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 224
+        }
+      }
+    }
+  ]
+}

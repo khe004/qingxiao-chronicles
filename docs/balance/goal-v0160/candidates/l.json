@@ -1,0 +1,145 @@
+{
+  "label": "v0.16.0-l",
+  "sustainRecovery": 2,
+  "preparationBreakAmount": true,
+  "rules": {
+    "secondShield": 8,
+    "edgePower": 12,
+    "chainPower": 8,
+    "skills": {
+      "sword": {
+        "swift": {
+          "power": 28
+        },
+        "riposte": {
+          "shield": 16,
+          "intent": 1
+        },
+        "cleave": {
+          "power": 46
+        },
+        "guard": {
+          "shield": 20,
+          "intent": 1
+        },
+        "lunge": {
+          "power": 48
+        },
+        "strike": {
+          "power": 40,
+          "cost": {
+            "metal": 1,
+            "water": 1,
+            "any": 1
+          }
+        }
+      },
+      "flame": {
+        "eruption": {
+          "power": 46,
+          "breakPrep": true,
+          "breakPrepAmount": 1
+        },
+        "firestorm": {
+          "power": 50
+        },
+        "flare": {
+          "power": 24
+        }
+      },
+      "water": {
+        "rinse": {
+          "heal": 16
+        },
+        "surge": {
+          "power": 32,
+          "tidePower": 12,
+          "consumeTide": 3,
+          "range": [
+            0,
+            1,
+            2
+          ],
+          "farPrep": "tide"
+        },
+        "tidespear": {
+          "power": 52
+        },
+        "gather": {
+          "cost": {
+            "any": 1
+          }
+        },
+        "icebreaker": {
+          "cost": {
+            "water": 1,
+            "any": 1
+          },
+          "power": 32,
+          "chillPower": 18
+        }
+      },
+      "wood": {
+        "wooddart": {
+          "power": 31
+        },
+        "bloomheal": {
+          "clearBurn": 1,
+          "heal": 16,
+          "growthHeal": 6
+        },
+        "reap": {
+          "shieldPierce": 0.25
+        },
+        "bloomstrike": {
+          "growthPower": 18
+        }
+      },
+      "earth": {
+        "landbreak": {
+          "terrainPower": 14,
+          "power": 30
+        },
+        "mountain": {
+          "power": 58,
+          "terrainPower": 14
+        },
+        "earthmend": {
+          "clearBurn": 2
+        },
+        "stonebolt": {
+          "power": 30
+        },
+        "gravel": {
+          "power": 20,
+          "cost": {
+            "earth": 1,
+            "any": 1
+          },
+          "breakPrep": true,
+          "breakPrepAmount": 1
+        }
+      },
+      "fire": {
+        "nourish": {
+          "heal": 20
+        },
+        "sproutguard": {
+          "shield": 20
+        }
+      }
+    },
+    "unparasiteCost": 2,
+    "stats": {
+      "sword": {
+        "gen": {
+          "metal": 3,
+          "water": 1,
+          "any": 1
+        }
+      }
+    }
+  },
+  "parasiteCleanseCost": true,
+  "deriveSkillDescriptions": true
+}

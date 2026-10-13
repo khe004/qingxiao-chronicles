@@ -1,0 +1,87 @@
+{
+  "label": "Z baseline: paid two-hit water mirror, Earth matchup screen only",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "mirror14-2/earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 135,
+      "actions": {
+        "frost": 22,
+        "icebreaker": 14,
+        "meditate": 4,
+        "waterbolt": 61,
+        "mirrorwater": 111,
+        "rinse": 109,
+        "sever-terrain": 42,
+        "basic": 28,
+        "far": 1,
+        "near": 3,
+        "repulse": 1
+      },
+      "unusedAP": 0
+    },
+    "mirror14-2/earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "waterbolt": 40,
+        "frost": 26,
+        "icebreaker": 13,
+        "rinse": 4,
+        "basic": 8,
+        "mirrorwater": 2,
+        "sever-terrain": 1,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "mirror16-2/earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 137,
+      "actions": {
+        "frost": 26,
+        "icebreaker": 13,
+        "meditate": 4,
+        "waterbolt": 56,
+        "mirrorwater": 116,
+        "rinse": 112,
+        "sever-terrain": 38,
+        "basic": 42,
+        "far": 1,
+        "repulse": 1
+      },
+      "unusedAP": 0
+    },
+    "mirror16-2/earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "waterbolt": 40,
+        "frost": 26,
+        "icebreaker": 13,
+        "rinse": 4,
+        "basic": 8,
+        "mirrorwater": 2,
+        "sever-terrain": 1,
+        "far": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

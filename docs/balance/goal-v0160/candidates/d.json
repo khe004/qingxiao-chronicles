@@ -1,0 +1,63 @@
+{
+  "label": "v0.16-screen-d",
+  "sustainRecovery": 4,
+  "preparationBreakAmount": true,
+  "rules": {
+    "secondShield": 0,
+    "edgePower": 12,
+    "chainPower": 12,
+    "skills": {
+      "sword": {
+        "swift": {
+          "power": 30
+        },
+        "riposte": {
+          "shield": 16,
+          "intent": 1
+        },
+        "cleave": {
+          "power": 50
+        }
+      },
+      "flame": {
+        "eruption": {
+          "power": 50,
+          "breakPrep": true,
+          "breakPrepAmount": 1
+        },
+        "firestorm": {
+          "power": 48
+        }
+      },
+      "water": {
+        "rinse": {
+          "heal": 16
+        },
+        "surge": {
+          "power": 30,
+          "tidePower": 16
+        }
+      },
+      "wood": {
+        "wooddart": {
+          "power": 30
+        },
+        "bloomheal": {
+          "clearBurn": 1
+        },
+        "reap": {
+          "shieldPierce": 0.25
+        }
+      },
+      "earth": {
+        "landbreak": {
+          "terrainPower": 16
+        },
+        "mountain": {
+          "power": 58,
+          "terrainPower": 14
+        }
+      }
+    }
+  }
+}

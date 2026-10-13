@@ -1,0 +1,769 @@
+{
+  "label": "J base with paid gravel, sword original income3/1/1, reprice finisher colors at constant3qi; original quick shield/lunge, six-range sustain tests and ten mid guards",
+  "games": 128,
+  "limit": 30,
+  "groups": {
+    "water-finisher50/fire/sustain-sword/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 37,
+      "actions": {
+        "seed": 3,
+        "spark": 31,
+        "blaze": 25,
+        "nourish": 24,
+        "near": 4,
+        "basic": 5,
+        "sproutguard": 7,
+        "heal": 3
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/fire/sustain-sword/quick/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 58,
+      "actions": {
+        "spark": 48,
+        "sproutguard": 34,
+        "far": 1,
+        "nourish": 14,
+        "seed": 4,
+        "near": 22,
+        "blaze": 34,
+        "heal": 6,
+        "basic": 2,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/fire/sustain-sword/heavy/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "seed": 2,
+        "spark": 34,
+        "blaze": 19,
+        "nourish": 20,
+        "heal": 7,
+        "sproutguard": 4,
+        "basic": 5,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/fire/sustain-sword/heavy/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 46,
+      "actions": {
+        "spark": 41,
+        "basic": 6,
+        "blaze": 28,
+        "nourish": 17,
+        "meditate": 1,
+        "heal": 8,
+        "near": 12,
+        "sproutguard": 14,
+        "seed": 6
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-water/tidal/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 8,
+        "near": 4,
+        "strike": 9,
+        "basic": 4
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-water/tidal/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "swift": 7,
+        "near": 7,
+        "strike": 7,
+        "guard": 6,
+        "unity": 2,
+        "lunge": 2,
+        "basic": 1,
+        "pierce": 1,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 9,
+        "near": 6,
+        "strike": 7
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "near": 4,
+        "strike": 7,
+        "swift": 8,
+        "lunge": 1,
+        "basic": 4,
+        "unity": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-flame/smolder/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "swift": 7,
+        "near": 4,
+        "strike": 7,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-flame/smolder/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 7,
+        "near": 6,
+        "strike": 7,
+        "basic": 1,
+        "unity": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 9,
+        "near": 6,
+        "strike": 7
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 22,
+      "actions": {
+        "swift": 15,
+        "near": 13,
+        "strike": 9,
+        "unparasite": 12,
+        "sever-growth": 2,
+        "pierce": 6,
+        "unity": 4,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 9,
+        "near": 6,
+        "strike": 7,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/quick-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "swift": 5,
+        "guard": 1,
+        "basic": 4,
+        "unity": 3,
+        "near": 3,
+        "strike": 7,
+        "lunge": 1,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-water/tidal/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 8,
+        "near": 4,
+        "strike": 9,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-water/tidal/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "swift": 11,
+        "near": 4,
+        "riposte": 2,
+        "strike": 9,
+        "unity": 1,
+        "meditate": 1,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 7,
+        "near": 6,
+        "strike": 8
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 6,
+        "near": 3,
+        "strike": 7,
+        "expose": 2,
+        "unity": 2,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-flame/smolder/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "swift": 6,
+        "near": 3,
+        "strike": 7,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-flame/smolder/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 7,
+        "near": 6,
+        "strike": 7,
+        "riposte": 1,
+        "purify": 2,
+        "unity": 1,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 7,
+        "near": 6,
+        "strike": 8
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "expose": 3,
+        "swift": 5,
+        "riposte": 1,
+        "unparasite": 3,
+        "near": 6,
+        "strike": 5,
+        "unity": 4,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "swift": 5,
+        "near": 5,
+        "strike": 4,
+        "expose": 1,
+        "basic": 15,
+        "riposte": 3
+      },
+      "unusedAP": 0
+    },
+    "water-finisher50/sword/heavy-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "swift": 4,
+        "riposte": 1,
+        "basic": 1,
+        "expose": 3,
+        "unity": 5,
+        "near": 4,
+        "strike": 5,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/fire/sustain-sword/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "seed": 3,
+        "spark": 32,
+        "blaze": 24,
+        "nourish": 23,
+        "near": 5,
+        "basic": 5,
+        "sproutguard": 5,
+        "heal": 3
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/fire/sustain-sword/quick/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 47,
+      "actions": {
+        "spark": 44,
+        "sproutguard": 26,
+        "far": 1,
+        "nourish": 6,
+        "seed": 4,
+        "near": 14,
+        "blaze": 25,
+        "heal": 2,
+        "basic": 5,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/fire/sustain-sword/heavy/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "seed": 2,
+        "spark": 34,
+        "blaze": 19,
+        "nourish": 20,
+        "heal": 7,
+        "sproutguard": 4,
+        "basic": 5,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/fire/sustain-sword/heavy/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "spark": 37,
+        "basic": 7,
+        "blaze": 24,
+        "nourish": 11,
+        "seed": 7,
+        "sproutguard": 8,
+        "heal": 7,
+        "near": 11
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-water/tidal/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 8,
+        "near": 4,
+        "strike": 8,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-water/tidal/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 9,
+        "near": 4,
+        "strike": 6,
+        "basic": 1,
+        "unity": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 6,
+        "near": 6,
+        "strike": 8
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "near": 3,
+        "swift": 7,
+        "strike": 8,
+        "basic": 4,
+        "unity": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-flame/smolder/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "swift": 8,
+        "near": 3,
+        "strike": 6,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-flame/smolder/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 6,
+        "near": 5,
+        "strike": 7,
+        "basic": 1,
+        "unity": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 8,
+        "near": 6,
+        "strike": 7
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "near": 5,
+        "swift": 9,
+        "lunge": 2,
+        "unparasite": 5,
+        "strike": 10,
+        "basic": 1,
+        "sever-growth": 1,
+        "unity": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 9,
+        "near": 6,
+        "strike": 7,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/quick-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "swift": 6,
+        "near": 4,
+        "strike": 7,
+        "guard": 1,
+        "unity": 3,
+        "basic": 2,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-water/tidal/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 8,
+        "near": 4,
+        "strike": 9,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-water/tidal/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "swift": 15,
+        "near": 4,
+        "riposte": 5,
+        "basic": 1,
+        "strike": 6,
+        "unity": 2,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "swift": 6,
+        "near": 6,
+        "strike": 7
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "expose": 2,
+        "unity": 2,
+        "strike": 6,
+        "swift": 7,
+        "basic": 4,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-flame/smolder/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "swift": 6,
+        "near": 3,
+        "strike": 7,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-flame/smolder/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 7,
+        "near": 5,
+        "strike": 7,
+        "riposte": 1,
+        "purify": 2,
+        "unity": 1,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 6,
+        "near": 6,
+        "strike": 8
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "expose": 2,
+        "swift": 5,
+        "basic": 3,
+        "unparasite": 2,
+        "unity": 2,
+        "near": 5,
+        "strike": 7
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "swift": 5,
+        "near": 4,
+        "strike": 4,
+        "expose": 1,
+        "basic": 15,
+        "riposte": 3
+      },
+      "unusedAP": 0
+    },
+    "water-finisher54/sword/heavy-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "swift": 4,
+        "riposte": 1,
+        "basic": 1,
+        "expose": 1,
+        "unity": 4,
+        "near": 5,
+        "strike": 6,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

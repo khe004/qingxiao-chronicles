@@ -1,0 +1,32 @@
+{
+  "reuseFrom": "/workspace/qingxiao-chronicles/docs/balance/goal-v0160/screen-u-immediate",
+  "changedSkills": [
+    {
+      "key": "water",
+      "id": "surge"
+    },
+    {
+      "key": "water",
+      "id": "tidespear"
+    },
+    {
+      "key": "earth",
+      "id": "stonebolt"
+    },
+    {
+      "key": "earth",
+      "id": "landbreak"
+    }
+  ],
+  "changedMajorHp": [
+    {
+      "key": "fire",
+      "major": "ignite"
+    },
+    {
+      "key": "water",
+      "major": "tidal"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills, per-key/major starting HP and label may differ; every match with an affected fighter or equipped skill rerun. Economy, defenses, passives, loadouts and all combat source identical."
+}

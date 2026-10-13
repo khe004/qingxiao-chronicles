@@ -1,0 +1,4817 @@
+{
+  "label": "AE separate mountain charge budget and joint flame finite-reflection screens",
+  "jobs": [
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "mountain-205-54/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "mountain-205-54/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "mountain-205-54/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "mountain-205-54/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "mountain-205-54/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "mountain-205-54/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "mountain-205-54/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "mountain-205-54/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "mountain-205-54/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "mountain-205-54/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "mountain-205-54/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "mountain-205-54/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 54
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "mountain-210-56/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "mountain-210-56/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "mountain-210-56/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "mountain-210-56/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "mountain-210-56/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "mountain-210-56/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "mountain-210-56/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "mountain-210-56/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "mountain-210-56/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "mountain-210-56/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "mountain-210-56/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "mountain-210-56/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 56
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 210
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "mountain-205-60/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "mountain-205-60/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "mountain-205-60/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "mountain-205-60/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "mountain-205-60/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "mountain-205-60/flame/smolder",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "mountain-205-60/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "mountain-205-60/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "mountain-205-60/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "mountain-205-60/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "mountain-205-60/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "mountain-205-60/water/cold",
+      "skillOverrides": {
+        "earth": {
+          "mountain": {
+            "power": 60
+          }
+        }
+      },
+      "majorHpOverrides": {
+        "earth": {
+          "mountain": 205
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-11/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-11/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-11/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-11/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-11/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-11/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-11/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-11/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-11/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-11/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-11/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-11/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-11/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-11/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-11/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-11/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-11/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-11/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-11/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-11/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-11/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-11/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-11/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-11/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 11
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-12/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-12/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-12/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-12/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-12/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-12/flame/fierce--water/tidal",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-12/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-12/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-12/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-12/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-12/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-12/flame/fierce--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-12/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-12/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-12/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-12/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-12/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-12/flame/smolder--water/cold",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ward-14-12/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ward-14-12/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ward-14-12/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ward-14-12/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ward-14-12/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ward-14-12/flame/smolder--earth/mountain",
+      "majorHpOverrides": {
+        "flame": {
+          "fierce": 220
+        }
+      },
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12
+          }
+        },
+        "water": {
+          "tidespear": {
+            "ap": 1,
+            "power": 52
+          },
+          "surge": {
+            "power": 26,
+            "tidePower": 10
+          }
+        }
+      }
+    }
+  ]
+}

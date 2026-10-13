@@ -1,0 +1,8 @@
+{
+  "complete": false,
+  "controllersCompleted": [
+    "immediate"
+  ],
+  "reason": "潮汐即时56/66；主表至少27/66时，合并至少83/132，超过60%。未运行准备预测阶段。",
+  "preservedGames": 468
+}

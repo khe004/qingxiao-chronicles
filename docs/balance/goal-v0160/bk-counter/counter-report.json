@@ -1,0 +1,3764 @@
+{
+  "scope": "Alternate core presets for every single-controller lock; original matrix unchanged",
+  "games": 210,
+  "locks": 35,
+  "escapedLocks": 17,
+  "unresolved": 0,
+  "limits": {
+    "controller": "same as each original lock",
+    "tendency": "balanced",
+    "distances": [
+      0,
+      1,
+      2
+    ],
+    "rounds": 30
+  },
+  "results": [
+    {
+      "index": 0,
+      "a": "fire/ignite",
+      "b": "water/cold",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "fire/ignite",
+      "originalConfig": {
+        "major": "ignite",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "inferno",
+          "seedburst"
+        ]
+      },
+      "alternateConfig": {
+        "major": "ignite",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "vine",
+          "inferno"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 0,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            46
+          ],
+          "rounds": 3
+        },
+        {
+          "index": 1,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            12
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 2,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            4
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 3,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            97
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 4,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            40
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 5,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            97
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "a": "fire/ignite",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "fire/ignite",
+      "originalConfig": {
+        "major": "ignite",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "inferno",
+          "seedburst"
+        ]
+      },
+      "alternateConfig": {
+        "major": "ignite",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "vine",
+          "inferno"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 6,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            32
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 7,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            73
+          ],
+          "rounds": 9
+        },
+        {
+          "index": 8,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            109
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 9,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            111
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 10,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            75,
+            0
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 11,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            43
+          ],
+          "rounds": 8
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "a": "fire/ignite",
+      "b": "wood/symbiosis",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "wood/symbiosis",
+      "originalConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "graft",
+          "bloomstrike",
+          "bloomheal",
+          "thornscreen"
+        ]
+      },
+      "alternateConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 12,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            17,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 13,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            26,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 14,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            13,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 15,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            20
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 16,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            39,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 17,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            20,
+            0
+          ],
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "a": "fire/ignite",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "wood/parasitic",
+      "originalConfig": {
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "parasite",
+          "reap",
+          "bloomheal",
+          "cultivate",
+          "twinvine"
+        ]
+      },
+      "alternateConfig": {
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "parasite",
+          "reap",
+          "cultivate",
+          "bloomheal",
+          "prune"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 18,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            111,
+            0
+          ],
+          "rounds": 17
+        },
+        {
+          "index": 19,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            105,
+            0
+          ],
+          "rounds": 12
+        },
+        {
+          "index": 20,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            51,
+            0
+          ],
+          "rounds": 17
+        },
+        {
+          "index": 21,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            69,
+            0
+          ],
+          "rounds": 13
+        },
+        {
+          "index": 22,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            99,
+            0
+          ],
+          "rounds": 18
+        },
+        {
+          "index": 23,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            18,
+            0
+          ],
+          "rounds": 17
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "a": "fire/ignite",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "earth/mountain",
+      "originalConfig": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "mountain",
+          "landbreak",
+          "earthmend",
+          "gravel"
+        ]
+      },
+      "alternateConfig": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "mountain",
+          "quakesunder"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 24,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            26,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 25,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            62,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 26,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            28,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 27,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            29
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 28,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            54,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 29,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            5,
+            0
+          ],
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "a": "fire/ignite",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "fire/ignite",
+      "originalConfig": {
+        "major": "ignite",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "inferno",
+          "seedburst"
+        ]
+      },
+      "alternateConfig": {
+        "major": "ignite",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "vine",
+          "inferno"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 30,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            51,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 31,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            57
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 32,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            35
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 33,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            60
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 34,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            107
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 35,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            55
+          ],
+          "rounds": 8
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "a": "fire/sustain",
+      "b": "sword/quick",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "sword/quick",
+      "originalConfig": {
+        "major": "quick",
+        "skillIds": [
+          "swift",
+          "pierce",
+          "strike",
+          "guard",
+          "lunge",
+          "unity"
+        ]
+      },
+      "alternateConfig": {
+        "major": "quick",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "guard",
+          "cut",
+          "unity"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 36,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            128,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 37,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            38
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 38,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            113,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 39,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            129,
+            0
+          ],
+          "rounds": 10
+        },
+        {
+          "index": 40,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            133,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 41,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            154,
+            0
+          ],
+          "rounds": 8
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "a": "fire/sustain",
+      "b": "sword/heavy",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "sword/heavy",
+      "originalConfig": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "riposte",
+          "cleave",
+          "unity"
+        ]
+      },
+      "alternateConfig": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "guard",
+          "return",
+          "unity"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 42,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            50,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 43,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            70,
+            0
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 44,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            206,
+            0
+          ],
+          "rounds": 9
+        },
+        {
+          "index": 45,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            117,
+            0
+          ],
+          "rounds": 9
+        },
+        {
+          "index": 46,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            185,
+            0
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 47,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            154,
+            0
+          ],
+          "rounds": 8
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "a": "fire/sustain",
+      "b": "water/cold",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "fire/sustain",
+      "originalConfig": {
+        "major": "sustain",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "nourish",
+          "sproutguard"
+        ]
+      },
+      "alternateConfig": {
+        "major": "sustain",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "nourish",
+          "vine"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 48,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            67
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 49,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            49
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 50,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            74
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 51,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            72
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 52,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            77
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 53,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            72
+          ],
+          "rounds": 6
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "a": "fire/sustain",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "wood/symbiosis",
+      "originalConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "graft",
+          "bloomstrike",
+          "bloomheal",
+          "thornscreen"
+        ]
+      },
+      "alternateConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 54,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            139,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 55,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            140,
+            0
+          ],
+          "rounds": 12
+        },
+        {
+          "index": 56,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            111,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 57,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            116,
+            0
+          ],
+          "rounds": 12
+        },
+        {
+          "index": 58,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            111,
+            0
+          ],
+          "rounds": 11
+        },
+        {
+          "index": 59,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            114,
+            0
+          ],
+          "rounds": 11
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "a": "fire/sustain",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "earth/bastion",
+      "originalConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "landbreak",
+          "stoneback",
+          "quakesunder",
+          "gravel"
+        ]
+      },
+      "alternateConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "earthenwall",
+          "quakesunder"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 60,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            141,
+            0
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 61,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            54,
+            0
+          ],
+          "rounds": 11
+        },
+        {
+          "index": 62,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            137,
+            0
+          ],
+          "rounds": 13
+        },
+        {
+          "index": 63,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            57,
+            0
+          ],
+          "rounds": 13
+        },
+        {
+          "index": 64,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            127,
+            0
+          ],
+          "rounds": 12
+        },
+        {
+          "index": 65,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            110,
+            0
+          ],
+          "rounds": 12
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "a": "fire/sustain",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "fire/sustain",
+      "originalConfig": {
+        "major": "sustain",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "nourish",
+          "sproutguard"
+        ]
+      },
+      "alternateConfig": {
+        "major": "sustain",
+        "skillIds": [
+          "seed",
+          "spark",
+          "blaze",
+          "heal",
+          "nourish",
+          "vine"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 66,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            111
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 67,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            150
+          ],
+          "rounds": 9
+        },
+        {
+          "index": 68,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            42
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 69,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            69,
+            0
+          ],
+          "rounds": 11
+        },
+        {
+          "index": 70,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            111
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 71,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            142
+          ],
+          "rounds": 8
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "a": "sword/quick",
+      "b": "flame/fierce",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "sword/quick",
+      "originalConfig": {
+        "major": "quick",
+        "skillIds": [
+          "swift",
+          "pierce",
+          "strike",
+          "guard",
+          "lunge",
+          "unity"
+        ]
+      },
+      "alternateConfig": {
+        "major": "quick",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "guard",
+          "cut",
+          "unity"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 72,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            54,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 73,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            76
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 74,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            84
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 75,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            30
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 76,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            57
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 77,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            76
+          ],
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "a": "sword/quick",
+      "b": "water/tidal",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "water/tidal",
+      "originalConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "tidespear",
+          "rinse",
+          "waterwall"
+        ]
+      },
+      "alternateConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "waterwall",
+          "rinse",
+          "ebb"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 78,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            83,
+            0
+          ],
+          "rounds": 3
+        },
+        {
+          "index": 79,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            54,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 80,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            114,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 81,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            54,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 82,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            79,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 83,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            9,
+            0
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "a": "sword/heavy",
+      "b": "flame/fierce",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "sword/heavy",
+      "originalConfig": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "riposte",
+          "cleave",
+          "unity"
+        ]
+      },
+      "alternateConfig": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "guard",
+          "return",
+          "unity"
+        ]
+      },
+      "alternateWins": 5,
+      "alternateLosses": 1,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 84,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            49,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 85,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            42,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 86,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            62,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 87,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            22
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 88,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            26,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 89,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            42,
+            0
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "a": "sword/heavy",
+      "b": "water/cold",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "water/cold",
+      "originalConfig": {
+        "major": "cold",
+        "skillIds": [
+          "waterbolt",
+          "frost",
+          "icebreaker",
+          "mirrorwater",
+          "rinse",
+          "repulse"
+        ]
+      },
+      "alternateConfig": {
+        "major": "cold",
+        "skillIds": [
+          "waterbolt",
+          "frost",
+          "repulse",
+          "gather",
+          "waterwall",
+          "rinse"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 90,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            71,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 91,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            67,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 92,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            109,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 93,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            41,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 94,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            105,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 95,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            68,
+            0
+          ],
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "a": "sword/heavy",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "wood/parasitic",
+      "originalConfig": {
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "parasite",
+          "reap",
+          "bloomheal",
+          "cultivate",
+          "twinvine"
+        ]
+      },
+      "alternateConfig": {
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "parasite",
+          "reap",
+          "cultivate",
+          "bloomheal",
+          "prune"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 96,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            89,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 97,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            118
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 98,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            37,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 99,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            60,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 100,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            49,
+            0
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 101,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            50,
+            0
+          ],
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "a": "sword/heavy",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "sword/heavy",
+      "originalConfig": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "riposte",
+          "cleave",
+          "unity"
+        ]
+      },
+      "alternateConfig": {
+        "major": "heavy",
+        "skillIds": [
+          "swift",
+          "expose",
+          "strike",
+          "guard",
+          "return",
+          "unity"
+        ]
+      },
+      "alternateWins": 2,
+      "alternateLosses": 4,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 102,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            51,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 103,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            27
+          ],
+          "rounds": 9
+        },
+        {
+          "index": 104,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            120,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 105,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            42
+          ],
+          "rounds": 13
+        },
+        {
+          "index": 106,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            149
+          ],
+          "rounds": 10
+        },
+        {
+          "index": 107,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            176
+          ],
+          "rounds": 11
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "a": "flame/fierce",
+      "b": "water/cold",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "flame/fierce",
+      "originalConfig": {
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "firestorm",
+          "ashenward",
+          "quench"
+        ]
+      },
+      "alternateConfig": {
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 108,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            51
+          ],
+          "rounds": 3
+        },
+        {
+          "index": 109,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            60
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 110,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            65
+          ],
+          "rounds": 3
+        },
+        {
+          "index": 111,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            68
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 112,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            82
+          ],
+          "rounds": 3
+        },
+        {
+          "index": 113,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            68
+          ],
+          "rounds": 4
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "a": "flame/fierce",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "flame/fierce",
+      "originalConfig": {
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "firestorm",
+          "ashenward",
+          "quench"
+        ]
+      },
+      "alternateConfig": {
+        "major": "fierce",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "eruption",
+          "cinder",
+          "firewall",
+          "scorchcut"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 114,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            40
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 115,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            93
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 116,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            86
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 117,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            135
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 118,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            55
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 119,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            74
+          ],
+          "rounds": 7
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "a": "flame/smolder",
+      "b": "water/cold",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "flame/smolder",
+      "originalConfig": {
+        "major": "smolder",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "cinder",
+          "firestorm",
+          "ashenward",
+          "quench"
+        ]
+      },
+      "alternateConfig": {
+        "major": "smolder",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "cinder",
+          "combust",
+          "firewall",
+          "solar"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 120,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            27
+          ],
+          "rounds": 3
+        },
+        {
+          "index": 121,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            43
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 122,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            28,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 123,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            55
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 124,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            9
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 125,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            55
+          ],
+          "rounds": 4
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "a": "flame/smolder",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "flame/smolder",
+      "originalConfig": {
+        "major": "smolder",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "cinder",
+          "firestorm",
+          "ashenward",
+          "quench"
+        ]
+      },
+      "alternateConfig": {
+        "major": "smolder",
+        "skillIds": [
+          "flare",
+          "kindle",
+          "cinder",
+          "combust",
+          "firewall",
+          "solar"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 126,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            70
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 127,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            53
+          ],
+          "rounds": 9
+        },
+        {
+          "index": 128,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            65
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 129,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            41
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 130,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            70
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 131,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            44
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "a": "flame/smolder",
+      "b": "wood/symbiosis",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "wood/symbiosis",
+      "originalConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "graft",
+          "bloomstrike",
+          "bloomheal",
+          "thornscreen"
+        ]
+      },
+      "alternateConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 132,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            37,
+            0
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 133,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            32,
+            0
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 134,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            3,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 135,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            17
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 136,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            35,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 137,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            28,
+            0
+          ],
+          "rounds": 6
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "a": "flame/smolder",
+      "b": "wood/parasitic",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "wood/parasitic",
+      "originalConfig": {
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "parasite",
+          "reap",
+          "bloomheal",
+          "cultivate",
+          "twinvine"
+        ]
+      },
+      "alternateConfig": {
+        "major": "parasitic",
+        "skillIds": [
+          "wooddart",
+          "parasite",
+          "reap",
+          "cultivate",
+          "bloomheal",
+          "prune"
+        ]
+      },
+      "alternateWins": 2,
+      "alternateLosses": 4,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 138,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            32,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 139,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            39,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 140,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            18
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 141,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            22
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 142,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            35,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 143,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            28,
+            0
+          ],
+          "rounds": 6
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "a": "flame/smolder",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "earth/bastion",
+      "originalConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "landbreak",
+          "stoneback",
+          "quakesunder",
+          "gravel"
+        ]
+      },
+      "alternateConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "earthenwall",
+          "quakesunder"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 144,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            35,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 145,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            6,
+            0
+          ],
+          "rounds": 12
+        },
+        {
+          "index": 146,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            64,
+            0
+          ],
+          "rounds": 10
+        },
+        {
+          "index": 147,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            153,
+            0
+          ],
+          "rounds": 16
+        },
+        {
+          "index": 148,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            50,
+            0
+          ],
+          "rounds": 11
+        },
+        {
+          "index": 149,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            95,
+            0
+          ],
+          "rounds": 10
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "a": "flame/smolder",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "earth/mountain",
+      "originalConfig": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "mountain",
+          "landbreak",
+          "earthmend",
+          "gravel"
+        ]
+      },
+      "alternateConfig": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "mountain",
+          "quakesunder"
+        ]
+      },
+      "alternateWins": 2,
+      "alternateLosses": 4,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 150,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            3
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 151,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            24
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 152,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            37,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 153,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            19,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 154,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            29,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 155,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            38,
+            0
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "a": "water/cold",
+      "b": "water/tidal",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "water/tidal",
+      "originalConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "tidespear",
+          "rinse",
+          "waterwall"
+        ]
+      },
+      "alternateConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "waterwall",
+          "rinse",
+          "ebb"
+        ]
+      },
+      "alternateWins": 3,
+      "alternateLosses": 3,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 156,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            78,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 157,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            9
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 158,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            78,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 159,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            9
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 160,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            78,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 161,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            9
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "water/cold",
+      "originalConfig": {
+        "major": "cold",
+        "skillIds": [
+          "waterbolt",
+          "frost",
+          "icebreaker",
+          "mirrorwater",
+          "rinse",
+          "repulse"
+        ]
+      },
+      "alternateConfig": {
+        "major": "cold",
+        "skillIds": [
+          "waterbolt",
+          "frost",
+          "repulse",
+          "gather",
+          "waterwall",
+          "rinse"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 162,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            34
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 163,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            65
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 164,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            34
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 165,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            65
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 166,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            34
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 167,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            65
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "water/tidal",
+      "originalConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "tidespear",
+          "rinse",
+          "waterwall"
+        ]
+      },
+      "alternateConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "waterwall",
+          "rinse",
+          "ebb"
+        ]
+      },
+      "alternateWins": 1,
+      "alternateLosses": 5,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 168,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            1,
+            0
+          ],
+          "rounds": 20
+        },
+        {
+          "index": 169,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            41
+          ],
+          "rounds": 12
+        },
+        {
+          "index": 170,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            45
+          ],
+          "rounds": 16
+        },
+        {
+          "index": 171,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            19
+          ],
+          "rounds": 16
+        },
+        {
+          "index": 172,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            75
+          ],
+          "rounds": 20
+        },
+        {
+          "index": 173,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            66
+          ],
+          "rounds": 9
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "water/tidal",
+      "originalConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "tidespear",
+          "rinse",
+          "waterwall"
+        ]
+      },
+      "alternateConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "waterwall",
+          "rinse",
+          "ebb"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 174,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            14
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 175,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            73
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 176,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            14
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 177,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            64
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 178,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            5
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 179,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            73
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "earth/bastion",
+      "originalConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "landbreak",
+          "stoneback",
+          "quakesunder",
+          "gravel"
+        ]
+      },
+      "alternateConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "earthenwall",
+          "quakesunder"
+        ]
+      },
+      "alternateWins": 4,
+      "alternateLosses": 2,
+      "unresolved": 0,
+      "escapedLock": true,
+      "scenarios": [
+        {
+          "index": 180,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            20,
+            0
+          ],
+          "rounds": 9
+        },
+        {
+          "index": 181,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            59
+          ],
+          "rounds": 7
+        },
+        {
+          "index": 182,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            26,
+            0
+          ],
+          "rounds": 8
+        },
+        {
+          "index": 183,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            104
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 184,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            50
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 185,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            84
+          ],
+          "rounds": 6
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "a": "water/tidal",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "water/tidal",
+      "originalConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "tidespear",
+          "rinse",
+          "waterwall"
+        ]
+      },
+      "alternateConfig": {
+        "major": "tidal",
+        "skillIds": [
+          "waterbolt",
+          "gather",
+          "surge",
+          "waterwall",
+          "rinse",
+          "ebb"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 186,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            5
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 187,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            72
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 188,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            5
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 189,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            63
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 190,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            24
+          ],
+          "rounds": 6
+        },
+        {
+          "index": 191,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            72
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "a": "wood/symbiosis",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        0,
+        6
+      ],
+      "loserSeat": 0,
+      "loserId": "wood/symbiosis",
+      "originalConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "graft",
+          "bloomstrike",
+          "bloomheal",
+          "thornscreen"
+        ]
+      },
+      "alternateConfig": {
+        "major": "symbiosis",
+        "skillIds": [
+          "wooddart",
+          "cultivate",
+          "bloomstrike",
+          "bloomguard",
+          "bloomheal",
+          "prune"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 192,
+          "distance": 0,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            124
+          ],
+          "rounds": 17
+        },
+        {
+          "index": 193,
+          "distance": 0,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            83
+          ],
+          "rounds": 15
+        },
+        {
+          "index": 194,
+          "distance": 1,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            112
+          ],
+          "rounds": 14
+        },
+        {
+          "index": 195,
+          "distance": 1,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            152
+          ],
+          "rounds": 17
+        },
+        {
+          "index": 196,
+          "distance": 2,
+          "first": 0,
+          "winner": 1,
+          "hp": [
+            0,
+            141
+          ],
+          "rounds": 16
+        },
+        {
+          "index": 197,
+          "distance": 2,
+          "first": 1,
+          "winner": 1,
+          "hp": [
+            0,
+            163
+          ],
+          "rounds": 14
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "controller": "immediate",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "earth/mountain",
+      "originalConfig": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "mountain",
+          "landbreak",
+          "earthmend",
+          "gravel"
+        ]
+      },
+      "alternateConfig": {
+        "major": "mountain",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "mountain",
+          "quakesunder"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 198,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            33,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 199,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            80,
+            0
+          ],
+          "rounds": 4
+        },
+        {
+          "index": 200,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            50,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 201,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            24,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 202,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            67,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 203,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            46,
+            0
+          ],
+          "rounds": 5
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "games": 6,
+      "wins": [
+        6,
+        0
+      ],
+      "loserSeat": 1,
+      "loserId": "earth/bastion",
+      "originalConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "landbreak",
+          "stoneback",
+          "quakesunder",
+          "gravel"
+        ]
+      },
+      "alternateConfig": {
+        "major": "bastion",
+        "skillIds": [
+          "stonebolt",
+          "foundation",
+          "rampart",
+          "landbreak",
+          "earthenwall",
+          "quakesunder"
+        ]
+      },
+      "alternateWins": 0,
+      "alternateLosses": 6,
+      "unresolved": 0,
+      "escapedLock": false,
+      "scenarios": [
+        {
+          "index": 204,
+          "distance": 0,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            110,
+            0
+          ],
+          "rounds": 14
+        },
+        {
+          "index": 205,
+          "distance": 0,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            75,
+            0
+          ],
+          "rounds": 17
+        },
+        {
+          "index": 206,
+          "distance": 1,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            138,
+            0
+          ],
+          "rounds": 13
+        },
+        {
+          "index": 207,
+          "distance": 1,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            54,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 208,
+          "distance": 2,
+          "first": 0,
+          "winner": 0,
+          "hp": [
+            97,
+            0
+          ],
+          "rounds": 5
+        },
+        {
+          "index": 209,
+          "distance": 2,
+          "first": 1,
+          "winner": 0,
+          "hp": [
+            68,
+            0
+          ],
+          "rounds": 15
+        }
+      ]
+    }
+  ]
+}

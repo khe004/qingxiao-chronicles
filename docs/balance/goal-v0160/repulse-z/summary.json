@@ -1,0 +1,84 @@
+{
+  "label": "Z baseline, paid repulse damage 22; four complete prepared matchups, no acceptance claim",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "repulse22/water/cold-earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "waterbolt": 32,
+        "frost": 22,
+        "icebreaker": 14,
+        "rinse": 9,
+        "basic": 10,
+        "mirrorwater": 2,
+        "near": 3,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "repulse22/water/cold-earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 87,
+      "actions": {
+        "frost": 32,
+        "icebreaker": 19,
+        "meditate": 7,
+        "waterbolt": 28,
+        "rinse": 63,
+        "sever-terrain": 14,
+        "mirrorwater": 50,
+        "basic": 37,
+        "far": 1,
+        "repulse": 1
+      },
+      "unusedAP": 0
+    },
+    "repulse22/water/cold-wood/symbiosis/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 83,
+      "actions": {
+        "waterbolt": 75,
+        "mirrorwater": 3,
+        "basic": 3,
+        "frost": 21,
+        "icebreaker": 20,
+        "sever-growth": 66,
+        "rinse": 54
+      },
+      "unusedAP": 0
+    },
+    "repulse22/flame/smolder-water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 51,
+      "actions": {
+        "kindle": 59,
+        "ashenward": 35,
+        "quench": 14,
+        "cinder": 8,
+        "firestorm": 7,
+        "flare": 9,
+        "basic": 1,
+        "far": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

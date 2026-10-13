@@ -1,0 +1,49 @@
+{
+  "label": "BB; original symbiosis/bastion six slots; bloom base36/40; stoneback18 finite reflection",
+  "games": 12,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "symbiosis-bloom36--bastion-reflect18/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 5,
+      "unresolved": 1,
+      "rounds": 145,
+      "actions": {
+        "wooddart": 105,
+        "thornscreen": 85,
+        "cultivate": 131,
+        "sever-terrain": 55,
+        "basic": 12,
+        "bloomheal": 33,
+        "bloomstrike": 3,
+        "graft": 1,
+        "near": 4
+      },
+      "unusedAP": 0
+    },
+    "symbiosis-bloom40--bastion-reflect18/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 132,
+      "actions": {
+        "cultivate": 117,
+        "basic": 16,
+        "bloomstrike": 7,
+        "thornscreen": 90,
+        "bloomheal": 21,
+        "wooddart": 88,
+        "sever-terrain": 43,
+        "graft": 1,
+        "far": 1,
+        "near": 2
+      },
+      "unusedAP": 3
+    }
+  }
+}

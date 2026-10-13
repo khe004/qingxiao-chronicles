@@ -1,0 +1,1 @@
+{"reason": "Tide60/66 needs prepared>=27 implies combined>=87/132; Mountain10/66 plus prepared<=39 gives combined<=49/132. Both contradict frozen acceptance.", "completed": 816}

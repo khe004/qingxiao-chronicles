@@ -1,0 +1,138 @@
+{
+  "label": "AU cheaper ice with 54 full-chill base, reduced from 64; four original cold problem pairs",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "fire/sustain--water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "seed": 4,
+        "spark": 48,
+        "blaze": 7,
+        "nourish": 11,
+        "heal": 9,
+        "sproutguard": 2,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "flare": 6,
+        "kindle": 45,
+        "firestorm": 3,
+        "basic": 3,
+        "quench": 15
+      },
+      "unusedAP": 0
+    },
+    "water/cold--wood/symbiosis/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "frost": 27,
+        "icebreaker": 24,
+        "waterbolt": 27
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "frost": 27,
+        "icebreaker": 26,
+        "waterbolt": 28
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 46,
+      "actions": {
+        "spark": 32,
+        "seed": 2,
+        "basic": 2,
+        "heal": 20,
+        "blaze": 20,
+        "sproutguard": 18,
+        "near": 32,
+        "nourish": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 75,
+      "actions": {
+        "kindle": 102,
+        "ashenward": 69,
+        "meditate": 2,
+        "quench": 25,
+        "cinder": 9,
+        "firestorm": 9,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "water/cold--wood/symbiosis/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "frost": 34,
+        "icebreaker": 31,
+        "waterbolt": 24,
+        "sever-growth": 20,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 89,
+      "actions": {
+        "frost": 28,
+        "icebreaker": 24,
+        "waterbolt": 19,
+        "mirrorwater": 59,
+        "rinse": 58,
+        "far": 2,
+        "sever-terrain": 18,
+        "near": 9,
+        "meditate": 18,
+        "basic": 19
+      },
+      "unusedAP": 4
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "reuseFrom": "docs/balance/goal-v0160/full-bl",
+  "changedSkills": [],
+  "changedMajorHp": [
+    {
+      "key": "fire",
+      "major": "ignite"
+    },
+    {
+      "key": "water",
+      "major": "cold"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills, per-key/major starting HP, the paid bastion terrain-guard shield bonus and label may differ; every match with an affected fighter or equipped skill rerun. Economy, class defenses, other passives, loadouts and all combat source identical."
+}

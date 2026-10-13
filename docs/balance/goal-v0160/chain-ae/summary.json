@@ -1,0 +1,161 @@
+{
+  "label": "AE joint paid tide action budget and fierce second-fire combo",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "chain-12/water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "kindle": 39,
+        "basic": 1,
+        "meditate": 1,
+        "near": 20,
+        "ashenward": 20,
+        "firestorm": 4,
+        "flare": 4,
+        "eruption": 6,
+        "quench": 6
+      },
+      "unusedAP": 0
+    },
+    "chain-12/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 53,
+      "actions": {
+        "eruption": 24,
+        "meditate": 2,
+        "ashenward": 31,
+        "quench": 16,
+        "basic": 3,
+        "kindle": 29,
+        "near": 37,
+        "flare": 3,
+        "firestorm": 2,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "chain-12/wood/symbiosis/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 105,
+      "actions": {
+        "eruption": 64,
+        "kindle": 80,
+        "meditate": 1,
+        "near": 93,
+        "ashenward": 28,
+        "flare": 22,
+        "firestorm": 6,
+        "sever-growth": 5,
+        "quench": 6
+      },
+      "unusedAP": 0
+    },
+    "chain-12/flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "eruption": 16,
+        "meditate": 4,
+        "kindle": 30,
+        "ashenward": 27,
+        "flare": 2,
+        "quench": 3,
+        "near": 17,
+        "firestorm": 4
+      },
+      "unusedAP": 0
+    },
+    "chain-14/water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "kindle": 38,
+        "basic": 1,
+        "meditate": 1,
+        "near": 21,
+        "ashenward": 15,
+        "firestorm": 5,
+        "flare": 2,
+        "eruption": 8
+      },
+      "unusedAP": 0
+    },
+    "chain-14/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 42,
+      "actions": {
+        "eruption": 24,
+        "meditate": 2,
+        "ashenward": 18,
+        "quench": 16,
+        "basic": 3,
+        "kindle": 17,
+        "flare": 6,
+        "firestorm": 3,
+        "near": 24,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "chain-14/wood/symbiosis/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 102,
+      "actions": {
+        "eruption": 66,
+        "kindle": 81,
+        "meditate": 1,
+        "near": 90,
+        "ashenward": 18,
+        "flare": 16,
+        "firestorm": 8,
+        "quench": 10,
+        "sever-growth": 2
+      },
+      "unusedAP": 0
+    },
+    "chain-14/flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 53,
+      "actions": {
+        "eruption": 13,
+        "meditate": 4,
+        "kindle": 48,
+        "ashenward": 41,
+        "flare": 5,
+        "firestorm": 6,
+        "quench": 10,
+        "near": 21
+      },
+      "unusedAP": 0
+    }
+  }
+}

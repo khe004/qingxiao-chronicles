@@ -1,0 +1,6161 @@
+{
+  "label": "R two-qi counterguard trade with54 eruption; prepared water/earth guards and mirror screening",
+  "jobs": [
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-14-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 14,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-16-12",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 16,
+            "reflect": 12,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "paid-18-14",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 18,
+            "reflect": 14,
+            "cost": {
+              "fire": 1,
+              "any": 1
+            }
+          },
+          "eruption": {
+            "power": 54
+          }
+        }
+      }
+    }
+  ]
+}

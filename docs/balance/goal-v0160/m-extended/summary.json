@@ -1,0 +1,45 @@
+{
+  "label": "M unresolved 30-round records, same full configs replayed to120; this is timeout sensitivity, not new primary win-rate evidence",
+  "games": 5,
+  "limit": 120,
+  "limits": [
+    120
+  ],
+  "groups": {
+    "water/tidal-earth/bastion/prepared/balanced": {
+      "games": 3,
+      "wins": 0,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 114,
+      "actions": {
+        "waterbolt": 29,
+        "waterwall": 119,
+        "far": 27,
+        "rinse": 84,
+        "gather": 48,
+        "surge": 16,
+        "basic": 3,
+        "sever-terrain": 5,
+        "tidespear": 2,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/bastion-earth/bastion/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 74,
+      "actions": {
+        "stonebolt": 66,
+        "stoneback": 70,
+        "foundation": 63,
+        "basic": 3,
+        "gravel": 16
+      },
+      "unusedAP": 0
+    }
+  }
+}

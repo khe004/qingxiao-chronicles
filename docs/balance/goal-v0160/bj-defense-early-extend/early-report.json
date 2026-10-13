@@ -1,0 +1,26 @@
+{
+  "scope": "Two early observed timeouts only; full defensive matrix coverage remains pending",
+  "sameCombatHashes": true,
+  "exactOriginalPrefixes": true,
+  "originalDenominatorsPreserved": true,
+  "rows": [
+    {
+      "originalIndex": 55,
+      "rounds": 34,
+      "winner": 1,
+      "hp": [
+        0,
+        108
+      ]
+    },
+    {
+      "originalIndex": 57,
+      "rounds": 31,
+      "winner": 1,
+      "hp": [
+        0,
+        27
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "label": "v0.16-screen-b",
+  "sustainRecovery": 4,
+  "rules": {
+    "advantage": 1.08,
+    "disadvantage": 0.92,
+    "edgePower": 12,
+    "chainPower": 12,
+    "skills": {
+      "sword": {
+        "swift": {
+          "power": 30
+        },
+        "riposte": {
+          "shield": 16,
+          "reflect": 14
+        },
+        "cleave": {
+          "power": 50
+        }
+      },
+      "flame": {
+        "eruption": {
+          "power": 54
+        }
+      },
+      "water": {
+        "surge": {
+          "power": 30,
+          "tidePower": 16
+        },
+        "rinse": {
+          "heal": 14
+        }
+      },
+      "wood": {
+        "parasite": {
+          "initialPower": 8
+        },
+        "reap": {
+          "power": 32,
+          "parasitePower": 20
+        }
+      },
+      "earth": {
+        "landbreak": {
+          "terrainPower": 16
+        },
+        "mountain": {
+          "power": 58,
+          "terrainPower": 14
+        }
+      }
+    },
+    "secondShield": 8
+  },
+  "reserveReactionWeight": 0.65
+}

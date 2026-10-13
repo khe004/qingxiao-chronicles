@@ -1,0 +1,6491 @@
+{
+  "label": "N isolated full tide damage sweep",
+  "jobs": [
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-32-16",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 32,
+            "tidePower": 16
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "surge-34-14",
+      "skillOverrides": {
+        "water": {
+          "surge": {
+            "power": 34,
+            "tidePower": 14
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "tag": "ward13-11",
+      "skillOverrides": {
+        "flame": {
+          "ashenward": {
+            "shield": 13,
+            "reflect": 11
+          }
+        }
+      }
+    }
+  ]
+}

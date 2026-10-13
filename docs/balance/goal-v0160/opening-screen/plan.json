@@ -1,0 +1,9077 @@
+{
+  "label": "Independent opening shield screen; unchanged v0.15.7 numerical rules",
+  "jobs": [
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/water/tidal"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 0
+      },
+      "tag": "shield-0/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/water/tidal"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 8
+      },
+      "tag": "shield-8/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/ignite"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/fire/sustain"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/quick"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/sword/heavy"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/fierce"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/flame/smolder"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/cold"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/tidal"
+    },
+    {
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/water/tidal"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/bastion"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/mountain"
+    },
+    {
+      "a": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "ruleOverrides": {
+        "secondShield": 16
+      },
+      "tag": "shield-16/earth/mountain"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "label": "AW smolder durability only, 230 and 240; original six ranges/orders per controller, separate groups",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "smolder-230--tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "flare": 30,
+        "kindle": 24,
+        "quench": 12,
+        "cinder": 6,
+        "firestorm": 6,
+        "basic": 6,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-230--tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "kindle": 48,
+        "ashenward": 24,
+        "cinder": 12,
+        "flare": 6
+      },
+      "unusedAP": 0
+    },
+    "smolder-240--tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "flare": 30,
+        "kindle": 24,
+        "quench": 12,
+        "cinder": 6,
+        "firestorm": 6,
+        "basic": 6,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-240--tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "kindle": 42,
+        "ashenward": 18,
+        "cinder": 12,
+        "flare": 15,
+        "firestorm": 3,
+        "quench": 6,
+        "basic": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

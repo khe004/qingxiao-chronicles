@@ -1,0 +1,10 @@
+{
+  "reuseFrom": "docs/balance/goal-v0160/immediate-aq",
+  "changedSkills": [
+    {
+      "key": "wood",
+      "id": "wooddart"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills and label may differ; every match with either actor equipping a changed skill rerun; global rules, class stats, passives, recommended/tactical loadouts and all other combat source identical."
+}

@@ -1,0 +1,1 @@
+Prepared range: 32 partial/full/zero preparation and AP cases, paid movement/harvest, frozen main preview, colored-qi reservation, no false reserve without prep/AP, and real-versus-public-forecast phase fields passed.

@@ -1,0 +1,10 @@
+{
+  "reuseFrom": "/workspace/qingxiao-chronicles/docs/balance/goal-v0160/full-n",
+  "changedSkills": [
+    {
+      "key": "flame",
+      "id": "ashenward"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills and label may differ; every match with either actor equipping a changed skill rerun; global rules, class stats, passives, recommended/tactical loadouts and all other combat source identical."
+}

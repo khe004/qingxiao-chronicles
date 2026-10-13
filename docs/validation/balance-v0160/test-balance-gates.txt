@@ -1,0 +1,1 @@
+Balance acceptance: complete rejected matrix remains rejected; duplicate/missing scenarios, wrong tendency, changed original loadout, summary/raw mismatch, invalid/fractional/over-limit winner HP, corrupt frozen source and stale passing export flag rejected.

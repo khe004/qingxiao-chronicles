@@ -1,0 +1,87 @@
+{
+  "label": "Early diagnostics for observed defensive timeouts; full matrix coverage still required later",
+  "jobs": [
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "distance": 0,
+      "first": 1,
+      "originalIndex": 55,
+      "limit": 120,
+      "tag": "early-timeout-55"
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "distance": 1,
+      "first": 1,
+      "originalIndex": 57,
+      "limit": 120,
+      "tag": "early-timeout-57"
+    }
+  ]
+}

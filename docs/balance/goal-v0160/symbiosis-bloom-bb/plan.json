@@ -1,0 +1,617 @@
+{
+  "label": "BB; original symbiosis/bastion six slots; bloom base36/40; stoneback18 finite reflection",
+  "jobs": [
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 36
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom36--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 36
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom36--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 36
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom36--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 36
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom36--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 36
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom36--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 36
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom36--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 40
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom40--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 40
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom40--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 40
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom40--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 40
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom40--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 40
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom40--bastion-reflect18"
+    },
+    {
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "skillOverrides": {
+        "wood": {
+          "bloomstrike": {
+            "power": 40
+          }
+        },
+        "earth": {
+          "stoneback": {
+            "reflect": 18
+          }
+        }
+      },
+      "tag": "symbiosis-bloom40--bastion-reflect18"
+    }
+  ]
+}

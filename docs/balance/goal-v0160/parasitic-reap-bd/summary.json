@@ -1,0 +1,164 @@
+{
+  "label": "BD original configurations; isolated reap base46/54; original parasite/growth consumption and paid budget",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "flame/smolder--wood/parasitic/reap46/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 96,
+      "actions": {
+        "flare": 61,
+        "kindle": 84,
+        "unparasite": 78,
+        "sever-growth": 3,
+        "basic": 6,
+        "cinder": 17,
+        "firestorm": 19,
+        "meditate": 5,
+        "quench": 4,
+        "ashenward": 3
+      },
+      "unusedAP": 0
+    },
+    "wood/symbiosis--wood/parasitic/reap46/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 76,
+      "actions": {
+        "wooddart": 94,
+        "unparasite": 40,
+        "basic": 21,
+        "graft": 19,
+        "bloomstrike": 21,
+        "bloomheal": 10,
+        "cultivate": 13,
+        "thornscreen": 3
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite--wood/parasitic/reap46/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 103,
+      "actions": {
+        "seed": 6,
+        "spark": 131,
+        "blaze": 5,
+        "unparasite": 88,
+        "sever-growth": 4,
+        "heal": 31,
+        "basic": 17,
+        "inferno": 8,
+        "seedburst": 3,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "sword/quick--wood/parasitic/reap46/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 66,
+      "actions": {
+        "swift": 22,
+        "lunge": 8,
+        "unparasite": 30,
+        "basic": 25,
+        "unity": 12,
+        "near": 29,
+        "strike": 20,
+        "guard": 12,
+        "pierce": 13,
+        "sever-growth": 4
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--wood/parasitic/reap54/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 95,
+      "actions": {
+        "flare": 57,
+        "kindle": 83,
+        "unparasite": 78,
+        "basic": 9,
+        "cinder": 18,
+        "firestorm": 21,
+        "meditate": 3,
+        "ashenward": 6,
+        "sever-growth": 1,
+        "quench": 1
+      },
+      "unusedAP": 0
+    },
+    "wood/symbiosis--wood/parasitic/reap54/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 89,
+      "actions": {
+        "wooddart": 91,
+        "unparasite": 62,
+        "basic": 47,
+        "graft": 12,
+        "bloomstrike": 19,
+        "cultivate": 19,
+        "bloomheal": 8
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite--wood/parasitic/reap54/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 103,
+      "actions": {
+        "seed": 8,
+        "spark": 124,
+        "blaze": 4,
+        "unparasite": 91,
+        "heal": 34,
+        "inferno": 9,
+        "basic": 18,
+        "seedburst": 4,
+        "sever-growth": 3,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "sword/quick--wood/parasitic/reap54/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 58,
+      "actions": {
+        "swift": 25,
+        "lunge": 3,
+        "unparasite": 26,
+        "basic": 28,
+        "unity": 15,
+        "near": 25,
+        "strike": 15,
+        "guard": 11,
+        "pierce": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

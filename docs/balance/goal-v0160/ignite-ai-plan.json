@@ -1,0 +1,1589 @@
+{
+  "label": "AI: ignite survival budget against complete tidal matchup, both controllers",
+  "jobs": [
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ignite-220/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 220
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ignite-225/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 225
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "immediate",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 0,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 0,
+      "first": 1,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 0,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 1,
+      "first": 1,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 0,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "distance": 2,
+      "first": 1,
+      "tag": "ignite-230/water/tidal",
+      "majorHpOverrides": {
+        "fire": {
+          "ignite": 230
+        }
+      }
+    }
+  ]
+}

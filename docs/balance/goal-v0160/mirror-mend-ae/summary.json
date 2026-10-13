@@ -1,0 +1,192 @@
+{
+  "label": "AE separate finite cold reflection and mountain burn removal screens",
+  "games": 60,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "mirror-15/earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 133,
+      "actions": {
+        "frost": 28,
+        "icebreaker": 19,
+        "meditate": 4,
+        "waterbolt": 47,
+        "mirrorwater": 108,
+        "rinse": 106,
+        "sever-terrain": 40,
+        "basic": 39,
+        "far": 1,
+        "near": 1,
+        "repulse": 1
+      },
+      "unusedAP": 0
+    },
+    "mirror-15/earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 37,
+      "actions": {
+        "waterbolt": 36,
+        "frost": 25,
+        "icebreaker": 15,
+        "rinse": 11,
+        "basic": 8,
+        "mirrorwater": 4,
+        "near": 1,
+        "far": 2
+      },
+      "unusedAP": 0
+    },
+    "mirror-15/wood/symbiosis/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 86,
+      "actions": {
+        "waterbolt": 81,
+        "mirrorwater": 5,
+        "basic": 3,
+        "rinse": 56,
+        "sever-growth": 69,
+        "frost": 19,
+        "icebreaker": 17,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "mirror-16/earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 134,
+      "actions": {
+        "frost": 26,
+        "icebreaker": 17,
+        "meditate": 4,
+        "waterbolt": 47,
+        "mirrorwater": 112,
+        "rinse": 109,
+        "sever-terrain": 36,
+        "basic": 42,
+        "far": 3,
+        "repulse": 1
+      },
+      "unusedAP": 0
+    },
+    "mirror-16/earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 37,
+      "actions": {
+        "waterbolt": 36,
+        "frost": 25,
+        "icebreaker": 15,
+        "rinse": 11,
+        "basic": 8,
+        "mirrorwater": 4,
+        "near": 1,
+        "far": 2
+      },
+      "unusedAP": 0
+    },
+    "mirror-16/wood/symbiosis/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 87,
+      "actions": {
+        "waterbolt": 82,
+        "mirrorwater": 14,
+        "basic": 3,
+        "rinse": 52,
+        "sever-growth": 63,
+        "frost": 19,
+        "icebreaker": 19
+      },
+      "unusedAP": 0
+    },
+    "mend-clear-2/flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "stonebolt": 31,
+        "far": 1,
+        "foundation": 20,
+        "landbreak": 10,
+        "gravel": 9,
+        "purify": 11,
+        "mountain": 2,
+        "earthmend": 7,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "mend-clear-2/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "stonebolt": 76,
+        "foundation": 11,
+        "gravel": 4,
+        "landbreak": 11,
+        "earthmend": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "mend-clear-3/flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 39,
+      "actions": {
+        "stonebolt": 25,
+        "far": 1,
+        "foundation": 28,
+        "landbreak": 10,
+        "gravel": 8,
+        "purify": 16,
+        "mountain": 2,
+        "earthmend": 13,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "mend-clear-3/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "stonebolt": 76,
+        "foundation": 11,
+        "gravel": 4,
+        "landbreak": 11,
+        "earthmend": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}
