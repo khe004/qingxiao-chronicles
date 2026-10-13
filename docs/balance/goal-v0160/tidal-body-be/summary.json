@@ -1,0 +1,124 @@
+{
+  "label": "BE original six slots; only tidal HP215/210; quick and fire counterplay screens",
+  "games": 36,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "sword/quick--water/tidal/tidalHP215/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "swift": 29,
+        "meditate": 2,
+        "strike": 21,
+        "near": 16,
+        "unity": 4,
+        "guard": 9,
+        "basic": 6,
+        "lunge": 6,
+        "pierce": 4
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/tidal/tidalHP215/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "kindle": 40,
+        "ashenward": 20,
+        "flare": 24,
+        "quench": 9,
+        "firestorm": 10,
+        "meditate": 4,
+        "basic": 2,
+        "cinder": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/tidalHP215/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "eruption": 5,
+        "kindle": 43,
+        "far": 1,
+        "ashenward": 21,
+        "flare": 6,
+        "quench": 10,
+        "basic": 9,
+        "near": 5,
+        "firestorm": 10,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "sword/quick--water/tidal/tidalHP210/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "swift": 28,
+        "meditate": 2,
+        "strike": 22,
+        "near": 14,
+        "unity": 4,
+        "guard": 9,
+        "basic": 7,
+        "lunge": 6,
+        "pierce": 4
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/tidal/tidalHP210/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "kindle": 40,
+        "ashenward": 20,
+        "flare": 24,
+        "quench": 9,
+        "firestorm": 10,
+        "meditate": 4,
+        "basic": 2,
+        "cinder": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/tidalHP210/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "eruption": 5,
+        "kindle": 43,
+        "far": 1,
+        "ashenward": 21,
+        "flare": 6,
+        "quench": 10,
+        "basic": 9,
+        "near": 5,
+        "firestorm": 10,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

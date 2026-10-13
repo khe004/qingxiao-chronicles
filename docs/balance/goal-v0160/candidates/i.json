@@ -1,0 +1,109 @@
+{
+  "label": "v0.16.0-i",
+  "sustainRecovery": 2,
+  "preparationBreakAmount": true,
+  "rules": {
+    "secondShield": 8,
+    "edgePower": 10,
+    "chainPower": 8,
+    "skills": {
+      "sword": {
+        "swift": {
+          "power": 30
+        },
+        "riposte": {
+          "shield": 16,
+          "intent": 1
+        },
+        "cleave": {
+          "power": 46
+        }
+      },
+      "flame": {
+        "eruption": {
+          "power": 44,
+          "breakPrep": true,
+          "breakPrepAmount": 1
+        },
+        "firestorm": {
+          "power": 48
+        },
+        "flare": {
+          "power": 24
+        }
+      },
+      "water": {
+        "rinse": {
+          "heal": 16
+        },
+        "surge": {
+          "power": 32,
+          "tidePower": 18
+        },
+        "tidespear": {
+          "power": 52
+        },
+        "gather": {
+          "cost": {
+            "any": 1
+          }
+        },
+        "icebreaker": {
+          "cost": {
+            "water": 1,
+            "any": 1
+          },
+          "power": 30,
+          "chillPower": 16
+        }
+      },
+      "wood": {
+        "wooddart": {
+          "power": 31
+        },
+        "bloomheal": {
+          "clearBurn": 1,
+          "heal": 16,
+          "growthHeal": 6
+        },
+        "reap": {
+          "shieldPierce": 0.25
+        },
+        "bloomstrike": {
+          "growthPower": 18
+        }
+      },
+      "earth": {
+        "landbreak": {
+          "terrainPower": 14
+        },
+        "mountain": {
+          "power": 58,
+          "terrainPower": 14
+        },
+        "earthmend": {
+          "clearBurn": 2
+        }
+      },
+      "fire": {
+        "nourish": {
+          "heal": 18
+        },
+        "sproutguard": {
+          "shield": 20
+        }
+      }
+    },
+    "unparasiteCost": 2,
+    "stats": {
+      "sword": {
+        "gen": {
+          "metal": 4,
+          "water": 1
+        }
+      }
+    }
+  },
+  "parasiteCleanseCost": true,
+  "deriveSkillDescriptions": true
+}

@@ -1,0 +1,1409 @@
+{
+  "label": "Isolated reserve valuation; otherwise unchanged numerical rules, six guarded pairs",
+  "jobs": [
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-flame/fierce"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-water/cold"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-water/cold"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-water/cold"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-water/cold"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-water/cold"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-water/cold"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "flame/fierce-water/cold"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "flame/fierce-water/cold"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "flame/fierce-water/cold"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "flame/fierce-water/cold"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "flame/fierce-water/cold"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "flame/fierce-water/cold"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/heavy-wood/symbiosis"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 0,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 1,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 0,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-wood/parasitic"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "first": 1,
+      "distance": 2,
+      "controller": "immediate",
+      "tendency": "balanced",
+      "tag": "sword/quick-wood/parasitic"
+    }
+  ]
+}

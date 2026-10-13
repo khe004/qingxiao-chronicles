@@ -1,0 +1,1589 @@
+{
+  "label": "BE original six slots; only tidal HP215/210; quick and fire counterplay screens",
+  "jobs": [
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 215
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP215"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "sword/quick",
+        "name": "快剑压制",
+        "key": "sword",
+        "config": {
+          "major": "quick",
+          "skillIds": [
+            "swift",
+            "pierce",
+            "strike",
+            "guard",
+            "lunge",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "sword/quick--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/smolder--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP210"
+    },
+    {
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "majorHpOverrides": {
+        "water": {
+          "tidal": 210
+        }
+      },
+      "tag": "flame/fierce--water/tidal/tidalHP210"
+    }
+  ]
+}

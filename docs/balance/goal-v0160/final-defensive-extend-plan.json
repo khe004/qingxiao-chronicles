@@ -1,0 +1,3736 @@
+{
+  "label": "Extend all 91 unresolved scenarios to 120; preserve the original 30-round matrix.",
+  "jobs": [
+    {
+      "originalIndex": 55,
+      "a": {
+        "id": "fire/ignite",
+        "name": "引燃爆发",
+        "key": "fire",
+        "config": {
+          "major": "ignite",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "inferno",
+            "seedburst"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "fire/ignite--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 72,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "fire/sustain--fire/sustain/mirror"
+    },
+    {
+      "originalIndex": 73,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "fire/sustain--fire/sustain/mirror"
+    },
+    {
+      "originalIndex": 74,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "fire/sustain--fire/sustain/mirror"
+    },
+    {
+      "originalIndex": 75,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "fire/sustain--fire/sustain/mirror"
+    },
+    {
+      "originalIndex": 76,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "fire/sustain--fire/sustain/mirror"
+    },
+    {
+      "originalIndex": 77,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "fire/sustain--fire/sustain/mirror"
+    },
+    {
+      "originalIndex": 114,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "fire/sustain--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 115,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "fire/sustain--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 116,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "fire/sustain--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 117,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "fire/sustain--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 118,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "fire/sustain--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 119,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "fire/sustain--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 120,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "fire/sustain--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 121,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "fire/sustain--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 123,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "fire/sustain--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 124,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "fire/sustain--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 125,
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "fire/sustain--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 264,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/fierce--water/cold/cross"
+    },
+    {
+      "originalIndex": 265,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/fierce--water/cold/cross"
+    },
+    {
+      "originalIndex": 266,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/fierce--water/cold/cross"
+    },
+    {
+      "originalIndex": 267,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/fierce--water/cold/cross"
+    },
+    {
+      "originalIndex": 268,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/fierce--water/cold/cross"
+    },
+    {
+      "originalIndex": 281,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/fierce--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 282,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/fierce--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 284,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/fierce--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 286,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/fierce--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 287,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/fierce--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 288,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/fierce--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 289,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/fierce--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 290,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/fierce--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 291,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/fierce--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 292,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/fierce--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 293,
+      "a": {
+        "id": "flame/fierce",
+        "name": "烈焰强攻",
+        "key": "flame",
+        "config": {
+          "major": "fierce",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "eruption",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/fierce--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 324,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/smolder--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 325,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/smolder--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 326,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/smolder--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 327,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/smolder--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 329,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/smolder--wood/parasitic/cross"
+    },
+    {
+      "originalIndex": 331,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "flame/smolder--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 332,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/smolder--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 333,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "flame/smolder--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 334,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/smolder--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 335,
+      "a": {
+        "id": "flame/smolder",
+        "name": "焚灼消耗",
+        "key": "flame",
+        "config": {
+          "major": "smolder",
+          "skillIds": [
+            "flare",
+            "kindle",
+            "cinder",
+            "firestorm",
+            "ashenward",
+            "quench"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "flame/smolder--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 366,
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "water/cold--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 367,
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "water/cold--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 368,
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "water/cold--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 369,
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "water/cold--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 370,
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "water/cold--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 371,
+      "a": {
+        "id": "water/cold",
+        "name": "寒凝控距",
+        "key": "water",
+        "config": {
+          "major": "cold",
+          "skillIds": [
+            "waterbolt",
+            "frost",
+            "icebreaker",
+            "mirrorwater",
+            "rinse",
+            "repulse"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "water/cold--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 380,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "water/tidal--water/tidal/mirror"
+    },
+    {
+      "originalIndex": 381,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "water/tidal--water/tidal/mirror"
+    },
+    {
+      "originalIndex": 385,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "water/tidal--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 387,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "water/tidal--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 388,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "water/tidal--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 389,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "water/tidal--wood/symbiosis/cross"
+    },
+    {
+      "originalIndex": 396,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "water/tidal--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 397,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "water/tidal--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 398,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "water/tidal--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 399,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "water/tidal--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 400,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "water/tidal--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 401,
+      "a": {
+        "id": "water/tidal",
+        "name": "潮汐调息",
+        "key": "water",
+        "config": {
+          "major": "tidal",
+          "skillIds": [
+            "waterbolt",
+            "gather",
+            "surge",
+            "tidespear",
+            "rinse",
+            "waterwall"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "water/tidal--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 421,
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "wood/symbiosis--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 423,
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "wood/symbiosis--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 424,
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "wood/symbiosis--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 427,
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "wood/symbiosis--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 429,
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "wood/symbiosis--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 430,
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "wood/symbiosis--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 431,
+      "a": {
+        "id": "wood/symbiosis",
+        "name": "灵植共生",
+        "key": "wood",
+        "config": {
+          "major": "symbiosis",
+          "skillIds": [
+            "wooddart",
+            "cultivate",
+            "graft",
+            "bloomstrike",
+            "bloomheal",
+            "thornscreen"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "wood/symbiosis--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 438,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 439,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 440,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 441,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 442,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 443,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/bastion/cross"
+    },
+    {
+      "originalIndex": 444,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 445,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 446,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 447,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 448,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 449,
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "wood/parasitic--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 450,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 0,
+      "limit": 120,
+      "tag": "earth/bastion--earth/bastion/mirror"
+    },
+    {
+      "originalIndex": 451,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 0,
+      "limit": 120,
+      "tag": "earth/bastion--earth/bastion/mirror"
+    },
+    {
+      "originalIndex": 452,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "earth/bastion--earth/bastion/mirror"
+    },
+    {
+      "originalIndex": 453,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "earth/bastion--earth/bastion/mirror"
+    },
+    {
+      "originalIndex": 454,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "earth/bastion--earth/bastion/mirror"
+    },
+    {
+      "originalIndex": 455,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "earth/bastion--earth/bastion/mirror"
+    },
+    {
+      "originalIndex": 458,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 1,
+      "limit": 120,
+      "tag": "earth/bastion--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 459,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 1,
+      "limit": 120,
+      "tag": "earth/bastion--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 460,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 0,
+      "distance": 2,
+      "limit": 120,
+      "tag": "earth/bastion--earth/mountain/cross"
+    },
+    {
+      "originalIndex": 461,
+      "a": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/mountain",
+        "name": "镇岳压制",
+        "key": "earth",
+        "config": {
+          "major": "mountain",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "mountain",
+            "landbreak",
+            "earthmend",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "defensive",
+      "first": 1,
+      "distance": 2,
+      "limit": 120,
+      "tag": "earth/bastion--earth/mountain/cross"
+    }
+  ]
+}

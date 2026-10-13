@@ -8,3 +8,6 @@ docs/balance/range-movement/*.raw.json
 docs/balance/adaptive-prediction/checkpoint.json
 docs/balance/shield-score/checkpoint.json.gz
 docs/balance/depth-comparison/behavior-checkpoint.json.gz
+
+# Completed records are retained; resume checkpoints duplicate them.
+docs/balance/goal-v0160/**/checkpoint.json.gz

@@ -1,0 +1,40 @@
+{
+  "reuseFrom": "docs/balance/goal-v0160/full-ap",
+  "changedSkills": [
+    {
+      "key": "sword",
+      "id": "swift"
+    },
+    {
+      "key": "sword",
+      "id": "strike"
+    },
+    {
+      "key": "wood",
+      "id": "wooddart"
+    }
+  ],
+  "changedMajorHp": [
+    {
+      "key": "fire",
+      "major": "sustain"
+    },
+    {
+      "key": "sword",
+      "major": "quick"
+    },
+    {
+      "key": "flame",
+      "major": "smolder"
+    },
+    {
+      "key": "wood",
+      "major": "symbiosis"
+    },
+    {
+      "key": "wood",
+      "major": "parasitic"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills, per-key/major starting HP and label may differ; every match with an affected fighter or equipped skill rerun. Economy, defenses, passives, loadouts and all combat source identical."
+}

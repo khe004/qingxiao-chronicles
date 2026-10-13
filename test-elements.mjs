@@ -33,9 +33,9 @@ const hp=burn.player.hp;burn.tickBurn(burn.player);assert.equal(hp-burn.player.h
 assert.equal(burn.player.burnTurns,1);burn.tickBurn(burn.player);assert.equal(burn.player.burn,0);assert.equal(burn.player.burnTurns,0);
 const cleanse=new Battle('water');cleanse.player.burn=5;cleanse.player.burnTurns=2;cleanse.act(cleanse.player,'waterbolt');assert.equal(cleanse.player.burn,4);cleanse.act(cleanse.player,'waterbolt');assert.equal(cleanse.player.burn,4,'Paid water cleanse only once per round');
 for(const key of Object.keys(CLASSES)){
- const b=new DuelBattle(key,{}, {key});assert.equal(b.player.shield,0);assert.equal(b.enemy.shield,16);
- const c=new ChallengeBattle(key,{},'cold');assert.equal(c.enemy.shield,16);
- for(const first of [0,1]){const w=createPredictiveArena({key,config:{}},{key,config:{}},{first});assert.equal(w.actors[first].shield,0);assert.equal(w.actors[1-first].shield,16);}
+ const b=new DuelBattle(key,{}, {key});assert.equal(b.player.shield,0);assert.equal(b.enemy.shield,9);
+ const c=new ChallengeBattle(key,{},'cold');assert.equal(c.enemy.shield,9);
+ for(const first of [0,1]){const w=createPredictiveArena({key,config:{}},{key,config:{}},{first});assert.equal(w.actors[first].shield,0);assert.equal(w.actors[1-first].shield,9);}
 }
 
 // Forced movement happens after damage. Anchoring spends the one response and

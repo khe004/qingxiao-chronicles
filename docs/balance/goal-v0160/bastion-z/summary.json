@@ -1,0 +1,122 @@
+{
+  "label": "Z baseline: 12 shield / 24 reflection, three HP budgets; two complete prepared matchups per profile, no acceptance claim",
+  "games": 36,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "bastion185-24/wood/parasitic/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 139,
+      "actions": {
+        "wooddart": 78,
+        "parasite": 131,
+        "basic": 3,
+        "cultivate": 116,
+        "bloomheal": 60,
+        "reap": 14,
+        "far": 2,
+        "near": 4
+      },
+      "unusedAP": 0
+    },
+    "bastion185-24/sword/heavy/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 39,
+      "actions": {
+        "swift": 19,
+        "expose": 2,
+        "riposte": 19,
+        "basic": 16,
+        "strike": 9,
+        "near": 17,
+        "unity": 12,
+        "meditate": 1,
+        "sever-terrain": 7
+      },
+      "unusedAP": 0
+    },
+    "bastion195-24/wood/parasitic/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 146,
+      "actions": {
+        "wooddart": 80,
+        "parasite": 139,
+        "basic": 4,
+        "cultivate": 122,
+        "bloomheal": 63,
+        "reap": 14,
+        "far": 2,
+        "near": 5
+      },
+      "unusedAP": 0
+    },
+    "bastion195-24/sword/heavy/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "swift": 20,
+        "expose": 1,
+        "riposte": 19,
+        "basic": 14,
+        "strike": 9,
+        "unity": 12,
+        "near": 16,
+        "meditate": 1,
+        "sever-terrain": 7
+      },
+      "unusedAP": 0
+    },
+    "bastion205-24/wood/parasitic/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 147,
+      "actions": {
+        "wooddart": 83,
+        "parasite": 139,
+        "basic": 3,
+        "cultivate": 123,
+        "bloomheal": 63,
+        "reap": 13,
+        "far": 2,
+        "near": 5
+      },
+      "unusedAP": 0
+    },
+    "bastion205-24/sword/heavy/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "swift": 20,
+        "expose": 2,
+        "riposte": 19,
+        "basic": 14,
+        "strike": 7,
+        "near": 17,
+        "unity": 12,
+        "meditate": 1,
+        "cleave": 1,
+        "sever-terrain": 7
+      },
+      "unusedAP": 0
+    }
+  }
+}

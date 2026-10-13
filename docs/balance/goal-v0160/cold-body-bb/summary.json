@@ -1,0 +1,129 @@
+{
+  "label": "cold-body-bb original frozen configurations; BB runtime; isolated paid-rule overrides",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "fire/ignite--water/cold/value205/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "seed": 7,
+        "blaze": 12,
+        "spark": 41,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite--water/cold/value205/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "seed": 7,
+        "spark": 14,
+        "basic": 11,
+        "blaze": 14,
+        "heal": 8,
+        "inferno": 8,
+        "near": 15,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value205/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 21,
+        "icebreaker": 21,
+        "waterbolt": 27
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value205/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "waterbolt": 24,
+        "frost": 27,
+        "icebreaker": 27
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite--water/cold/value200/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "seed": 7,
+        "blaze": 12,
+        "spark": 41,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite--water/cold/value200/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "seed": 7,
+        "spark": 11,
+        "basic": 11,
+        "blaze": 15,
+        "heal": 7,
+        "inferno": 8,
+        "near": 15,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value200/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 21,
+        "icebreaker": 21,
+        "waterbolt": 27
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value200/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "waterbolt": 27,
+        "frost": 26,
+        "icebreaker": 26,
+        "mirrorwater": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

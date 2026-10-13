@@ -1,0 +1,195 @@
+{
+  "label": "BG two combined locks, three major durability candidates each; isolated diagnostics, not final table",
+  "games": 72,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "fire/ignite-230/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "seed": 7,
+        "blaze": 12,
+        "spark": 41,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite-230/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "seed": 7,
+        "spark": 10,
+        "basic": 10,
+        "blaze": 17,
+        "heal": 9,
+        "inferno": 8,
+        "near": 18,
+        "far": 1,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite-235/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "seed": 8,
+        "blaze": 13,
+        "spark": 42,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite-235/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "seed": 8,
+        "spark": 14,
+        "basic": 10,
+        "blaze": 15,
+        "heal": 9,
+        "inferno": 8,
+        "near": 16,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite-240/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "seed": 8,
+        "blaze": 13,
+        "spark": 48,
+        "heal": 10,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite-240/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "seed": 9,
+        "spark": 13,
+        "basic": 9,
+        "blaze": 20,
+        "heal": 10,
+        "inferno": 9,
+        "near": 16,
+        "meditate": 2,
+        "seedburst": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/mountain-220/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "stonebolt": 77,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/mountain-220/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "stonebolt": 66,
+        "foundation": 9,
+        "gravel": 4,
+        "mountain": 1,
+        "landbreak": 9,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/mountain-215/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "stonebolt": 77,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/mountain-215/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "stonebolt": 63,
+        "foundation": 9,
+        "gravel": 4,
+        "mountain": 1,
+        "landbreak": 9,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/mountain-210/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "stonebolt": 77,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "earth/mountain-210/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "stonebolt": 63,
+        "foundation": 9,
+        "gravel": 4,
+        "mountain": 1,
+        "landbreak": 9,
+        "near": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

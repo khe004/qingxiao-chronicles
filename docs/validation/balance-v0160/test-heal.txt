@@ -1,0 +1,1 @@
+All heal candidates: isolated forecasts, catalog invariance, recovery/cleanse limits, duration, overheal, costs, repeated cast/passive quota and seat symmetry passed.

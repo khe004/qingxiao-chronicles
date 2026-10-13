@@ -1,0 +1,1877 @@
+{
+  "label": "Z baseline: 12 shield / 24 reflection, three HP budgets; two complete prepared matchups per profile, no acceptance claim",
+  "jobs": [
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "bastion185-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "bastion185-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "bastion185-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "bastion185-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "bastion185-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "bastion185-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "bastion185-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "bastion185-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "bastion185-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "bastion185-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "bastion185-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "bastion185-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 185
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "bastion195-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "bastion195-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "bastion195-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "bastion195-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "bastion195-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "bastion195-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "bastion195-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "bastion195-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "bastion195-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "bastion195-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "bastion195-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "bastion195-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 195
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "bastion205-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "bastion205-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "bastion205-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "bastion205-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "bastion205-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "wood/parasitic",
+        "name": "毒藤寄生",
+        "key": "wood",
+        "config": {
+          "major": "parasitic",
+          "skillIds": [
+            "wooddart",
+            "parasite",
+            "reap",
+            "bloomheal",
+            "cultivate",
+            "twinvine"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "bastion205-24/wood/parasitic",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 0,
+      "tag": "bastion205-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 0,
+      "tag": "bastion205-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 1,
+      "tag": "bastion205-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 1,
+      "tag": "bastion205-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 0,
+      "distance": 2,
+      "tag": "bastion205-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    },
+    {
+      "a": {
+        "id": "sword/heavy",
+        "name": "藏锋重剑",
+        "key": "sword",
+        "config": {
+          "major": "heavy",
+          "skillIds": [
+            "swift",
+            "expose",
+            "strike",
+            "riposte",
+            "cleave",
+            "unity"
+          ]
+        }
+      },
+      "b": {
+        "id": "earth/bastion",
+        "name": "壁垒守御",
+        "key": "earth",
+        "config": {
+          "major": "bastion",
+          "skillIds": [
+            "stonebolt",
+            "foundation",
+            "landbreak",
+            "stoneback",
+            "quakesunder",
+            "gravel"
+          ]
+        }
+      },
+      "controller": "prepared",
+      "tendency": "balanced",
+      "first": 1,
+      "distance": 2,
+      "tag": "bastion205-24/sword/heavy",
+      "majorHpOverrides": {
+        "earth": {
+          "bastion": 205
+        }
+      },
+      "skillOverrides": {
+        "earth": {
+          "stoneback": {
+            "shield": 12,
+            "reflect": 24
+          }
+        }
+      }
+    }
+  ]
+}

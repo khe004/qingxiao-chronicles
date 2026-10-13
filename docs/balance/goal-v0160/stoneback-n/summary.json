@@ -1,0 +1,157 @@
+{
+  "label": "N isolated paid stoneback sweep",
+  "games": 108,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "reflect-16/immediate/balanced": {
+      "games": 18,
+      "wins": 14,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 98,
+      "actions": {
+        "wooddart": 165,
+        "graft": 3,
+        "bloomstrike": 3,
+        "parasite": 2,
+        "stonebolt": 76,
+        "foundation": 5,
+        "quakesunder": 1,
+        "landbreak": 3,
+        "gravel": 18,
+        "basic": 4
+      },
+      "unusedAP": 0
+    },
+    "reflect-16/prepared/balanced": {
+      "games": 18,
+      "wins": 2,
+      "losses": 16,
+      "unresolved": 0,
+      "rounds": 264,
+      "actions": {
+        "wooddart": 130,
+        "cultivate": 145,
+        "basic": 33,
+        "thornscreen": 73,
+        "bloomheal": 87,
+        "sever-terrain": 13,
+        "far": 5,
+        "graft": 35,
+        "meditate": 5,
+        "bloomstrike": 5,
+        "near": 34,
+        "parasite": 92,
+        "reap": 6,
+        "stonebolt": 19,
+        "foundation": 30,
+        "quakesunder": 24,
+        "landbreak": 7,
+        "stoneback": 10,
+        "gravel": 10
+      },
+      "unusedAP": 3
+    },
+    "reflect-20/immediate/balanced": {
+      "games": 18,
+      "wins": 14,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 98,
+      "actions": {
+        "wooddart": 165,
+        "graft": 3,
+        "bloomstrike": 3,
+        "parasite": 2,
+        "stonebolt": 76,
+        "foundation": 5,
+        "quakesunder": 1,
+        "landbreak": 3,
+        "gravel": 18,
+        "basic": 4
+      },
+      "unusedAP": 0
+    },
+    "reflect-20/prepared/balanced": {
+      "games": 18,
+      "wins": 4,
+      "losses": 14,
+      "unresolved": 0,
+      "rounds": 301,
+      "actions": {
+        "wooddart": 131,
+        "cultivate": 156,
+        "basic": 63,
+        "thornscreen": 71,
+        "bloomheal": 85,
+        "sever-terrain": 25,
+        "bloomstrike": 6,
+        "far": 7,
+        "graft": 38,
+        "meditate": 4,
+        "near": 43,
+        "parasite": 97,
+        "reap": 7,
+        "stonebolt": 41,
+        "foundation": 29,
+        "quakesunder": 24,
+        "landbreak": 7,
+        "stoneback": 32,
+        "gravel": 14
+      },
+      "unusedAP": 0
+    },
+    "reflect-24/immediate/balanced": {
+      "games": 18,
+      "wins": 14,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 98,
+      "actions": {
+        "wooddart": 165,
+        "graft": 3,
+        "bloomstrike": 3,
+        "parasite": 2,
+        "stonebolt": 76,
+        "foundation": 5,
+        "quakesunder": 1,
+        "landbreak": 3,
+        "gravel": 18,
+        "basic": 4
+      },
+      "unusedAP": 0
+    },
+    "reflect-24/prepared/balanced": {
+      "games": 18,
+      "wins": 2,
+      "losses": 15,
+      "unresolved": 1,
+      "rounds": 294,
+      "actions": {
+        "wooddart": 130,
+        "cultivate": 151,
+        "basic": 48,
+        "thornscreen": 75,
+        "bloomheal": 89,
+        "sever-terrain": 26,
+        "far": 7,
+        "graft": 42,
+        "meditate": 4,
+        "near": 43,
+        "bloomstrike": 5,
+        "parasite": 92,
+        "reap": 9,
+        "stonebolt": 38,
+        "foundation": 32,
+        "quakesunder": 25,
+        "landbreak": 7,
+        "stoneback": 25,
+        "gravel": 12
+      },
+      "unusedAP": 3
+    }
+  }
+}

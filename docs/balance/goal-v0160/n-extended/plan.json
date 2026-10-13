@@ -1,0 +1,251 @@
+{
+  "label": "N current unresolved mirror records, exact configuration extension to120; validation only",
+  "jobs": [
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "limit": 120,
+      "tag": "fire/sustain-fire/sustain",
+      "originalIndex": 540
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 0,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "limit": 120,
+      "tag": "fire/sustain-fire/sustain",
+      "originalIndex": 541
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "limit": 120,
+      "tag": "fire/sustain-fire/sustain",
+      "originalIndex": 542
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 1,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "limit": 120,
+      "tag": "fire/sustain-fire/sustain",
+      "originalIndex": 543
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 0,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "limit": 120,
+      "tag": "fire/sustain-fire/sustain",
+      "originalIndex": 544
+    },
+    {
+      "a": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "b": {
+        "id": "fire/sustain",
+        "name": "生息消耗",
+        "key": "fire",
+        "config": {
+          "major": "sustain",
+          "skillIds": [
+            "seed",
+            "spark",
+            "blaze",
+            "heal",
+            "nourish",
+            "sproutguard"
+          ]
+        }
+      },
+      "distance": 2,
+      "first": 1,
+      "controller": "prepared",
+      "tendency": "balanced",
+      "limit": 120,
+      "tag": "fire/sustain-fire/sustain",
+      "originalIndex": 545
+    }
+  ]
+}

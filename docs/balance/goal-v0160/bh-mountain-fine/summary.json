@@ -1,0 +1,114 @@
+{
+  "label": "Mountain 221-224, immediate lock diagnostics against cold and smolder; no final acceptance",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "mountain-221/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "stonebolt": 77,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "mountain-221/flame/smolder/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "stonebolt": 70,
+        "foundation": 2,
+        "gravel": 4,
+        "landbreak": 2
+      },
+      "unusedAP": 0
+    },
+    "mountain-222/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "stonebolt": 77,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "mountain-222/flame/smolder/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "stonebolt": 70,
+        "foundation": 2,
+        "gravel": 4,
+        "landbreak": 2
+      },
+      "unusedAP": 0
+    },
+    "mountain-223/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "stonebolt": 77,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "mountain-223/flame/smolder/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "stonebolt": 70,
+        "foundation": 2,
+        "gravel": 4,
+        "landbreak": 2
+      },
+      "unusedAP": 0
+    },
+    "mountain-224/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "stonebolt": 77,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "mountain-224/flame/smolder/immediate/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "stonebolt": 74,
+        "foundation": 2,
+        "gravel": 4,
+        "landbreak": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

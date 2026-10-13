@@ -1,0 +1,13 @@
+{
+  "dist/rules.mjs": "5923e90ad063a4a1cebfddd452eb5a8b7cc8469f96def280ea51c788d58b1a8d",
+  "dist/engine.mjs": "ed783e12ebf1e487d6d3cb38f91ea5ea0014e235c91277b35d831945bc29a1b1",
+  "dist/prepared.mjs": "a29eadb106d10bd1d76d485b9baa4f8c19f97caaa37e27bce217388b57ec432d",
+  "dist/auto.mjs": "7283eddd776b78c56c6ea5e94751ab87e3d5e1c11c39daf21e1b309cc493ed10",
+  "dist/tactics.mjs": "ccf62a8d1c087a8cd2143f42e63770f88f96234fd9fed4fefe480a7ed1512108",
+  "dist/active-policy.mjs": "72ca741b62ad25143955c66126fabf715ee9770dfd801aa4d77a720581160c6a",
+  "dist/recorded-battle.mjs": "5be5f384ef639627806d0aa253c2a4863b0173a58a03486ab1a33d50f249324b",
+  "scripts/predictive-arena.mjs": "b0ed82174cf09c96d201c5f710ecd381e9d2f1b6bcfaa3980cf6382c7ae20fc9",
+  "scripts/planner-internals.mjs": "2a54bdd60d8c3f537218032096f5d1f68a9ee35d49f7411c3da1df25c50de6e4",
+  "scripts/check-twelve-school.mjs": "f451cd5eca45302747976621631a4c4b3375df3f79e50e68a83995dce316d5ff",
+  "scripts/cultivation-reuse.mjs": "e2e4be0c2bbd80da1b55dda4ce5572a8e998d5bd99e9fdfe9bf357ebe6c1f66c"
+}

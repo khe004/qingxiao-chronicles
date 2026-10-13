@@ -1,0 +1,126 @@
+{
+  "label": "AE joint once-per-round flame storm action tradeoff screen",
+  "games": 36,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "storm1-once-38/flame/fierce--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "kindle": 29,
+        "basic": 4,
+        "near": 13,
+        "firestorm": 22,
+        "eruption": 8,
+        "meditate": 1,
+        "flare": 5,
+        "ashenward": 9
+      },
+      "unusedAP": 0
+    },
+    "storm1-once-38/flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 61,
+      "actions": {
+        "kindle": 89,
+        "ashenward": 46,
+        "meditate": 3,
+        "cinder": 11,
+        "firestorm": 11,
+        "quench": 6,
+        "basic": 3,
+        "flare": 2,
+        "far": 1,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "storm1-once-38/flame/smolder--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "kindle": 18,
+        "firestorm": 17,
+        "basic": 4,
+        "flare": 16,
+        "cinder": 13,
+        "sever-terrain": 1,
+        "quench": 1,
+        "meditate": 2,
+        "near": 2,
+        "ashenward": 3,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "storm1-once-42/flame/fierce--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "kindle": 29,
+        "basic": 4,
+        "near": 12,
+        "firestorm": 23,
+        "eruption": 7,
+        "meditate": 1,
+        "flare": 4,
+        "ashenward": 11
+      },
+      "unusedAP": 0
+    },
+    "storm1-once-42/flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "flare": 3,
+        "kindle": 87,
+        "ashenward": 46,
+        "basic": 4,
+        "cinder": 10,
+        "firestorm": 10,
+        "quench": 6,
+        "meditate": 2,
+        "far": 1,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "storm1-once-42/flame/smolder--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "flare": 13,
+        "kindle": 18,
+        "cinder": 14,
+        "ashenward": 4,
+        "basic": 1,
+        "firestorm": 16,
+        "meditate": 2,
+        "far": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

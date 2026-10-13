@@ -1,0 +1,571 @@
+{
+  "label": "Independent opening shield screen; unchanged v0.15.7 numerical rules",
+  "games": 216,
+  "limit": 30,
+  "groups": {
+    "shield-0/fire/ignite/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "seed": 13,
+        "blaze": 27,
+        "spark": 16,
+        "seedburst": 3,
+        "basic": 7,
+        "near": 9,
+        "heal": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-0/fire/sustain/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 52,
+      "actions": {
+        "seed": 3,
+        "spark": 63,
+        "blaze": 29,
+        "heal": 27,
+        "nourish": 11,
+        "basic": 10,
+        "near": 12
+      },
+      "unusedAP": 0
+    },
+    "shield-0/sword/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "swift": 26,
+        "lunge": 4,
+        "near": 15,
+        "strike": 16,
+        "meditate": 3,
+        "guard": 6,
+        "pierce": 2,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-0/sword/heavy/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "swift": 22,
+        "expose": 13,
+        "strike": 18,
+        "meditate": 2,
+        "near": 13,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "shield-0/flame/fierce/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 22,
+      "actions": {
+        "kindle": 13,
+        "eruption": 10,
+        "flare": 12,
+        "firestorm": 7,
+        "meditate": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-0/flame/smolder/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "kindle": 27,
+        "firestorm": 15,
+        "cinder": 12,
+        "quench": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-0/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 18,
+      "actions": {
+        "waterbolt": 27,
+        "frost": 18,
+        "icebreaker": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-0/water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 52,
+      "actions": {
+        "waterbolt": 46,
+        "gather": 13,
+        "surge": 8,
+        "tidespear": 9,
+        "basic": 38,
+        "rinse": 23
+      },
+      "unusedAP": 0
+    },
+    "shield-0/wood/symbiosis/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 60,
+      "actions": {
+        "wooddart": 91,
+        "graft": 27,
+        "bloomstrike": 4,
+        "bloomheal": 26,
+        "basic": 26,
+        "cultivate": 5,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-0/wood/parasitic/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 90,
+      "actions": {
+        "wooddart": 144,
+        "basic": 45,
+        "cultivate": 36,
+        "bloomheal": 36
+      },
+      "unusedAP": 0
+    },
+    "shield-0/earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "stonebolt": 88,
+        "foundation": 3,
+        "landbreak": 4,
+        "gravel": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-0/earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 92,
+      "actions": {
+        "stonebolt": 121,
+        "foundation": 25,
+        "landbreak": 2,
+        "gravel": 54,
+        "earthmend": 51,
+        "basic": 12
+      },
+      "unusedAP": 0
+    },
+    "shield-8/fire/ignite/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "seed": 12,
+        "blaze": 26,
+        "spark": 23,
+        "seedburst": 2,
+        "basic": 6,
+        "heal": 11,
+        "near": 8
+      },
+      "unusedAP": 0
+    },
+    "shield-8/fire/sustain/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 54,
+      "actions": {
+        "seed": 3,
+        "spark": 67,
+        "blaze": 27,
+        "heal": 29,
+        "nourish": 11,
+        "basic": 13,
+        "near": 11
+      },
+      "unusedAP": 0
+    },
+    "shield-8/sword/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "swift": 27,
+        "near": 14,
+        "lunge": 2,
+        "strike": 15,
+        "meditate": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-8/sword/heavy/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "swift": 20,
+        "expose": 16,
+        "strike": 20,
+        "meditate": 1,
+        "near": 13,
+        "basic": 5
+      },
+      "unusedAP": 0
+    },
+    "shield-8/flame/fierce/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 22,
+      "actions": {
+        "kindle": 13,
+        "eruption": 10,
+        "flare": 12,
+        "firestorm": 7,
+        "meditate": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-8/flame/smolder/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "flare": 3,
+        "kindle": 24,
+        "firestorm": 15,
+        "cinder": 12,
+        "quench": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-8/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 18,
+      "actions": {
+        "waterbolt": 27,
+        "frost": 18,
+        "icebreaker": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-8/water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 54,
+      "actions": {
+        "waterbolt": 47,
+        "gather": 13,
+        "surge": 8,
+        "rinse": 26,
+        "basic": 45,
+        "tidespear": 8
+      },
+      "unusedAP": 0
+    },
+    "shield-8/wood/symbiosis/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 68,
+      "actions": {
+        "wooddart": 102,
+        "graft": 28,
+        "basic": 28,
+        "bloomstrike": 6,
+        "bloomheal": 30,
+        "cultivate": 10
+      },
+      "unusedAP": 0
+    },
+    "shield-8/wood/parasitic/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 90,
+      "actions": {
+        "wooddart": 138,
+        "basic": 51,
+        "cultivate": 36,
+        "bloomheal": 36
+      },
+      "unusedAP": 0
+    },
+    "shield-8/earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "stonebolt": 73,
+        "quakesunder": 7,
+        "gravel": 8,
+        "foundation": 5,
+        "landbreak": 6,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-8/earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 96,
+      "actions": {
+        "stonebolt": 115,
+        "foundation": 25,
+        "gravel": 65,
+        "landbreak": 2,
+        "earthmend": 56,
+        "basic": 17
+      },
+      "unusedAP": 0
+    },
+    "shield-16/fire/ignite/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "seed": 12,
+        "blaze": 26,
+        "spark": 23,
+        "seedburst": 2,
+        "basic": 6,
+        "heal": 11,
+        "near": 8
+      },
+      "unusedAP": 0
+    },
+    "shield-16/fire/sustain/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 54,
+      "actions": {
+        "seed": 3,
+        "spark": 67,
+        "blaze": 27,
+        "heal": 29,
+        "nourish": 11,
+        "basic": 13,
+        "near": 11
+      },
+      "unusedAP": 0
+    },
+    "shield-16/sword/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "swift": 27,
+        "near": 15,
+        "lunge": 2,
+        "strike": 16,
+        "meditate": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-16/sword/heavy/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "swift": 20,
+        "expose": 16,
+        "strike": 20,
+        "meditate": 1,
+        "near": 13,
+        "basic": 5
+      },
+      "unusedAP": 0
+    },
+    "shield-16/flame/fierce/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 22,
+      "actions": {
+        "kindle": 13,
+        "eruption": 10,
+        "flare": 12,
+        "firestorm": 7,
+        "meditate": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-16/flame/smolder/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "flare": 3,
+        "kindle": 24,
+        "firestorm": 15,
+        "cinder": 12,
+        "quench": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-16/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 18,
+      "actions": {
+        "waterbolt": 27,
+        "frost": 18,
+        "icebreaker": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-16/water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 56,
+      "actions": {
+        "waterbolt": 47,
+        "gather": 14,
+        "surge": 8,
+        "rinse": 28,
+        "basic": 46,
+        "tidespear": 9
+      },
+      "unusedAP": 0
+    },
+    "shield-16/wood/symbiosis/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 46,
+      "actions": {
+        "wooddart": 75,
+        "graft": 21,
+        "basic": 20,
+        "bloomstrike": 4,
+        "bloomheal": 17,
+        "cultivate": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-16/wood/parasitic/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 90,
+      "actions": {
+        "wooddart": 138,
+        "basic": 51,
+        "cultivate": 36,
+        "bloomheal": 36
+      },
+      "unusedAP": 0
+    },
+    "shield-16/earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "stonebolt": 74,
+        "quakesunder": 7,
+        "gravel": 8,
+        "foundation": 5,
+        "landbreak": 6,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "shield-16/earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 96,
+      "actions": {
+        "stonebolt": 117,
+        "foundation": 25,
+        "gravel": 65,
+        "landbreak": 2,
+        "earthmend": 56,
+        "basic": 17
+      },
+      "unusedAP": 0
+    }
+  }
+}

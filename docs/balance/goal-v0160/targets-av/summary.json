@@ -1,0 +1,156 @@
+{
+  "label": "AV only increases paid four-qi tide payoff from 72 to 80; four original tide problem pairs",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "fire/sustain--water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "seed": 9,
+        "spark": 35,
+        "blaze": 18,
+        "nourish": 15,
+        "basic": 19,
+        "heal": 7,
+        "sproutguard": 3,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "kindle": 19,
+        "eruption": 19,
+        "flare": 3,
+        "meditate": 9,
+        "firestorm": 7,
+        "quench": 5,
+        "basic": 9,
+        "near": 4
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "flare": 24,
+        "kindle": 27,
+        "quench": 15,
+        "cinder": 6,
+        "firestorm": 6,
+        "basic": 6,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "water/tidal--earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "waterbolt": 11,
+        "gather": 20,
+        "basic": 23,
+        "surge": 2,
+        "tidespear": 16,
+        "rinse": 8,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 63,
+      "actions": {
+        "spark": 48,
+        "sproutguard": 33,
+        "meditate": 1,
+        "seed": 1,
+        "blaze": 33,
+        "heal": 16,
+        "near": 28,
+        "nourish": 14,
+        "basic": 11
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 48,
+      "actions": {
+        "eruption": 9,
+        "kindle": 37,
+        "far": 1,
+        "near": 22,
+        "ashenward": 29,
+        "flare": 13,
+        "firestorm": 15,
+        "basic": 4,
+        "quench": 4,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "kindle": 37,
+        "ashenward": 22,
+        "cinder": 12,
+        "flare": 8,
+        "firestorm": 6,
+        "basic": 8,
+        "quench": 2
+      },
+      "unusedAP": 0
+    },
+    "water/tidal--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "waterbolt": 28,
+        "gather": 19,
+        "meditate": 4,
+        "tidespear": 14,
+        "rinse": 9,
+        "basic": 5,
+        "near": 11,
+        "surge": 4,
+        "waterwall": 1,
+        "far": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

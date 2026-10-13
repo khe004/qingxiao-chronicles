@@ -1,0 +1,584 @@
+{
+  "label": "F rules; independently paired wood HP 205/215 against five sentinels, both majors/controllers/initiative",
+  "games": 80,
+  "limit": 30,
+  "groups": {
+    "hp-205/wood/symbiosis-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 21
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 15,
+      "actions": {
+        "wooddart": 21,
+        "far": 1,
+        "cultivate": 6,
+        "graft": 3,
+        "bloomheal": 3,
+        "purify": 4,
+        "bloomstrike": 3
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 24
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 25,
+      "actions": {
+        "graft": 17,
+        "bloomstrike": 4,
+        "far": 18,
+        "thornscreen": 1,
+        "cultivate": 5,
+        "basic": 1,
+        "bloomheal": 14,
+        "wooddart": 6,
+        "near": 2,
+        "meditate": 1,
+        "purify": 3
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-sword/quick/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "wooddart": 11,
+        "graft": 7,
+        "bloomheal": 9,
+        "basic": 6,
+        "meditate": 1,
+        "cultivate": 2
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-sword/quick/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "cultivate": 7,
+        "basic": 4,
+        "far": 1,
+        "bloomstrike": 4,
+        "thornscreen": 1,
+        "wooddart": 15,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 23
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "wooddart": 25,
+        "cultivate": 1,
+        "basic": 1,
+        "graft": 1,
+        "bloomstrike": 1,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-earth/bastion/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "wooddart": 26,
+        "graft": 1,
+        "bloomstrike": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/symbiosis-earth/bastion/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "wooddart": 32,
+        "cultivate": 21,
+        "graft": 1,
+        "bloomstrike": 5,
+        "thornscreen": 5,
+        "bloomheal": 7,
+        "sever-terrain": 4,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 21
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "wooddart": 25,
+        "far": 2,
+        "parasite": 17,
+        "basic": 3,
+        "purify": 6,
+        "cultivate": 9,
+        "bloomheal": 5,
+        "reap": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 24
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 20,
+      "actions": {
+        "wooddart": 24,
+        "far": 1,
+        "parasite": 13,
+        "cultivate": 9,
+        "purify": 4,
+        "bloomheal": 2,
+        "reap": 2,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-sword/quick/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "wooddart": 19,
+        "cultivate": 1,
+        "bloomheal": 1,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-sword/quick/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 20,
+      "actions": {
+        "wooddart": 11,
+        "parasite": 15,
+        "cultivate": 13,
+        "bloomheal": 10,
+        "far": 6,
+        "reap": 2
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 23
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "wooddart": 40,
+        "parasite": 18,
+        "reap": 2
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-earth/bastion/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "wooddart": 28
+      },
+      "unusedAP": 0
+    },
+    "hp-205/wood/parasitic-earth/bastion/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "wooddart": 27,
+        "parasite": 21,
+        "cultivate": 13,
+        "bloomheal": 10,
+        "reap": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 23
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 15,
+      "actions": {
+        "wooddart": 22,
+        "far": 1,
+        "cultivate": 6,
+        "graft": 3,
+        "bloomheal": 3,
+        "purify": 4,
+        "bloomstrike": 4
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 24
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "graft": 17,
+        "bloomstrike": 4,
+        "far": 18,
+        "thornscreen": 1,
+        "cultivate": 6,
+        "basic": 1,
+        "bloomheal": 14,
+        "wooddart": 9,
+        "near": 1,
+        "meditate": 1,
+        "purify": 3
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-sword/quick/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "wooddart": 11,
+        "graft": 7,
+        "bloomheal": 9,
+        "basic": 6,
+        "meditate": 1,
+        "cultivate": 2
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-sword/quick/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "cultivate": 8,
+        "basic": 5,
+        "far": 1,
+        "bloomstrike": 4,
+        "thornscreen": 2,
+        "wooddart": 12,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 23
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "wooddart": 25,
+        "cultivate": 1,
+        "basic": 1,
+        "graft": 1,
+        "bloomstrike": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-earth/bastion/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "wooddart": 26,
+        "graft": 1,
+        "bloomstrike": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/symbiosis-earth/bastion/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "wooddart": 32,
+        "cultivate": 21,
+        "graft": 1,
+        "bloomstrike": 5,
+        "thornscreen": 5,
+        "bloomheal": 7,
+        "sever-terrain": 4,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 23
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "wooddart": 22,
+        "far": 2,
+        "parasite": 18,
+        "basic": 3,
+        "purify": 6,
+        "cultivate": 9,
+        "bloomheal": 6,
+        "reap": 2
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 24
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "wooddart": 26,
+        "far": 1,
+        "parasite": 13,
+        "cultivate": 10,
+        "purify": 4,
+        "bloomheal": 2,
+        "reap": 2,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-sword/quick/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "wooddart": 22,
+        "cultivate": 1,
+        "bloomheal": 1,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-sword/quick/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 19,
+      "actions": {
+        "wooddart": 9,
+        "parasite": 15,
+        "cultivate": 13,
+        "bloomheal": 9,
+        "far": 6,
+        "reap": 2
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "wooddart": 23
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 23,
+      "actions": {
+        "wooddart": 44,
+        "parasite": 20,
+        "reap": 2
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-earth/bastion/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "wooddart": 28
+      },
+      "unusedAP": 0
+    },
+    "hp-215/wood/parasitic-earth/bastion/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "wooddart": 27,
+        "parasite": 21,
+        "cultivate": 13,
+        "bloomheal": 10,
+        "reap": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

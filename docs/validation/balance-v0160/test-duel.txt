@@ -1,0 +1,1 @@
+Custom duel: 144 class/major pairs with custom six-skill loadouts, same-class matches, immutable inputs/planning, twelve portrait assets and resource invariants passed.

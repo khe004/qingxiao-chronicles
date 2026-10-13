@@ -1,0 +1,361 @@
+{
+  "label": "AS paid two-action tide interruption and finite cold defence; ten original problem pairs, both controllers",
+  "games": 120,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "fire/sustain--water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "seed": 7,
+        "spark": 35,
+        "blaze": 10,
+        "nourish": 10,
+        "sproutguard": 2,
+        "heal": 3,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 44,
+      "actions": {
+        "seed": 4,
+        "spark": 51,
+        "blaze": 12,
+        "nourish": 17,
+        "basic": 29,
+        "heal": 12,
+        "sproutguard": 3,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "kindle": 18,
+        "eruption": 19,
+        "flare": 2,
+        "meditate": 9,
+        "firestorm": 8,
+        "quench": 6,
+        "basic": 10,
+        "near": 6
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "flare": 12,
+        "kindle": 18,
+        "firestorm": 9,
+        "basic": 9,
+        "quench": 3,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "flare": 30,
+        "kindle": 36,
+        "quench": 24,
+        "cinder": 12,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "flare": 12,
+        "kindle": 29,
+        "cinder": 12,
+        "firestorm": 9,
+        "basic": 4,
+        "meditate": 6,
+        "quench": 9
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "flare": 8,
+        "kindle": 39,
+        "cinder": 9,
+        "meditate": 6,
+        "firestorm": 9,
+        "basic": 4,
+        "quench": 15
+      },
+      "unusedAP": 0
+    },
+    "water/cold--wood/symbiosis/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "waterbolt": 9,
+        "frost": 21,
+        "icebreaker": 21,
+        "basic": 12
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "waterbolt": 11,
+        "frost": 21,
+        "icebreaker": 20,
+        "basic": 11
+      },
+      "unusedAP": 0
+    },
+    "water/tidal--earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "waterbolt": 4,
+        "gather": 34,
+        "basic": 18,
+        "surge": 32,
+        "rinse": 15,
+        "tidespear": 1
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "spark": 22,
+        "seed": 5,
+        "basic": 2,
+        "blaze": 25,
+        "near": 30,
+        "nourish": 8,
+        "heal": 11,
+        "sproutguard": 8
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 65,
+      "actions": {
+        "spark": 60,
+        "sproutguard": 33,
+        "meditate": 1,
+        "seed": 5,
+        "blaze": 34,
+        "heal": 17,
+        "nourish": 10,
+        "basic": 15,
+        "near": 16
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 85,
+      "actions": {
+        "eruption": 10,
+        "kindle": 99,
+        "far": 1,
+        "near": 18,
+        "ashenward": 50,
+        "flare": 15,
+        "firestorm": 36,
+        "basic": 12,
+        "quench": 5,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 76,
+      "actions": {
+        "kindle": 92,
+        "ashenward": 64,
+        "meditate": 2,
+        "quench": 29,
+        "flare": 9,
+        "firestorm": 9,
+        "cinder": 8,
+        "basic": 3,
+        "near": 2,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 55,
+      "actions": {
+        "kindle": 67,
+        "ashenward": 34,
+        "cinder": 15,
+        "flare": 26,
+        "firestorm": 13,
+        "quench": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 82,
+      "actions": {
+        "flare": 9,
+        "kindle": 75,
+        "ashenward": 71,
+        "sever-terrain": 7,
+        "basic": 2,
+        "quench": 39,
+        "firestorm": 11,
+        "cinder": 16,
+        "far": 14,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "flare": 25,
+        "kindle": 32,
+        "cinder": 16,
+        "firestorm": 7,
+        "basic": 4,
+        "sever-terrain": 2,
+        "far": 1,
+        "near": 1,
+        "ashenward": 4
+      },
+      "unusedAP": 0
+    },
+    "water/cold--wood/symbiosis/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 56,
+      "actions": {
+        "waterbolt": 43,
+        "mirrorwater": 5,
+        "basic": 4,
+        "rinse": 30,
+        "sever-growth": 42,
+        "frost": 17,
+        "icebreaker": 16,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 88,
+      "actions": {
+        "frost": 29,
+        "icebreaker": 16,
+        "meditate": 18,
+        "mirrorwater": 71,
+        "rinse": 56,
+        "far": 2,
+        "basic": 17,
+        "sever-terrain": 20,
+        "waterbolt": 19,
+        "near": 1
+      },
+      "unusedAP": 6
+    },
+    "water/tidal--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 56,
+      "actions": {
+        "waterbolt": 36,
+        "gather": 24,
+        "waterwall": 8,
+        "rinse": 28,
+        "tidespear": 14,
+        "far": 8,
+        "near": 14,
+        "surge": 5,
+        "basic": 6
+      },
+      "unusedAP": 0
+    }
+  }
+}

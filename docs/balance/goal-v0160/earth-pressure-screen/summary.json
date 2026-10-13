@@ -1,0 +1,637 @@
+{
+  "label": "I candidate; earth direct pressure 34/40/46, gravel24 landbreak34; two full-range locks and six mid-range guards",
+  "games": 144,
+  "limit": 30,
+  "groups": {
+    "rock34/wood/symbiosis-earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "wooddart": 83
+      },
+      "unusedAP": 0
+    },
+    "rock34/wood/symbiosis-earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 0,
+      "unresolved": 1,
+      "rounds": 86,
+      "actions": {
+        "wooddart": 163,
+        "cultivate": 77,
+        "graft": 1,
+        "bloomstrike": 13,
+        "bloomheal": 1,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "rock34/wood/parasitic-earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "wooddart": 84
+      },
+      "unusedAP": 0
+    },
+    "rock34/wood/parasitic-earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 83,
+      "actions": {
+        "wooddart": 70,
+        "parasite": 76,
+        "cultivate": 47,
+        "bloomheal": 39,
+        "reap": 9,
+        "sever-terrain": 1,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/bastion-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "stonebolt": 23,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/bastion-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 25,
+      "actions": {
+        "stonebolt": 44,
+        "stoneback": 15,
+        "foundation": 6,
+        "basic": 2,
+        "gravel": 6
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/mountain-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "gravel": 2,
+        "stonebolt": 20,
+        "landbreak": 1
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/mountain-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "gravel": 5,
+        "stonebolt": 13,
+        "landbreak": 6,
+        "foundation": 2,
+        "far": 2,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/bastion-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "stonebolt": 25
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/bastion-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 18,
+      "actions": {
+        "stonebolt": 28,
+        "stoneback": 9,
+        "foundation": 4,
+        "purify": 8,
+        "basic": 4
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/mountain-sword/heavy/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 22,
+        "foundation": 2,
+        "earthmend": 2
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/mountain-sword/heavy/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "gravel": 4,
+        "stonebolt": 16,
+        "landbreak": 3
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/bastion-water/tidal/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "stonebolt": 30,
+        "foundation": 1
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/bastion-water/tidal/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 16,
+      "actions": {
+        "stonebolt": 40,
+        "stoneback": 2,
+        "gravel": 2,
+        "near": 1,
+        "foundation": 1,
+        "landbreak": 1
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/mountain-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 26
+      },
+      "unusedAP": 0
+    },
+    "rock34/earth/mountain-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "gravel": 6,
+        "stonebolt": 27,
+        "basic": 18,
+        "unparasite": 25,
+        "foundation": 9,
+        "earthmend": 4,
+        "landbreak": 11,
+        "sever-growth": 3
+      },
+      "unusedAP": 0
+    },
+    "rock40/wood/symbiosis-earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "wooddart": 81
+      },
+      "unusedAP": 0
+    },
+    "rock40/wood/symbiosis-earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 37,
+      "actions": {
+        "wooddart": 70,
+        "cultivate": 28,
+        "bloomstrike": 10,
+        "basic": 1,
+        "thornscreen": 1
+      },
+      "unusedAP": 0
+    },
+    "rock40/wood/parasitic-earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "wooddart": 81
+      },
+      "unusedAP": 0
+    },
+    "rock40/wood/parasitic-earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 50,
+      "actions": {
+        "wooddart": 56,
+        "parasite": 39,
+        "reap": 9,
+        "basic": 3,
+        "cultivate": 16,
+        "bloomheal": 12,
+        "far": 3,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/bastion-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 6,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 17
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/bastion-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "stonebolt": 20
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/mountain-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 18
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/mountain-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "gravel": 2,
+        "stonebolt": 20,
+        "foundation": 1,
+        "landbreak": 1,
+        "far": 2
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/bastion-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 19
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/bastion-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 22,
+        "foundation": 1,
+        "stoneback": 1,
+        "purify": 1
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/mountain-sword/heavy/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 22
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/mountain-sword/heavy/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "gravel": 2,
+        "stonebolt": 17,
+        "landbreak": 2,
+        "foundation": 1
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/bastion-water/tidal/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 25
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/bastion-water/tidal/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 14,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 39
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/mountain-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 25
+      },
+      "unusedAP": 0
+    },
+    "rock40/earth/mountain-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 25,
+        "unparasite": 7
+      },
+      "unusedAP": 0
+    },
+    "rock46/wood/symbiosis-earth/mountain/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "wooddart": 63
+      },
+      "unusedAP": 0
+    },
+    "rock46/wood/symbiosis-earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "wooddart": 42,
+        "cultivate": 10,
+        "bloomstrike": 8,
+        "far": 2,
+        "bloomheal": 1,
+        "basic": 2,
+        "near": 2,
+        "meditate": 1,
+        "thornscreen": 1
+      },
+      "unusedAP": 0
+    },
+    "rock46/wood/parasitic-earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "wooddart": 63
+      },
+      "unusedAP": 0
+    },
+    "rock46/wood/parasitic-earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "wooddart": 40,
+        "parasite": 8,
+        "reap": 8,
+        "basic": 5,
+        "near": 1,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/bastion-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 6,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 15
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/bastion-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 6,
+      "actions": {
+        "stonebolt": 16
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/mountain-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 5,
+      "actions": {
+        "stonebolt": 15
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/mountain-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 6,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 17
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/bastion-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 16
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/bastion-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "gravel": 2,
+        "stonebolt": 18,
+        "stoneback": 2,
+        "purify": 1,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/mountain-sword/heavy/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 6,
+      "actions": {
+        "stonebolt": 17
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/mountain-sword/heavy/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 6,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 17
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/bastion-water/tidal/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 19
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/bastion-water/tidal/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 18
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/mountain-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "stonebolt": 22
+      },
+      "unusedAP": 0
+    },
+    "rock46/earth/mountain-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "stonebolt": 20,
+        "gravel": 1,
+        "landbreak": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

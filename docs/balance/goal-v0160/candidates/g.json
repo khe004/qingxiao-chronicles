@@ -1,0 +1,85 @@
+{
+  "label": "v0.16.0-g",
+  "sustainRecovery": 4,
+  "preparationBreakAmount": true,
+  "rules": {
+    "secondShield": 4,
+    "edgePower": 10,
+    "chainPower": 8,
+    "skills": {
+      "sword": {
+        "swift": {
+          "power": 30
+        },
+        "riposte": {
+          "shield": 16,
+          "intent": 1
+        },
+        "cleave": {
+          "power": 46
+        }
+      },
+      "flame": {
+        "eruption": {
+          "power": 44,
+          "breakPrep": true,
+          "breakPrepAmount": 1
+        },
+        "firestorm": {
+          "power": 52
+        },
+        "flare": {
+          "power": 24
+        }
+      },
+      "water": {
+        "rinse": {
+          "heal": 16
+        },
+        "surge": {
+          "power": 32,
+          "tidePower": 18
+        },
+        "tidespear": {
+          "power": 52
+        }
+      },
+      "wood": {
+        "wooddart": {
+          "power": 31
+        },
+        "bloomheal": {
+          "clearBurn": 1,
+          "heal": 16,
+          "growthHeal": 6
+        },
+        "reap": {
+          "shieldPierce": 0.25
+        },
+        "bloomstrike": {
+          "growthPower": 18
+        }
+      },
+      "earth": {
+        "landbreak": {
+          "terrainPower": 14
+        },
+        "mountain": {
+          "power": 58,
+          "terrainPower": 14
+        }
+      },
+      "fire": {
+        "nourish": {
+          "heal": 18
+        },
+        "sproutguard": {
+          "shield": 20
+        }
+      }
+    },
+    "unparasiteCost": 2
+  },
+  "parasiteCleanseCost": true,
+  "deriveSkillDescriptions": true
+}

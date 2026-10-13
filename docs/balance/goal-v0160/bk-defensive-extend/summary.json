@@ -1,0 +1,399 @@
+{
+  "label": "Extend all 95 unresolved scenarios to 120; preserve the original 30-round matrix.",
+  "games": 95,
+  "limit": 120,
+  "limits": [
+    120
+  ],
+  "groups": {
+    "fire/ignite--wood/parasitic/cross/prepared/defensive": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 65,
+      "actions": {
+        "unparasite": 56,
+        "blaze": 3,
+        "meditate": 2,
+        "heal": 30,
+        "sever-growth": 16,
+        "inferno": 13,
+        "spark": 48,
+        "seed": 2,
+        "basic": 3,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--fire/sustain/mirror/prepared/defensive": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 220,
+      "actions": {
+        "sproutguard": 36,
+        "blaze": 32,
+        "far": 2,
+        "spark": 362,
+        "nourish": 18,
+        "purify": 19,
+        "near": 29,
+        "heal": 151,
+        "basic": 2,
+        "seed": 1
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--wood/symbiosis/cross/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 210,
+      "actions": {
+        "spark": 174,
+        "sproutguard": 97,
+        "blaze": 39,
+        "near": 34,
+        "seed": 7,
+        "sever-growth": 162,
+        "heal": 91,
+        "nourish": 12,
+        "basic": 6
+      },
+      "unusedAP": 0
+    },
+    "fire/sustain--wood/parasitic/cross/prepared/defensive": {
+      "games": 5,
+      "wins": 1,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 173,
+      "actions": {
+        "blaze": 35,
+        "sproutguard": 82,
+        "spark": 124,
+        "unparasite": 133,
+        "near": 57,
+        "nourish": 17,
+        "heal": 32,
+        "sever-growth": 22,
+        "basic": 4,
+        "seed": 6,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/cold/cross/prepared/defensive": {
+      "games": 5,
+      "wins": 1,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 185,
+      "actions": {
+        "far": 1,
+        "kindle": 80,
+        "near": 157,
+        "firestorm": 30,
+        "ashenward": 160,
+        "quench": 101,
+        "meditate": 3,
+        "flare": 8,
+        "eruption": 5,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--wood/symbiosis/cross/prepared/defensive": {
+      "games": 1,
+      "wins": 1,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "ashenward": 21,
+        "kindle": 23,
+        "sever-growth": 12,
+        "near": 17,
+        "eruption": 8,
+        "firestorm": 11,
+        "quench": 7,
+        "flare": 4
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--wood/parasitic/cross/prepared/defensive": {
+      "games": 4,
+      "wins": 0,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 128,
+      "actions": {
+        "eruption": 12,
+        "meditate": 13,
+        "kindle": 96,
+        "ashenward": 43,
+        "quench": 13,
+        "basic": 8,
+        "firestorm": 43,
+        "near": 40,
+        "unparasite": 92,
+        "flare": 12,
+        "sever-growth": 9
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--earth/bastion/cross/prepared/defensive": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 230,
+      "actions": {
+        "eruption": 8,
+        "meditate": 8,
+        "ashenward": 207,
+        "quench": 111,
+        "far": 1,
+        "basic": 5,
+        "kindle": 228,
+        "firestorm": 26,
+        "sever-terrain": 65,
+        "near": 12,
+        "flare": 16
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--wood/parasitic/cross/prepared/defensive": {
+      "games": 5,
+      "wins": 0,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 163,
+      "actions": {
+        "kindle": 108,
+        "meditate": 23,
+        "firestorm": 40,
+        "unparasite": 142,
+        "ashenward": 67,
+        "quench": 22,
+        "basic": 12,
+        "sever-growth": 14,
+        "flare": 9,
+        "cinder": 43
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--earth/bastion/cross/prepared/defensive": {
+      "games": 5,
+      "wins": 5,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 165,
+      "actions": {
+        "ashenward": 150,
+        "quench": 93,
+        "far": 18,
+        "kindle": 156,
+        "firestorm": 11,
+        "sever-terrain": 31,
+        "cinder": 20,
+        "flare": 7,
+        "meditate": 3,
+        "basic": 3
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/bastion/cross/prepared/defensive": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 210,
+      "actions": {
+        "waterbolt": 48,
+        "mirrorwater": 196,
+        "sever-terrain": 26,
+        "far": 7,
+        "rinse": 174,
+        "frost": 107,
+        "meditate": 21,
+        "basic": 16,
+        "icebreaker": 23,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "water/tidal--water/tidal/mirror/prepared/defensive": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 162,
+      "actions": {
+        "waterwall": 134,
+        "gather": 148,
+        "surge": 113,
+        "rinse": 15,
+        "waterbolt": 39,
+        "tidespear": 29,
+        "basic": 5
+      },
+      "unusedAP": 0
+    },
+    "water/tidal--wood/symbiosis/cross/prepared/defensive": {
+      "games": 5,
+      "wins": 3,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 164,
+      "actions": {
+        "waterwall": 97,
+        "gather": 112,
+        "basic": 7,
+        "waterbolt": 84,
+        "sever-growth": 89,
+        "tidespear": 70,
+        "surge": 23,
+        "rinse": 6,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "water/tidal--earth/bastion/cross/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 262,
+      "actions": {
+        "gather": 219,
+        "waterbolt": 110,
+        "waterwall": 257,
+        "surge": 32,
+        "tidespear": 115,
+        "basic": 11,
+        "rinse": 31,
+        "near": 7,
+        "sever-terrain": 2,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "wood/symbiosis--earth/bastion/cross/prepared/defensive": {
+      "games": 3,
+      "wins": 3,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 96,
+      "actions": {
+        "thornscreen": 71,
+        "cultivate": 81,
+        "wooddart": 63,
+        "basic": 11,
+        "bloomheal": 9,
+        "far": 2,
+        "sever-terrain": 44,
+        "bloomstrike": 3,
+        "graft": 2,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "wood/symbiosis--earth/mountain/cross/prepared/defensive": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 166,
+      "actions": {
+        "wooddart": 250,
+        "cultivate": 156,
+        "thornscreen": 46,
+        "graft": 4,
+        "bloomheal": 12,
+        "meditate": 1,
+        "basic": 17,
+        "bloomstrike": 4,
+        "near": 5
+      },
+      "unusedAP": 0
+    },
+    "wood/parasitic--earth/bastion/cross/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 244,
+      "actions": {
+        "parasite": 232,
+        "wooddart": 169,
+        "cultivate": 151,
+        "far": 2,
+        "bloomheal": 82,
+        "sever-terrain": 29,
+        "basic": 46,
+        "reap": 20,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "wood/parasitic--earth/mountain/cross/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 212,
+      "actions": {
+        "wooddart": 156,
+        "parasite": 204,
+        "reap": 10,
+        "cultivate": 119,
+        "bloomheal": 73,
+        "basic": 7,
+        "far": 2,
+        "near": 61,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "earth/bastion--earth/bastion/mirror/prepared/defensive": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 360,
+      "actions": {
+        "foundation": 273,
+        "stonebolt": 86,
+        "stoneback": 351,
+        "gravel": 190,
+        "landbreak": 17,
+        "meditate": 4,
+        "far": 6,
+        "basic": 126,
+        "near": 6,
+        "sever-terrain": 16
+      },
+      "unusedAP": 0
+    },
+    "earth/bastion--earth/mountain/cross/prepared/defensive": {
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 130,
+      "actions": {
+        "foundation": 50,
+        "stonebolt": 174,
+        "stoneback": 78,
+        "basic": 49,
+        "near": 27,
+        "landbreak": 10
+      },
+      "unusedAP": 0
+    }
+  }
+}

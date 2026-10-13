@@ -1,0 +1,113 @@
+{
+  "label": "AI: ignite survival budget against complete tidal matchup, both controllers",
+  "games": 36,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "ignite-220/water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "seed": 7,
+        "blaze": 16,
+        "spark": 33,
+        "heal": 13,
+        "basic": 5,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "ignite-220/water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 42,
+      "actions": {
+        "blaze": 29,
+        "seed": 11,
+        "meditate": 2,
+        "near": 14,
+        "spark": 28,
+        "heal": 17,
+        "inferno": 7,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ignite-225/water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "seed": 7,
+        "blaze": 17,
+        "spark": 34,
+        "heal": 14,
+        "basic": 6,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "ignite-225/water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 43,
+      "actions": {
+        "blaze": 30,
+        "seed": 10,
+        "meditate": 4,
+        "near": 13,
+        "spark": 30,
+        "heal": 18,
+        "basic": 3,
+        "inferno": 6
+      },
+      "unusedAP": 0
+    },
+    "ignite-230/water/tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "seed": 9,
+        "blaze": 17,
+        "spark": 34,
+        "heal": 14,
+        "basic": 6,
+        "seedburst": 2,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "ignite-230/water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 47,
+      "actions": {
+        "blaze": 35,
+        "seed": 9,
+        "meditate": 3,
+        "near": 18,
+        "spark": 30,
+        "heal": 22,
+        "basic": 5,
+        "inferno": 5
+      },
+      "unusedAP": 0
+    }
+  }
+}

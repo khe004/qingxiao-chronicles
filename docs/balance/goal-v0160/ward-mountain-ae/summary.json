@@ -1,0 +1,258 @@
+{
+  "label": "AE separate mountain charge budget and joint flame finite-reflection screens",
+  "games": 84,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "mountain-205-54/flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "stonebolt": 39,
+        "far": 1,
+        "foundation": 18,
+        "landbreak": 8,
+        "mountain": 1,
+        "gravel": 7,
+        "basic": 1,
+        "purify": 10,
+        "earthmend": 7,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "mountain-205-54/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "stonebolt": 76,
+        "foundation": 11,
+        "gravel": 4,
+        "landbreak": 11,
+        "earthmend": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "mountain-210-56/flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "stonebolt": 42,
+        "far": 1,
+        "foundation": 13,
+        "landbreak": 6,
+        "mountain": 4,
+        "gravel": 10,
+        "basic": 1,
+        "purify": 6,
+        "earthmend": 3,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "mountain-210-56/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 37,
+      "actions": {
+        "stonebolt": 79,
+        "foundation": 11,
+        "gravel": 4,
+        "landbreak": 11,
+        "earthmend": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "mountain-205-60/flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "stonebolt": 45,
+        "far": 1,
+        "foundation": 13,
+        "landbreak": 7,
+        "mountain": 4,
+        "gravel": 9,
+        "basic": 1,
+        "purify": 6,
+        "earthmend": 3,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "mountain-205-60/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "stonebolt": 76,
+        "foundation": 11,
+        "gravel": 4,
+        "landbreak": 11,
+        "earthmend": 2,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "ward-14-11/flame/fierce--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 45,
+      "actions": {
+        "kindle": 51,
+        "basic": 3,
+        "ashenward": 31,
+        "near": 11,
+        "quench": 16,
+        "flare": 4,
+        "eruption": 4,
+        "firestorm": 3
+      },
+      "unusedAP": 0
+    },
+    "ward-14-11/flame/fierce--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 108,
+      "actions": {
+        "kindle": 58,
+        "eruption": 31,
+        "meditate": 3,
+        "ashenward": 91,
+        "quench": 32,
+        "flare": 12,
+        "near": 86,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ward-14-11/flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 100,
+      "actions": {
+        "kindle": 118,
+        "ashenward": 89,
+        "quench": 63,
+        "flare": 4,
+        "cinder": 13,
+        "firestorm": 3,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "ward-14-11/flame/smolder--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "flare": 15,
+        "kindle": 38,
+        "ashenward": 6,
+        "cinder": 15,
+        "firestorm": 10,
+        "quench": 4,
+        "far": 3
+      },
+      "unusedAP": 0
+    },
+    "ward-14-12/flame/fierce--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 45,
+      "actions": {
+        "kindle": 51,
+        "basic": 3,
+        "ashenward": 31,
+        "near": 11,
+        "quench": 16,
+        "flare": 4,
+        "eruption": 4,
+        "firestorm": 3
+      },
+      "unusedAP": 0
+    },
+    "ward-14-12/flame/fierce--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 108,
+      "actions": {
+        "kindle": 58,
+        "eruption": 31,
+        "meditate": 3,
+        "ashenward": 91,
+        "quench": 32,
+        "flare": 12,
+        "near": 86,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ward-14-12/flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 100,
+      "actions": {
+        "kindle": 118,
+        "ashenward": 89,
+        "quench": 63,
+        "flare": 4,
+        "cinder": 13,
+        "firestorm": 3,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "ward-14-12/flame/smolder--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "flare": 11,
+        "kindle": 40,
+        "ashenward": 8,
+        "cinder": 17,
+        "quench": 5,
+        "firestorm": 10,
+        "far": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

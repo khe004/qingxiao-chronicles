@@ -1,0 +1,1816 @@
+{
+  "originalTimeouts": 95,
+  "covered": 95,
+  "complete": true,
+  "exactTracePrefixes": true,
+  "finished": 95,
+  "stillUnresolved": 0,
+  "note": "Extended outcomes do not replace the original matrix wins, losses or unresolved denominators.",
+  "rows": [
+    {
+      "originalIndex": 55,
+      "a": "fire/ignite",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        217,
+        184
+      ],
+      "rounds": 34,
+      "winner": 1,
+      "hp": [
+        0,
+        108
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 57,
+      "a": "fire/ignite",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        22,
+        38
+      ],
+      "rounds": 31,
+      "winner": 1,
+      "hp": [
+        0,
+        27
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 72,
+      "a": "fire/sustain",
+      "b": "fire/sustain",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        128,
+        128
+      ],
+      "rounds": 44,
+      "winner": 0,
+      "hp": [
+        28,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 73,
+      "a": "fire/sustain",
+      "b": "fire/sustain",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        128,
+        128
+      ],
+      "rounds": 44,
+      "winner": 1,
+      "hp": [
+        0,
+        28
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 74,
+      "a": "fire/sustain",
+      "b": "fire/sustain",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        127,
+        118
+      ],
+      "rounds": 35,
+      "winner": 0,
+      "hp": [
+        101,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 75,
+      "a": "fire/sustain",
+      "b": "fire/sustain",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        118,
+        127
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        101
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 76,
+      "a": "fire/sustain",
+      "b": "fire/sustain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        21,
+        92
+      ],
+      "rounds": 31,
+      "winner": 1,
+      "hp": [
+        0,
+        54
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 77,
+      "a": "fire/sustain",
+      "b": "fire/sustain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        92,
+        21
+      ],
+      "rounds": 31,
+      "winner": 0,
+      "hp": [
+        54,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 114,
+      "a": "fire/sustain",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        181,
+        68
+      ],
+      "rounds": 32,
+      "winner": 0,
+      "hp": [
+        111,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 115,
+      "a": "fire/sustain",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        221,
+        117
+      ],
+      "rounds": 35,
+      "winner": 0,
+      "hp": [
+        123,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 116,
+      "a": "fire/sustain",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        161,
+        98
+      ],
+      "rounds": 38,
+      "winner": 0,
+      "hp": [
+        33,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 117,
+      "a": "fire/sustain",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        221,
+        117
+      ],
+      "rounds": 35,
+      "winner": 0,
+      "hp": [
+        123,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 118,
+      "a": "fire/sustain",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        161,
+        98
+      ],
+      "rounds": 38,
+      "winner": 0,
+      "hp": [
+        33,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 119,
+      "a": "fire/sustain",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        122,
+        43
+      ],
+      "rounds": 32,
+      "winner": 0,
+      "hp": [
+        52,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 120,
+      "a": "fire/sustain",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        195,
+        190
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        71
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 121,
+      "a": "fire/sustain",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        127,
+        127
+      ],
+      "rounds": 33,
+      "winner": 1,
+      "hp": [
+        0,
+        41
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 123,
+      "a": "fire/sustain",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        181,
+        133
+      ],
+      "rounds": 34,
+      "winner": 0,
+      "hp": [
+        86,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 124,
+      "a": "fire/sustain",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        223,
+        197
+      ],
+      "rounds": 36,
+      "winner": 1,
+      "hp": [
+        0,
+        80
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 125,
+      "a": "fire/sustain",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        190,
+        194
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        56
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 264,
+      "a": "flame/fierce",
+      "b": "water/cold",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        210,
+        204
+      ],
+      "rounds": 36,
+      "winner": 1,
+      "hp": [
+        0,
+        25
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 265,
+      "a": "flame/fierce",
+      "b": "water/cold",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        151,
+        149
+      ],
+      "rounds": 38,
+      "winner": 1,
+      "hp": [
+        0,
+        22
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 266,
+      "a": "flame/fierce",
+      "b": "water/cold",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        166,
+        169
+      ],
+      "rounds": 37,
+      "winner": 0,
+      "hp": [
+        59,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 267,
+      "a": "flame/fierce",
+      "b": "water/cold",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        151,
+        149
+      ],
+      "rounds": 38,
+      "winner": 1,
+      "hp": [
+        0,
+        22
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 268,
+      "a": "flame/fierce",
+      "b": "water/cold",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        210,
+        204
+      ],
+      "rounds": 36,
+      "winner": 1,
+      "hp": [
+        0,
+        25
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 281,
+      "a": "flame/fierce",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        204,
+        103
+      ],
+      "rounds": 35,
+      "winner": 0,
+      "hp": [
+        72,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 282,
+      "a": "flame/fierce",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        183,
+        182
+      ],
+      "rounds": 33,
+      "winner": 1,
+      "hp": [
+        0,
+        48
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 284,
+      "a": "flame/fierce",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        170,
+        196
+      ],
+      "rounds": 33,
+      "winner": 1,
+      "hp": [
+        0,
+        69
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 286,
+      "a": "flame/fierce",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        84,
+        105
+      ],
+      "rounds": 31,
+      "winner": 1,
+      "hp": [
+        0,
+        46
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 287,
+      "a": "flame/fierce",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        17,
+        23
+      ],
+      "rounds": 31,
+      "winner": 1,
+      "hp": [
+        0,
+        14
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 288,
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        205,
+        199
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        34
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 289,
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        183,
+        219
+      ],
+      "rounds": 41,
+      "winner": 0,
+      "hp": [
+        53,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 290,
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        177,
+        217
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        44
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 291,
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        188,
+        214
+      ],
+      "rounds": 42,
+      "winner": 0,
+      "hp": [
+        64,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 292,
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        190,
+        221
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        90
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 293,
+      "a": "flame/fierce",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        188,
+        215
+      ],
+      "rounds": 42,
+      "winner": 0,
+      "hp": [
+        64,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 324,
+      "a": "flame/smolder",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        225,
+        220
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        73
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 325,
+      "a": "flame/smolder",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        114,
+        90
+      ],
+      "rounds": 32,
+      "winner": 1,
+      "hp": [
+        0,
+        51
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 326,
+      "a": "flame/smolder",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        160,
+        181
+      ],
+      "rounds": 34,
+      "winner": 1,
+      "hp": [
+        0,
+        55
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 327,
+      "a": "flame/smolder",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        64,
+        85
+      ],
+      "rounds": 31,
+      "winner": 1,
+      "hp": [
+        0,
+        85
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 329,
+      "a": "flame/smolder",
+      "b": "wood/parasitic",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        64,
+        85
+      ],
+      "rounds": 31,
+      "winner": 1,
+      "hp": [
+        0,
+        85
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 331,
+      "a": "flame/smolder",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        178,
+        139
+      ],
+      "rounds": 34,
+      "winner": 0,
+      "hp": [
+        85,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 332,
+      "a": "flame/smolder",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        182,
+        96
+      ],
+      "rounds": 33,
+      "winner": 0,
+      "hp": [
+        88,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 333,
+      "a": "flame/smolder",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        179,
+        105
+      ],
+      "rounds": 33,
+      "winner": 0,
+      "hp": [
+        107,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 334,
+      "a": "flame/smolder",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        83,
+        39
+      ],
+      "rounds": 31,
+      "winner": 0,
+      "hp": [
+        83,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 335,
+      "a": "flame/smolder",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        200,
+        144
+      ],
+      "rounds": 34,
+      "winner": 0,
+      "hp": [
+        31,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 366,
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        155,
+        212
+      ],
+      "rounds": 36,
+      "winner": 1,
+      "hp": [
+        0,
+        118
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 367,
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        141,
+        213
+      ],
+      "rounds": 34,
+      "winner": 1,
+      "hp": [
+        0,
+        144
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 368,
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        155,
+        212
+      ],
+      "rounds": 36,
+      "winner": 1,
+      "hp": [
+        0,
+        118
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 369,
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        134,
+        213
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        144
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 370,
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        165,
+        217
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        113
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 371,
+      "a": "water/cold",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        141,
+        213
+      ],
+      "rounds": 34,
+      "winner": 1,
+      "hp": [
+        0,
+        144
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 378,
+      "a": "water/tidal",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        204,
+        205
+      ],
+      "rounds": 49,
+      "winner": 0,
+      "hp": [
+        9,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 379,
+      "a": "water/tidal",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        205,
+        204
+      ],
+      "rounds": 49,
+      "winner": 1,
+      "hp": [
+        0,
+        9
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 380,
+      "a": "water/tidal",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        83,
+        146
+      ],
+      "rounds": 32,
+      "winner": 1,
+      "hp": [
+        0,
+        88
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 381,
+      "a": "water/tidal",
+      "b": "water/tidal",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        146,
+        83
+      ],
+      "rounds": 32,
+      "winner": 0,
+      "hp": [
+        88,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 384,
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        62,
+        36
+      ],
+      "rounds": 31,
+      "winner": 0,
+      "hp": [
+        62,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 386,
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        62,
+        36
+      ],
+      "rounds": 31,
+      "winner": 0,
+      "hp": [
+        62,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 387,
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        204,
+        147
+      ],
+      "rounds": 33,
+      "winner": 0,
+      "hp": [
+        62,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 388,
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        167,
+        185
+      ],
+      "rounds": 35,
+      "winner": 1,
+      "hp": [
+        0,
+        76
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 389,
+      "a": "water/tidal",
+      "b": "wood/symbiosis",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        126,
+        132
+      ],
+      "rounds": 34,
+      "winner": 1,
+      "hp": [
+        0,
+        59
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 396,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        204,
+        157
+      ],
+      "rounds": 50,
+      "winner": 0,
+      "hp": [
+        145,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 397,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        205,
+        111
+      ],
+      "rounds": 40,
+      "winner": 0,
+      "hp": [
+        92,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 398,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        199,
+        135
+      ],
+      "rounds": 43,
+      "winner": 0,
+      "hp": [
+        182,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 399,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        205,
+        129
+      ],
+      "rounds": 44,
+      "winner": 0,
+      "hp": [
+        77,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 400,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        205,
+        200
+      ],
+      "rounds": 49,
+      "winner": 0,
+      "hp": [
+        131,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 401,
+      "a": "water/tidal",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        205,
+        79
+      ],
+      "rounds": 36,
+      "winner": 0,
+      "hp": [
+        203,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 421,
+      "a": "wood/symbiosis",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        133,
+        104
+      ],
+      "rounds": 32,
+      "winner": 0,
+      "hp": [
+        110,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 423,
+      "a": "wood/symbiosis",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        136,
+        71
+      ],
+      "rounds": 32,
+      "winner": 0,
+      "hp": [
+        117,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 424,
+      "a": "wood/symbiosis",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        137,
+        79
+      ],
+      "rounds": 32,
+      "winner": 0,
+      "hp": [
+        103,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 427,
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        213,
+        196
+      ],
+      "rounds": 44,
+      "winner": 0,
+      "hp": [
+        131,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 429,
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        208,
+        191
+      ],
+      "rounds": 39,
+      "winner": 0,
+      "hp": [
+        127,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 430,
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        213,
+        196
+      ],
+      "rounds": 41,
+      "winner": 0,
+      "hp": [
+        132,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 431,
+      "a": "wood/symbiosis",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        212,
+        184
+      ],
+      "rounds": 42,
+      "winner": 0,
+      "hp": [
+        131,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 438,
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        220,
+        225
+      ],
+      "rounds": 41,
+      "winner": 0,
+      "hp": [
+        130,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 439,
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        216,
+        212
+      ],
+      "rounds": 40,
+      "winner": 0,
+      "hp": [
+        154,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 440,
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        216,
+        210
+      ],
+      "rounds": 42,
+      "winner": 0,
+      "hp": [
+        154,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 441,
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        216,
+        212
+      ],
+      "rounds": 39,
+      "winner": 0,
+      "hp": [
+        154,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 442,
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        220,
+        185
+      ],
+      "rounds": 41,
+      "winner": 0,
+      "hp": [
+        148,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 443,
+      "a": "wood/parasitic",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        220,
+        209
+      ],
+      "rounds": 41,
+      "winner": 0,
+      "hp": [
+        154,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 444,
+      "a": "wood/parasitic",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        206,
+        136
+      ],
+      "rounds": 34,
+      "winner": 0,
+      "hp": [
+        156,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 445,
+      "a": "wood/parasitic",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        220,
+        186
+      ],
+      "rounds": 35,
+      "winner": 0,
+      "hp": [
+        136,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 446,
+      "a": "wood/parasitic",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        215,
+        206
+      ],
+      "rounds": 39,
+      "winner": 0,
+      "hp": [
+        133,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 447,
+      "a": "wood/parasitic",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        214,
+        146
+      ],
+      "rounds": 33,
+      "winner": 0,
+      "hp": [
+        164,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 448,
+      "a": "wood/parasitic",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        199,
+        157
+      ],
+      "rounds": 35,
+      "winner": 0,
+      "hp": [
+        149,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 449,
+      "a": "wood/parasitic",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        217,
+        194
+      ],
+      "rounds": 36,
+      "winner": 0,
+      "hp": [
+        133,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 450,
+      "a": "earth/bastion",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 0,
+      "originalHp": [
+        225,
+        183
+      ],
+      "rounds": 57,
+      "winner": 0,
+      "hp": [
+        181,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 451,
+      "a": "earth/bastion",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 0,
+      "first": 1,
+      "originalHp": [
+        183,
+        225
+      ],
+      "rounds": 57,
+      "winner": 1,
+      "hp": [
+        0,
+        181
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 452,
+      "a": "earth/bastion",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        215,
+        209
+      ],
+      "rounds": 62,
+      "winner": 1,
+      "hp": [
+        0,
+        140
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 453,
+      "a": "earth/bastion",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        209,
+        215
+      ],
+      "rounds": 62,
+      "winner": 0,
+      "hp": [
+        140,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 454,
+      "a": "earth/bastion",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        223,
+        225
+      ],
+      "rounds": 61,
+      "winner": 1,
+      "hp": [
+        0,
+        152
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 455,
+      "a": "earth/bastion",
+      "b": "earth/bastion",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        225,
+        223
+      ],
+      "rounds": 61,
+      "winner": 0,
+      "hp": [
+        152,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 458,
+      "a": "earth/bastion",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 0,
+      "originalHp": [
+        67,
+        106
+      ],
+      "rounds": 32,
+      "winner": 1,
+      "hp": [
+        0,
+        48
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 459,
+      "a": "earth/bastion",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 1,
+      "first": 1,
+      "originalHp": [
+        183,
+        92
+      ],
+      "rounds": 33,
+      "winner": 0,
+      "hp": [
+        111,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 460,
+      "a": "earth/bastion",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 0,
+      "originalHp": [
+        48,
+        78
+      ],
+      "rounds": 32,
+      "winner": 0,
+      "hp": [
+        40,
+        0
+      ],
+      "limit": 120
+    },
+    {
+      "originalIndex": 461,
+      "a": "earth/bastion",
+      "b": "earth/mountain",
+      "controller": "prepared",
+      "distance": 2,
+      "first": 1,
+      "originalHp": [
+        128,
+        58
+      ],
+      "rounds": 33,
+      "winner": 0,
+      "hp": [
+        57,
+        0
+      ],
+      "limit": 120
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "reuseFrom": "/workspace/qingxiao-chronicles/docs/balance/goal-v0160/full-af",
+  "changedSkills": [
+    {
+      "key": "water",
+      "id": "tidespear"
+    },
+    {
+      "key": "flame",
+      "id": "firestorm"
+    }
+  ],
+  "changedMajorHp": [
+    {
+      "key": "flame",
+      "major": "fierce"
+    },
+    {
+      "key": "flame",
+      "major": "smolder"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills, per-key/major starting HP and label may differ; every match with an affected fighter or equipped skill rerun. Economy, defenses, passives, loadouts and all combat source identical."
+}

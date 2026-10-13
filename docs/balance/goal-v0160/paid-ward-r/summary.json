@@ -1,0 +1,76 @@
+{
+  "label": "R two-qi counterguard trade with54 eruption; prepared water/earth guards and mirror screening",
+  "games": 114,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "paid-14-12/prepared/balanced": {
+      "games": 38,
+      "wins": 18,
+      "losses": 18,
+      "unresolved": 2,
+      "rounds": 434,
+      "actions": {
+        "kindle": 426,
+        "firestorm": 47,
+        "basic": 12,
+        "ashenward": 303,
+        "purify": 7,
+        "quench": 113,
+        "eruption": 65,
+        "meditate": 16,
+        "near": 109,
+        "flare": 56,
+        "far": 4,
+        "cinder": 62
+      },
+      "unusedAP": 0
+    },
+    "paid-16-12/prepared/balanced": {
+      "games": 38,
+      "wins": 24,
+      "losses": 12,
+      "unresolved": 2,
+      "rounds": 419,
+      "actions": {
+        "kindle": 419,
+        "firestorm": 46,
+        "basic": 26,
+        "ashenward": 300,
+        "purify": 7,
+        "quench": 105,
+        "eruption": 67,
+        "meditate": 16,
+        "near": 63,
+        "flare": 74,
+        "far": 3,
+        "cinder": 48
+      },
+      "unusedAP": 0
+    },
+    "paid-18-14/prepared/balanced": {
+      "games": 38,
+      "wins": 23,
+      "losses": 13,
+      "unresolved": 2,
+      "rounds": 440,
+      "actions": {
+        "kindle": 477,
+        "firestorm": 38,
+        "basic": 28,
+        "ashenward": 312,
+        "purify": 9,
+        "quench": 100,
+        "eruption": 80,
+        "meditate": 15,
+        "near": 76,
+        "flare": 96,
+        "far": 3,
+        "cinder": 18
+      },
+      "unusedAP": 0
+    }
+  }
+}

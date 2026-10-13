@@ -1,0 +1,44 @@
+{
+  "reuseFrom": "/workspace/qingxiao-chronicles/docs/balance/goal-v0160/full-y",
+  "changedSkills": [
+    {
+      "key": "sword",
+      "id": "swift"
+    },
+    {
+      "key": "water",
+      "id": "surge"
+    },
+    {
+      "key": "water",
+      "id": "tidespear"
+    },
+    {
+      "key": "earth",
+      "id": "mountain"
+    },
+    {
+      "key": "earth",
+      "id": "stoneback"
+    },
+    {
+      "key": "flame",
+      "id": "firestorm"
+    }
+  ],
+  "changedMajorHp": [
+    {
+      "key": "flame",
+      "major": "fierce"
+    },
+    {
+      "key": "flame",
+      "major": "smolder"
+    },
+    {
+      "key": "water",
+      "major": "cold"
+    }
+  ],
+  "reuseBoundary": "Only RULES.skills, per-key/major starting HP and label may differ; every match with an affected fighter or equipped skill rerun. Economy, defenses, passives, loadouts and all combat source identical."
+}

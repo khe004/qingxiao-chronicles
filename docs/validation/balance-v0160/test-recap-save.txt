@@ -1,0 +1,1 @@
+Recap/save: real charge release and consumed terrain, unified duel metrics, bounded draw, immutable archives and key rounds, both loadouts/portraits/settings/history, 40-record cap, corruption and storage failure, valid trial progress passed.

@@ -1,0 +1,130 @@
+{
+  "label": "bastion-shield-bd original configurations on BD",
+  "games": 36,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "wood/symbiosis--earth/bastion/value8/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 117,
+      "actions": {
+        "cultivate": 106,
+        "basic": 20,
+        "bloomstrike": 4,
+        "thornscreen": 83,
+        "bloomheal": 8,
+        "wooddart": 74,
+        "sever-terrain": 43,
+        "graft": 2,
+        "far": 1,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--earth/bastion/value8/prepared/balanced": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 91,
+      "actions": {
+        "far": 1,
+        "basic": 2,
+        "ashenward": 72,
+        "kindle": 76,
+        "quench": 39,
+        "sever-terrain": 22,
+        "near": 13,
+        "flare": 11,
+        "firestorm": 18,
+        "eruption": 6,
+        "meditate": 5
+      },
+      "unusedAP": 1
+    },
+    "fire/ignite--earth/bastion/value8/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 52,
+      "actions": {
+        "seed": 14,
+        "spark": 35,
+        "basic": 6,
+        "blaze": 7,
+        "heal": 22,
+        "sever-terrain": 7,
+        "near": 11,
+        "inferno": 19,
+        "seedburst": 3
+      },
+      "unusedAP": 0
+    },
+    "wood/symbiosis--earth/bastion/value6/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 110,
+      "actions": {
+        "cultivate": 98,
+        "basic": 20,
+        "bloomstrike": 5,
+        "thornscreen": 73,
+        "wooddart": 71,
+        "bloomheal": 6,
+        "sever-terrain": 42,
+        "graft": 1,
+        "near": 3,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--earth/bastion/value6/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 88,
+      "actions": {
+        "far": 1,
+        "basic": 4,
+        "ashenward": 72,
+        "kindle": 69,
+        "firestorm": 16,
+        "quench": 48,
+        "sever-terrain": 19,
+        "near": 10,
+        "flare": 14,
+        "meditate": 4,
+        "eruption": 6
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite--earth/bastion/value6/prepared/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 47,
+      "actions": {
+        "seed": 12,
+        "spark": 41,
+        "basic": 9,
+        "heal": 17,
+        "blaze": 6,
+        "inferno": 16,
+        "near": 10,
+        "seedburst": 2,
+        "sever-terrain": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

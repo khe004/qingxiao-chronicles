@@ -29,7 +29,7 @@ assert.equal(moved.enemy.qi.fire,0);
 // A forecast includes the next own burn tick, unlike an enemy-phase-only measurement.
 const burn=new Battle('sword');burn.enemyQueue=[];burn.enemy.ap=0;burn.player.burn=2;burn.player.burnTurns=2;
 const burned=check(burn);
-assert.equal(burned.enemyEnd.player.hp,220);assert.equal(burned.nextPlayer.player.hp,215);
+assert.equal(burned.enemyEnd.player.hp,225);assert.equal(burned.nextPlayer.player.hp,220);
 assert.equal(burned.nextPlayer.player.burnTurns,1);assert.equal(burned.nextPlayer.round,2);
 
 // Guard intent gained after casting is reserved for later; release uses paid power.
@@ -42,10 +42,10 @@ assert.equal(released.enemyEnd.player.charge.storedPower,107);
 assert.equal(released.nextPlayer.player.charge,null);assert.equal(released.nextPlayer.player.intent,1);
 assert.equal(released.nextPlayer.player.ap,3,'Free release leaves the new three actions untouched');
 assert.equal(released.nextPlayer.player.qi.metal,3,'Release does not pay its cast cost again');
-assert.equal(released.nextPlayer.enemy.hp,184,'Evade halves the locked metal hit after five-element reduction; opening shield absorbs 16');
+assert.equal(released.nextPlayer.enemy.hp,197,'Evade halves the locked metal hit after five-element reduction; opening shield absorbs 9');
 const tooClose=new Battle('sword');assert.ok(tooClose.act(tooClose.player,'unity').ok);
 assert.ok(tooClose.act(tooClose.player,'near').ok);tooClose.enemyQueue=[];tooClose.enemy.ap=0;
-const missed=check(tooClose).nextPlayer;assert.equal(missed.player.charge,null);assert.equal(missed.enemy.hp,210);
+const missed=check(tooClose).nextPlayer;assert.equal(missed.player.charge,null);assert.equal(missed.enemy.hp,230);
 
 // A lethal burn ends the prediction immediately, before regeneration or enemy actions.
 const deadEnemy=new Battle('fire');deadEnemy.enemy.hp=1;deadEnemy.enemy.burn=1;deadEnemy.enemy.burnTurns=1;

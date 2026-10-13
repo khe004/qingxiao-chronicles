@@ -1,0 +1,287 @@
+{
+  "label": "AD: redistribute tide attack action and resource budgets",
+  "games": 96,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "spear1-surge56/sword/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "waterbolt": 17,
+        "gather": 24,
+        "basic": 18,
+        "surge": 5,
+        "tidespear": 17,
+        "rinse": 4,
+        "waterwall": 1
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge56/sword/quick/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "waterbolt": 34,
+        "gather": 22,
+        "waterwall": 10,
+        "tidespear": 17,
+        "rinse": 6,
+        "far": 5,
+        "near": 2,
+        "meditate": 6,
+        "surge": 5,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge56/fire/ignite/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "waterbolt": 30,
+        "gather": 26,
+        "basic": 4,
+        "surge": 17,
+        "tidespear": 9
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge56/fire/ignite/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 47,
+      "actions": {
+        "waterbolt": 42,
+        "gather": 27,
+        "basic": 3,
+        "tidespear": 24,
+        "far": 5,
+        "waterwall": 14,
+        "purify": 7,
+        "rinse": 11,
+        "meditate": 1,
+        "surge": 3
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge56/flame/fierce/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "waterbolt": 36,
+        "gather": 28,
+        "surge": 19,
+        "tidespear": 9,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge56/flame/fierce/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 44,
+      "actions": {
+        "waterbolt": 30,
+        "waterwall": 11,
+        "basic": 6,
+        "gather": 27,
+        "tidespear": 24,
+        "far": 10,
+        "rinse": 13,
+        "surge": 3,
+        "purify": 6
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge56/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "waterbolt": 18,
+        "gather": 21,
+        "basic": 9,
+        "surge": 12,
+        "tidespear": 9
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge56/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 48,
+      "actions": {
+        "waterbolt": 32,
+        "gather": 30,
+        "waterwall": 18,
+        "rinse": 18,
+        "surge": 9,
+        "tidespear": 15,
+        "far": 1,
+        "near": 6,
+        "basic": 6
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/sword/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 32,
+      "actions": {
+        "waterbolt": 32,
+        "gather": 26,
+        "surge": 22,
+        "rinse": 4,
+        "basic": 4,
+        "tidespear": 2
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/sword/quick/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 39,
+      "actions": {
+        "waterbolt": 32,
+        "gather": 23,
+        "waterwall": 11,
+        "tidespear": 15,
+        "surge": 8,
+        "meditate": 7,
+        "far": 4,
+        "rinse": 6,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/fire/ignite/immediate/balanced": {
+      "games": 6,
+      "wins": 2,
+      "losses": 4,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "waterbolt": 29,
+        "gather": 28,
+        "surge": 19,
+        "tidespear": 9,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/fire/ignite/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 46,
+      "actions": {
+        "waterbolt": 42,
+        "gather": 28,
+        "basic": 3,
+        "tidespear": 23,
+        "far": 4,
+        "waterwall": 13,
+        "purify": 6,
+        "rinse": 9,
+        "meditate": 2,
+        "surge": 5
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/flame/fierce/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "waterbolt": 38,
+        "gather": 24,
+        "surge": 17,
+        "tidespear": 7,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/flame/fierce/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 42,
+      "actions": {
+        "waterbolt": 26,
+        "waterwall": 10,
+        "basic": 6,
+        "gather": 27,
+        "tidespear": 21,
+        "far": 7,
+        "rinse": 11,
+        "surge": 6,
+        "purify": 8,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/water/cold/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "waterbolt": 27,
+        "gather": 24,
+        "surge": 21,
+        "tidespear": 3
+      },
+      "unusedAP": 0
+    },
+    "spear1-surge60/water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 43,
+      "actions": {
+        "waterbolt": 35,
+        "gather": 29,
+        "waterwall": 13,
+        "surge": 13,
+        "tidespear": 12,
+        "rinse": 11,
+        "basic": 6,
+        "near": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

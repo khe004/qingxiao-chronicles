@@ -16,13 +16,18 @@ const assert=require('node:assert/strict'),http=require('node:http'),fs=require(
   for(const width of [1440,390,320]){
    await page.setViewportSize({width,height:844});await page.locator('#duel-button').click();
    await page.locator('[data-duel-class="player"]').selectOption('flame');await page.locator('[data-duel-major="player"]').selectOption('fierce');await page.locator('[data-duel-build="player"]').selectOption('tactical');
-   await page.locator('[data-duel-class="enemy"]').selectOption('wood');await page.locator('[data-duel-major="enemy"]').selectOption('symbiosis');await page.locator('[data-duel-build="enemy"]').selectOption('tactical');await page.locator('#apply-duel').click();
+   await page.locator('[data-duel-class="enemy"]').selectOption('wood');await page.locator('[data-duel-major="enemy"]').selectOption('symbiosis');await page.locator('[data-duel-build="enemy"]').selectOption('tactical');await page.locator('#apply-duel').click();await page.clock.runFor(25);
+   const opening=await state(),openingLog=await page.locator('#battle-log').textContent();
+   if(!await page.locator('#tactical-hints').evaluate(el=>el.open))await page.locator('#tactical-hints summary').click();
+   await page.clock.runFor(25);assert.deepEqual(await state(),opening);assert.equal(await page.locator('#battle-log').textContent(),openingLog);
+   await page.locator('[data-hint="combo"]').waitFor({state:'detached'});assert.equal(await page.locator('[data-hint="combo"]').count(),0,'Five starting qi cannot fund the six-qi sequence');
+   await page.locator('[data-skill="meditate"]').click();await page.clock.runFor(25);
    const before=await state(),log=await page.locator('#battle-log').textContent();
    if(!await page.locator('#tactical-hints').evaluate(el=>el.open))await page.locator('#tactical-hints summary').click();
-   await page.clock.runFor(1);await page.waitForFunction(()=>document.querySelector('[data-hint="combo"]'));
+   await page.clock.runFor(25);await page.waitForFunction(()=>document.querySelector('[data-hint="combo"]'));
    assert.deepEqual(await state(),before);assert.equal(await page.locator('#battle-log').textContent(),log);
-   assert.ok((await page.locator('[data-hint="combo"]').textContent()).includes('3行动'));
-   await page.locator('[data-skill="kindle"]').click();await page.clock.runFor(1);
+   assert.ok((await page.locator('[data-hint="combo"]').textContent()).includes('2行动'));
+   await page.locator('[data-skill="kindle"]').click();await page.clock.runFor(25);
    assert.ok(await page.locator('[data-skill="firestorm"]').isEnabled());assert.ok((await page.locator('[data-hint="outlet"]').textContent()).includes('焰海横流'));
    assert.equal(await page.locator('[data-hint="combo"]').count(),0,'Hints refresh after spending setup AP');
    await page.locator('[data-skill="firestorm"]').click();assert.equal((await state()).player.ap,0);assert.ok(await page.locator('[data-hint="spent"]').isVisible());
@@ -31,9 +36,9 @@ const assert=require('node:assert/strict'),http=require('node:http'),fs=require(
    }
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
    await page.screenshot({path:`/workspace/qingxiao-hints-${width}.png`,fullPage:true});
-   await page.locator('#tactical-hints summary').click();await page.clock.runFor(1);
+   await page.locator('#tactical-hints summary').click();await page.clock.runFor(25);
   }
   assert.deepEqual(errors,[]);assert.deepEqual(missing,[]);
-  console.log('Tactical hints browser: immutable opening, legal three-AP combo, actual follow-up after setup, live AP and reaction updates, no errors/404 and 1440/390/320 layouts passed.');
+  console.log('Tactical hints browser: immutable opening, paid meditation and legal two-AP combo, actual follow-up after setup, live AP and reaction updates, no errors/404 and 1440/390/320 layouts passed.');
  }finally{if(browser)await browser.close();await new Promise(r=>server.close(r));}
 })().catch(e=>{console.error(e);process.exit(1);});

@@ -23,11 +23,11 @@ for(const [key,majors]of Object.entries(TACTICAL_LOADOUTS))for(const [major,skil
 }
 for(const id of Object.keys(OPPONENTS)){const b=new ChallengeBattle('flame',{major:'fierce',skillIds:TACTICAL_LOADOUTS.flame.fierce},id);inspect(b);cases++;}
 const flame=new DuelBattle('flame',{major:'fierce',skillIds:TACTICAL_LOADOUTS.flame.fierce},{key:'wood'});
-assert.ok(hint(flame,'combo'));assert.deepEqual(hint(flame,'combo').skillIds,['kindle','firestorm']);
+assert.equal(hint(flame,'combo'),undefined,'Starting five qi cannot pay Kindle plus the five-qi firestorm');flame.player.qi.any=2;assert.ok(hint(flame,'combo'));assert.deepEqual(hint(flame,'combo').skillIds,['kindle','firestorm']);
 const setup=Object.assign(Object.create(DuelBattle.prototype),structuredClone(flame));assert.ok(setup.act(setup.player,'kindle').ok);assert.equal(hint(setup,'combo'),undefined);assert.ok(hint(setup,'outlet').skillIds.includes('firestorm'));inspect(setup);
-flame.player.ap=2;assert.equal(hint(flame,'combo'),undefined,'Two remaining AP cannot support a three-AP combo');
+flame.player.ap=1;assert.equal(hint(flame,'combo'),undefined,'One remaining AP cannot support a two-AP combo');
 flame.player.ap=3;flame.player.qi.fire=1;flame.player.qi.any=0;assert.equal(hint(flame,'combo'),undefined,'A paid setup alone does not prove the follow-up is affordable');
-flame.player.qi.fire=4;flame.player.qi.any=1;flame.player.hp=1;flame.player.shield=0;flame.enemy.counter={name:'荆棘护幕',hits:2,power:20,element:'wood'};assert.equal(hint(flame,'combo'),undefined,'Deadly reflection blocks the sequence');
+flame.player.qi.fire=4;flame.player.qi.any=2;flame.player.hp=1;flame.player.shield=0;flame.enemy.counter={name:'荆棘护幕',hits:2,power:20,element:'wood'};assert.equal(hint(flame,'combo'),undefined,'Deadly reflection blocks the sequence');
 const sword=new DuelBattle('sword');sword.distance=2;inspect(sword);assert.ok(hint(sword,'range'));sword.player.ap=1;assert.equal(hint(sword,'range'),undefined,'Moving with the last AP leaves no attack');
 const charged=new DuelBattle('sword');assert.ok(charged.act(charged.player,'unity').ok);assert.deepEqual(inspect(charged).map(h=>h.id),['charging']);
 const threatened=new DuelBattle('flame',{}, {key:'sword'});threatened.enemy.charge={...threatened.skill(threatened.enemy,'unity')};assert.ok(hint(threatened,'charge'));assert.ok(hint(threatened,'charge').skillIds.includes('near'));

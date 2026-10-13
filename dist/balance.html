@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>青霄纪 · 十二流派对阵表</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,"PingFang SC",sans-serif;color:#dae7df;background:#101b1b}*{box-sizing:border-box}body{margin:0}main{max-width:1240px;margin:auto;padding:32px 20px 60px}a{color:#bad9c3}h1{font-family:serif;font-size:30px;font-weight:500;margin:14px 0}h2{font-size:19px;font-weight:500;margin:30px 0 14px}p{line-height:1.7;color:#b1c0b7}.eyebrow{color:#d2bd87;font-size:13px;letter-spacing:3px}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin:24px 0}select,button{font:inherit;color:inherit}select{background:#1b2c2b;border:1px solid #53695c;border-radius:6px;padding:9px 14px}input{accent-color:#8db49c}.table-wrap{overflow:auto;border:1px solid #344c43;border-radius:8px;margin:15px 0}table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}th,td{border-bottom:1px solid #304239;padding:11px 9px;text-align:center;white-space:nowrap}th{color:#c2d0c7;background:#162624;font-weight:500}th:first-child{position:sticky;left:0;z-index:1;text-align:left;min-width:104px;background:#162624}thead th:first-child{z-index:2}td button{border:0;cursor:pointer;background:none;padding:4px;min-width:45px;text-decoration:underline;text-underline-offset:4px}td button:hover,td button:focus-visible{outline:2px solid #d3bd87;border-radius:4px}.note{font-size:13px;color:#94aaa0}.pair{padding:20px;background:#1a2c28;border:1px solid #54705e;border-radius:8px;margin:20px 0}.pair h2{margin-top:0}.pair[hidden]{display:none}.pair button{float:right;border:1px solid #54705e;border-radius:4px;padding:4px 10px;background:none;cursor:pointer}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:10px;margin:20px 0}.stat{padding:14px;border:1px solid #344c43;border-radius:6px;color:#aebfb4}.stat strong{display:block;color:#e4eadd;margin-top:6px;font-size:19px;font-weight:500}footer{border-top:1px solid #344c43;padding-top:20px;margin-top:30px}.error{color:#e5b48c}@media(max-width:600px){main{padding:24px 12px}h1{font-size:25px}th,td{padding:10px 5px}table{font-size:12px}.controls{gap:14px}.pair{padding:14px}.stats{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body><main>
+<a href="./">← 返回斗法</a><div class="eyebrow" style="margin-top:26px">青霄论道 · 实测复查</div>
+<h1>十二流派，两两对阵</h1>
+<p>行流派对列流派的获胜比例。每对均从近、中、远距开场并交换先后手；点击数字查看逐场结果与双方六槽。</p>
+<p class="note">固定 AI 场景中的获胜比例，不能当作真人胜率。未决计入分母；镜像不计入跨流派总胜率。各类打法分别显示，保留克制和策略差异。30 回合未决不表示平局，延长对局结果见页面底部的完整报告。</p>
+<div class="controls"><label>战术倾向 <select id="tendency"><option value="balanced">均衡</option></select></label><label>对局策略 <select id="controller"><option value="prepared">准备预测 AI · 主表</option><option value="immediate">即时评分 AI · 对照</option><option value="combined">两种 AI 合并</option></select></label><label><input id="split" type="checkbox" checked> 按六列拆分</label></div>
+<p id="status" role="status">读取完整对阵记录…</p><div id="stats" class="stats"></div><div id="matrix"></div>
+<section id="pair" class="pair" hidden aria-label="逐场对阵详情" tabindex="-1"></section>
+<h2>跨流派总计</h2><div id="ranking"></div><h2>镜像与先后手</h2><p class="note">镜像按三档距离交换先后手，单列实际获胜顺序；不能将对角线写成未经测量的 50%。</p><div id="mirrors"></div>
+<footer><p id="version" class="note"></p><a id="source" href="https://github.com/khe004/qingxiao-chronicles" target="_blank" rel="noopener">规则、完整纪要与复现说明 ↗</a></footer>
+</main>
+<script type="module">
+const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let data;
+const rate=(wins,games)=>`${(100*wins/games).toFixed(1).replace('.0','')}%`;
+const dataset=()=>data.datasets?.[$('tendency').value]??data;
+const selected=()=>dataset().records.filter(r=>$('controller').value==='combined'||r.controller===$('controller').value);
+function table(head,rows){return `<div class="table-wrap"><table><thead><tr>${head.map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr><th scope="row">${row[0]}</th>${row.slice(1).map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
+function counts(list,index){const wins=list.filter(r=>r.winner!==null&&(r.winner===0?r.a:r.b)===index).length,draws=list.filter(r=>r.winner===null).length;return {wins,draws,losses:list.length-wins-draws,games:list.length};}
+function render(){
+ const records=selected(),cross=records.filter(r=>r.kind==='cross'),mirrors=records.filter(r=>r.kind==='mirror');
+ const first=cross.filter(r=>r.winner===r.first).length,draws=records.filter(r=>r.winner===null).length;
+ const active=dataset(),label={balanced:'均衡',aggressive:'强攻',defensive:'稳守'}[active.limits.tendency];
+ $('version').textContent=`规则 ${data.version} · ${label}倾向 · 单局 30 回合上限，共 ${active.records.length} 个固定开局。双 AI 对局与斗法页面公开预告对手的策略不同。`;
+ $('status').textContent=`本表 ${records.length} 场：跨流派 ${cross.length} 场，镜像 ${mirrors.length} 场。每对跨流派 ${$('controller').value==='combined'?12:6} 场。`;
+ $('stats').innerHTML=[['完整对局',records.length],['跨流派先手胜率',rate(first,cross.length)],['未决',`${draws} 场`],['初始距离','近 / 中 / 远']].map(([label,value])=>`<div class="stat">${label}<strong>${value}</strong></div>`).join('');
+ const starts=$('split').checked?[0,6]:[0],width=$('split').checked?6:12;
+ $('matrix').innerHTML=starts.map(start=>{
+  const cols=data.builds.slice(start,start+width);
+  return `${starts.length>1?`<h2>对手 ${start+1}–${start+cols.length}</h2>`:''}`+table(['行 ↓ / 列 →',...cols.map(b=>esc(b.name))],data.builds.map((b,i)=>[esc(b.name),...cols.map((_,offset)=>{
+   const j=start+offset;if(i===j)return '—';const list=cross.filter(r=>r.a===Math.min(i,j)&&r.b===Math.max(i,j)),c=counts(list,i);
+   return `<button type="button" data-row="${i}" data-col="${j}" title="${esc(b.name)} 对 ${esc(data.builds[j].name)}：${c.wins} 胜、${c.losses} 负、${c.draws} 未决，共 ${c.games} 场">${rate(c.wins,c.games)}</button>`;
+  })]));
+ }).join('');
+ const rank=data.builds.map((b,i)=>({...b,...counts(cross.filter(r=>r.a===i||r.b===i),i)})).sort((a,b)=>b.wins-a.wins);
+ $('ranking').innerHTML=table(['流派','胜 / 负 / 未决','胜率'],rank.map(r=>[esc(r.name),`${r.wins} / ${r.losses} / ${r.draws}`,rate(r.wins,r.games)]));
+ $('mirrors').innerHTML=table(['流派','初始距离','先手胜','后手胜','未决'],data.builds.flatMap((b,i)=>[0,1,2].map(distance=>{
+  const list=mirrors.filter(r=>r.a===i&&r.distance===distance);return [esc(b.name),['近','中','远'][distance],list.filter(r=>r.winner===r.first).length,list.filter(r=>r.winner!==null&&r.winner!==r.first).length,list.filter(r=>r.winner===null).length];
+ })));$('pair').hidden=true;
+}
+$('matrix').addEventListener('click',event=>{
+ const button=event.target.closest('[data-row]');if(!button)return;
+ const i=Number(button.dataset.row),j=Number(button.dataset.col),a=data.builds[i],b=data.builds[j];
+ const list=selected().filter(r=>r.kind==='cross'&&r.a===Math.min(i,j)&&r.b===Math.max(i,j));
+ const skills=x=>(x.maxHp?`气血上限 ${x.maxHp}；`:'')+x.skills.map(s=>esc(s.name)).join('、');
+ $('pair').innerHTML=`<button type="button" id="close-pair" aria-label="关闭逐场详情">关闭</button><h2>${esc(a.name)} 对 ${esc(b.name)}</h2><p>${esc(a.name)}：${skills(a)}<br>${esc(b.name)}：${skills(b)}</p>`+table(['AI / 距离','先手','结果','回合','行 / 列剩余气血'],list.map(r=>{
+  const seat=r.a===i?0:1,winner=r.winner===null?'未决':r.winner===seat?`${esc(a.name)}胜`:`${esc(b.name)}胜`;
+  return [r.controller==='prepared'?'准备 / '+['近','中','远'][r.distance]:'即时 / '+['近','中','远'][r.distance],esc(data.builds[r.first===0?r.a:r.b].name),winner,r.rounds,`${r.hp[seat]} / ${r.hp[1-seat]}`];
+ }));$('pair').hidden=false;$('pair').focus({preventScroll:true});$('pair').scrollIntoView({behavior:'auto',block:'nearest'});$('close-pair').onclick=()=>{$('pair').hidden=true;button.focus({preventScroll:true});};
+});
+for(const id of ['controller','split'])$(id).addEventListener('change',render);
+$('tendency').addEventListener('change',()=>{
+ const secondary=$('tendency').value!=='balanced';
+ for(const option of $('controller').options)option.disabled=secondary&&option.value!=='prepared';
+ if(secondary)$('controller').value='prepared';render();
+});
+try{
+ const response=await fetch('./balance-data.json');if(!response.ok)throw Error('记录读取失败');data=await response.json();
+ if(data.builds.length!==12||data.records.length!==936)throw Error('对阵记录不完整');
+ for(const [id,label] of [['aggressive','强攻'],['defensive','稳守']])if(data.datasets?.[id]){
+  if(data.datasets[id].records.length!==468)throw Error('倾向对阵记录不完整');
+  $('tendency').add(new Option(label,id));
+ }
+ $('source').href='https://github.com/khe004/qingxiao-chronicles/blob/main/docs/balance/goal-v0160/final/report.md';render();
+}catch(error){$('status').className='error';$('status').textContent=`${error.message}，请稍后重新打开。`;}
+</script></body></html>

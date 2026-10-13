@@ -29,7 +29,7 @@ export const PREPARED_MAJORS={
  earth:{bastion:{name:'壁垒守御',symbol:'壁',focus:'主动布阵 · 有限守御',effect:'筑垒建立3地势，而非2，上限3；地势供守御、攻击与稳固共同消费，不由承伤增长。',tip:'对手退远不损阵地；自己追击损失1地势，保存阵地也可能够不到强招。',recommended:['stonebolt','foundation','rampart','landbreak','anchor','earthenwall']},mountain:{name:'镇岳压制',symbol:'岳',focus:'消费地势 · 公开镇压',effect:'每回合首次主动支付费用、消费地势的攻击或蓄势，增加10基础伤害。大招启动时锁定，不因免费释放再次触发。',tip:'镇岳印只有近中距，预告后对手退远或打断都能化解。',recommended:['stonebolt','foundation','rampart','landbreak','mountain','quakesunder']}},
 };
 export const PREPARED_COMMON=[
- {id:'unparasite',name:'净息·寄生',ap:1,cost:{any:1},kind:'unparasite',desc:'只清除自身寄生，不回血，不清其他异常。'},
+ {id:'unparasite',name:'净息·寄生',ap:1,cost:{any:RULES.unparasiteCost??1},kind:'unparasite',desc:'只清除自身寄生，不回血，不清其他异常。'},
  {id:'sever-growth',name:'破除·生长',ap:1,cost:{any:1},kind:'breakprep',prep:'growth',amount:2,desc:'削减对手2生长，不伤气血，不打断。'},
  {id:'sever-terrain',name:'破除·地势',ap:1,cost:{any:1},kind:'breakprep',prep:'terrain',amount:1,desc:'削减对手1地势，不伤气血，不打断。'},
 ];

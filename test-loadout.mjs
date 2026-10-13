@@ -22,9 +22,9 @@ assert.ok(ignite.act(ignite.player,'ember').ok);assert.equal(ignite.enemy.seed,1
 assert.equal(ignite.logs.filter(l=>l.text.startsWith('引燃爆发')).length,1);
 
 const sustain=new Battle('fire',{major:'sustain',skillIds:fireSkills});sustain.player.hp=100;sustain.player.burn=3;sustain.player.burnTurns=3;
-assert.ok(sustain.act(sustain.player,'nourish').ok);assert.equal(sustain.player.hp,114+SUSTAIN_RECOVERY,'Wood major adds its recovery to the skill heal');assert.equal(sustain.player.burn,2);assert.equal(sustain.player.qi.any,1);
+assert.ok(sustain.act(sustain.player,'nourish').ok);assert.equal(sustain.player.hp,120+SUSTAIN_RECOVERY,'Wood major adds its recovery to the skill heal');assert.equal(sustain.player.burn,2);assert.equal(sustain.player.qi.any,1);
 const beforeSecond=JSON.stringify(sustain);assert.equal(sustain.act(sustain.player,'nourish').ok,false);assert.equal(JSON.stringify(sustain),beforeSecond);
-assert.ok(sustain.act(sustain.player,'seed').ok);assert.equal(sustain.player.hp,114+SUSTAIN_RECOVERY,'Sustain recovery only triggers once per round');
+sustain.player.qi.wood=1;assert.ok(sustain.act(sustain.player,'seed').ok);assert.equal(sustain.player.hp,120+SUSTAIN_RECOVERY,'Sustain recovery only triggers once per round');
 
 const swordSkills=['swift','expose','strike','guard','lunge','return'];
 const quick=new Battle('sword',{major:'quick',skillIds:swordSkills});quick.enemy.reaction=false;
@@ -42,7 +42,7 @@ const expiry=new Battle('sword',{major:'heavy'});expiry.player.shield=20;expiry.
 assert.ok(expiry.endTurn().ok);expiry.enemyStep();assert.equal(expiry.round,2);assert.equal(expiry.player.edge,true);assert.ok(expiry.endTurn().ok);assert.equal(expiry.player.edge,false,'Unused guarded bonus expires at next own action end');
 
 const charged=new Battle('sword',{major:'heavy'});charged.enemy.reaction=false;charged.player.intent=3;charged.player.edge=true;
-assert.ok(charged.act(charged.player,'unity').ok);assert.equal(charged.player.charge.storedPower,117);assert.equal(charged.player.intent,0);assert.equal(charged.player.edge,false);
+assert.ok(charged.act(charged.player,'unity').ok);assert.equal(charged.player.charge.storedPower,119);assert.equal(charged.player.intent,0);assert.equal(charged.player.edge,false);
 charged.player.intent=1;charged.release(charged.player);assert.equal(charged.player.intent,1,'Release must not consume sword intent a second time');
 
 const builds=[];

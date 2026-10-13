@@ -1,0 +1,47 @@
+{
+  "label": "Early diagnostics for observed defensive timeouts; full matrix coverage still required later",
+  "games": 2,
+  "limit": 120,
+  "limits": [
+    120
+  ],
+  "groups": {
+    "early-timeout-55/prepared/defensive": {
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "unparasite": 31,
+        "blaze": 1,
+        "meditate": 2,
+        "heal": 12,
+        "sever-growth": 8,
+        "inferno": 11,
+        "spark": 22,
+        "seed": 1
+      },
+      "unusedAP": 0
+    },
+    "early-timeout-57/prepared/defensive": {
+      "games": 1,
+      "wins": 0,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 31,
+      "actions": {
+        "spark": 26,
+        "sever-growth": 8,
+        "unparasite": 25,
+        "seed": 1,
+        "heal": 18,
+        "basic": 3,
+        "near": 3,
+        "blaze": 2,
+        "inferno": 2
+      },
+      "unusedAP": 0
+    }
+  }
+}

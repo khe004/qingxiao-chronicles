@@ -1,0 +1,30 @@
+{
+  "label": "N current unresolved mirror records, exact configuration extension to120; validation only",
+  "games": 6,
+  "limit": 120,
+  "limits": [
+    120
+  ],
+  "groups": {
+    "fire/sustain-fire/sustain/prepared/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 260,
+      "actions": {
+        "blaze": 157,
+        "sproutguard": 5,
+        "meditate": 2,
+        "spark": 176,
+        "heal": 187,
+        "near": 141,
+        "nourish": 59,
+        "basic": 44,
+        "far": 3,
+        "seed": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

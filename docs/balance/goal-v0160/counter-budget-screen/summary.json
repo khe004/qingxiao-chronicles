@@ -1,0 +1,651 @@
+{
+  "label": "G rules; isolated ice mana catalyst / paid earth retaliation / combined guards",
+  "games": 108,
+  "limit": 30,
+  "groups": {
+    "ice-catalyst/water/cold-earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "waterbolt": 30,
+        "frost": 27,
+        "icebreaker": 24
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/water/cold-earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 99,
+      "actions": {
+        "frost": 16,
+        "repulse": 2,
+        "far": 2,
+        "mirrorwater": 68,
+        "rinse": 78,
+        "meditate": 5,
+        "basic": 36,
+        "waterbolt": 51,
+        "sever-terrain": 15,
+        "icebreaker": 10,
+        "near": 5
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/water/cold-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "waterbolt": 10,
+        "frost": 5,
+        "icebreaker": 5
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/water/cold-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "frost": 10,
+        "icebreaker": 9,
+        "far": 4,
+        "mirrorwater": 1,
+        "waterbolt": 5,
+        "rinse": 1
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/water/cold-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "waterbolt": 9,
+        "frost": 7,
+        "icebreaker": 5
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/water/cold-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 12,
+        "icebreaker": 12,
+        "far": 10,
+        "rinse": 12,
+        "purify": 6,
+        "mirrorwater": 7,
+        "waterbolt": 11
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/water/cold-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "waterbolt": 8,
+        "frost": 9,
+        "icebreaker": 9
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/water/cold-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 25,
+      "actions": {
+        "waterbolt": 12,
+        "frost": 8,
+        "icebreaker": 5,
+        "unparasite": 20,
+        "rinse": 15,
+        "basic": 3,
+        "mirrorwater": 12
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/earth/bastion-sword/heavy/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "gravel": 5,
+        "stonebolt": 30,
+        "foundation": 2,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/earth/bastion-sword/heavy/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 15,
+      "actions": {
+        "foundation": 6,
+        "stonebolt": 16,
+        "stoneback": 10,
+        "gravel": 5,
+        "basic": 3,
+        "landbreak": 3,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/earth/bastion-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 29
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/earth/bastion-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 19,
+      "actions": {
+        "gravel": 11,
+        "stonebolt": 11,
+        "stoneback": 12,
+        "foundation": 4,
+        "purify": 8,
+        "basic": 4,
+        "landbreak": 4,
+        "quakesunder": 1,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/earth/bastion-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 26
+      },
+      "unusedAP": 0
+    },
+    "ice-catalyst/earth/bastion-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "gravel": 11,
+        "stonebolt": 23,
+        "stoneback": 17,
+        "purify": 12,
+        "foundation": 5,
+        "basic": 5,
+        "landbreak": 2,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/water/cold-earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "waterbolt": 35,
+        "frost": 24,
+        "icebreaker": 13
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/water/cold-earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 70,
+      "actions": {
+        "frost": 14,
+        "repulse": 2,
+        "far": 7,
+        "mirrorwater": 37,
+        "rinse": 52,
+        "sever-terrain": 29,
+        "waterbolt": 44,
+        "basic": 8,
+        "near": 5
+      },
+      "unusedAP": 3
+    },
+    "thin-stoneback/water/cold-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "waterbolt": 9,
+        "frost": 7,
+        "icebreaker": 4
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/water/cold-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "frost": 10,
+        "icebreaker": 9,
+        "far": 4,
+        "mirrorwater": 1,
+        "waterbolt": 5,
+        "rinse": 1
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/water/cold-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "waterbolt": 12,
+        "frost": 6,
+        "icebreaker": 3
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/water/cold-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "frost": 11,
+        "icebreaker": 9,
+        "far": 7,
+        "rinse": 11,
+        "purify": 5,
+        "mirrorwater": 7,
+        "waterbolt": 11,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/water/cold-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "waterbolt": 12,
+        "frost": 8,
+        "icebreaker": 4
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/water/cold-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "waterbolt": 13,
+        "frost": 9,
+        "unparasite": 21,
+        "icebreaker": 4,
+        "rinse": 15,
+        "basic": 3,
+        "mirrorwater": 12
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/earth/bastion-sword/heavy/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "gravel": 5,
+        "stonebolt": 30,
+        "foundation": 2,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/earth/bastion-sword/heavy/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 14,
+      "actions": {
+        "foundation": 7,
+        "stonebolt": 17,
+        "stoneback": 7,
+        "gravel": 2,
+        "near": 2,
+        "landbreak": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/earth/bastion-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 29
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/earth/bastion-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 16,
+      "actions": {
+        "gravel": 11,
+        "stonebolt": 5,
+        "stoneback": 8,
+        "foundation": 3,
+        "purify": 6,
+        "basic": 7,
+        "quakesunder": 1,
+        "near": 2,
+        "landbreak": 2
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/earth/bastion-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 26
+      },
+      "unusedAP": 0
+    },
+    "thin-stoneback/earth/bastion-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "gravel": 24,
+        "stonebolt": 8,
+        "stoneback": 22,
+        "foundation": 2,
+        "purify": 20,
+        "near": 2,
+        "landbreak": 2,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "both/water/cold-earth/bastion/immediate/balanced": {
+      "games": 6,
+      "wins": 1,
+      "losses": 5,
+      "unresolved": 0,
+      "rounds": 29,
+      "actions": {
+        "waterbolt": 30,
+        "frost": 27,
+        "icebreaker": 24
+      },
+      "unusedAP": 0
+    },
+    "both/water/cold-earth/bastion/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 70,
+      "actions": {
+        "frost": 14,
+        "repulse": 2,
+        "far": 7,
+        "mirrorwater": 37,
+        "rinse": 52,
+        "sever-terrain": 29,
+        "waterbolt": 39,
+        "basic": 8,
+        "near": 5,
+        "icebreaker": 4,
+        "meditate": 1
+      },
+      "unusedAP": 3
+    },
+    "both/water/cold-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "waterbolt": 10,
+        "frost": 5,
+        "icebreaker": 5
+      },
+      "unusedAP": 0
+    },
+    "both/water/cold-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "frost": 10,
+        "icebreaker": 9,
+        "far": 4,
+        "mirrorwater": 1,
+        "waterbolt": 5,
+        "rinse": 1
+      },
+      "unusedAP": 0
+    },
+    "both/water/cold-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "waterbolt": 9,
+        "frost": 7,
+        "icebreaker": 5
+      },
+      "unusedAP": 0
+    },
+    "both/water/cold-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 12,
+        "icebreaker": 12,
+        "far": 10,
+        "rinse": 12,
+        "purify": 6,
+        "mirrorwater": 7,
+        "waterbolt": 11
+      },
+      "unusedAP": 0
+    },
+    "both/water/cold-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "waterbolt": 8,
+        "frost": 9,
+        "icebreaker": 9
+      },
+      "unusedAP": 0
+    },
+    "both/water/cold-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 25,
+      "actions": {
+        "waterbolt": 12,
+        "frost": 8,
+        "icebreaker": 5,
+        "unparasite": 20,
+        "rinse": 15,
+        "basic": 3,
+        "mirrorwater": 12
+      },
+      "unusedAP": 0
+    },
+    "both/earth/bastion-sword/heavy/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "gravel": 5,
+        "stonebolt": 30,
+        "foundation": 2,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "both/earth/bastion-sword/heavy/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 14,
+      "actions": {
+        "foundation": 7,
+        "stonebolt": 17,
+        "stoneback": 7,
+        "gravel": 2,
+        "near": 2,
+        "landbreak": 3,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "both/earth/bastion-fire/ignite/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 29
+      },
+      "unusedAP": 0
+    },
+    "both/earth/bastion-fire/ignite/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 16,
+      "actions": {
+        "gravel": 11,
+        "stonebolt": 5,
+        "stoneback": 8,
+        "foundation": 3,
+        "purify": 6,
+        "basic": 7,
+        "quakesunder": 1,
+        "near": 2,
+        "landbreak": 2
+      },
+      "unusedAP": 0
+    },
+    "both/earth/bastion-flame/fierce/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "gravel": 1,
+        "stonebolt": 26
+      },
+      "unusedAP": 0
+    },
+    "both/earth/bastion-flame/fierce/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 28,
+      "actions": {
+        "gravel": 24,
+        "stonebolt": 8,
+        "stoneback": 22,
+        "foundation": 2,
+        "purify": 20,
+        "near": 2,
+        "landbreak": 2,
+        "basic": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

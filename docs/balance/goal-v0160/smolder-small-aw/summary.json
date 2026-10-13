@@ -1,0 +1,72 @@
+{
+  "label": "AW durability smaller 220/225 brackets; independent original configurations and both controllers",
+  "games": 24,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "smolder-220--tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "flare": 21,
+        "kindle": 24,
+        "quench": 12,
+        "firestorm": 6,
+        "basic": 6,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-220--tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "kindle": 48,
+        "ashenward": 21,
+        "cinder": 12,
+        "flare": 6,
+        "firestorm": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-225--tidal/immediate/balanced": {
+      "games": 6,
+      "wins": 3,
+      "losses": 3,
+      "unresolved": 0,
+      "rounds": 27,
+      "actions": {
+        "flare": 30,
+        "kindle": 24,
+        "quench": 12,
+        "firestorm": 6,
+        "basic": 6,
+        "meditate": 3
+      },
+      "unusedAP": 0
+    },
+    "smolder-225--tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "kindle": 48,
+        "ashenward": 21,
+        "cinder": 12,
+        "flare": 6,
+        "firestorm": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

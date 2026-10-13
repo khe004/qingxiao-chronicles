@@ -1,0 +1,1 @@
+Skill-only reuse: both seats/equipped reachability, changed/removal guards, global/stat/loadout/identity rejection and immutable input passed.

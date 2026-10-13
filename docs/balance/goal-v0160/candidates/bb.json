@@ -1,0 +1,247 @@
+{
+  "label": "v0.16.0-bb",
+  "sustainRecovery": 2,
+  "preparationBreakAmount": true,
+  "rules": {
+    "secondShield": 8,
+    "edgePower": 12,
+    "chainPower": 8,
+    "skills": {
+      "sword": {
+        "swift": {
+          "power": 32
+        },
+        "riposte": {
+          "shield": 20,
+          "intent": 1
+        },
+        "cleave": {
+          "power": 46
+        },
+        "guard": {
+          "shield": 20,
+          "intent": 1
+        },
+        "lunge": {
+          "power": 48
+        },
+        "strike": {
+          "power": 44,
+          "cost": {
+            "metal": 1,
+            "water": 1,
+            "any": 1
+          }
+        }
+      },
+      "flame": {
+        "eruption": {
+          "power": 50,
+          "breakPrep": true,
+          "breakPrepAmount": 1
+        },
+        "firestorm": {
+          "power": 38,
+          "cost": {
+            "fire": 3,
+            "any": 2
+          },
+          "ap": 1,
+          "once": true
+        },
+        "flare": {
+          "power": 26
+        },
+        "cinder": {
+          "power": 26,
+          "cost": {
+            "fire": 2
+          }
+        },
+        "ashenward": {
+          "shield": 14,
+          "reflect": 12
+        }
+      },
+      "water": {
+        "rinse": {
+          "heal": 12,
+          "clearBurn": 2,
+          "cost": {
+            "water": 1,
+            "any": 1
+          }
+        },
+        "surge": {
+          "power": 36,
+          "tidePower": 10,
+          "consumeTide": 3,
+          "range": [
+            0,
+            1,
+            2
+          ],
+          "farPrep": "tide"
+        },
+        "tidespear": {
+          "power": 36,
+          "shieldPierce": 0.35,
+          "cost": {
+            "water": 2,
+            "any": 1
+          },
+          "ap": 1,
+          "interrupt": true,
+          "tag": "潮势打断"
+        },
+        "gather": {
+          "cost": {
+            "any": 1
+          },
+          "setupShield": 6
+        },
+        "icebreaker": {
+          "cost": {
+            "water": 1,
+            "any": 1
+          },
+          "power": 32,
+          "chillPower": 22,
+          "shieldPierce": 0.6
+        },
+        "mirrorwater": {
+          "reflect": 14,
+          "reflectHits": 2,
+          "shield": 10
+        },
+        "repulse": {
+          "power": 22
+        }
+      },
+      "wood": {
+        "wooddart": {
+          "power": 31
+        },
+        "bloomheal": {
+          "clearBurn": 1,
+          "heal": 18,
+          "growthHeal": 6
+        },
+        "reap": {
+          "shieldPierce": 0.25,
+          "power": 38
+        },
+        "bloomstrike": {
+          "growthPower": 18
+        }
+      },
+      "earth": {
+        "landbreak": {
+          "terrainPower": 12,
+          "power": 26
+        },
+        "mountain": {
+          "power": 54,
+          "terrainPower": 14
+        },
+        "earthmend": {
+          "clearBurn": 3,
+          "heal": 4,
+          "terrainHeal": 5
+        },
+        "stonebolt": {
+          "power": 30
+        },
+        "gravel": {
+          "power": 16,
+          "cost": {
+            "any": 1
+          },
+          "breakPrep": true,
+          "breakPrepAmount": 1
+        },
+        "stoneback": {
+          "reflect": 22,
+          "shield": 10
+        }
+      },
+      "fire": {
+        "nourish": {
+          "heal": 20,
+          "cost": {
+            "wood": 2,
+            "any": 1
+          }
+        },
+        "sproutguard": {
+          "shield": 20
+        },
+        "heal": {
+          "cost": {
+            "wood": 1,
+            "any": 1
+          },
+          "once": true
+        },
+        "inferno": {
+          "power": 68,
+          "cost": {
+            "fire": 3,
+            "wood": 1,
+            "any": 1
+          }
+        },
+        "spark": {
+          "power": 28
+        }
+      }
+    },
+    "unparasiteCost": 2,
+    "stats": {
+      "sword": {
+        "gen": {
+          "metal": 3,
+          "water": 1,
+          "any": 1
+        }
+      }
+    },
+    "mountainBonus": 4,
+    "majorHp": {
+      "fire": {
+        "ignite": 220,
+        "sustain": 235
+      },
+      "flame": {
+        "fierce": 210,
+        "smolder": 225
+      },
+      "water": {
+        "tidal": 225,
+        "cold": 210
+      },
+      "wood": {
+        "parasitic": 220,
+        "symbiosis": 225
+      },
+      "earth": {
+        "mountain": 225,
+        "bastion": 225
+      },
+      "sword": {
+        "quick": 230
+      }
+    }
+  },
+  "parasiteCleanseCost": true,
+  "deriveSkillDescriptions": true,
+  "majorHpSupport": true,
+  "deriveRuleDescriptions": [
+    "fire/heal",
+    "water/mirrorwater",
+    "flame/ashenward"
+  ],
+  "dynamicFirestormDescription": true,
+  "deriveAIReasons": true,
+  "dynamicTideInterruptDescription": true
+}

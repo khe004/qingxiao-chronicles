@@ -37,7 +37,7 @@ export function tacticalHints(b){
   add('charge','处理敌方蓄势',`${cuts.length?`现在可用${cuts.map(s=>`「${s.name}」`).join('、')}打断。`:'当前没有可直接施展的打断招。'}${moves.length?`「${b.skill(p,moves[0]).name}」可让其当前蓄势超距。`:'移动未必一步就能让其超距。'}对手之后仍可能调整距离。`,[...cuts.map(s=>s.id),...moves]);
  }
  if(p.charge){add('charging','蓄势后仍可行动','剩余行动可移动、调息或施展护体；普通攻击、净化和回血暂不可用。释放时还会检查距离。');return hints;}
- if(p.parasite&&!b.legal(p,'unparasite'))add('parasite','净寄生也占行动',`「净息·寄生」花1行动和1任意灵气，不回血。保留寄生时，本阶段首次主动耗气施法可能使它成长并侵蚀；反制与进攻需要取舍。`,['unparasite']);
+ if(p.parasite&&!b.legal(p,'unparasite'))add('parasite','净寄生也占行动',`「净息·寄生」花1行动和${b.skill(p,'unparasite').cost.any}任意灵气，不回血。保留寄生时，本阶段首次主动耗气施法可能使它成长并侵蚀；反制与进攻需要取舍。`,['unparasite']);
  if(p.burn&&!b.legal(p,'purify'))add('burn','清烧与回血的取舍',`「净息」花1行动和1任意灵气，清尽当前${p.burn}层灼烧，最多恢复${Math.min(b.skill(p,'purify').heal,p.maxHp-p.hp)}气血；新附加的灼烧仍需再次处理。`,['purify']);
  if(e.growth&&!b.legal(p,'sever-growth'))add('growth','破除不等于打断',`「破除·生长」削减至多${Math.min(e.growth,b.skill(p,'sever-growth').amount)}生长，花1行动和1任意灵气，不伤气血。${e.growthPending?'部分破除仍可能留下待成熟；只有全部破除才取消成熟。':'对手以后仍可付费重新培育。'}`,['sever-growth']);
  const blocked=b.skills(p).filter(s=>s.kind==='attack'&&b.legal(p,s.id)==='距离不适合');

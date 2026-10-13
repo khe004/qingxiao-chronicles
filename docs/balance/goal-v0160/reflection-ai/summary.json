@@ -1,0 +1,121 @@
+{
+  "label": "AI unchanged numeric rules, paid reflection shortlist control screen; original twelve-candidate budget",
+  "games": 36,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "earth/bastion--flame/smolder/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 84,
+      "actions": {
+        "stonebolt": 31,
+        "stoneback": 76,
+        "basic": 7,
+        "foundation": 19,
+        "landbreak": 10,
+        "gravel": 41,
+        "purify": 46,
+        "quakesunder": 6,
+        "near": 7
+      },
+      "unusedAP": 0
+    },
+    "earth/bastion--wood/parasitic/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 125,
+      "actions": {
+        "foundation": 18,
+        "landbreak": 13,
+        "gravel": 76,
+        "unparasite": 83,
+        "stoneback": 81,
+        "stonebolt": 66,
+        "basic": 32
+      },
+      "unusedAP": 0
+    },
+    "flame/smolder--water/cold/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 89,
+      "actions": {
+        "kindle": 126,
+        "ashenward": 74,
+        "meditate": 1,
+        "quench": 28,
+        "cinder": 12,
+        "firestorm": 8,
+        "flare": 5,
+        "basic": 1,
+        "far": 1,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "flame/fierce--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "kindle": 38,
+        "meditate": 3,
+        "near": 10,
+        "ashenward": 19,
+        "flare": 4,
+        "firestorm": 15,
+        "basic": 5,
+        "quench": 4,
+        "eruption": 1
+      },
+      "unusedAP": 0
+    },
+    "water/cold--earth/mountain/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 43,
+      "actions": {
+        "frost": 33,
+        "icebreaker": 15,
+        "basic": 4,
+        "waterbolt": 39,
+        "rinse": 21,
+        "mirrorwater": 5,
+        "far": 3
+      },
+      "unusedAP": 0
+    },
+    "fire/ignite--water/tidal/prepared/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 42,
+      "actions": {
+        "blaze": 19,
+        "seed": 10,
+        "meditate": 3,
+        "near": 11,
+        "spark": 34,
+        "heal": 17,
+        "inferno": 9,
+        "seedburst": 1,
+        "basic": 3
+      },
+      "unusedAP": 0
+    }
+  }
+}

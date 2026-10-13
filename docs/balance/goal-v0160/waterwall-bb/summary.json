@@ -1,0 +1,132 @@
+{
+  "label": "waterwall-bb original frozen configurations; BB runtime; isolated paid-rule overrides",
+  "games": 48,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "sword/quick--water/tidal/value30/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "swift": 20,
+        "lunge": 4,
+        "strike": 21,
+        "basic": 9,
+        "near": 9,
+        "guard": 3
+      },
+      "unusedAP": 0
+    },
+    "sword/quick--water/tidal/value30/prepared/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "swift": 31,
+        "meditate": 1,
+        "lunge": 7,
+        "strike": 28,
+        "near": 17,
+        "guard": 9,
+        "pierce": 3,
+        "basic": 3,
+        "unity": 1
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value30/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 21,
+        "icebreaker": 21,
+        "waterbolt": 27
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value30/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "waterbolt": 28,
+        "frost": 31,
+        "icebreaker": 31
+      },
+      "unusedAP": 0
+    },
+    "sword/quick--water/tidal/value36/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "swift": 20,
+        "lunge": 4,
+        "strike": 21,
+        "basic": 9,
+        "near": 9,
+        "guard": 3
+      },
+      "unusedAP": 0
+    },
+    "sword/quick--water/tidal/value36/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 36,
+      "actions": {
+        "swift": 26,
+        "meditate": 2,
+        "strike": 25,
+        "near": 14,
+        "unity": 4,
+        "guard": 8,
+        "basic": 8,
+        "lunge": 6,
+        "pierce": 4
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value36/immediate/balanced": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "frost": 21,
+        "icebreaker": 21,
+        "waterbolt": 27
+      },
+      "unusedAP": 0
+    },
+    "water/cold--water/tidal/value36/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 33,
+      "actions": {
+        "waterbolt": 28,
+        "frost": 31,
+        "icebreaker": 31
+      },
+      "unusedAP": 0
+    }
+  }
+}

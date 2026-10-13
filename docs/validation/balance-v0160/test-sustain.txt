@@ -1,0 +1,1 @@
+All recovery candidates: isolated engine/AI, shared UI value, once-per-round recovery, overheal, unchanged wood passive/costs/cleanse and seat symmetry passed.

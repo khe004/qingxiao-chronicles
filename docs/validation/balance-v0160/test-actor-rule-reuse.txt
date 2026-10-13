@@ -1,0 +1,1 @@
+Actor reuse: affected major in both seats and mirrors, equipped skill reachability, unchanged other major, immutable proof, explicit opt-in, unknown/fractional/out-of-range HP and global/defense changes rejected.

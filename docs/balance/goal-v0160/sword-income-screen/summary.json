@@ -1,0 +1,615 @@
+{
+  "label": "H rules; preserve five qi, reallocate one any to metal and pair three finisher powers; near/far sustain locks and four guards",
+  "games": 96,
+  "limit": 30,
+  "groups": {
+    "metal4-strike32/fire/sustain-sword/quick/immediate/balanced": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 25,
+      "actions": {
+        "seed": 3,
+        "spark": 23,
+        "blaze": 16,
+        "nourish": 15,
+        "basic": 4,
+        "sproutguard": 3,
+        "heal": 4,
+        "near": 3
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/fire/sustain-sword/quick/prepared/balanced": {
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 35,
+      "actions": {
+        "spark": 37,
+        "sproutguard": 18,
+        "blaze": 20,
+        "seed": 5,
+        "near": 11,
+        "far": 1,
+        "basic": 3,
+        "meditate": 1,
+        "nourish": 4
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/fire/sustain-sword/heavy/immediate/balanced": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 23,
+      "actions": {
+        "seed": 1,
+        "spark": 25,
+        "blaze": 14,
+        "nourish": 14,
+        "sproutguard": 3,
+        "basic": 1,
+        "heal": 6,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/fire/sustain-sword/heavy/prepared/balanced": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 38,
+      "actions": {
+        "spark": 25,
+        "sproutguard": 27,
+        "blaze": 29,
+        "nourish": 5,
+        "near": 18,
+        "seed": 2,
+        "basic": 4
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "swift": 16,
+        "near": 8,
+        "strike": 4
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/quick-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "swift": 13,
+        "near": 13,
+        "unparasite": 14,
+        "sever-growth": 5,
+        "pierce": 12,
+        "strike": 2,
+        "unity": 5,
+        "basic": 2,
+        "guard": 3,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/heavy-flame/smolder/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 11,
+        "near": 3,
+        "expose": 2,
+        "basic": 7,
+        "strike": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/heavy-flame/smolder/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "swift": 8,
+        "riposte": 8,
+        "basic": 3,
+        "unity": 5,
+        "near": 1,
+        "expose": 2,
+        "meditate": 1,
+        "purify": 2,
+        "strike": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/heavy-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 16,
+        "near": 4,
+        "strike": 4,
+        "expose": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/heavy-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "expose": 3,
+        "basic": 2,
+        "unity": 3,
+        "riposte": 1,
+        "near": 3,
+        "swift": 11,
+        "strike": 2,
+        "cleave": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/quick-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 24,
+      "actions": {
+        "swift": 4,
+        "near": 3,
+        "basic": 58,
+        "guard": 4
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike32/sword/quick-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 13,
+      "actions": {
+        "guard": 7,
+        "pierce": 1,
+        "near": 7,
+        "lunge": 2,
+        "strike": 5,
+        "unity": 3,
+        "swift": 6,
+        "meditate": 1,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/fire/sustain-sword/quick/immediate/balanced": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 26,
+      "actions": {
+        "seed": 2,
+        "spark": 27,
+        "blaze": 16,
+        "nourish": 17,
+        "sproutguard": 4,
+        "basic": 1,
+        "heal": 6,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/fire/sustain-sword/quick/prepared/balanced": {
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 43,
+      "actions": {
+        "spark": 42,
+        "sproutguard": 22,
+        "basic": 4,
+        "nourish": 12,
+        "blaze": 21,
+        "heal": 2,
+        "near": 16,
+        "far": 1,
+        "seed": 2
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/fire/sustain-sword/heavy/immediate/balanced": {
+      "games": 4,
+      "wins": 3,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 22,
+      "actions": {
+        "seed": 1,
+        "spark": 24,
+        "blaze": 14,
+        "nourish": 13,
+        "sproutguard": 3,
+        "basic": 1,
+        "heal": 6,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/fire/sustain-sword/heavy/prepared/balanced": {
+      "games": 4,
+      "wins": 4,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "spark": 28,
+        "sproutguard": 24,
+        "far": 1,
+        "heal": 2,
+        "nourish": 11,
+        "near": 18,
+        "blaze": 22,
+        "basic": 7,
+        "seed": 3
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 8,
+        "near": 8,
+        "strike": 8
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/quick-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 19,
+      "actions": {
+        "swift": 14,
+        "near": 10,
+        "unparasite": 10,
+        "sever-growth": 4,
+        "pierce": 5,
+        "strike": 3,
+        "unity": 4,
+        "guard": 2
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/heavy-flame/smolder/immediate/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "swift": 10,
+        "near": 5,
+        "strike": 5,
+        "expose": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/heavy-flame/smolder/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "swift": 9,
+        "near": 6,
+        "riposte": 5,
+        "unity": 2,
+        "strike": 5,
+        "purify": 2,
+        "expose": 1,
+        "basic": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/heavy-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 13,
+        "near": 4,
+        "strike": 5,
+        "expose": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/heavy-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 10,
+      "actions": {
+        "swift": 9,
+        "riposte": 2,
+        "basic": 1,
+        "unity": 3,
+        "near": 3,
+        "strike": 3,
+        "expose": 3,
+        "cleave": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/quick-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "swift": 4,
+        "near": 4,
+        "strike": 2,
+        "guard": 7,
+        "basic": 43
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike40/sword/quick-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "guard": 4,
+        "swift": 6,
+        "near": 6,
+        "lunge": 1,
+        "strike": 5,
+        "basic": 2,
+        "unity": 4,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/fire/sustain-sword/quick/immediate/balanced": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 23,
+      "actions": {
+        "seed": 2,
+        "spark": 23,
+        "blaze": 16,
+        "nourish": 15,
+        "sproutguard": 4,
+        "basic": 1,
+        "heal": 3,
+        "near": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/fire/sustain-sword/quick/prepared/balanced": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 30,
+      "actions": {
+        "spark": 31,
+        "sproutguard": 15,
+        "blaze": 13,
+        "heal": 1,
+        "nourish": 6,
+        "near": 10,
+        "seed": 3,
+        "meditate": 1,
+        "far": 2
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/fire/sustain-sword/heavy/immediate/balanced": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 23,
+      "actions": {
+        "seed": 1,
+        "spark": 25,
+        "blaze": 13,
+        "nourish": 14,
+        "sproutguard": 3,
+        "basic": 1,
+        "heal": 6,
+        "near": 2
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/fire/sustain-sword/heavy/prepared/balanced": {
+      "games": 4,
+      "wins": 2,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 34,
+      "actions": {
+        "spark": 28,
+        "sproutguard": 20,
+        "far": 2,
+        "heal": 3,
+        "nourish": 9,
+        "near": 13,
+        "blaze": 15,
+        "basic": 6,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/quick-wood/parasitic/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 9,
+        "near": 6,
+        "strike": 7
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/quick-wood/parasitic/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 11,
+      "actions": {
+        "near": 6,
+        "swift": 10,
+        "lunge": 3,
+        "strike": 4,
+        "guard": 2,
+        "unity": 2,
+        "unparasite": 3,
+        "sever-growth": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/heavy-flame/smolder/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 7,
+      "actions": {
+        "swift": 8,
+        "near": 5,
+        "strike": 6,
+        "expose": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/heavy-flame/smolder/prepared/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "swift": 6,
+        "near": 4,
+        "riposte": 5,
+        "unity": 4,
+        "strike": 3,
+        "expose": 1,
+        "basic": 2,
+        "purify": 3,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/heavy-water/cold/immediate/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 8,
+      "actions": {
+        "swift": 11,
+        "near": 3,
+        "strike": 6,
+        "expose": 1
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/heavy-water/cold/prepared/balanced": {
+      "games": 2,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 9,
+      "actions": {
+        "swift": 7,
+        "riposte": 1,
+        "basic": 1,
+        "unity": 2,
+        "meditate": 1,
+        "near": 3,
+        "strike": 6,
+        "expose": 2
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/quick-earth/mountain/immediate/balanced": {
+      "games": 2,
+      "wins": 0,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "swift": 4,
+        "near": 4,
+        "strike": 2,
+        "guard": 7,
+        "basic": 43
+      },
+      "unusedAP": 0
+    },
+    "metal4-strike50/sword/quick-earth/mountain/prepared/balanced": {
+      "games": 2,
+      "wins": 1,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 12,
+      "actions": {
+        "swift": 7,
+        "guard": 3,
+        "basic": 2,
+        "near": 6,
+        "strike": 8,
+        "unity": 3,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    }
+  }
+}

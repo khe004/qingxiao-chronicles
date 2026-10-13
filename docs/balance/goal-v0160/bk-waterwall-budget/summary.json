@@ -1,0 +1,390 @@
+{
+  "label": "Paid two-water guard with 205/210 tidal HP: preserve original quick lock and diagnose eight defensive opponents; not a final matrix",
+  "games": 120,
+  "limit": 30,
+  "limits": [
+    30
+  ],
+  "groups": {
+    "wall2-hp205/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "waterbolt": 26,
+        "gather": 14,
+        "tidespear": 10,
+        "surge": 4
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/quick/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "waterbolt": 31,
+        "waterwall": 12,
+        "basic": 6,
+        "far": 10,
+        "gather": 27,
+        "tidespear": 20,
+        "rinse": 2,
+        "surge": 7,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/fire/ignite/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 91,
+      "actions": {
+        "gather": 60,
+        "waterbolt": 29,
+        "waterwall": 49,
+        "surge": 14,
+        "tidespear": 38,
+        "rinse": 28,
+        "far": 21,
+        "purify": 24,
+        "meditate": 4,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/fire/sustain/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 118,
+      "actions": {
+        "gather": 88,
+        "waterbolt": 74,
+        "waterwall": 33,
+        "basic": 10,
+        "rinse": 27,
+        "tidespear": 64,
+        "far": 13,
+        "purify": 20,
+        "surge": 21,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/flame/fierce/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 88,
+      "actions": {
+        "gather": 56,
+        "waterbolt": 43,
+        "waterwall": 55,
+        "rinse": 32,
+        "surge": 15,
+        "purify": 20,
+        "tidespear": 28,
+        "basic": 7,
+        "meditate": 5,
+        "far": 3
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/flame/smolder/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 78,
+      "actions": {
+        "gather": 54,
+        "waterbolt": 33,
+        "surge": 25,
+        "waterwall": 37,
+        "purify": 31,
+        "rinse": 27,
+        "tidespear": 21,
+        "basic": 3,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/wood/symbiosis/prepared/defensive": {
+      "games": 6,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 4,
+      "rounds": 172,
+      "actions": {
+        "waterwall": 118,
+        "gather": 109,
+        "basic": 3,
+        "waterbolt": 78,
+        "sever-growth": 113,
+        "tidespear": 57,
+        "surge": 23,
+        "rinse": 15
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/wood/parasitic/prepared/defensive": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 147,
+      "actions": {
+        "gather": 68,
+        "waterbolt": 38,
+        "waterwall": 115,
+        "rinse": 56,
+        "unparasite": 80,
+        "meditate": 27,
+        "sever-growth": 9,
+        "surge": 16,
+        "basic": 17,
+        "tidespear": 6
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/earth/bastion/prepared/defensive": {
+      "games": 6,
+      "wins": 0,
+      "losses": 0,
+      "unresolved": 6,
+      "rounds": 180,
+      "actions": {
+        "gather": 130,
+        "waterbolt": 86,
+        "waterwall": 194,
+        "tidespear": 27,
+        "sever-terrain": 4,
+        "basic": 12,
+        "surge": 30,
+        "near": 11,
+        "rinse": 39,
+        "meditate": 6,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp205/earth/mountain/prepared/defensive": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 111,
+      "actions": {
+        "gather": 76,
+        "waterbolt": 58,
+        "waterwall": 83,
+        "rinse": 48,
+        "basic": 7,
+        "tidespear": 17,
+        "surge": 16,
+        "meditate": 3,
+        "near": 21
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/quick/immediate/balanced": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 21,
+      "actions": {
+        "waterbolt": 26,
+        "gather": 14,
+        "tidespear": 10,
+        "surge": 4
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/quick/prepared/balanced": {
+      "games": 6,
+      "wins": 4,
+      "losses": 2,
+      "unresolved": 0,
+      "rounds": 40,
+      "actions": {
+        "waterbolt": 31,
+        "waterwall": 12,
+        "basic": 6,
+        "far": 10,
+        "gather": 27,
+        "tidespear": 20,
+        "rinse": 2,
+        "surge": 7,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/fire/ignite/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 91,
+      "actions": {
+        "gather": 60,
+        "waterbolt": 29,
+        "waterwall": 49,
+        "surge": 14,
+        "tidespear": 38,
+        "rinse": 28,
+        "far": 21,
+        "purify": 24,
+        "meditate": 4,
+        "basic": 2
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/fire/sustain/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 118,
+      "actions": {
+        "gather": 88,
+        "waterbolt": 74,
+        "waterwall": 33,
+        "basic": 10,
+        "rinse": 27,
+        "tidespear": 64,
+        "far": 13,
+        "purify": 20,
+        "surge": 21,
+        "meditate": 2
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/flame/fierce/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 88,
+      "actions": {
+        "gather": 56,
+        "waterbolt": 43,
+        "waterwall": 55,
+        "rinse": 32,
+        "surge": 15,
+        "purify": 20,
+        "tidespear": 28,
+        "basic": 7,
+        "meditate": 5,
+        "far": 3
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/flame/smolder/prepared/defensive": {
+      "games": 6,
+      "wins": 6,
+      "losses": 0,
+      "unresolved": 0,
+      "rounds": 78,
+      "actions": {
+        "gather": 54,
+        "waterbolt": 33,
+        "surge": 25,
+        "waterwall": 37,
+        "purify": 31,
+        "rinse": 27,
+        "tidespear": 21,
+        "basic": 3,
+        "meditate": 1
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/wood/symbiosis/prepared/defensive": {
+      "games": 6,
+      "wins": 2,
+      "losses": 0,
+      "unresolved": 4,
+      "rounds": 172,
+      "actions": {
+        "waterwall": 118,
+        "gather": 109,
+        "basic": 3,
+        "waterbolt": 78,
+        "sever-growth": 113,
+        "tidespear": 57,
+        "surge": 23,
+        "rinse": 15
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/wood/parasitic/prepared/defensive": {
+      "games": 6,
+      "wins": 0,
+      "losses": 6,
+      "unresolved": 0,
+      "rounds": 150,
+      "actions": {
+        "gather": 69,
+        "waterbolt": 43,
+        "waterwall": 117,
+        "rinse": 56,
+        "unparasite": 80,
+        "meditate": 27,
+        "sever-growth": 9,
+        "surge": 17,
+        "basic": 17,
+        "tidespear": 6
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/earth/bastion/prepared/defensive": {
+      "games": 6,
+      "wins": 0,
+      "losses": 0,
+      "unresolved": 6,
+      "rounds": 180,
+      "actions": {
+        "gather": 130,
+        "waterbolt": 86,
+        "waterwall": 194,
+        "tidespear": 27,
+        "sever-terrain": 4,
+        "basic": 12,
+        "surge": 30,
+        "near": 11,
+        "rinse": 39,
+        "meditate": 6,
+        "far": 1
+      },
+      "unusedAP": 0
+    },
+    "wall2-hp210/earth/mountain/prepared/defensive": {
+      "games": 6,
+      "wins": 5,
+      "losses": 1,
+      "unresolved": 0,
+      "rounds": 111,
+      "actions": {
+        "gather": 77,
+        "waterbolt": 55,
+        "waterwall": 83,
+        "rinse": 49,
+        "basic": 7,
+        "tidespear": 17,
+        "surge": 17,
+        "meditate": 2,
+        "near": 22
+      },
+      "unusedAP": 0
+    }
+  }
+}
